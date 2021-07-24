@@ -461,75 +461,355 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\AdminStrings.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminStrings.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AdminStrings.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminStrings.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\AdminStrings.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AdminStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AdminStrings.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminStrings.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AdminStrings.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminStrings.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AriaStrings.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AriaStrings.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AriaStrings.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AriaStrings.ar.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\AriaStrings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AriaStrings.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\AriaStrings.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AriaStrings.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AriaStrings.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AriaStrings.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AuctionListing.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuctionListing.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AuctionListing.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuctionListing.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\AuctionListing.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AuctionListing.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AuctionListing.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuctionListing.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AuctionListing.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuctionListing.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CategoriesRegions.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriesRegions.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CategoriesRegions.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriesRegions.ar.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\CategoriesRegions.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CategoriesRegions.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\CategoriesRegions.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriesRegions.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CategoriesRegions.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriesRegions.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ClassifiedListing.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassifiedListing.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ClassifiedListing.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassifiedListing.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\ClassifiedListing.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ClassifiedListing.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ClassifiedListing.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassifiedListing.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ClassifiedListing.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassifiedListing.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Countries.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Countries.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Countries.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Countries.ar.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\Countries.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Countries.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\Countries.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Countries.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Countries.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Countries.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CustomFields.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomFields.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CustomFields.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomFields.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\CustomFields.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CustomFields.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CustomFields.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomFields.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CustomFields.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomFields.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FixedPriceListing.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FixedPriceListing.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FixedPriceListing.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FixedPriceListing.ar.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\FixedPriceListing.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FixedPriceListing.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\FixedPriceListing.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FixedPriceListing.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FixedPriceListing.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FixedPriceListing.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\GlobalStrings.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\GlobalStrings.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\GlobalStrings.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\GlobalStrings.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\GlobalStrings.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Licensing.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Licensing.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Licensing.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Licensing.ar.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\Licensing.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Licensing.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\Licensing.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Licensing.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Licensing.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Licensing.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ShippingOptions.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShippingOptions.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ShippingOptions.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShippingOptions.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\ShippingOptions.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ShippingOptions.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ShippingOptions.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShippingOptions.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ShippingOptions.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShippingOptions.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\States.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>States.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\States.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>States.ar.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\States.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>States.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\States.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>States.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\States.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>States.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\TimeZones.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeZones.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\TimeZones.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeZones.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\TimeZones.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TimeZones.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\TimeZones.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeZones.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\TimeZones.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeZones.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Validation.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Validation.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Validation.ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Validation.ar.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\Validation.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Validation.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Validation.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Validation.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Validation.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Validation.pt.resx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -3300,6 +3580,11 @@
     <Content Include="Views\Account\StripeCardManagement.cshtml" />
     <Content Include="Views\Account\AddStripeCard.cshtml" />
     <Content Include="Views\Account\TestCardAuthOnly.cshtml" />
+    <Content Include="Views\Admin\CreateShipmentBooking.cshtml" />
+    <Content Include="Views\Admin\ShipmentTrackingNumber.cshtml" />
+    <Content Include="Views\Admin\ShowShipmentBooking.cshtml" />
+    <Content Include="Views\Admin\TrackingNo.cshtml" />
+    <Content Include="Views\Page\_PageLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\Images\Banners\" />
@@ -3381,6 +3666,252 @@
     <Content Include="App_GlobalResources\CategoriesRegions.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>CategoriesRegions.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AdminStrings.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdminStrings.af.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AdminStrings.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdminStrings.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AdminStrings.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdminStrings.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AdminStrings.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdminStrings.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AriaStrings.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AriaStrings.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AriaStrings.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AriaStrings.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AriaStrings.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AriaStrings.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AriaStrings.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AriaStrings.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AuctionListing.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AuctionListing.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AuctionListing.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AuctionListing.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AuctionListing.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AuctionListing.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AuctionListing.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AuctionListing.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\CategoriesRegions.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CategoriesRegions.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CategoriesRegions.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CategoriesRegions.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CategoriesRegions.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CategoriesRegions.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CategoriesRegions.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CategoriesRegions.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\ClassifiedListing.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ClassifiedListing.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ClassifiedListing.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ClassifiedListing.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ClassifiedListing.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ClassifiedListing.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ClassifiedListing.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ClassifiedListing.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Countries.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Countries.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Countries.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Countries.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Countries.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Countries.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Countries.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Countries.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\CustomFields.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CustomFields.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CustomFields.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CustomFields.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CustomFields.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CustomFields.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CustomFields.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CustomFields.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\FixedPriceListing.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FixedPriceListing.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\FixedPriceListing.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FixedPriceListing.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\FixedPriceListing.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FixedPriceListing.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\FixedPriceListing.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FixedPriceListing.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\GlobalStrings.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>GlobalStrings.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\GlobalStrings.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>GlobalStrings.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\GlobalStrings.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>GlobalStrings.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\GlobalStrings.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>GlobalStrings.pt.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Licensing.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Licensing.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Licensing.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Licensing.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Licensing.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Licensing.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Licensing.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Licensing.pt.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ShippingOptions.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ShippingOptions.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ShippingOptions.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ShippingOptions.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ShippingOptions.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ShippingOptions.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ShippingOptions.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ShippingOptions.pt.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\States.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>States.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\States.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>States.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\States.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>States.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\States.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>States.pt.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\TimeZones.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>TimeZones.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\TimeZones.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>TimeZones.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\TimeZones.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>TimeZones.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\TimeZones.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>TimeZones.pt.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Validation.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Validation.af.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Validation.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Validation.ar.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Validation.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Validation.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Validation.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Validation.pt.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <PropertyGroup>
