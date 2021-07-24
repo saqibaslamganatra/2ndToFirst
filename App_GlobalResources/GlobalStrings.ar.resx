@@ -1,0 +1,5033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accepted" xml:space="preserve">
+    <value>قبلت</value>
+  </data>
+    <data name="AdminFirstName" xml:space="preserve">
+    <value>الاسم الأول للمشرف</value>
+  </data>
+  <data name="AdminLastName" xml:space="preserve">
+    <value>اسم العائلة</value>
+  </data>
+  <data name="AdminEmail" xml:space="preserve">
+    <value>yourname@example.com</value>
+  </data>
+  <data name="AccountCreatedSuccessfully" xml:space="preserve">
+    <value>الحساب اقيم بنجاح</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>إعدادت الحساب</value>
+  </data>
+  <data name="AccountSettingsFailure" xml:space="preserve">
+    <value>فشل تحديث إعدادات الحساب</value>
+  </data>
+  <data name="AccountSettingsSuccess" xml:space="preserve">
+    <value>تم تحديث إعدادات الحساب</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>ملخص الحساب</value>
+  </data>
+  <data name="ActionDTTM" xml:space="preserve">
+    <value>التاريخ / الوقت</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>نشيط</value>
+  </data>
+  <data name="ActiveListings" xml:space="preserve">
+    <value>القوائم النشطة</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>نشاط</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>أضف</value>
+  </data>
+ <data name="Admin_FirstName" xml:space="preserve">
+    <value>اسم المسؤول الأول</value>
+  </data>
+
+  <data name="AddCreditCardSuccess" xml:space="preserve">
+    <value>تمت إضافة بطاقة الائتمان بنجاح</value>
+  </data>
+  <data name="AddInvoiceAdjustmentSuccess" xml:space="preserve">
+    <value>تمت إضافة تعديل الفاتورة بنجاح</value>
+  </data>
+  <data name="AdditionalDetails" xml:space="preserve">
+    <value>تفاصيل اضافية</value>
+  </data>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>معلومة اضافية</value>
+  </data>
+  <data name="AddLineItemSuccess" xml:space="preserve">
+    <value>تمت إضافة البند بنجاح</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>اضف جديد</value>
+  </data>
+  <data name="AddNewSalesTaxRate" xml:space="preserve">
+    <value>إضافة معدل ضريبة مبيعات جديد</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="AddressInformation" xml:space="preserve">
+    <value>معلومات العنوان</value>
+  </data>
+  <data name="AddressStreet1" xml:space="preserve">
+    <value>عنوان الشارع</value>
+  </data>
+  <data name="AddressStreet2" xml:space="preserve">
+    <value>عنوان الشارع 2</value>
+  </data>
+  <data name="Adjustments" xml:space="preserve">
+    <value>التعديلات</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>البحث المتقدم</value>
+  </data>
+  <data name="Agreements" xml:space="preserve">
+    <value>الاتفاقات</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>كمية</value>
+  </data>
+  <data name="AnswerToSecurityQuestion" xml:space="preserve">
+    <value>الإجابة على السؤال الأمني</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>أي</value>
+  </data>
+  <data name="AppendedCommentLeadingText" xml:space="preserve">
+    <value>&lt;p&gt;</value>
+  </data>
+  <data name="AppendedCommentTrailingText" xml:space="preserve">
+    <value>&lt;/p&gt;</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>وافق</value>
+  </data>
+  <data name="Auction" xml:space="preserve">
+    <value>مزاد علني</value>
+  </data>
+  <data name="AuditLink" xml:space="preserve">
+    <value>تدقيق</value>
+  </data>
+  <data name="AuthorizeNetAIM" xml:space="preserve">
+    <value>Authorize.NET</value>
+  </data>
+  <data name="AwaitUserVerificationEmail" xml:space="preserve">
+    <value>تم إرسال بريد إلكتروني إلى عنوان البريد الإلكتروني المقدم. يرجى اتباع التعليمات التي يحتوي عليها.</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="BackToMessaging" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="BiddingActive" xml:space="preserve">
+    <value>مزايدة نشطة</value>
+  </data>
+  <data name="BiddingNotWon" xml:space="preserve">
+    <value>المزايدة لا تفوز</value>
+  </data>
+  <data name="BiddingWon" xml:space="preserve">
+    <value>تقديم العطاءات وون</value>
+  </data>
+  <data name="BidHistoryTitle" xml:space="preserve">
+    <value>تاريخ العطاء</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>عنوان وصول الفواتير</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>الجسم</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>تصفح</value>
+  </data>
+  <data name="Buyer" xml:space="preserve">
+    <value>مشتر</value>
+  </data>
+  <data name="BuyerAtoZ" xml:space="preserve">
+    <value>المشتري ، من الألف إلى الياء</value>
+  </data>
+  <data name="BuyerAverage" xml:space="preserve">
+    <value>متوسط ​​المشتري</value>
+  </data>
+  <data name="BuyerFeedback" xml:space="preserve">
+    <value>ملاحظات المشتري</value>
+  </data>
+  <data name="BuyerZtoA" xml:space="preserve">
+    <value>المشتري ، ي إلى أ</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="CardNumber" xml:space="preserve">
+    <value>رقم البطاقة</value>
+  </data>
+  <data name="CardType" xml:space="preserve">
+    <value>نوع البطاقة</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>التصنيفات</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>الفئة</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>غير كلمة السر</value>
+  </data>
+  <data name="ChangePasswordFailure" xml:space="preserve">
+    <value>فشل في تغيير كلمة المرور</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>تم تغيير كلمة المرور بنجاح</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="ChooseImages" xml:space="preserve">
+    <value>إضافة الصور)</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>مدينة</value>
+  </data>
+  <data name="ClearListingForm" xml:space="preserve">
+    <value>شكل واضح</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>قريب</value>
+  </data>
+  <data name="CloseDateNewToOld" xml:space="preserve">
+    <value>تاريخ الانتهاء ، جديد إلى قديم</value>
+  </data>
+  <data name="CloseDateOldToNew" xml:space="preserve">
+    <value>تاريخ الانتهاء ، من القديم إلى الجديد</value>
+  </data>
+  <data name="ColorKey" xml:space="preserve">
+    <value>مفتاح اللون</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>تعليق</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="CompleteRegistration" xml:space="preserve">
+    <value>اكمل التسجيل</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>تأكيد عنوان البريد الإلكتروني</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="ConfirmRegistration" xml:space="preserve">
+    <value>تأكيد التسجيل</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>اتصل</value>
+  </data>
+  <data name="ContactSeller" xml:space="preserve">
+    <value>تواصل مع البائع</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="ContactUser" xml:space="preserve">
+    <value>اتصل بالمستخدم</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>© حقوق الطبع والنشر {1} {0}. كل الحقوق محفوظة.</value>
+  </data>
+  <data name="CopyrightDisclaimer" xml:space="preserve">
+    <value>لا يجوز إعادة إنتاج أي جزء من صفحة الويب هذه بأي شكل من الأشكال دون إذن كتابي مسبق من {0}.</value>
+  </data>
+  <data name="CountryTerritory" xml:space="preserve">
+    <value>البلد أو الإقليم</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>بلدان</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>خلق</value>
+  </data>
+  <data name="CreateAddressFailure" xml:space="preserve">
+    <value>فشل في إنشاء العنوان</value>
+  </data>
+  <data name="CreateAddressSuccess" xml:space="preserve">
+    <value>تم إنشاء العنوان بنجاح</value>
+  </data>
+  <data name="CreateAnAccount" xml:space="preserve">
+    <value>انشئ حساب</value>
+  </data>
+  <data name="CreateASecurityQuestion" xml:space="preserve">
+    <value>قم بإنشاء سؤال أمان</value>
+  </data>
+  <data name="CreatedDTTM" xml:space="preserve">
+    <value>تاريخ / وقت الإنشاء</value>
+  </data>
+  <data name="CreateInvoice" xml:space="preserve">
+    <value>إنشاء فاتورة</value>
+  </data>
+  <data name="CreateInvoiceSuccess" xml:space="preserve">
+    <value>تم إنشاء الفاتورة بنجاح</value>
+  </data>
+  <data name="CreateListing" xml:space="preserve">
+    <value>إنشاء قائمة</value>
+  </data>
+  <data name="CreateListingNextStep" xml:space="preserve">
+    <value>التالى</value>
+  </data>
+  <data name="CreateLogin" xml:space="preserve">
+    <value>إنشاء تسجيل الدخول</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>خلق جديد إبداع جديد</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>تم إنشاء الحساب في</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>ائتمان</value>
+  </data>
+  <data name="CreditCards" xml:space="preserve">
+    <value>بطاقات الائتمان</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>حضاره</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>عملة</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>كلمة المرور الحالي</value>
+  </data>
+  <data name="CurrentPrice" xml:space="preserve">
+    <value>السعر الحالي</value>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>تفاصيل اضافية</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>تاريخ الإنشاء</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>أيام</value>
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>مدين</value>
+  </data>
+  <data name="PrimaryCreditCard" xml:space="preserve">
+    <value>بطاقة الائتمان الأساسية</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DeleteAddressSuccess" xml:space="preserve">
+    <value>تم حذف العنوان بنجاح</value>
+  </data>
+  <data name="DeleteCreditCardSuccess" xml:space="preserve">
+    <value>تم حذف بطاقة الائتمان بنجاح</value>
+  </data>
+  <data name="DeleteImageDisclaimer" xml:space="preserve">
+    <value>&lt;p&gt;
+&lt;strong&gt; استدارة: &lt;/ strong&gt; تغيير اتجاه صورتك.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt; حذف: &lt;/ strong&gt; إزالة الصورة من lisitng.
+&lt;/p&gt;</value>
+  </data>
+  <data name="DeleteMessageSuccess" xml:space="preserve">
+    <value>تم حذف الرسالة بنجاح</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>وصف</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>تفاصيل</value>
+  </data>
+  <data name="DummySuccess" xml:space="preserve">
+    <value>نجاح فرض الدفع (لأغراض الاختبار)</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>المدة الزمنية</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="EditAddressFailure" xml:space="preserve">
+    <value>فشل في تحرير العنوان</value>
+  </data>
+  <data name="EditAddressSuccess" xml:space="preserve">
+    <value>تم تعديل العنوان بنجاح</value>
+  </data>
+  <data name="EditListing" xml:space="preserve">
+    <value>تحرير الإدراج</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>عنوان البريد الالكترونى</value>
+  </data>
+  <data name="EndDateTime" xml:space="preserve">
+    <value>تاريخ / وقت الانتهاء</value>
+  </data>
+  <data name="EndDTTM" xml:space="preserve">
+    <value>تاريخ / وقت الانتهاء</value>
+  </data>
+  <data name="EndEarly" xml:space="preserve">
+    <value>إنهاء مبكر</value>
+  </data>
+  <data name="EndingDateTime" xml:space="preserve">
+    <value>تاريخ / وقت الانتهاء</value>
+  </data>
+  <data name="EndingFirst" xml:space="preserve">
+    <value>تنتهي أولاً</value>
+  </data>
+  <data name="EndingLast" xml:space="preserve">
+    <value>تنتهي في النهاية</value>
+  </data>
+  <data name="EndingSoon" xml:space="preserve">
+    <value>ينتهى قريبا</value>
+  </data>
+  <data name="EndingWithin" xml:space="preserve">
+    <value>تنتهي في غضون</value>
+  </data>
+  <data name="Ends" xml:space="preserve">
+    <value>ينتهي</value>
+  </data>
+  <data name="EnterKeywords" xml:space="preserve">
+    <value>أدخل الكلمات الأساسية</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>الأحداث</value>
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>انتهاء الصلاحية</value>
+  </data>
+  <data name="ExpirationMonth" xml:space="preserve">
+    <value>انتهاء شهر</value>
+  </data>
+  <data name="ExpirationYear" xml:space="preserve">
+    <value>سنة انتهاء الصلاحية</value>
+  </data>
+  <data name="Extend10Minutes" xml:space="preserve">
+    <value>تمديد 10 دقائق.</value>
+  </data>
+  <data name="Extend10MinutesSuccess" xml:space="preserve">
+    <value>مددت بنجاح هذا الإدراج 10 دقائق</value>
+  </data>
+  <data name="FailedPasswordAnswerAttemptCount" xml:space="preserve">
+    <value>فشل محاولة إجابة كلمة المرور</value>
+  </data>
+  <data name="FailedPasswordAnswerAttemptWindowStart" xml:space="preserve">
+    <value>نافذة محاولة إجابة كلمة المرور الفاشلة تاريخ / وقت البدء</value>
+  </data>
+  <data name="FailedPasswordAttemptCount" xml:space="preserve">
+    <value>عدد محاولات كلمة المرور الفاشلة</value>
+  </data>
+  <data name="FailedPasswordAttemptWindowStart" xml:space="preserve">
+    <value>تاريخ / وقت بدء محاولة محاولة كلمة المرور الفاشلة</value>
+  </data>
+  <data name="FeaturedListings" xml:space="preserve">
+    <value>إعلانات مميزة</value>
+  </data>
+  <data name="FeedbackFor" xml:space="preserve">
+    <value>ملاحظات ل</value>
+  </data>
+  <data name="FeedbackSent" xml:space="preserve">
+    <value>تم إرسال التعليقات</value>
+  </data>
+  <data name="FeedbackSummary" xml:space="preserve">
+    <value>ملخص الملاحظات</value>
+  </data>
+  <data name="FeesFailure" xml:space="preserve">
+    <value>فشل في دفع الرسوم</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>الاسم الاول</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>سعر ثابت</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>هل نسيت كلمة المرور</value>
+  </data>
+  <data name="ForgotPasswordEmailSent" xml:space="preserve">
+    <value>نسيت كلمة المرور المرسلة بالبريد الإلكتروني</value>
+  </data>
+  <data name="ForgotPasswordFailure" xml:space="preserve">
+    <value>فشل إرسال البريد الإلكتروني نسيت كلمة المرور</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>أدخل عنوان البريد الإلكتروني المرتبط بحسابك ؛ اضغط على زر "إرسال". سيتم إرسال بريد إلكتروني إلى حسابك مع تعليمات لتسجيل الدخول إلى حسابك وتحديث كلمة المرور الخاصة بك.</value>
+  </data>
+  <data name="ForgotPasswordSuccess" xml:space="preserve">
+    <value>تم إرسال بريد إلكتروني نسيت كلمة المرور بنجاح</value>
+  </data>
+  <data name="ForgotYourPassword" xml:space="preserve">
+    <value>نسيت رقمك السري؟</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>من عند</value>
+  </data>
+  <data name="GeneralErrorMessage" xml:space="preserve">
+    <value>عذرا، حدث خطأ أثناء معالجة طلبك.</value>
+  </data>
+  <data name="GoToAdminControlPanel" xml:space="preserve">
+    <value>لوحة تحكم المشرف</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>مساعدة</value>
+  </data>
+  <data name="HistoricalFees" xml:space="preserve">
+    <value>رسوم تاريخية</value>
+  </data>
+  <data name="HistoryFor" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>ساعة</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>ساعات</value>
+  </data>
+  <data name="IAgreeToTheTermsAndConditions" xml:space="preserve">
+    <value>أوافق على {0}</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>هوية شخصية</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>صورة</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>صور</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>غير نشط</value>
+  </data>
+  <data name="IncludeCompletedListings" xml:space="preserve">
+    <value>تضمين القوائم المكتملة</value>
+  </data>
+  <data name="InStock" xml:space="preserve">
+    <value>في المخزن</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>فاتورة</value>
+  </data>
+  <data name="InvoiceDetailFailure" xml:space="preserve">
+    <value>فشل في الحصول على تفاصيل الفاتورة</value>
+  </data>
+  <data name="InvoiceHistory" xml:space="preserve">
+    <value>تاريخ الفاتورة</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="InvoicePaid" xml:space="preserve">
+    <value>فاتورة المدفوعة</value>
+  </data>
+  <data name="InvoicePending" xml:space="preserve">
+    <value>فاتورة معلقة</value>
+  </data>
+  <data name="InvoicePurchases" xml:space="preserve">
+    <value>مشتريات الفاتورة</value>
+  </data>
+  <data name="InvoiceSales" xml:space="preserve">
+    <value>مبيعات الفاتورة</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>بند</value>
+  </data>
+  <data name="LastActivityDate" xml:space="preserve">
+    <value>تاريخ / وقت آخر نشاط</value>
+  </data>
+  <data name="LastIP" xml:space="preserve">
+    <value>عنوان IP الأخير</value>
+  </data>
+  <data name="LastLockoutDate" xml:space="preserve">
+    <value>تاريخ / وقت آخر قفل</value>
+  </data>
+  <data name="LastLoginDate" xml:space="preserve">
+    <value>آخر تسجيل دخول</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>الكنية</value>
+  </data>
+  <data name="Licensing" xml:space="preserve">
+    <value>الترخيص</value>
+  </data>
+  <data name="Listing" xml:space="preserve">
+    <value>قائمة</value>
+  </data>
+  <data name="ListingFields" xml:space="preserve">
+    <value>حقول الإدراج</value>
+  </data>
+  <data name="ListingID" xml:space="preserve">
+    <value>رقم العقار</value>
+  </data>
+  <data name="ListingID0To9" xml:space="preserve">
+    <value>رقم العقار 0 إلى 9</value>
+  </data>
+  <data name="ListingID9to0" xml:space="preserve">
+    <value>رقم العقار 9 إلى 0</value>
+  </data>
+  <data name="ListingNumber" xml:space="preserve">
+    <value>رقم القيد</value>
+  </data>
+  <data name="ListingOptions" xml:space="preserve">
+    <value>خيارات الإدراج</value>
+  </data>
+  <data name="Listings" xml:space="preserve">
+    <value>القوائم</value>
+  </data>
+  <data name="ListingsSuccessful" xml:space="preserve">
+    <value>القوائم الناجحة</value>
+  </data>
+  <data name="ListingType" xml:space="preserve">
+    <value>نوع الإدراج</value>
+  </data>
+  <data name="ListingTypes" xml:space="preserve">
+    <value>أنواع القوائم</value>
+  </data>
+  <data name="LoginInformation" xml:space="preserve">
+    <value>معلومات تسجيل الدخول</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="Logon" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>رسالة</value>
+  </data>
+  <data name="Message_me_for_invitation_to_view" xml:space="preserve">
+    <value>أرسل لي دعوة للعرض</value>
+  </data>
+  
+  <data name="Minute" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>الدقائق</value>
+  </data>
+  <data name="MyAccount" xml:space="preserve">
+    <value>حسابي</value>
+  </data>
+  <data name="MyBid" xml:space="preserve">
+    <value>مزايدتي</value>
+  </data>
+  <data name="MyBids" xml:space="preserve">
+    <value>عطاءاتي</value>
+  </data>
+  <data name="MyListings" xml:space="preserve">
+    <value>قوائم بياناتي</value>
+  </data>
+  <data name="MySummaryCountActiveBidListings" xml:space="preserve">
+    <value>القوائم يجري المزايدة عليها</value>
+  </data>
+  <data name="MySummaryCountActiveListings" xml:space="preserve">
+    <value>القوائم النشطة</value>
+  </data>
+  <data name="MySummaryCountNotWonListings" xml:space="preserve">
+    <value>القوائم لم تفز</value>
+  </data>
+  <data name="MySummaryCountPurchasedItemFeedbackNeeded" xml:space="preserve">
+    <value>قوائم Won تحتاج إلى تعليقات</value>
+  </data>
+  <data name="MySummaryCountPurchaseLineitems" xml:space="preserve">
+    <value>فازت القوائم</value>
+    <comment>This is actually # of Won "Line Items"</comment>
+  </data>
+  <data name="MySummaryCountSaleLineitems" xml:space="preserve">
+    <value>قوائم ناجحة</value>
+    <comment>This is actually # of Successful "Line Items"</comment>
+  </data>
+  <data name="MySummaryCountSoldItemFeedbackNeeded" xml:space="preserve">
+    <value>القوائم الناجحة تحتاج إلى ملاحظات</value>
+  </data>
+  <data name="MySummaryCountSuccessListings" xml:space="preserve">
+    <value>قوائم ناجحة</value>
+    <comment>This may or may not be implemented in the future</comment>
+  </data>
+  <data name="MySummaryCountUnpaidPurchasedListings" xml:space="preserve">
+    <value>قوائم فاز في انتظار الدفع</value>
+  </data>
+  <data name="MySummaryCountUnpaidPurchaseInvoices" xml:space="preserve">
+    <value>فواتير الشراء في انتظار السداد</value>
+  </data>
+  <data name="MySummaryCountUnpaidSalesInvoices" xml:space="preserve">
+    <value>فواتير المبيعات في انتظار السداد</value>
+  </data>
+  <data name="MySummaryCountUnpaidSoldItems" xml:space="preserve">
+    <value>قوائم ناجحة تنتظر السداد</value>
+  </data>
+  <data name="MySummaryCountUnsuccessListings" xml:space="preserve">
+    <value>قوائم غير ناجحة</value>
+  </data>
+  <data name="MySummaryCountWatchedListings" xml:space="preserve">
+    <value>القوائم قيد المراقبة</value>
+  </data>
+  <data name="MySummaryCountWonListings" xml:space="preserve">
+    <value>فازت القوائم</value>
+    <comment>This may or may not be implemented in the future</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="Newest" xml:space="preserve">
+    <value>الأحدث</value>
+  </data>
+  <data name="NewestSales" xml:space="preserve">
+    <value>أحدث المبيعات</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>رسالة جديدة</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>كلمة سر جديدة</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>النشرة الإخبارية</value>
+  </data>
+  <data name="NewUserNameHelpText" xml:space="preserve">
+    <value>سيتم عرض اسم المستخدم الخاص بك عند المزايدة والشراء والبيع.</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="NoPhoto" xml:space="preserve">
+    <value>لا توجد صور</value>
+  </data>
+  <data name="NoStatesDefinedForCountry" xml:space="preserve">
+    <value>لم يتم تحديد ولايات للبلد المختار</value>
+  </data>
+  <data name="NumberOfBids" xml:space="preserve">
+    <value>عدد المزايدات</value>
+  </data>
+  <data name="NumberWatching" xml:space="preserve">
+    <value>مشاهدة الرقم</value>
+  </data>
+  <data name="OldestSales" xml:space="preserve">
+    <value>المبيعات الأقدم</value>
+  </data>
+  <data name="OneDay" xml:space="preserve">
+    <value>يوم 1</value>
+  </data>
+  <data name="OneHour" xml:space="preserve">
+    <value>ساعة واحدة</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>أو</value>
+  </data>
+  <data name="OriginalPrice" xml:space="preserve">
+    <value>السعر الأصلي</value>
+  </data>
+  <data name="Outbid" xml:space="preserve">
+    <value>مزايدة</value>
+  </data>
+  <data name="OverallAverage" xml:space="preserve">
+    <value>المتوسط ​​العام</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>دفع</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمه السر</value>
+  </data>
+  <data name="PasswordChangeSuccessful" xml:space="preserve">
+    <value>تم تغيير كلمة المرور بنجاح</value>
+  </data>
+  <data name="PasswordInformation" xml:space="preserve">
+    <value>تطوير كلمة السر</value>
+  </data>
+  <data name="PasswordRequirements" xml:space="preserve">
+    <value>يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.</value>
+  </data>
+  <data name="PasswordsCaseSensitive" xml:space="preserve">
+    <value>كلمات المرور حساسة لحالة الأحرف</value>
+  </data>
+  <data name="PaymentDeclined" xml:space="preserve">
+    <value>تم رفض الدفع</value>
+  </data>
+  <data name="PaymentHistory" xml:space="preserve">
+    <value>سجل الدفع</value>
+  </data>
+  <data name="PaymentInvalidCardNumber" xml:space="preserve">
+    <value>رقم بطاقة الائتمان غير صحيح</value>
+  </data>
+  <data name="PaymentOptions" xml:space="preserve">
+    <value>خيارات الدفع</value>
+  </data>
+  <data name="PayPalStandard" xml:space="preserve">
+    <value>باي بال</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>السعر</value>
+  </data>
+  <data name="PriceHighLow" xml:space="preserve">
+    <value>السعر الأعلى</value>
+  </data>
+  <data name="PriceHighToLow" xml:space="preserve">
+    <value>السعر الأعلى</value>
+  </data>
+  <data name="PriceLowHigh" xml:space="preserve">
+    <value>السعر ، الأدنى</value>
+  </data>
+  <data name="PriceLowToHigh" xml:space="preserve">
+    <value>السعر ، الأدنى</value>
+  </data>
+  <data name="PriceRange" xml:space="preserve">
+    <value>نطاق السعر</value>
+  </data>
+  <data name="PrimaryAddress" xml:space="preserve">
+    <value>العنوان الأساسي</value>
+  </data>
+  <data name="PropertyManagementSuccess" xml:space="preserve">
+    <value>تم حفظ الإعدادات بنجاح</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>كمية</value>
+  </data>
+  <data name="Query" xml:space="preserve">
+    <value>الاستعلام</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>تقييم</value>
+  </data>
+  <data name="ReadMessage" xml:space="preserve">
+    <value>اقرأ الرساله</value>
+  </data>
+  <data name="RearrangeImageDisclaimer" xml:space="preserve">
+    <value>إعادة ترتيب الصور: انقر بزر الماوس الأيسر واسحب لتصحيح الموضع.</value>
+  </data>
+  <data name="ReceiveNewsletter" xml:space="preserve">
+    <value>تلقي النشرة الإخبارية</value>
+  </data>
+  <data name="RegardingListing" xml:space="preserve">
+    <value>إعادة: الإدراج</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>منطقة</value>
+  </data>
+  <data name="Regions" xml:space="preserve">
+    <value>المناطق</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="RejectedReason" xml:space="preserve">
+    <value>السبب المرفوض</value>
+  </data>
+  <data name="Relist" xml:space="preserve">
+    <value>أعِد</value>
+  </data>
+  <data name="RelistChecked" xml:space="preserve">
+    <value>تم فحص أعِد</value>
+  </data>
+  <data name="RemainingTime" xml:space="preserve">
+    <value>الوقت المتبقي</value>
+  </data>
+  <data name="RememberPassword" xml:space="preserve">
+    <value>تذكرنى</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="RemoveImage" xml:space="preserve">
+    <value>إزالة الصورة</value>
+  </data>
+  <data name="RemoveLineItemSuccess" xml:space="preserve">
+    <value>تمت إزالة البند بنجاح</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>الرد</value>
+  </data>
+  <data name="ReportAbuse" xml:space="preserve">
+    <value>بلغ عن سوء معاملة</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>جميع الحقول المميزة بعلامة "{0}" مطلوبة.</value>
+  </data>
+  <data name="ReservePrice" xml:space="preserve">
+    <value>سعر الاحتياطي</value>
+  </data>
+  <data name="ResetCode" xml:space="preserve">
+    <value>إعادة تعيين الرمز</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>إعادة تعيين كلمة المرور</value>
+  </data>
+  <data name="ResetPasswordSuccess" xml:space="preserve">
+    <value>إعادة تعيين كلمة المرور بنجاح</value>
+  </data>
+  <data name="Rollback" xml:space="preserve">
+    <value>التراجع</value>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>ضريبة المبيعات</value>
+  </data>
+  <data name="SalesTaxManagement" xml:space="preserve">
+    <value>إدارة ضريبة المبيعات</value>
+  </data>
+  <data name="SalesTaxManagementSuccess" xml:space="preserve">
+    <value>تم حفظ معلومات ضريبة المبيعات بنجاح</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SaveNewCardInformation" xml:space="preserve">
+    <value>حفظ معلومات بطاقة الائتمان الجديدة؟</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="RefineSearch" xml:space="preserve">
+    <value>خيارات البحث</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>ثانيا</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>ثواني</value>
+  </data>
+  <data name="SecurityQuestion" xml:space="preserve">
+    <value>مسألة أمان</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>تحديد</value>
+  </data>
+  <data name="SelectACountry" xml:space="preserve">
+    <value>اختر دولة</value>
+  </data>
+  <data name="SelectACreditCard" xml:space="preserve">
+    <value>حدد بطاقة ائتمان</value>
+  </data>
+  <data name="SelectACreditCardType" xml:space="preserve">
+    <value>حدد نوع بطاقة الائتمان</value>
+  </data>
+  <data name="SelectAShippingOption" xml:space="preserve">
+    <value>حدد خيار الشحن</value>
+  </data>
+  <data name="SelectAValue" xml:space="preserve">
+    <value>تحديد قيمة</value>
+  </data>
+  <data name="SelectCategory" xml:space="preserve">
+    <value>اختر تصنيف</value>
+  </data>
+  <data name="SelectCategoryFirst" xml:space="preserve">
+    <value>حدد الفئة الأولى</value>
+  </data>
+  <data name="SelectCountryFirst" xml:space="preserve">
+    <value>حدد البلد أولاً</value>
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>تاجر</value>
+  </data>
+  <data name="SellerAddress" xml:space="preserve">
+    <value>عنوان البائع</value>
+  </data>
+  <data name="SellerAverage" xml:space="preserve">
+    <value>متوسط ​​البائع</value>
+  </data>
+  <data name="SellerFeedback" xml:space="preserve">
+    <value>ملاحظات البائع</value>
+  </data>
+  <data name="SellerUserNameAToZ" xml:space="preserve">
+    <value>اسم مستخدم البائع ، من الألف إلى الياء</value>
+  </data>
+  <data name="SellerUserNameZToA" xml:space="preserve">
+    <value>اسم مستخدم البائع ، من Z إلى A</value>
+  </data>
+  <data name="UserNameAToZ" xml:space="preserve">
+    <value>اسم المستخدم من الألف إلى الياء</value>
+  </data>
+  <data name="UserNameZToA" xml:space="preserve">
+    <value>اسم المستخدم من Z إلى A</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="SendListingMessageSuccess" xml:space="preserve">
+    <value>تم إرسال رسالة الإدراج بنجاح</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>أرسلت</value>
+  </data>
+  <data name="SetBillingAddress" xml:space="preserve">
+    <value>تعيين عنوان الفاتورة</value>
+  </data>
+  <data name="SetBillingAddressSuccess" xml:space="preserve">
+    <value>تم بنجاح تعيين عنوان الفاتورة</value>
+  </data>
+  <data name="SetDefaultCreditCardSuccess" xml:space="preserve">
+    <value>تم تحديث بطاقة الائتمان الأساسية</value>
+  </data>
+  <data name="SetPrimary" xml:space="preserve">
+    <value>تعيين أساسي</value>
+  </data>
+  <data name="SetPrimaryAddressSuccess" xml:space="preserve">
+    <value>تم تحديث العنوان الرئيسي</value>
+  </data>
+  <data name="SetShippingAddress" xml:space="preserve">
+    <value>تعيين عنوان الشحن</value>
+  </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>الشحن</value>
+  </data>
+  <data name="ShippingAddress" xml:space="preserve">
+    <value>عنوان الشحن</value>
+  </data>
+  <data name="ShippingMethod" xml:space="preserve">
+    <value>طريقة الشحن</value>
+  </data>
+  <data name="ShippingOptionRequiredBeforePayment" xml:space="preserve">
+    <value>مطلوب خيار الشحن قبل السداد</value>
+  </data>
+  <data name="ShippingOptions" xml:space="preserve">
+    <value>خيارات الشحن</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="SignInForMoreOptions" xml:space="preserve">
+    <value>{0} لمزيد من الخيارات</value>
+  </data>
+  <data name="SimilarLineItems" xml:space="preserve">
+    <value>قوائم إضافية</value>
+  </data>
+  <data name="SiteFeeInvoice" xml:space="preserve">
+    <value>فاتورة رسوم الموقع</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>خريطة الموقع</value>
+  </data>
+  <data name="StandardFields" xml:space="preserve">
+    <value>الحقول القياسية</value>
+  </data>
+  <data name="StandardListingFields" xml:space="preserve">
+    <value>حقول الإدراج القياسية</value>
+  </data>
+  <data name="StartDTTM" xml:space="preserve">
+    <value>تاريخ / وقت البدء</value>
+  </data>
+  <data name="StartedInThePast" xml:space="preserve">
+    <value>بدأ في الماضي</value>
+  </data>
+  <data name="StartingPrice" xml:space="preserve">
+    <value>السعر المبدئي</value>
+  </data>
+  <data name="StartOver" xml:space="preserve">
+    <value>ابدأ من جديد</value>
+  </data>
+  <data name="StateRegion" xml:space="preserve">
+    <value>الولاية / المنطقة</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Step1Of2" xml:space="preserve">
+    <value>الخطوة 1 من 2</value>
+  </data>
+  <data name="Step2Of2" xml:space="preserve">
+    <value>الخطوة 2 من 2</value>
+  </data>
+  <data name="Stores" xml:space="preserve">
+    <value>المتاجر</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>موضوع</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="SubmitBid" xml:space="preserve">
+    <value>تقديم العطاء</value>
+  </data>
+  <data name="SubmitFeedback" xml:space="preserve">
+    <value>إرسال ملاحظات</value>
+  </data>
+  <data name="SubmitFeedbackFailure" xml:space="preserve">
+    <value>فشل إرسال التعليقات</value>
+  </data>
+  <data name="SubmitFeedbackSuccess" xml:space="preserve">
+    <value>تم إرسال التعليقات بنجاح</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>العنوان الفرعي</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>المجموع الفرعي</value>
+  </data>
+  <data name="Successful" xml:space="preserve">
+    <value>ناجح</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>ملخص</value>
+  </data>
+  <data name="TermsAndConditions" xml:space="preserve">
+    <value>البنود و الظروف</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="TitleAtoZ" xml:space="preserve">
+    <value>العنوان ، من الألف إلى الياء</value>
+  </data>
+  <data name="TitleZtoA" xml:space="preserve">
+    <value>العنوان ، من الألف إلى الياء</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>مجموع</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>السعر الكلي</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>سعر الوحدة</value>
+  </data>
+  <data name="Unpaid" xml:space="preserve">
+    <value>غير مدفوع</value>
+  </data>
+  <data name="Unsuccessful" xml:space="preserve">
+    <value>فاشل</value>
+  </data>
+  <data name="UnsuccessfulListings" xml:space="preserve">
+    <value>قوائم غير ناجحة</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="UpdateInvoiceShippingSuccess" xml:space="preserve">
+    <value>تم تحديث خيار شحن الفاتورة بنجاح</value>
+  </data>
+  <data name="UploadImages" xml:space="preserve">
+    <value>تحميل الصور</value>
+  </data>
+  <data name="UseFormBelowToChangePassword" xml:space="preserve">
+    <value>استخدم النموذج أدناه لتغيير كلمة المرور الخاصة بك</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="UserNotExist" xml:space="preserve">
+    <value>المستخدم غير موجود</value>
+  </data>
+  <data name="UserVerificationSuccess" xml:space="preserve">
+    <value>مستخدم تم التحقق منه بنجاح</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>شيفرة التأكيد</value>
+  </data>
+  <data name="ViewListing" xml:space="preserve">
+    <value>عرض القائمة</value>
+  </data>
+  <data name="ViewMessages" xml:space="preserve">
+    <value>عرض الرسائل</value>
+  </data>
+  <data name="WatchItem" xml:space="preserve">
+    <value>عنصر المشاهدة</value>
+  </data>
+  <data name="WatchList" xml:space="preserve">
+    <value>قائمة المراقبة</value>
+  </data>
+  <data name="WatchThisItem" xml:space="preserve">
+    <value>مشاهدة هذا البند</value>
+  </data>
+  <data name="WinningBid" xml:space="preserve">
+    <value>العطاء الفائز</value>
+  </data>
+  <data name="WinningBidBelowReserve" xml:space="preserve">
+    <value>العطاء الفائز أقل من الاحتياطي</value>
+  </data>
+  <data name="WithinSearchResults" xml:space="preserve">
+    <value>[ضمن نتائج البحث]</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="YourContactInformation" xml:space="preserve">
+    <value>معلومات الاتصال الخاصة بك</value>
+  </data>
+  <data name="ZipPostal" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="DateSent" xml:space="preserve">
+    <value>تاريخ إرسالها</value>
+  </data>
+  <data name="YouHaveNoMessages" xml:space="preserve">
+    <value>ليس لديك رسائل.</value>
+  </data>
+  <data name="AppendANoteToTheDescription" xml:space="preserve">
+    <value>إلحاق ملاحظة بالوصف</value>
+  </data>
+  <data name="SelectAState" xml:space="preserve">
+    <value>حدد الولاية</value>
+  </data>
+  <data name="NoPermissionToSell" xml:space="preserve">
+    <value>غير قادر على نشر قائمة</value>
+  </data>
+  <data name="NoPermissionToSellText" xml:space="preserve">
+    <value>ليس لديك إذن حاليًا لنشر القوائم. اتصل بمسؤول الموقع.</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="Featured_Description" xml:space="preserve">
+    <value>سيتم عرض قائمتك بشكل عشوائي على الصفحة الرئيسية</value>
+  </data>
+  <data name="Featured_Location" xml:space="preserve">
+    <value>متميز</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="AddressBook" xml:space="preserve">
+    <value>عناوين</value>
+  </data>
+  <data name="MininumToMaximum" xml:space="preserve">
+    <value>الحد الأدنى إلى الحد الأقصى</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>لا يوجد</value>
+  </data>
+  <data name="FeesDue" xml:space="preserve">
+    <value>الرسوم</value>
+  </data>
+  <data name="NoFeesDue" xml:space="preserve">
+    <value>لا رسوم مستحقة.</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>معلومات عنا</value>
+  </data>
+  <data name="SelectAddress" xml:space="preserve">
+    <value>حدد العنوان</value>
+  </data>
+  <data name="ResetTokenIncorrect" xml:space="preserve">
+    <value>يرجى التحقق من رمز إعادة الضبط الخاص بك وحاول مرة أخرى</value>
+  </data>
+  <data name="UserVerification" xml:space="preserve">
+    <value>التحقق من المستخدم</value>
+  </data>
+  <data name="VerificationTokenIncorrect" xml:space="preserve">
+    <value>يرجى التحقق من رمز التحقق الخاص بك وحاول مرة أخرى</value>
+  </data>
+  <data name="EndEarlyWarning_CantBeUndone" xml:space="preserve">
+    <value>لا يمكن التراجع عن هذا الإجراء</value>
+  </data>
+  <data name="EndEarlyWarning_Really" xml:space="preserve">
+    <value>هل تريد حقًا إنهاء هذه القائمة مبكرًا؟</value>
+  </data>
+  <data name="Sell" xml:space="preserve">
+    <value>يبيع</value>
+  </data>
+  <data name="EmailInvoice" xml:space="preserve">
+    <value>فاتورة البريد الإلكتروني</value>
+  </data>
+  <data name="AwaitingPayment" xml:space="preserve">
+    <value>انتظار الدفع</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>مغلق</value>
+  </data>
+  <data name="Closing" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>تم الحذف</value>
+  </data>
+  <data name="Ending" xml:space="preserve">
+    <value>تنتهي</value>
+  </data>
+  <data name="ListingActions" xml:space="preserve">
+    <value>خيارات القائمة الخاصة بك</value>
+  </data>
+  <data name="ListingActionsFor" xml:space="preserve">
+    <value>خيارات الإدراج لـ</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>المقرر</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>جارٍ التحديث</value>
+  </data>
+  <data name="MaxImagesInformational" xml:space="preserve">
+    <value>الحد الأقصى {0}</value>
+  </data>
+  <data name="CancelChangesWarning" xml:space="preserve">
+    <value>ستفقد جميع التغييرات في هذه الصفحة ، هل تريد المتابعة؟</value>
+  </data>
+  <data name="DeleteWarning_CantBeUndone" xml:space="preserve">
+    <value>لا يمكن التراجع عن هذا الإجراء</value>
+  </data>
+  <data name="DeleteWarning_Really" xml:space="preserve">
+    <value>هل تريد حقًا حذف هذه القائمة؟</value>
+  </data>
+  <data name="FreeForm" xml:space="preserve">
+    <value>شكل حر</value>
+  </data>
+  <data name="EmailFees" xml:space="preserve">
+    <value>رسوم البريد الإلكتروني</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>أرسل البريد الإلكتروني</value>
+  </data>
+  <data name="UploadLogo" xml:space="preserve">
+    <value>تحميل الشعار</value>
+  </data>
+  <data name="StopImpersonating" xml:space="preserve">
+    <value>إيقاف انتحال شخصية المستخدم</value>
+  </data>
+  <data name="Impersonating" xml:space="preserve">
+    <value>انتحال الهوية</value>
+  </data>
+  <data name="CreditCardNum" xml:space="preserve">
+    <value>رقم بطاقه الائتمان</value>
+  </data>
+  <data name="CreditCardType" xml:space="preserve">
+    <value>نوع بطاقة الائتمان</value>
+  </data>
+  <data name="Existing" xml:space="preserve">
+    <value>موجود</value>
+  </data>
+  <data name="PayWith" xml:space="preserve">
+    <value>ادفع عن طريق</value>
+  </data>
+  <data name="PayWithCreditCard" xml:space="preserve">
+    <value>دفع كامل&gt;</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>تحديد...</value>
+  </data>
+  <data name="ToPayByCreditCardClickPayWithCreditCard" xml:space="preserve">
+    <value>الدفع بواسطة بطاقة الائتمان.</value>
+  </data>
+  <data name="ToPayWithPayPalClickButtonBelow" xml:space="preserve">
+    <value>لإجراء الدفع باستخدام PayPal ، انقر هنا:</value>
+  </data>
+  <data name="NoListingsFound" xml:space="preserve">
+    <value>لم يتم العثور على قوائم</value>
+  </data>
+  <data name="PaymentProcessedSuccessfully" xml:space="preserve">
+    <value>تمت معالجة دفعتك بنجاح.</value>
+  </data>
+  <data name="ToPayWithUnlistedMethodClickSend" xml:space="preserve">
+    <value>لإجراء الدفع بطريقة غير مدرجة أعلاه ، أدخل رسالة للبائع أدناه وانقر على "إرسال"</value>
+  </data>
+  <data name="UnknownPaymentMethod" xml:space="preserve">
+    <value>تم تحديد طريقة دفع غير معروفة.</value>
+  </data>
+  <data name="PaymentInstructions" xml:space="preserve">
+    <value>تعليمات الدفع</value>
+  </data>
+  <data name="SellerAcceptsPayPal" xml:space="preserve">
+    <value>يقبل البائع باي بال</value>
+  </data>
+  <data name="ManualPayment" xml:space="preserve">
+    <value>الدفع اليدوي</value>
+  </data>
+  <data name="MarkPaid" xml:space="preserve">
+    <value>مارك بايد</value>
+  </data>
+  <data name="ListingNotFound" xml:space="preserve">
+    <value>لم يتم العثور على القائمة</value>
+  </data>
+  <data name="AllMessages" xml:space="preserve">
+    <value>جميع الرسائل</value>
+  </data>
+  <data name="Message_Subject_Reply_Prefix" xml:space="preserve">
+    <value>إعادة:</value>
+  </data>
+  <data name="ActionSuccess" xml:space="preserve">
+    <value>تم الإرسال بنجاح!</value>
+  </data>
+  <data name="ListingChangedDuringProcessing" xml:space="preserve">
+    <value>تغيرت هذه القائمة أثناء المعالجة ، يرجى تقديم مرة أخرى.</value>
+  </data>
+  <data name="StatusAtoZ" xml:space="preserve">
+    <value>الحالة من الألف إلى الياء</value>
+  </data>
+  <data name="StatusZtoA" xml:space="preserve">
+    <value>الحالة ، من الألف إلى الياء</value>
+  </data>
+  <data name="EndedListings" xml:space="preserve">
+    <value>القوائم المنتهية</value>
+  </data>
+  <data name="ListerPerformingAction" xml:space="preserve">
+    <value>كبائع ، لا يمكنك المزايدة أو شراء سلعك الخاصة.</value>
+  </data>
+  <data name="AdditionalMedia" xml:space="preserve">
+    <value>وسائط إضافية</value>
+  </data>
+  <data name="YouTubeVideo" xml:space="preserve">
+    <value>فيديو يوتيوب</value>
+  </data>
+  <data name="YouTubeVideoURL" xml:space="preserve">
+    <value>يوتيوب فيديو URL</value>
+  </data>
+  <data name="AddWatchSuccess" xml:space="preserve">
+    <value>تمت إضافة Watch بنجاح</value>
+  </data>
+  <data name="RemoveWatchSuccess" xml:space="preserve">
+    <value>تمت إزالة قائمة المشاهدة التي تمت إزالتها بنجاح</value>
+  </data>
+  <data name="RemoveMultipleWatchesSuccess" xml:space="preserve">
+    <value>تمت إزالة القوائم التي تمت مشاهدتها بنجاح</value>
+  </data>
+  <data name="CurrentlyWatching" xml:space="preserve">
+    <value>مشاهدة!</value>
+  </data>
+  <data name="FeedbackAlreadyExists" xml:space="preserve">
+    <value>لقد تركت بالفعل تعليقات لهذا المستخدم لهذا العنصر.</value>
+  </data>
+  <data name="FeedbackNotAllowed" xml:space="preserve">
+    <value>لا يسمح بالتعليقات بين هذين المستخدمين لهذه القائمة</value>
+  </data>
+  <data name="BidAmountTooLow" xml:space="preserve">
+    <value>مبلغ العرض منخفض جدًا</value>
+  </data>
+  <data name="RegisterSuccess" xml:space="preserve">
+    <value>تم التسجيل بنجاح - يرجى تسجيل الدخول أدناه.</value>
+  </data>
+  <data name="UserVerificationFailure" xml:space="preserve">
+    <value>فشل التحقق من المستخدم</value>
+  </data>
+  <data name="ManageExistingCC" xml:space="preserve">
+    <value>إدارة بطاقات الائتمان الموجودة</value>
+  </data>
+  <data name="Bold_Description" xml:space="preserve">
+    <value>أضف نمط غامق إلى عنوان قائمتك في نتائج البحث.</value>
+  </data>
+  <data name="Highlight_Description" xml:space="preserve">
+    <value>يبرز قائمتك للتبرز</value>
+  </data>
+  <data name="Italic_Description" xml:space="preserve">
+    <value>يضيف نمطًا مائلًا إلى عنوان قائمتك</value>
+  </data>
+  <data name="YouTubeReferenceHelper" xml:space="preserve">
+    <value>انسخ عنوان URL من متصفحك أثناء عرض فيديو YouTube الذي اخترته. &lt;br/&gt; &lt;br/&gt; http://www.youtube.com/watch؟v=3f7l-Z4NF70 مثال على عنوان URL لفيديو YouTube.</value>
+  </data>
+  <data name="ImageFees" xml:space="preserve">
+    <value>الصورة الأولى: {0} ، كل صورة إضافية: {1}</value>
+  </data>
+  <data name="CantLowerProxyBid" xml:space="preserve">
+    <value>لا يمكنك خفض عرض وكيل أعلى سابقًا.</value>
+  </data>
+  <data name="ProxyBeatingNewBid" xml:space="preserve">
+    <value>مزايدة الوكيل لمقدم آخر تتفوق على مزايدتك الجديدة.</value>
+  </data>
+  <data name="UserEmailAlreadyExists" xml:space="preserve">
+    <value>البريد الإلكتروني للمستخدم موجود بالفعل (يجب أن يكون البريد الإلكتروني فريدًا)</value>
+  </data>
+  <data name="Infinity" xml:space="preserve">
+    <value>∞</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>أبدا</value>
+  </data>
+  <data name="Classified" xml:space="preserve">
+    <value>صنف</value>
+  </data>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>تم حذف القائمة بنجاح</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="AuthorizeDotNet" xml:space="preserve">
+    <value>إذن</value>
+  </data>
+  <data name="Banners" xml:space="preserve">
+    <value>لافتات</value>
+  </data>
+  <data name="Bidding" xml:space="preserve">
+    <value>مزايدة</value>
+  </data>
+  <data name="BillingAndFees" xml:space="preserve">
+    <value>الفواتير والرسوم</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>المحتوى</value>
+  </data>
+  <data name="CreditCardTypes" xml:space="preserve">
+    <value>بطاقات الائتمان المخزنة</value>
+    <comment>renamed in v1.2 from 'Credit Card Types'</comment>
+  </data>
+  <data name="Cultures" xml:space="preserve">
+    <value>الثقافات</value>
+  </data>
+  <data name="Currencies" xml:space="preserve">
+    <value>العملات</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>تيار</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="EditFees" xml:space="preserve">
+    <value>تحرير الرسوم</value>
+  </data>
+  <data name="Ended" xml:space="preserve">
+    <value>انتهى</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>تمديد</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>ردود الفعل</value>
+  </data>
+  <data name="FeeInvoices_New" xml:space="preserve">
+    <value>فواتير الرسوم (جديد)</value>
+  </data>
+  <data name="FeeInvoices_Paid" xml:space="preserve">
+    <value>فواتير الرسوم (مدفوعة)</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>جنرال لواء</value>
+  </data>
+  <data name="Inbox" xml:space="preserve">
+    <value>صندوق الوارد</value>
+  </data>
+  <data name="International" xml:space="preserve">
+    <value>دولي</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>فواتير</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>اللغات</value>
+  </data>
+  <data name="ListingPreferences" xml:space="preserve">
+    <value>تفضيلات الإدراج</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>شعار الموقع</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>إدارة</value>
+  </data>
+  <data name="Messaging" xml:space="preserve">
+    <value>المراسلة</value>
+  </data>
+  <data name="NotWon" xml:space="preserve">
+    <value>لا تفوز</value>
+  </data>
+  <data name="Outbox" xml:space="preserve">
+    <value>علبة الصادر</value>
+  </data>
+  <data name="Past" xml:space="preserve">
+    <value>الماضي</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>دفع</value>
+  </data>
+  <data name="PaymentProviders" xml:space="preserve">
+    <value>مزودي الدفع</value>
+  </data>
+  <data name="PayPal" xml:space="preserve">
+    <value>باي بال</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>المشتريات</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>اقامة</value>
+  </data>
+  <data name="SiteFees" xml:space="preserve">
+    <value>رسوم الموقع</value>
+  </data>
+  <data name="SitePreferences" xml:space="preserve">
+    <value>تفضيلات الموقع</value>
+  </data>
+  <data name="Taxes" xml:space="preserve">
+    <value>الضرائب</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>المستخدمون</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>الإصدار</value>
+  </data>
+  <data name="Watching" xml:space="preserve">
+    <value>مشاهدة</value>
+  </data>
+  <data name="Won" xml:space="preserve">
+    <value>وون</value>
+  </data>
+  <data name="CustomFieldsAdmin" xml:space="preserve">
+    <value>الحقول المخصصة</value>
+  </data>
+  <data name="ListSimilar" xml:space="preserve">
+    <value>قائمة مماثلة</value>
+  </data>
+  <data name="ActionNeeded" xml:space="preserve">
+    <value>الإجراءات اللازمة</value>
+  </data>
+  <data name="_trace" xml:space="preserve">
+    <value>0</value>
+    <comment>set this value to "1" to highlight missing strings</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>فرز</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>رأي</value>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>المستخدم بالنيابة غير مصرح به</value>
+  </data>
+  <data name="ActingUserIsNotInRequiredRole" xml:space="preserve">
+    <value>القائم بأعمال المستخدم ليس في دور مطلوب</value>
+  </data>
+  <data name="ActingUserIsNotRequiredUser" xml:space="preserve">
+    <value>المستخدم بالوكالة ليس المستخدم المطلوب</value>
+  </data>
+  <data name="ActingUserNameNotSpecified" xml:space="preserve">
+    <value>بالنيابة عن اسم المستخدم غير محدد</value>
+  </data>
+  <data name="BillingAddressRequiredBeforePayment" xml:space="preserve">
+    <value>مطلوب عنوان الفاتورة قبل الدفع</value>
+  </data>
+  <data name="CreditCardNotOwnedByUser" xml:space="preserve">
+    <value>لم يتم العثور على بطاقة الائتمان</value>
+    <comment>Note this message is intentionally ambiguous</comment>
+  </data>
+  <data name="CurrencyNotSupported" xml:space="preserve">
+    <value>العملة غير مدعومة</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>خيار المدة غير صالح</value>
+  </data>
+  <data name="InvalidIPN" xml:space="preserve">
+    <value>رقم IPN غير صالح</value>
+  </data>
+  <data name="InvalidStateForListing" xml:space="preserve">
+    <value>ولاية غير صالحة للإدراج</value>
+  </data>
+  <data name="InvoiceAlreadyPaid" xml:space="preserve">
+    <value>فاتورة مدفوعة بالفعل</value>
+  </data>
+  <data name="InvoiceNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الفاتورة</value>
+  </data>
+  <data name="InvoiceTypeNotSupported" xml:space="preserve">
+    <value>نوع الفاتورة غير مدعوم</value>
+  </data>
+  <data name="ListingNotExist" xml:space="preserve">
+    <value>الإدراج غير موجود</value>
+  </data>
+  <data name="MissingPaymentProviderForIPN" xml:space="preserve">
+    <value>مزود خدمة الدفع مفقود لـ IPN</value>
+  </data>
+  <data name="PasswordIncorrect" xml:space="preserve">
+    <value>كلمة المرور غير صحيحة</value>
+  </data>
+  <data name="RequiredArgumentMissing" xml:space="preserve">
+    <value>الوسيطة المطلوبة مفقودة</value>
+  </data>
+  <data name="RequiredArgumentNull" xml:space="preserve">
+    <value>الوسيطة المطلوبة فارغة</value>
+  </data>
+  <data name="RequiredArgumentOutOfBounds" xml:space="preserve">
+    <value>الوسيطة المطلوبة خارج الحدود</value>
+  </data>
+  <data name="ShippingAddressRequiredBeforePayment" xml:space="preserve">
+    <value>مطلوب عنوان الشحن قبل السداد</value>
+  </data>
+  <data name="UnexpectedTransactionType" xml:space="preserve">
+    <value>نوع معاملة غير متوقع</value>
+  </data>
+  <data name="AddInvoiceAdjustmentFailure" xml:space="preserve">
+    <value>فشل إضافة تعديل الفاتورة</value>
+  </data>
+  <data name="AddLineItemFailure" xml:space="preserve">
+    <value>فشلت إضافة البند</value>
+  </data>
+  <data name="ConfirmInvoicePaymentFailure" xml:space="preserve">
+    <value>تأكيد فشل دفع الفاتورة</value>
+  </data>
+  <data name="ConfirmInvoicePaymentSuccess" xml:space="preserve">
+    <value>تم تأكيد عملية الدفع</value>
+  </data>
+  <data name="CreateInvoiceFailure" xml:space="preserve">
+    <value>فشل إنشاء الفاتورة</value>
+  </data>
+  <data name="DeleteAddressFailure" xml:space="preserve">
+    <value>فشل حذف العنوان</value>
+  </data>
+  <data name="DeleteCreditCardFailure" xml:space="preserve">
+    <value>فشل حذف بطاقة الائتمان</value>
+  </data>
+  <data name="DeleteMessageFailure" xml:space="preserve">
+    <value>فشل حذف الرسالة</value>
+  </data>
+  <data name="SetInvoicePaidFailure" xml:space="preserve">
+    <value>فشل إعداد الحالة المدفوعة للفاتورة</value>
+  </data>
+  <data name="SetInvoicePaidSuccess" xml:space="preserve">
+    <value>نجح تعيين حالة الفاتورة المدفوعة</value>
+  </data>
+  <data name="NoWindowsAuth" xml:space="preserve">
+    <value>مصادقة Windows غير مسموح بها</value>
+  </data>
+  <data name="PaymentNotification" xml:space="preserve">
+    <value>إشعار الدفع</value>
+  </data>
+  <data name="RemoveLineItemFailure" xml:space="preserve">
+    <value>أخفقت إزالة العنصر</value>
+  </data>
+  <data name="ReportAbuseFailure" xml:space="preserve">
+    <value>فشل الإبلاغ عن إساءة</value>
+  </data>
+  <data name="ReportAbuseSuccess" xml:space="preserve">
+    <value>تم إرسال بريد إلكتروني للإبلاغ عن إساءة بنجاح</value>
+  </data>
+  <data name="RollbackReason" xml:space="preserve">
+    <value>سبب التراجع</value>
+  </data>
+  <data name="SalesTaxManagementFailure" xml:space="preserve">
+    <value>فشلت إدارة ضريبة المبيعات</value>
+  </data>
+  <data name="SendListingMessageFailure" xml:space="preserve">
+    <value>فشل إرسال رسالة القائمة</value>
+  </data>
+  <data name="SetBillingAddressFailure" xml:space="preserve">
+    <value>فشل تعيين عنوان الفواتير</value>
+  </data>
+  <data name="SetDefaultCreditCardFailure" xml:space="preserve">
+    <value>فشل تعيين بطاقة الائتمان الافتراضية</value>
+  </data>
+  <data name="SetPrimaryAddressFailure" xml:space="preserve">
+    <value>فشل تعيين العنوان الأساسي</value>
+  </data>
+  <data name="SetShippingAddressFailure" xml:space="preserve">
+    <value>فشل تعيين عنوان الشحن</value>
+  </data>
+  <data name="SetShippingAddressSuccess" xml:space="preserve">
+    <value>تم تعيين عنوان الشحن بنجاح</value>
+  </data>
+  <data name="SummaryFailure" xml:space="preserve">
+    <value>فشل الملخص</value>
+  </data>
+  <data name="UpdateInvoiceCommentsFailure" xml:space="preserve">
+    <value>فشل تحديث تعليقات الفاتورة</value>
+  </data>
+  <data name="UpdateInvoiceCommentsSuccess" xml:space="preserve">
+    <value>تم حفظ تعليقات الفاتورة بنجاح</value>
+  </data>
+  <data name="UpdateInvoiceShippingFailure" xml:space="preserve">
+    <value>فشل تحديث شحن الفاتورة</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>إعادة تعيين</value>
+  </data>
+  <data name="ChangeInvoiceShippingWarning1" xml:space="preserve">
+    <value>سيؤدي تغيير مبلغ الشحن إلى محو تغييرات التعديل والتعليق.</value>
+  </data>
+  <data name="ChangeInvoiceShippingWarning2" xml:space="preserve">
+    <value>انقر [موافق] للمتابعة.</value>
+  </data>
+  <data name="ShippingOptionsFor" xml:space="preserve">
+    <value>خيارات الشحن ل</value>
+  </data>
+  <data name="ViewAllShippingOptsLink" xml:space="preserve">
+    <value>عرض جميع خيارات الشحن</value>
+  </data>
+  <data name="AJAX_SorryFileNotUploaded" xml:space="preserve">
+    <value>عذرًا ، لم يتم تحميل ملفك أو ليس تنسيق صورة صالحًا.</value>
+  </data>
+  <data name="AddVideo" xml:space="preserve">
+    <value>أضف فيديو</value>
+  </data>
+  <data name="AJAX_InvalidYoutubeUrl" xml:space="preserve">
+    <value>الرجاء إدخال عنوان URL صالح لفيديو YouTube ، مثل "http://www.youtube.com/watch؟v=Abcd-123456".</value>
+  </data>
+  <data name="AllFeedback" xml:space="preserve">
+    <value>جميع الملاحظات</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>التاريخ / الوقت</value>
+  </data>
+  <data name="FeedbackAsBuyer" xml:space="preserve">
+    <value>ملاحظات من البائعين</value>
+  </data>
+  <data name="FeedbackAsSeller" xml:space="preserve">
+    <value>ردود فعل من المشترين</value>
+  </data>
+  <data name="FeedbackForUserName" xml:space="preserve">
+    <value>ملاحظات عن {0}</value>
+  </data>
+  <data name="FeedbackFromUserName" xml:space="preserve">
+    <value>ملاحظات من {0}</value>
+  </data>
+  <data name="FeedbackLeftForOthers" xml:space="preserve">
+    <value>ترك ردود الفعل للآخرين</value>
+  </data>
+  <data name="LeftBy" xml:space="preserve">
+    <value>تمت مغادرته من</value>
+  </data>
+  <data name="LeftFor" xml:space="preserve">
+    <value>ترك من اجل</value>
+  </data>
+  <data name="Past_1_Month" xml:space="preserve">
+    <value>الشهر الماضي</value>
+  </data>
+  <data name="Past_X_Months" xml:space="preserve">
+    <value>الأشهر {0} الماضية</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>المستخدم ليس موجود</value>
+  </data>
+  <data name="NewestPurchases" xml:space="preserve">
+    <value>أحدث المشتريات</value>
+  </data>
+  <data name="OldestPurchases" xml:space="preserve">
+    <value>مشتريات أقدم</value>
+  </data>
+  <data name="PurchaseDate" xml:space="preserve">
+    <value>تاريخ / وقت الشراء</value>
+  </data>
+  <data name="SaleDate" xml:space="preserve">
+    <value>تاريخ / وقت البيع</value>
+  </data>
+  <data name="SellerAcceptsCreditCards" xml:space="preserve">
+    <value>يقبل البائع بطاقات الائتمان</value>
+  </data>
+  <data name="Conversion" xml:space="preserve">
+    <value>تحويلات</value>
+  </data>
+  <data name="XhoursAgo" xml:space="preserve">
+    <value>قبل {0}</value>
+    <comment>{0} is number of hours</comment>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>فترة</value>
+  </data>
+  <data name="CommentsShownToBuyer" xml:space="preserve">
+    <value>التعليقات (تظهر للمشتري)</value>
+  </data>
+  <data name="SaveComments" xml:space="preserve">
+    <value>حفظ التعليقات</value>
+  </data>
+  <data name="AddressDescription_Help" xml:space="preserve">
+    <value>مثال: المنزل أو العمل.</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>تاريخ الإنتهاء</value>
+  </data>
+  <data name="Last4OnCard" xml:space="preserve">
+    <value>آخر 4 أرقام على البطاقة</value>
+  </data>
+  <data name="CreateListingPage2Failure" xml:space="preserve">
+    <value>فشل إنشاء قائمة</value>
+  </data>
+  <data name="CreateListingPage2Success" xml:space="preserve">
+    <value>تم إنشاء القائمة</value>
+  </data>
+  <data name="RelistFailure" xml:space="preserve">
+    <value>فشل أعِد</value>
+  </data>
+  <data name="RelistSuccess" xml:space="preserve">
+    <value>تم الاعتماد على العنصر</value>
+  </data>
+  <data name="InvoiceTotalMustNotBeNegative" xml:space="preserve">
+    <value>يجب ألا يكون إجمالي الفاتورة سالبًا</value>
+  </data>
+  <data name="FullyTaxable" xml:space="preserve">
+    <value>خاضع للضريبة بالكامل</value>
+  </data>
+  <data name="NotTaxable" xml:space="preserve">
+    <value>غير خاضع للضريبة</value>
+  </data>
+  <data name="PartiallyTaxable" xml:space="preserve">
+    <value>خاضع للضريبة جزئياً</value>
+  </data>
+  <data name="Adjustment" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="BidNaN" xml:space="preserve">
+    <value>يجب أن يكون العرض عشريًا</value>
+  </data>
+  <data name="QuantityNaN" xml:space="preserve">
+    <value>يجب أن تكون الكمية عددًا صحيحًا</value>
+  </data>
+  <data name="InvoiceNotPaid" xml:space="preserve">
+    <value>الفاتورة غير مدفوعة</value>
+  </data>
+  <data name="MarkNotPaid" xml:space="preserve">
+    <value>وضع علامة "غير مدفوع"</value>
+  </data>
+  <data name="MarkNotShipped" xml:space="preserve">
+    <value>وضع علامة "عدم الشحن"</value>
+  </data>
+  <data name="MarkShipped" xml:space="preserve">
+    <value>مارك تم شحنها</value>
+  </data>
+  <data name="SetInvoiceShippedFailure" xml:space="preserve">
+    <value>فشل إعداد حالة شحن الفاتورة</value>
+  </data>
+  <data name="SetInvoiceShippedSuccess" xml:space="preserve">
+    <value>نجحت عملية إعداد الفاتورة التي تم شحنها</value>
+  </data>
+  <data name="AutoRelist" xml:space="preserve">
+    <value>إعادة القائمة التلقائي</value>
+  </data>
+  <data name="MarkMultipleInvoicesPaidSuccess" xml:space="preserve">
+    <value>فواتير مختارة علامة مدفوعة</value>
+  </data>
+  <data name="MarkMultipleInvoicesShippedSuccess" xml:space="preserve">
+    <value>تم تحديد علامة الفواتير المحددة</value>
+  </data>
+  <data name="AuditButton_Help" xml:space="preserve">
+    <value>عرض معلومات إضافية مرئية فقط للمسؤولين.</value>
+  </data>
+  <data name="AuditFor" xml:space="preserve">
+    <value>لمراجعة الحسابات</value>
+  </data>
+  <data name="GoodTilCanceled" xml:space="preserve">
+    <value>تم إلغاء "حسن"</value>
+  </data>
+  <data name="GtcDateValue" xml:space="preserve">
+    <value>تم إلغاء "حسن"</value>
+  </data>
+  <data name="SalesTaxShippingOption_Help" xml:space="preserve">
+    <value>يشير إلى كيفية فرض ضرائب على الشحن. &lt;br/&gt; &lt;br/&gt; غير خاضع للضريبة: لن يتم فرض ضريبة على الشحن عند استخدام معدل الضريبة هذا لاحتساب إجمالي ضريبة المبيعات. &lt;br/&gt; &lt;br/&gt; خاضع للضريبة جزئيًا: ستكون نسبة من تكلفة الشحن خاضعة للضريبة ، معادلة بالنسبة إلى النسبة المئوية للعناصر الخاضعة للضريبة التي تساهم في المجموع الفرعي. &lt;br/&gt; &lt;br/&gt; الخاضعة للضريبة بالكامل: ستكون تكلفة الشحن الإجمالية خاضعة للضريبة.</value>
+  </data>
+  <data name="ShippingIs" xml:space="preserve">
+    <value>الشحن</value>
+  </data>
+  <data name="SellAnotherItem" xml:space="preserve">
+    <value>بيع سلعة أخرى</value>
+  </data>
+  <data name="Archived" xml:space="preserve">
+    <value>مؤرشف</value>
+  </data>
+  <data name="FeedbackNotReceived" xml:space="preserve">
+    <value>ردود الفعل لم تتلق</value>
+  </data>
+  <data name="FeedbackRequired" xml:space="preserve">
+    <value>ملاحظات مطلوبة</value>
+  </data>
+  <data name="Invoiced" xml:space="preserve">
+    <value>مفوترة</value>
+  </data>
+  <data name="NeedInvoice" xml:space="preserve">
+    <value>تحتاج فاتورة</value>
+  </data>
+  <data name="PasswordResetMessage" xml:space="preserve">
+    <value>بعد استلام رمز إعادة التعيين الذي تم إرساله إليك عبر البريد الإلكتروني ، يرجى إدخاله أدناه جنبًا إلى جنب مع عنوان بريدك الإلكتروني وكلمة المرور الجديدة.</value>
+  </data>
+  <data name="ArchiveSales" xml:space="preserve">
+    <value>ارشيف المبيعات المختارة</value>
+  </data>
+  <data name="RestoreSales" xml:space="preserve">
+    <value>استعادة المبيعات المحددة</value>
+  </data>
+  <data name="SetLineItemsArchivedFailure" xml:space="preserve">
+    <value>فشل تعيين العناصر المؤرشفة</value>
+  </data>
+  <data name="SetLineItemsArchivedSuccess" xml:space="preserve">
+    <value>تم تحديث حالة الأرشيف</value>
+  </data>
+  <data name="YouMustSelectAtLeastOneSaleToProceed" xml:space="preserve">
+    <value>يجب تحديد عملية بيع واحدة على الأقل للمتابعة</value>
+  </data>
+  <data name="Shipped" xml:space="preserve">
+    <value>شحنها</value>
+  </data>
+  <data name="ErrorCurrencyNotEnabled" xml:space="preserve">
+    <value>العملة المطلوبة [{0}] غير ممكّنة</value>
+  </data>
+  <data name="InvalidCurrencyAmount" xml:space="preserve">
+    <value>مبلغ غير صحيح</value>
+  </data>
+  <data name="ViewActiveListings" xml:space="preserve">
+    <value>عرض القوائم النشطة</value>
+  </data>
+  <data name="DownloadReport" xml:space="preserve">
+    <value>تنزيل التقرير</value>
+  </data>
+  <data name="YouMustSelectAtLeastOneListingToProceed" xml:space="preserve">
+    <value>يجب تحديد قائمة واحدة على الأقل للمتابعة</value>
+  </data>
+  <data name="RelistSelected" xml:space="preserve">
+    <value>تم تحديد أعِد</value>
+  </data>
+  <data name="EditPaymentSettings" xml:space="preserve">
+    <value>تحرير إعدادات الدفع</value>
+  </data>
+  <data name="EditTaxSettings" xml:space="preserve">
+    <value>تحرير إعدادات الضريبة</value>
+  </data>
+  <data name="NoteSettingsApplyToAllListings" xml:space="preserve">
+    <value>ملاحظة: تنطبق هذه الإعدادات على جميع قوائمك.</value>
+  </data>
+  <data name="PaymentAndTaxDetails" xml:space="preserve">
+    <value>تفاصيل الدفع والضرائب</value>
+  </data>
+  <data name="TaxRates" xml:space="preserve">
+    <value>معدلات الضرائب</value>
+  </data>
+  <data name="ViewInvoice" xml:space="preserve">
+    <value>عرض الفاتورة</value>
+  </data>
+  <data name="ListingFeesRevenueReport" xml:space="preserve">
+    <value>إيرادات رسوم الإدراج</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>التقارير</value>
+  </data>
+  <data name="SalesTransactionReport" xml:space="preserve">
+    <value>معاملات المبيعات</value>
+  </data>
+  <data name="NoTax" xml:space="preserve">
+    <value>معفى</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>ضريبة</value>
+  </data>
+  <data name="PropertyManagement_ImplementationFailure" xml:space="preserve">
+    <value>الإعدادات غير محفوظة</value>
+  </data>
+  <data name="PropertyManagement_ImplementationSuccess" xml:space="preserve">
+    <value>تم حفظ الإعدادات بنجاح</value>
+  </data>
+  <data name="UpdateSalesTaxRatesSuccess" xml:space="preserve">
+    <value>تم حفظ معدلات ضريبة المبيعات بنجاح</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="InvoiceDeleted" xml:space="preserve">
+    <value>تم حذف الفاتورة</value>
+  </data>
+  <data name="ListedBy" xml:space="preserve">
+    <value>المدرجة من قبل</value>
+  </data>
+  <data name="SalesTaxAlreadyExists" xml:space="preserve">
+    <value>تم تحديد معدل الضريبة بالفعل لهذه الحالة</value>
+  </data>
+  <data name="PleaseMakePaymentToCompleteThePurchase" xml:space="preserve">
+    <value>يرجى إجراء الدفع لإكمال الشراء</value>
+  </data>
+  <data name="CantRelistActiveListing" xml:space="preserve">
+    <value>لا يمكن الاعتماد على قائمة نشطة. جرّب "سرد مماثل" بدلاً من ذلك.</value>
+  </data>
+  <data name="CantRelistSuccessfulListing" xml:space="preserve">
+    <value>لا يمكن الاعتماد على قائمة ناجحة. جرّب "سرد مماثل" بدلاً من ذلك.</value>
+  </data>
+  <data name="EndEarlyFailure" xml:space="preserve">
+    <value>فشل الإنهاء المبكر</value>
+  </data>
+  <data name="EndEarlySuccess" xml:space="preserve">
+    <value>قائمة تنتهي في وقت مبكر</value>
+  </data>
+  <data name="EnterYourDescription" xml:space="preserve">
+    <value>أدخل الوصف الخاص بك ..</value>
+  </data>
+  <data name="LastLineitemRemovedInvoiceDeleted" xml:space="preserve">
+    <value>تمت إزالة البند الأخير: تم حذف الفاتورة بنجاح</value>
+  </data>
+  <data name="CreditCardInformation" xml:space="preserve">
+    <value>معلومات بطاقة الائتمان</value>
+  </data>
+  <data name="xSuccessfullyRelisted" xml:space="preserve">
+    <value>تم اعتماد {0} بنجاح</value>
+    <comment>{0} is number of listings relisted</comment>
+  </data>
+  <data name="AllBanners" xml:space="preserve">
+    <value>جميع اللافتات</value>
+  </data>
+  <data name="Bold_Decoration" xml:space="preserve">
+    <value>عنوان غامق</value>
+  </data>
+  <data name="BOTTOM" xml:space="preserve">
+    <value>الأسفل</value>
+  </data>
+  <data name="Highlight_Decoration" xml:space="preserve">
+    <value>تسليط الضوء</value>
+  </data>
+  <data name="Italic_Decoration" xml:space="preserve">
+    <value>مائل</value>
+  </data>
+  <data name="LEFT" xml:space="preserve">
+    <value>اليسار</value>
+  </data>
+   <data name="Time" xml:space="preserve">
+    <value>زمن</value>
+  </data>
+  <data name="Times" xml:space="preserve">
+    <value>تايمز</value>
+  </data>
+  <data name="TOP" xml:space="preserve">
+    <value>أعلى</value>
+  </data>
+  <data name="LogoffDueToPasswordChange" xml:space="preserve">
+    <value>تم تغيير معلومات تسجيل الدخول - يرجى تسجيل الدخول للمتابعة</value>
+  </data>
+  <data name="BackToListing" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="AddAll" xml:space="preserve">
+    <value>إضافة الجميع</value>
+  </data>
+  <data name="ConfirmActionFailure" xml:space="preserve">
+    <value>تأكيد فشل الإجراء</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>العناصر</value>
+  </data>
+  <data name="RequestValidationErrorMessage" xml:space="preserve">
+    <value>أحرف HTML مثل "&lt;" أو "&gt;" غير مسموح بها في هذا النموذج.</value>
+  </data>
+  <data name="RequestValidationErrorTitle" xml:space="preserve">
+    <value>تم اكتشاف نص محتمل الخطورة</value>
+  </data>
+  <data name="PaymentPreferencesManagement" xml:space="preserve">
+    <value>إدارة تفضيلات الدفع</value>
+  </data>
+  <data name="PendingListings" xml:space="preserve">
+    <value>القوائم المجدولة</value>
+  </data>
+  <data name="StartingDateTime" xml:space="preserve">
+    <value>تاريخ / وقت البدء</value>
+  </data>
+  <data name="StartingFirst" xml:space="preserve">
+    <value>البدء أولاً</value>
+  </data>
+  <data name="StartingLast" xml:space="preserve">
+    <value>ابتداء من آخر</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>معاينة</value>
+  </data>
+  <data name="StartingTime" xml:space="preserve">
+    <value>يبدأ في</value>
+  </data>
+  <data name="AdditionalFees" xml:space="preserve">
+    <value>رسوم اضافية</value>
+  </data>
+  <data name="PostListingFee" xml:space="preserve">
+    <value>رسوم الإدراج</value>
+  </data>
+  <data name="FinalSaleFee" xml:space="preserve">
+    <value>الرسوم النهائية للبائع</value>
+  </data>
+  <data name="RollingBack" xml:space="preserve">
+    <value>التراجع</value>
+  </data>
+  <data name="RemoveWatch" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="RemoveMultipleWatches" xml:space="preserve">
+    <value>ازل المحدد</value>
+  </data>
+  <data name="RemoveFromWatchingMessage" xml:space="preserve">
+    <value>هل تريد إزالة القوائم المحددة من المشاهدة؟</value>
+  </data>
+  <data name="AuctionBanner" xml:space="preserve">
+    <value>مزاد علني</value>
+  </data>
+  <data name="ClassifiedAdBanner" xml:space="preserve">
+    <value>صنف</value>
+  </data>
+  <data name="FixedPriceBanner" xml:space="preserve">
+    <value>سعر ثابت</value>
+  </data>
+  <data name="ScheduledPayments" xml:space="preserve">
+    <value>خيارات دفع الرسوم</value>
+  </data>
+  <data name="Declined" xml:space="preserve">
+    <value>رفض</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>أرجو الإنتظار</value>
+  </data>
+  <data name="ChooseImages_HTML5" xml:space="preserve">
+    <value>إضافة الصور)</value>
+  </data>
+  <data name="FavIcon" xml:space="preserve">
+    <value>فافيكون</value>
+  </data>
+  <data name="LineageString_Account_Addresses" xml:space="preserve">
+    <value>الحساب&gt; العناوين</value>
+  </data>
+  <data name="LineageString_Account_CreditCards" xml:space="preserve">
+    <value>الحساب&gt; بطاقات الائتمان</value>
+  </data>
+  <data name="LineageString_Account_Details" xml:space="preserve">
+    <value>الحساب&gt; التفاصيل</value>
+  </data>
+  <data name="LineageString_Account_Password" xml:space="preserve">
+    <value>الحساب&gt; كلمة المرور</value>
+  </data>
+  <data name="LineageString_Bidding_Active" xml:space="preserve">
+    <value>المزايدة&gt; نشط</value>
+  </data>
+  <data name="LineageString_Bidding_NotWon" xml:space="preserve">
+    <value>المزايدة&gt; لم يفز</value>
+  </data>
+  <data name="LineageString_Bidding_Watching" xml:space="preserve">
+    <value>المزايدة&gt; مشاهدة</value>
+  </data>
+  <data name="LineageString_Bidding_Won" xml:space="preserve">
+    <value>المزايدة&gt; وون</value>
+  </data>
+  <data name="LineageString_Feedback_Buyer" xml:space="preserve">
+    <value>ملاحظات&gt; المشتري</value>
+  </data>
+  <data name="LineageString_Feedback_Seller" xml:space="preserve">
+    <value>ملاحظات&gt; البائع</value>
+  </data>
+  <data name="LineageString_Feedback_Summary" xml:space="preserve">
+    <value>ملاحظات&gt; ملخص</value>
+  </data>
+  <data name="LineageString_ListingPreferences_Taxes" xml:space="preserve">
+    <value>تفضيلات الإدراج&gt; الضرائب</value>
+  </data>
+  <data name="LineageString_Listings_Active" xml:space="preserve">
+    <value>القوائم&gt; نشط</value>
+  </data>
+  <data name="LineageString_Listings_Ended" xml:space="preserve">
+    <value>القوائم&gt; منتهية</value>
+  </data>
+  <data name="LineageString_Listings_Pending" xml:space="preserve">
+    <value>القوائم&gt; المجدولة</value>
+  </data>
+  <data name="LineageString_Listings_Successful" xml:space="preserve">
+    <value>القوائم&gt; ناجح</value>
+  </data>
+  <data name="LineageString_Listings_Unsuccessful" xml:space="preserve">
+    <value>القوائم&gt; غير ناجح</value>
+  </data>
+  <data name="LineageString_Messaging_AllMessages" xml:space="preserve">
+    <value>المراسلة&gt; كافة الرسائل</value>
+  </data>
+  <data name="LineageString_Messaging_Inbox" xml:space="preserve">
+    <value>الرسائل&gt; البريد الوارد</value>
+  </data>
+  <data name="LineageString_Messaging_Outbox" xml:space="preserve">
+    <value>الرسائل&gt; علبة الصادر</value>
+  </data>
+  <data name="LineageString_SiteFees_Past" xml:space="preserve">
+    <value>رسوم الموقع&gt; الماضي</value>
+  </data>
+  <data name="PaymentPendingSellerAcceptance" xml:space="preserve">
+    <value>الدفع في انتظار قبول البائع</value>
+  </data>
+  <data name="UpTo_X_Y_Fee" xml:space="preserve">
+    <value>رسوم تصل إلى {0} - {1}</value>
+  </data>
+  <data name="X_AndOver_Y_Fee" xml:space="preserve">
+    <value>{0} وأكثر - {1} رسوم</value>
+  </data>
+  <data name="MySummaryCountScheduledListings" xml:space="preserve">
+    <value>القوائم المجدولة</value>
+  </data>
+  <data name="ImportCSV" xml:space="preserve">
+    <value>استيراد ملف CSV</value>
+  </data>
+  <data name="LeaveBlankToStartImmediately" xml:space="preserve">
+    <value>اتركه فارغًا للبدء فورًا</value>
+  </data>
+  <data name="StartAndDuration" xml:space="preserve">
+    <value>ابدأ والمدة</value>
+  </data>
+  <data name="StartAndEndDate" xml:space="preserve">
+    <value>تاريخ البدء والانتهاء</value>
+  </data>
+  <data name="StartNow" xml:space="preserve">
+    <value>ابدأ الآن</value>
+  </data>
+  <data name="StartNowFailure" xml:space="preserve">
+    <value>ابدأ الآن فشل</value>
+  </data>
+  <data name="StartNowSuccess" xml:space="preserve">
+    <value>بدأ الإدراج بنجاح</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>المتقدمة</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>اعمال صيانة</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>سياسة خاصة</value>
+  </data>
+  <data name="PaymentDetails" xml:space="preserve">
+    <value>بيانات الدفع</value>
+  </data>
+  <data name="ItemIsActiveConfirmation" xml:space="preserve">
+    <value>&lt;strong&gt; تهانينا! &lt;/ strong&gt; عنصرك مدرج.</value>
+  </data>
+  <data name="ItemIsPendingConfirmation" xml:space="preserve">
+    <value>&lt;strong&gt; تهانينا! &lt;/ strong&gt; من المقرر إدراج العنصر الخاص بك.</value>
+  </data>
+  <data name="AvailableIn" xml:space="preserve">
+    <value>يبدأ</value>
+  </data>
+  <data name="EndsIn" xml:space="preserve">
+    <value>ينتهي في:</value>
+  </data>
+  <data name="Scheduled" xml:space="preserve">
+    <value>المقرر</value>
+  </data>
+  <data name="StartsIn" xml:space="preserve">
+    <value>يبدأ في</value>
+  </data>
+  <data name="EventLog" xml:space="preserve">
+    <value>سجل الأحداث</value>
+  </data>
+  <data name="EmailTemplates" xml:space="preserve">
+    <value>قوالب البريد الإلكتروني</value>
+  </data>
+  <data name="reset_parenthesis" xml:space="preserve">
+    <value>(إعادة تعيين)</value>
+  </data>
+  <data name="ForFinalSalePriceUpToEllipse" xml:space="preserve">
+    <value>لسعر البيع النهائي حتى ...</value>
+  </data>
+  <data name="MoreInfo_Parens" xml:space="preserve">
+    <value>(مزيد من المعلومات)</value>
+  </data>
+  <data name="Over_Xdollars" xml:space="preserve">
+    <value>فوق {0}</value>
+  </data>
+  <data name="AllBuyerFees" xml:space="preserve">
+    <value>جميع رسوم المشتري</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="BuyersPremium" xml:space="preserve">
+    <value>قسط المشتري</value>
+  </data>
+  <data name="Edit_Parens" xml:space="preserve">
+    <value>(تعديل)</value>
+  </data>
+  <data name="InvalidBuyersPremiumPercent" xml:space="preserve">
+    <value>يجب أن تكون النسبة المئوية المميزة للمشتري رقمًا صالحًا بين 0 و 100.</value>
+  </data>
+  <data name="Plus_Xpct_BuyersPremium_Parens" xml:space="preserve">
+    <value>(+ {0} Premium Buyer)</value>
+  </data>
+  <data name="UpdateInvoiceBuyersPremiumFailure" xml:space="preserve">
+    <value>فشل تحديث Premium Buyers Premium</value>
+  </data>
+  <data name="UpdateInvoiceBuyersPremiumSuccess" xml:space="preserve">
+    <value>تم تحديث قسط المشتري</value>
+  </data>
+  <data name="MoreOptions" xml:space="preserve">
+    <value>المزيد من الخيارات</value>
+  </data>
+  <data name="ContactSellerButton" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-envelope"&gt; &lt;/span&gt; اتصل بالبائع</value>
+  </data>
+  <data name="CustomValueNotSet" xml:space="preserve">
+    <value>(غير مضبوط)</value>
+  </data>
+  <data name="RemoveWatch_small" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="ViewAllShippingOptsLink_Small" xml:space="preserve">
+    <value>خيارات الشحن</value>
+  </data>
+  <data name="NewAddress" xml:space="preserve">
+    <value>العنوان الجديد</value>
+  </data>
+  <data name="AddAddress" xml:space="preserve">
+    <value>اضف عنوان</value>
+  </data>
+  <data name="MobileLogo" xml:space="preserve">
+    <value>شعار الجوال</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>المتبقي</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>بطاقة ائتمان</value>
+  </data>
+  <data name="Delete_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-remove"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Primary" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-ok-sign"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>التفضيلات</value>
+  </data>
+  <data name="Sunburst_Decoration" xml:space="preserve">
+    <value>بانر "{0}"</value>
+  </data>
+  <data name="Sunburst_Description" xml:space="preserve">
+    <value>أضف لافتة إلى قائمتك.</value>
+  </data>
+  <data name="Listing_Badge_Text" xml:space="preserve">
+    <value>تخفيض السعر</value>
+  </data>
+  <data name="BrowseFAQ" xml:space="preserve">
+    <value>أو تصفح موقعنا</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>التعليمات</value>
+  </data>
+  <data name="QuestionContact" xml:space="preserve">
+    <value>لدي سؤال؟ رجاء</value>
+  </data>
+  <data name="CategoryMenu" xml:space="preserve">
+    <value>اختر الفئة</value>
+  </data>
+  <data name="RegionMenu" xml:space="preserve">
+    <value>اختر المنطقة</value>
+  </data>
+  <data name="AddNewAddress" xml:space="preserve">
+    <value>أضف عنوان جديد</value>
+  </data>
+  <data name="NewCreditCard" xml:space="preserve">
+    <value>بطاقة ائتمان جديدة</value>
+  </data>
+  <data name="ViewInvoiceDetails" xml:space="preserve">
+    <value>عرض تفاصيل الفاتورة</value>
+  </data>
+  <data name="Search_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-search"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="ArrowButton" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-chevron-right"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="CMS" xml:space="preserve">
+    <value>CMS</value>
+  </data>
+  <data name="ListSimilar_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-new-window"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Relist_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-تكرار"&gt; &lt;/ span&gt;</value>
+  </data>
+  <data name="Cancel_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-stop"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Checkout_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-shopping-cart"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Contact_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-comment"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="CreateInvoice_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-shopping-cart"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Edit_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-pencil"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="EndEarly_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-stop"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="FeedbackSent_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-user"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="InvoicePaid_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-shopping-cart"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="StartNow_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-time"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="SubmitFeedback_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-user"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="ViewInvoice_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-shopping-cart"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="ViewListing_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-eye-open"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="ScrollToTop" xml:space="preserve">
+    <value>انتقل إلى أعلى</value>
+  </data>
+  <data name="MyAccountNavigation" xml:space="preserve">
+    <value>التنقل في حسابي</value>
+  </data>
+  <data name="GenericErrorTitle" xml:space="preserve">
+    <value>عذرا، حدث خطأ أثناء معالجة طلبك.</value>
+  </data>
+  <data name="PrintInvoice" xml:space="preserve">
+    <value>فاتورة طباعة</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>طباعة</value>
+  </data>
+  <data name="AuctionDetails" xml:space="preserve">
+    <value>تفاصيل المزاد</value>
+  </data>
+  <data name="ListingOptions_small" xml:space="preserve">
+    <value>خيارات</value>
+  </data>
+  <data name="MoreInfo" xml:space="preserve">
+    <value>مزيد من المعلومات</value>
+  </data>
+  <data name="BidHistory_small" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="ContactSeller_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-envelope"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="ListingDetails" xml:space="preserve">
+    <value>تفاصيل قائمة</value>
+  </data>
+  <data name="PurchaseHistory_small" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="ViewSellersOtherListings_small" xml:space="preserve">
+    <value>عرض المزيد من القوائم</value>
+  </data>
+  <data name="StopImpersonating_small" xml:space="preserve">
+    <value>قف</value>
+  </data>
+  <data name="AddNewCreditCard" xml:space="preserve">
+    <value>إضافة بطاقة ائتمان جديدة</value>
+  </data>
+  <data name="DeleteAddressConfirmationMessage" xml:space="preserve">
+    <value>يحتوي العنوان الذي توشك على حذفه على بطاقة ائتمان واحدة أو أكثر مرتبطة به ، والتي سيتم حذفها أيضًا. هل أنت واثق؟</value>
+  </data>
+  <data name="DeleteAddressConfirmationTitle" xml:space="preserve">
+    <value>تأكيد حذف العنوان</value>
+  </data>
+  <data name="DeleteAddressDeniedMessage" xml:space="preserve">
+    <value>جميع بطاقات الائتمان الخاصة بك مرتبطة حاليًا بهذا العنوان. لحذفها ، يجب عليك أولاً إضافة معلومات بطاقة الائتمان باستخدام عنوان مختلف.</value>
+  </data>
+  <data name="DeleteAddressDeniedTitle" xml:space="preserve">
+    <value>حذف العنوان غير مسموح به</value>
+  </data>
+  <data name="AbandonChanges" xml:space="preserve">
+    <value>التخلي عن التغييرات</value>
+  </data>
+  <data name="AbandonChangesConfirmationTitle" xml:space="preserve">
+    <value>التخلي عن تأكيد التغييرات</value>
+  </data>
+  <data name="DeleteConfirmationTitle" xml:space="preserve">
+    <value>حذف التأكيد</value>
+  </data>
+  <data name="EndEarlyConfirmationTitle" xml:space="preserve">
+    <value>إنهاء التأكيد المبكر</value>
+  </data>
+  <data name="StatesRegions" xml:space="preserve">
+    <value>الولايات / المناطق</value>
+  </data>
+  <data name="RemoveFromWatchingTitle" xml:space="preserve">
+    <value>إزالة تأكيد الساعات</value>
+  </data>
+  <data name="AdditionalCost" xml:space="preserve">
+    <value>تكلفة إضافية</value>
+  </data>
+  <data name="AdditionalItemAmount" xml:space="preserve">
+    <value>مبلغ البند الإضافي</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>كلفة</value>
+  </data>
+  <data name="ShippingOptions_Help" xml:space="preserve">
+    <value>حدد خدمة الشحن - هذا لأغراض المعلومات فقط.</value>
+  </data>
+  <data name="XxxAsAdditionalItem" xml:space="preserve">
+    <value>{0} كبند إضافي</value>
+  </data>
+  <data name="AdminBypass" xml:space="preserve">
+    <value>مجاني (مشرف)</value>
+  </data>
+  <data name="OnlyPaidInvoicesCanBeMarkedShipped" xml:space="preserve">
+    <value>يمكن تمييز فواتير &lt;strong&gt; PAID &lt;/strong&gt; فقط بأنها "SHIPPED".</value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>تؤكد</value>
+  </data>
+  <data name="DemoFieldDisabledForThisUser" xml:space="preserve">
+    <value>لا يمكن تغيير هذا الحقل لهذا المستخدم عندما يكون النظام في الوضع التجريبي.</value>
+  </data>
+  <data name="CreateAllInvoices" xml:space="preserve">
+    <value>إنشاء جميع الفواتير</value>
+  </data>
+  <data name="NoInvoicesToCreate" xml:space="preserve">
+    <value>لم يكن هناك فواتير لإنشاء</value>
+  </data>
+  <data name="oneInvoiceSuccessfullyCreated" xml:space="preserve">
+    <value>تم إنشاء فاتورة واحدة بنجاح</value>
+  </data>
+  <data name="xInvoicesSuccessfullyCreated" xml:space="preserve">
+    <value>تم إنشاء {0} فواتير بنجاح</value>
+    <comment>{0} is number of invoices created</comment>
+  </data>
+  <data name="CreateLot" xml:space="preserve">
+    <value>إنشاء لوط</value>
+  </data>
+  <data name="LotFields" xml:space="preserve">
+    <value>حقول لوط</value>
+  </data>
+  <data name="LotNumber" xml:space="preserve">
+    <value>كثيرا #</value>
+  </data>
+  <data name="LotOptions" xml:space="preserve">
+    <value>خيارات اللوت</value>
+  </data>
+  <data name="LotType" xml:space="preserve">
+    <value>نوع العقد</value>
+  </data>
+  <data name="StandardLotFields" xml:space="preserve">
+    <value>تفاصيل العقد</value>
+  </data>
+  <data name="DoNotImport" xml:space="preserve">
+    <value>لا تستورد</value>
+  </data>
+  <data name="ImportUsers" xml:space="preserve">
+    <value>استيراد مستخدمين</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>غير موجود</value>
+  </data>
+  <data name="Message_Body_Reply_Prefix" xml:space="preserve">
+    <value>\ n ---------------- الرسالة السابقة ---------------- \ n</value>
+  </data>
+  <data name="DataManagement" xml:space="preserve">
+    <value>إدارة البيانات</value>
+  </data>
+  <data name="PaymentCancelled" xml:space="preserve">
+    <value>تم إلغاء الدفع</value>
+  </data>
+  <data name="PaymentReceived" xml:space="preserve">
+    <value>تم استلام الدفعة</value>
+  </data>
+  <data name="SendMessageFailure" xml:space="preserve">
+    <value>ارسال الرساله فشل</value>
+  </data>
+  <data name="SendMessageSuccess" xml:space="preserve">
+    <value>تم ارسال رسالتك</value>
+  </data>
+  <data name="RefreshAlert" xml:space="preserve">
+    <value>تم تعديل هذه القائمة منذ آخر تحميل للصفحة. انقر فوق الرمز لإعادة تحميل الصفحة.</value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>بدء</value>
+  </data>
+  <data name="Error_Closing" xml:space="preserve">
+    <value>إغلاق الخطأ</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>محدث</value>
+  </data>
+  <data name="BuyNowNotAvailable" xml:space="preserve">
+    <value>الشراء الان غير متوفر</value>
+  </data>
+  <data name="Failure" xml:space="preserve">
+    <value>بالفشل</value>
+  </data>
+  <data name="ListingNotActive" xml:space="preserve">
+    <value>هذه القائمة غير نشطة</value>
+  </data>
+  <data name="QuantityTooHigh" xml:space="preserve">
+    <value>يجب أن تكون الكمية رقمًا يساوي أو أقل من الرقم المتاح</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>نجاح</value>
+  </data>
+  <data name="ApplyFilter" xml:space="preserve">
+    <value>تطبيق عامل التصفية</value>
+  </data>
+  <data name="InvoiceNum" xml:space="preserve">
+    <value>فاتورة #</value>
+  </data>
+  <data name="ListingNum" xml:space="preserve">
+    <value>رقم العقار</value>
+  </data>
+  <data name="NotShipped" xml:space="preserve">
+    <value>لم تشحن</value>
+  </data>
+  <data name="TotalHighToLow" xml:space="preserve">
+    <value>الإجمالي ، من الأعلى إلى الأقل</value>
+  </data>
+  <data name="TotalLowToHigh" xml:space="preserve">
+    <value>المجموع ، من الأدنى إلى الأعلى</value>
+  </data>
+  <data name="ArchiveInvoices" xml:space="preserve">
+    <value>أرشيف</value>
+  </data>
+  <data name="MarkMultipleInvoicesArchivedFailure" xml:space="preserve">
+    <value>فشل وضع علامة على الفواتير المؤرشفة</value>
+  </data>
+  <data name="MarkMultipleInvoicesArchivedSuccess" xml:space="preserve">
+    <value>تم تحديث الفواتير المحددة بنجاح</value>
+  </data>
+  <data name="RestoreInvoices" xml:space="preserve">
+    <value>استعادة</value>
+  </data>
+  <data name="YouMustSelectAtLeastOneInvoiceToProceed" xml:space="preserve">
+    <value>يجب تحديد فاتورة واحدة على الأقل للمتابعة</value>
+  </data>
+  <data name="ViewInvoiceToX" xml:space="preserve">
+    <value># {0} ({1})</value>
+    <comment>{0} is invoice id number, {1} is buyer username</comment>
+  </data>
+  <data name="ANumberBetween0AndX" xml:space="preserve">
+    <value>رقم بين 0 و {0}</value>
+  </data>
+  <data name="CheckoutForInvoiceX" xml:space="preserve">
+    <value>الخروج ({0})</value>
+  </data>
+  <data name="ViewInvoiceX" xml:space="preserve">
+    <value>عرض الفاتورة ({0})</value>
+  </data>
+  <data name="BuyersPremiumPercent" xml:space="preserve">
+    <value>قسط المشتري</value>
+  </data>
+  <data name="ClosingGroupIncrement" xml:space="preserve">
+    <value>زيادة مجموعة الإغلاق</value>
+  </data>
+  <data name="CreateEvent" xml:space="preserve">
+    <value>انشاء حدث</value>
+  </data>
+  <data name="EventDescription" xml:space="preserve">
+    <value>وصف</value>
+  </data>
+  <data name="EventDetails" xml:space="preserve">
+    <value>تفاصيل</value>
+  </data>
+  <data name="EventOptions" xml:space="preserve">
+    <value>خيارات الحدث</value>
+  </data>
+  <data name="ProxyBidding" xml:space="preserve">
+    <value>مزايدة بالوكالة</value>
+  </data>
+  <data name="NoBuyersPremium" xml:space="preserve">
+    <value>لا يوجد قسط المشتري</value>
+  </data>
+  <data name="TaxableItem" xml:space="preserve">
+    <value>البند الخاضع للضريبة</value>
+  </data>
+  <data name="TaxExemptItem" xml:space="preserve">
+    <value>بند الإعفاء الضريبي</value>
+  </data>
+  <data name="BpExempt" xml:space="preserve">
+    <value>إعفاء BP</value>
+  </data>
+  <data name="BuyersPremium_Abbrv" xml:space="preserve">
+    <value>BP</value>
+  </data>
+  <data name="BuyersPremium_Small" xml:space="preserve">
+    <value>ب٪</value>
+  </data>
+  <data name="EnterAmount" xml:space="preserve">
+    <value>أدخل المبلغ ...</value>
+  </data>
+  <data name="TaxableItem_Small" xml:space="preserve">
+    <value>ت</value>
+  </data>
+  <data name="TaxAndBpExempt" xml:space="preserve">
+    <value>معفاة من الضرائب / BP</value>
+  </data>
+  <data name="TaxExempt" xml:space="preserve">
+    <value>معفاة من الضرائب</value>
+  </data>
+  <data name="AJAX_SorryGenericFileNotUploaded" xml:space="preserve">
+    <value>عذرًا ، لم يتم تحميل ملفك.</value>
+  </data>
+  <data name="ChooseFiles" xml:space="preserve">
+    <value>اختر الملفات</value>
+  </data>
+  <data name="ChooseFiles_HTML5" xml:space="preserve">
+    <value>إضافة ملفات)</value>
+  </data>
+  <data name="DeleteFileDisclaimer" xml:space="preserve">
+    <value>حذف الملف: انقر بزر الماوس الأيسر على &lt;span class = "text-risk"&gt; RED &lt;/span&gt; "X".</value>
+  </data>
+  <data name="NoGeneratorRegisteredToHandleExtension" xml:space="preserve">
+    <value>عذرًا ، ملفك ليس نوعًا صالحًا.</value>
+  </data>
+  <data name="UploadPDFs" xml:space="preserve">
+    <value>تحميل ملف (ملفات) PDF</value>
+  </data>
+  <data name="ListingImage" xml:space="preserve">
+    <value>صورة الإدراج</value>
+  </data>
+  <data name="EventAdditionalMedia" xml:space="preserve">
+    <value>وسائط إضافية</value>
+  </data>
+  <data name="EventImages" xml:space="preserve">
+    <value>صور</value>
+  </data>
+  <data name="AJAX_TooManyImages" xml:space="preserve">
+    <value>لم يتم تحميل الصورة ، احذف الصورة الموجودة أولاً.</value>
+  </data>
+  <data name="ChooseImage_HTML5" xml:space="preserve">
+    <value>إضافة صورة</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>وحدة زمنية</value>
+  </data>
+  <data name="UploadEventBanner" xml:space="preserve">
+    <value>تحميل شعار الحدث</value>
+  </data>
+  <data name="UploadEventImage" xml:space="preserve">
+    <value>تحميل صورة الحدث</value>
+  </data>
+  <data name="AddWatchFailure" xml:space="preserve">
+    <value>فشلت إضافة الساعة</value>
+  </data>
+  <data name="DeleteLotFailure" xml:space="preserve">
+    <value>فشل حذف اللوت</value>
+  </data>
+  <data name="DeleteLotSuccess" xml:space="preserve">
+    <value>تم حذف الكثير بنجاح</value>
+  </data>
+  <data name="EndLotEarlyFailure" xml:space="preserve">
+    <value>فشل إنهاء العقد المبكر مبكرًا</value>
+  </data>
+  <data name="EndLotEarlySuccess" xml:space="preserve">
+    <value>انتهى لوط بنجاح في وقت مبكر</value>
+  </data>
+  <data name="EventDetailsHeader" xml:space="preserve">
+    <value>تفاصيل الحدث</value>
+  </data>
+  <data name="EventTitleX" xml:space="preserve">
+    <value>الحدث: {0}</value>
+  </data>
+  <data name="LotNumberX" xml:space="preserve">
+    <value>رقم القطعة: {0}</value>
+  </data>
+  <data name="RemoveWatchFailure" xml:space="preserve">
+    <value>أخفقت إزالة الساعة</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الحدث</value>
+  </data>
+  <data name="RotateImage" xml:space="preserve">
+    <value>استدارة</value>
+  </data>
+  <data name="ActivityHighToLow" xml:space="preserve">
+    <value>النشاط الأعلى</value>
+  </data>
+  <data name="ActivityLowToHigh" xml:space="preserve">
+    <value>النشاط الأقل</value>
+  </data>
+  <data name="ArchivePurchases" xml:space="preserve">
+    <value>أرشفة المشتريات المختارة</value>
+  </data>
+  <data name="RestorePurchases" xml:space="preserve">
+    <value>استعادة المشتريات المختارة</value>
+  </data>
+  <data name="ManagedByName" xml:space="preserve">
+    <value>اديرت من قبل</value>
+  </data>
+  <data name="RelistingLotNotAllowed" xml:space="preserve">
+    <value>لا يسمح بالاعتماد على الكثير. استخدم قائمة مماثلة بدلاً من ذلك.</value>
+  </data>
+  <data name="ShippingInfo" xml:space="preserve">
+    <value>معلومات الشحن</value>
+  </data>
+  <data name="LineItemInvoiced" xml:space="preserve">
+    <value>يرتبط واحد أو أكثر من البنود المحددة بفاتورة. الرجاء إزالة البنود من الفواتير قبل المتابعة</value>
+  </data>
+  <data name="UnvoidSales" xml:space="preserve">
+    <value>مبيعات مختارة</value>
+  </data>
+  <data name="Voided" xml:space="preserve">
+    <value>فسخ</value>
+  </data>
+  <data name="VoidLineItemsFailure" xml:space="preserve">
+    <value>فشل في إلغاء البند (العناصر)</value>
+  </data>
+  <data name="VoidLineItemsSuccess" xml:space="preserve">
+    <value>تم تحديث البند (العناصر) الملغى بنجاح</value>
+  </data>
+  <data name="VoidSales" xml:space="preserve">
+    <value>المبيعات المختارة باطلة</value>
+  </data>
+  <data name="ManagedByX" xml:space="preserve">
+    <value>يُدار بواسطة {0}</value>
+  </data>
+  <data name="Auctioneer" xml:space="preserve">
+    <value>الدلال</value>
+  </data>
+  <data name="EventUsesProxy" xml:space="preserve">
+    <value>يستخدم هذا المزاد &lt;strong&gt; المزايدة بالوكالة &lt;/ strong&gt;.</value>
+  </data>
+  <data name="FirstLotCloses" xml:space="preserve">
+    <value>إغلاق العقد الأول</value>
+  </data>
+  <data name="Lots" xml:space="preserve">
+    <value>الكثير</value>
+  </data>
+  <data name="ShippingInformation" xml:space="preserve">
+    <value>معلومات الشحن</value>
+  </data>
+  <data name="ClosingGroupManagement" xml:space="preserve">
+    <value>إدارة مجموعات إغلاق الأحداث</value>
+  </data>
+  <data name="NewGroupDragHere" xml:space="preserve">
+    <value>مجموعة جديدة (اسحب الكثير هنا.)</value>
+  </data>
+  <data name="ConnectionSlow" xml:space="preserve">
+    <value>الاتصال بطيء</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>انقطع الاتصال</value>
+  </data>
+  <data name="Reconnected" xml:space="preserve">
+    <value>إعادة الاتصال</value>
+  </data>
+  <data name="Reconnecting" xml:space="preserve">
+    <value>جارٍ إعادة الاتصال</value>
+  </data>
+  <data name="Started" xml:space="preserve">
+    <value>تم إنشاء الاتصال لتحديثات الوقت الفعلي</value>
+  </data>
+  <data name="AuctionLotSettings" xml:space="preserve">
+    <value>الكثير من المزاد</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>زيادة راتب</value>
+  </data>
+  <data name="Increments" xml:space="preserve">
+    <value>الزيادات</value>
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>مستوى السعر</value>
+  </data>
+  <data name="SalesReport" xml:space="preserve">
+    <value>تقرير المبيعات</value>
+  </data>
+  <data name="SoftClosingGroupIncrement" xml:space="preserve">
+    <value>تمديد الزيادة التلقائية</value>
+  </data>
+  <data name="ApplyFilters" xml:space="preserve">
+    <value>تطبيق الفلاتر</value>
+  </data>
+  <data name="ExportCSV" xml:space="preserve">
+    <value>تصدير CSV</value>
+  </data>
+  <data name="NoResultsToDisplay" xml:space="preserve">
+    <value>لا توجد نتائج للعرض</value>
+  </data>
+  <data name="ResetFilters" xml:space="preserve">
+    <value>إعادة تعيين الفلاتر</value>
+  </data>
+  <data name="AlreadyWatching" xml:space="preserve">
+    <value>أنت تشاهد هذه القائمة بالفعل</value>
+  </data>
+  <data name="UseHTMLEditor" xml:space="preserve">
+    <value>هل تريد استخدام محرر HTML؟</value>
+  </data>
+  <data name="SoftClosingGroupManagement" xml:space="preserve">
+    <value>إدارة المجموعات التلقائية</value>
+  </data>
+  <data name="SalesInvoicesReport" xml:space="preserve">
+    <value>فواتير المبيعات</value>
+  </data>
+  <data name="ClassifiedDetails" xml:space="preserve">
+    <value>تفاصيل سرية</value>
+  </data>
+  <data name="EventCurrencyInfo" xml:space="preserve">
+    <value>جميع الأسعار المدرجة في</value>
+  </data>
+  <data name="EventID" xml:space="preserve">
+    <value>معرف الحدث</value>
+  </data>
+  <data name="EventManagedby_Help" xml:space="preserve">
+    <value>اسم النشاط التجاري أو المجموعة أو جهة الاتصال الفردية التي تدير هذا الحدث.</value>
+  </data>
+  <data name="EventSubtitle_Help" xml:space="preserve">
+    <value>لخص الحدث الخاص بك. سيتم عرض هذا المحتوى بجانب العنوان وعلى كل قطعة فردية.</value>
+  </data>
+  <data name="ProxyBidding_Help" xml:space="preserve">
+    <value>&lt;p&gt; ممكّن: يتم إدخال العطاءات تلقائيًا نيابة عن مقدم العطاء بأقل مبلغ مطلوب للفوز بالعنصر. &lt;/ p&gt;
+&lt;p&gt; معطل: يتم تقديم أقصى عرض تسعير للمستخدم فور إدخاله ، ولا يتم تقديم عروض أسعار تلقائية نيابة عن المستخدمين. &lt;/ p&gt;</value>
+  </data>
+  <data name="UploadMediaPDF_Help" xml:space="preserve">
+    <value>حدد ملفات PDF لربطها بقائمتك. يمكن تسمية كل ملف باسم عرض منفصل بعد تحميله.</value>
+  </data>
+  <data name="ClosingGroupIncrement_Help" xml:space="preserve">
+    <value>مقدار الوقت بين أوقات إغلاق الدفعة المتداخلة.</value>
+  </data>
+  <data name="EventCurrency_Help" xml:space="preserve">
+    <value>حدد العملة لجميع العطاءات والمعاملات الحدث.</value>
+  </data>
+  <data name="SoftClosingGroupIncrement_Help" xml:space="preserve">
+    <value>مقدار الوقت اللازم لتمديد وقت الإغلاق (أو الحصص المتعددة) عندما تكون العطاءات لا تزال نشطة ؛ على غرار حماية القناص. يؤثر على كل الحصص في نفس المجموعة توسيع تلقائي.</value>
+  </data>
+  <data name="RecaptchaSecurity" xml:space="preserve">
+    <value>اختبار CAPTCHA</value>
+  </data>
+  <data name="BuyersPremiumPercent_Help" xml:space="preserve">
+    <value>نسبة رسوم إضافية على العطاء الفائز للدفعة التي يجب أن يدفعها الفائز.</value>
+  </data>
+  <data name="EventSummary_Help" xml:space="preserve">
+    <value>لخص تفاصيل الحدث الخاص بك. سيظهر هذا الوصف المختصر على الصفحة الرئيسية وأعلى كل حصة مزاد.</value>
+  </data>
+  <data name="LineItemAlreadyInvoiced" xml:space="preserve">
+    <value>تم تعيين هذا البند بالفعل إلى فاتورة أخرى</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>مجموعة جديدة</value>
+  </data>
+  <data name="ToggleDropdown" xml:space="preserve">
+    <value>تبديل القائمة المنسدلة</value>
+  </data>
+  <data name="EventCurrency" xml:space="preserve">
+    <value>عملة:</value>
+  </data>
+  <data name="SuccessfulEventCreation" xml:space="preserve">
+    <value>تم إنشاء الحدث</value>
+  </data>
+  <data name="WatchVideo" xml:space="preserve">
+    <value>شاهد الفيديو</value>
+  </data>
+  <data name="CreateALot" xml:space="preserve">
+    <value>إنشاء لوط</value>
+  </data>
+  <data name="CreateNewEvent" xml:space="preserve">
+    <value>إنشاء حدث جديد</value>
+  </data>
+  <data name="EventTimeZone" xml:space="preserve">
+    <value>وقت الحدث</value>
+  </data>
+  <data name="DateChanged" xml:space="preserve">
+    <value>تم تغيير التاريخ</value>
+  </data>
+  <data name="EndTimeHistory" xml:space="preserve">
+    <value>سجل وقت الانتهاء</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>حدث</value>
+  </data>
+  <data name="ExtensionReason_BUYNOW_ORIGIN" xml:space="preserve">
+    <value>تم شراؤها</value>
+  </data>
+  <data name="ExtensionReason_ENDEARLY_ORIGIN" xml:space="preserve">
+    <value>انتهى في وقت مبكر</value>
+  </data>
+  <data name="ExtensionReason_SOFT_TARGET" xml:space="preserve">
+    <value>حماية القناص</value>
+  </data>
+  <data name="ExtensionReason_SYSTEM_CALCULATED" xml:space="preserve">
+    <value>النظام</value>
+  </data>
+  <data name="ListingExtensionHistory" xml:space="preserve">
+    <value>سجل تمديد الإدراج</value>
+  </data>
+  <data name="NewEndDTTM" xml:space="preserve">
+    <value>تاريخ / وقت انتهاء جديد</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>السبب</value>
+  </data>
+  <data name="RelatedListing" xml:space="preserve">
+    <value>قائمة ذات صلة</value>
+  </data>
+  <data name="EditEvent" xml:space="preserve">
+    <value>تحرير الحدث</value>
+  </data>
+  <data name="EditEventSuccess" xml:space="preserve">
+    <value>تم تحديث الحدث</value>
+  </data>
+  <data name="PayFees" xml:space="preserve">
+    <value>دفع رسوم</value>
+  </data>
+  <data name="ArchiveEvents" xml:space="preserve">
+    <value>أرشفة الأحداث المختارة</value>
+  </data>
+  <data name="EndingSoonest" xml:space="preserve">
+    <value>تنتهي قريبا</value>
+  </data>
+  <data name="LineageString_EventsPublished" xml:space="preserve">
+    <value>الأحداث&gt; منشور</value>
+  </data>
+  <data name="Oldest" xml:space="preserve">
+    <value>الأقدم</value>
+  </data>
+  <data name="RestoreEvents" xml:space="preserve">
+    <value>استعادة الأحداث المحددة</value>
+  </data>
+  <data name="YouMustSelectAtLeastOneEventToProceed" xml:space="preserve">
+    <value>يجب تحديد حدث واحد على الأقل للمتابعة</value>
+  </data>
+  <data name="EventMustBeArchivedToUnarchive" xml:space="preserve">
+    <value>يجب أرشفة الحدث لاستعادته</value>
+  </data>
+  <data name="EventMustBeClosedToArchive" xml:space="preserve">
+    <value>يجب إغلاق الحدث للأرشيف</value>
+  </data>
+  <data name="SetEventsArchivedFailure" xml:space="preserve">
+    <value>فشل تحديث الحالة المؤرشفة</value>
+  </data>
+  <data name="SetEventsArchivedSuccess" xml:space="preserve">
+    <value>تم تحديث الحالة المؤرشفة بنجاح</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>أرشيف</value>
+  </data>
+  <data name="Archive_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-folder-close"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="CreateLot_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-plus"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Publish_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-check"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>استعادة</value>
+  </data>
+  <data name="Restore_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-folder-open"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="View_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-eye-open"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="CantAddLineItemToPaidInvoice" xml:space="preserve">
+    <value>لا يمكن إضافة بند البيع غير المدفوع إلى فاتورة مدفوعة</value>
+  </data>
+  <data name="AddAnotherLot" xml:space="preserve">
+    <value>أضف لوت آخر</value>
+  </data>
+  <data name="CreateLotPage2Success" xml:space="preserve">
+    <value>تم إنشاء الكثير الخاص بك</value>
+  </data>
+  <data name="FeePaymentRequiredToCreateListing" xml:space="preserve">
+    <value>يجب دفع الرسوم المستحقة قبل إنشاء قوائم جديدة.</value>
+  </data>
+  <data name="ActivateListingsFailure" xml:space="preserve">
+    <value>فشل تنشيط قائمة واحدة أو أكثر</value>
+  </data>
+  <data name="ActivateSelected" xml:space="preserve">
+    <value>تنشيط المحدد</value>
+  </data>
+  <data name="CSVImport_ColumnName" xml:space="preserve">
+    <value>اسم العمود</value>
+  </data>
+  <data name="CSVImport_ColumnNumber" xml:space="preserve">
+    <value>العمود #</value>
+  </data>
+  <data name="CSVImport_CSVHelp" xml:space="preserve">
+    <value>تعليمات CSV</value>
+  </data>
+  <data name="CSVImport_DataType_Boolean" xml:space="preserve">
+    <value>خطأ صحيح</value>
+  </data>
+  <data name="CSVImport_DataType_DateTime" xml:space="preserve">
+    <value>التاريخ / الوقت</value>
+  </data>
+  <data name="CSVImport_DataType_Decimal" xml:space="preserve">
+    <value>عدد عشري</value>
+  </data>
+  <data name="CSVImport_DataType_Enum" xml:space="preserve">
+    <value>خيار</value>
+  </data>
+  <data name="CSVImport_DataType_Int" xml:space="preserve">
+    <value>عدد صحيح</value>
+  </data>
+  <data name="CSVImport_DataType_String" xml:space="preserve">
+    <value>نص</value>
+  </data>
+  <data name="CSVImport_Example" xml:space="preserve">
+    <value>مثال</value>
+  </data>
+  <data name="CSVImport_Example_Description" xml:space="preserve">
+    <value>&lt;p&gt; الوصف الخاص بي &lt;/ p&gt;</value>
+  </data>
+  <data name="CSVImport_Example_Image" xml:space="preserve">
+    <value>http://rainworx.com/test.jpg</value>
+  </data>
+  <data name="CSVImport_Example_Subtitle" xml:space="preserve">
+    <value>العنوان الفرعي الخاص بي</value>
+  </data>
+  <data name="CSVImport_Example_Title" xml:space="preserve">
+    <value>لقبي</value>
+  </data>
+  <data name="CSVImport_Notes" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="CSVImport_Notes_AutoRelist" xml:space="preserve">
+    <value>أقصى عدد من المرات لإعادة إدراج القائمة تلقائيًا في حالة عدم نجاحها. اضبط على صفر ، أو تجاهل لمنع الاعتماد التلقائي.</value>
+  </data>
+  <data name="CSVImport_Notes_Badge" xml:space="preserve">
+    <value>اضبط على "صحيح" لإضافة لافتة "تخفيضات" إلى القائمة</value>
+  </data>
+  <data name="CSVImport_Notes_Bold" xml:space="preserve">
+    <value>قم بالتعيين على "true" على "معرّف القائمة" و "العنوان" ليظهر بالخط العريض</value>
+  </data>
+  <data name="CSVImport_Notes_Category" xml:space="preserve">
+    <value>معرف الفئة</value>
+  </data>
+  <data name="CSVImport_Notes_Currency" xml:space="preserve">
+    <value>إحدى القيم التالية: {0}</value>
+  </data>
+  <data name="CSVImport_Notes_CustomFieldChoice" xml:space="preserve">
+    <value>(ل 1})</value>
+  </data>
+  <data name="CSVImport_Notes_CustomFieldOptional" xml:space="preserve">
+    <value>نظرًا لأن هذا الحقل غير مطلوب ، يمكن أن يكون أحد القيم التالية ، أو فارغًا: {0}</value>
+  </data>
+  <data name="CSVImport_Notes_CustomFieldRequired" xml:space="preserve">
+    <value>نظرًا لأن هذا الحقل مطلوب ، يجب أن يكون أحد القيم التالية للفئات التي تم تعيينها لها: {0}</value>
+  </data>
+  <data name="CSVImport_Notes_Description" xml:space="preserve">
+    <value>وصف القائمة</value>
+  </data>
+  <data name="CSVImport_Notes_Duration" xml:space="preserve">
+    <value>عدد أيام فتح قائمة البيانات. &lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; إذا كان "خيار مدة الإدراج" لنوع الإدراج المحدد هو "المدة فقط" أو "البدء والمدة".</value>
+  </data>
+  <data name="CSVImport_Notes_EndDTTM" xml:space="preserve">
+    <value>يجب أن تنتهي قائمة التاريخ / الوقت. &lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; إذا كان "خيار مدة الإدراج" لنوع الإدراج المحدد هو "البداية والنهاية" أو "النهاية فقط".</value>
+  </data>
+  <data name="CSVImport_Notes_EventID" xml:space="preserve">
+    <value>معرف الحدث</value>
+  </data>
+  <data name="CSVImport_Notes_Featured" xml:space="preserve">
+    <value>اضبط على "صحيح" لكي تظهر القائمة في قسم "القوائم المميزة"</value>
+  </data>
+  <data name="CSVImport_Notes_FixedPrice" xml:space="preserve">
+    <value>سعر الشراء الآن الاختياري للمزادات (مُهمَل لأنواع القوائم الأخرى)</value>
+  </data>
+  <data name="CSVImport_Notes_GoodTilCanceled" xml:space="preserve">
+    <value>&lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; لسعر ثابت أو قوائم مصنفة (يتم تجاهلها عندما يكون ListingType هو المزاد). اضبط على "true" لتظل بطاقة بيانات نشطة حتى نجاحها أو إلغاؤها. اضبط على "خطأ" لمنع الإلغاء الجيد.</value>
+  </data>
+  <data name="CSVImport_Notes_Highlight" xml:space="preserve">
+    <value>قم بالتعيين على "true" حتى يظهر عنوان القائمة "مميز"</value>
+  </data>
+  <data name="CSVImport_Notes_Image" xml:space="preserve">
+    <value>معرف موارد منتظم (URI) إلى ملف صورة لتنزيله لإدخال القائمة كصورة # {0}. إذا كنت تستخدم file: // ، فإن جذر الويب الفعلي الخاص بك موجود على "{1}". لذلك ، إذا كنت تشير إلى ملفات قمت بتحميلها إلى موقعك ، فستكون قيمة هذا الحقل على النحو التالي "file: /// {2}" (لاحظ الخطوط المائلة الثلاث بعد "file:" للملفات المحلية والشرطات المائلة للخلف يجب يمكن تغيير الخطوط المائلة للأمام).</value>
+  </data>
+  <data name="CSVImport_Notes_Image1Addendum" xml:space="preserve">
+    <value>&lt;p&gt; &lt;strong&gt; ستكون هذه هي صورة القائمة الرئيسية. &lt;/ strong&gt; &lt;/p&gt;</value>
+  </data>
+  <data name="CSVImport_Notes_ListingType" xml:space="preserve">
+    <value>إحدى القيم التالية: {0}</value>
+  </data>
+  <data name="CSVImport_Notes_LotNumber" xml:space="preserve">
+    <value>رقم الدفعة (أبجدي رقمي)</value>
+  </data>
+  <data name="CSVImport_Notes_Price" xml:space="preserve">
+    <value>سعر الإدراج (&lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; عرض التسعير المبدئي للمزادات ، &lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; سعر الشراء بسعر ثابت ، وسعر اختياري للإعلانات المبوبة )</value>
+  </data>
+  <data name="CSVImport_Notes_Quantity" xml:space="preserve">
+    <value>&lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; الكمية مقابل السعر الثابت (تم تجاهلها لأنواع القوائم الأخرى)</value>
+  </data>
+  <data name="CSVImport_Notes_Region" xml:space="preserve">
+    <value>معرف المنطقة</value>
+  </data>
+  <data name="CSVImport_Notes_ReservePrice" xml:space="preserve">
+    <value>سعر احتياطي اختياري للمزادات (مُهمَل لأنواع القوائم الأخرى)</value>
+  </data>
+  <data name="CSVImport_Notes_SellersUsername" xml:space="preserve">
+    <value>اسم المستخدم للبائع</value>
+  </data>
+  <data name="CSVImport_Notes_Shipping1" xml:space="preserve">
+    <value>&lt;b&gt; تنسيق خيارات الشحن: &lt;/ b&gt;
+&lt;div class = "code"&gt;
+{0}
+&lt;/div&gt;
+&lt;p&gt; (تنسيق خيارات الشحن هو رقم تعريف طريقة الشحن ، متبوعًا بنقطتين ":" ، متبوعًا بسعر هذه الطريقة ، متبوعًا اختياريًا بنقطتين آخر ":" والسعر لكل عنصر إضافي. يمكن تكرار ذلك عدة مرات ، لخيارات شحن متعددة ؛ ومع ذلك ، يجب فصل كل منها بواسطة أنبوب "|"). يجب ألا تظهر طرق الشحن أكثر من مرة في هذه القيمة. يعتمد {1} و {2} دائمًا على العملة المحددة لقائمة البيانات. &lt;/ p&gt;
+&lt;b&gt; طرق الشحن الصالحة: &lt;/ b&gt; &lt;br/&gt; &lt;br/&gt;
+&lt;table class = 'codeTable'&gt;
+&lt;tr&gt; &lt;th&gt; معرف طريقة الشحن &lt;/ th&gt; &lt;th&gt; &lt;/th&gt; &lt;th&gt; اسم طريقة الشحن &lt;/ th&gt; &lt;/tr&gt;
+{3}
+&lt;/table&gt;</value>
+  </data>
+  <data name="CSVImport_Notes_Shipping2" xml:space="preserve">
+    <value>&lt;p&gt; على سبيل المثال ، إذا كان يجب أن يحتوي العنصر على خيارين للشحن ، الأول عبر "{0}" لـ {1} والثاني عبر "{2}" لـ {3} (ومقدار عنصر إضافي بقيمة {4} لكل خيار) ، يجب أن تكون قيمة هذا الحقل كما يلي: &lt;/p&gt; &lt;div class = "code"&gt; {5} &lt;/div&gt;</value>
+  </data>
+  <data name="CSVImport_Notes_Shipping3" xml:space="preserve">
+    <value>&lt;p&gt; على سبيل المثال ، إذا كان يجب أن يحتوي العنصر على خيارات شحن واحدة ، عبر "{0}" لـ {1} (ومقدار عنصر إضافي بقيمة {2}) ، فيجب أن تكون قيمة هذا الحقل كما يلي: &lt;/ p&gt; &lt;div class = "code"&gt; {3} &lt;/div&gt;</value>
+  </data>
+  <data name="CSVImport_Notes_StartDTTM" xml:space="preserve">
+    <value>يجب أن تبدأ قائمة التاريخ / الوقت. &lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; إذا كان "خيار مدة الإدراج" لنوع الإدراج المحدد هو "البداية والمدة" أو "البدء والنهاية".</value>
+  </data>
+  <data name="CSVImport_Notes_Subtitle" xml:space="preserve">
+    <value>ترجمة العنوان</value>
+  </data>
+  <data name="CSVImport_Notes_Title" xml:space="preserve">
+    <value>عنوان القائمة</value>
+  </data>
+  <data name="CSVImport_Notes_YouTubeID" xml:space="preserve">
+    <value>معرف فيديو YouTube (رمز 11 حرفًا بعد "v =" في عنوان URL لـ YouTube) إلى فيديو YouTube</value>
+  </data>
+  <data name="CSVImport_ValueType" xml:space="preserve">
+    <value>نوع القيمة</value>
+  </data>
+  <data name="LineageString_Listings_Drafts" xml:space="preserve">
+    <value>القوائم&gt; المسودات</value>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value>مطلوب</value>
+  </data>
+  <data name="SaveAndActivate" xml:space="preserve">
+    <value>حفظ وتنشيط</value>
+  </data>
+  <data name="SaveDraft" xml:space="preserve">
+    <value>حفظ المسودة</value>
+  </data>
+  <data name="xSuccessfullyActivated" xml:space="preserve">
+    <value>{0} تم التفعيل بنجاح</value>
+    <comment>{0} is number of listings activated</comment>
+  </data>
+  <data name="LineageString_EventsArchived" xml:space="preserve">
+    <value>الأحداث&gt; مؤرشف</value>
+  </data>
+  <data name="LineageString_EventsClosed" xml:space="preserve">
+    <value>الأحداث&gt; مغلق</value>
+  </data>
+  <data name="LineageString_EventsDrafts" xml:space="preserve">
+    <value>أحداث&gt; مسودات</value>
+  </data>
+  <data name="LineageString_LotsByEvent" xml:space="preserve">
+    <value>الأحداث&gt; {0}&gt; معرف الحدث # {2}&gt; إدارة المزاد</value>
+    <comment>{0} is MyEvents subcategory name, {1} is event title, {2} is event ID</comment>
+  </data>
+  <data name="LotNumberAtoZ" xml:space="preserve">
+    <value>رقم الدفعة ، من أ إلى ي</value>
+  </data>
+  <data name="LotNumberZtoA" xml:space="preserve">
+    <value>رقم الدفعة ، من Z إلى A</value>
+  </data>
+  <data name="LotOrder" xml:space="preserve">
+    <value>ترتيب العقد</value>
+  </data>
+  <data name="LotOrderHighLow" xml:space="preserve">
+    <value>ترتيب العقد ، من الأعلى إلى الأقل</value>
+  </data>
+  <data name="LotOrderLowHigh" xml:space="preserve">
+    <value>ترتيب العقد ، من الأقل إلى الأعلى</value>
+  </data>
+  <data name="MyEvents" xml:space="preserve">
+    <value>الأحداث الخاصة بي</value>
+  </data>
+  <data name="NumberOfLots" xml:space="preserve">
+    <value>عدد اللوتات</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>نشرت</value>
+  </data>
+  <data name="PublishEventFailure" xml:space="preserve">
+    <value>فشل نشر الحدث</value>
+  </data>
+  <data name="PublishEventSuccess" xml:space="preserve">
+    <value>تم نشر الحدث</value>
+  </data>
+  <data name="SaveAndPublish" xml:space="preserve">
+    <value>حفظ ونشر</value>
+  </data>
+  <data name="SaveAndValidate" xml:space="preserve">
+    <value>حفظ والتحقق من الصحة</value>
+  </data>
+  <data name="ViewLot" xml:space="preserve">
+    <value>عرض اللوت</value>
+  </data>
+  <data name="EditEventFailure" xml:space="preserve">
+    <value>فشل تحرير الحدث</value>
+  </data>
+  <data name="PreviewLots" xml:space="preserve">
+    <value>معاينة الكثير</value>
+  </data>
+  <data name="PreviewLots_Help" xml:space="preserve">
+    <value>&lt;p&gt; ممكّن: سيكون هذا الحدث والكثير المرتبط قابلاً للعرض فور نشر الحدث ، بغض النظر عن تاريخ / وقت البدء. &lt;/ p&gt;
+&lt;p&gt; معطل: لن يكون هذا الحدث والكثير المرتبط قابلاً للعرض حتى وصول تاريخ / وقت البدء. &lt;/ p&gt;</value>
+  </data>
+  <data name="ValidateAllDrafts" xml:space="preserve">
+    <value>التحقق من جميع المسودات</value>
+  </data>
+  <data name="ValidateAllDraftsSuccess" xml:space="preserve">
+    <value>بدأ التحقق من صحة المسودة بنجاح</value>
+  </data>
+  <data name="ValidateAllDrafts_Results_BodyFooter" xml:space="preserve">
+    <value>&lt;br&gt; &lt;br&gt; &lt;small&gt; إن أمكن ، يتم إرفاق قائمة بجميع أخطاء التحقق من الصحة &lt;/ small&gt;</value>
+  </data>
+  <data name="ValidateAllDrafts_Results_BodyHeader" xml:space="preserve">
+    <value>تم الانتهاء من التحقق من مسودة العقد. &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="ValidateAllDrafts_Results_CompletedDTTM" xml:space="preserve">
+    <value>اكتمل التحقق: {0} &lt;br&gt; &lt;br&gt;</value>
+    <comment>{0} is job end DTTM</comment>
+  </data>
+  <data name="ValidateAllDrafts_Results_DraftLotCount" xml:space="preserve">
+    <value>إجمالي الحصص المجهزة: {0} &lt;br&gt;</value>
+    <comment>{0} is draft lot count</comment>
+  </data>
+  <data name="ValidateAllDrafts_Results_EventTitle" xml:space="preserve">
+    <value>عنوان الحدث: {1} ({0}) &lt;br&gt; &lt;br&gt;</value>
+    <comment>{0} is event ID, {1} is event title</comment>
+  </data>
+  <data name="ValidateAllDrafts_Results_InvalidCount" xml:space="preserve">
+    <value>فشل التحقق من صحة الكثير: {0} &lt;br&gt;</value>
+    <comment>{0} is failed validation count</comment>
+  </data>
+  <data name="ValidateAllDrafts_Results_Row_Error" xml:space="preserve">
+    <value>الخطأ: {0}</value>
+    <comment>{0} is error message</comment>
+  </data>
+  <data name="ValidateAllDrafts_Results_Row_LotNumber" xml:space="preserve">
+    <value>---------- رقم الدفعة {0}</value>
+    <comment>{0} is lot number</comment>
+  </data>
+  <data name="ValidateAllDrafts_Results_Subject" xml:space="preserve">
+    <value>نتائج التحقق من الكثير للحدث # {0}</value>
+    <comment>{0} is event ID</comment>
+  </data>
+  <data name="ValidateAllDrafts_Results_ValidatedCount" xml:space="preserve">
+    <value>تم التحقق من الكثير بنجاح: {0} &lt;br&gt;</value>
+    <comment>{0} is validated count</comment>
+  </data>
+  <data name="ValidateAllDrafts_ErrorNotification_Subject" xml:space="preserve">
+    <value>حدث خطأ أثناء التحقق من المسودات للحدث # {0}</value>
+    <comment>{0} is event ID</comment>
+  </data>
+  <data name="Drafts" xml:space="preserve">
+    <value>المسودات</value>
+  </data>
+  <data name="EventClosingGroupIncrementNotEditable_Help" xml:space="preserve">
+    <value>لا يمكن تغيير زيادة مجموعة الإغلاق إلا إذا لم يبدأ إغلاق الحدث بعد.</value>
+  </data>
+  <data name="EventEndDttmNotEditable_Help" xml:space="preserve">
+    <value>لا يمكن تغيير تاريخ / وقت الانتهاء إلا إذا لم يبدأ إغلاق الحدث بعد.</value>
+  </data>
+  <data name="EventStartDttmNotEditable_Help" xml:space="preserve">
+    <value>لا يمكن تغيير تاريخ / وقت البدء إلا إذا لم يبدأ الحدث بعد.</value>
+  </data>
+  <data name="Xminutes" xml:space="preserve">
+    <value>{0} دقيقة</value>
+    <comment>{0} is number of minutes</comment>
+  </data>
+  <data name="DeleteImageDisclaimerEventBanner" xml:space="preserve">
+    <value>&lt;p&gt;
+&lt;strong&gt; يتم عرض "شعار الحدث" في صفحة "تفاصيل الحدث" الخاصة بك. &lt;/ strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt; استدارة: &lt;/ strong&gt; قم بتغيير اتجاه صورتك.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt; حذف: &lt;/ strong&gt; إزالة الصورة من lisitng.
+&lt;/p&gt;</value>
+  </data>
+  <data name="DeleteImageDisclaimerEventImage" xml:space="preserve">
+    <value>&lt;p&gt;
+&lt;strong&gt; تظهر "صورة الحدث" عند عرض الأحداث في قائمة. &lt;/ strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt; استدارة: &lt;/ strong&gt; قم بتغيير اتجاه صورتك.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt; حذف: &lt;/ strong&gt; إزالة الصورة من lisitng.
+&lt;/p&gt;</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>اسم العرض</value>
+  </data>
+  <data name="PublishEventCompleted" xml:space="preserve">
+    <value>تم النشر!</value>
+  </data>
+  <data name="PublishEventStarted" xml:space="preserve">
+    <value>النشر قيد التقدم ...</value>
+  </data>
+  <data name="ValidateAllDraftsCompleted_CheckEmail" xml:space="preserve">
+    <value>اكتملت مسودة التحقق! يرجى التحقق من بريدك الإلكتروني للحصول على التفاصيل.</value>
+  </data>
+  <data name="ValidateAllDraftsStarted" xml:space="preserve">
+    <value>مسودة التحقق قيد التقدم ...</value>
+  </data>
+  <data name="DeleteEventWarning_Really" xml:space="preserve">
+    <value>هل تريد حقًا حذف هذا الحدث؟ سيتم أيضًا حذف جميع العقود المرتبطة.</value>
+  </data>
+  <data name="EndEarlyEventWarning_Really" xml:space="preserve">
+    <value>هل حقا إنهاء هذا الحدث في وقت مبكر؟</value>
+  </data>
+  <data name="DeleteLotWarning_Really" xml:space="preserve">
+    <value>هل تريد حقًا حذف هذا الحجم؟</value>
+  </data>
+  <data name="EndEarlyLotWarning_Really" xml:space="preserve">
+    <value>حقا إنهاء هذا الكثير في وقت مبكر؟</value>
+  </data>
+  <data name="CantPublishEventsWithDraftLotsMessage" xml:space="preserve">
+    <value>&lt;p&gt; يحتوي هذا الحدث على حصة مسودة واحدة أو أكثر مرتبطة به. &lt;/ p&gt; &lt;p&gt; الرجاء التحقق من صحة جميع مسودات السحب أو حذفها وإعادة المحاولة. &lt;/ p&gt;</value>
+    <comment>this string must not contain any newline characters</comment>
+  </data>
+  <data name="CantPublishEventsWithDraftLotsTitle" xml:space="preserve">
+    <value>لا يمكن نشر الحدث</value>
+  </data>
+  <data name="ClosingGroupsFailure" xml:space="preserve">
+    <value>فشل تحديث طلب الدفعة</value>
+  </data>
+  <data name="ClosingGroupsSuccess" xml:space="preserve">
+    <value>تم تحديث طلب اللوت</value>
+  </data>
+  <data name="LineageString_ClosingGroupManagement" xml:space="preserve">
+    <value>الأحداث&gt; إدارة أمر اللوت</value>
+  </data>
+  <data name="LineageString_SoftClosingGroupManagement" xml:space="preserve">
+    <value>الأحداث&gt; إدارة توسيع المجموعات تلقائيًا</value>
+  </data>
+  <data name="ManageLotOrder" xml:space="preserve">
+    <value>إدارة أمر اللوت</value>
+  </data>
+  <data name="ManageSoftClosingGroups" xml:space="preserve">
+    <value>إدارة المجموعات التلقائية</value>
+  </data>
+  <data name="NumberOfDraftLots" xml:space="preserve">
+    <value>عدد المسودات</value>
+  </data>
+  <data name="PayFees_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-usd"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="ViewDraftLots" xml:space="preserve">
+    <value>عرض مسودة الكثير</value>
+  </data>
+  <data name="DeleteEventFailure" xml:space="preserve">
+    <value>فشل حذف الحدث</value>
+  </data>
+  <data name="DeleteEventSuccess" xml:space="preserve">
+    <value>تم حذف الحدث</value>
+  </data>
+  <data name="EndEventEarlyFailure" xml:space="preserve">
+    <value>فشل إنهاء الحدث مبكرًا</value>
+  </data>
+  <data name="EndEventEarlySuccess" xml:space="preserve">
+    <value>انتهى الحدث في وقت مبكر</value>
+  </data>
+  <data name="EndedEarliest" xml:space="preserve">
+    <value>انتهى في أقرب وقت ممكن</value>
+  </data>
+  <data name="EndedRecently" xml:space="preserve">
+    <value>انتهى مؤخرا</value>
+  </data>
+  <data name="BidCountHighToLow" xml:space="preserve">
+    <value># المزايدات ، الأعلى</value>
+  </data>
+  <data name="BidCountLowToHigh" xml:space="preserve">
+    <value># المزايدات ، الأدنى</value>
+  </data>
+  <data name="ManageAuctions" xml:space="preserve">
+    <value>إدارة المزادات</value>
+  </data>
+  <data name="ImportCategories" xml:space="preserve">
+    <value>استيراد الفئات</value>
+  </data>
+  <data name="ImportListings" xml:space="preserve">
+    <value>قوائم الاستيراد</value>
+  </data>
+  <data name="ImportRegions" xml:space="preserve">
+    <value>مناطق الاستيراد</value>
+  </data>
+  <data name="AllCategories" xml:space="preserve">
+    <value>جميع الفئات</value>
+  </data>
+  <data name="JumpToLot" xml:space="preserve">
+    <value>انتقل إلى رقم اللوت</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>قائمة طعام</value>
+  </data>
+  <data name="MyAccountHome" xml:space="preserve">
+    <value>الصفحة الرئيسية لحسابي</value>
+  </data>
+  <data name="MyAuctions" xml:space="preserve">
+    <value>مزاداتي</value>
+  </data>
+  <data name="InvoiceID" xml:space="preserve">
+    <value>فاتورة #</value>
+  </data>
+  <data name="LineageString_Bidding_Invoices" xml:space="preserve">
+    <value>المزايدة&gt; الفواتير</value>
+  </data>
+  <data name="LineageString_Events_Invoices" xml:space="preserve">
+    <value>الأحداث&gt; الفواتير</value>
+  </data>
+  <data name="LineageString_Events_Sales" xml:space="preserve">
+    <value>الأحداث&gt; المبيعات</value>
+  </data>
+  <data name="LineageString_Listings_Invoices" xml:space="preserve">
+    <value>القوائم&gt; الفواتير</value>
+  </data>
+  <data name="LineageString_Listings_SalesReport" xml:space="preserve">
+    <value>القوائم&gt; تقرير المبيعات</value>
+  </data>
+  <data name="SalesTransactions_csv" xml:space="preserve">
+    <value>SalesTransactions.csv</value>
+  </data>
+  <data name="QtyAvailable" xml:space="preserve">
+    <value># متاح:</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>مرشح واضح</value>
+  </data>
+  <data name="DisplayOptions" xml:space="preserve">
+    <value>خيارات العرض</value>
+  </data>
+  <data name="HasImage" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="LotImageStatus" xml:space="preserve">
+    <value>هل يوجد الكثير في الصور؟</value>
+  </data>
+  <data name="LotPricing" xml:space="preserve">
+    <value>تسعير الكثير</value>
+  </data>
+  <data name="NoImage" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="NoPaymentHistory" xml:space="preserve">
+    <value>لا توجد سجلات دفع</value>
+  </data>
+  <data name="CantRelistDraftListing" xml:space="preserve">
+    <value>لا يمكن الاعتماد على مسودة القائمة. جرّب "سرد مماثل" بدلاً من ذلك.</value>
+  </data>
+  <data name="xNotActivated" xml:space="preserve">
+    <value>تعذر تنشيط {0}</value>
+  </data>
+  <data name="AddIncrement" xml:space="preserve">
+    <value>إضافة مستوى زيادة جديد</value>
+  </data>
+  <data name="BidIncrement" xml:space="preserve">
+    <value>زيادة العطاء</value>
+  </data>
+  <data name="EditIncrements" xml:space="preserve">
+    <value>قم بتعديل أو مراجعة زيادات عرض الحدث</value>
+  </data>
+  <data name="IncrementHelp" xml:space="preserve">
+    <value>&lt;p&gt; تحدد زيادات العطاء &lt;em&gt; الحد الأدنى &lt;/ em&gt; لمبلغ العطاء الصالح الذي يمكن للمستخدم إدخاله عند تقديم عطاء في المزاد. &lt;/ p&gt; &lt;p&gt; يجوز للمستخدم تقديم أي مبلغ يساوي أو يزيد عن ( السعر الحالي) + (زيادة المزايدة). &lt;/ p&gt; &lt;p&gt; يتم تطبيق الزيادات عند كل "مستوى سعر" حتى "مستوى السعر" التالي المحدد. &lt;/ p&gt;</value>
+  </data>
+  <data name="MinBidIncrements" xml:space="preserve">
+    <value>الحد الأدنى للزيادة في العطاء</value>
+  </data>
+  <data name="ActivateListing_small" xml:space="preserve">
+    <value>&lt;span class = "glyphicon glyphicon-folder-ok"&gt; &lt;/span&gt;</value>
+  </data>
+  <data name="NoFeedbackHistory" xml:space="preserve">
+    <value>لا يوجد سجل ملاحظات</value>
+  </data>
+  <data name="FilterBy" xml:space="preserve">
+    <value>مصنف بواسطة:</value>
+  </data>
+  <data name="FinalPrice" xml:space="preserve">
+    <value>السعر النهائي</value>
+  </data>
+  <data name="NoActiveBids" xml:space="preserve">
+    <value>ليس لديك عطاءات نشطة.</value>
+  </data>
+  <data name="NoBiddingHistory" xml:space="preserve">
+    <value>لا يوجد تاريخ المزايدة.</value>
+  </data>
+  <data name="NoDraftListings" xml:space="preserve">
+    <value>لا توجد مسودات قوائم.</value>
+  </data>
+  <data name="PriceNotSet" xml:space="preserve">
+    <value>السعر غير محدد</value>
+  </data>
+  <data name="NoActiveListings" xml:space="preserve">
+    <value>ليس لديك قوائم نشطة.</value>
+  </data>
+  <data name="NoEndedListings" xml:space="preserve">
+    <value>لا توجد قوائم.</value>
+  </data>
+  <data name="NoPurchaseInvoices" xml:space="preserve">
+    <value>لا فواتير شراء.</value>
+  </data>
+  <data name="NoSalesInvoices" xml:space="preserve">
+    <value>لا فواتير بيع.</value>
+  </data>
+  <data name="NoScheduledListings" xml:space="preserve">
+    <value>ليس لديك قوائم مجدولة.</value>
+  </data>
+  <data name="NoSuccessfulListings" xml:space="preserve">
+    <value>ليس لديك قوائم ناجحة.</value>
+  </data>
+  <data name="NoUnsuccessfulListings" xml:space="preserve">
+    <value>لا توجد قوائم.</value>
+  </data>
+  <data name="CheckoutWithCreditCard" xml:space="preserve">
+    <value>الخروج مع &lt;strong&gt; بطاقة الائتمان &lt;/ strong&gt;</value>
+  </data>
+  <data name="CVV_Help" xml:space="preserve">
+    <value>رمز أمان / التحقق من بطاقتك ليس رقم PIN الخاص بك. يتم طباعة أو كتابة الرمز المكون من 3 أو 4 أرقام على بطاقة الائتمان الخاصة بك.</value>
+  </data>
+  <data name="EmptyWatchList" xml:space="preserve">
+    <value>أنت لا تشاهد أي قوائم.</value>
+  </data>
+  <data name="NoWonListings" xml:space="preserve">
+    <value>لا مشتريات.</value>
+  </data>
+  <data name="PayWithPayPal" xml:space="preserve">
+    <value>الخروج مع &lt;strong&gt; PayPal &lt;/strong&gt;</value>
+  </data>
+  <data name="SelectFromExistingCC" xml:space="preserve">
+    <value>حدد من البطاقات الموجودة</value>
+  </data>
+  <data name="EventNumber" xml:space="preserve">
+    <value>حدث #</value>
+  </data>
+  <data name="SalesTransactions_Event_X_csv" xml:space="preserve">
+    <value>SalesTransactions_Event_ {0} .csv</value>
+    <comment>{0} is Event ID</comment>
+  </data>
+  <data name="Xseconds" xml:space="preserve">
+    <value>{0} ثانية</value>
+    <comment>{0} is number of seconds</comment>
+  </data>
+  <data name="ActivateListing" xml:space="preserve">
+    <value>تنشيط القائمة</value>
+  </data>
+  <data name="ManageLots" xml:space="preserve">
+    <value>إدارة المزاد</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>ينشر</value>
+  </data>
+  <data name="PublishEvent" xml:space="preserve">
+    <value>نشر الحدث</value>
+  </data>
+  <data name="UnArchive" xml:space="preserve">
+    <value>Un-Archive</value>
+  </data>
+  <data name="ValidateAllDraftLots" xml:space="preserve">
+    <value>التحقق من جميع مسودات الكثير</value>
+  </data>
+  <data name="StartsclosingIn" xml:space="preserve">
+    <value>يبدأ الإغلاق:</value>
+  </data>
+  <data name="FewestBids" xml:space="preserve">
+    <value>أقل عدد من العروض</value>
+  </data>
+  <data name="MostBids" xml:space="preserve">
+    <value>معظم العروض</value>
+  </data>
+  <data name="FailedValidation" xml:space="preserve">
+    <value>فشل التحقق من الصحة</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>التحقق من الصحة</value>
+  </data>
+  <data name="ValidateDraftLotFailure" xml:space="preserve">
+    <value>فشل التحقق من مسودة العقد</value>
+  </data>
+  <data name="ValidateDraftLotSuccess" xml:space="preserve">
+    <value>تم التحقق من الكثير</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>مجموعة</value>
+  </data>
+  <data name="AutoExtendGroupManagementNotAvailableOnceEventIsClosing" xml:space="preserve">
+    <value>لم تعد إدارة التمديد التلقائي للمجموعة متاحة لأن هذا الحدث بدأ الإغلاق</value>
+  </data>
+  <data name="LotOrderManagementNotAvailableOnceEventIsClosing" xml:space="preserve">
+    <value>لم تعد إدارة طلب العقد متاحة لأن هذا الحدث قد بدأ في الإغلاق</value>
+  </data>
+  <data name="LotNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الكثير</value>
+  </data>
+  <data name="ClosedAuctions" xml:space="preserve">
+    <value>مزادات مغلقة</value>
+  </data>
+  <data name="CurrentAuctions" xml:space="preserve">
+    <value>المزادات الحالية</value>
+  </data>
+  <data name="UpcomingAuctions" xml:space="preserve">
+    <value>الاقترانات القادمة</value>
+  </data>
+  <data name="Auctions" xml:space="preserve">
+    <value>مزادات</value>
+  </data>
+  <data name="EventCustomFields" xml:space="preserve">
+    <value>الحقول المخصصة للحدث</value>
+  </data>
+  <data name="LotCustomFields" xml:space="preserve">
+    <value>الحقول المخصصة للوط</value>
+  </data>
+  <data name="RemoveFromInvoiceAndVoidSale" xml:space="preserve">
+    <value>الإزالة من الفاتورة والبيع الباطل</value>
+  </data>
+  <data name="UnVoidSale" xml:space="preserve">
+    <value>تخفيضات باطلة</value>
+  </data>
+  <data name="VoidInvoicedSaleWarningText" xml:space="preserve">
+    <value>سيؤدي إلغاء هذا البيع إلى إزالته تلقائيًا من الفاتورة ومن المحتمل أن يحذف الفاتورة.</value>
+  </data>
+  <data name="VoidInvoicedSaleWarningTitle" xml:space="preserve">
+    <value>تم تحرير فاتورة هذا البيع بالفعل</value>
+  </data>
+  <data name="VoidSale" xml:space="preserve">
+    <value>بيع باطل</value>
+  </data>
+  <data name="MySummaryCountClosedEvents" xml:space="preserve">
+    <value>مزادات مكتملة</value>
+  </data>
+  <data name="MySummaryCountClosingEvents" xml:space="preserve">
+    <value>المزادات تغلق الآن</value>
+  </data>
+  <data name="MySummaryCountDraftEvents" xml:space="preserve">
+    <value>مسودة أحداث المزاد</value>
+  </data>
+  <data name="MySummaryCountPublishedEvents" xml:space="preserve">
+    <value>أحداث المزاد المنشورة</value>
+  </data>
+  <data name="MySummaryCountUnpaidSoldLots" xml:space="preserve">
+    <value>بيع الكثير ينتظر الدفع</value>
+  </data>
+  <data name="StartEarly" xml:space="preserve">
+    <value>بدأت باكرا</value>
+  </data>
+  <data name="StartEventEarlyFailure" xml:space="preserve">
+    <value>فشل بدء الحدث مبكرًا</value>
+  </data>
+  <data name="StartEventEarlySuccess" xml:space="preserve">
+    <value>حدث كتبت</value>
+  </data>
+  <data name="CantPublishEventEndingInPast" xml:space="preserve">
+    <value>لا يمكن نشر هذا الحدث لأنه يحتوي على تاريخ / وقت انتهاء في الماضي</value>
+  </data>
+  <data name="CreateEventSuccess" xml:space="preserve">
+    <value>تم إنشاء الحدث</value>
+  </data>
+  <data name="EventRequired" xml:space="preserve">
+    <value>الحدث مطلوب</value>
+  </data>
+  <data name="EventRequired_Text" xml:space="preserve">
+    <value>يجب عليك إنشاء حدث لإضافة الكثير</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>منجز</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>اختياري</value>
+  </data>
+  <data name="SoftClosingGroupsFailure" xml:space="preserve">
+    <value>فشل التحديث التلقائي لمجموعات التمديد</value>
+  </data>
+  <data name="SoftClosingGroupsSuccess" xml:space="preserve">
+    <value>تم تحديث المجموعات تلقائيًا بنجاح</value>
+  </data>
+  <data name="SelectRegion" xml:space="preserve">
+    <value>حدد منطقة</value>
+  </data>
+  <data name="ChangeRegion" xml:space="preserve">
+    <value>تغيير المنطقة</value>
+  </data>
+  <data name="SetRegion" xml:space="preserve">
+    <value>تعيين المنطقة</value>
+  </data>
+  <data name="BuyNowPrice" xml:space="preserve">
+    <value>إشتري الآن سعر</value>
+  </data>
+  <data name="LotID" xml:space="preserve">
+    <value>معرف الدفعة</value>
+  </data>
+  <data name="Lots_By_Event_X_csv" xml:space="preserve">
+    <value>Lots_By_Event_ {0} .csv</value>
+  </data>
+  <data name="Reserve" xml:space="preserve">
+    <value>الاحتياطي</value>
+  </data>
+  <data name="EventEndDate" xml:space="preserve">
+    <value>تاريخ انتهاء الحدث</value>
+  </data>
+  <data name="EventManagedBy" xml:space="preserve">
+    <value>الحدث يديره</value>
+  </data>
+  <data name="EventStartDate" xml:space="preserve">
+    <value>تاريخ بدء الحدث</value>
+  </data>
+  <data name="EventTitle" xml:space="preserve">
+    <value>عنوان الحدث</value>
+  </data>
+  <data name="NoEventsAvailable" xml:space="preserve">
+    <value>لا يوجد أحداث متاحة -أو- حالة الحدث معلق</value>
+  </data>
+  <data name="CopyLots" xml:space="preserve">
+    <value>نسخ الكثير ...</value>
+  </data>
+  <data name="CopySelectedLots" xml:space="preserve">
+    <value>نسخ الكثير المحدد</value>
+  </data>
+  <data name="LineageString_CopyLots" xml:space="preserve">
+    <value>الأحداث&gt; نسخ الكثير</value>
+  </data>
+  <data name="MissingSourceEventID" xml:space="preserve">
+    <value>معرف حدث المصدر مفقود</value>
+  </data>
+  <data name="MissingTargetEventID" xml:space="preserve">
+    <value>معرف حدث الهدف مفقود</value>
+  </data>
+  <data name="ToEvent" xml:space="preserve">
+    <value>إلى الحدث</value>
+  </data>
+  <data name="xNotCreated" xml:space="preserve">
+    <value>تعذر إنشاء {0}</value>
+  </data>
+  <data name="xSuccessfullyCreated" xml:space="preserve">
+    <value>{0} تم إنشاؤها بنجاح</value>
+  </data>
+  <data name="YouMustSelectAtLeastOneLotToCopy" xml:space="preserve">
+    <value>يجب تحديد دفعة واحدة على الأقل للنسخ</value>
+  </data>
+  <data name="AuthenticationSucceeded_RegitrationNeeded" xml:space="preserve">
+    <value>يرجى تقديم بعض التفاصيل الإضافية لإنهاء إعداد حسابك</value>
+  </data>
+  <data name="AddXxxSignIn" xml:space="preserve">
+    <value>أضف {0} تسجيل الدخول</value>
+  </data>
+  <data name="facebook" xml:space="preserve">
+    <value>موقع التواصل الاجتماعي الفيسبوك</value>
+  </data>
+  <data name="google" xml:space="preserve">
+    <value>جوجل</value>
+  </data>
+  <data name="OrSignInWithYourUsernameAndPassword" xml:space="preserve">
+    <value>... أو قم بتسجيل الدخول باستخدام اسم المستخدم وكلمة المرور الخاصة بك</value>
+  </data>
+  <data name="RemoveProviderLoginFailure" xml:space="preserve">
+    <value>فشل إزالة تسجيل دخول الموفر</value>
+  </data>
+  <data name="RemoveXxxSignIn" xml:space="preserve">
+    <value>إزالة {0} تسجيل الدخول</value>
+    <comment>{0} is the external provider name, e.g. "Facebook", "Google"</comment>
+  </data>
+  <data name="SignInWithXxx" xml:space="preserve">
+    <value>تسجيل الدخول باستخدام {0}</value>
+    <comment>{0} is the external provider name, e.g. "Facebook", "Google"</comment>
+  </data>
+  <data name="SuccessfullyAddedXxxSignIn" xml:space="preserve">
+    <value>تمت إضافة تسجيل دخول {0} بنجاح</value>
+  </data>
+  <data name="SuccessfullyRemovedXxxSignIn" xml:space="preserve">
+    <value>تمت إزالة تسجيل دخول {0} بنجاح</value>
+    <comment>{0} is the external provider name, e.g. "Facebook", "Google"</comment>
+  </data>
+  <data name="VAT" xml:space="preserve">
+    <value>ضريبة القيمة المضافة</value>
+  </data>
+  <data name="AwaitingPaymentConfirmation" xml:space="preserve">
+    <value>في انتظار تأكيد الدفع</value>
+  </data>
+  <data name="PaymentPending" xml:space="preserve">
+    <value>قيد الانتظار</value>
+  </data>
+  <data name="FeeCategories" xml:space="preserve">
+    <value>فئات الرسوم</value>
+  </data>
+  <data name="DeleteListingsFailure" xml:space="preserve">
+    <value>فشل حذف القائمة</value>
+  </data>
+  <data name="DeleteMultipleListingsWarning_Really" xml:space="preserve">
+    <value>هل تريد حقًا حذف هذه القوائم؟</value>
+  </data>
+  <data name="DeleteSelected" xml:space="preserve">
+    <value>احذف المختار</value>
+  </data>
+  <data name="xSuccessfullyDeleted" xml:space="preserve">
+    <value>تم حذف {0} بنجاح</value>
+  </data>
+  <data name="CSVImport_Example_PdfAttachments" xml:space="preserve">
+    <value>http://rainworx.com/test1.pdf{0} My Test PDF {1} | http: //rainworx.com/test2.pdf {0} ملفي الثاني للاختبار PDF {1}</value>
+    <comment>{0} is literal left curly brace, {1} is literal right curly brace</comment>
+  </data>
+  <data name="CSVImport_Notes_PdfAttachments" xml:space="preserve">
+    <value>واحد أو أكثر من معرفات الموارد المنتظمة (URI) إلى ملف (ملفات) PDF لتنزيلها لهذه القائمة كمرفقات PDF ، مفصولة بشريط (أشرطة) أفقي (|) يمكن أن يتبع كل عنوان URI اختياريًا عنوانًا وديًا للمرفق عن طريق إضافة العنوان بأقواس متعرجة ({2} ، {3}). إذا لم يتم تضمين عنوان مألوف ، فسيتم استخدام اسم الملف بدلاً من ذلك. إذا كنت تستخدم file: // ، فإن جذر الويب الفعلي الخاص بك موجود على "{0}". لذلك ، إذا كنت تشير إلى ملفات قمت بتحميلها إلى موقعك ، فستكون قيمة هذا الحقل على النحو التالي "file: /// {1}" (لاحظ الخطوط المائلة الثلاث بعد "file:" للملفات المحلية والشرطة المائلة العكسية ( \) يجب تغيير الخط المائل للأمام (/)).</value>
+    <comment>{0} is physicial file path, {1} is uri path, {2} is literal left curly brace, {3} is literal right curly brace</comment>
+  </data>
+  <data name="AnswerQuestionSuccess" xml:space="preserve">
+    <value>شكرا لك على الإجابة على السؤال</value>
+  </data>
+  <data name="AnswerThisQuestion" xml:space="preserve">
+    <value>اجب عن السؤال</value>
+  </data>
+  <data name="Answer_short" xml:space="preserve">
+    <value>أ</value>
+  </data>
+  <data name="CantAskQuestionOnOwnListing" xml:space="preserve">
+    <value>لا يمكنك نشر سؤال على قائمتك الخاصة.</value>
+  </data>
+  <data name="DeleteThisQuestionAnswer" xml:space="preserve">
+    <value>حذف السؤال / الإجابة</value>
+  </data>
+  <data name="EnterYourAnswer" xml:space="preserve">
+    <value>أدخل إجابتك</value>
+  </data>
+  <data name="EnterYourQuestion" xml:space="preserve">
+    <value>أدخل سؤالك</value>
+  </data>
+  <data name="ListingAnswerHelpText" xml:space="preserve">
+    <value>الحد الأقصى 250 حرفًا</value>
+  </data>
+  <data name="ListingQuestionHelpText" xml:space="preserve">
+    <value>الحد الأقصى 250 حرفًا</value>
+  </data>
+  <data name="LoginRequiredToPostQuestion" xml:space="preserve">
+    <value>يجب تسجيل الدخول لنشر سؤال</value>
+  </data>
+  <data name="PostAQuestion" xml:space="preserve">
+    <value>انشر سؤالاً</value>
+  </data>
+  <data name="PostedBy" xml:space="preserve">
+    <value>منشور من طرف</value>
+  </data>
+  <data name="PostListingQuestionSuccess" xml:space="preserve">
+    <value>شكرا لك على نشر سؤال</value>
+  </data>
+  <data name="QuestionNotExist" xml:space="preserve">
+    <value>لم يتم العثور على السؤال</value>
+  </data>
+  <data name="QuestionsAndAnswers" xml:space="preserve">
+    <value>أسئلة و أجوبة</value>
+  </data>
+  <data name="Question_short" xml:space="preserve">
+    <value>س</value>
+  </data>
+  <data name="SignInToPostAQuestion" xml:space="preserve">
+    <value>تسجيل الدخول لنشر سؤال</value>
+  </data>
+  <data name="ThereAreNoQuestionsForThisListing" xml:space="preserve">
+    <value>لا توجد أسئلة لهذه القائمة.</value>
+  </data>
+  <data name="DeleteQuestionFailure" xml:space="preserve">
+    <value>فشل حذف سؤال الإدراج</value>
+  </data>
+  <data name="DeleteQuestionSuccess" xml:space="preserve">
+    <value>تم حذف سؤال الإدراج</value>
+  </data>
+  <data name="DeleteQuestionWarning_Really" xml:space="preserve">
+    <value>هل تريد حقًا حذف هذا السؤال؟</value>
+  </data>
+  <data name="LoginRequiredToAnswerQuestion" xml:space="preserve">
+    <value>يجب تسجيل الدخول للإجابة على السؤال</value>
+  </data>
+  <data name="Regarding_short" xml:space="preserve">
+    <value>إعادة:</value>
+  </data>
+  <data name="xCharsRemaining" xml:space="preserve">
+    <value>(المتبقي: {0})</value>
+    <comment>{0} is the number of characters remaining</comment>
+  </data>
+  <data name="ApplyCommentToAllInvoices" xml:space="preserve">
+    <value>تطبيق التعليق على جميع الفواتير</value>
+  </data>
+  <data name="ApplyCommentToAllInvoices_Help" xml:space="preserve">
+    <value>في حالة التحديد: سيتم أيضًا تحديث جميع الفواتير الأخرى بهذا التعليق.</value>
+  </data>
+  <data name="EventSummaryCount_CurrentTotal" xml:space="preserve">
+    <value>إجمالي الحصص الحالي مع احتياطي التقى</value>
+  </data>
+  <data name="EventSummaryCount_CurrentTotalBelowReserve" xml:space="preserve">
+    <value>المجموع الحالي للعقود أقل من الاحتياطي</value>
+  </data>
+  <data name="EventSummaryCount_ItemsBelowReserve" xml:space="preserve">
+    <value>عدد العقود تحت الاحتياطي</value>
+  </data>
+  <data name="EventSummaryCount_ItemsWithBids" xml:space="preserve">
+    <value>عدد الحصص التي لها عروض</value>
+  </data>
+  <data name="EventSummaryCount_MaxBidsTotal" xml:space="preserve">
+    <value>إجمالي كافة عروض أسعار الوكيل القصوى</value>
+  </data>
+  <data name="EventSummaryCount_ParticipatingBidders" xml:space="preserve">
+    <value>المزايدون المشاركون</value>
+  </data>
+  <data name="EventSummaryCount_TotalBids" xml:space="preserve">
+    <value># العروض</value>
+  </data>
+  <data name="EventSummaryCount_TotalItems" xml:space="preserve">
+    <value>عدد العقود</value>
+  </data>
+  <data name="EventSummaryCount_WinningBidders" xml:space="preserve">
+    <value>الفائزون بالمزايدين</value>
+  </data>
+  <data name="LineageString_EventSummary" xml:space="preserve">
+    <value>الأحداث&gt; {0}&gt; {1} ({2})&gt; الملخص</value>
+    <comment>{0} is MyEvents subcategory name, {1} is event title, {2} is event ID</comment>
+  </data>
+  <data name="EmailAllEventInvoicesFailure" xml:space="preserve">
+    <value>إرسال جميع فواتير الأحداث بالبريد الإلكتروني</value>
+  </data>
+  <data name="EmailAllEventInvoicesSuccess" xml:space="preserve">
+    <value>تم إرسال فواتير الأحداث</value>
+  </data>
+  <data name="EmailAllInvoicesForThisEvent" xml:space="preserve">
+    <value>إرسال جميع فواتير الأحداث بالبريد الإلكتروني</value>
+  </data>
+  <data name="LotsTaxable" xml:space="preserve">
+    <value>الكثير الخاضع للضريبة</value>
+  </data>
+  <data name="LotsTaxable_Help" xml:space="preserve">
+    <value>&lt;p&gt; ممكّن: سيتم فرض الضرائب على الكثير في هذا الحدث بشكل افتراضي &lt;/ p&gt;
+&lt;p&gt; معطل: لن يخضع الكثير في هذا الحدث للضريبة افتراضيًا &lt;/ p&gt;
+&lt;p&gt; ملاحظة: بغض النظر عن هذه القيمة ، لا يزال من الممكن تعديل فواتير معينة لتغيير الحالة الخاضعة للضريبة لعناصر بيع معينة. &lt;/ p&gt;</value>
+  </data>
+  <data name="EmailAllInvoices" xml:space="preserve">
+    <value>إرسال جميع الفواتير بالبريد الإلكتروني</value>
+  </data>
+  <data name="EmailMultipleInvoicesFailure" xml:space="preserve">
+    <value>لم يتم إرسال فواتير</value>
+  </data>
+  <data name="EmailMultipleInvoicesPartialSuccess" xml:space="preserve">
+    <value>تم إرسال فواتير {1} خارج {0} المطلوبة. تعذر إرسال الفواتير التالية: {2}</value>
+    <comment>{0} is Requested Count, {1} is Success Count, {2} is comma-separated list of invoice IDs</comment>
+  </data>
+  <data name="EmailMultipleInvoicesSuccess" xml:space="preserve">
+    <value>تم إرسال جميع الفواتير المحددة</value>
+  </data>
+  <data name="PrintAllInvoices" xml:space="preserve">
+    <value>طباعة جميع الفواتير</value>
+  </data>
+  <data name="PrintAllInvoicesForThisEvent" xml:space="preserve">
+    <value>طباعة جميع فواتير الأحداث</value>
+  </data>
+  <data name="ViewInvoices" xml:space="preserve">
+    <value>عرض الفواتير</value>
+  </data>
+  <data name="GroupAll" xml:space="preserve">
+    <value>مجموعة الكل</value>
+  </data>
+  <data name="GroupXLotsTogether" xml:space="preserve">
+    <value>تجميع عدة عقود</value>
+  </data>
+  <data name="NumOfLotsPerGroup" xml:space="preserve">
+    <value>عدد اللوتات لكل مجموعة</value>
+  </data>
+  <data name="Proceed" xml:space="preserve">
+    <value>تقدم</value>
+  </data>
+  <data name="QuickGroupNLotsPerGroupTitle" xml:space="preserve">
+    <value>كم عدد القطع لكل مجموعة؟</value>
+  </data>
+  <data name="QuickGroupWarningTitle" xml:space="preserve">
+    <value>إعادة حساب تأكيد المجموعات</value>
+  </data>
+  <data name="QuickGroupWarning_CantBeUndone" xml:space="preserve">
+    <value>لا يمكن التراجع عن هذا الإجراء</value>
+  </data>
+  <data name="QuickGroupWarning_Really" xml:space="preserve">
+    <value>إعادة حساب جميع المجموعات؟</value>
+  </data>
+  <data name="RecalculateClosingGroupsFailure" xml:space="preserve">
+    <value>فشل إعادة حساب مجموعات الإغلاق</value>
+  </data>
+  <data name="RecalculateClosingGroupsSuccess" xml:space="preserve">
+    <value>تم إعادة حساب مجموعات الإغلاق بنجاح</value>
+  </data>
+  <data name="UnGroupAll" xml:space="preserve">
+    <value>Un-Group All</value>
+  </data>
+  <data name="CopyLotOrderGroups" xml:space="preserve">
+    <value>نسخ مجموعات أوامر اللوت</value>
+  </data>
+  <data name="RecalculateSoftClosingGroupsFailure" xml:space="preserve">
+    <value>فشل إعادة حساب مجموعات التمديد التلقائي</value>
+  </data>
+  <data name="RecalculateSoftClosingGroupsSuccess" xml:space="preserve">
+    <value>تمت إعادة حساب مجموعات التمديد التلقائي بنجاح</value>
+  </data>
+  <data name="StripeAccountConnectionFailed" xml:space="preserve">
+    <value>حدث خطأ أثناء محاولة الاتصال بحساب Stripe.com الخاص بك</value>
+  </data>
+  <data name="ClickToRefreshNow" xml:space="preserve">
+    <value>انقر للتحديث الآن</value>
+  </data>
+  <data name="HandleStripeConnectResponseSuccess" xml:space="preserve">
+    <value>تم إضافة حساب Stripe الخاص بك بنجاح</value>
+  </data>
+  <data name="LiveUpdatesAppearToBeDisconnected" xml:space="preserve">
+    <value>يبدو أن التحديثات المباشرة غير متصلة</value>
+  </data>
+  <data name="ReorderLotsByLotNumber" xml:space="preserve">
+    <value>قم بإعادة طلب الحصص بحسب رقم اللوت</value>
+  </data>
+  <data name="TimeRemaining" xml:space="preserve">
+    <value>الوقت المتبقي</value>
+  </data>
+  <data name="StripeConnect" xml:space="preserve">
+    <value>شريط</value>
+  </data>
+  <data name="ConnectWithStripe" xml:space="preserve">
+    <value>تواصل مع Stripe</value>
+  </data>
+  <data name="CopySiteFeesStripeCredentialsFailure" xml:space="preserve">
+    <value>فشل نسخ بيانات اعتماد شريط الموقع</value>
+  </data>
+  <data name="CopySiteFeesStripeCredentialsSuccess" xml:space="preserve">
+    <value>نسخ بيانات اعتماد شريط الموقع للاستخدام مع مدفوعات المبيعات لهذا المستخدم</value>
+  </data>
+  <data name="DeleteCardFailure" xml:space="preserve">
+    <value>فشل حذف البطاقة</value>
+  </data>
+  <data name="DeleteCardSuccess" xml:space="preserve">
+    <value>تم حذف البطاقة بنجاح</value>
+  </data>
+  <data name="DisconnectFromStripe" xml:space="preserve">
+    <value>قطع الاتصال بـ Stripe</value>
+  </data>
+  <data name="DisconnectSiteFeesStripeCredentialsFailure" xml:space="preserve">
+    <value>فشل قطع بيانات اعتماد شريط الموقع</value>
+  </data>
+  <data name="DisconnectSiteFeesStripeCredentialsSuccess" xml:space="preserve">
+    <value>تم حذف بيانات اعتماد الشريط</value>
+  </data>
+  <data name="UseSiteFeeStripeAccount" xml:space="preserve">
+    <value>استخدم بيانات اعتماد شريط الموقع</value>
+  </data>
+  <data name="CreditCardCheckoutAvailableForInvoiceTotalsOfXandAbove" xml:space="preserve">
+    <value>الدفع عن طريق بطاقة الائتمان متاح لمجموع فاتورة {0} وما فوق.</value>
+    <comment>{0} is a value such as "$0.50"</comment>
+  </data>
+  <data name="RegistrationOptions" xml:space="preserve">
+    <value>خيارات التسجيل</value>
+  </data>
+  <data name="SaveConfiguration" xml:space="preserve">
+    <value>حفظ التكوين</value>
+  </data>
+  <data name="SelectedFileIsTooLarge" xml:space="preserve">
+    <value>الملف الذي حددته ، "[FILE_NAME]" ([FILE_SIZE]) ، كبير جدًا. الحجم الأقصى المسموح به هو [MAX_FILE_SIZE].</value>
+  </data>
+  <data name="LotNumX" xml:space="preserve">
+    <value>رقم القطعة {0}</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>التالى</value>
+  </data>
+  <data name="prev" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="ApplyCommentToAllInvoices_Events_Help" xml:space="preserve">
+    <value>في حالة التحديد: سيتم أيضًا تحديث جميع الفواتير الأخرى من نفس الحدث بهذا التعليق.</value>
+  </data>
+  <data name="CopyLotsToThisEvent" xml:space="preserve">
+    <value>نسخ الكثير إلى ...</value>
+  </data>
+  <data name="DeletedSelectedLots" xml:space="preserve">
+    <value>المحذوفة المختارة</value>
+  </data>
+  <data name="DeleteLots" xml:space="preserve">
+    <value>حذف الكثير ...</value>
+  </data>
+  <data name="DeleteLotsWarning_Really" xml:space="preserve">
+    <value>هل تريد حقًا حذف هذه اللوطات؟</value>
+  </data>
+  <data name="MoveLots" xml:space="preserve">
+    <value>نقل الكثير ...</value>
+  </data>
+  <data name="MoveLotsToThisEvent" xml:space="preserve">
+    <value>نقل الكثير إلى ...</value>
+  </data>
+  <data name="MoveSelectedLots" xml:space="preserve">
+    <value>نقل الكثير المحدد</value>
+  </data>
+  <data name="YouMustSelectAtLeastOneLotToProceed" xml:space="preserve">
+    <value>يجب تحديد قطعة واحدة على الأقل للمتابعة</value>
+  </data>
+  <data name="CSVImport_Notes_AutoRelist_MixedMode" xml:space="preserve">
+    <value>&lt;br&gt; ** تم تجاهلها عند تحديد EventID</value>
+  </data>
+  <data name="CSVImport_Notes_Currency_MixedMode" xml:space="preserve">
+    <value>** تم تجاهلها عند تحديد EventID</value>
+  </data>
+  <data name="CSVImport_Notes_Duration_MixedMode" xml:space="preserve">
+    <value>&lt;br&gt; ** تم تجاهلها عند تحديد EventID</value>
+  </data>
+  <data name="CSVImport_Notes_EndDTTM_MixedMode" xml:space="preserve">
+    <value>&lt;br&gt; ** تم تجاهلها عند تحديد EventID</value>
+  </data>
+  <data name="CSVImport_Notes_EventID_MixedMode" xml:space="preserve">
+    <value>** اختياري ، لكنه يفرض ListingType على "المزاد" عند توفير القيمة</value>
+  </data>
+  <data name="CSVImport_Notes_GoodTilCanceled_MixedMode" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CSVImport_Notes_ListingType_MixedMode" xml:space="preserve">
+    <value>** تم تجاهلها عند تحديد EventID</value>
+  </data>
+  <data name="CSVImport_Notes_LotNumber_MixedMode" xml:space="preserve">
+    <value>** تم تجاهله عندما لم يتم تحديد EventID</value>
+  </data>
+  <data name="CSVImport_Notes_SellersUsername_MixedMode" xml:space="preserve">
+    <value>** تم تجاهلها عند تحديد EventID</value>
+  </data>
+  <data name="CSVImport_Notes_StartDTTM_MixedMode" xml:space="preserve">
+    <value>&lt;br&gt; ** تم تجاهلها عند تحديد EventID</value>
+  </data>
+  <data name="UndoReset" xml:space="preserve">
+    <value>تراجع عن إعادة التعيين</value>
+  </data>
+  <data name="Plus_Xpct_BuyersPremium" xml:space="preserve">
+    <value>سيتم تطبيق قسط {0} المشتري على السعر النهائي.</value>
+  </data>
+  <data name="ShippingServiceCosts" xml:space="preserve">
+    <value>الشحن والمناولة (كبند إضافي)</value>
+  </data>
+  <data name="ShippingServiceProvider" xml:space="preserve">
+    <value>مقدم الخدمة</value>
+  </data>
+  <data name="AdditionalDocuments" xml:space="preserve">
+    <value>وثائق إضافية</value>
+  </data>
+  <data name="ItemNumber" xml:space="preserve">
+    <value>العنصر رقم {0}</value>
+  </data>
+  <data name="ListingPageViews" xml:space="preserve">
+    <value>{0} مشاهدات الصفحة</value>
+  </data>
+  <data name="LotItemNumber" xml:space="preserve">
+    <value>رقم القطعة {0}</value>
+  </data>
+  <data name="ViewSellersOtherListings" xml:space="preserve">
+    <value>عرض قوائم البائع الأخرى</value>
+  </data>
+  <data name="WatchCount" xml:space="preserve">
+    <value>{0} المشاهدة</value>
+  </data>
+  <data name="ListingEndDateTime" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="ListingStartDateTime" xml:space="preserve">
+    <value>تاريخ البدء</value>
+  </data>
+  <data name="BuyerFee" xml:space="preserve">
+    <value>رسوم المشتري</value>
+  </data>
+  <data name="EventBiddingEnded" xml:space="preserve">
+    <value>مزايدة مغلقة</value>
+  </data>
+  <data name="EventBiddingOpen" xml:space="preserve">
+    <value>مزايدة مفتوحة</value>
+  </data>
+  <data name="EventBiddingPreview" xml:space="preserve">
+    <value>معاينة</value>
+  </data>
+  <data name="ViewAllLots" xml:space="preserve">
+    <value>عرض كل الكثير</value>
+  </data>
+  <data name="LineageString_EventSummary_short" xml:space="preserve">
+    <value>الأحداث&gt; {0}&gt; ملخص</value>
+    <comment>{0} is MyEvents subcategory name (i.e. draft, published, etc.)</comment>
+  </data>
+  <data name="RemainingCharacters" xml:space="preserve">
+    <value>الأحرف المتبقية</value>
+  </data>
+  <data name="AcceptOffer" xml:space="preserve">
+    <value>اقبل العرض</value>
+  </data>
+  <data name="BuyersMessage" xml:space="preserve">
+    <value>رسالة المشتري</value>
+  </data>
+  <data name="DeclineOffer" xml:space="preserve">
+    <value>رفض العرض</value>
+  </data>
+  <data name="MakeACounteroffer" xml:space="preserve">
+    <value>جعل منافس</value>
+  </data>
+  <data name="OfferExpiresIn" xml:space="preserve">
+    <value>ينتهي العرض في</value>
+  </data>
+  <data name="OfferPrice" xml:space="preserve">
+    <value>سعر العرض</value>
+  </data>
+  <data name="Offers" xml:space="preserve">
+    <value>عروض</value>
+  </data>
+  <data name="OffersFor" xml:space="preserve">
+    <value>عروض لـ</value>
+  </data>
+  <data name="xMadeYouAnOffer" xml:space="preserve">
+    <value>قدم لك &lt;strong&gt; {0} &lt;/strong&gt; عرضًا.</value>
+  </data>
+  <data name="AcceptOfferSuccess" xml:space="preserve">
+    <value>لقد قبلت عرضًا</value>
+  </data>
+  <data name="AwaitingResponse" xml:space="preserve">
+    <value>في انتظار الرد</value>
+  </data>
+  <data name="ContactBuyer" xml:space="preserve">
+    <value>اتصل بنا المشتري</value>
+  </data>
+  <data name="Countered" xml:space="preserve">
+    <value>محسوب</value>
+  </data>
+  <data name="CounterofferMessage" xml:space="preserve">
+    <value>رسالة</value>
+  </data>
+  <data name="CounterofferPrice" xml:space="preserve">
+    <value>سعر العرض</value>
+  </data>
+  <data name="DeclineOfferSuccess" xml:space="preserve">
+    <value>تم رفض العرض</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>منتهية الصلاحية</value>
+  </data>
+  <data name="ExpiresInX" xml:space="preserve">
+    <value>تنتهي في {0}</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>تنتهي الصلاحية</value>
+  </data>
+  <data name="LineageString_Bidding_Offers" xml:space="preserve">
+    <value>المزايدة&gt; العروض</value>
+  </data>
+  <data name="ManageOffers" xml:space="preserve">
+    <value>إدارة العروض</value>
+  </data>
+  <data name="NoOffersFound" xml:space="preserve">
+    <value>لم يتم العثور على عروض</value>
+  </data>
+  <data name="OfferAlreadyAccepted" xml:space="preserve">
+    <value>تم قبول العرض بالفعل</value>
+  </data>
+  <data name="OfferAlreadyCountered" xml:space="preserve">
+    <value>لقد أرسلت بالفعل عرضًا مضادًا</value>
+  </data>
+  <data name="OfferAlreadyDeclined" xml:space="preserve">
+    <value>تم رفض هذا العرض بالفعل</value>
+  </data>
+  <data name="OfferAmountMustBeLowerThanBuyNowPrice" xml:space="preserve">
+    <value>يجب أن يكون مبلغ العرض أقل من سعر الشراء الآن</value>
+  </data>
+  <data name="OfferAmountMustBeLowerThanPrice" xml:space="preserve">
+    <value>يجب أن يكون مبلغ العرض أقل من السعر الحالي</value>
+  </data>
+  <data name="OfferDetails" xml:space="preserve">
+    <value>تفاصيل العرض</value>
+  </data>
+  <data name="OfferHistory" xml:space="preserve">
+    <value>تاريخ العرض</value>
+  </data>
+  <data name="OfferIsExpired" xml:space="preserve">
+    <value>انتهت صلاحية هذا العرض</value>
+  </data>
+  <data name="OfferNotExist" xml:space="preserve">
+    <value>العرض غير موجود</value>
+  </data>
+  <data name="PendingOffers" xml:space="preserve">
+    <value>العروض المعلقة</value>
+  </data>
+  <data name="SellersMessage" xml:space="preserve">
+    <value>رسالة البائع</value>
+  </data>
+  <data name="SendCounteroffer" xml:space="preserve">
+    <value>إرسال عرض مضاد</value>
+  </data>
+  <data name="SubmitCounterofferFailure" xml:space="preserve">
+    <value>فشل تقديم العرض المقابل</value>
+  </data>
+  <data name="SubmitCounterofferSuccess" xml:space="preserve">
+    <value>تم تقديم عرضك المضاد</value>
+  </data>
+  <data name="YouCantMakeAnOfferToYourself" xml:space="preserve">
+    <value>لا يمكنك تقديم عرض على القوائم الخاصة بك.</value>
+  </data>
+  <data name="YouHaveAlreadySubmittedAnOfferForThisItem" xml:space="preserve">
+    <value>لقد قمت بالفعل بتقديم عرض لهذا البند</value>
+  </data>
+  <data name="YouMadeAnOfferTox" xml:space="preserve">
+    <value>&lt;strong&gt; لقد &lt;/ strong&gt; قدمت عرضًا لـ &lt;strong&gt; {0} &lt;/strong&gt;.</value>
+  </data>
+  <data name="YourOfferHasBeenSubmitted" xml:space="preserve">
+    <value>وقد تم تقديم العرض الخاص بك.</value>
+  </data>
+  <data name="LotSystemIDNum" xml:space="preserve">
+    <value>معرف النظام # {0}</value>
+  </data>
+  <data name="SubmitOffer" xml:space="preserve">
+    <value>تقديم صفقة</value>
+  </data>
+  <data name="ShippingChangeNotAllowedOnPaidInvoice" xml:space="preserve">
+    <value>غير مسموح بتغيير الشحن في الفاتورة المدفوعة</value>
+  </data>
+  <data name="CurrentListingDetails" xml:space="preserve">
+    <value>القائمة الحالية / تفاصيل اللوت</value>
+  </data>
+  <data name="ManageOffersFor" xml:space="preserve">
+    <value>إدارة العروض: {0}</value>
+  </data>
+  <data name="OfferExpiresX" xml:space="preserve">
+    <value>ينتهي العرض: {0}</value>
+  </data>
+  <data name="OfferPriceX" xml:space="preserve">
+    <value>سعر العرض: {0}</value>
+  </data>
+  <data name="OffersByUser" xml:space="preserve">
+    <value>العروض حسب المستخدم</value>
+  </data>
+  <data name="OffersByUser_helptext" xml:space="preserve">
+    <value>حدد المستخدم من القائمة أعلاه لعرض جميع العروض التي يقدمها هذا المستخدم.</value>
+  </data>
+  <data name="QuantiryX" xml:space="preserve">
+    <value>الكمية: {0}</value>
+  </data>
+  <data name="StatusX" xml:space="preserve">
+    <value>الحالة: {0}</value>
+  </data>
+  <data name="AcceptedOffer" xml:space="preserve">
+    <value>العرض المقبول</value>
+  </data>
+  <data name="DeclineMessage" xml:space="preserve">
+    <value>رفض الرسالة</value>
+  </data>
+  <data name="xItemsWithAcceptedOffers" xml:space="preserve">
+    <value>{0} عنصر بالعروض المقبولة</value>
+    <comment>{0} is the total Quantity of all accepted offers for this listing</comment>
+  </data>
+  <data name="PendingOffer" xml:space="preserve">
+    <value>العرض المعلق</value>
+  </data>
+  <data name="QuantityX" xml:space="preserve">
+    <value>الكمية: {0}</value>
+  </data>
+  <data name="CSVImport_Notes_AcceptOffers" xml:space="preserve">
+    <value>اختياري للسعر الثابت و / أو قوائم المزاد عند تمكين تقديم العرض لهذه الأنواع ؛ مهملة عندما يتم تصنيف ListType أو عندما يتم تعطيله للنوع المحدد. اضبط على "true" للسماح للمستخدمين بتقديم عرض لهذا العنصر. اضبط على "خطأ" لمنع العروض.</value>
+  </data>
+  <data name="CSVImport_Notes_AcceptOffers_MixedMode" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddtoWatchList" xml:space="preserve">
+    <value>أضافة إلى قائمة المشاهدة</value>
+  </data>
+  <data name="ListingStatus" xml:space="preserve">
+    <value>حالة الاستماع</value>
+  </data>
+  <data name="RegisterNow" xml:space="preserve">
+    <value>سجل الان</value>
+  </data>
+  <data name="ProxyBiddingEvent_Help" xml:space="preserve">
+    <value>ممكّنة (محددة) - سيتم تمكين المزايدة بالوكالة لحدث المزاد هذا. سيتم إدخال العطاءات تلقائيًا نيابة عن مقدمي العروض ، حتى الحد الأقصى لمبلغ المزايدة بالوكالة. &lt;br /&gt; &amp; nbsp &lt;br /&gt; عندما لا يتم تمكين عرض تسعير الوكيل ، يتم وضع الحد الأقصى لعرض تسعير المستخدم على الفور.</value>
+  </data>
+  <data name="EventBiddingClosing" xml:space="preserve">
+    <value>قبول العطاءات النهائية</value>
+  </data>
+  <data name="EventRequiredModalHeading" xml:space="preserve">
+    <value>لا توجد أحداث مزاد مؤهلة لنسخ / نقل الكثير ...</value>
+  </data>
+  <data name="EventRequiredModalMessage" xml:space="preserve">
+    <value>يمكن نسخ الكثير أو نقله إلى حدث مسودة فقط.</value>
+  </data>
+  <data name="Clone" xml:space="preserve">
+    <value>قائمة مماثلة</value>
+  </data>
+  <data name="MessageBuyer" xml:space="preserve">
+    <value>اتصل بالمشتري</value>
+  </data>
+  <data name="MessageSeller" xml:space="preserve">
+    <value>تواصل مع البائع</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>أرسل رسالة</value>
+  </data>
+  <data name="ItemIsDraftConfirmation" xml:space="preserve">
+    <value>&lt;strong&gt; النجاح &lt;/ strong&gt; - تم إنشاء مسودة القائمة</value>
+  </data>
+  <data name="ExternalLoginFailed" xml:space="preserve">
+    <value>فشل تسجيل الدخول الخارجي ، يرجى المحاولة مرة أخرى في وقت لاحق.</value>
+  </data>
+  <data name="LinkLoginCallbackFailure" xml:space="preserve">
+    <value>فشلت إضافة تسجيل الدخول الخارجي</value>
+  </data>
+  <data name="LinkLoginCallbackSuccess" xml:space="preserve">
+    <value>تمت إضافة تسجيل الدخول الخارجي بنجاح</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>اقفل</value>
+  </data>
+  <data name="RegisterSuccess_EmailVerificationNeeded" xml:space="preserve">
+    <value>تم التسجيل بنجاح - يرجى التحقق من بريدك الإلكتروني.</value>
+  </data>
+  <data name="RemoveLoginFailure" xml:space="preserve">
+    <value>فشلت إزالة تسجيل الدخول الخارجي</value>
+  </data>
+  <data name="RemoveLoginSuccess" xml:space="preserve">
+    <value>تمت إزالة تسجيل الدخول الخارجي بنجاح</value>
+  </data>
+  <data name="ThisAccountHasBeenLockedOutPleaseTryAgainLater" xml:space="preserve">
+    <value>تم قفل هذا الحساب ، يرجى المحاولة مرة أخرى في وقت لاحق.</value>
+  </data>
+  <data name="UserIsNotVerified" xml:space="preserve">
+    <value>لم يتم التحقق من حسابك. يرجى التحقق من بريدك الإلكتروني وإدخال الرمز أدناه.</value>
+  </data>
+  <data name="EventImageBanner_HelpTip" xml:space="preserve">
+    <value>&lt;p&gt; ستظهر بانر الحدث عبر صفحة الحدث.
+&lt;p /&gt;
+&lt;strong&gt; الحد الأقصى لعرض بانر الحدث: 1350 بكسل &lt;/ strong&gt;
+&lt;br /&gt;
+سيتم تغيير حجم الصور الأكبر لتناسب المساحة المتاحة.</value>
+  </data>
+  <data name="EventImage_HelpTip" xml:space="preserve">
+    <value>&lt;p&gt; ستظهر صورة الحدث على الصفحة الرئيسية أسفل المزادات الحالية والقادمة والمغلقة. غالبًا ما يتم استخدام شعار الشركة كصورة الحدث.
+&lt;p /&gt;
+&lt;strong&gt; الحجم الأمثل لصورة الحدث: 150 بكسل × 150 بكسل &lt;/ strong&gt;
+&lt;br /&gt;
+سيتم تغيير حجم الصور الأكبر لتناسب المساحة المتاحة.</value>
+  </data>
+  <data name="RequestPublishEventFailure" xml:space="preserve">
+    <value>فشل طلب نشر الحدث</value>
+  </data>
+  <data name="RequestPublishEventSuccess" xml:space="preserve">
+    <value>تم إرسال طلبك لنشر هذا الحدث.</value>
+  </data>
+  <data name="FeedbackCharacterLimit" xml:space="preserve">
+    <value>80 حرفًا كحد أقصى</value>
+  </data>
+  <data name="AuthNetEnabled_CredentialsNeeded" xml:space="preserve">
+    <value>تحذير! تم تمكين Authorize.Net ولكن لم يتم تكوينه بشكل صحيح.</value>
+  </data>
+  <data name="StripeEnabled_CredentialsNeeded" xml:space="preserve">
+    <value>تحذير! تم تمكين الشريط ولكن لم يتم تكوينه بشكل صحيح.</value>
+  </data>
+  <data name="BuyerID" xml:space="preserve">
+    <value>هوية المشتري</value>
+  </data>
+  <data name="ImportFeedbacks" xml:space="preserve">
+    <value>استيراد ملاحظات</value>
+  </data>
+  <data name="AddressNotDefined" xml:space="preserve">
+    <value>لم يتم تحديد عنوان</value>
+  </data>
+  <data name="BuyerFinalFee" xml:space="preserve">
+    <value>الرسوم النهائية للمشتري</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>أكثر</value>
+  </data>
+  <data name="FollowAuctionLive" xml:space="preserve">
+    <value>اتبع المزاد المباشر</value>
+  </data>
+  <data name="FollowLive" xml:space="preserve">
+    <value>اتبع لايف</value>
+  </data>
+  <data name="EventActivityReport" xml:space="preserve">
+    <value>نشاط الحدث</value>
+  </data>
+  <data name="HighestBid" xml:space="preserve">
+    <value>أعلى عرض</value>
+  </data>
+  <data name="ProxyBid" xml:space="preserve">
+    <value>مزايدة بالوكالة</value>
+  </data>
+  <data name="ReservePriceMet" xml:space="preserve">
+    <value>التقى السعر الاحتياطي</value>
+  </data>
+  <data name="EventListLinkText" xml:space="preserve">
+    <value>مزادات</value>
+  </data>
+  <data name="Sold" xml:space="preserve">
+    <value>تم البيع</value>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>غير مضبوط</value>
+  </data>
+  <data name="ScheduledStart" xml:space="preserve">
+    <value>البدء المجدول</value>
+  </data>
+  <data name="ToggleEventDetails" xml:space="preserve">
+    <value>عرض تفاصيل المزاد</value>
+  </data>
+  <data name="CopyLotNumbers" xml:space="preserve">
+    <value>نسخ أرقام اللوت</value>
+  </data>
+  <data name="GenerateNewLotNumbers" xml:space="preserve">
+    <value>إنشاء أرقام لوت جديدة</value>
+  </data>
+  <data name="GenerateNewLotNumbers_Info" xml:space="preserve">
+    <value>يجب تعيين رقم فريد لكل حصة في كل حدث مزاد. هل تريد أن يقوم النظام بإنشاء &lt;b&gt; رقم نصيب جديد &lt;/ b&gt; لكل نص منسوخ؟</value>
+  </data>
+  <data name="GenerateNewLotNumbers_title" xml:space="preserve">
+    <value>هل تريد إنشاء أرقام لوت جديدة؟</value>
+  </data>
+  <data name="AutomaticallyHideEndedLots" xml:space="preserve">
+    <value>انتهى إخفاء السيارات الكثير</value>
+  </data>
+  <data name="ShowMore" xml:space="preserve">
+    <value>أظهر المزيد</value>
+  </data>
+  <data name="FollowLiveEnabled" xml:space="preserve">
+    <value>اتبع المزاد المباشر</value>
+  </data>
+  <data name="FollowLiveEnabled_Help" xml:space="preserve">
+    <value>&lt;p&gt; عندما يبدأ إغلاق المزاد ، سيتاح للمستخدمين خيار "متابعة المزاد المباشر" الذي يعيد توجيههم تلقائيًا إلى إغلاق العقد التالي. &lt;/ p&gt;
+&lt;p&gt; هام: لإعداد الحصص لإغلاق واحدة في كل مرة وبالترتيب الصحيح ، ستتم إضافة جميع الحصص افتراضيًا إلى نفس مجموعة التمديد التلقائي. &lt;/ p&gt;</value>
+  </data>
+  <data name="ViewItem" xml:space="preserve">
+    <value>عرض العنصر</value>
+  </data>
+  <data name="ViewSELLERUSERNAMEListings" xml:space="preserve">
+    <value>عرض قوائم {0}</value>
+    <comment>{0} is the username of the listing owner</comment>
+  </data>
+  <data name="ChangeCategory" xml:space="preserve">
+    <value>تغيير الفئة</value>
+  </data>
+  <data name="ChangePrimaryListingCategory_Help" xml:space="preserve">
+    <value>&lt;p&gt; يجب ألا يحتوي تحديدك النهائي للفئة على أي فئات فرعية. &lt;/ p&gt;
+&lt;p&gt; ملاحظة: من الممكن فقط تغيير الفئة بينما لا تزال قائمة البيانات هذه محفوظة كمسودة. بمجرد تنشيط القائمة ، لا يمكن تغيير الفئة. &lt;/ p&gt;</value>
+  </data>
+  <data name="SubCategoryMenu" xml:space="preserve">
+    <value>حدد الفئة الفرعية</value>
+  </data>
+  <data name="CSVImport_Notes_IsTaxable" xml:space="preserve">
+    <value>&lt;span style = "color: red؛"&gt; مطلوب &lt;/ span&gt; تعيين على "صواب" إذا كانت الضريبة تنطبق على هذا العنصر ، وإلا تم تعيينه على "خطأ"</value>
+  </data>
+  <data name="AcceptOffers_Help" xml:space="preserve">
+    <value>(اختياري) اسمح للمشترين بتقديم عروض منفصلة عن المزايدة أو الشراء الآن.</value>
+  </data>
+  <data name="EventRequiredForNewLotModalHeading" xml:space="preserve">
+    <value>حدث مزاد مفقود</value>
+  </data>
+  <data name="EventRequiredForNewLotModalMessage" xml:space="preserve">
+    <value>يجب أن يوجد حدث مزاد واحد على الأقل قبل أن يتم إنشاء الكثير.</value>
+  </data>
+  <data name="AddCardSuccess" xml:space="preserve">
+    <value>تم حفظ معلومات بطاقة الائتمان بنجاح.</value>
+  </data>
+  <data name="CreditCardRequiredForBuyers" xml:space="preserve">
+    <value>يجب أن يكون لديك بطاقة ائتمان مسجلة قبل تقديم العطاءات أو الشراء أو إرسال العروض.</value>
+  </data>
+  <data name="CreditCardRequiredForSellers" xml:space="preserve">
+    <value>يجب أن يكون لديك بطاقة ائتمان مسجلة قبل نشر العناصر.</value>
+  </data>
+  <data name="SalesPreferences" xml:space="preserve">
+    <value>خيارات دفع المبيعات</value>
+  </data>
+  <data name="StripeCardManagement" xml:space="preserve">
+    <value>بطاقات الائتمان</value>
+  </data>
+  <data name="NoInvoicesPaid" xml:space="preserve">
+    <value>لا توجد فواتير مدفوعة</value>
+  </data>
+  <data name="oneInvoiceSuccessfullyPaid" xml:space="preserve">
+    <value>تم دفع فاتورة واحدة بنجاح</value>
+  </data>
+  <data name="ProcessPayments" xml:space="preserve">
+    <value>معالجة المدفوعات</value>
+  </data>
+  <data name="xInvoicesSuccessfullyPaid" xml:space="preserve">
+    <value>تم دفع {0} فواتير بنجاح</value>
+    <comment>{0} is number of paid invoices</comment>
+  </data>
+  <data name="oneInvoiceNotPaid" xml:space="preserve">
+    <value>لم يتم دفع فاتورة واحدة</value>
+  </data>
+  <data name="UnpaidNoCard" xml:space="preserve">
+    <value>بدون بطاقة ، بدون بطاقة</value>
+  </data>
+    <data name="Filter" xml:space="preserve">
+    <value>منقي</value>
+  </data>
+   <data name="Month" xml:space="preserve">
+    <value>شهر</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="xInvoicesNotPaid" xml:space="preserve">
+    <value>لم يتم دفع {0} فواتير</value>
+    <comment>{0} is number of unpaid invoices</comment>
+  </data>
+   <data name="Shipment" xml:space="preserve">
+    <value>شحنة</value>
+  </data>
+  <data name="TrackingNo" xml:space="preserve">
+    <value>تتبع أي</value>
+  </data>
+  <data name="DHLRateCalculator" xml:space="preserve">
+    <value>حاسبة أسعار DHL</value>
+  </data>
+  <data name="CreateShipmentBooking" xml:space="preserve">
+    <value>إنشاء حجز الشحن</value>
+  </data>
+  <data name="ShowShipmentBooking" xml:space="preserve">
+    <value>إظهار حجز الشحنة</value>
+  </data>
+	<data name="ShowShipmentBookings" xml:space="preserve">
+    <value>إظهار حجوزات الشحن</value>
+  </data>
+  <data name="ShipTo" xml:space="preserve">
+    <value>سافر على متن سفينة ل</value>
+  </data>
+  <data name="ShipPostalZipCode" xml:space="preserve">
+    <value>الرمز البريدي للسفينة</value>
+  </data>
+  <data name="ShipCityName" xml:space="preserve">
+    <value>اسم مدينة الشحن</value>
+  </data>
+  <data name="ItemNo" xml:space="preserve">
+    <value>رقم العنصر</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>الخدمات</value>
+  </data>
+  <data name="DeliveryDate" xml:space="preserve">
+    <value>تاريخ التسليم او الوصول</value>
+  </data>
+  <data name="DeliveryTime" xml:space="preserve">
+    <value>موعد التسليم</value>
+  </data>
+  <data name="PickupDate" xml:space="preserve">
+    <value>اختر تاريخا</value>
+  </data>
+  <data name="TotalTransitDays" xml:space="preserve">
+    <value>إجمالي أيام العبور</value>
+  </data>
+  <data name="StandardRate" xml:space="preserve">
+    <value>المعدل القياسي</value>
+  </data>
+  <data name="CurrencyCode" xml:space="preserve">
+    <value>رمز العملة</value>
+  </data>
+  <data name="WeightCharge" xml:space="preserve">
+    <value>تهمة الوزن</value>
+  </data>
+  <data name="ChargeValue" xml:space="preserve">
+    <value>قيمة الشحن</value>
+  </data>
+  <data name="ExchangeRate" xml:space="preserve">
+    <value>سعر الصرف</value>
+  </data>
+  <data name="EstimatedTotal" xml:space="preserve">
+    <value>المجموع التقديري</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>قريب</value>
+  </data>
+  <data name="DHLTracking" xml:space="preserve">
+    <value>تتبع شحنة دي اتش آل</value>
+  </data>
+  <data name="TrackingNo" xml:space="preserve">
+    <value>تتبع أي</value>
+  </data>
+  <data name="Track" xml:space="preserve">
+    <value>المسار</value>
+  </data>
+  <data name="SerialNo" xml:space="preserve">
+    <value>الرقم التسلسلي</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>موقعك</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>زمن</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>قريب</value>
+  </data>
+  <data name="Watching" xml:space="preserve">
+    <value>مشاهدة</value>
+  </data>
+  <data name="AddtoWatchList" xml:space="preserve">
+    <value>أضافة إلى قائمة المشاهدة</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>التحقق من</value>
+  </data>
+  <data name="ShipmentTrackingNo" xml:space="preserve">
+    <value>تتبع الشحنة لا</value>
+  </data>
+  <data name="LineageString_Listings_Tracking" xml:space="preserve">
+    <value>تتبع القوائم </value>
+  </data>
+   <data name="WeightUnit" xml:space="preserve">
+    <value>وحدة الوزن</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>ارتفاع</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>عمق</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="DimensionUnit" xml:space="preserve">
+    <value>وحدة الأبعاد</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>بند</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>اسم المدينة</value>
+  </data>
+  <data name="PostalZipCode" xml:space="preserve">
+    <value>الرمز البريدي / الرمز البريدي</value>
+  </data>
+  <data name="ShipmentTracking" xml:space="preserve">
+    <value>تتبع الشحنة</value>
+  </data>
+  <data name="ShippingOfferedbySeller" xml:space="preserve">
+    <value>الشحن المقدم من البائع</value>
+  </data>
+	<data name="ShipmentDetail" xml:space="preserve">
+    <value>تفاصيل الشحنة</value>
+  </data>
+	<data name="ShippingDetail" xml:space="preserve">
+    <value>تفاصيل الشحن</value>
+  </data>
+	<data name="AdditionalDetail" xml:space="preserve">
+    <value>تفاصيل إضافية</value>
+  </data>
+  <data name="ShippingDetail_Help" xml:space="preserve">
+    <value>يجب على البائع التأكد من اختيار وحدة القياس المناسبة واستخدام القياسات الدقيقة للحصول على معدل دقيق.</value>
+  </data>
+</root>

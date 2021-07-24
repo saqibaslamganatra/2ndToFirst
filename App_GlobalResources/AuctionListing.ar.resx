@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Auction" xml:space="preserve">
+    <value>مزاد علني</value>
+  </data>
+  <data name="Bid" xml:space="preserve">
+    <value>المناقصة</value>
+  </data>
+  <data name="BidDisclaimer" xml:space="preserve">
+    <value>عرضك هو عقد بينك وبين منشئ القائمة. إذا كان لديك أعلى عرض ، فسوف تبرم عقد شراء ملزم قانونًا.</value>
+  </data>
+  <data name="Bids" xml:space="preserve">
+    <value>المزايدة</value>
+  </data>
+  <data name="CurrentPrice" xml:space="preserve">
+    <value>السعر الحالي</value>
+  </data>
+  <data name="CURRENT_HIGH_BIDDER_RESERVE_NOT_MET" xml:space="preserve">
+    <value>أنت أعلى مزايد حاليًا ، ولكن لم يتم بلوغ سعر الاحتياطي.</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>سعر ثابت</value>
+  </data>
+  <data name="LOSING" xml:space="preserve">
+    <value>أنت لست مقدم العرض العالية. يمكنك زيادة عرضك في أي وقت.</value>
+  </data>
+  <data name="LOST" xml:space="preserve">
+    <value>لم تفز بهذا العنصر.</value>
+  </data>
+  <data name="LOST_RESERVE_NOT_MET" xml:space="preserve">
+    <value>لم يتم الوفاء بالسعر الاحتياطي. لم تفز بهذا العنصر.</value>
+  </data>
+  <data name="MinimumBid" xml:space="preserve">
+    <value>الحد الأدنى للمزايدة</value>
+  </data>
+  <data name="NOSALE" xml:space="preserve">
+    <value>لم يتم بيع هذا البند.</value>
+  </data>
+  <data name="NO_ACTIVITY" xml:space="preserve">
+    <value>ليس لديك أي نشاط مع هذا العنصر.</value>
+  </data>
+  <data name="NO_ACTIVITY_AS_BUYER" xml:space="preserve">
+    <value>لم تقم بالمزايدة على هذا البند.</value>
+  </data>
+  <data name="NO_ACTIVITY_AS_SELLER" xml:space="preserve">
+    <value>هذا العنصر ليس لديه أي نشاط المزايدة.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>صاحب</value>
+  </data>
+  <data name="ProxyBidDisclaimer" xml:space="preserve">
+    <value>سيقدم {0} لك عرض أسعار بشكل متزايد حتى أقصى عرض سعر لك. عرضك الأقصى يبقى سرا من المستخدمين الآخرين.</value>
+  </data>
+  <data name="ReservePrice" xml:space="preserve">
+    <value>سعر الاحتياطي</value>
+  </data>
+  <data name="RESERVE_NOT_MET" xml:space="preserve">
+    <value>هذا البند لديه عطاءات ، ولكن لم يتم الوفاء بالاحتياطي.</value>
+  </data>
+  <data name="SOLD" xml:space="preserve">
+    <value>تم بيع هذا البند!</value>
+  </data>
+  <data name="WINNING" xml:space="preserve">
+    <value>أنت تفوز حاليًا بهذا العنصر!</value>
+  </data>
+  <data name="WON" xml:space="preserve">
+    <value>لقد فزت بهذا البند!</value>
+  </data>
+  <data name="WOULD_SELL" xml:space="preserve">
+    <value>مزايد يفوز بهذا البند!</value>
+  </data>
+  <data name="YourBid" xml:space="preserve">
+    <value>رهانك</value>
+  </data>
+  <data name="YourMaximumProxyBid" xml:space="preserve">
+    <value>الحد الأقصى لعرض تسعير الوكيل الخاص بك</value>
+  </data>
+  <data name="NoReserve" xml:space="preserve">
+    <value>&lt;span class = "text-Success"&gt; لا يوجد حجز &lt;/ span&gt;</value>
+  </data>
+  <data name="ReserveMet" xml:space="preserve">
+    <value>&lt;span class = "text-Success"&gt; تم بلوغ السعر الاحتياطي &lt;/ span&gt;</value>
+  </data>
+  <data name="ReserveNotMet" xml:space="preserve">
+    <value>&lt;span class = "text-risk"&gt; لم يتم بلوغ السعر الاحتياطي &lt;/ span&gt;</value>
+  </data>
+  <data name="BidNow" xml:space="preserve">
+    <value>المزايدة الآن</value>
+  </data>
+  <data name="BuyNowPrice" xml:space="preserve">
+    <value>إشتري الآن سعر</value>
+  </data>
+  <data name="StartingBid" xml:space="preserve">
+    <value>بدء المزايدة</value>
+  </data>
+  <data name="BidHistory" xml:space="preserve">
+    <value>تاريخ العطاء</value>
+  </data>
+  <data name="BuyNowAvailable" xml:space="preserve">
+    <value>&lt;span class = "text-primary"&gt; متاح للشراء الفوري. &lt;/ span&gt;</value>
+  </data>
+  <data name="FeedbackScore" xml:space="preserve">
+    <value>نتاىج المراجعة</value>
+  </data>
+  <data name="HighBidder" xml:space="preserve">
+    <value>العرض العالية</value>
+  </data>
+  <data name="ListingEndDateTime" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="ListingLocation" xml:space="preserve">
+    <value>موقعك</value>
+  </data>
+  <data name="ListingPageViews" xml:space="preserve">
+    <value>مشاهدات الصفحة</value>
+  </data>
+  <data name="ListingStartedDateTime" xml:space="preserve">
+    <value>تاريخ البدء</value>
+  </data>
+  <data name="SellerDetailsTitle" xml:space="preserve">
+    <value>عن البائع</value>
+  </data>
+  <data name="SellerUsername" xml:space="preserve">
+    <value>المدرجة من قبل</value>
+  </data>
+  <data name="BidAmountTooLow" xml:space="preserve">
+    <value>مبلغ المزايدة منخفض للغاية</value>
+  </data>
+  <data name="BidderIsOwner" xml:space="preserve">
+    <value>العارض هو المالك</value>
+  </data>
+  <data name="BuyItNow" xml:space="preserve">
+    <value>اشتري الآن</value>
+  </data>
+  <data name="BuyItNowPrice" xml:space="preserve">
+    <value>إشتري الآن سعر</value>
+  </data>
+  <data name="ConfirmBid" xml:space="preserve">
+    <value>أكد عرضك بقيمة {0}.</value>
+  </data>
+  <data name="ConfirmBuyItNow" xml:space="preserve">
+    <value>تأكيد "اشتر الآن" لـ {0}.</value>
+  </data>
+  <data name="ListingChangedDuringProcessing" xml:space="preserve">
+    <value>تم تغيير هذه القائمة أثناء المعالجة</value>
+  </data>
+  <data name="ListingNotActive" xml:space="preserve">
+    <value>هذه القائمة غير نشطة</value>
+  </data>
+  <data name="ProxyBeatingNewBid" xml:space="preserve">
+    <value>لقد تم المزايدة عليك بواسطة الوكيل.</value>
+  </data>
+  <data name="SubmitBid" xml:space="preserve">
+    <value>تقديم العطاء</value>
+  </data>
+  <data name="LISTING_AWAITING_PAYMENT" xml:space="preserve">
+    <value>لن تبدأ هذه القائمة حتى يتم دفع رسوم الإدراج.</value>
+  </data>
+  <data name="LISTING_NOT_STARTED" xml:space="preserve">
+    <value>هذه القائمة لم تبدأ.</value>
+  </data>
+  <data name="BadListingActionValue" xml:space="preserve">
+    <value>يجب أن يكون مبلغ العطاء قيمة عشرية.</value>
+  </data>
+  <data name="CantLowerProxyBid" xml:space="preserve">
+    <value>لا يسمح لك بخفض الحد الأقصى لعرض التسعير الخاص بك.</value>
+  </data>
+  <data name="LISTING_DELETED" xml:space="preserve">
+    <value>تم حذف هذه القائمة.</value>
+  </data>
+  <data name="ViewSellersOtherListings" xml:space="preserve">
+    <value>عرض قوائم البائع الأخرى</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>تاريخ العطاء</value>
+  </data>
+  <data name="StartingBidPrice" xml:space="preserve">
+    <value>بدء المزايدة</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>موقعك</value>
+  </data>
+  <data name="ActionSuccess" xml:space="preserve">
+    <value>تم تقديم عرضك.</value>
+  </data>
+  <data name="YourLastBidWas" xml:space="preserve">
+    <value>آخر مزايدة كانت</value>
+  </data>
+  <data name="YourMaximumBidIs" xml:space="preserve">
+    <value>الحد الأقصى لعرضك هو</value>
+  </data>
+  <data name="ClosedMessage" xml:space="preserve">
+    <value>العطاءات قد انتهت على هذا البند.</value>
+  </data>
+  <data name="PostListingFeeIsBasedOnXxx" xml:space="preserve">
+    <value>تستند رسوم إدراج قائمة على عرض البداية ...</value>
+  </data>
+  <data name="FinalFeeDescriptionNoTiers" xml:space="preserve">
+    <value>الرسوم النهائية للبائع هي نسبة مئوية من سعر البيع ، ولا يتم تحصيلها إلا عند حدوث عملية بيع.</value>
+  </data>
+  <data name="FinalFeeDescriptionWithTiers" xml:space="preserve">
+    <value>الرسوم النهائية للبائع هي نسبة مئوية من سعر البيع ، ولا يتم تحصيلها إلا عند حدوث عملية بيع ...</value>
+  </data>
+  <data name="ListingStartsDateTime" xml:space="preserve">
+    <value>تاريخ البدء</value>
+  </data>
+  <data name="ScheduledListingStartsIn" xml:space="preserve">
+    <value>يبدأ في</value>
+  </data>
+  <data name="ScheduledListingStartsOnX" xml:space="preserve">
+    <value>يبدأ المزايدة على هذه القائمة في {0}</value>
+    <comment>{0} is start DTTM</comment>
+  </data>
+  <data name="A_BuyerFeeDescr_UpTo_Xdollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>سيتم تطبيق {0} حتى {1} على الإجمالي.</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} على الإجمالي.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} من {2} على الإجمالي.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_UpTo_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} يصل إلى {2} على الإجمالي.</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_UpTo_Xdollars" xml:space="preserve">
+    <value>السعر يشمل {0}: حتى {1}</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_Xdollars" xml:space="preserve">
+    <value>السعر شاملاً {0}: {1}</value>
+  </data>
+  <data name="A_BuyerFeeDescr_UpTo_Xdollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>سيتم تطبيق {0} يصل إلى {1} على حسابك.</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} على حسابك.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} من {2} على حسابك.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_UpTo_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} يصل إلى {2} على حسابك.</value>
+  </data>
+  <data name="NOTCURRENTLISTINGACTIONUSER" xml:space="preserve">
+    <value>أنت لا تفوز حاليًا بهذا العنصر!</value>
+  </data>
+  <data name="Extended" xml:space="preserve">
+    <value>وسعوا</value>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>غير مصرح لك حاليًا بالمزايدة أو الشراء</value>
+  </data>
+  <data name="UsersWatching" xml:space="preserve">
+    <value>مشاهدة</value>
+  </data>
+  <data name="UNKNOWN" xml:space="preserve">
+    <value>مجهول</value>
+  </data>
+  <data name="CurrentBid" xml:space="preserve">
+    <value>مناقصه قائمة</value>
+  </data>
+  <data name="TypeIconAlt" xml:space="preserve">
+    <value>قائمة المزاد القياسية</value>
+  </data>
+  <data name="EndsIn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BuyerFeeNotice" xml:space="preserve">
+    <value>يتحمل العارض الفائز رسوم المشتري بقيمة</value>
+  </data>
+  <data name="EnterYourBid" xml:space="preserve">
+    <value>أدخل مزايدتك</value>
+  </data>
+  <data name="EnterYourMaxBid" xml:space="preserve">
+    <value>أدخل الحد الأقصى لعرض تسعير الوكيل الخاص بك</value>
+  </data>
+  <data name="LoginViewHistory" xml:space="preserve">
+    <value>تسجيل الدخول وعرض تاريخ المزايدة</value>
+  </data>
+  <data name="ViewHistory" xml:space="preserve">
+    <value>عرض تاريخ المناقصة</value>
+  </data>
+  <data name="AcceptOffers" xml:space="preserve">
+    <value>قبول العروض</value>
+  </data>
+  <data name="MakeOffer" xml:space="preserve">
+    <value>تقديم عرض</value>
+  </data>
+  <data name="OfferMessage" xml:space="preserve">
+    <value>رسالة العرض</value>
+  </data>
+  <data name="ReviewAndConfirmOffer" xml:space="preserve">
+    <value>مراجعة وتأكيد العرض</value>
+  </data>
+  <data name="ReviewOffer" xml:space="preserve">
+    <value>مراجعة العرض</value>
+  </data>
+  <data name="YourOffer" xml:space="preserve">
+    <value>عرضك</value>
+  </data>
+  <data name="FinalPriceXSuccessful" xml:space="preserve">
+    <value>العطاء الفائز: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="HighBidderX" xml:space="preserve">
+    <value>المزايد الأعلى: {0}</value>
+    <comment>{0} is high bidder username</comment>
+  </data>
+  <data name="XBids" xml:space="preserve">
+    <value>{0 عروض)</value>
+  </data>
+  <data name="ENDED_WITH_OFFER_ACCEPTED" xml:space="preserve">
+    <value>انتهى البند مع عرض مقبول</value>
+  </data>
+  <data name="YOUR_OFFER_ACCEPTED" xml:space="preserve">
+    <value>تم قبول عرضك</value>
+  </data>
+  <data name="YOUR_OFFER_DECLINED" xml:space="preserve">
+    <value>تم رفض عرضك</value>
+  </data>
+  <data name="YOU_HAVE_PENDING_OFFER" xml:space="preserve">
+    <value>لديك عرض بانتظار ردك</value>
+  </data>
+  <data name="FinalPriceXUnsuccessful" xml:space="preserve">
+    <value>سعر العطاء النهائي: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="StartingBidX" xml:space="preserve">
+    <value>سعر البدء: {0}</value>
+    <comment>{0} is starting bid price</comment>
+  </data>
+  <data name="FinalBid" xml:space="preserve">
+    <value>العطاء النهائي</value>
+  </data>
+  <data name="QuickBid" xml:space="preserve">
+    <value>المزايدة السريعة {0}</value>
+    <comment>{0} is the minimum bid amount</comment>
+  </data>
+  <data name="ConfirmListingActionAmount" xml:space="preserve">
+    <value>تأكيد مبلغ العطاء</value>
+  </data>
+  <data name="PleaseSelectTheAmountYouIntendedToEnter" xml:space="preserve">
+    <value>يرجى تحديد مبلغ العطاء الخاص بك:</value>
+  </data>
+  <data name="CurrentReserveX" xml:space="preserve">
+    <value>(الاحتياطي الحالي: {0})</value>
+    <comment>{0} is current reserve price</comment>
+  </data>
+  <data name="LowerReservePrice" xml:space="preserve">
+    <value>سعر احتياطي أقل</value>
+  </data>
+  <data name="NextBidMeetsReserve" xml:space="preserve">
+    <value>العرض التالي يلبي الاحتياطي؟</value>
+  </data>
+  <data name="LowerReservePrice_Help" xml:space="preserve">
+    <value>سيؤدي تحديد هذا الخيار إلى خفض سعر الاحتياطي إلى الحد الأدنى الحالي لمقدار العطاء ، مما يضمن تلبية العطاء التالي للاحتياطي.</value>
+  </data>
+  <data name="FinalPrice" xml:space="preserve">
+    <value>السعر النهائي</value>
+  </data>
+  <data name="FinalPriceX" xml:space="preserve">
+    <value>السعر النهائي: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="IsTaxable" xml:space="preserve">
+    <value>هذا البند خاضع للضريبة</value>
+  </data>
+  <data name="NotWinning_Concise" xml:space="preserve">
+    <value>ليس فائز</value>
+  </data>
+  <data name="Winning_Concise" xml:space="preserve">
+    <value>الفوز</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="Lost_Concise" xml:space="preserve">
+    <value>ضائع</value>
+  </data>
+  <data name="Won_Concise" xml:space="preserve">
+    <value>وون</value>
+  </data>
+  <data name="myMaxBid" xml:space="preserve">
+    <value>الحد الأقصى الخاص بي</value>
+  </data>
+  <data name="IncreasedOwnMaxBid" xml:space="preserve">
+    <value>لقد قمت بزيادة الحد الأقصى لعرض التسعير الخاص بك</value>
+  </data>
+  <data name="RESERVE_NOT_MET_AS_SELLER" xml:space="preserve">
+    <value>هذا البند لديه عطاءات ، ولكن لم يتم تلبية الاحتياطي.</value>
+  </data>
+  <data name="EarliestBidWinsNote" xml:space="preserve">
+    <value>يمكن وضع عطاءات الوكيل التلقائية قبل أيام أو ساعات من انتهاء المزاد. إذا قام مزايدان بتقديم نفس المبلغ ، فإن عرض الوكيل السابق يفوز دائمًا على العرض الأحدث.</value>
+  </data>
+  <data name="MaxBid" xml:space="preserve">
+    <value>أقصى مزايدة</value>
+  </data>
+  <data name="ProxyAmountIncreased" xml:space="preserve">
+    <value>زيادة الحد الأقصى للعطاء</value>
+  </data>
+  <data name="ProxyBid" xml:space="preserve">
+    <value>مزايدة بالوكالة</value>
+  </data>
+  <data name="ProxyBidIncrementNote" xml:space="preserve">
+    <value>في بعض الأحيان ، سترى زيادة عروض الأسعار بأقل من زيادة عرض الأسعار. هذا يعني أن شخصًا آخر قدم عرضًا أعلى بقليل من مبلغ عطاء الوكيل التلقائي.</value>
+  </data>
+</root>

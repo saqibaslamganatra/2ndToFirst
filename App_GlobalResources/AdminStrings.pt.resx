@@ -1,0 +1,4029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="AddMultiple" xml:space="preserve">
+    <value>Adicionar vários</value>
+  </data>
+  <data name="AdminControlPanel" xml:space="preserve">
+    <value>Painel de controle do administrador</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Montante</value>
+  </data>
+  <data name="Assign" xml:space="preserve">
+    <value>Atribuir</value>
+  </data>
+  <data name="AssignFieldToCategories" xml:space="preserve">
+    <value>Atribuir campo a categorias</value>
+  </data>
+  <data name="CategoryDetail" xml:space="preserve">
+    <value>Detalhe da categoria</value>
+  </data>
+  <data name="CategoryEditor" xml:space="preserve">
+    <value>Editor de Categoria</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comentários</value>
+  </data>
+  <data name="ContentEditor" xml:space="preserve">
+    <value>Editor de conteúdo</value>
+  </data>
+  <data name="ContentManagement" xml:space="preserve">
+    <value>Gerenciamento de conteúdo</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crio</value>
+  </data>
+  <data name="CreateItemField" xml:space="preserve">
+    <value>Criar campo de listagem</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Conta criada em</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Cultura</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="CurrencyManagement" xml:space="preserve">
+    <value>Gerenciamento de Moeda</value>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>Os campos personalizados</value>
+  </data>
+  <data name="DecorationsManagement" xml:space="preserve">
+    <value>Gerenciamento de Decorações</value>
+  </data>
+  <data name="DefaultSiteCurrency" xml:space="preserve">
+    <value>Moeda padrão do site</value>
+  </data>
+  <data name="DefaultValue" xml:space="preserve">
+    <value>Valor padrão</value>
+  </data>
+  <data name="Deferred" xml:space="preserve">
+    <value>Diferido</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DisplayOrder" xml:space="preserve">
+    <value>Ordem de exibição</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EditDecoration" xml:space="preserve">
+    <value>Editar Decoração</value>
+  </data>
+  <data name="EditEventFees" xml:space="preserve">
+    <value>Editar taxa</value>
+  </data>
+  <data name="EditFeeTier" xml:space="preserve">
+    <value>Editar camada de taxa</value>
+  </data>
+  <data name="EditItemField" xml:space="preserve">
+    <value>Editar campo de listagem</value>
+  </data>
+  <data name="Editing" xml:space="preserve">
+    <value>Edição</value>
+  </data>
+  <data name="EditLocation" xml:space="preserve">
+    <value>Editar localização</value>
+  </data>
+  <data name="EditTiers" xml:space="preserve">
+    <value>Editar camadas</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Editar usuário</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>O email</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>ativado</value>
+  </data>
+  <data name="EnterNewIncrement" xml:space="preserve">
+    <value>Inserir novo incremento</value>
+  </data>
+  <data name="LineageString_EventFeeManagement" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Taxas de listagem</value>
+  </data>
+  <data name="ExtendListings" xml:space="preserve">
+    <value>Estender listagens</value>
+  </data>
+  <data name="FailedPasswordAnswerAttemptCount" xml:space="preserve">
+    <value>Tentativas de resposta de senha com falha</value>
+  </data>
+  <data name="FailedPasswordAnswerAttemptWindowStart" xml:space="preserve">
+    <value>Resposta de senha com falha em</value>
+  </data>
+  <data name="FailedPasswordAttemptCount" xml:space="preserve">
+    <value>Tentativas de senha com falha</value>
+  </data>
+  <data name="FailedPasswordAttemptWindowStart" xml:space="preserve">
+    <value>Senha com falha ativada</value>
+  </data>
+  <data name="FieldManagement" xml:space="preserve">
+    <value>{0} Gerenciamento de campo</value>
+  </data>
+  <data name="FormatString" xml:space="preserve">
+    <value>Formatar sequência</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Nome do grupo</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>EU IRIA</value>
+  </data>
+  <data name="Impersonate" xml:space="preserve">
+    <value>Representar</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>Incremento</value>
+  </data>
+  <data name="IncrementManagement" xml:space="preserve">
+    <value>Gerenciamento de incremento</value>
+  </data>
+  <data name="IsApproved" xml:space="preserve">
+    <value>Está aprovado</value>
+  </data>
+  <data name="IsLockedOut" xml:space="preserve">
+    <value>É restrito</value>
+  </data>
+  <data name="IsVerified" xml:space="preserve">
+    <value>É verificado</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Listagem</value>
+  </data>
+  <data name="LastActivityDate" xml:space="preserve">
+    <value>Ativo pela última vez em</value>
+  </data>
+  <data name="LastIP" xml:space="preserve">
+    <value>Último endereço IP</value>
+  </data>
+  <data name="LastLockoutDate" xml:space="preserve">
+    <value>Restrito a</value>
+  </data>
+  <data name="LastLoginDate" xml:space="preserve">
+    <value>Último login</value>
+  </data>
+  <data name="ListingID" xml:space="preserve">
+    <value>ID da listagem</value>
+  </data>
+  <data name="ListingTypes" xml:space="preserve">
+    <value>Tipos de listagem</value>
+  </data>
+  <data name="ManageFieldEnumeration" xml:space="preserve">
+    <value>Adicionar opções</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Boletim de Notícias</value>
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>Nível de preço</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Requeridos</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salve </value>
+  </data>
+  <data name="SelectSupportedCurrencies" xml:space="preserve">
+    <value>Selecione as moedas suportadas</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Resumo</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Unassign" xml:space="preserve">
+    <value>Cancelar a atribuição</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="ValidFields" xml:space="preserve">
+    <value>Campos válidos</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="AddDomesticDHLOptions" xml:space="preserve">
+    <value>Adicionar opções domésticas da DHL</value>
+  </data>
+  <data name="AddDomesticFedexOptions" xml:space="preserve">
+    <value>Adicionar opções Fedex domésticas</value>
+  </data>
+  <data name="AddDomesticUPSOptions" xml:space="preserve">
+    <value>Adicionar opções domésticas de UPS</value>
+  </data>
+  <data name="AddDomesticUSPSOptions" xml:space="preserve">
+    <value>Adicionar opções USPS domésticas</value>
+  </data>
+  <data name="AddInternationalDHLOptions" xml:space="preserve">
+    <value>Adicionar DHLOptions internacionais</value>
+  </data>
+  <data name="AddInternationalFedexOptions" xml:space="preserve">
+    <value>Adicionar opções Fedex internacionais</value>
+  </data>
+  <data name="AddInternationalUPSOptions" xml:space="preserve">
+    <value>Adicionar opções internacionais da UPS</value>
+  </data>
+  <data name="AddInternationalUSPSOptions" xml:space="preserve">
+    <value>Adicionar opções internacionais do USPS</value>
+  </data>
+  <data name="DatePaid" xml:space="preserve">
+    <value>Data do pagamento</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Desativar</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Habilitar</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>Da data</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Ir</value>
+  </data>
+  <data name="InvoiceID" xml:space="preserve">
+    <value>ID da fatura</value>
+  </data>
+  <data name="LanguageManagement" xml:space="preserve">
+    <value>Gerenciamento de idiomas</value>
+  </data>
+  <data name="LocationsManagement" xml:space="preserve">
+    <value>Gerenciamento de Locais</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="RegionEditor" xml:space="preserve">
+    <value>Editor de região</value>
+  </data>
+  <data name="ShippingMethod" xml:space="preserve">
+    <value>Método de envio</value>
+  </data>
+  <data name="SiteFeesReportNew" xml:space="preserve">
+    <value>Faturas de taxas (novas)</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ordenar</value>
+  </data>
+  <data name="ToDate" xml:space="preserve">
+    <value>Até a presente data</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="UserManagement" xml:space="preserve">
+    <value>Gerenciamento de usuários</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Nome do usuário</value>
+  </data>
+  <data name="AddDecorationSuccess" xml:space="preserve">
+    <value>Adicionar sucesso de decoração</value>
+  </data>
+  <data name="AddEventFeeSuccess" xml:space="preserve">
+    <value>Adicionar taxa de evento com sucesso</value>
+  </data>
+  <data name="AddFeeTierSuccess" xml:space="preserve">
+    <value>Adicionar sucesso ao nível da taxa</value>
+  </data>
+  <data name="AssignFieldSuccess" xml:space="preserve">
+    <value>Atribuir sucesso no campo</value>
+  </data>
+  <data name="ChooseDefaultCulture" xml:space="preserve">
+    <value>Escolha cultura padrão</value>
+  </data>
+  <data name="CreateFieldSuccess" xml:space="preserve">
+    <value>Criar sucesso no campo</value>
+  </data>
+  <data name="CultureManagement" xml:space="preserve">
+    <value>Gestão da Cultura</value>
+  </data>
+  <data name="DeleteFieldSuccess" xml:space="preserve">
+    <value>Excluir sucesso do campo</value>
+  </data>
+  <data name="EditDecorationSuccess" xml:space="preserve">
+    <value>Editar Sucesso da Decoração</value>
+  </data>
+  <data name="EditEventFeesSuccess" xml:space="preserve">
+    <value>Editar taxas de eventos com sucesso</value>
+  </data>
+  <data name="EditFeeTierSuccess" xml:space="preserve">
+    <value>Editar sucesso da camada de taxa</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="InUseByListingProperty" xml:space="preserve">
+    <value>Propriedade em uso por listagem</value>
+  </data>
+  <data name="PropertyManagementSuccess" xml:space="preserve">
+    <value>Configurações salvas com sucesso</value>
+  </data>
+  <data name="SaveFieldSuccess" xml:space="preserve">
+    <value>Salvar sucesso do campo</value>
+  </data>
+  <data name="ShippingMethods" xml:space="preserve">
+    <value>Métodos de Envio</value>
+  </data>
+  <data name="ShippingMethodsSuccess" xml:space="preserve">
+    <value>Métodos de Envio Sucesso</value>
+  </data>
+  <data name="ToggleListingTypeSuccess" xml:space="preserve">
+    <value>Alternar sucesso do tipo de listagem</value>
+  </data>
+  <data name="UnassignFieldFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Cancelar a atribuição de campo do sucesso de detalhe da categoria</value>
+  </data>
+  <data name="UnassignFieldSuccess" xml:space="preserve">
+    <value>Anular a atribuição do sucesso do campo</value>
+  </data>
+  <data name="LineageString_VersionInfo" xml:space="preserve">
+    <value>Avançado&gt; Versão</value>
+  </data>
+  <data name="ContentEditorSuccess" xml:space="preserve">
+    <value>Sucesso do Editor de Conteúdo</value>
+  </data>
+  <data name="Deactivate" xml:space="preserve">
+    <value>Desativar licença nesta máquina?</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>Adicionar novo</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Endereço de cobrança</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>Data Criada</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Número da fatura</value>
+  </data>
+  <data name="ListingType" xml:space="preserve">
+    <value>Tipo de listagem</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="SiteFeeInvoice" xml:space="preserve">
+    <value>Fatura de taxa do site</value>
+  </data>
+  <data name="SiteFeesReportPaid" xml:space="preserve">
+    <value>Faturas de taxa (pagas)</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="LineageString_LogoUploader" xml:space="preserve">
+    <value>Preferências do site&gt; Logo do site</value>
+  </data>
+  <data name="PayToProceed" xml:space="preserve">
+    <value>Pagar para continuar</value>
+  </data>
+  <data name="UploadYourSiteLogo" xml:space="preserve">
+    <value>Carregar o logotipo do seu site</value>
+  </data>
+  <data name="DeleteDecorationSuccess" xml:space="preserve">
+    <value>Decoração excluída com sucesso</value>
+  </data>
+  <data name="EditLocationSuccess" xml:space="preserve">
+    <value>Local editado com sucesso</value>
+  </data>
+  <data name="DeleteEventFeeSuccess" xml:space="preserve">
+    <value>Taxa do evento excluído com sucesso</value>
+  </data>
+  <data name="LowerBoundInclusive" xml:space="preserve">
+    <value>Limite inferior</value>
+  </data>
+  <data name="UpperBoundExclusive" xml:space="preserve">
+    <value>Limite superior</value>
+  </data>
+  <data name="ValueType" xml:space="preserve">
+    <value>Tipo de valor</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>N / D</value>
+  </data>
+  <data name="AdditionalImages" xml:space="preserve">
+    <value>Imagens adicionais</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="CancelChanges" xml:space="preserve">
+    <value>Cancelar alterações</value>
+  </data>
+  <data name="Featured" xml:space="preserve">
+    <value>Destaque</value>
+  </data>
+  <data name="FeeName" xml:space="preserve">
+    <value>Nome da taxa</value>
+  </data>
+  <data name="FinalSaleFee" xml:space="preserve">
+    <value>Taxa final do vendedor</value>
+  </data>
+  <data name="FirstImage" xml:space="preserve">
+    <value>Primeira imagem</value>
+  </data>
+  <data name="ForValuesUnder" xml:space="preserve">
+    <value>Para valores em ...</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Realçar</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="PostListingFee" xml:space="preserve">
+    <value>Taxa de postagem</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Salvar alterações</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="EditFees" xml:space="preserve">
+    <value>Editar taxas</value>
+  </data>
+  <data name="AssignFieldFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Campos personalizados associados com sucesso</value>
+  </data>
+  <data name="AddNewDecor" xml:space="preserve">
+    <value>Adicionar nova decoração</value>
+  </data>
+  <data name="AddNewListingFee" xml:space="preserve">
+    <value>Adicionar nova taxa de listagem</value>
+  </data>
+  <data name="AddNewTier" xml:space="preserve">
+    <value>Adicionar nova camada</value>
+  </data>
+  <data name="EditFeeTiers" xml:space="preserve">
+    <value>Editar níveis de taxa</value>
+  </data>
+  <data name="EditFeeTiers_HelpText" xml:space="preserve">
+    <value>Selecione o valor da taxa para editar a camada.</value>
+  </data>
+  <data name="FeeDescription" xml:space="preserve">
+    <value>Descrição da taxa</value>
+  </data>
+  <data name="FeeValue" xml:space="preserve">
+    <value>Valor da taxa</value>
+  </data>
+  <data name="LineageString_EditEventFeeManagement" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Taxas da lista&gt; Editar taxa</value>
+  </data>
+  <data name="LineageString_OptionFee" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Taxas opcionais</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Ou</value>
+  </data>
+  <data name="SelectEvent" xml:space="preserve">
+    <value>Selecionar evento</value>
+  </data>
+  <data name="SelectListingType" xml:space="preserve">
+    <value>Selecionar tipo de listagem</value>
+  </data>
+  <data name="AdminHelpText_PayToProceed" xml:space="preserve">
+    <value>Selecione esta opção para exigir pagamentos de taxas de listagem dos vendedores antecipadamente.</value>
+  </data>
+  <data name="LineageString_EditFees" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Editar taxas</value>
+  </data>
+  <data name="ClearCache" xml:space="preserve">
+    <value>Limpar cache</value>
+  </data>
+  <data name="LineageString_CategoryDetail" xml:space="preserve">
+    <value>Categorias&gt; Editar&gt; Detalhes</value>
+  </data>
+  <data name="LineageString_CategoryEditor" xml:space="preserve">
+    <value>Categorias&gt; Editar</value>
+  </data>
+  <data name="LineageString_ContentEditor" xml:space="preserve">
+    <value>CMS&gt; Conteúdo&gt; Detalhes</value>
+  </data>
+  <data name="LineageString_ContentGeneral" xml:space="preserve">
+    <value>CMS&gt; Conteúdo</value>
+  </data>
+  <data name="LineageString_CultureManagement" xml:space="preserve">
+    <value>Internacional&gt; Culturas</value>
+  </data>
+  <data name="LineageString_CurrencyManagement" xml:space="preserve">
+    <value>Internacional&gt; Moedas</value>
+  </data>
+  <data name="LineageString_EditUser" xml:space="preserve">
+    <value>Usuários&gt; Gerenciamento&gt; Editar Usuário</value>
+  </data>
+  <data name="LineageString_ExtendListings" xml:space="preserve">
+    <value>Avançado&gt; Estender</value>
+  </data>
+  <data name="LineageString_IncrementManagement" xml:space="preserve">
+    <value>Listagens&gt; Gerenciamento de Incremento de Lances</value>
+  </data>
+  <data name="LineageString_LanguageManagement" xml:space="preserve">
+    <value>Internacional&gt; Idiomas</value>
+  </data>
+  <data name="LineageString_ListingsGeneral" xml:space="preserve">
+    <value>Listagens&gt; Geral</value>
+  </data>
+  <data name="LineageString_RegionGeneral" xml:space="preserve">
+    <value>Regiões&gt; Editar</value>
+  </data>
+  <data name="LineageString_ShippingMethods" xml:space="preserve">
+    <value>Anúncios&gt; Remessa</value>
+  </data>
+  <data name="LineageString_SiteFeesReportNew" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Faturas de taxas (novas)</value>
+  </data>
+  <data name="LineageString_SiteFeesReportPaid" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Faturas de taxa (pagas)</value>
+  </data>
+  <data name="LineageString_UserManagement" xml:space="preserve">
+    <value>Usuários&gt; Gerenciamento</value>
+  </data>
+  <data name="AdminSummary" xml:space="preserve">
+    <value>Resumo do administrador</value>
+  </data>
+  <data name="AdminSummaryCountActiveListings" xml:space="preserve">
+    <value>Listagens Ativas</value>
+  </data>
+  <data name="AdminSummaryCountAllListings" xml:space="preserve">
+    <value>Total de listagens</value>
+  </data>
+  <data name="AdminSummaryCountListingsWithTransactions" xml:space="preserve">
+    <value>Listagens com lances / compras</value>
+  </data>
+  <data name="AdminSummaryCountRegisteredUsers" xml:space="preserve">
+    <value>Usuários registrados</value>
+  </data>
+  <data name="SiteStatistics" xml:space="preserve">
+    <value>Estatísticas do site</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Sobre nós</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contate-Nos</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Socorro</value>
+  </data>
+  <data name="HomepageAnnouncement" xml:space="preserve">
+    <value>Anúncio da página inicial</value>
+  </data>
+  <data name="IdHighToLow" xml:space="preserve">
+    <value>ID (alto a baixo)</value>
+  </data>
+  <data name="IdLowToHigh" xml:space="preserve">
+    <value>ID (baixo a alto)</value>
+  </data>
+  <data name="LastLoginDateNewToOld" xml:space="preserve">
+    <value>Data do último login (novo para antigo)</value>
+  </data>
+  <data name="LastLoginDateOldToNew" xml:space="preserve">
+    <value>Data do último login (antigo para novo)</value>
+  </data>
+  <data name="LocalizedName" xml:space="preserve">
+    <value>Nome localizado (no idioma atual)</value>
+  </data>
+  <data name="PaidDateNewToOld" xml:space="preserve">
+    <value>Data do pagamento (novo para antigo)</value>
+  </data>
+  <data name="PaidDateOldToNew" xml:space="preserve">
+    <value>Data do pagamento (antiga para nova)</value>
+  </data>
+  <data name="PayerUserNameAToZ" xml:space="preserve">
+    <value>Nome de usuário do pagador (A a Z)</value>
+  </data>
+  <data name="PayerUserNameZToA" xml:space="preserve">
+    <value>Nome de usuário do pagador (Z a A)</value>
+  </data>
+  <data name="RegistrationCopy" xml:space="preserve">
+    <value>Cópia de Registro</value>
+  </data>
+  <data name="SignInCopy" xml:space="preserve">
+    <value>Cópia de entrada</value>
+  </data>
+  <data name="SiteHeader" xml:space="preserve">
+    <value>Cabeçalho do site</value>
+  </data>
+  <data name="TermsAndConditions" xml:space="preserve">
+    <value>Termos e Condições</value>
+  </data>
+  <data name="TotalHighToLow" xml:space="preserve">
+    <value>Total (alto a baixo)</value>
+  </data>
+  <data name="TotalLowToHigh" xml:space="preserve">
+    <value>Total (Baixo a Alto)</value>
+  </data>
+  <data name="UserNameAToZ" xml:space="preserve">
+    <value>Nome de usuário (A a Z)</value>
+  </data>
+  <data name="UserNameZToA" xml:space="preserve">
+    <value>Nome de usuário (Z a A)</value>
+  </data>
+  <data name="UserVerificationCopy" xml:space="preserve">
+    <value>Cópia de verificação do usuário</value>
+  </data>
+  <data name="EditFeesSuccess" xml:space="preserve">
+    <value>Taxas editadas com sucesso</value>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Versão do banco de dados</value>
+  </data>
+  <data name="CategoryEditor_AddNew" xml:space="preserve">
+    <value>Adicionar novas categorias</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CancelChangesWarning1" xml:space="preserve">
+    <value>Todas as alterações serão perdidas.</value>
+  </data>
+  <data name="CancelChangesWarning2" xml:space="preserve">
+    <value>Você tem certeza?</value>
+  </data>
+  <data name="CustomUserDeferredHelpText" xml:space="preserve">
+    <value>Quando marcado, este campo será oculto no registro. Ele ainda será exibido nas visualizações "Minha conta&gt; Detalhes" e "Painel de controle do administrador&gt; Editar usuário".</value>
+  </data>
+  <data name="DeleteWarning_CantBeUndone" xml:space="preserve">
+    <value>ESSA AÇÃO NÃO PODE SER DESFEITA</value>
+  </data>
+  <data name="DeleteWarning_Really" xml:space="preserve">
+    <value>Deseja mesmo excluir este campo? Se alguma Listagem (para campos de Listagem) ou Usuários (para campos de Usuário) usar esse campo ou Eventos (para campos de Eventos), esses dados serão EXCLUÍDOS. (Listagens individuais, usuários ou eventos, no entanto, permanecerão intactos.)</value>
+  </data>
+  <data name="DeleteWarning_ReallyDeleteCategory" xml:space="preserve">
+    <value>Deseja mesmo excluir esta categoria?</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Ações</value>
+  </data>
+  <data name="AddRegions" xml:space="preserve">
+    <value>Adicionar regiões</value>
+  </data>
+  <data name="AddSubcategories" xml:space="preserve">
+    <value>Adicionar categorias</value>
+  </data>
+  <data name="CurrentlySelected" xml:space="preserve">
+    <value>Atualmente selecionado</value>
+  </data>
+  <data name="DeleteWarning_ReallyDeleteRegion" xml:space="preserve">
+    <value>Deseja mesmo excluir esta região?</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Redefinir</value>
+  </data>
+  <data name="RootItemCategoryTitle" xml:space="preserve">
+    <value>(Raiz)</value>
+  </data>
+  <data name="CategoryEditor_AddNewInstructions" xml:space="preserve">
+    <value>&lt;p&gt; &lt;strong&gt; Digite os novos nomes de categorias em um formato separado por vírgula. &lt;/strong&gt; Eles aparecerão como subcategorias da categoria selecionada acima. Novas categorias de nível 'superior' devem ser adicionadas ao (Raiz). &lt;/p&gt; &lt;p&gt; Exemplo: Vestuário esportivo, Casacos e jaquetas, Vestidos, Roupas íntimas e sono, Calças e shorts, Saias, Fatos e Blazers, Suéteres, Tops &amp; Blusas &lt;/p&gt; &lt;p&gt; &lt;small&gt; &lt;em&gt; Se você traduzir o software para vários idiomas, o nome de cada categoria representará a 'chave' no par de chave / valor. Não use espaços ou caracteres especiais. O nome de cada categoria precisará ser adicionado ao arquivo de idioma "CategoriesRegions.resx" e o 'valor' traduzido pode conter espaços e caracteres especiais. &lt;br /&gt; &lt;br /&gt; Exemplo: AthleticApparel, CoatsJackets, Dresses, IntimatesSleep, PantsShorts, Saias, ternosBlazers, blusas, topsBlusas &lt;/small&gt;&lt;/em&gt; &lt;/p&gt;</value>
+  </data>
+  <data name="RegionEditor_AddNew" xml:space="preserve">
+    <value>Adicionar nova região</value>
+  </data>
+  <data name="RegionEditor_AddNewInstructions" xml:space="preserve">
+    <value>(Digite novas regiões no formato separado por vírgula. Novas regiões aparecerão no final da lista de regiões.)</value>
+  </data>
+  <data name="LanguageManagement_Help" xml:space="preserve">
+    <value>Ative apenas idiomas com arquivos de idiomas totalmente localizados.</value>
+  </data>
+  <data name="ClearCache_Help" xml:space="preserve">
+    <value>Limpa o cache da categoria e do campo personalizado.</value>
+  </data>
+  <data name="LanguageManagementFailure" xml:space="preserve">
+    <value>Falha no gerenciamento de idiomas</value>
+  </data>
+  <data name="LanguageManagementSuccess" xml:space="preserve">
+    <value>Configuração salva</value>
+  </data>
+  <data name="ILLEGAL_FORMAT" xml:space="preserve">
+    <value>Formato incorreto</value>
+  </data>
+  <data name="ILLEGAL_PRODUCTCODE" xml:space="preserve">
+    <value>Código incorreto do produto</value>
+  </data>
+  <data name="SERIALNUMBER_NOTFOUND" xml:space="preserve">
+    <value>Chave de licença não encontrada</value>
+  </data>
+  <data name="ShowHideExtendedVersionInfo" xml:space="preserve">
+    <value>Mostrar / ocultar informações da versão estendida</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Atributos</value>
+  </data>
+  <data name="Context" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="ContextAtoZ" xml:space="preserve">
+    <value>Contexto (A a Z)</value>
+  </data>
+  <data name="ContextZtoA" xml:space="preserve">
+    <value>Contexto (Z a A)</value>
+  </data>
+  <data name="NameAtoZ" xml:space="preserve">
+    <value>Nome (A a Z)</value>
+  </data>
+  <data name="NameZtoA" xml:space="preserve">
+    <value>Nome (Z a A)</value>
+  </data>
+  <data name="TypeAtoZ" xml:space="preserve">
+    <value>Tipo (A a Z)</value>
+  </data>
+  <data name="TypeZtoA" xml:space="preserve">
+    <value>Tipo (Z a A)</value>
+  </data>
+  <data name="AttributesFailure" xml:space="preserve">
+    <value>Falha ao salvar atributos</value>
+  </data>
+  <data name="AttributesSuccess" xml:space="preserve">
+    <value>Atributos salvos com sucesso</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Imagens</value>
+  </data>
+  <data name="EmailFees" xml:space="preserve">
+    <value>Taxas de e-mail</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>E-mail enviado</value>
+  </data>
+  <data name="SetInvoicePaidSuccess" xml:space="preserve">
+    <value>Definir status de fatura paga com êxito</value>
+  </data>
+  <data name="MarkPaid" xml:space="preserve">
+    <value>Mark Paid</value>
+  </data>
+  <data name="CategoryHasChildCategories" xml:space="preserve">
+    <value>Esta categoria não pode ser excluída porque possui categorias filho. Exclua as categorias filho primeiro.</value>
+  </data>
+  <data name="CategoryInUseByListing" xml:space="preserve">
+    <value>Esta categoria não pode ser excluída porque está sendo usada por listagens existentes.</value>
+  </data>
+  <data name="RegionHasChildCategories" xml:space="preserve">
+    <value>Esta região não pode ser excluída porque possui regiões filho. Exclua as regiões filho primeiro.</value>
+  </data>
+  <data name="RegionInUseByListing" xml:space="preserve">
+    <value>Esta região não pode ser excluída porque está sendo usada por listagens existentes.</value>
+  </data>
+  <data name="Banners" xml:space="preserve">
+    <value>Banners</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="CreateBanner" xml:space="preserve">
+    <value>Criar banner</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>URL de link completo</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Local de exibição</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Enviar Imagem</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>Adicionar categoria</value>
+  </data>
+  <data name="AddRegion" xml:space="preserve">
+    <value>Adicionar região</value>
+  </data>
+  <data name="AllSubcategories" xml:space="preserve">
+    <value>Todas as subcategorias</value>
+  </data>
+  <data name="AllSubregions" xml:space="preserve">
+    <value>Todas as sub-regiões</value>
+  </data>
+  <data name="Regions" xml:space="preserve">
+    <value>Regiões</value>
+  </data>
+  <data name="DeleteBanner" xml:space="preserve">
+    <value>Excluir banner</value>
+  </data>
+  <data name="UpdateBanner" xml:space="preserve">
+    <value>Atualizar banner</value>
+  </data>
+  <data name="CreateBannerSuccess" xml:space="preserve">
+    <value>Banner criado</value>
+  </data>
+  <data name="DeleteBannerSuccess" xml:space="preserve">
+    <value>Banner excluído</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="OptionalInParens" xml:space="preserve">
+    <value>(opcional)</value>
+  </data>
+  <data name="UpdateBannerSuccess" xml:space="preserve">
+    <value>Banner Updated</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visão:</value>
+  </data>
+  <data name="DeleteLineItemWarning1" xml:space="preserve">
+    <value>Este item de linha será excluído permanentemente.</value>
+  </data>
+  <data name="DeleteLineItemWarning2" xml:space="preserve">
+    <value>Você tem certeza?</value>
+  </data>
+  <data name="RemoveLineItemSuccess" xml:space="preserve">
+    <value>Item de linha excluído com sucesso</value>
+  </data>
+  <data name="EditUserSuccess" xml:space="preserve">
+    <value>Informações da conta atualizadas</value>
+  </data>
+  <data name="UserNameAlreadyExists" xml:space="preserve">
+    <value>O nome de usuário já existe (o nome de usuário deve ser exclusivo)</value>
+  </data>
+  <data name="AlphaSortCategories" xml:space="preserve">
+    <value>Classificar em ordem alfabética as categorias filho</value>
+  </data>
+  <data name="AlphaSortRegions" xml:space="preserve">
+    <value>Classificar em ordem alfabética as regiões filho</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Mover para baixo</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="Literal_Footer" xml:space="preserve">
+    <value>Scripts de rodapé</value>
+  </data>
+  <data name="Literal_Header" xml:space="preserve">
+    <value>Scripts de cabeçalho</value>
+  </data>
+  <data name="Literal_SocialNetworking" xml:space="preserve">
+    <value>Scripts de redes sociais</value>
+  </data>
+  <data name="SiteFooter" xml:space="preserve">
+    <value>Rodapé do site</value>
+  </data>
+  <data name="Auction" xml:space="preserve">
+    <value>Leilão</value>
+  </data>
+  <data name="BidIncrements" xml:space="preserve">
+    <value>Incrementos de lance</value>
+  </data>
+  <data name="Classified" xml:space="preserve">
+    <value>Classificado</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Preço fixo</value>
+  </data>
+  <data name="Listings" xml:space="preserve">
+    <value>Listagens</value>
+  </data>
+  <data name="UpdateBidIncrementsSuccess" xml:space="preserve">
+    <value>Incrementos de lance atualizados</value>
+  </data>
+  <data name="ListingTypePropertiesSuccess" xml:space="preserve">
+    <value>Propriedades do tipo de listagem atualizadas</value>
+  </data>
+  <data name="YouTubeVideo" xml:space="preserve">
+    <value>Vídeo do youtube</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="UpdateBannerPropertiesSuccess" xml:space="preserve">
+    <value>Configurações de banner atualizadas</value>
+  </data>
+  <data name="FlatFee" xml:space="preserve">
+    <value>Taxa pós-classificação</value>
+  </data>
+  <data name="UserEmailAlreadyExists" xml:space="preserve">
+    <value>O email do usuário já existe (o email deve ser exclusivo)</value>
+  </data>
+  <data name="ApplyChangesToSubCategories" xml:space="preserve">
+    <value>Aplicar atribuições de campo personalizadas a subcategorias</value>
+  </data>
+  <data name="YouMustSelectAFieldFirst" xml:space="preserve">
+    <value>Você deve selecionar um campo primeiro</value>
+  </data>
+  <data name="ApplyChangesToSubCategories_Help" xml:space="preserve">
+    <value>Suas alterações serão aplicadas a esta categoria e a todas as subcategorias descendentes. Alterne "OFF" para aplicar apenas alterações a esta categoria específica.</value>
+  </data>
+  <data name="Assigned" xml:space="preserve">
+    <value>Atribuído</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>acessível</value>
+  </data>
+  <data name="AcceptedCreditCards" xml:space="preserve">
+    <value>Cartões de crédito aceitos</value>
+  </data>
+  <data name="CreditCardsSuccess" xml:space="preserve">
+    <value>Configurações do cartão de crédito atualizadas</value>
+  </data>
+  <data name="LineageString_CreditCards" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Cartões de crédito armazenados</value>
+    <comment>renamed from "Billing &amp; Fees &gt; Payment Providers &gt; Credit Card Types" in v1.2</comment>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>Usuário interino não está autorizado</value>
+  </data>
+  <data name="ActingUserIsNotInRequiredRole" xml:space="preserve">
+    <value>O usuário ativo não é obrigatório</value>
+  </data>
+  <data name="ActingUserIsNotRequiredUser" xml:space="preserve">
+    <value>Usuário interino não é necessário</value>
+  </data>
+  <data name="ActingUserNameNotSpecified" xml:space="preserve">
+    <value>Nome de usuário ativo não especificado</value>
+  </data>
+  <data name="CategoryAlreadyExists" xml:space="preserve">
+    <value>A categoria já existe</value>
+  </data>
+  <data name="CurrencyNotSupported" xml:space="preserve">
+    <value>Moeda não suportada</value>
+  </data>
+  <data name="Failure" xml:space="preserve">
+    <value>Falha</value>
+  </data>
+  <data name="HasChildCategories" xml:space="preserve">
+    <value>Tem categorias filho</value>
+  </data>
+  <data name="InUseByListing" xml:space="preserve">
+    <value>Em uso por listagem</value>
+  </data>
+  <data name="InUseByListingActionProperty" xml:space="preserve">
+    <value>Propriedade em ação de listagem em uso</value>
+  </data>
+  <data name="InUseByShippingOption" xml:space="preserve">
+    <value>Em uso pela opção de envio</value>
+  </data>
+  <data name="InUseBySiteProperty" xml:space="preserve">
+    <value>Propriedade em uso por site</value>
+  </data>
+  <data name="InUseByUserProperty" xml:space="preserve">
+    <value>Propriedade em uso por usuário</value>
+  </data>
+  <data name="InvoiceNotFound" xml:space="preserve">
+    <value>Fatura não encontrada</value>
+  </data>
+  <data name="InvoiceTypeNotSupported" xml:space="preserve">
+    <value>Tipo de fatura não suportado</value>
+  </data>
+  <data name="RequiredArgumentMissing" xml:space="preserve">
+    <value>Argumento necessário ausente</value>
+  </data>
+  <data name="RequiredArgumentNull" xml:space="preserve">
+    <value>O argumento necessário está vazio</value>
+  </data>
+  <data name="RequiredArgumentOutOfBounds" xml:space="preserve">
+    <value>Argumento necessário fora dos limites</value>
+  </data>
+  <data name="RoleNameNotUnique" xml:space="preserve">
+    <value>Nome da função não exclusivo</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Sucesso</value>
+  </data>
+  <data name="AddDecorationFailure" xml:space="preserve">
+    <value>Adicionar falha na decoração</value>
+  </data>
+  <data name="AddEnumerationFailure" xml:space="preserve">
+    <value>Falha na opção Adicionar</value>
+  </data>
+  <data name="AddEnumerationSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="AddEventFeeFailure" xml:space="preserve">
+    <value>Falha ao adicionar taxa de evento</value>
+  </data>
+  <data name="AddFeeTierFailure" xml:space="preserve">
+    <value>Falha ao adicionar nível de taxa</value>
+  </data>
+  <data name="AddInvoiceAdjustmentFailure" xml:space="preserve">
+    <value>Falha ao adicionar ajuste de fatura</value>
+  </data>
+  <data name="AddInvoiceAdjustmentSuccess" xml:space="preserve">
+    <value>Ajuste de fatura adicionado</value>
+  </data>
+  <data name="AddMiscSiteFeeFailure" xml:space="preserve">
+    <value>Falha ao adicionar taxa de site variado</value>
+  </data>
+  <data name="AddMiscSiteFeeSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="AddStandardShippingMethodsFailure" xml:space="preserve">
+    <value>Falha ao adicionar métodos de envio padrão</value>
+  </data>
+  <data name="AddStandardShippingMethodsSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="AssignListingTypeFromCategoryDetailFailure" xml:space="preserve">
+    <value>Falha ao atribuir tipo de listagem a partir de detalhes da categoria</value>
+  </data>
+  <data name="AssignListingTypeFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="AttributesSuccess1" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="ContentEditorFailure" xml:space="preserve">
+    <value>Falha no Editor de Conteúdo</value>
+  </data>
+  <data name="CreateBannerFailure" xml:space="preserve">
+    <value>Falha na criação do banner</value>
+  </data>
+  <data name="CreateBannerSuccess1" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="CreateFieldFailure" xml:space="preserve">
+    <value>Falha no campo Criar</value>
+  </data>
+  <data name="CreditCardsSuccess1" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="CultureManagementFailure" xml:space="preserve">
+    <value>Falha no gerenciamento da cultura</value>
+  </data>
+  <data name="CultureManagementSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="CurrencyConversionFailure" xml:space="preserve">
+    <value>Falha na conversão de moeda</value>
+  </data>
+  <data name="CurrencyConversionSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="CurrencyManagementFailure" xml:space="preserve">
+    <value>Falha no gerenciamento de moeda</value>
+  </data>
+  <data name="CurrencyManagementSuccess" xml:space="preserve">
+    <value>Configuração salva</value>
+  </data>
+  <data name="DeleteBannerFailure" xml:space="preserve">
+    <value>Falha ao excluir banner</value>
+  </data>
+  <data name="DeleteBannerSuccess1" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="DeleteDecorationFailure" xml:space="preserve">
+    <value>Falha ao excluir decoração</value>
+  </data>
+  <data name="DeleteEnumerationFailure" xml:space="preserve">
+    <value>Falha na opção Excluir</value>
+  </data>
+  <data name="DeleteEnumerationSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="DeleteEventFeeFailure" xml:space="preserve">
+    <value>Falha na exclusão da taxa do evento</value>
+  </data>
+  <data name="DeleteFieldFailure" xml:space="preserve">
+    <value>Falha ao excluir campo</value>
+  </data>
+  <data name="EditDecorationFailure" xml:space="preserve">
+    <value>Editar decoração falhou</value>
+  </data>
+  <data name="EditEventFeesFailure" xml:space="preserve">
+    <value>Falha na edição das taxas de eventos</value>
+  </data>
+  <data name="EditFeesFailure" xml:space="preserve">
+    <value>Falha na edição das taxas</value>
+  </data>
+  <data name="EditFeeTierFailure" xml:space="preserve">
+    <value>Falha na edição da taxa de edição</value>
+  </data>
+  <data name="EditLocationFailure" xml:space="preserve">
+    <value>Falha na edição do local</value>
+  </data>
+  <data name="EditUserFailure" xml:space="preserve">
+    <value>Falha ao Editar Usuário</value>
+  </data>
+  <data name="Extend10MinutesFailure" xml:space="preserve">
+    <value>Falha na extensão de 10 minutos</value>
+  </data>
+  <data name="Extend10MinutesSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="ExtendListingsFailure" xml:space="preserve">
+    <value>Falha ao estender listagens</value>
+  </data>
+  <data name="ExtendListingsSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="ImpersonateFailure" xml:space="preserve">
+    <value>Falha na representação</value>
+  </data>
+  <data name="ImpersonateSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="IncrementManagementFailure" xml:space="preserve">
+    <value>Falha no gerenciamento de incremento</value>
+  </data>
+  <data name="IncrementManagementSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="InvoiceDetailFailure" xml:space="preserve">
+    <value>Detalhe da fatura falhou</value>
+  </data>
+  <data name="ListingTypePropertiesFailure" xml:space="preserve">
+    <value>Falha nas propriedades do tipo de listagem</value>
+  </data>
+  <data name="SetInvoicePaidFailure" xml:space="preserve">
+    <value>Falha na configuração do status de pagamento da fatura</value>
+  </data>
+  <data name="PropertyManagementFailure" xml:space="preserve">
+    <value>Falha no gerenciamento de propriedades</value>
+  </data>
+  <data name="RemoveLineItemFailure" xml:space="preserve">
+    <value>Falha ao remover item de linha</value>
+  </data>
+  <data name="SaveFieldFailure" xml:space="preserve">
+    <value>Falha ao salvar campo</value>
+  </data>
+  <data name="ShippingMethodsFailure" xml:space="preserve">
+    <value>Falha nos métodos de envio</value>
+  </data>
+  <data name="ToggleListingTypeFailure" xml:space="preserve">
+    <value>Alternar tipo de listagem com falha</value>
+  </data>
+  <data name="UnassignListingTypeFromCategoryDetailFailure" xml:space="preserve">
+    <value>Anular a atribuição do tipo de listagem dos detalhes da categoria</value>
+  </data>
+  <data name="UnassignListingTypeFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Sucedido</value>
+  </data>
+  <data name="UpdateBannerFailure" xml:space="preserve">
+    <value>Falha na atualização do banner</value>
+  </data>
+  <data name="UpdateBannerPropertiesFailure" xml:space="preserve">
+    <value>Falha na atualização das propriedades do banner</value>
+  </data>
+  <data name="UpdateBidIncrementsFailure" xml:space="preserve">
+    <value>Falha na atualização dos lances de atualização</value>
+  </data>
+  <data name="UpdateShippingPropertiesFailure" xml:space="preserve">
+    <value>Falha na atualização das propriedades de remessa</value>
+  </data>
+  <data name="UpdateShippingPropertiesSuccess" xml:space="preserve">
+    <value>Configurações de remessa atualizadas</value>
+  </data>
+  <data name="AdminEditUserPassword_Help" xml:space="preserve">
+    <value>Defina apenas este valor para redefinir a senha do usuário. Caso contrário, deixe em branco.</value>
+  </data>
+  <data name="CustomFieldDeletingForbidden" xml:space="preserve">
+    <value>Você não pode excluir este campo personalizado.</value>
+  </data>
+  <data name="CustomFieldEditingForbidden" xml:space="preserve">
+    <value>Você não pode editar este campo personalizado.</value>
+  </data>
+  <data name="AllDescendantCategories" xml:space="preserve">
+    <value>Todas as subcategorias associadas</value>
+  </data>
+  <data name="CategoryDeletionConfirmation_Title" xml:space="preserve">
+    <value>Confirmação de exclusão de categoria</value>
+  </data>
+  <data name="CategoryDeletionRepercussionWarning" xml:space="preserve">
+    <value>Se você excluir esta categoria, também estará excluindo:</value>
+  </data>
+  <data name="DescendantListings" xml:space="preserve">
+    <value>listagens associadas</value>
+  </data>
+  <data name="DirectChildCategories" xml:space="preserve">
+    <value>subcategorias imediatas</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="YesPermanentlyDelete" xml:space="preserve">
+    <value>Sim, Excluir permanentemente</value>
+  </data>
+  <data name="AllDescendantRegions" xml:space="preserve">
+    <value>Todas as sub-regiões associadas</value>
+  </data>
+  <data name="DirectChildRegions" xml:space="preserve">
+    <value>sub-regiões imediatas</value>
+  </data>
+  <data name="RegionDeletionConfirmation_Title" xml:space="preserve">
+    <value>Confirmação de exclusão de região</value>
+  </data>
+  <data name="RegionDeletionRepercussionWarning" xml:space="preserve">
+    <value>Se você excluir esta região, também estará excluindo:</value>
+  </data>
+  <data name="YouMustSelectAListingTypeFirst" xml:space="preserve">
+    <value>Você deve selecionar um Tipo de listagem primeiro</value>
+  </data>
+  <data name="UpdateCreditCardPropertiesFailure" xml:space="preserve">
+    <value>Falha na atualização das propriedades do cartão de crédito</value>
+  </data>
+  <data name="UpdateCreditCardPropertiesSuccess" xml:space="preserve">
+    <value>Configurações do cartão de crédito atualizadas</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tudo</value>
+  </data>
+  <data name="Buyer" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="Deactivated" xml:space="preserve">
+    <value>Desativado</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Primeiro</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Chave</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Último</value>
+  </data>
+  <data name="ResetFilters" xml:space="preserve">
+    <value>Redefinir filtros</value>
+  </data>
+  <data name="Restricted" xml:space="preserve">
+    <value>Restrito</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Função</value>
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Unapproved" xml:space="preserve">
+    <value>Desaprovado</value>
+  </data>
+  <data name="Unverified" xml:space="preserve">
+    <value>Não verificado</value>
+  </data>
+  <data name="DeactivateUser" xml:space="preserve">
+    <value>Desativar usuário</value>
+  </data>
+  <data name="Deactivate_Button" xml:space="preserve">
+    <value>Desativar</value>
+  </data>
+  <data name="DeleteUser" xml:space="preserve">
+    <value>Deletar usuário</value>
+  </data>
+  <data name="DeleteUserFailure" xml:space="preserve">
+    <value>Falha ao excluir usuário</value>
+  </data>
+  <data name="DeleteUserSuccess" xml:space="preserve">
+    <value>Usuário excluído com sucesso</value>
+  </data>
+  <data name="DeleteUserWarning_Line1" xml:space="preserve">
+    <value>A exclusão do Usuário também excluirá TODOS os registros associados ao Usuário (por exemplo: transações de vendas, histórico de lances / compras, feedback do usuário, faturas, mensagens, listagens criadas etc.)</value>
+  </data>
+  <data name="DeleteUserWarning_Line2" xml:space="preserve">
+    <value>Esta operação não pode ser desfeita.</value>
+  </data>
+  <data name="DeleteUserWarning_Line3" xml:space="preserve">
+    <value>Como alternativa, para manter os registros de Usuário associados para fins de uso ou geração de relatórios, você pode Desativar o Usuário. Um Usuário Desativado não poderá entrar e não aparecerá nos modos de exibição padrão do Gerenciamento de Usuários.</value>
+  </data>
+  <data name="ReactivateUser" xml:space="preserve">
+    <value>Reativar usuário</value>
+  </data>
+  <data name="SetUserActiveFailure" xml:space="preserve">
+    <value>Definir falha do usuário ativo</value>
+  </data>
+  <data name="SetUserActiveSuccess" xml:space="preserve">
+    <value>Usuário atualizado com sucesso</value>
+  </data>
+  <data name="UserDeletionConfirmation_Title" xml:space="preserve">
+    <value>Confirmação de exclusão do usuário</value>
+  </data>
+  <data name="ColumnSpecification" xml:space="preserve">
+    <value>Especificação da coluna</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="ExportCSV" xml:space="preserve">
+    <value>Exportar CSV</value>
+  </data>
+  <data name="ExportUserCSVSuccess" xml:space="preserve">
+    <value>Sua exportação foi iniciada; você receberá um e-mail quando terminar.</value>
+  </data>
+  <data name="ExtendedInfoWHeader" xml:space="preserve">
+    <value>Informações estendidas (com cabeçalho)</value>
+  </data>
+  <data name="ExtendedInfoWOHeader" xml:space="preserve">
+    <value>Informações estendidas (sem cabeçalho)</value>
+  </data>
+  <data name="FirstLastEmailWHeader" xml:space="preserve">
+    <value>Nome, Sobrenome e Endereço de Email (com Cabeçalho)</value>
+  </data>
+  <data name="FirstLastEmailWOHeader" xml:space="preserve">
+    <value>Nome, Sobrenome e Endereço de Email (sem Cabeçalho)</value>
+  </data>
+  <data name="IncludeHeaderQuestion" xml:space="preserve">
+    <value>Incluir cabeçalho?</value>
+  </data>
+  <data name="AccountInfo" xml:space="preserve">
+    <value>Informações da Conta</value>
+  </data>
+  <data name="ActiveListings" xml:space="preserve">
+    <value>Listagens Ativas</value>
+  </data>
+  <data name="Addresses" xml:space="preserve">
+    <value>Endereços</value>
+  </data>
+  <data name="AllListings" xml:space="preserve">
+    <value>Todas as listas</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Costas</value>
+  </data>
+  <data name="CreditCards" xml:space="preserve">
+    <value>Cartões de crédito</value>
+  </data>
+  <data name="EditAddressFailure" xml:space="preserve">
+    <value>Falha ao Editar Endereço</value>
+  </data>
+  <data name="EditAddressSuccess" xml:space="preserve">
+    <value>Endereço atualizado</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Comentários</value>
+  </data>
+  <data name="FeedbackRating" xml:space="preserve">
+    <value>Pontuação de Feedback</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="PrimaryAddress" xml:space="preserve">
+    <value>Endereço primário</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="SetPrimaryAddressFailure" xml:space="preserve">
+    <value>Falha no endereço principal definido</value>
+  </data>
+  <data name="SetPrimaryAddressSuccess" xml:space="preserve">
+    <value>Endereço principal atualizado</value>
+  </data>
+  <data name="XhoursAgo" xml:space="preserve">
+    <value>{0} atrás</value>
+  </data>
+  <data name="CustomSettings" xml:space="preserve">
+    <value>Opções customizadas</value>
+  </data>
+  <data name="ExportUserCSVInstructions" xml:space="preserve">
+    <value>Os filtros de pesquisa e as opções de classificação da página anterior serão aplicados ao CSV exportado.</value>
+  </data>
+  <data name="PredefinedCSVSpecifications" xml:space="preserve">
+    <value>Especificações CSV predefinidas</value>
+  </data>
+  <data name="AddCreditCardFailure" xml:space="preserve">
+    <value>Falha ao adicionar cartão de crédito</value>
+  </data>
+  <data name="AddCreditCardSuccess" xml:space="preserve">
+    <value>Cartão de crédito adicionado</value>
+  </data>
+  <data name="DeleteCreditCardFailure" xml:space="preserve">
+    <value>Falha na exclusão do cartão de crédito</value>
+  </data>
+  <data name="DeleteCreditCardSuccess" xml:space="preserve">
+    <value>Cartão de crédito excluído</value>
+  </data>
+  <data name="SetDefaultCreditCardFailure" xml:space="preserve">
+    <value>Falha no conjunto do cartão de crédito padrão</value>
+  </data>
+  <data name="SetDefaultCreditCardSuccess" xml:space="preserve">
+    <value>Cartão de crédito principal atualizado</value>
+  </data>
+  <data name="CardNumber" xml:space="preserve">
+    <value>Número do cartão</value>
+  </data>
+  <data name="CardType" xml:space="preserve">
+    <value>Tipo de carta</value>
+  </data>
+  <data name="DeleteAddressFailure" xml:space="preserve">
+    <value>Falha ao excluir endereço</value>
+  </data>
+  <data name="DeleteAddressSuccess" xml:space="preserve">
+    <value>Endereço excluído</value>
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Expiração</value>
+  </data>
+  <data name="ExpirationMonth" xml:space="preserve">
+    <value>Mês de validade</value>
+  </data>
+  <data name="ExpirationYear" xml:space="preserve">
+    <value>Ano de vencimento</value>
+  </data>
+  <data name="SelectACreditCardType" xml:space="preserve">
+    <value>Selecione um tipo de cartão de crédito</value>
+  </data>
+  <data name="SelectAddress" xml:space="preserve">
+    <value>Selecionar Endereço</value>
+  </data>
+  <data name="SetPrimary" xml:space="preserve">
+    <value>Definir Primário</value>
+  </data>
+  <data name="FeedbackLeftForOthers" xml:space="preserve">
+    <value>Feedback deixado para outras pessoas</value>
+  </data>
+  <data name="FeedbackReceivedFromOthers" xml:space="preserve">
+    <value>Comentários recebidos de outras pessoas</value>
+  </data>
+  <data name="DeleteFeedbackFailure" xml:space="preserve">
+    <value>Falha ao excluir feedback</value>
+  </data>
+  <data name="DeleteFeedbackSuccess" xml:space="preserve">
+    <value>Feedback excluído</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Restrito</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Funções</value>
+  </data>
+  <data name="Verified" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Data hora</value>
+  </data>
+  <data name="DemoFeatureDisabled" xml:space="preserve">
+    <value>Isso não pode ser alterado enquanto o sistema estiver no modo de demonstração.</value>
+  </data>
+  <data name="DemoFeatureSettingsDisabled" xml:space="preserve">
+    <value>Essas configurações não podem ser alteradas enquanto o sistema estiver no modo de demonstração.</value>
+  </data>
+  <data name="LeftBy" xml:space="preserve">
+    <value>Deixado por</value>
+  </data>
+  <data name="LeftFor" xml:space="preserve">
+    <value>Partida para</value>
+  </data>
+  <data name="Listing" xml:space="preserve">
+    <value>Listagem</value>
+  </data>
+  <data name="Past_1_Month" xml:space="preserve">
+    <value>Nos últimos 1 mês</value>
+  </data>
+  <data name="Past_X_Months" xml:space="preserve">
+    <value>Últimos {0} meses</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Avaliação</value>
+  </data>
+  <data name="SaveChangesWarning1" xml:space="preserve">
+    <value>Existem erros nesta página.</value>
+  </data>
+  <data name="SaveChangesWarning2" xml:space="preserve">
+    <value>Faça as correções indicadas e tente novamente.</value>
+  </data>
+  <data name="UploadLogo" xml:space="preserve">
+    <value>Selecionar arquivo de imagem do logotipo</value>
+  </data>
+  <data name="AddAddressFailure" xml:space="preserve">
+    <value>Falha ao adicionar endereço</value>
+  </data>
+  <data name="AddAddressSuccess" xml:space="preserve">
+    <value>Endereço adicionado</value>
+  </data>
+  <data name="AdminEditUserDeactivateUser_Help" xml:space="preserve">
+    <value>Um Usuário Desativado não poderá entrar e não aparecerá nos modos de exibição padrão do Gerenciamento de Usuários. Desativar uma conta de usuário em vez de excluí-la também tem o benefício de impedir que um usuário se registre novamente usando o mesmo email e / ou nome de usuário no futuro.</value>
+  </data>
+  <data name="AdminEditUserDeleteUser_Help" xml:space="preserve">
+    <value>A exclusão do usuário também excluirá TODOS os registros associados ao usuário (exemplo: transações de vendas, histórico de lances / compras, feedback do usuário, faturas, mensagens, listagens criadas etc.)</value>
+  </data>
+  <data name="AdminEditUserStatusApproved_Help" xml:space="preserve">
+    <value>Todos os novos registros de usuários são aprovados automaticamente por padrão. Se a preferência do sistema "Aprovação do usuário necessária" estiver ativada, os novos usuários não serão aprovados automaticamente e o administrador precisará aprovar manualmente as contas de usuário.</value>
+  </data>
+  <data name="CancelChangesWarning" xml:space="preserve">
+    <value>Todas as alterações nesta página serão perdidas, continua?</value>
+  </data>
+  <data name="AdminEditUserReactivateUser_Help" xml:space="preserve">
+    <value>Remove o sinalizador -Desativado- da conta.</value>
+  </data>
+  <data name="AdminEditUserStatusNewsletter_Help" xml:space="preserve">
+    <value>Se marcado, o usuário optou por receber e-mails promocionais.</value>
+  </data>
+  <data name="AdminEditUserStatusRestricted_Help" xml:space="preserve">
+    <value>O status "restrito" impede que um usuário entre e acesse a conta.</value>
+  </data>
+  <data name="AdminEditUserStatusVerified_Help" xml:space="preserve">
+    <value>Quando a preferência do sistema "Verificar e-mail do usuário" está ativada (por padrão), os novos usuários não poderão entrar até verificar o endereço de e-mail. A verificação exige a inserção de um código de verificação gerado aleatoriamente e entregue por email. Marque esta caixa para substituir manualmente o requisito de verificação de email.</value>
+  </data>
+  <data name="PrimaryCreditCard" xml:space="preserve">
+    <value>Cartão de crédito principal</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirme a Senha</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>Registros</value>
+  </data>
+  <data name="AdminEditUserComments_Help" xml:space="preserve">
+    <value>Visível apenas para administração. (Limite de 500 caracteres)</value>
+  </data>
+  <data name="AdminRole_Help" xml:space="preserve">
+    <value>Conceda privilégios totais de administração. Incluindo a capacidade de acessar este painel de controle administrativo, editando listagens e editando detalhes do usuário. O usuário afetado deve efetuar logoff e logon novamente para que as alterações nessa configuração tenham efeito.</value>
+  </data>
+  <data name="BuyerRole_Help" xml:space="preserve">
+    <value>O usuário pode fazer lances e fazer compras. As opções de menu aplicáveis ​​aparecerão em "Minha conta". O usuário afetado deve efetuar logoff e logon novamente para que as alterações nessa configuração tenham efeito.</value>
+  </data>
+  <data name="DemoFieldDisabledForThisUser" xml:space="preserve">
+    <value>Este campo não pode ser alterado para este usuário enquanto o sistema estiver no modo de demonstração.</value>
+  </data>
+  <data name="SellerRole_Help" xml:space="preserve">
+    <value>O usuário pode criar listagens. As opções de menu aplicáveis ​​aparecerão em "Minha conta". O usuário afetado deve efetuar logoff e logon novamente para que as alterações nessa configuração tenham efeito.</value>
+  </data>
+  <data name="Username_Help" xml:space="preserve">
+    <value>O nome de usuário deve ser único.</value>
+  </data>
+  <data name="InvoiceTotalMustNotBeNegative" xml:space="preserve">
+    <value>O total da fatura não deve ser negativo</value>
+  </data>
+  <data name="UpdateDisplayOrderSuccess" xml:space="preserve">
+    <value>A ordem de exibição foi atualizada com sucesso.</value>
+  </data>
+  <data name="MarkNotPaid" xml:space="preserve">
+    <value>Marcar como não pago</value>
+  </data>
+  <data name="VerifyEmail" xml:space="preserve">
+    <value>Verificar e-mail</value>
+  </data>
+  <data name="SendVerificationEmailSuccess" xml:space="preserve">
+    <value>Verificação de email enviada</value>
+  </data>
+  <data name="ForceEmailVerification" xml:space="preserve">
+    <value>Enviar e-mail de verificação</value>
+  </data>
+  <data name="ForceEmailVerification_Help" xml:space="preserve">
+    <value>Envia um email de verificação ao usuário e define o status "Verificado" como falso.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Primeiro nome</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Último nome</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Pago</value>
+  </data>
+  <data name="Payee" xml:space="preserve">
+    <value>Beneficiário</value>
+  </data>
+  <data name="Payer" xml:space="preserve">
+    <value>Pagador</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="Unpaid" xml:space="preserve">
+    <value>Não remunerado</value>
+  </data>
+  <data name="LineageString_SalesTransactionReport" xml:space="preserve">
+    <value>Relatórios&gt; Transações de vendas</value>
+  </data>
+  <data name="CurrencyCode" xml:space="preserve">
+    <value>Código da moeda</value>
+  </data>
+  <data name="CurrencyName" xml:space="preserve">
+    <value>Nome da Moeda</value>
+  </data>
+  <data name="CurrencySymbol" xml:space="preserve">
+    <value>Símbolo</value>
+  </data>
+  <data name="DefaultQuestion" xml:space="preserve">
+    <value>Padrão?</value>
+  </data>
+  <data name="EnabledQuestion" xml:space="preserve">
+    <value>Ativado?</value>
+  </data>
+  <data name="OneUsdEquals" xml:space="preserve">
+    <value>1 USD =</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Taxa de teste</value>
+  </data>
+  <data name="ResultLabel" xml:space="preserve">
+    <value>Resultado:</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="TryIt" xml:space="preserve">
+    <value>Tente</value>
+  </data>
+  <data name="LineageString_ListingFeesRevenueReport" xml:space="preserve">
+    <value>Relatórios&gt; Receita de taxas de listagem</value>
+  </data>
+  <data name="ListingFeesRevenue_csv" xml:space="preserve">
+    <value>ListingFeesRevenue.csv</value>
+  </data>
+  <data name="SalesTransactions_csv" xml:space="preserve">
+    <value>SalesTransactions.csv</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta Descrição</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta Palavras-chave</value>
+  </data>
+  <data name="SetCategoryMetaDataFailure" xml:space="preserve">
+    <value>Falha na configuração de metadados da categoria</value>
+  </data>
+  <data name="SetCategoryMetaDataSuccess" xml:space="preserve">
+    <value>Definir metadados da categoria com êxito</value>
+  </data>
+  <data name="FinalSaleFeeStyle_NonAggregate_Help" xml:space="preserve">
+    <value>Com as taxas de taxa final do vendedor definidas para os seguintes valores ... &lt;br /&gt;
+&lt;br /&gt;
+R $ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+R $ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999.999.999.999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 125,00, a taxa Final do vendedor será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+($ 125,00 x 1,0%) = $ 1,25 &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 99,00, a taxa Final do vendedor será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+($ 99,00 x 2,5%) = $ 2,48</value>
+  </data>
+  <data name="CheckForTrue" xml:space="preserve">
+    <value>Marque "sim" e desmarque "não".</value>
+  </data>
+  <data name="AssignFieldToOneOrMoreCategories" xml:space="preserve">
+    <value>Agora atribua o campo a uma ou mais categorias ...</value>
+  </data>
+  <data name="SaveMetaData" xml:space="preserve">
+    <value>Salvar conteúdo da página e metadados</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Nome da Categoria</value>
+  </data>
+  <data name="LineageString_RegionDetail" xml:space="preserve">
+    <value>Regiões&gt; Editar&gt; Detalhes</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Nome da região</value>
+  </data>
+  <data name="RenameCategoryFailure" xml:space="preserve">
+    <value>Falha ao renomear categoria</value>
+  </data>
+  <data name="RenameCategorySuccess" xml:space="preserve">
+    <value>Categoria renomeada com sucesso</value>
+  </data>
+  <data name="RenameRegionFailure" xml:space="preserve">
+    <value>Falha ao renomear a região</value>
+  </data>
+  <data name="RenameRegionSuccess" xml:space="preserve">
+    <value>Região renomeada com sucesso</value>
+  </data>
+  <data name="AssignToAllCategories" xml:space="preserve">
+    <value>Atribuir a todas as categorias</value>
+  </data>
+  <data name="AssignToAllCategoriesToolTip" xml:space="preserve">
+    <value>Marcar esta caixa garantirá que todas as categorias usem esse campo personalizado.</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Costas</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Ordem</value>
+  </data>
+  <data name="PostListingFee_Help" xml:space="preserve">
+    <value>Exemplo: com as camadas de taxa de postagem de listagem configuradas com os seguintes valores ... &lt;br /&gt;
+&lt;br /&gt;
+R $ 10,00 = R $ 0,10 &lt;br /&gt;
+&lt;br /&gt;
+R $ 100,00 = R $ 1,00 &lt;br /&gt;
+&lt;br /&gt;
+R $ 1000,00 = R $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 999.999.999.999,00 = $ 100,00 &lt;br /&gt;
+&lt;br /&gt;
+Se um item for lançado com um preço inicial de US $ 125,00, a taxa de listagem será de US $ 10,00</value>
+  </data>
+  <data name="Accept_CCType" xml:space="preserve">
+    <value>Aceitar {0}</value>
+  </data>
+  <data name="ContactInformation" xml:space="preserve">
+    <value>Informações de Contato</value>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>Criar usuário</value>
+  </data>
+  <data name="CreateUserSuccess" xml:space="preserve">
+    <value>Usuário criado com sucesso</value>
+  </data>
+  <data name="LineageString_CreateUser" xml:space="preserve">
+    <value>Usuários&gt; Gerenciamento de usuários&gt; Criar usuário</value>
+  </data>
+  <data name="NewUserNameHelpText" xml:space="preserve">
+    <value>Seu nome de usuário será mostrado quando você fizer lances, comprar e vender.</value>
+  </data>
+  <data name="PasswordRequirements" xml:space="preserve">
+    <value>A senha deve ter pelo menos 6 caracteres.</value>
+  </data>
+  <data name="BannerHTMLFormTitle" xml:space="preserve">
+    <value>Novo banner - script personalizado</value>
+  </data>
+  <data name="BannerScriptHTML" xml:space="preserve">
+    <value>Script de banner / HTML</value>
+  </data>
+  <data name="BannerUploadFormTitle" xml:space="preserve">
+    <value>Novo banner - Carregar imagem</value>
+  </data>
+  <data name="ExistingBanners" xml:space="preserve">
+    <value>Banners atuais</value>
+  </data>
+  <data name="SelectBannerImage" xml:space="preserve">
+    <value>Selecionar arquivo de imagem de banner</value>
+  </data>
+  <data name="BatchProcessingQueued" xml:space="preserve">
+    <value>Processamento de pagamento na fila</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Forma de pagamento</value>
+  </data>
+  <data name="ScheduledPaymentsSuccess" xml:space="preserve">
+    <value>Sucesso de pagamentos agendados</value>
+  </data>
+  <data name="CategoryPageSpecificSettings" xml:space="preserve">
+    <value>Configurações específicas da categoria</value>
+  </data>
+  <data name="PageContent" xml:space="preserve">
+    <value>Conteúdo da página</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Título da página</value>
+  </data>
+  <data name="GoodUntilCanceled" xml:space="preserve">
+    <value>Bom até Cancelado</value>
+  </data>
+  <data name="NoSearchResults" xml:space="preserve">
+    <value>Nenhum resultado de pesquisa</value>
+  </data>
+  <data name="OnlineHelp" xml:space="preserve">
+    <value>Ajuda online</value>
+  </data>
+  <data name="FavIconUploader_Help" xml:space="preserve">
+    <value>O formato recomendado é um arquivo .ico com 256 cores e 16x16 pixels.</value>
+  </data>
+  <data name="LineageString_FavIconUploader" xml:space="preserve">
+    <value>Preferências do site&gt; FavIcon</value>
+  </data>
+  <data name="UploadFavIcon" xml:space="preserve">
+    <value>Selecionar arquivo FavIcon</value>
+  </data>
+  <data name="UploadYourSiteFavIcon" xml:space="preserve">
+    <value>Carregue o seu favicon do site</value>
+  </data>
+  <data name="ExtendListing_AllListings_Help" xml:space="preserve">
+    <value>Marque esta caixa para adicionar o número especificado de minutos ao Horário de término das listagens ativas &lt;b&gt; ALL &lt;/b&gt;. &lt;b&gt; NOTA: Se você estender TODAS as listagens, a Data / Hora de término NÃO será atualizada em tempo real. &lt;/b&gt;</value>
+  </data>
+  <data name="ExtendListing_ListingID_Help" xml:space="preserve">
+    <value>Digite o número da listagem ativa que você deseja estender (ou deixe esse campo em branco para todas as listagens ativas).</value>
+  </data>
+  <data name="ExtendListing_Minutes_Help" xml:space="preserve">
+    <value>Digite o número de minutos para estender os horários de término das listagens especificadas.</value>
+  </data>
+  <data name="LineageString_Attributes" xml:space="preserve">
+    <value>Avançado&gt; Imagens</value>
+  </data>
+  <data name="LineageString_Banners" xml:space="preserve">
+    <value>CMS&gt; Banners</value>
+  </data>
+  <data name="LineageString_CustomFields_Item" xml:space="preserve">
+    <value>Listagens&gt; Campos personalizados</value>
+  </data>
+  <data name="LineageString_CustomFields_Site" xml:space="preserve">
+    <value>Site&gt; Campos personalizados</value>
+  </data>
+  <data name="LineageString_CustomFields_User" xml:space="preserve">
+    <value>Usuários&gt; Campos personalizados</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Aggregate_Help" xml:space="preserve">
+    <value>Com as taxas de taxa final do vendedor definidas para os seguintes valores ... &lt;br /&gt;
+&lt;br /&gt;
+R $ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+R $ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999.999.999.999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 125,00, a taxa Final do vendedor será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+($ 25,00 x 5,0%) + ($ 75,00 x 2,5%) + ($ 25,00 x 1,0%) = $ 3,38 Taxa final do vendedor &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 99,00, a taxa Final do vendedor será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+($ 25,00 x 5,0%) + ($ 74,00 x 2,5%) = $ 3,10 Taxa final do vendedor</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Aggregate" xml:space="preserve">
+    <value>% Agregada</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Flat" xml:space="preserve">
+    <value>Taxa fixa</value>
+  </data>
+  <data name="CSVImportTemplate_csv" xml:space="preserve">
+    <value>CSVImportTemplate.csv</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Flat_Help" xml:space="preserve">
+    <value>Com as taxas de taxa final do vendedor definidas para os seguintes valores ... &lt;br /&gt;
+&lt;br /&gt;
+R $ 25,00 = R $ 1,00 &lt;br /&gt;
+&lt;br /&gt;
+R $ 100,00 = R $ 5,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 999.999.999.999,00 = $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 125,00, a taxa final do vendedor será de US $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 99,00, a taxa final do vendedor será de US $ 5,00</value>
+  </data>
+  <data name="FinalSaleFeeStyle_NonAggregate" xml:space="preserve">
+    <value>% Não agregada</value>
+  </data>
+  <data name="ApplyFilters" xml:space="preserve">
+    <value>Aplicar filtros</value>
+  </data>
+  <data name="LineageString_Maintenance" xml:space="preserve">
+    <value>Avançado&gt; Manutenção</value>
+  </data>
+  <data name="MaintenanceSuccess" xml:space="preserve">
+    <value>Configurações salvas com sucesso</value>
+  </data>
+  <data name="ContactUsSubmitted" xml:space="preserve">
+    <value>Fale Conosco Enviado</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="NoResultsToDisplay" xml:space="preserve">
+    <value>Nenhum resultado para exibir</value>
+  </data>
+  <data name="Actor" xml:space="preserve">
+    <value>Ator</value>
+  </data>
+  <data name="EventID" xml:space="preserve">
+    <value>ID do evento</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Exceção</value>
+  </data>
+  <data name="FunctionalArea" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="LineageString_EventLog" xml:space="preserve">
+    <value>Avançado&gt; Log de Eventos</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Nome da maquina</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>mensagem</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="Severity" xml:space="preserve">
+    <value>Gravidade</value>
+  </data>
+  <data name="SQLDateTime" xml:space="preserve">
+    <value>Data / Hora do SQL</value>
+  </data>
+  <data name="ClearEventLogNow" xml:space="preserve">
+    <value>Limpar log de eventos agora</value>
+  </data>
+  <data name="AutomaticallyClearLogEntriesOlderThan" xml:space="preserve">
+    <value>Limpar automaticamente as entradas de log anteriores a</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>dias.</value>
+  </data>
+  <data name="SecureURL_Help" xml:space="preserve">
+    <value>&lt;b&gt; Exemplo: &lt;/b&gt; &lt;br /&gt; https://www.xyz.com
+&lt;p&gt;
+Se você não possui um certificado SSL instalado para o seu site, o URL seguro deve corresponder ao URL acima. &lt;/p&gt;</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>&lt;b&gt; Exemplo: &lt;/b&gt; &lt;br /&gt; http://www.xyz.com &lt;p&gt;
+O URL completo, incluindo http: //, para uso na geração de links e links internos de software nos modelos de email. &lt;/p&gt;</value>
+  </data>
+  <data name="ListingTypesUnavailable" xml:space="preserve">
+    <value>Os tipos de listagem não estão disponíveis porque esta categoria possui subcategorias.</value>
+  </data>
+  <data name="CreateUserField" xml:space="preserve">
+    <value>Criar campo de usuário</value>
+  </data>
+  <data name="EditUserField" xml:space="preserve">
+    <value>Editar campo do usuário</value>
+  </data>
+  <data name="BatchPaymentProviderCannotBeResolved" xml:space="preserve">
+    <value>O provedor de pagamento em lote não pode ser resolvido.</value>
+  </data>
+  <data name="BatchPaymentProviderDisabled" xml:space="preserve">
+    <value>O provedor de pagamento em lote está desativado.</value>
+  </data>
+  <data name="BatchPaymentValid" xml:space="preserve">
+    <value>Se Pagamentos agendados estiverem ativados, esta fatura será processada automaticamente.</value>
+  </data>
+  <data name="BillingAddressMissing" xml:space="preserve">
+    <value>O endereço de cobrança do pagador está ausente na fatura.</value>
+  </data>
+  <data name="DemoModeOn" xml:space="preserve">
+    <value>Não são permitidas cobranças em lote quando o Modo Demo está ativado.</value>
+  </data>
+  <data name="ManualChargeButtonText" xml:space="preserve">
+    <value>Processar Pagamento (s)</value>
+  </data>
+  <data name="ManualChargeButton_Help" xml:space="preserve">
+    <value>Clicar neste botão tentará processar em lote todas as faturas de taxa do site.</value>
+  </data>
+  <data name="MerchantLoginIdMissing" xml:space="preserve">
+    <value>O ID de login do comerciante está ausente.</value>
+  </data>
+  <data name="NoBatchPaymentProviderDefined" xml:space="preserve">
+    <value>Nenhum provedor de pagamento em lote definido.</value>
+  </data>
+  <data name="NoPrimaryCreditCard" xml:space="preserve">
+    <value>O pagador não tem um cartão de crédito principal definido.</value>
+  </data>
+  <data name="NotFeeInvoice" xml:space="preserve">
+    <value>A fatura não é uma fatura de taxa.</value>
+  </data>
+  <data name="PostUrlMissing" xml:space="preserve">
+    <value>O URL de postagem do comerciante está ausente.</value>
+  </data>
+  <data name="PrimaryCreditCardExpired" xml:space="preserve">
+    <value>O cartão de crédito principal do pagador expirou.</value>
+  </data>
+  <data name="TransactionKeyMissing" xml:space="preserve">
+    <value>A chave da transação do comerciante está ausente.</value>
+  </data>
+  <data name="CreateField" xml:space="preserve">
+    <value>Criar campo {0}</value>
+  </data>
+  <data name="template_ask_buyer_question" xml:space="preserve">
+    <value>Faça uma pergunta de listagem</value>
+  </data>
+  <data name="template_ask_listing_question" xml:space="preserve">
+    <value>Faça uma pergunta de listagem</value>
+  </data>
+  <data name="template_Bidder_Bid" xml:space="preserve">
+    <value>Confirmação de lance</value>
+  </data>
+  <data name="template_Bidder_Outbid" xml:space="preserve">
+    <value>Notificação de superação</value>
+  </data>
+  <data name="template_Buyer_Bought" xml:space="preserve">
+    <value>Confirmação de compra</value>
+  </data>
+  <data name="template_Buyer_Bought_Not_Ended" xml:space="preserve">
+    <value>Confirmação de compra, quantidade parcial</value>
+  </data>
+  <data name="template_Contact_Us_Message" xml:space="preserve">
+    <value>Fale Conosco Mensagem</value>
+  </data>
+  <data name="LineageString_EmailTemplates" xml:space="preserve">
+    <value>CMS&gt; Modelos de email</value>
+  </data>
+  <data name="template_NewUserRegistration_Approved" xml:space="preserve">
+    <value>Registro aprovado</value>
+  </data>
+  <data name="template_NewUserRegistration_NeedsAdminApproval" xml:space="preserve">
+    <value>O registro precisa de aprovação</value>
+  </data>
+  <data name="template_Report_Generation_Failed" xml:space="preserve">
+    <value>Falha no relatório</value>
+  </data>
+  <data name="template_Report_Generation_Ready" xml:space="preserve">
+    <value>Relatório pronto</value>
+  </data>
+  <data name="template_report_messaging_abuse" xml:space="preserve">
+    <value>Abuso de mensagens relatado</value>
+  </data>
+  <data name="template_Reset_Password" xml:space="preserve">
+    <value>Redefinir senha</value>
+  </data>
+  <data name="template_Seller_Bid" xml:space="preserve">
+    <value>Lance recebido</value>
+  </data>
+  <data name="template_Seller_NewListing" xml:space="preserve">
+    <value>Confirmação de publicação do anúncio</value>
+  </data>
+  <data name="template_Seller_NoSale" xml:space="preserve">
+    <value>Listagem encerrada sem êxito</value>
+  </data>
+  <data name="template_Seller_SendFees" xml:space="preserve">
+    <value>Fatura de taxa do site</value>
+  </data>
+  <data name="template_Seller_SendInvoice" xml:space="preserve">
+    <value>Fatura de vendas</value>
+  </data>
+  <data name="template_Seller_Sold" xml:space="preserve">
+    <value>Confirmação de venda</value>
+  </data>
+  <data name="template_Seller_Sold_Not_Ended" xml:space="preserve">
+    <value>Confirmação de venda, quantidade parcial</value>
+  </data>
+  <data name="template_usermessage_reply" xml:space="preserve">
+    <value>Resposta da mensagem da lista recebida</value>
+  </data>
+  <data name="template_usermessage_reply_general" xml:space="preserve">
+    <value>Mensagem de usuário recebida</value>
+  </data>
+  <data name="template_User_ReceivedFeedback" xml:space="preserve">
+    <value>Feedback recebido</value>
+  </data>
+  <data name="template_user_verification" xml:space="preserve">
+    <value>Verificação de e-mail necessária</value>
+  </data>
+  <data name="SetEmailTemplateEnabledFailure" xml:space="preserve">
+    <value>Falha na atualização do modelo de email</value>
+  </data>
+  <data name="SetEmailTemplateEnabledSuccess" xml:space="preserve">
+    <value>Modelo de email atualizado</value>
+  </data>
+  <data name="AdditionalImages_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor envia cada imagem de listagem adicional além da primeira imagem.</value>
+  </data>
+  <data name="Bold_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor seleciona o aprimoramento da lista em negrito.</value>
+  </data>
+  <data name="Featured_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor seleciona o aprimoramento da lista "Em destaque".</value>
+  </data>
+  <data name="FirstImage_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor inclui a primeira imagem da listagem.</value>
+  </data>
+  <data name="FlatFee_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor cria uma listagem de anúncios classificados.</value>
+  </data>
+  <data name="Highlight_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor seleciona o aprimoramento da lista "Destaque".</value>
+  </data>
+  <data name="Italic_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor seleciona o aprimoramento da lista "Itálico".</value>
+  </data>
+  <data name="PayToProceed_Help" xml:space="preserve">
+    <value>Se ativado: os pagamentos de taxas dos vendedores serão necessários para publicar novas listagens ou executar outras ações que exijam uma taxa.</value>
+  </data>
+  <data name="Subtitle_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor entra em uma Legenda da lista.</value>
+  </data>
+  <data name="UploadYourSiteLogo_Help" xml:space="preserve">
+    <value>Clique no botão [Carregar logotipo] para selecionar a imagem do logotipo no seu PC. Os arquivos de imagem enviados estão atualmente restritos a 3 MB.</value>
+  </data>
+  <data name="YouTubeVideo_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor especifica um URL de vídeo do YouTube.</value>
+  </data>
+  <data name="FinalBuyerFee" xml:space="preserve">
+    <value>Taxa final do comprador</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_Aggregate" xml:space="preserve">
+    <value>% Agregada</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_Aggregate_Help" xml:space="preserve">
+    <value>Com as taxas de taxa final do comprador definidas para os seguintes valores ... &lt;br /&gt;
+&lt;br /&gt;
+R $ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+R $ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999.999.999.999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 125,00, a Taxa final do comprador será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+(US $ 25,00 x 5,0%) + (US $ 75,00 x 2,5%) + (US $ 25,00 x 1,0%) = US $ 3,38 Taxa final do comprador &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 99,00, a taxa final do comprador será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+(US $ 25,00 x 5,0%) + (US $ 74,00 x 2,5%) = US $ 3,10 Taxa final do comprador</value>
+  </data>
+  <data name="FinalbuyerFeeStyle_Flat" xml:space="preserve">
+    <value>Taxa fixa</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_Flat_Help" xml:space="preserve">
+    <value>Com as taxas de taxa final do comprador definidas para os seguintes valores ... &lt;br /&gt;
+&lt;br /&gt;
+R $ 25,00 = R $ 1,00 &lt;br /&gt;
+&lt;br /&gt;
+R $ 100,00 = R $ 5,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 999.999.999.999,00 = $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 125,00, a taxa final do comprador será de US $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 99,00, a taxa final do comprador será de US $ 5,00</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_NonAggregate" xml:space="preserve">
+    <value>% Não agregada</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_NonAggregate_Help" xml:space="preserve">
+    <value>Com as taxas de taxa final do comprador definidas para os seguintes valores ... &lt;br /&gt;
+&lt;br /&gt;
+R $ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+R $ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999.999.999.999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 125,00, a Taxa final do comprador será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+($ 125,00 x 1,0%) = $ 1,25 &lt;br /&gt;
+&lt;br /&gt;
+Se um item for vendido com um preço final de US $ 99,00, a taxa final do comprador será calculada da seguinte forma: &lt;br /&gt;
+&lt;br /&gt;
+($ 99,00 x 2,5%) = $ 2,48</value>
+  </data>
+  <data name="FinalBuyerFee_Help" xml:space="preserve">
+    <value>Diferentemente da maioria das outras taxas do site, essa taxa será adicionada à &lt;i&gt; "Fatura da taxa do site" do comprador em vez da &lt;i&gt; "Fatura da taxa do site" do vendedor. &lt;/i&gt;
+&lt;br /&gt;
+Nota: Essa taxa pode ser usada independentemente do recurso "Prêmio do comprador", que permite ao vendedor especificar um% a ser adicionado à &lt;i&gt; Fatura de venda &lt;/i&gt; para cada venda. &lt;br /&gt;
+&lt;br /&gt;
+Para desativar a "Taxa final do comprador", defina todas as camadas para US $ 0 ou 0%.</value>
+  </data>
+  <data name="CannotDeletePrimaryAdmin" xml:space="preserve">
+    <value>Não é possível excluir o usuário principal / proprietário do site.</value>
+  </data>
+  <data name="ServiceAuthorizationToken" xml:space="preserve">
+    <value>Token de autenticação da API</value>
+  </data>
+  <data name="AdminEditUserStatusWebAPI_Help" xml:space="preserve">
+    <value>Se marcado, o usuário pode acessar a API da Web.</value>
+  </data>
+  <data name="WebAPI" xml:space="preserve">
+    <value>API da Web</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Desativado</value>
+  </data>
+  <data name="CSVImportHelp" xml:space="preserve">
+    <value>Ajuda para importação de CSV</value>
+  </data>
+  <data name="CsvStatus" xml:space="preserve">
+    <value>Status do CSV</value>
+  </data>
+  <data name="DataFile" xml:space="preserve">
+    <value>Arquivo de dados</value>
+  </data>
+  <data name="DownloadBlankCSVTemplate" xml:space="preserve">
+    <value>Faça o download do modelo CSV em branco</value>
+  </data>
+  <data name="ImportCSVColumnSpecifications" xml:space="preserve">
+    <value>Importar especificações da coluna CSV</value>
+  </data>
+  <data name="NoActionHasBeenTaken" xml:space="preserve">
+    <value>Nenhuma ação foi tomada</value>
+  </data>
+  <data name="ReportEmailAddress" xml:space="preserve">
+    <value>Endereço de e-mail do relatório</value>
+  </data>
+  <data name="RowStatus" xml:space="preserve">
+    <value>Status da linha</value>
+  </data>
+  <data name="SetInvoiceShippedSuccess" xml:space="preserve">
+    <value>Configuração do status enviado da fatura com êxito</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Ferramentas</value>
+  </data>
+  <data name="UploadCSV" xml:space="preserve">
+    <value>Carregar CSV</value>
+  </data>
+  <data name="ValidateDataOnly" xml:space="preserve">
+    <value>Validar dados APENAS</value>
+  </data>
+  <data name="GenerateAuthToken" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="GenerateAuthToken_Help" xml:space="preserve">
+    <value>Gera um novo token de autenticação da API da Web para o usuário.</value>
+  </data>
+  <data name="WebAPIAuthenticationToken" xml:space="preserve">
+    <value>Token de autenticação da API da Web</value>
+  </data>
+  <data name="Mutability" xml:space="preserve">
+    <value>Editabilidade</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibilidade</value>
+  </data>
+  <data name="LineageString_MobileLogoUploader" xml:space="preserve">
+    <value>Preferências do site&gt; Logotipo para celular</value>
+  </data>
+  <data name="UploadYourMobileLogo" xml:space="preserve">
+    <value>Faça o upload do seu logotipo para celular</value>
+  </data>
+  <data name="Sunburst_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor especifica o aprimoramento da listagem "emblema de venda"</value>
+  </data>
+  <data name="AddContentLanguageFailure" xml:space="preserve">
+    <value>Não foi possível adicionar o idioma especificado</value>
+  </data>
+  <data name="AddContentLanguageSuccess" xml:space="preserve">
+    <value>O idioma especificado foi adicionado</value>
+  </data>
+  <data name="EmailFooter" xml:space="preserve">
+    <value>Um assunto de email ou rodapé do corpo (EmailFooter)</value>
+  </data>
+  <data name="EmailHeader" xml:space="preserve">
+    <value>Um assunto de email ou cabeçalho do corpo (EmailHeader)</value>
+  </data>
+  <data name="Boolean" xml:space="preserve">
+    <value>Sim não</value>
+  </data>
+  <data name="Decimal" xml:space="preserve">
+    <value>Número decimal</value>
+  </data>
+  <data name="Enum" xml:space="preserve">
+    <value>Lista de opções</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="Int" xml:space="preserve">
+    <value>Número inteiro</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="CountryManagementFailure" xml:space="preserve">
+    <value>Falha no gerenciamento do país</value>
+  </data>
+  <data name="CountryManagementSuccess" xml:space="preserve">
+    <value>Países atualizados</value>
+  </data>
+  <data name="LineageString_CountryManagement" xml:space="preserve">
+    <value>Internacional&gt; Países</value>
+  </data>
+  <data name="AddEmailTemplateLanguageFailture" xml:space="preserve">
+    <value>Falha na adição do idioma do modelo de email</value>
+  </data>
+  <data name="AddEmailTemplateLanguageSuccess" xml:space="preserve">
+    <value>Email Template Language Adicionado</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Corpo da mensagem</value>
+  </data>
+  <data name="EmailTemplateEditorFailure" xml:space="preserve">
+    <value>Falha na atualização do modelo de email</value>
+  </data>
+  <data name="EmailTemplateEditorSuccess" xml:space="preserve">
+    <value>Modelo de email atualizado</value>
+  </data>
+  <data name="EmailTemplateHelp" xml:space="preserve">
+    <value>Ajuda do Modelo de E-mail</value>
+  </data>
+  <data name="LineageString_EmailTemplateEditor" xml:space="preserve">
+    <value>CMS&gt; Modelos de Email&gt; Detalhes</value>
+  </data>
+  <data name="RemoveEmailTemplateLanguageFailure" xml:space="preserve">
+    <value>Falha na remoção do idioma do modelo de email</value>
+  </data>
+  <data name="RemoveEmailTemplateLanguageSuccess" xml:space="preserve">
+    <value>Idioma do modelo de email removido</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Sujeito</value>
+  </data>
+  <data name="template_ask_buyer_question_Help" xml:space="preserve">
+    <value>Fazer uma pergunta ao comprador</value>
+  </data>
+  <data name="template_ask_listing_question_Help" xml:space="preserve">
+    <value>Pergunte ao vendedor uma pergunta da lista</value>
+  </data>
+  <data name="template_Bidder_Bid_Help" xml:space="preserve">
+    <value>Notificar o licitante que eles fizeram um lance</value>
+  </data>
+  <data name="template_Bidder_Outbid_Help" xml:space="preserve">
+    <value>Notificar o licitante que eles foram superados</value>
+  </data>
+  <data name="template_Buyer_Bought_Help" xml:space="preserve">
+    <value>Notificar o comprador que ele comprou um item</value>
+  </data>
+  <data name="template_Buyer_Bought_Not_Ended_Help" xml:space="preserve">
+    <value>Notificar o comprador que ele comprou um item, o item ainda não terminou</value>
+  </data>
+  <data name="template_Contact_Us_Message_Help" xml:space="preserve">
+    <value>Enviar mensagem de contato para o administrador</value>
+  </data>
+  <data name="template_EmailFooter" xml:space="preserve">
+    <value>Rodapé do email (todos os emails)</value>
+  </data>
+  <data name="template_EmailFooter_Help" xml:space="preserve">
+    <value>O conteúdo é substituído sempre que [#EmailFooter] for usado no corpo de um modelo de email</value>
+  </data>
+  <data name="template_EmailHeader" xml:space="preserve">
+    <value>Cabeçalho do email (todos os emails)</value>
+  </data>
+  <data name="template_EmailHeader_Help" xml:space="preserve">
+    <value>O conteúdo é substituído sempre que [#EmailHeader] for usado no corpo de um modelo de email</value>
+  </data>
+  <data name="template_NewUserRegistration_Approved_Help" xml:space="preserve">
+    <value>Notificar novo usuário que sua conta foi aprovada</value>
+  </data>
+  <data name="template_NewUserRegistration_NeedsAdminApproval_Help" xml:space="preserve">
+    <value>Notificar o administrador de que uma nova conta de usuário precisa de aprovação</value>
+  </data>
+  <data name="template_Report_Generation_Failed_Help" xml:space="preserve">
+    <value>Notificar o usuário executando uma exportação CSV que o relatório CSV falhou</value>
+  </data>
+  <data name="template_Report_Generation_Ready_Help" xml:space="preserve">
+    <value>Notificar o usuário executando uma exportação de CSV que o relatório CSV está pronto</value>
+  </data>
+  <data name="template_report_messaging_abuse_Help" xml:space="preserve">
+    <value>Notificar o administrador sobre abuso de mensagens</value>
+  </data>
+  <data name="template_Reset_Password_Help" xml:space="preserve">
+    <value>Enviar um email de redefinição de senha ao usuário</value>
+  </data>
+  <data name="template_Seller_Bid_Help" xml:space="preserve">
+    <value>Notificar o vendedor que um proponente fez um lance</value>
+  </data>
+  <data name="template_Seller_NewListing_Help" xml:space="preserve">
+    <value>Notifique o vendedor de que ele criou uma nova listagem</value>
+  </data>
+  <data name="template_Seller_NoSale_Help" xml:space="preserve">
+    <value>Notificar o vendedor que sua listagem não vendeu</value>
+  </data>
+  <data name="template_Seller_SendFees_Help" xml:space="preserve">
+    <value>Notificar o vendedor das taxas que eles devem atualmente ao site</value>
+  </data>
+  <data name="template_Seller_SendInvoice_Help" xml:space="preserve">
+    <value>Notificar os compradores sobre faturas pendentes que precisam de pagamento</value>
+  </data>
+  <data name="template_Seller_Sold_Help" xml:space="preserve">
+    <value>Notificar o vendedor que sua listagem foi vendida</value>
+  </data>
+  <data name="template_Seller_Sold_Not_Ended_Help" xml:space="preserve">
+    <value>Notifique o vendedor de que a listagem foi vendida, mas a listagem ainda não terminou</value>
+  </data>
+  <data name="template_usermessage_reply_general_Help" xml:space="preserve">
+    <value>Notificar ao usuário que recebeu uma resposta geral</value>
+  </data>
+  <data name="template_usermessage_reply_Help" xml:space="preserve">
+    <value>Notificar ao usuário que recebeu uma resposta a uma mensagem sobre uma listagem</value>
+  </data>
+  <data name="template_User_ReceivedFeedback_Help" xml:space="preserve">
+    <value>Notificar ao usuário que recebeu feedback</value>
+  </data>
+  <data name="template_user_verification_Help" xml:space="preserve">
+    <value>Enviar ao usuário um email de verificação de email</value>
+  </data>
+  <data name="Mutability_Help" xml:space="preserve">
+    <value>&lt;strong&gt; Configuração de administração avançada &lt;/strong&gt;
+&lt;p&gt; Afeta quais usuários podem editar este conteúdo de campo personalizado. Revise a documentação de administração antes de usar configurações diferentes das padrão. &lt;/p&gt;</value>
+  </data>
+  <data name="Visibility_Help" xml:space="preserve">
+    <value>&lt;strong&gt; Configuração de administração avançada &lt;/strong&gt;
+&lt;p&gt; Afeta quais usuários verão esse conteúdo de campo personalizado. Revise a documentação de administração antes de usar configurações diferentes das padrão. &lt;/p&gt;</value>
+  </data>
+  <data name="CMS_Variable_Width_Help" xml:space="preserve">
+    <value>Devido ao design responsivo, recomendamos o uso de conteúdo personalizado de largura variável. O CSS padrão &lt;a href="http://getbootstrap.com/css/" target="_blank"&gt; Bootstrap 3 &lt;/a&gt; pode ser usado para gerenciar seu conteúdo personalizado.
+&lt;p&gt;
+Para mostrar ou ocultar o conteúdo, use as &lt;a href="http://getbootstrap.com/css/#responsive-utilities" target="_blank"&gt; classes responsivas &lt;/a&gt;. Para ocultar o conteúdo em dispositivos x-small, use a classe CSS "hidden-xs".
+&lt;/p&gt;
+&lt;p&gt;
+Para &lt;a href="http://getbootstrap.com/css/#overview-responsive-images" target="_blank"&gt; imagens responsivas &lt;/a&gt;, adicione a classe "img-responsive" aos seus recursos de imagem . (Isso redimensionará automaticamente as imagens para dispositivos menores)
+&lt;/p&gt;</value>
+  </data>
+  <data name="LineageString_StatesRegionsManagement" xml:space="preserve">
+    <value>Internacional&gt; Países&gt; {0}&gt; Editar Estados / Regiões</value>
+  </data>
+  <data name="AddNewStatesRegionsFailure" xml:space="preserve">
+    <value>Falha ao adicionar novos estados / regiões</value>
+  </data>
+  <data name="AddNewStatesRegionsSuccess" xml:space="preserve">
+    <value>Estados / regiões adicionados / atualizados</value>
+  </data>
+  <data name="AddStatesRegions_Help" xml:space="preserve">
+    <value>&lt;p&gt; &lt;strong&gt; Digite um novo estado / região por linha. &lt;/strong&gt; &lt;/p&gt; &lt;p&gt; Cada linha deve conter o código do estado / região, seguido de uma vírgula, seguido do nome do estado / região. &lt; / p&gt; &lt;p&gt; &lt;em&gt; &lt;strong&gt; Exemplo: &lt;/strong&gt; &lt;br&gt; &lt;br&gt; AK, Alasca &lt;br&gt; AZ, Arizona e AR, Arkansas &lt;/em&gt; &lt;/p&gt;</value>
+  </data>
+  <data name="DeleteStatesRegionsSuccess" xml:space="preserve">
+    <value>Estado (s) / região (ões) excluídos</value>
+  </data>
+  <data name="default_parens" xml:space="preserve">
+    <value>(padrão)</value>
+  </data>
+  <data name="EditStatesRegions" xml:space="preserve">
+    <value>Editar estados / regiões</value>
+  </data>
+  <data name="SelectEnabledCountry" xml:space="preserve">
+    <value>Selecione o país ativado</value>
+  </data>
+  <data name="SetDefault" xml:space="preserve">
+    <value>Conjunto padrão</value>
+  </data>
+  <data name="SetDefaultCountryFailure" xml:space="preserve">
+    <value>Falha no país padrão definido</value>
+  </data>
+  <data name="SetDefaultCountrySuccess" xml:space="preserve">
+    <value>País padrão atualizado</value>
+  </data>
+  <data name="DisplayOrder_Help" xml:space="preserve">
+    <value>Este campo é preenchido previamente para colocar o novo campo na parte inferior da lista.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Perto</value>
+  </data>
+  <data name="Loading_elipse" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Pré-visualização</value>
+  </data>
+  <data name="PreviewEmailTemplateFailure" xml:space="preserve">
+    <value>Falha na visualização do modelo de email</value>
+  </data>
+  <data name="PreviewNotAvailable" xml:space="preserve">
+    <value>A visualização não está disponível para este modelo.</value>
+  </data>
+  <data name="Recipient" xml:space="preserve">
+    <value>Destinatário</value>
+  </data>
+  <data name="template_ask_buyer_question_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="template_ask_listing_question_ToWhom" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="template_Bidder_Bid_ToWhom" xml:space="preserve">
+    <value>Licitante</value>
+  </data>
+  <data name="template_Bidder_Outbid_ToWhom" xml:space="preserve">
+    <value>Licitante</value>
+  </data>
+  <data name="template_Buyer_Bought_Not_Ended_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="template_Buyer_Bought_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="template_Contact_Us_Message_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_EmailFooter_ToWhom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="template_EmailHeader_ToWhom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="template_NewUserRegistration_Approved_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_NewUserRegistration_NeedsAdminApproval_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_Report_Generation_Failed_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_Report_Generation_Ready_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_report_messaging_abuse_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_Reset_Password_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_Seller_Bid_ToWhom" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="template_Seller_NewListing_ToWhom" xml:space="preserve">
+    <value>vendedor</value>
+  </data>
+  <data name="template_Seller_NoSale_ToWhom" xml:space="preserve">
+    <value>vendedor</value>
+  </data>
+  <data name="template_Seller_SendFees_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_Seller_SendInvoice_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="template_Seller_Sold_Not_Ended_ToWhom" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="template_Seller_Sold_ToWhom" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="template_usermessage_reply_general_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_usermessage_reply_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_User_ReceivedFeedback_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_user_verification_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="OnlyPaidInvoicesCanBeMarkedShipped" xml:space="preserve">
+    <value>Somente faturas pagas podem ser marcadas como enviadas</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Encontro</value>
+  </data>
+  <data name="DuplicateUsernames" xml:space="preserve">
+    <value>Nomes de usuário duplicados</value>
+  </data>
+  <data name="ImportProgress" xml:space="preserve">
+    <value>Progresso da importação</value>
+  </data>
+  <data name="ImportUsers" xml:space="preserve">
+    <value>Importar usuários</value>
+  </data>
+  <data name="ImportUsersMainBlurb" xml:space="preserve">
+    <value>Use este formulário para importar usuários do rwAuction Pro v7.0 do banco de dados especificado em web.config. Escolha se deseja pular ou substituir usuários existentes com o mesmo nome de usuário e clique em "Importar Usuários" para continuar ...</value>
+  </data>
+  <data name="LineageString_ImportUsers" xml:space="preserve">
+    <value>Usuários&gt; Importar Usuários</value>
+  </data>
+  <data name="Overwrite" xml:space="preserve">
+    <value>Substituir</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Pular</value>
+  </data>
+  <data name="UsersAdded" xml:space="preserve">
+    <value>Usuários adicionados</value>
+  </data>
+  <data name="UsersFound" xml:space="preserve">
+    <value>Usuários encontrados</value>
+  </data>
+  <data name="UsersSkipped" xml:space="preserve">
+    <value>Usuários ignorados</value>
+  </data>
+  <data name="UsersUpdated" xml:space="preserve">
+    <value>Usuários atualizados</value>
+  </data>
+  <data name="HomePhoneCustomField" xml:space="preserve">
+    <value>Campo personalizado do telefone residencial</value>
+  </data>
+  <data name="VerboseOutput" xml:space="preserve">
+    <value>Saída detalhada?</value>
+  </data>
+  <data name="WorkPhoneCustomField" xml:space="preserve">
+    <value>Campo personalizado do telefone comercial</value>
+  </data>
+  <data name="CompanyCustomField" xml:space="preserve">
+    <value>Campo personalizado da empresa</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Não encontrado</value>
+  </data>
+  <data name="AddRegionalLanguageOption" xml:space="preserve">
+    <value>Adicionar opção de idioma regional</value>
+  </data>
+  <data name="RemoveRegionalLanguageOption" xml:space="preserve">
+    <value>Opção Remover Idioma Regional</value>
+  </data>
+  <data name="NewAddress" xml:space="preserve">
+    <value>Adicionar novo endereço</value>
+  </data>
+  <data name="SetBillingAddress" xml:space="preserve">
+    <value>Definir endereço de cobrança</value>
+  </data>
+  <data name="SetBillingAddressFailure" xml:space="preserve">
+    <value>Falha no endereço de cobrança definido</value>
+  </data>
+  <data name="SetBillingAddressSuccess" xml:space="preserve">
+    <value>Definir com êxito o endereço de cobrança</value>
+  </data>
+  <data name="SetShippingAddress" xml:space="preserve">
+    <value>Definir endereço de entrega</value>
+  </data>
+  <data name="SetShippingAddressFailure" xml:space="preserve">
+    <value>Falha no endereço de entrega definido</value>
+  </data>
+  <data name="SetShippingAddressSuccess" xml:space="preserve">
+    <value>Definir endereço de entrega com sucesso</value>
+  </data>
+  <data name="AutomaticallyRemoveOldData" xml:space="preserve">
+    <value>Remover automaticamente dados antigos</value>
+  </data>
+  <data name="DataMaintenanceFailure" xml:space="preserve">
+    <value>Falha na atualização das configurações de manutenção de dados</value>
+  </data>
+  <data name="DataMaintenanceSuccess" xml:space="preserve">
+    <value>Configurações de manutenção de dados atualizadas</value>
+  </data>
+  <data name="DaysAgo" xml:space="preserve">
+    <value>Dias atrás às</value>
+  </data>
+  <data name="DeleteFeeInvoicesOlderThan" xml:space="preserve">
+    <value>Excluir faturas de taxa anteriores a</value>
+  </data>
+  <data name="DeleteListingsClosedMoreThan" xml:space="preserve">
+    <value>Excluir listagens fechadas mais de</value>
+  </data>
+  <data name="DeleteSaleInvoicesOlderThan" xml:space="preserve">
+    <value>Excluir faturas de venda anteriores a</value>
+  </data>
+  <data name="IncludeSuccessfulListings" xml:space="preserve">
+    <value>Incluir dados de listagem bem-sucedidos</value>
+  </data>
+  <data name="IncludeUnpaidInvoices" xml:space="preserve">
+    <value>Incluir faturas não pagas</value>
+  </data>
+  <data name="LineageString_DataManagement_Maintenance" xml:space="preserve">
+    <value>Gerenciamento de dados&gt; Manutenção</value>
+  </data>
+  <data name="PaymentReceived" xml:space="preserve">
+    <value>Pagamento PayPal Recebido</value>
+  </data>
+  <data name="DeleteUserWithBidsWarning_Line1" xml:space="preserve">
+    <value>Este usuário tem lances para uma ou mais listagens. A exclusão desses lances provavelmente causará resultados de lances incorretos nessas listagens.</value>
+  </data>
+  <data name="DeleteUserWithBidsWarning_Line2" xml:space="preserve">
+    <value>Esta operação não pode ser desfeita.</value>
+  </data>
+  <data name="DeleteUserWithBidsWarning_Line3" xml:space="preserve">
+    <value>Clique em "Excluir" novamente para continuar, independentemente de resultados de lances potencialmente corrompidos.</value>
+  </data>
+  <data name="DeleteListingsNow" xml:space="preserve">
+    <value>Excluir listagens agora</value>
+  </data>
+  <data name="DeleteListingsNowSuccess" xml:space="preserve">
+    <value>A Limpeza da listagem foi enfileirada com êxito. Por favor, verifique o log de eventos para obter detalhes sobre os resultados.</value>
+  </data>
+  <data name="DeleteListingsNow_Help" xml:space="preserve">
+    <value>Exclui permanentemente listagens fechadas e imagens associadas com mais de {0} dias</value>
+  </data>
+  <data name="DeleteListingsWarning_Line1" xml:space="preserve">
+    <value>Você está prestes a excluir todas as listagens anteriores a {0} dias.</value>
+  </data>
+  <data name="DeleteListingsWarning_Line1_IncludingSuccessful" xml:space="preserve">
+    <value>Você está prestes a excluir todas as listagens anteriores a {0} dias, incluindo as listadas com êxito.</value>
+  </data>
+  <data name="DeleteListingsWarning_Line2" xml:space="preserve">
+    <value>Esta operação não pode ser desfeita.</value>
+  </data>
+  <data name="DeleteListingsWarning_Line3" xml:space="preserve">
+    <value>Isso removerá permanentemente todos os dados de lances e listagens de listagens antigas do banco de dados e também excluirá permanentemente as imagens de listagem associadas. Essas listagens não aparecerão mais em nenhuma lista e não estarão disponíveis para exibição ou re-visualização.</value>
+  </data>
+  <data name="ListingDeletionConfirmation_Title" xml:space="preserve">
+    <value>Confirmação de exclusão de listagem</value>
+  </data>
+  <data name="DeleteListingsWarning_Line1_Auto" xml:space="preserve">
+    <value>Você está prestes a ativar a exclusão automática de listagens anteriores a {0} dias todos os dias às {1}.</value>
+  </data>
+  <data name="xAppearsToBeInvalidPleaseEnterCorrectEmail" xml:space="preserve">
+    <value>{0} parece ser inválido. Digite um endereço de e-mail válido para continuar.</value>
+  </data>
+  <data name="CreateEventField" xml:space="preserve">
+    <value>Criar campo de evento</value>
+  </data>
+  <data name="EditEventField" xml:space="preserve">
+    <value>Editar campo de evento</value>
+  </data>
+  <data name="LineageString_CustomFields_Event" xml:space="preserve">
+    <value>Eventos&gt; Campos personalizados do evento</value>
+  </data>
+  <data name="EmptyHomePage" xml:space="preserve">
+    <value>Conteúdo vazio da página inicial</value>
+  </data>
+  <data name="IncludeOnInvoice" xml:space="preserve">
+    <value>Incluir na fatura</value>
+  </data>
+  <data name="IncludeOnInvoice_Help" xml:space="preserve">
+    <value>Se marcado, este campo personalizado será incluído nas faturas de vendas.</value>
+  </data>
+  <data name="DontShow" xml:space="preserve">
+    <value>Não mostre isso novamente.</value>
+  </data>
+  <data name="QuickStartHide" xml:space="preserve">
+    <value>Ocultar esta lista</value>
+  </data>
+  <data name="QuickStartList" xml:space="preserve">
+    <value>Lista de iniciação rápida</value>
+  </data>
+  <data name="QuickStartNotes" xml:space="preserve">
+    <value>&lt;strong&gt; Lembre-se: &lt;/strong&gt; Clique nos botões de ponto de interrogação para exibir informações adicionais sobre cada configuração.</value>
+  </data>
+  <data name="QuickStartSiteContact" xml:space="preserve">
+    <value>Informações de Contato do Site</value>
+  </data>
+  <data name="QuickStartSiteContactDesc" xml:space="preserve">
+    <value>Certifique-se de usar um endereço de email vinculado ao seu nome de domínio para garantir a entrega dos emails.</value>
+  </data>
+  <data name="QuickStartTimeZone" xml:space="preserve">
+    <value>Seu fuso horário</value>
+  </data>
+  <data name="QuickStartTimeZoneDesc" xml:space="preserve">
+    <value>Seu fuso horário operacional deve ser configurado &lt;strong&gt; anterior &lt;/strong&gt; para criar listagens.</value>
+  </data>
+  <data name="QuickStartUserInfo" xml:space="preserve">
+    <value>Informações do usuário (administrador)</value>
+  </data>
+  <data name="QuickStartUserInfoDesc" xml:space="preserve">
+    <value>Esta é a sua conta de administração pessoal. Você deseja atualizar todos os campos para refletir suas informações. É importante alterar seu endereço de email e senha do padrão fornecido.</value>
+  </data>
+  <data name="QuickStartWelcome" xml:space="preserve">
+    <value>&lt;strong&gt; Bem-vindo ao AuctionWorx. &lt;/strong&gt; Certifique-se de definir as seguintes configurações primeiro!</value>
+  </data>
+  <data name="EnumOptionName_Help" xml:space="preserve">
+    <value>Este valor será exibido ao usuário ao selecionar a opção no menu suspenso ou nos botões de opção.</value>
+  </data>
+  <data name="EnumOptionValue_Help" xml:space="preserve">
+    <value>Este valor será exibido na página de detalhes da lista. &lt;br/&gt; Nota: Deixe esse campo em branco se * não * for exibido na página de detalhes, se selecionado pelo usuário.</value>
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
+    <value>Conteúdo do Modo Construção</value>
+  </data>
+  <data name="AuctionLotSettingsFailure" xml:space="preserve">
+    <value>Falha na atualização das configurações do lote do leilão</value>
+  </data>
+  <data name="AuctionLotSettingsSuccess" xml:space="preserve">
+    <value>Configurações do lote do leilão atualizadas</value>
+  </data>
+  <data name="LineageString_AuctionLotSettings" xml:space="preserve">
+    <value>Tratudores Listagens&gt; Lotes para Leilão</value>
+  </data>
+  <data name="DuplicateContentName" xml:space="preserve">
+    <value>O novo conteúdo "Nome" deve ser exclusivo.</value>
+  </data>
+  <data name="Also" xml:space="preserve">
+    <value>Além disso</value>
+  </data>
+  <data name="BuyersPremiumAmount" xml:space="preserve">
+    <value>Prêmio do comprador</value>
+  </data>
+  <data name="InvoiceTotal" xml:space="preserve">
+    <value>Total da fatura</value>
+  </data>
+  <data name="LineageString_SalesInvoicesReport" xml:space="preserve">
+    <value>Relatórios&gt; Faturas de vendas</value>
+  </data>
+  <data name="ListingLineItemCount" xml:space="preserve">
+    <value>Itens de linha</value>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>Imposto</value>
+  </data>
+  <data name="ShippingAmount" xml:space="preserve">
+    <value>Remessa</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="TotalAdjustments" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="TotalQty" xml:space="preserve">
+    <value>Quantidade total</value>
+  </data>
+  <data name="CSVHelp" xml:space="preserve">
+    <value>&lt;strong&gt; Arquivos de importação de dados grandes &lt;/strong&gt; podem resultar no recebimento atrasado do email de confirmação. Verifique &lt;em&gt; Logs de Eventos &lt;/em&gt; para obter o status atual da importação - cada validação ou importação de listagem será registrada.</value>
+  </data>
+  <data name="CSV_EmailSendErrorParserErrorEmail" xml:space="preserve">
+    <value>Erro de envio de email (email de erro do analisador)</value>
+  </data>
+  <data name="CSV_EmailSendErrorResultsEmail" xml:space="preserve">
+    <value>Erro de envio de email (email de resultados)</value>
+  </data>
+  <data name="CSV_ExceptionCount" xml:space="preserve">
+    <value>Contagem de exceções</value>
+  </data>
+  <data name="CSV_Exceptions" xml:space="preserve">
+    <value>Exceções</value>
+  </data>
+  <data name="CSV_ExceptionsFromListingProvider" xml:space="preserve">
+    <value>Exceções (do provedor de listagem)</value>
+  </data>
+  <data name="CSV_FailedImportLinesAttachedInNewCsvFile" xml:space="preserve">
+    <value>Todas as linhas de importação com falha do CSV original são anexadas a este email como um novo CSV para correção e nova tentativa.</value>
+  </data>
+  <data name="CSV_ImportExceptionsForXxx" xml:space="preserve">
+    <value>Exceção de importação para {0}</value>
+    <comment>{0} is a filename</comment>
+  </data>
+  <data name="CSV_ImportResults" xml:space="preserve">
+    <value>Resultados de importação</value>
+  </data>
+  <data name="CSV_ImportResultsForXxxJobStartedAtYyy" xml:space="preserve">
+    <value>Importar resultados para o trabalho {0} iniciado em {1}</value>
+    <comment>{0} is a filename, {1} is a date/time</comment>
+  </data>
+  <data name="CSV_Line" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="CSV_NoteValidateOnlyNoActionTaken" xml:space="preserve">
+    <value>Observe que, como "Somente validar" foi selecionado, NENHUMA AÇÃO FOI REALIZADA</value>
+  </data>
+  <data name="CSV_ProcessingTime" xml:space="preserve">
+    <value>Tempo de processamento</value>
+  </data>
+  <data name="CSV_seconds" xml:space="preserve">
+    <value>Segundos</value>
+  </data>
+  <data name="CSV_SuccessCount" xml:space="preserve">
+    <value>Contagem de Sucesso</value>
+  </data>
+  <data name="CSV_Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="CSV_ValidationErrorCount" xml:space="preserve">
+    <value>Contagem de erros de validação</value>
+  </data>
+  <data name="CSV_ValidationErrors" xml:space="preserve">
+    <value>Erros de validação</value>
+  </data>
+  <data name="CSV_ValidationErrorsFromCsvPreValidator" xml:space="preserve">
+    <value>Erros de validação (do pré-validador CSV)</value>
+  </data>
+  <data name="CSV_ValidationErrorsFromListingProvider" xml:space="preserve">
+    <value>Erros de validação (do provedor de listagem)</value>
+  </data>
+  <data name="CSV_YourFileFailedPreValidationNoActionHasBeenTaken" xml:space="preserve">
+    <value>Seu arquivo falhou na pré-validação. Nenhuma ação foi tomada.</value>
+  </data>
+  <data name="CSV_ListingImportStarted" xml:space="preserve">
+    <value>A importação da listagem de CSV foi iniciada. Os resultados da importação e validação serão enviados para o seguinte endereço de e-mail assim que concluído: {0}</value>
+  </data>
+  <data name="ImportAsDrafts" xml:space="preserve">
+    <value>Importar como rascunhos</value>
+  </data>
+  <data name="AdminSummaryCountRecentlySignedInUsers" xml:space="preserve">
+    <value>Usuários com login recente</value>
+  </data>
+  <data name="CategoriesAdded" xml:space="preserve">
+    <value>Categorias adicionadas</value>
+  </data>
+  <data name="CategoriesFound" xml:space="preserve">
+    <value>Categorias Encontradas</value>
+  </data>
+  <data name="CategoriesSkipped" xml:space="preserve">
+    <value>Categorias ignoradas</value>
+  </data>
+  <data name="ErrorDetails" xml:space="preserve">
+    <value>Detalhes do erro</value>
+  </data>
+  <data name="ImageImportUriBase" xml:space="preserve">
+    <value>Base de Uri de importação de imagem</value>
+  </data>
+  <data name="ImportCancelled" xml:space="preserve">
+    <value>Importação cancelada</value>
+  </data>
+  <data name="ImportCategories" xml:space="preserve">
+    <value>Categorias de importação</value>
+  </data>
+  <data name="ImportCategoriesMainBlurb" xml:space="preserve">
+    <value>Use este formulário para importar as categorias de listagem do rwAuction Pro v7.0 do banco de dados especificado em web.config. Clique em "Importar categorias" para continuar ...</value>
+  </data>
+  <data name="ImportCompleted" xml:space="preserve">
+    <value>Importação concluída</value>
+  </data>
+  <data name="ImportListingsMainBlurb" xml:space="preserve">
+    <value>Use este formulário para importar listagens do rwAuction Pro v7.0 do banco de dados especificado em web.config. Clique em "Importar listagens" para continuar ...</value>
+  </data>
+  <data name="ImportStarted" xml:space="preserve">
+    <value>Importação iniciada</value>
+  </data>
+  <data name="LineageString_ImportCategories" xml:space="preserve">
+    <value>Categorias&gt; Importar categorias</value>
+  </data>
+  <data name="LineageString_ImportListings" xml:space="preserve">
+    <value>Listagens&gt; Importar Listagens</value>
+  </data>
+  <data name="ListingsAdded" xml:space="preserve">
+    <value>Anúncios adicionados</value>
+  </data>
+  <data name="ListingsFound" xml:space="preserve">
+    <value>Anúncios encontrados</value>
+  </data>
+  <data name="ListingsSkipped" xml:space="preserve">
+    <value>Listagens ignoradas</value>
+  </data>
+  <data name="ImportRegions" xml:space="preserve">
+    <value>Regiões de importação</value>
+  </data>
+  <data name="ImportRegionsMainBlurb" xml:space="preserve">
+    <value>Use este formulário para importar regiões do rwAuction Pro v7.0 do banco de dados especificado em web.config. Clique em "Importar regiões" para continuar ...</value>
+  </data>
+  <data name="LineageString_ImportRegions" xml:space="preserve">
+    <value>Regiões&gt; Regiões de importação</value>
+  </data>
+  <data name="RegionsAdded" xml:space="preserve">
+    <value>Regiões adicionadas</value>
+  </data>
+  <data name="RegionsFound" xml:space="preserve">
+    <value>Regiões encontradas</value>
+  </data>
+  <data name="RegionsSkipped" xml:space="preserve">
+    <value>Regiões ignoradas</value>
+  </data>
+  <data name="LotNumber" xml:space="preserve">
+    <value>Número de lote</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="SalesInvoices_csv" xml:space="preserve">
+    <value>SalesInvoices.csv</value>
+  </data>
+  <data name="StateRegion" xml:space="preserve">
+    <value>Estado / Região</value>
+  </data>
+  <data name="Street1" xml:space="preserve">
+    <value>Rua 1</value>
+  </data>
+  <data name="Street2" xml:space="preserve">
+    <value>Rua # 2</value>
+  </data>
+  <data name="ZipPostal" xml:space="preserve">
+    <value>Zip / Postal</value>
+  </data>
+  <data name="Literal_SubNavigation" xml:space="preserve">
+    <value>Links de subavegação</value>
+  </data>
+  <data name="Sunburst" xml:space="preserve">
+    <value>Emblema de venda</value>
+  </data>
+  <data name="CreateLotField" xml:space="preserve">
+    <value>Criar campo de lote</value>
+  </data>
+  <data name="LineageString_AuctionLotSettings_Events" xml:space="preserve">
+    <value>Leilões&gt; Lotes para Leilão</value>
+  </data>
+  <data name="LineageString_CustomFields_Lot" xml:space="preserve">
+    <value>Leilões&gt; Campos personalizados do lote</value>
+  </data>
+  <data name="LineageString_ImportCSV" xml:space="preserve">
+    <value>Listagens&gt; Importar CSV</value>
+  </data>
+  <data name="LineageString_ImportCSV_Events" xml:space="preserve">
+    <value>Leilões&gt; Importar lotes CSV</value>
+  </data>
+  <data name="LineageString_ShippingMethods_Events" xml:space="preserve">
+    <value>Leilões&gt; Expedição</value>
+  </data>
+  <data name="Voided" xml:space="preserve">
+    <value>Anulado</value>
+  </data>
+  <data name="PageName" xml:space="preserve">
+    <value>Nome da página</value>
+  </data>
+  <data name="QuickStartMobileLogo" xml:space="preserve">
+    <value>Mobile Logo</value>
+  </data>
+  <data name="QuickStartMobileLogoDesc" xml:space="preserve">
+    <value>Esse logotipo é exibido no cabeçalho de todas as páginas quando o usuário está navegando em um dispositivo móvel.</value>
+  </data>
+  <data name="QuickStartShow" xml:space="preserve">
+    <value>Mostrar lista de iniciação rápida</value>
+  </data>
+  <data name="QuickStartSiteLogo" xml:space="preserve">
+    <value>Logo do site</value>
+  </data>
+  <data name="QuickStartSiteLogoDesc" xml:space="preserve">
+    <value>Este é o logotipo exibido no cabeçalho de todas as páginas quando o navegador do usuário tem largura total.</value>
+  </data>
+  <data name="QuickStartSiteName" xml:space="preserve">
+    <value>Nome do site</value>
+  </data>
+  <data name="QuickStartSiteNameDesc" xml:space="preserve">
+    <value>"Nome legal do site", "Nome amigável do site" e "Título do site" devem ser atualizados para refletir seu site.</value>
+  </data>
+  <data name="QuickStartSiteUrl" xml:space="preserve">
+    <value>URL do site</value>
+  </data>
+  <data name="QuickStartSiteUrlDesc" xml:space="preserve">
+    <value>O "URL" e o "URL seguro" são usados ​​para itens como tags de email e login seguro e devem ser atualizados para corresponder ao endereço pretendido do seu site, por exemplo, http://www.mywebsite.com e https: // www.mywebsite.com, respectivamente. Se você não tiver o SSL configurado, ambos deverão ser configurados como "http: // ...".</value>
+  </data>
+  <data name="PublishEventFee" xml:space="preserve">
+    <value>Publicar taxa do evento</value>
+  </data>
+  <data name="PublishEventFee_Help" xml:space="preserve">
+    <value>Uma taxa fixa cobrada quando um vendedor publica um evento.</value>
+  </data>
+  <data name="LineageString_Taxes" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Impostos</value>
+  </data>
+  <data name="TaxesSuccess" xml:space="preserve">
+    <value>Preferências fiscais atualizadas</value>
+  </data>
+  <data name="UpdateInvoiceBuyersPremiumFailure" xml:space="preserve">
+    <value>Falha na atualização do Premium dos compradores da fatura</value>
+  </data>
+  <data name="UpdateInvoiceBuyersPremiumSuccess" xml:space="preserve">
+    <value>Premium do comprador atualizado</value>
+  </data>
+  <data name="UpdateInvoiceCommentsFailure" xml:space="preserve">
+    <value>Falha nos comentários da atualização da fatura</value>
+  </data>
+  <data name="UpdateInvoiceCommentsSuccess" xml:space="preserve">
+    <value>Comentários de fatura salvos com sucesso</value>
+  </data>
+  <data name="UpdateInvoiceShippingFailure" xml:space="preserve">
+    <value>Falha na atualização do envio da fatura</value>
+  </data>
+  <data name="UpdateInvoiceShippingSuccess" xml:space="preserve">
+    <value>Opção de envio de fatura atualizada com sucesso</value>
+  </data>
+  <data name="DisableThisFeeForSelectedCategories" xml:space="preserve">
+    <value>Desativar esta taxa para as categorias selecionadas</value>
+  </data>
+  <data name="EnableThisFeeForSelectedCategories" xml:space="preserve">
+    <value>Ative esta taxa para as categorias selecionadas</value>
+  </data>
+  <data name="FeeCategoriesFailure" xml:space="preserve">
+    <value>Falha na atualização das configurações da categoria de taxa</value>
+  </data>
+  <data name="FeeCategoriesSuccess" xml:space="preserve">
+    <value>Configurações de categoria de taxa atualizadas</value>
+  </data>
+  <data name="LineageString_FeeCategories" xml:space="preserve">
+    <value>Faturamento e taxas&gt; Categorias de taxas</value>
+  </data>
+  <data name="NoCategoriesCurrentlySelected" xml:space="preserve">
+    <value>(Nenhuma categoria selecionada no momento.)</value>
+  </data>
+  <data name="template_AnswerPublicListingQuestion" xml:space="preserve">
+    <value>Respondido Public Listing Question</value>
+  </data>
+  <data name="template_AnswerPublicListingQuestion_Help" xml:space="preserve">
+    <value>Notificar ao usuário que uma pergunta de listagem pública foi respondida</value>
+  </data>
+  <data name="template_AnswerPublicListingQuestion_ToWhom" xml:space="preserve">
+    <value>do utilizador</value>
+  </data>
+  <data name="template_AskPublicListingQuestion" xml:space="preserve">
+    <value>Fazer pergunta de listagem pública</value>
+  </data>
+  <data name="template_AskPublicListingQuestion_Help" xml:space="preserve">
+    <value>Notificar o vendedor que uma nova pergunta de listagem pública foi publicada</value>
+  </data>
+  <data name="template_AskPublicListingQuestion_ToWhom" xml:space="preserve">
+    <value>vendedor</value>
+  </data>
+  <data name="AddNewContentPage" xml:space="preserve">
+    <value>Página Adicionar Novo Conteúdo</value>
+  </data>
+  <data name="AssignedFields" xml:space="preserve">
+    <value>Campos atribuídos</value>
+  </data>
+  <data name="AvailableFields" xml:space="preserve">
+    <value>Campos Disponíveis</value>
+  </data>
+  <data name="BackToCategoryList" xml:space="preserve">
+    <value>Voltar para todas as categorias</value>
+  </data>
+  <data name="CurrentFaviconFile" xml:space="preserve">
+    <value>Arquivo Favicon atual</value>
+  </data>
+  <data name="CurrentLogoFile" xml:space="preserve">
+    <value>Arquivo de logotipo atual</value>
+  </data>
+  <data name="SaveConfiguration" xml:space="preserve">
+    <value>Salvar configuração</value>
+  </data>
+  <data name="SaveName" xml:space="preserve">
+    <value>Salvar nome</value>
+  </data>
+  <data name="AddNewStates" xml:space="preserve">
+    <value>Adicionar novos estados / regiões</value>
+  </data>
+  <data name="SelectRegionalLanguage" xml:space="preserve">
+    <value>Selecione o idioma regional</value>
+  </data>
+  <data name="EmailOptIn" xml:space="preserve">
+    <value>Aceitar email \ Newsletter</value>
+  </data>
+  <data name="AdjustInvoice" xml:space="preserve">
+    <value>Ajustar fatura</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Aplique</value>
+  </data>
+  <data name="AddNewContent" xml:space="preserve">
+    <value>Página Adicionar Novo Conteúdo</value>
+  </data>
+  <data name="ApplyAddress" xml:space="preserve">
+    <value>Aplicar endereço à fatura</value>
+  </data>
+  <data name="BackgroundProcessing" xml:space="preserve">
+    <value>Processamento em background</value>
+  </data>
+  <data name="BannerDisplayInfo" xml:space="preserve">
+    <value>(A exibição do banner abaixo pode parecer menor que o tamanho real.)</value>
+  </data>
+  <data name="BannerImage" xml:space="preserve">
+    <value>Imagem da faixa</value>
+  </data>
+  <data name="EmailTemplateName" xml:space="preserve">
+    <value>Nome do modelo de email</value>
+  </data>
+  <data name="ListingDeletion" xml:space="preserve">
+    <value>Listagem de limpeza de dados</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Sem resultados</value>
+  </data>
+  <data name="OldListingDeletion" xml:space="preserve">
+    <value>Processamento de limpeza / exclusão</value>
+  </data>
+  <data name="PageName_Help" xml:space="preserve">
+    <value>O nome do conteúdo pode conter apenas caracteres alfanuméricos, traços e sublinhados.</value>
+  </data>
+  <data name="QuickAccessMenu" xml:space="preserve">
+    <value>Acesso rápido</value>
+  </data>
+  <data name="SaveContent" xml:space="preserve">
+    <value>Salvar conteúdo</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Cronograma</value>
+  </data>
+  <data name="AddStates" xml:space="preserve">
+    <value>Adicionar estados / regiões</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Conteúdo</value>
+  </data>
+  <data name="DeleteSelected" xml:space="preserve">
+    <value>Excluir selecionado</value>
+  </data>
+  <data name="IncrementHelp" xml:space="preserve">
+    <value>&lt;p&gt; Os incrementos de lance determinam o valor &lt;em&gt; mínimo &lt;/em&gt; de lance válido que um usuário pode inserir ao fazer um lance em um leilão. &lt;/p&gt; &lt;p&gt; Um usuário pode fazer lances com qualquer valor igual ou superior ao ( Preço atual) + (Incremento de lance). &lt;/p&gt; &lt;p&gt; Os incrementos são aplicados em cada 'nível de preço' até o próximo 'nível de preço' definido. &lt;/p&gt;</value>
+  </data>
+  <data name="SaveAuctionSettings" xml:space="preserve">
+    <value>Salvar configuração do leilão</value>
+  </data>
+  <data name="SaveBidIncrements" xml:space="preserve">
+    <value>Salvar incrementos de lance</value>
+  </data>
+  <data name="SaveTemplate" xml:space="preserve">
+    <value>Salvar modelo</value>
+  </data>
+  <data name="SelectCultureToEdit" xml:space="preserve">
+    <value>Selecionar cultura para editar</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="AddShippingService_Help" xml:space="preserve">
+    <value>Clicar em um link abaixo adicionará opções de envio adicionais para esse provedor.</value>
+  </data>
+  <data name="AvailableShippingMethods" xml:space="preserve">
+    <value>Serviços de remessa ativados</value>
+  </data>
+  <data name="FullList" xml:space="preserve">
+    <value>Lista completa</value>
+  </data>
+  <data name="NewShippingService" xml:space="preserve">
+    <value>Novo serviço de remessa</value>
+  </data>
+  <data name="SaveShippingMethods" xml:space="preserve">
+    <value>Salvar métodos de envio</value>
+  </data>
+  <data name="SaveShippingOptions" xml:space="preserve">
+    <value>Salvar Opções de Envio</value>
+  </data>
+  <data name="SaveShippingServices" xml:space="preserve">
+    <value>Salvar serviços de remessa</value>
+  </data>
+  <data name="ShowFilterOptions" xml:space="preserve">
+    <value>Mostrar filtros</value>
+  </data>
+  <data name="AddOption" xml:space="preserve">
+    <value>Adicionar opção</value>
+  </data>
+  <data name="CharactersLeft" xml:space="preserve">
+    <value>caracteres restantes</value>
+  </data>
+  <data name="CurrentOptions" xml:space="preserve">
+    <value>Opções atuais</value>
+  </data>
+  <data name="AccountStatus" xml:space="preserve">
+    <value>Status da Conta</value>
+  </data>
+  <data name="FeePercent" xml:space="preserve">
+    <value>Percentual da taxa</value>
+  </data>
+  <data name="CreateCustomField" xml:space="preserve">
+    <value>Criar campo</value>
+  </data>
+  <data name="Last4" xml:space="preserve">
+    <value>Últimos 4 #</value>
+  </data>
+  <data name="BOTTOM" xml:space="preserve">
+    <value>Inferior</value>
+  </data>
+  <data name="DomesticDHLOptions" xml:space="preserve">
+    <value>Opções Domésticas da DHL</value>
+  </data>
+  <data name="DomesticFedexOptions" xml:space="preserve">
+    <value>Opções Federal Fedex</value>
+  </data>
+  <data name="DomesticUPSOptions" xml:space="preserve">
+    <value>Opções domésticas de UPS</value>
+  </data>
+  <data name="DomesticUSPSOptions" xml:space="preserve">
+    <value>Opções USPS domésticas</value>
+  </data>
+  <data name="InternationalDHLOptions" xml:space="preserve">
+    <value>Opções internacionais da DHL</value>
+  </data>
+  <data name="InternationalFedexOptions" xml:space="preserve">
+    <value>Opções internacionais Fedex</value>
+  </data>
+  <data name="InternationalUPSOptions" xml:space="preserve">
+    <value>Opções internacionais da UPS</value>
+  </data>
+  <data name="InternationalUSPSOptions" xml:space="preserve">
+    <value>Opções internacionais do USPS</value>
+  </data>
+  <data name="LEFT" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="NoBannersDisplay" xml:space="preserve">
+    <value>Não há banners para exibir</value>
+  </data>
+  <data name="SaveDisplayOptions" xml:space="preserve">
+    <value>Salvar opções de exibição</value>
+  </data>
+  <data name="TOP" xml:space="preserve">
+    <value>Topo</value>
+  </data>
+  <data name="FeeStatus" xml:space="preserve">
+    <value>Status da taxa:</value>
+  </data>
+  <data name="OopsGoBack" xml:space="preserve">
+    <value>Opa, Volte</value>
+  </data>
+  <data name="YesUndoChanges" xml:space="preserve">
+    <value>Sim, desfazer alterações</value>
+  </data>
+  <data name="ChangeAddress" xml:space="preserve">
+    <value>Alterar endereço</value>
+  </data>
+  <data name="SaleInvoice" xml:space="preserve">
+    <value>Fatura de venda</value>
+  </data>
+  <data name="ResetSignalR" xml:space="preserve">
+    <value>Reset SignalR</value>
+  </data>
+  <data name="ResetSignalRSuccess" xml:space="preserve">
+    <value>Conversas SignalR redefinidas com êxito</value>
+  </data>
+  <data name="ResetSignalR_Help" xml:space="preserve">
+    <value>Encerra todas as conversas do SQL Service Broker e reinicializa o serviço GetCurrentTime Timer</value>
+  </data>
+  <data name="LastLineitemRemovedInvoiceDeleted" xml:space="preserve">
+    <value>Último item de linha removido: fatura excluída com sucesso.</value>
+  </data>
+  <data name="CopySiteFeesStripeCredentialsFailure" xml:space="preserve">
+    <value>Falha ao copiar credenciais de distribuição do site</value>
+  </data>
+  <data name="CopySiteFeesStripeCredentialsSuccess" xml:space="preserve">
+    <value>Credenciais de faixa de site copiadas para uso com pagamentos de vendas para este usuário</value>
+  </data>
+  <data name="DisconnectSiteFeesStripeCredentialsFailure" xml:space="preserve">
+    <value>Falha ao desconectar credenciais de distribuição do site</value>
+  </data>
+  <data name="DisconnectSiteFeesStripeCredentialsSuccess" xml:space="preserve">
+    <value>Credenciais de distribuição excluídas</value>
+  </data>
+  <data name="UseSiteFeeStripeAccount" xml:space="preserve">
+    <value>Usar credenciais de distribuição do site</value>
+  </data>
+  <data name="toggleNo" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="toggleYes" xml:space="preserve">
+    <value>sim</value>
+  </data>
+  <data name="fontSizeCharacter" xml:space="preserve">
+    <value>UMA</value>
+    <comment>text character applied to the font size buttons within the admin control panel reports</comment>
+  </data>
+  <data name="SystemCheck" xml:space="preserve">
+    <value>Checagem de sistema</value>
+  </data>
+  <data name="CMSContent" xml:space="preserve">
+    <value>Páginas de conteúdo personalizadas</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Criar conta de usuário</value>
+  </data>
+  <data name="CSVImport" xml:space="preserve">
+    <value>Importação de CSV</value>
+  </data>
+  <data name="EmailTemplates" xml:space="preserve">
+    <value>Modelos de email</value>
+  </data>
+  <data name="ManageBanners" xml:space="preserve">
+    <value>Gerenciar faixas</value>
+  </data>
+  <data name="PaidFees" xml:space="preserve">
+    <value>Faturas de taxas pagas</value>
+  </data>
+  <data name="UnpaidFees" xml:space="preserve">
+    <value>Taxas do site não pagas</value>
+  </data>
+  <data name="IncludeInSalesReport" xml:space="preserve">
+    <value>Incluir nos relatórios de vendas</value>
+  </data>
+  <data name="IncludeInSalesReport_Help" xml:space="preserve">
+    <value>Se marcado, esse campo personalizado será incluído como uma coluna nas exportações de CSV do Relatório de transação de vendas. &lt;br&gt; NOTA: Este campo será incluído apenas na exportação de CSV do relatório de vendas "Minha conta" se Visibilidade também estiver definido como "Proprietário" ou mais baixo.</value>
+  </data>
+  <data name="ContentArea" xml:space="preserve">
+    <value>Área de conteudo</value>
+  </data>
+  <data name="DefaultEventBidIncrements" xml:space="preserve">
+    <value>Incrementos de lance de evento padrão</value>
+  </data>
+  <data name="IncludeInSalesReportAsBuyer" xml:space="preserve">
+    <value>Incluir nos relatórios de vendas (comprador)</value>
+  </data>
+  <data name="IncludeInSalesReportAsBuyer_Help" xml:space="preserve">
+    <value>Se marcado, este campo personalizado será incluído como comprador de uma transação nas exportações de CSV do Relatório de transações de vendas. &lt;br&gt; NOTA: Este campo será incluído apenas na exportação de CSV do relatório de vendas "Minha conta" se Visibilidade também estiver definido como " Proprietário "ou inferior.</value>
+  </data>
+  <data name="IncludeInSalesReportAsSeller" xml:space="preserve">
+    <value>Incluir nos relatórios de vendas (vendedor)</value>
+  </data>
+  <data name="IncludeInSalesReportAsSeller_Help" xml:space="preserve">
+    <value>Se marcado, este campo personalizado será incluído como vendedor de uma transação nas exportações de CSV do Relatório de transações de vendas. &lt;br&gt; NOTA: Este campo não será incluído no Relatório de vendas "Minha conta".</value>
+  </data>
+  <data name="IncludeOnInvoiceAsBuyer" xml:space="preserve">
+    <value>Incluir na fatura (comprador)</value>
+  </data>
+  <data name="IncludeOnInvoiceAsBuyer_Help" xml:space="preserve">
+    <value>Se marcado, este campo personalizado será incluído com outras informações do comprador nas faturas de venda.</value>
+  </data>
+  <data name="IncludeOnInvoiceAsSeller" xml:space="preserve">
+    <value>Incluir na fatura (vendedor)</value>
+  </data>
+  <data name="IncludeOnInvoiceAsSeller_Help" xml:space="preserve">
+    <value>Se marcado, este campo personalizado será incluído com outras informações do vendedor nas faturas de venda.</value>
+  </data>
+  <data name="EmailTemplatesSuccessfullyReset" xml:space="preserve">
+    <value>Todos os modelos de email foram redefinidos com sucesso para os valores padrão</value>
+  </data>
+  <data name="ResetEmailTemplates" xml:space="preserve">
+    <value>Redefinir modelos de email</value>
+  </data>
+  <data name="ResetEmailTemplatesWarning" xml:space="preserve">
+    <value>Você está prestes a redefinir todos os modelos de email para todas as culturas. Nota: isso não afetará os modelos 'Cabeçalho do email' ou 'Rodapé do email'.</value>
+  </data>
+  <data name="ResetEmailTemplatesWarning_Title" xml:space="preserve">
+    <value>Redefinir confirmação de modelos de email</value>
+  </data>
+  <data name="ResetEmailTemplates_Help" xml:space="preserve">
+    <value>Exclui todo o conteúdo do modelo de email para todas as culturas e restaura o assunto e o corpo padrão de cada</value>
+  </data>
+  <data name="EventAdminSummaryCountActiveListings" xml:space="preserve">
+    <value>Lotes ativos</value>
+  </data>
+  <data name="EventAdminSummaryCountAllListings" xml:space="preserve">
+    <value>Total de lotes</value>
+  </data>
+  <data name="EventAdminSummaryCountListingsWithTransactions" xml:space="preserve">
+    <value>Lotes com lances / compras</value>
+  </data>
+  <data name="EventAdminSummaryCountRecentlySignedInUsers" xml:space="preserve">
+    <value>Usuários com login recente</value>
+  </data>
+  <data name="EventAdminSummaryCountRegisteredUsers" xml:space="preserve">
+    <value>Usuários registrados</value>
+  </data>
+  <data name="template_CounterOfferAccepted_Seller" xml:space="preserve">
+    <value>Contra-oferta aceite</value>
+  </data>
+  <data name="template_CounterOfferAccepted_Seller_Help" xml:space="preserve">
+    <value>Notificar o autor de uma contra-oferta que foi aceito</value>
+  </data>
+  <data name="template_CounterOfferAccepted_Seller_ToWhom" xml:space="preserve">
+    <value>do utilizador</value>
+  </data>
+  <data name="template_CounterOfferConfirmation_Seller" xml:space="preserve">
+    <value>Confirmação de contra-oferta</value>
+  </data>
+  <data name="template_CounterOfferConfirmation_Seller_Help" xml:space="preserve">
+    <value>Notifique o autor de uma contra-oferta que foi enviada</value>
+  </data>
+  <data name="template_CounterOfferConfirmation_Seller_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_CounterOfferReceived_Buyer" xml:space="preserve">
+    <value>Contra-oferta recebida</value>
+  </data>
+  <data name="template_CounterOfferReceived_Buyer_Help" xml:space="preserve">
+    <value>Notificar um usuário que ele recebeu uma contra-oferta</value>
+  </data>
+  <data name="template_CounterOfferReceived_Buyer_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_CounterOfferRejected_Seller" xml:space="preserve">
+    <value>Contra-oferta rejeitada</value>
+  </data>
+  <data name="template_CounterOfferRejected_Seller_Help" xml:space="preserve">
+    <value>Notifique o autor de uma contra-oferta que foi recusada</value>
+  </data>
+  <data name="template_CounterOfferRejected_Seller_ToWhom" xml:space="preserve">
+    <value>Do utilizador</value>
+  </data>
+  <data name="template_OfferAccepted_Buyer" xml:space="preserve">
+    <value>Oferta aceita</value>
+  </data>
+  <data name="template_OfferAccepted_Buyer_Help" xml:space="preserve">
+    <value>Notificar o comprador de que sua oferta foi aceita</value>
+  </data>
+  <data name="template_OfferAccepted_Buyer_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="template_OfferConfirmation_Buyer" xml:space="preserve">
+    <value>Confirmação da oferta</value>
+  </data>
+  <data name="template_OfferConfirmation_Buyer_Help" xml:space="preserve">
+    <value>Notificar o comprador que sua oferta foi enviada</value>
+  </data>
+  <data name="template_OfferConfirmation_Buyer_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="template_OfferReceived_Seller" xml:space="preserve">
+    <value>Oferta Recebida</value>
+  </data>
+  <data name="template_OfferReceived_Seller_Help" xml:space="preserve">
+    <value>Notificar o vendedor que recebeu uma oferta</value>
+  </data>
+  <data name="template_OfferReceived_Seller_ToWhom" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="template_OfferRejected_Buyer" xml:space="preserve">
+    <value>Oferta rejeitada</value>
+  </data>
+  <data name="template_OfferRejected_Buyer_Help" xml:space="preserve">
+    <value>Notificar ao comprador que sua oferta foi recusada</value>
+  </data>
+  <data name="template_OfferRejected_Buyer_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="OnlineHelpAndDocs" xml:space="preserve">
+    <value>Documentos de ajuda e administração on-line</value>
+  </data>
+  <data name="ClearCacheSuccess" xml:space="preserve">
+    <value>Dados em cache limpos com êxito</value>
+  </data>
+  <data name="template_RequestPublishEvent" xml:space="preserve">
+    <value>Solicitar evento de publicação</value>
+  </data>
+  <data name="template_RequestPublishEvent_Help" xml:space="preserve">
+    <value>Notifique o administrador de que o evento de um vendedor está pronto para publicação</value>
+  </data>
+  <data name="template_RequestPublishEvent_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="AuthNetEnabled_CredentialsNeeded" xml:space="preserve">
+    <value>O Authorize.Net foi ativado com sucesso. Digite os valores obrigatórios abaixo.</value>
+  </data>
+  <data name="StripeEnabled_CredentialsNeeded" xml:space="preserve">
+    <value>A faixa foi ativada com sucesso. Digite os valores obrigatórios abaixo.</value>
+  </data>
+  <data name="BuyerID" xml:space="preserve">
+    <value>ID do comprador</value>
+  </data>
+  <data name="ImportFeedbacks" xml:space="preserve">
+    <value>Comentários sobre importação</value>
+  </data>
+  <data name="ImportFeedbacksMainBlurb" xml:space="preserve">
+    <value>Use este formulário para importar os comentários do rwAuction Pro v7.0 do banco de dados especificado em web.config. &lt;br&gt;
+&lt;br&gt;
+Nota 1: Você deve importar Usuários antes que o feedback possa ser importado. &lt;br&gt;
+Nota 2: O uso desta função mais de uma vez importará feedback duplicado. &lt;br&gt;
+&lt;br&gt;
+Clique em "Importar comentários" para continuar ...</value>
+  </data>
+  <data name="LineageString_ImportFeedbacks" xml:space="preserve">
+    <value>Usuários&gt; Importar Feedback</value>
+  </data>
+  <data name="FeedbacksAdded" xml:space="preserve">
+    <value>Registros adicionados</value>
+  </data>
+  <data name="FeedbacksFound" xml:space="preserve">
+    <value>Registros encontrados</value>
+  </data>
+  <data name="FeedbacksSkipped" xml:space="preserve">
+    <value>Registros ignorados</value>
+  </data>
+  <data name="LineageString_EventActivityReport" xml:space="preserve">
+    <value>Relatórios&gt; Atividade do Evento</value>
+  </data>
+  <data name="ClickAnyEventToSelect" xml:space="preserve">
+    <value>Clique em Qualquer evento para selecionar ...</value>
+  </data>
+  <data name="EventActivity_X_csv" xml:space="preserve">
+    <value>EventActivity_ {0} .csv</value>
+    <comment>{0} is an Event ID or "All"</comment>
+  </data>
+  <data name="SelectEventFromList" xml:space="preserve">
+    <value>Selecionar evento da lista</value>
+  </data>
+  <data name="template_InvoicePaid_Buyer" xml:space="preserve">
+    <value>Fatura de vendas paga</value>
+  </data>
+  <data name="template_InvoicePaid_Buyer_Help" xml:space="preserve">
+    <value>Notificar o comprador que o pagamento foi recebido pela fatura especificada</value>
+  </data>
+  <data name="template_InvoicePaid_Buyer_ToWhom" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="ActivityReportFinalStatus_NoBids" xml:space="preserve">
+    <value>Não vendido - sem lances</value>
+  </data>
+  <data name="ActivityReportFinalStatus_Successful" xml:space="preserve">
+    <value>Vendido</value>
+  </data>
+  <data name="ActivityReportFinalStatus_Unsuccessful" xml:space="preserve">
+    <value>Não vendido - reserva não atendida</value>
+  </data>
+  <data name="template_InvoicePaid_Seller" xml:space="preserve">
+    <value>Fatura de vendas paga</value>
+  </data>
+  <data name="template_InvoicePaid_Seller_Help" xml:space="preserve">
+    <value>Notificar o vendedor que o pagamento foi recebido pela fatura especificada</value>
+  </data>
+  <data name="template_InvoicePaid_Seller_ToWhom" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="Last2Days" xml:space="preserve">
+    <value>Últimos 2 dias</value>
+  </data>
+  <data name="Last2Hours" xml:space="preserve">
+    <value>Últimas 2 horas</value>
+  </data>
+  <data name="Last30Days" xml:space="preserve">
+    <value>Últimos 30 dias</value>
+  </data>
+  <data name="Last7Days" xml:space="preserve">
+    <value>Últimos 7 dias</value>
+  </data>
+  <data name="NowShowing" xml:space="preserve">
+    <value>Exibindo: {0}</value>
+    <comment>{0} is a date range string</comment>
+  </data>
+  <data name="ShowHideConfguration" xml:space="preserve">
+    <value>Confguração</value>
+  </data>
+  <data name="ShowHideDateTimeFilters" xml:space="preserve">
+    <value>Filtros de período</value>
+  </data>
+  <data name="ShowHideHistogram" xml:space="preserve">
+    <value>Histograma</value>
+  </data>
+  <data name="UseThisDateRange" xml:space="preserve">
+    <value>Visualizar entradas nesse período</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Erros</value>
+  </data>
+  <data name="Warnings" xml:space="preserve">
+    <value>Advertências</value>
+  </data>
+  <data name="ArchivedEventDataCleanup" xml:space="preserve">
+    <value>Limpeza de dados de eventos arquivados</value>
+  </data>
+  <data name="DataCleanup_DeleteArchivedEvents_Help" xml:space="preserve">
+    <value>Se Ativado: Eventos arquivados e lotes associados anteriores ao número de dias especificado serão automaticamente removidos do sistema.</value>
+  </data>
+  <data name="DeleteArchivedEventsNow_Help" xml:space="preserve">
+    <value>Exclui permanentemente eventos arquivados e lotes e imagens associados com mais de {0} dias</value>
+  </data>
+  <data name="DeleteEventsClosedMoreThan" xml:space="preserve">
+    <value>Excluir eventos / listagens fechadas mais de</value>
+  </data>
+  <data name="DeleteEventsNow" xml:space="preserve">
+    <value>Excluir eventos arquivados agora</value>
+  </data>
+  <data name="DeleteEventsWarning_Line1" xml:space="preserve">
+    <value>Você está prestes a excluir todos os eventos arquivados com mais de {0} dias.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line1_Auto" xml:space="preserve">
+    <value>Você está prestes a ativar a exclusão automática de eventos arquivados com mais de {0} dias todos os dias às {1}.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line1_IncludingSuccessful" xml:space="preserve">
+    <value>Você está prestes a excluir todos os eventos arquivados com mais de {0} dias, incluindo todos os lotes associados.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line2" xml:space="preserve">
+    <value>Esta operação não pode ser desfeita.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line3" xml:space="preserve">
+    <value>Isso removerá permanentemente todos os eventos arquivados antigos, incluindo dados de lances e lotes, do banco de dados e também excluirá permanentemente o evento associado e as imagens de lotes. Esses eventos e lotes não aparecerão mais em nenhuma lista e não estarão disponíveis para exibição ou re-visualização.</value>
+  </data>
+  <data name="EventDeletionConfirmation_Title" xml:space="preserve">
+    <value>Confirmação de exclusão de eventos arquivados</value>
+  </data>
+  <data name="IncludeDraftListings" xml:space="preserve">
+    <value>Incluir dados da listagem de rascunho</value>
+  </data>
+  <data name="IncludeDraftListingsAndLots" xml:space="preserve">
+    <value>Incluir lista de rascunho / dados de lote</value>
+  </data>
+  <data name="IncludeSuccessfulLots" xml:space="preserve">
+    <value>Incluir dados de lote / listagem bem-sucedidos</value>
+  </data>
+  <data name="ProcessSalePayments" xml:space="preserve">
+    <value>Processar pagamentos</value>
+  </data>
+  <data name="ProcessSalePayments_Help" xml:space="preserve">
+    <value>Clicar neste botão tentará cobrar o cartão registrado por todas as faturas de vendas pagáveis.</value>
+  </data>
+  <data name="SalesPreferencesFailure" xml:space="preserve">
+    <value>Falha na atualização das opções de pagamento de vendas</value>
+  </data>
+  <data name="SalesPreferencesSuccess" xml:space="preserve">
+    <value>Opções de pagamento de vendas atualizadas com sucesso</value>
+  </data>
+   <data name="Homepage" xml:space="preserve">
+    <value>Pagina inicial</value>
+  </data>
+  <data name="SelectedCategories" xml:space="preserve">
+    <value>Categorias Selecionadas</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="PostFee" xml:space="preserve">
+    <value>Taxa de postagem</value>
+  </data>
+  <data name="SellerFinalFee" xml:space="preserve">
+    <value>Taxa final do vendedor</value>
+  </data>
+  <data name="BuyerFinalFee" xml:space="preserve">
+    <value>Taxa final do comprador</value>
+  </data>
+  <data name="HomepageFeatured" xml:space="preserve">
+    <value>Página inicial</value>
+  </data>
+  <data name="BoldListingTitle" xml:space="preserve">
+    <value>Título em negrito</value>
+  </data>
+  <data name="ListingBadge" xml:space="preserve">
+    <value>Crachá de listagem</value>
+  </data>
+  <data name="HighlightedListingTitle" xml:space="preserve">
+    <value>Título em destaque da listagem</value>
+  </data>
+  <data name="ListingSubtitle" xml:space="preserve">
+    <value>Legenda da listagem</value>
+  </data>
+  <data name="FirstImageFee" xml:space="preserve">
+    <value>Taxa da primeira imagem</value>
+  </data>
+  <data name="EachAdditionalImageFee" xml:space="preserve">
+    <value>Cada taxa adicional por página</value>
+  </data>
+  <data name="Good'tilCanceled" xml:space="preserve">
+    <value>Bom até Cancelado</value>
+  </data>
+   <data name="Anonymous" xml:space="preserve">
+    <value>Anônimo</value>
+  </data>
+   <data name="Owner" xml:space="preserve">
+    <value>Proprietário</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Escolher arquivo</value>
+  </data>
+  <data name="NoFileChosen" xml:space="preserve">
+    <value>Nenhum arquivo selecionado</value>
+  </data>
+
+  <data name="LicenseInformation" xml:space="preserve">
+    <value>Informações sobre licença</value>
+  </data>
+    <data name="LicenseisValid" xml:space="preserve">
+    <value>A licença é válida</value>
+  </data>
+  <data name="Edition" xml:space="preserve">
+    <value>Edição</value>
+  </data>
+    <data name="LicenseKey" xml:space="preserve">
+    <value>Chave de licença</value>
+  </data>
+  <data name="InstalledEdition" xml:space="preserve">
+    <value>Edição Instalada</value>
+  </data>
+   <data name="SystemSecondDifference" xml:space="preserve">
+    <value>Segunda diferença do sistema</value>
+  </data>
+  <data name="Serial" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+<data name="LicenseisInvalid" xml:space="preserve">
+    <value>A licença é inválida</value>
+  </data>
+<data name="ComponentTimes" xml:space="preserve">
+    <value>Tempos dos componentes</value>
+  </data>
+
+  <data name="Area" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="LineageString_CreateBooking" xml:space="preserve">
+    <value>Criar &amp;gt; reserva</value>
+  </data>
+  <data name="CreateShipmentBooking" xml:space="preserve">
+    <value>Criar reserva de remessa</value>
+  </data>
+  <data name="SellerInformation" xml:space="preserve">
+    <value>Informações do vendedor</value>
+  </data>
+  <data name="SellerName" xml:space="preserve">
+    <value>Nome do Vendedor</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Nome da empresa</value>
+  </data>
+  <data name="SellerAddressLine1" xml:space="preserve">
+    <value>Linha 1 do endereço do vendedor</value>
+  </data>
+  <data name="SellerAddressLine2" xml:space="preserve">
+    <value>Linha 2 do endereço do vendedor</value>
+  </data>
+  <data name="SellerCity" xml:space="preserve">
+    <value>Cidade Vendedor</value>
+  </data>
+  <data name="SellerPostalCode" xml:space="preserve">
+    <value>Vendedor PostalCode</value>
+  </data>
+  <data name="SellerPersonName" xml:space="preserve">
+    <value>Vendedor Nome da Pessoa</value>
+  </data>
+  <data name="SellerContactNumber" xml:space="preserve">
+    <value>Número de contato do vendedor</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>nome do cliente</value>
+  </data>
+  <data name="CustomerAddressLine1" xml:space="preserve">
+    <value>Linha de endereço do cliente 1</value>
+  </data>
+  <data name="CustomerAddressLine2" xml:space="preserve">
+    <value>Linha de endereço do cliente 2</value>
+  </data>
+  <data name="CustomerCity" xml:space="preserve">
+    <value>Cidade do Cliente</value>
+  </data>
+  <data name="CustomerPostalCode" xml:space="preserve">
+    <value>Código Postal do Cliente</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="CustomerPersonName" xml:space="preserve">
+    <value>Nome da Pessoa do Cliente</value>
+  </data>
+  <data name="CustomerPhoneNumber" xml:space="preserve">
+    <value>Número de telefone do cliente</value>
+  </data>
+  <data name="ShipmentDescription" xml:space="preserve">
+    <value>Descrição da Remessa</value>
+  </data>
+  <data name="ShipmentDetail" xml:space="preserve">
+    <value>Detalhe da Remessa</value>
+  </data>
+  <data name="WeightUnit" xml:space="preserve">
+    <value>Unidade de Medida de Peso</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Profundidade</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Unidade de medida de dimensão</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="SellerPersonName " xml:space="preserve">
+    <value>Vendedor Nome da Pessoa</value>
+  </data>
+  <data name="ShipmentControlPanel" xml:space="preserve">
+    <value>Painel de Controle de Remessa</value>
+  </data>
+  <data name="Shipment" xml:space="preserve">
+    <value>envio</value>
+  </data>
+  <data name="ShowShipmentBooking" xml:space="preserve">
+    <value>Mostrar reserva de remessa</value>
+  </data>
+	<data name="ShowShipmentBookings" xml:space="preserve">
+    <value>Mostrar reservas de remessas</value>
+  </data>
+	<data name="CustomerInformation" xml:space="preserve">
+    <value>Informação ao Cliente</value>
+  </data>
+	<data name="ItemNumber" xml:space="preserve">
+    <value>Número de item</value>
+  </data>
+	<data name="Pound" xml:space="preserve">
+    <value>Libra</value>
+  </data>
+	<data name="Kilogram" xml:space="preserve">
+    <value>Quilograma</value>
+  </data>
+	<data name="Inch" xml:space="preserve">
+    <value>Polegada</value>
+  </data>
+	<data name="Centimeter" xml:space="preserve">
+    <value>Centímetro</value>
+  </data>
+	<data name="Pleaseentervaliditemcode" xml:space="preserve">
+    <value>Por favor, insira o código do item válido</value>
+  </data>
+</root>

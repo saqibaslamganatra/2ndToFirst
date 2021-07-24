@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BUYER_NO_ACTIVITY" xml:space="preserve">
+    <value>Você não comprou este item.</value>
+  </data>
+  <data name="BUYER_NO_QUANTITY_LEFT" xml:space="preserve">
+    <value>Você não pode comprar este item. Esgotou-se.</value>
+  </data>
+  <data name="BUYER_PURCHASED" xml:space="preserve">
+    <value>Você pediu anteriormente {0} deste item.</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Compre Agora</value>
+  </data>
+  <data name="FeedbackScore" xml:space="preserve">
+    <value>Pontuação de Feedback</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Preço fixo</value>
+  </data>
+  <data name="FixedPriceDisclaimer" xml:space="preserve">
+    <value>Este item está disponível para compra direta pelo vendedor. Nenhuma licitação é necessária.</value>
+  </data>
+  <data name="ListingEndDateTime" xml:space="preserve">
+    <value>Disponível até</value>
+  </data>
+  <data name="ListingLocation" xml:space="preserve">
+    <value>Localização do Anúncio</value>
+  </data>
+  <data name="ListingPageViews" xml:space="preserve">
+    <value>Visualizações de página</value>
+  </data>
+  <data name="ListingStartedDateTime" xml:space="preserve">
+    <value>Disponível desde</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Proprietário</value>
+  </data>
+  <data name="PerItem" xml:space="preserve">
+    <value>Por item</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="PurchasePrice" xml:space="preserve">
+    <value>Preço de compra</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="QuantityAvailable" xml:space="preserve">
+    <value>Quantidade Disponível</value>
+  </data>
+  <data name="SellerDetailsTitle" xml:space="preserve">
+    <value>Sobre o vendedor</value>
+  </data>
+  <data name="SellerUsername" xml:space="preserve">
+    <value>Listado por</value>
+  </data>
+  <data name="SELLER_ACTIVITY" xml:space="preserve">
+    <value>Você fez pelo menos uma venda.</value>
+  </data>
+  <data name="SELLER_NO_ACTIVITY" xml:space="preserve">
+    <value>Não há vendas no momento.</value>
+  </data>
+  <data name="SELLER_SUCCESSFUL" xml:space="preserve">
+    <value>Você fez pelo menos uma venda.</value>
+  </data>
+  <data name="SELLER_UNSUCCESSFUL" xml:space="preserve">
+    <value>Sem vendas.</value>
+  </data>
+  <data name="ConfirmPurchase" xml:space="preserve">
+    <value>Confirme sua compra de {0} item (s) por {1} por unidade.</value>
+  </data>
+  <data name="BidderIsOwner" xml:space="preserve">
+    <value>O comprador é o proprietário</value>
+  </data>
+  <data name="ListingChangedDuringProcessing" xml:space="preserve">
+    <value>Esta listagem foi alterada durante o processamento</value>
+  </data>
+  <data name="ListingNotActive" xml:space="preserve">
+    <value>A listagem não está ativa</value>
+  </data>
+  <data name="QuantityTooHigh" xml:space="preserve">
+    <value>Quantidade muito alta</value>
+  </data>
+  <data name="LISTING_AWAITING_PAYMENT" xml:space="preserve">
+    <value>Esta listagem não será iniciada até que as taxas de inserção sejam pagas.</value>
+  </data>
+  <data name="LISTING_NOT_STARTED" xml:space="preserve">
+    <value>Esta listagem não foi iniciada.</value>
+  </data>
+  <data name="BadListingActionValue" xml:space="preserve">
+    <value>A quantidade deve ser um número inteiro maior que zero.</value>
+  </data>
+  <data name="PurchaseHistory" xml:space="preserve">
+    <value>Histórico de compras</value>
+  </data>
+  <data name="LISTING_DELETED" xml:space="preserve">
+    <value>Esta listagem foi excluída.</value>
+  </data>
+  <data name="ViewSellersOtherListings" xml:space="preserve">
+    <value>Ver outras ofertas do vendedor</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Histórico de compras</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="ActionSuccess" xml:space="preserve">
+    <value>Seu pedido de compra foi enviado.</value>
+  </data>
+  <data name="CurrentQuantity" xml:space="preserve">
+    <value>Quantidade atual</value>
+  </data>
+  <data name="ClosedMessage" xml:space="preserve">
+    <value>Esse item não está mais disponível para compra.</value>
+  </data>
+  <data name="PostListingFeeIsBasedOnXxx" xml:space="preserve">
+    <value>A Taxa de listagem de post é baseada no preço ...</value>
+  </data>
+  <data name="FinalFeeDescriptionNoTiers" xml:space="preserve">
+    <value>A taxa final do vendedor é uma porcentagem do preço de venda, cobrada apenas quando ocorre uma venda.</value>
+  </data>
+  <data name="FinalFeeDescriptionWithTiers" xml:space="preserve">
+    <value>A taxa final do vendedor é uma porcentagem do preço de venda, cobrada apenas quando ocorre uma venda ...</value>
+  </data>
+  <data name="ListingStartsDateTime" xml:space="preserve">
+    <value>Disponível em</value>
+  </data>
+  <data name="ScheduledListingStartsInX" xml:space="preserve">
+    <value>Disponível em: {0}</value>
+  </data>
+  <data name="ScheduledListingStartsOnX" xml:space="preserve">
+    <value>Disponível para compra em {0}</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>Um {0} {1} será aplicado ao seu total.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>Um {0} {1} de {2} será aplicado ao seu total.</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_Xdollars" xml:space="preserve">
+    <value>Preço incluindo {0}: {1}</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>Um {0} {1} será aplicado à sua conta.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>Um {0} {1} de {2} será aplicado à sua conta.</value>
+  </data>
+  <data name="Quantity_small" xml:space="preserve">
+    <value>QTY</value>
+  </data>
+  <data name="Each" xml:space="preserve">
+    <value>cada</value>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>No momento, você não está autorizado a comprar</value>
+  </data>
+  <data name="UsersWatching" xml:space="preserve">
+    <value>Assistindo</value>
+  </data>
+  <data name="UNKNOWN" xml:space="preserve">
+    <value>DESCONHECIDO</value>
+  </data>
+  <data name="TypeIconAlt" xml:space="preserve">
+    <value>Compre agora Listagem</value>
+  </data>
+  <data name="BuyerFeeNotice" xml:space="preserve">
+    <value>A compra deste item acarretará uma taxa do comprador de</value>
+  </data>
+  <data name="AcceptOffers" xml:space="preserve">
+    <value>Aceitar ofertas</value>
+  </data>
+  <data name="MakeOffer" xml:space="preserve">
+    <value>Faça oferta</value>
+  </data>
+  <data name="OfferMessage" xml:space="preserve">
+    <value>Mensagem da oferta</value>
+  </data>
+  <data name="ReviewAndConfirmOffer" xml:space="preserve">
+    <value>Revise e confirme a oferta</value>
+  </data>
+  <data name="ReviewOffer" xml:space="preserve">
+    <value>Revisar Oferta</value>
+  </data>
+  <data name="YourOffer" xml:space="preserve">
+    <value>Sua oferta</value>
+  </data>
+  <data name="QtyAvailable" xml:space="preserve">
+    <value>Quantidade disponível</value>
+  </data>
+  <data name="ListedPrice" xml:space="preserve">
+    <value>Preço listado: {0}</value>
+  </data>
+  <data name="ViewPurchaseHistory" xml:space="preserve">
+    <value>Exibir histórico de compras</value>
+  </data>
+  <data name="XUnsold" xml:space="preserve">
+    <value>{0} Não vendido</value>
+  </data>
+  <data name="ENDED_WITH_OFFER_ACCEPTED" xml:space="preserve">
+    <value>Item finalizado com oferta aceita</value>
+  </data>
+  <data name="YOUR_OFFER_ACCEPTED" xml:space="preserve">
+    <value>Sua oferta foi aceita</value>
+  </data>
+  <data name="YOUR_OFFER_DECLINED" xml:space="preserve">
+    <value>Sua oferta foi recusada</value>
+  </data>
+  <data name="YOU_HAVE_PENDING_OFFER" xml:space="preserve">
+    <value>Você tem uma oferta aguardando sua resposta</value>
+  </data>
+  <data name="AvailableFor" xml:space="preserve">
+    <value>Disponível para</value>
+  </data>
+  <data name="AvailableIn" xml:space="preserve">
+    <value>Disponível em</value>
+  </data>
+  <data name="IsTaxable" xml:space="preserve">
+    <value>Este item é tributável</value>
+  </data>
+</root>

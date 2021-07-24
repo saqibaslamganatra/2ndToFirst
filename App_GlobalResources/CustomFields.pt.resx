@@ -1,0 +1,1498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptAMEX" xml:space="preserve">
+    <value>Aceitar AMEX</value>
+  </data>
+  <data name="AcceptDiscover" xml:space="preserve">
+    <value>Aceitar Discover</value>
+  </data>
+  <data name="AcceptMastercard" xml:space="preserve">
+    <value>Aceitar Mastercard</value>
+  </data>
+  <data name="AcceptVisa" xml:space="preserve">
+    <value>Aceitar Visa</value>
+  </data>
+  <data name="AdministratorEmail" xml:space="preserve">
+    <value>E-mail do administrador</value>
+  </data>
+  <data name="AllowInstantCheckout" xml:space="preserve">
+    <value>Permitir saída instantânea</value>
+  </data>
+  <data name="Auction_EnableProxyBidding" xml:space="preserve">
+    <value>Ativar lances de proxy</value>
+  </data>
+  <data name="AuthorizeNet_Enabled" xml:space="preserve">
+    <value>Authorize.NET ativado</value>
+  </data>
+  <data name="AuthorizeNet_MerchantLoginID" xml:space="preserve">
+    <value>ID de login do comerciante de taxa do site</value>
+  </data>
+  <data name="AuthorizeNet_PostUrl" xml:space="preserve">
+    <value>URL da postagem</value>
+  </data>
+  <data name="AuthorizeNet_TestMode" xml:space="preserve">
+    <value>Modo de teste</value>
+  </data>
+  <data name="AuthorizeNet_TransactionKey" xml:space="preserve">
+    <value>Chave de transação da taxa do site</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="DurationDaysList" xml:space="preserve">
+    <value>Duração Dias Lista</value>
+  </data>
+  <data name="EnableMultipleCultures" xml:space="preserve">
+    <value>Ativar várias culturas</value>
+  </data>
+  <data name="EnableMultipleCurrencies" xml:space="preserve">
+    <value>Ativar várias moedas</value>
+  </data>
+  <data name="EnableRegions" xml:space="preserve">
+    <value>Ativar regiões</value>
+  </data>
+  <data name="EnableShipping" xml:space="preserve">
+    <value>Ativar envio</value>
+  </data>
+  <data name="ExteriorColor" xml:space="preserve">
+    <value>Cor exterior</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="FeedbackEnabled" xml:space="preserve">
+    <value>Feedback ativado</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Primeiro nome</value>
+  </data>
+  <data name="FreeFormProvider_Enabled" xml:space="preserve">
+    <value>Provedor de forma livre ativado</value>
+  </data>
+  <data name="FriendlySiteName" xml:space="preserve">
+    <value>Nome do site amigável</value>
+  </data>
+  <data name="ImageX" xml:space="preserve">
+    <value>Imagem X</value>
+  </data>
+  <data name="ImageY" xml:space="preserve">
+    <value>Imagem Y</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>Cor interior</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Último nome</value>
+  </data>
+  <data name="LegalSiteName" xml:space="preserve">
+    <value>Nome Legal do Site</value>
+  </data>
+  <data name="ListingDurationOptions" xml:space="preserve">
+    <value>Opções de duração da listagem</value>
+  </data>
+  <data name="MaxHomePageFeatured" xml:space="preserve">
+    <value>Itens máximos da página inicial</value>
+  </data>
+  <data name="MaxImagesPerItem" xml:space="preserve">
+    <value>Imagens máximas por item</value>
+  </data>
+  <data name="MaxResultsPerPage" xml:space="preserve">
+    <value>Resultados máximos por página</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta Descrição</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta Palavras-chave</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>Quilometragem</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NumberBathrooms" xml:space="preserve">
+    <value>Número de banheiros</value>
+  </data>
+  <data name="NumberBedrooms" xml:space="preserve">
+    <value>Numero de quartos</value>
+  </data>
+  <data name="PayPal_CancelReturnURL" xml:space="preserve">
+    <value>Cancelar URL de retorno</value>
+  </data>
+  <data name="PayPal_Email" xml:space="preserve">
+    <value>Email do Paypal</value>
+  </data>
+  <data name="PayPal_Email_Help" xml:space="preserve">
+    <value>Endereço de e-mail do usuário associado à conta do PayPal que receberá pagamentos.</value>
+  </data>
+  <data name="PayPal_Enabled" xml:space="preserve">
+    <value>PayPal ativado</value>
+  </data>
+  <data name="PayPal_FeesEmail" xml:space="preserve">
+    <value>Email das taxas</value>
+  </data>
+  <data name="PayPal_IPNURL" xml:space="preserve">
+    <value>URL do IPN</value>
+  </data>
+  <data name="PayPal_PostURL" xml:space="preserve">
+    <value>URL da postagem</value>
+  </data>
+  <data name="PayPal_ReturnToMerchantText" xml:space="preserve">
+    <value>Retornar ao texto do comerciante</value>
+  </data>
+  <data name="PayPal_SuccessReturnURL" xml:space="preserve">
+    <value>URL de retorno com sucesso</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>telefone</value>
+  </data>
+  <data name="ProcessingEnabled" xml:space="preserve">
+    <value>Processamento ativado</value>
+  </data>
+  <data name="RestrictOutsideSellers" xml:space="preserve">
+    <value>Restringir vendedores externos</value>
+  </data>
+  <data name="SecureURL" xml:space="preserve">
+    <value>URL seguro</value>
+  </data>
+  <data name="ShowBidHistoryUserNames" xml:space="preserve">
+    <value>Mostrar nomes de usuário do histórico de lances</value>
+  </data>
+  <data name="ShowCategoryCounts" xml:space="preserve">
+    <value>Mostrar contagens de categoria</value>
+  </data>
+  <data name="ShowZeroCountCategories" xml:space="preserve">
+    <value>Mostrar categorias de contagem zero</value>
+  </data>
+  <data name="SiteTitle" xml:space="preserve">
+    <value>titulo do site</value>
+  </data>
+  <data name="SquareFootage" xml:space="preserve">
+    <value>Square Footage</value>
+  </data>
+  <data name="StateRegion" xml:space="preserve">
+    <value>Estado / Região</value>
+  </data>
+  <data name="Street1" xml:space="preserve">
+    <value>Rua 1</value>
+  </data>
+  <data name="Street2" xml:space="preserve">
+    <value>Rua # 2</value>
+  </data>
+  <data name="SystemEmailAddress" xml:space="preserve">
+    <value>Endereço de e-mail do sistema</value>
+  </data>
+  <data name="SystemEmailName" xml:space="preserve">
+    <value>Nome de email do sistema</value>
+  </data>
+  <data name="ThumbX" xml:space="preserve">
+    <value>Thumb X</value>
+  </data>
+  <data name="ThumbY" xml:space="preserve">
+    <value>Thumb Y</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="UserMessagingEnabled" xml:space="preserve">
+    <value>Mensagens do usuário ativadas</value>
+  </data>
+  <data name="VerifyUserEmail" xml:space="preserve">
+    <value>Verificar email do usuário</value>
+  </data>
+  <data name="VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="ZipPostal" xml:space="preserve">
+    <value>Zip / Postal</value>
+  </data>
+  <data name="AcceptPayPal" xml:space="preserve">
+    <value>Aceitar PayPal</value>
+  </data>
+  <data name="PaymentInstructions" xml:space="preserve">
+    <value>Instruções de pagamento</value>
+  </data>
+  <data name="EnableProxyBidding" xml:space="preserve">
+    <value>Ativar lances de proxy</value>
+  </data>
+  <data name="ListingDurationOptions_Help" xml:space="preserve">
+    <value>&lt;p&gt; Data e duração de início - programe uma data e hora de início e selecione o número de dias (duração) em que a listagem estará ativa. &lt;/p&gt;
+&lt;p&gt; Data de início e data de término - especifique uma data e hora de início e de término. &lt;/p&gt;
+&lt;p&gt; Somente duração - a listagem torna-se ativa imediatamente e termina após o número de dias selecionado. &lt;/p&gt;
+&lt;p&gt; Somente data final - a listagem torna-se ativa imediatamente e termina na data e hora finais especificadas. &lt;/p&gt;</value>
+  </data>
+  <data name="SniperProtectionSeconds" xml:space="preserve">
+    <value>Segundos de proteção do atirador furtivo</value>
+  </data>
+  <data name="AuthorizeNet_PaymentDescription" xml:space="preserve">
+    <value>Descrição de pagamento</value>
+  </data>
+  <data name="BottomBannersToDisplay" xml:space="preserve">
+    <value>Banners inferiores a serem exibidos</value>
+  </data>
+  <data name="LeftBannersToDisplay" xml:space="preserve">
+    <value>Bandeiras Esquerdas para Exibição</value>
+  </data>
+  <data name="TopBannersToDisplay" xml:space="preserve">
+    <value>Principais banners a serem exibidos</value>
+  </data>
+  <data name="Duration_Only" xml:space="preserve">
+    <value>Somente Duração</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>ativado</value>
+  </data>
+  <data name="End_Only" xml:space="preserve">
+    <value>Apenas Data Final</value>
+  </data>
+  <data name="Start_And_Duration" xml:space="preserve">
+    <value>Data e Duração de Início</value>
+  </data>
+  <data name="Start_And_End" xml:space="preserve">
+    <value>Data de início data de fim</value>
+  </data>
+  <data name="ShowShippingInfoOnItemLists" xml:space="preserve">
+    <value>Mostrar informações de envio nas listas de itens</value>
+  </data>
+  <data name="ShowShippingInfoOnItemLists_Help" xml:space="preserve">
+    <value>Se ativado: a opção de remessa mais barata será mostrada abaixo do título nas listas de resultados da lista "Procurar" e "Pesquisar"</value>
+  </data>
+  <data name="ShowSellerLocationOnListingDetails" xml:space="preserve">
+    <value>Mostrar localização do vendedor na página de detalhes</value>
+  </data>
+  <data name="CreditCardsEnabled" xml:space="preserve">
+    <value>Cartões de Crédito Armazenados</value>
+  </data>
+  <data name="UserApprovalRequired" xml:space="preserve">
+    <value>É necessária a aprovação do usuário</value>
+  </data>
+  <data name="ChargeFeesWhenRelisting" xml:space="preserve">
+    <value>Cobrar taxas ao relistar</value>
+  </data>
+  <data name="MaxAutoRelists" xml:space="preserve">
+    <value>Max Auto Relists</value>
+  </data>
+  <data name="EnableGTC" xml:space="preserve">
+    <value>Ativar bom até cancelado</value>
+  </data>
+  <data name="EnableGTC_Help" xml:space="preserve">
+    <value>Dá ao agente da lista a opção de manter a listagem aberta até a venda esgotada ou o cancelamento manual.</value>
+  </data>
+  <data name="TestDecimal" xml:space="preserve">
+    <value>Teste decimal</value>
+  </data>
+  <data name="RequireCreditCardOnRegistration" xml:space="preserve">
+    <value>Exigir cartão de crédito no registro</value>
+  </data>
+  <data name="ShowSellerOnListingRow" xml:space="preserve">
+    <value>Mostrar nome do vendedor nos resultados da pesquisa</value>
+  </data>
+  <data name="UsejQueryTimePicker" xml:space="preserve">
+    <value>Use o jQuery Time Picker</value>
+  </data>
+  <data name="ProcessingEnabled_Help" xml:space="preserve">
+    <value>&lt;p&gt; Se ativado: Os seguintes processos em segundo plano estão ativados: &lt;/p&gt;
+&lt;ul style = "tipo de estilo da lista: círculo; margem esquerda: 20 px;"&gt;
+&lt;li&gt; &lt;b&gt; Iniciando listagens &lt;/b&gt; - ativa as listagens definidas para começar no futuro &lt;/li&gt;
+&lt;li&gt; &lt;b&gt; Resolução da listagem &lt;/b&gt; - Termina e resolve listagens &lt;/li&gt;
+&lt;li&gt; &lt;b&gt; Atualização de taxa &lt;/b&gt; - Calcula as taxas devidas &lt;/li&gt;
+&lt;li&gt; &lt;b&gt; Notificador &lt;/b&gt; - gerencia o envio de emails &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Se esta opção não estiver ativada, os processos acima não serão executados. Os resultados são: as listagens nunca começam ou terminam, nenhum e-mail do sistema e nenhuma cobrança de taxa. &lt;/p&gt;</value>
+  </data>
+  <data name="RequireAuthentication" xml:space="preserve">
+    <value>Exigir autenticação</value>
+  </data>
+  <data name="ShowPendingListings" xml:space="preserve">
+    <value>Mostrar listagens agendadas</value>
+  </data>
+  <data name="EnableNotifications" xml:space="preserve">
+    <value>Notificações por email ativadas</value>
+  </data>
+  <data name="EnableNotifications_Help" xml:space="preserve">
+    <value>&lt;p&gt; Quando a opção Notificações por email ativada está marcada, o sistema processa e envia notificações por email a compradores e vendedores indicando atividade com suas listagens etc. &lt;/p&gt;
+&lt;p&gt; Se esta opção estiver desmarcada, os emails não estão na fila e não são enviados. &lt;/p&gt;</value>
+  </data>
+  <data name="RequireAuthentication_Help" xml:space="preserve">
+    <value>Se ativado: os usuários devem estar registrados e fazer login para visualizar os detalhes da listagem.</value>
+  </data>
+  <data name="DisplayListingType" xml:space="preserve">
+    <value>Exibir tipo de listagem nos resultados da pesquisa</value>
+  </data>
+  <data name="AllowSellerEditDuration" xml:space="preserve">
+    <value>Permitir alterações na data / duração final da listagem</value>
+  </data>
+  <data name="AllowSellerEditDuration_Help" xml:space="preserve">
+    <value>Nota: para leilões, isso se aplica apenas a listagens sem lances.</value>
+  </data>
+  <data name="RequireAddressOnRegistration" xml:space="preserve">
+    <value>Exigir endereço no registro</value>
+  </data>
+  <data name="AuthorizeNetAIM" xml:space="preserve">
+    <value>Authorize.NET</value>
+  </data>
+  <data name="BatchPaymentDate" xml:space="preserve">
+    <value>Dia do mês</value>
+  </data>
+  <data name="BatchPaymentDate_Help" xml:space="preserve">
+    <value>Se um mês não tiver o dia selecionado, o sistema escolherá o último dia desse mês. &lt;br/&gt;
+(Exemplo: o dia 30 é selecionado e o mês é fevereiro)
+&lt;p&gt;
+Conseqüentemente, escolher "31" sempre será executado no "último dia do mês".
+&lt;/p&gt;</value>
+  </data>
+  <data name="BatchPaymentDay" xml:space="preserve">
+    <value>Dia da semana</value>
+  </data>
+  <data name="BatchPaymentPeriod" xml:space="preserve">
+    <value>Recorrência</value>
+  </data>
+  <data name="BatchPaymentPeriod_Help" xml:space="preserve">
+    <value>Defina como "Nunca" para desativar os pagamentos agendados. Caso contrário, escolha com que frequência os pagamentos programados devem ser tentados.</value>
+  </data>
+  <data name="BatchPaymentProvider" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="BatchPaymentTime" xml:space="preserve">
+    <value>Hora do dia</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>Diariamente</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Sexta-feira</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Segunda-feira</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>Por mês</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="NextBatchPayment" xml:space="preserve">
+    <value>Próxima tentativa de pagamento em lote</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>sábado</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>domingo</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Quinta-feira</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>terça</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Quarta-feira</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>Semanal</value>
+  </data>
+  <data name="AllowSellerEditStartDate" xml:space="preserve">
+    <value>Permitir edição da data de início para listagens agendadas</value>
+  </data>
+  <data name="AllowSellerEditStartDate_Help" xml:space="preserve">
+    <value>Isso se aplica apenas a listagens que ainda não foram iniciadas (Listagens Programadas).</value>
+  </data>
+  <data name="DisableBuyNowAfterWinningBids" xml:space="preserve">
+    <value>Desativar Comprar agora após ganhar lances</value>
+  </data>
+  <data name="DisableBuyNowAfterWinningBids_Help" xml:space="preserve">
+    <value>Se marcada (desativada), a opção Comprar agora desaparecerá assim que o primeiro lance vencedor for colocado. Marcada ou desmarcada, a opção Comprar agora permanecerá disponível se o Preço de reserva não for atingido.</value>
+  </data>
+  <data name="EnableProxyBidding_Help" xml:space="preserve">
+    <value>Se ativado: os lances são inseridos automaticamente em nome do proponente pelo menor valor necessário para ganhar o item. &lt;p&gt; Caso contrário, o sistema de proxy não será usado e o lance máximo sempre será feito imediatamente. &lt;/p&gt;</value>
+  </data>
+  <data name="ProxyBiddingBelowReserve" xml:space="preserve">
+    <value>Lances de proxy abaixo da reserva</value>
+  </data>
+  <data name="ProxyBiddingBelowReserve_Help" xml:space="preserve">
+    <value>Se ativado: os lances de proxy funcionarão da mesma forma, independentemente de o preço de reserva ter sido atingido ou não, o que resultará no término do leilão sem êxito se houver apenas um licitante (mesmo que o lance máximo de proxy seja maior que o preço de reserva). Caso contrário (se desativado), o sistema proxy aumentará automaticamente o nível de lance para atingir o Preço de Reserva, se possível.</value>
+  </data>
+  <data name="AcceptCreditCard" xml:space="preserve">
+    <value>Aceitar cartão de crédito</value>
+  </data>
+  <data name="DefaultSalesInvoiceComment" xml:space="preserve">
+    <value>Comentário da fatura padrão</value>
+  </data>
+  <data name="DefaultSalesInvoiceComment_Help" xml:space="preserve">
+    <value>Este texto será inserido automaticamente no campo Comentários das suas novas faturas de vendas.</value>
+  </data>
+  <data name="FeedbackEnabled_Help" xml:space="preserve">
+    <value>Se ativado: o sistema de feedback e classificação da transação está disponível para os usuários.</value>
+  </data>
+  <data name="FriendlySiteName_Help" xml:space="preserve">
+    <value>Aparece nas faturas.</value>
+  </data>
+  <data name="LegalSiteName_Help" xml:space="preserve">
+    <value>Aparece nas informações de direitos autorais.</value>
+  </data>
+  <data name="SecureURL_Help" xml:space="preserve">
+    <value>Exemplo: https://www.xyz.com
+&lt;p&gt;
+Se você não possui um certificado SSL instalado para o seu site, o URL seguro deve corresponder ao URL acima. &lt;/p&gt;</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>Exemplo: http://www.xyz.com
+&lt;p&gt;
+O URL completo, incluindo http: //, para uso na geração de links e links internos de software nos modelos de email. &lt;/p&gt;</value>
+  </data>
+  <data name="UserMessagingEnabled_Help" xml:space="preserve">
+    <value>Se ativado: os usuários têm permissão para enviar mensagens a outros usuários. Ao permitir anúncios classificados, essa configuração deve ser ativada para permitir que os usuários entrem em contato com o proprietário do anúncio.</value>
+  </data>
+  <data name="UseAggregateFinalPercentageFees" xml:space="preserve">
+    <value>Usar taxas percentuais finais agregadas</value>
+  </data>
+  <data name="ShowCurrencyCodes" xml:space="preserve">
+    <value>Mostrar códigos de moeda</value>
+  </data>
+  <data name="HideTaxFields" xml:space="preserve">
+    <value>Ocultar todos os campos fiscais</value>
+  </data>
+  <data name="ThumbCrop" xml:space="preserve">
+    <value>Cortada</value>
+  </data>
+  <data name="ThumbFit" xml:space="preserve">
+    <value>Dimensionado para caber</value>
+  </data>
+  <data name="ThumbnailType" xml:space="preserve">
+    <value>Tipo de miniatura</value>
+  </data>
+  <data name="ShowCurrencySymbol" xml:space="preserve">
+    <value>Mostrar símbolo de moeda</value>
+  </data>
+  <data name="AcceptAMEX_Help" xml:space="preserve">
+    <value>Se ativado: "American Express" será disponibilizado como uma opção de tipo de cartão para pagamentos com cartão de crédito.</value>
+  </data>
+  <data name="AcceptDiscover_Help" xml:space="preserve">
+    <value>Se ativado: "Descobrir" será disponibilizado como uma opção de tipo de cartão para pagamentos com cartão de crédito.</value>
+  </data>
+  <data name="AcceptMastercard_Help" xml:space="preserve">
+    <value>Se ativado: "Mastercard" será disponibilizado como uma opção de tipo de cartão para pagamentos com cartão de crédito.</value>
+  </data>
+  <data name="AcceptVisa_Help" xml:space="preserve">
+    <value>Se ativado: "Visa" será disponibilizado como uma opção de tipo de cartão para pagamentos com cartão de crédito.</value>
+  </data>
+  <data name="AdministratorEmail_Help" xml:space="preserve">
+    <value>Endereço de email de contato da administração.</value>
+  </data>
+  <data name="AuthorizeNet_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: o software se conectará à sua conta do Authorize.net e o "Checkout com cartão de crédito" estará disponível como uma opção de checkout. Esse método de pagamento permite que os usuários enviem pagamentos com cartão de crédito sem sair do site. Nota: este método de pagamento também exige que "Cartões de crédito armazenados" estejam ativados.</value>
+  </data>
+  <data name="AuthorizeNet_MerchantLoginID_Help" xml:space="preserve">
+    <value>Seu login na API do Authorize.Net para uso com faturas de taxa do site.</value>
+  </data>
+  <data name="AuthorizeNet_PaymentDescription_Help" xml:space="preserve">
+    <value>Usado para descrever a transação entre o administrador e o comerciante.</value>
+  </data>
+  <data name="AuthorizeNet_PostUrl_Help" xml:space="preserve">
+    <value>Especifica o URL usado pelo provedor de pagamento Authorize.Net para lançar transações de pagamento. Geralmente, esse valor não deve ser alterado, exceto para fins de teste ou solução de problemas.</value>
+  </data>
+  <data name="AuthorizeNet_TestMode_Help" xml:space="preserve">
+    <value>Quando marcado, os pagamentos serão lançados como transações de teste. Na verdade, nenhum dinheiro será transferido.
+&lt;p&gt; Números de cartão de crédito de teste (a data de validade deve ser definida para a data atual ou posterior): &lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; Cartão de teste American Express: 370000000000002 &lt;/li&gt;
+&lt;li&gt; Descubra o cartão de teste: 6011000000000012 &lt;/li&gt;
+&lt;li&gt; Cartão de teste Visa: 4007000000027 &lt;/li&gt;
+&lt;li&gt; Segundo cartão de teste Visa: 4012888818888 &lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="AuthorizeNet_TransactionKey_Help" xml:space="preserve">
+    <value>Sua chave de transação Authorize.Net para uso com faturas de taxa do site.</value>
+  </data>
+  <data name="BottomBannersToDisplay_Help" xml:space="preserve">
+    <value>O número de banners selecionados aleatoriamente para exibir na parte inferior de determinadas páginas.</value>
+  </data>
+  <data name="ChargeFeesWhenRelisting_Help" xml:space="preserve">
+    <value>Se ativado: as taxas de listagem associadas serão cobradas do vendedor quando um item for listado novamente.</value>
+  </data>
+  <data name="CreditCardsEnabled_Help" xml:space="preserve">
+    <value>Se ativado: todos os formulários de dados de cartão de crédito associados aparecerão para os usuários. Os dados do cartão de crédito podem ser salvos no seu site para compras futuras.</value>
+  </data>
+  <data name="DisplayListingType_Help" xml:space="preserve">
+    <value>Se ativado: o tipo de listagem será exibido na página Resultados da listagem para navegação e pesquisa.</value>
+  </data>
+  <data name="DurationDaysList_Help" xml:space="preserve">
+    <value>Digite o número de opções de 'dia' a serem apresentadas aos vendedores para suas listagens.</value>
+  </data>
+  <data name="EnableMultipleCultures_Help" xml:space="preserve">
+    <value>Se ativado: o software permitirá recursos de vários idiomas que você escolher apoiar.</value>
+  </data>
+  <data name="EnableMultipleCurrencies_Help" xml:space="preserve">
+    <value>Se ativado: o software permitirá moedas e conversões que você escolher apoiar.</value>
+  </data>
+  <data name="EnableShipping_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores podem especificar detalhes de custos de envio fixos ao criar ou editar listagens.</value>
+  </data>
+  <data name="HideTaxFields_Help" xml:space="preserve">
+    <value>Se ativado: a funcionalidade de imposto será removida em todo o site - incluindo a área "Minha conta", a área "Criar listagem" e nas faturas.</value>
+  </data>
+  <data name="LeftBannersToDisplay_Help" xml:space="preserve">
+    <value>O número de banners selecionados aleatoriamente para exibir no lado esquerdo de determinadas páginas.</value>
+  </data>
+  <data name="MaxAutoRelists_Help" xml:space="preserve">
+    <value>O número máximo de vezes que um item será automaticamente listado novamente se não for vendido.</value>
+  </data>
+  <data name="MaxHomePageFeatured_Help" xml:space="preserve">
+    <value>O número máximo de itens que aparecem ao mesmo tempo na página inicial.</value>
+  </data>
+  <data name="MaxImagesPerItem_Help" xml:space="preserve">
+    <value>O número máximo de imagens que um vendedor pode enviar para cada listagem.</value>
+  </data>
+  <data name="MaxResultsPerPage_Help" xml:space="preserve">
+    <value>O número máximo de listagens individuais que serão exibidas em cada página.</value>
+  </data>
+  <data name="MetaDescription_Help" xml:space="preserve">
+    <value>Isso é usado pelos mecanismos de pesquisa ao exibir resultados de pesquisa que contêm um link para o seu site.</value>
+  </data>
+  <data name="MetaKeywords_Help" xml:space="preserve">
+    <value>Eles são usados ​​pelos mecanismos de pesquisa para classificar seu site.</value>
+  </data>
+  <data name="PayPal_CancelReturnURL_Help" xml:space="preserve">
+    <value>O URL para o qual o PayPal redirecionará o usuário se o pagamento falhar ou for cancelado pelo usuário.</value>
+  </data>
+  <data name="PayPal_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: o serviço "Padrão de pagamentos no site" do PayPal está disponível como uma opção de pagamento. Esse método de pagamento redireciona os usuários ao site do paypal para concluir o pagamento e depois redireciona para o seu site posteriormente.</value>
+  </data>
+  <data name="PayPal_FeesEmail_Help" xml:space="preserve">
+    <value>O endereço de e-mail associado à conta do PayPal que receberá pagamentos de taxas do site.</value>
+  </data>
+  <data name="PayPal_IPNURL_Help" xml:space="preserve">
+    <value>O URL para o qual o PayPal relatará o resultado das tentativas de pagamento. Esse valor geralmente não deve ser alterado, exceto para testes, solução de problemas ou personalizações avançadas.</value>
+  </data>
+  <data name="PayPal_PostURL_Help" xml:space="preserve">
+    <value>O URL usado pelo provedor de pagamento do PayPal para lançar transações de pagamento. Esse valor geralmente não deve ser alterado, exceto para testes, solução de problemas ou personalizações avançadas.</value>
+  </data>
+  <data name="PayPal_ReturnToMerchantText_Help" xml:space="preserve">
+    <value>Especifica o texto do link mostrado nas páginas do PayPal para o link de volta ao site do leilão (o URL de retorno de cancelamento).</value>
+  </data>
+  <data name="PayPal_SuccessReturnURL_Help" xml:space="preserve">
+    <value>O URL para o qual o PayPal redirecionará o usuário após o envio bem-sucedido de um pagamento. Esse valor geralmente não deve ser alterado, exceto para testes, solução de problemas ou personalizações avançadas.</value>
+  </data>
+  <data name="RequireAddressOnRegistration_Help" xml:space="preserve">
+    <value>Se ativado: o usuário será solicitado a inserir as informações de endereço durante o processo de registro.</value>
+  </data>
+  <data name="RequireCreditCardOnRegistration_Help" xml:space="preserve">
+    <value>Se ativado: o usuário deverá inserir as informações do cartão de crédito durante o processo de registro.</value>
+  </data>
+  <data name="RestrictOutsideSellers_Help" xml:space="preserve">
+    <value>Se ativado: novos usuários terão privilégios de comprador apenas quando se registrarem, em vez de privilégios de comprador e vendedor.</value>
+  </data>
+  <data name="ShowBidHistoryUserNames_Help" xml:space="preserve">
+    <value>Se ativado: os nomes de usuários são exibidos na lista de histórico de compras ou nos relatórios de histórico de lances.</value>
+  </data>
+  <data name="ShowCategoryCounts_Help" xml:space="preserve">
+    <value>Se ativado: uma contagem de quantas listagens ativas existem em cada categoria (incluindo todas as subcategorias) é exibida entre parênteses ao lado do nome da categoria nas páginas que contêm a navegação por categoria.</value>
+  </data>
+  <data name="ShowCurrencyCodes_Help" xml:space="preserve">
+    <value>Se ativado: o código da moeda é exibido ao lado de todos os preços em todo o site.</value>
+  </data>
+  <data name="ShowCurrencySymbol_Help" xml:space="preserve">
+    <value>Se ativado: o símbolo da moeda é exibido ao lado de todos os preços em todo o site.</value>
+  </data>
+  <data name="ShowPendingListings_Help" xml:space="preserve">
+    <value>Se ativado: as listas que estão agendadas para começar no futuro serão exibidas na página inicial, navegam nas páginas e nos resultados da pesquisa.</value>
+  </data>
+  <data name="ShowSellerLocationOnListingDetails_Help" xml:space="preserve">
+    <value>Se ativado: a cidade, o estado / região e o país do vendedor a partir do "Endereço principal" serão exibidos na página de detalhes</value>
+  </data>
+  <data name="ShowSellerOnListingRow_Help" xml:space="preserve">
+    <value>Se ativado: o nome de usuário do vendedor é exibido abaixo do título e da legenda da lista quando exibido nas listas de resultados da pesquisa.</value>
+  </data>
+  <data name="ShowZeroCountCategories_Help" xml:space="preserve">
+    <value>Se ativado: a navegação por categoria incluirá todas as categorias na camada, mesmo que contenham zero listagens ativas. Caso contrário (se desativado), apenas as categorias com pelo menos uma listagem ativa existente serão exibidas na navegação de categoria.</value>
+  </data>
+  <data name="SiteTitle_Help" xml:space="preserve">
+    <value>Usado como o prefixo padrão para todos os títulos de página (o título exibido na barra de título da maioria dos navegadores da web).</value>
+  </data>
+  <data name="SniperProtectionSeconds_Help" xml:space="preserve">
+    <value>Se um lance for colocado dentro do número de segundos definido antes do item terminar, o leilão será automaticamente estendido esse número de segundos.</value>
+  </data>
+  <data name="SystemEmailAddress_Help" xml:space="preserve">
+    <value>Endereço de email de onde os emails do sistema automatizado se originam.</value>
+  </data>
+  <data name="SystemEmailName_Help" xml:space="preserve">
+    <value>Nome que aparece no campo "De" para emails enviados pelo sistema.</value>
+  </data>
+  <data name="ThumbnailType_Help" xml:space="preserve">
+    <value>&lt;p&gt; &lt;b&gt; Cortado: &lt;/b&gt; A imagem será cortada em um quadrado para ajustar à área de exibição da imagem. &lt;/p&gt; &lt;p&gt; &lt;b&gt; Escalonada para caber: &lt;/b&gt; A imagem será escalonada até a largura se ajustar à área de exibição da imagem. &lt;/p&gt;</value>
+  </data>
+  <data name="TopBannersToDisplay_Help" xml:space="preserve">
+    <value>O número de banners selecionados aleatoriamente para exibir na parte superior de todas as páginas.</value>
+  </data>
+  <data name="UsejQueryTimePicker_Help" xml:space="preserve">
+    <value>Se ativado: o jQuery Time Picker estará disponível na página Criar listagem 2 de 2.</value>
+  </data>
+  <data name="UserApprovalRequired_Help" xml:space="preserve">
+    <value>Se ativado: todos os novos registros de usuários exigirão aprovação manual antes que o usuário possa usar os serviços do site.</value>
+  </data>
+  <data name="VerifyUserEmail_Help" xml:space="preserve">
+    <value>Se ativado: novos usuários não poderão fazer login até verificarem o endereço de email. A verificação exige a inserção de um código de verificação gerado aleatoriamente e entregue por email.</value>
+  </data>
+  <data name="BuyersPremiumPercent" xml:space="preserve">
+    <value>Prêmio do comprador (%)</value>
+  </data>
+  <data name="BuyersPremiumPercent_Help" xml:space="preserve">
+    <value>Esse valor será adicionado automaticamente às suas novas faturas de vendas.</value>
+  </data>
+  <data name="EnableBuyersPremium" xml:space="preserve">
+    <value>Ativar o prêmio do comprador</value>
+  </data>
+  <data name="EnableWebAPI" xml:space="preserve">
+    <value>Ativar API da Web</value>
+  </data>
+  <data name="EnableWebAPI_Help" xml:space="preserve">
+    <value>A API da Web permite que usuários especificados acessem determinadas funcionalidades do site por meio de uma API para executar ações fora do site AuctionWorx, por meio de um serviço da Web. Quando marcado, ativa a API da Web. Quando desmarcada, desativa completamente a API da Web.</value>
+  </data>
+  <data name="ShowLanguageRegionOptions" xml:space="preserve">
+    <value>Mostrar opções de idioma regional</value>
+  </data>
+  <data name="ShowLanguageRegionOptions_Help" xml:space="preserve">
+    <value>Se ativado: com "Ativar várias culturas" também definido, o menu suspenso de rodapé mostrará opções de idioma regional (por exemplo, "Inglês (Estados Unidos)", além de opções de idioma básicas (por exemplo, "Inglês")</value>
+  </data>
+  <data name="test_bool1_Help" xml:space="preserve">
+    <value>algum texto de ajuda - bastante útil, hein !?</value>
+  </data>
+  <data name="test_date1_Help" xml:space="preserve">
+    <value>algum texto de ajuda - bastante útil, hein !?</value>
+  </data>
+  <data name="test_decimal1_Help" xml:space="preserve">
+    <value>algum texto de ajuda - bastante útil, hein !?</value>
+  </data>
+  <data name="test_enum1_Help" xml:space="preserve">
+    <value>algum texto de ajuda - bastante útil, hein !?</value>
+  </data>
+  <data name="test_enum2_Help" xml:space="preserve">
+    <value>algum texto de ajuda - bastante útil, hein !?</value>
+  </data>
+  <data name="test_int1_Help" xml:space="preserve">
+    <value>algum texto de ajuda - bastante útil, hein !?</value>
+  </data>
+  <data name="test_string1_Help" xml:space="preserve">
+    <value>algum texto de ajuda - bastante útil, hein !?</value>
+  </data>
+  <data name="EnableBuyersPremium_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores podem optar por adicionar um prêmio percentual ao custo final de uma listagem. &lt;br&gt; &lt;br&gt; Nota: Esse recurso pode ser usado independentemente da taxa final do comprador, que adiciona um item de linha à fatura da taxa do site do comprador para cada venda.</value>
+  </data>
+  <data name="ListingOption_Bold_Enabled" xml:space="preserve">
+    <value>Ative a opção de listagem "Negrito"</value>
+  </data>
+  <data name="ListingOption_Bold_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão selecionar a opção de listagem "Negrito"</value>
+  </data>
+  <data name="ListingOption_Featured_Enabled" xml:space="preserve">
+    <value>Ative a opção de listagem "Em destaque"</value>
+  </data>
+  <data name="ListingOption_Featured_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão selecionar a opção de listagem "Em destaque"</value>
+  </data>
+  <data name="ListingOption_Highlight_Enabled" xml:space="preserve">
+    <value>Ative a opção de listagem "Destaque"</value>
+  </data>
+  <data name="ListingOption_Highlight_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão selecionar a opção de listagem "Destaque"</value>
+  </data>
+  <data name="ListingOption_Sunburst_Enabled" xml:space="preserve">
+    <value>Ative a opção de listagem de banner "VENDA".</value>
+  </data>
+  <data name="ListingOption_Sunburst_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão selecionar a opção de listagem "Crachá de venda"</value>
+  </data>
+  <data name="ShowHomepageDecorations" xml:space="preserve">
+    <value>Mostrar decorações da página inicial</value>
+  </data>
+  <data name="ShowHomepageDecorations_Help" xml:space="preserve">
+    <value>Se ativado: as listagens exibidas na página inicial incluirão todas as opções de listagem selecionadas pelo vendedor.</value>
+  </data>
+  <data name="Theme_SolidBlack" xml:space="preserve">
+    <value>Preto básico</value>
+  </data>
+  <data name="CssTheme" xml:space="preserve">
+    <value>Tema CSS</value>
+  </data>
+  <data name="Theme_Default" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>Quadrado</value>
+  </data>
+  <data name="Theme_DropShadow" xml:space="preserve">
+    <value>Drop-Shadow</value>
+  </data>
+  <data name="CssTheme_Help" xml:space="preserve">
+    <value>Alguns temas foram incluídos para sua conveniência, para serem usados ​​como estão ou como ponto de partida para o seu próprio design de tema CSS Bootstrap personalizado.</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_DaysOld" xml:space="preserve">
+    <value>Excluir faturas de taxas dias antes</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_Enabled" xml:space="preserve">
+    <value>Excluir faturas de taxa ativadas</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: as faturas de taxas anteriores ao número de dias especificado serão automaticamente removidas do sistema.</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_IncludeUnpaid" xml:space="preserve">
+    <value>Excluir faturas de taxa incluem não pagas</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_IncludeUnpaid_Help" xml:space="preserve">
+    <value>Se ativado: as faturas de taxa não paga também serão removidas automaticamente. &lt;br/&gt;
+Se desativado: somente as faturas pagas serão removidas automaticamente.</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_DaysOld" xml:space="preserve">
+    <value>Excluir listagens com dias anteriores</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_Enabled" xml:space="preserve">
+    <value>Excluir listagens ativadas</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: as listas anteriores ao número de dias especificado serão automaticamente removidas do sistema.</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_IncludeSuccessful" xml:space="preserve">
+    <value>Excluir listagens incluídas com êxito</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_IncludeSuccessful_Help" xml:space="preserve">
+    <value>Se ativado: as listas que terminaram com êxito também serão removidas.</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_DaysOld" xml:space="preserve">
+    <value>Excluir faturas de venda dias antes</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_Enabled" xml:space="preserve">
+    <value>Excluir faturas de venda ativadas</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: as faturas de venda anteriores ao número de dias especificado serão automaticamente removidas do sistema.</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_IncludeUnpaid" xml:space="preserve">
+    <value>Excluir faturas de venda incluem não pagas</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_IncludeUnpaid_Help" xml:space="preserve">
+    <value>Se ativado: as faturas de venda não pagas também serão removidas automaticamente. &lt;br/&gt;
+Se desativado: somente as faturas de venda pagas serão removidas automaticamente.</value>
+  </data>
+  <data name="DataCleanup_Enabled" xml:space="preserve">
+    <value>Limpeza de dados ativada</value>
+  </data>
+  <data name="DataCleanup_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: listagens e / ou faturas anteriores ao número de dias especificado serão automaticamente removidas do sistema periodicamente. &lt;br/&gt;
+Nota: Desativar esta opção também desativará todas as outras opções nesta página.</value>
+  </data>
+  <data name="RestrictCustomFieldEdits" xml:space="preserve">
+    <value>Restringir edições de campos personalizados</value>
+  </data>
+  <data name="RestrictCustomFieldEdits_Help" xml:space="preserve">
+    <value>Se ativado: quando os lances são feitos, isso impede que os campos personalizados sejam alterados</value>
+  </data>
+  <data name="EnableRecaptchaForContactUs" xml:space="preserve">
+    <value>Ativar Recaptcha para entrar em contato</value>
+  </data>
+  <data name="EnableRecaptchaForContactUs_Help" xml:space="preserve">
+    <value>Se ativado, exige que o usuário passe no teste Captcha antes de enviar a página Fale conosco.</value>
+  </data>
+  <data name="EnableRecaptchaForRegistration" xml:space="preserve">
+    <value>Ativar Recaptcha para registro</value>
+  </data>
+  <data name="EnableRecaptchaForRegistration_Help" xml:space="preserve">
+    <value>Se Ativado, solicitou que o usuário passasse no teste Captcha antes de enviar a página Registro.</value>
+  </data>
+  <data name="RecaptchaPrivateKey" xml:space="preserve">
+    <value>Chave Privada Recaptcha</value>
+  </data>
+  <data name="RecaptchaPrivateKey_Help" xml:space="preserve">
+    <value>A chave privada Recaptcha atribuída a você pelo Google.</value>
+  </data>
+  <data name="RecaptchaPublicKey" xml:space="preserve">
+    <value>Chave pública Recaptcha</value>
+  </data>
+  <data name="RecaptchaPublicKey_Help" xml:space="preserve">
+    <value>A chave pública Recaptcha atribuída a você pelo Google.</value>
+  </data>
+  <data name="Theme_GallerySimple" xml:space="preserve">
+    <value>Galeria-Simples</value>
+  </data>
+  <data name="SiteTimeZone" xml:space="preserve">
+    <value>Fuso horário do site</value>
+  </data>
+  <data name="SiteTimeZone_Help" xml:space="preserve">
+    <value>O fuso horário para exibir todas as datas / horas. &lt;br&gt; Nota: Todos os nomes e abreviações podem ser alterados no TimeZones.resx</value>
+  </data>
+  <data name="TimeZoneLabel" xml:space="preserve">
+    <value>Rótulo de fuso horário</value>
+  </data>
+  <data name="TimeZoneLabel_Help" xml:space="preserve">
+    <value>Etiqueta de texto opcional que será exibida após todos os valores de data / hora em todo o site</value>
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
+    <value>Em modo de construção</value>
+  </data>
+  <data name="MaintenanceMode_Help" xml:space="preserve">
+    <value>Se ativado: a página inicial exibirá o conteúdo do CMS em modo de construção e um link "login". Além disso, apenas os administradores poderão fazer login.</value>
+  </data>
+  <data name="ManagerName" xml:space="preserve">
+    <value>Nome do gerente</value>
+  </data>
+  <data name="PaginateHomepageEvents" xml:space="preserve">
+    <value>Paginar eventos da página inicial</value>
+  </data>
+  <data name="PaginateHomepageEvents_Help" xml:space="preserve">
+    <value>Se ativado: até "Eventos máximos de itens da página inicial" serão mostrados na página inicial, com links para as demais. &lt;br&gt; Se desativado: todos os eventos elegíveis serão mostrados na página inicial em uma lista.</value>
+  </data>
+  <data name="DefaultBrowseSort" xml:space="preserve">
+    <value>Classificação de Navegação Padrão</value>
+  </data>
+  <data name="DefaultBrowseSort_Help" xml:space="preserve">
+    <value>Selecione a opção de classificação selecionada por padrão ao navegar nas listagens.</value>
+  </data>
+  <data name="EndingSoon" xml:space="preserve">
+    <value>Terminando em breve</value>
+  </data>
+  <data name="Newest" xml:space="preserve">
+    <value>O mais novo</value>
+  </data>
+  <data name="EnableRegions_Help" xml:space="preserve">
+    <value>Se ativado: os resultados da pesquisa e pesquisa podem ser filtrados por região e todas as listagens fornecerão uma seleção opcional de "região", além de uma categoria de listagem quando criada.</value>
+  </data>
+  <data name="ShowTimeZoneLabel" xml:space="preserve">
+    <value>Mostrar etiqueta de fuso horário</value>
+  </data>
+  <data name="ShowTimeZoneLabel_Help" xml:space="preserve">
+    <value>Se ativado: todos os valores de data / hora serão exibidos com a abreviação de fuso horário (por exemplo, a Hora do Leste (EUA e Canadá) mostraria "ET" após todos os horários)</value>
+  </data>
+  <data name="Theme_Bootstrap3" xml:space="preserve">
+    <value>Estrutura de Bootstrap não estilizada</value>
+  </data>
+  <data name="Theme_Classic_Dark_00" xml:space="preserve">
+    <value>Clássico - Escuro (sem imagem de fundo)</value>
+  </data>
+  <data name="Theme_Classic_Dark_01" xml:space="preserve">
+    <value>Clássico - escuro (imagem de fundo de madeira clara)</value>
+  </data>
+  <data name="Theme_Classic_Light_00" xml:space="preserve">
+    <value>Clássico - claro (sem imagem de fundo)</value>
+  </data>
+  <data name="Theme_Classic_Light_01" xml:space="preserve">
+    <value>Clássico - luz (imagem de fundo de madeira clara)</value>
+  </data>
+  <data name="Theme_Minima_00" xml:space="preserve">
+    <value>Mínimos</value>
+  </data>
+  <data name="Theme_Default_01" xml:space="preserve">
+    <value>Padrão AuctionWorx (fundo cinza)</value>
+  </data>
+  <data name="DefaultLotNumberDigits" xml:space="preserve">
+    <value>Formato padrão do número do lote</value>
+  </data>
+  <data name="DefaultLotNumberDigits_Help" xml:space="preserve">
+    <value>&lt;p&gt; Se um vendedor não digitar um número de lote, um será atribuído automaticamente. O número atribuído será formatado com o número de caracteres digitados nessa configuração. &lt;/p&gt;&lt;p&gt; &lt;strong&gt; Exemplo: &lt;/strong&gt; &lt;br&gt; Quando os dígitos do número de lote padrão são definidos como "1", os lotes receberão um número de lote começando com "1". &lt;br&gt; &lt; br&gt; Quando o formato de número padrão é definido como "3", os lotes receberão um número de lote começando com "001"</value>
+  </data>
+  <data name="EnableEventDescription" xml:space="preserve">
+    <value>Ativar descrição</value>
+  </data>
+  <data name="EnableEventDescription_Help" xml:space="preserve">
+    <value>Se ativado: um campo "Descrição" estará disponível ao criar ou editar um evento</value>
+  </data>
+  <data name="EnableEventManagedBy" xml:space="preserve">
+    <value>Ativar gerenciado por</value>
+  </data>
+  <data name="EnableEventManagedBy_Help" xml:space="preserve">
+    <value>Se ativado: um campo "Gerenciado por" estará disponível ao criar ou editar um evento</value>
+  </data>
+  <data name="EnableEventShippingInfo" xml:space="preserve">
+    <value>Ativar informações de envio</value>
+  </data>
+  <data name="EnableEventShippingInfo_Help" xml:space="preserve">
+    <value>Se ativado: um campo "Informações de envio" estará disponível ao criar ou editar um evento</value>
+  </data>
+  <data name="EnableEventSummary" xml:space="preserve">
+    <value>Ativar resumo</value>
+  </data>
+  <data name="EnableEventSummary_Help" xml:space="preserve">
+    <value>Se ativado: um campo "Resumo" estará disponível ao criar ou editar um evento</value>
+  </data>
+  <data name="EnableEventTermsAndConditions" xml:space="preserve">
+    <value>Ativar Termos e Condições</value>
+  </data>
+  <data name="EnableEventTermsAndConditions_Help" xml:space="preserve">
+    <value>Se ativado: um campo "Termos e condições" estará disponível ao criar ou editar um evento</value>
+  </data>
+  <data name="Theme_Classic_Dark_02" xml:space="preserve">
+    <value>Clássico - Escuro (fundo sutil da árvore de vidoeiro)</value>
+  </data>
+  <data name="Theme_Classic_Light_02" xml:space="preserve">
+    <value>Clássico - leve (fundo sutil da árvore de vidoeiro gráfica)</value>
+  </data>
+  <data name="Theme_Default_02" xml:space="preserve">
+    <value>Padrão AuctionWorx (fundo neutro / marrom)</value>
+  </data>
+  <data name="PayPal_BackupPaymentCurrency" xml:space="preserve">
+    <value>Moeda de pagamento alternativo</value>
+  </data>
+  <data name="PayPal_BackupPaymentCurrency_Help" xml:space="preserve">
+    <value>&lt;strong&gt; Se ativado: &lt;/strong&gt; as faturas em uma moeda não aceita pelo PayPal serão convertidas na moeda selecionada antes que a solicitação de pagamento seja enviada ao PayPal. &lt;br&gt; &lt;br&gt;
+&lt;strong&gt; Se desativado: &lt;/strong&gt; as faturas em uma moeda não aceita pelo PayPal não mostrarão o PayPal como forma de pagamento.</value>
+  </data>
+  <data name="HomepageCategories" xml:space="preserve">
+    <value>Mostrar categorias / regiões na página inicial</value>
+  </data>
+  <data name="HomepageCategories_Help" xml:space="preserve">
+    <value>Categorias e regiões aparecerão na página inicial à esquerda das listagens em destaque da página inicial.</value>
+  </data>
+  <data name="HomepageRowDisplayNumber" xml:space="preserve">
+    <value>Página inicial em destaque por linha</value>
+  </data>
+  <data name="HomepageRowDisplayNumber_Help" xml:space="preserve">
+    <value>O número de páginas da Web em destaque listadas para exibição horizontal em todos os dispositivos com uma área de visualização maior que 1200 px. Quanto mais listagens, menor será a imagem.</value>
+  </data>
+  <data name="Across2" xml:space="preserve">
+    <value>2 do outro lado</value>
+  </data>
+  <data name="Across3" xml:space="preserve">
+    <value>3 do outro lado</value>
+  </data>
+  <data name="Across4" xml:space="preserve">
+    <value>4 do outro lado</value>
+  </data>
+  <data name="Across6" xml:space="preserve">
+    <value>6 do outro lado</value>
+  </data>
+  <data name="AuthorizeNet_EnableForSellers" xml:space="preserve">
+    <value>Habilitar para vendedores de terceiros</value>
+  </data>
+  <data name="AuthorizeNet_EnableForSellers_Help" xml:space="preserve">
+    <value>Quando marcada, os vendedores terão permissão para inserir suas próprias credenciais do Authorize.Net para aceitar pagamentos de vendas. &lt;br&gt; &lt;br&gt; Se desmarcada, apenas os usuários Admin poderão aceitar cartões de crédito para pagamentos de vendas de suas próprias listagens.</value>
+  </data>
+  <data name="AuthorizeNet_SellerMerchantLoginID" xml:space="preserve">
+    <value>ID de login do comerciante Authorize.Net</value>
+  </data>
+  <data name="AuthorizeNet_SellerMerchantLoginID_Help" xml:space="preserve">
+    <value>Seu login na API do Authorize.Net</value>
+  </data>
+  <data name="AuthorizeNet_SellerTransactionKey" xml:space="preserve">
+    <value>Chave de transação Authorize.Net</value>
+  </data>
+  <data name="AuthorizeNet_SellerTransactionKey_Help" xml:space="preserve">
+    <value>Sua chave de transação Authorize.Net</value>
+  </data>
+  <data name="SalesTaxEnabled" xml:space="preserve">
+    <value>Imposto sobre vendas</value>
+  </data>
+  <data name="SalesTaxEnabled_Help" xml:space="preserve">
+    <value>O imposto sobre vendas será opcionalmente cobrado com base na localização do comprador e nas taxas de imposto especificadas por cada vendedor</value>
+  </data>
+  <data name="VatAppliesToBuyersPremium" xml:space="preserve">
+    <value>O IVA aplica-se ao prêmio do comprador</value>
+  </data>
+  <data name="VatAppliesToBuyersPremium_Help" xml:space="preserve">
+    <value>O IVA nas faturas de venda incluirá os prêmios do comprador</value>
+  </data>
+  <data name="VatAppliesToShipping" xml:space="preserve">
+    <value>O IVA se aplica às taxas de envio</value>
+  </data>
+  <data name="VatAppliesToShipping_Help" xml:space="preserve">
+    <value>O IVA nas faturas de venda incluirá custos de envio</value>
+  </data>
+  <data name="VatAppliesToSiteFees" xml:space="preserve">
+    <value>O IVA se aplica às faturas de taxas do site</value>
+  </data>
+  <data name="VatAppliesToSiteFees_Help" xml:space="preserve">
+    <value>aplicar IVA às faturas de taxa do site</value>
+  </data>
+  <data name="VATEnabled" xml:space="preserve">
+    <value>CUBA</value>
+  </data>
+  <data name="VATEnabled_Help" xml:space="preserve">
+    <value>O imposto de IVA será cobrado em todas as faturas de venda e faturas de taxa do site, conforme configurado pelas preferências do administrador</value>
+  </data>
+  <data name="VatRate" xml:space="preserve">
+    <value>Taxa do IVA</value>
+  </data>
+  <data name="VatRate_Help" xml:space="preserve">
+    <value>Esse imposto percentual será adicionado às faturas conforme configurado abaixo</value>
+  </data>
+  <data name="TimeRemainingStyle" xml:space="preserve">
+    <value>Estilo Restante de Tempo</value>
+  </data>
+  <data name="TimeRemainingStyle_Active" xml:space="preserve">
+    <value>Ativo, por exemplo "10 dias 19:33:10 restantes"</value>
+  </data>
+  <data name="TimeRemainingStyle_Classic" xml:space="preserve">
+    <value>Clássico, p. "10 dias, 19 horas restantes" &lt;br&gt;</value>
+  </data>
+  <data name="TimeRemainingStyle_Help" xml:space="preserve">
+    <value>Essa configuração determina a formatação do tempo restante, quando exibida na página inicial, nas páginas de navegação / pesquisa e nas páginas de detalhes da lista / lote</value>
+  </data>
+  <data name="EnableBuyNow" xml:space="preserve">
+    <value>Ativar Comprar agora</value>
+  </data>
+  <data name="EnableBuyNow_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão especificar um preço de compra agora para listagens de leilão</value>
+  </data>
+  <data name="EnablePDFAttachments" xml:space="preserve">
+    <value>Ativar anexos em PDF</value>
+  </data>
+  <data name="EnablePDFAttachments_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão anexar um ou mais documentos PDF às suas listagens</value>
+  </data>
+  <data name="EnableReserve" xml:space="preserve">
+    <value>Ativar Reserva</value>
+  </data>
+  <data name="EnableReserve_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão especificar um preço de reserva para listagens de leilão</value>
+  </data>
+  <data name="EnableYoueTubeVideos" xml:space="preserve">
+    <value>Ativar vídeos do YouTube</value>
+  </data>
+  <data name="EnableYoueTubeVideos_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão anexar um vídeo do youtube às suas listagens</value>
+  </data>
+  <data name="EnablePublicQandA" xml:space="preserve">
+    <value>Ativar perguntas e respostas públicas</value>
+  </data>
+  <data name="EnablePublicQandA_Help" xml:space="preserve">
+    <value>Se ativado: usuários autenticados podem postar perguntas publicamente em qualquer listagem ativa ou de visualização</value>
+  </data>
+  <data name="EnableWatchCount" xml:space="preserve">
+    <value>Ativar contagem de visualizações</value>
+  </data>
+  <data name="EnableWatchCount_Help" xml:space="preserve">
+    <value>Se Ativado: a página de detalhes da listagem / lote exibirá uma contagem do número de usuários assistindo no momento</value>
+  </data>
+  <data name="FullImage" xml:space="preserve">
+    <value>Imagem completa</value>
+  </data>
+  <data name="GalleryType" xml:space="preserve">
+    <value>Galeria Tipo de exibição da página inicial</value>
+  </data>
+  <data name="GalleryType_Help" xml:space="preserve">
+    <value>Selecione entre miniaturas menores ou em tamanho grande. A exibição de imagem em tamanho real é melhor exibida em 3 ou 4, com as Categorias da página inicial desativadas.</value>
+  </data>
+  <data name="Thumbnail" xml:space="preserve">
+    <value>Miniatura</value>
+  </data>
+  <data name="StripeConnect_ClientId" xml:space="preserve">
+    <value>ID do Cliente</value>
+  </data>
+  <data name="StripeConnect_ClientId_Help" xml:space="preserve">
+    <value>Esse valor pode ser encontrado na seção "Sua conta&gt; Conectar&gt; Configurações&gt; Configurações da plataforma" em stripe.com depois de registrar seu site como uma plataforma. &lt;br&gt; &lt;br&gt;
+Nota: Digite um URI de redirecionamento como "http (s): // (seu site) / Stripe / HandleStripeConnectResponse"</value>
+  </data>
+  <data name="StripeConnect_Enabled" xml:space="preserve">
+    <value>Faixa ativada</value>
+  </data>
+  <data name="StripeConnect_EnabledForSellers" xml:space="preserve">
+    <value>Ativado para vendedores</value>
+  </data>
+  <data name="StripeConnect_EnabledForSellers_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão conectar sua conta do Stripe para aceitar pagamentos de vendas. &lt;br&gt; &lt;br&gt;
+Nota: Se você habilitar esta opção, também deverá adicionar um ponto de extremidade do Connect à sua conta de distribuição. Vá para "Sua conta&gt; API&gt; Webhooks&gt; Pontos finais que recebem eventos da sua conta&gt; Adicionar ponto final", digite o URL como "http (s): // (seu site) / Stripe / WebHookHandler" e escolha Eventos ao vivo.</value>
+  </data>
+  <data name="StripeConnect_Enabled_Help" xml:space="preserve">
+    <value>Se ativado: o software se conectará à sua conta do Stripe usando a API Connect e o "Checkout com cartão de crédito" estará disponível como uma opção de checkout. Esse método de pagamento permite que os usuários enviem pagamentos com cartão de crédito sem sair do site. Nota: esse método de pagamento permite que os cartões de crédito sejam salvos remotamente no stripe.com para uso em compras futuras.</value>
+  </data>
+  <data name="StripeConnect_SiteFeesPublishableApiKey" xml:space="preserve">
+    <value>Chave da API publicável das taxas do site</value>
+  </data>
+  <data name="StripeConnect_SiteFeesPublishableApiKey_Help" xml:space="preserve">
+    <value>Esse valor pode ser encontrado na seção "Sua conta&gt; API" em stripe.com.</value>
+  </data>
+  <data name="StripeConnect_SiteFeesSecretApiKey" xml:space="preserve">
+    <value>Chave secreta da API de taxas do site</value>
+  </data>
+  <data name="StripeConnect_SiteFeesSecretApiKey_Help" xml:space="preserve">
+    <value>Esse valor pode ser encontrado na seção "Sua conta&gt; API" em stripe.com.</value>
+  </data>
+  <data name="StripeConnect_SellerAccountConnected" xml:space="preserve">
+    <value>Credenciais de distribuição</value>
+  </data>
+  <data name="AcceptCreditCard_Help" xml:space="preserve">
+    <value>Se ativado: a opção "Checkout com cartão de crédito" estará disponível no checkout. Esta opção requer credenciais do Authorize.Net.</value>
+  </data>
+  <data name="AcceptPayPal_Help" xml:space="preserve">
+    <value>Se ativado: a opção "Finalizar compra com PayPal" estará disponível no final da compra. Esta opção requer um endereço de email do PayPal.</value>
+  </data>
+  <data name="AllowInstantCheckout_Help" xml:space="preserve">
+    <value>Se ativado: os compradores poderão fazer o checkout imediatamente após a compra. &lt;br&gt;
+Se desativado: você poderá fazer ajustes em todas as faturas (por exemplo, atualizar remessa, imposto, prêmio do comprador) antes que o comprador possa concluir a finalização da compra.</value>
+  </data>
+  <data name="PaymentInstructions_Help" xml:space="preserve">
+    <value>Esta informação será exibida a todos os usuários ao visualizar os detalhes de suas listagens. Essas informações também aparecerão nas faturas não pagas se nenhuma outra opção de pagamento estiver disponível.</value>
+  </data>
+  <data name="TaxExempt" xml:space="preserve">
+    <value>Isento de imposto</value>
+  </data>
+  <data name="TaxExempt_Help" xml:space="preserve">
+    <value>Se ativado: os impostos serão excluídos de todas as faturas em que este usuário é o pagador</value>
+  </data>
+  <data name="DefaultBrowseStyle" xml:space="preserve">
+    <value>Estilo de Navegação Padrão</value>
+  </data>
+  <data name="DefaultBrowseStyle_grid" xml:space="preserve">
+    <value>Grid, um formato de galeria com imagens maiores</value>
+  </data>
+  <data name="DefaultBrowseStyle_Help" xml:space="preserve">
+    <value>Essa configuração determina o estilo padrão para exibir resultados nas páginas de navegação / pesquisa</value>
+  </data>
+  <data name="DefaultBrowseStyle_list" xml:space="preserve">
+    <value>Lista, uma lista por linha com mais texto &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent" xml:space="preserve">
+    <value>Conteúdo da página inicial</value>
+  </data>
+  <data name="HomepageContent_browse" xml:space="preserve">
+    <value>Navegar, todos os anúncios &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_browse_Events" xml:space="preserve">
+    <value>Navegue, todos os lotes &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_default" xml:space="preserve">
+    <value>Padrão, listagens em destaque &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_default_Events" xml:space="preserve">
+    <value>Padrão, lista de eventos &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_Help" xml:space="preserve">
+    <value>Essa configuração controla qual conteúdo é exibido na página inicial</value>
+  </data>
+  <data name="HomepageContent_none" xml:space="preserve">
+    <value>Sem listagens</value>
+  </data>
+  <data name="HomepageContent_none_Events" xml:space="preserve">
+    <value>Sem eventos</value>
+  </data>
+  <data name="EnableNonAuctionListingsForEvents" xml:space="preserve">
+    <value>Ativar listagens sem leilão</value>
+  </data>
+  <data name="EnableNonAuctionListingsForEvents_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores poderão criar listas de preço fixo e / ou classificados separadas dos lotes / eventos do leilão &lt;br&gt; NOTA: Você também deve ativar um ou ambos os tipos de listagem antes de poderem ser usados.</value>
+  </data>
+  <data name="CenterLogo" xml:space="preserve">
+    <value>Posição do logotipo central</value>
+  </data>
+  <data name="CenterLogo_Help" xml:space="preserve">
+    <value>A posição padrão do logotipo para PC e tablets fica alinhada à esquerda. Habilite essa configuração para centralizar o logotipo na página. Para todos os dispositivos em que a área de visualização tenha menos de 768 px de largura (ou seja, dispositivos móveis), o logotipo será centralizado automaticamente.</value>
+  </data>
+  <data name="EnableMakeOffer" xml:space="preserve">
+    <value>Ativar fazer oferta</value>
+  </data>
+  <data name="EnableMakeOffer_Help" xml:space="preserve">
+    <value>Se ativado: os compradores podem enviar ofertas com preço, quantidade e condições alternativos ao vendedor</value>
+  </data>
+  <data name="AllowMultipleOffers" xml:space="preserve">
+    <value>Permitir várias ofertas</value>
+  </data>
+  <data name="AllowMultipleOffers_Help" xml:space="preserve">
+    <value>Se ativado: os compradores podem enviar mais de uma oferta na mesma lista / lote antes que a primeira oferta seja aceita, recusada ou rebatida pelo vendedor.</value>
+  </data>
+  <data name="OfferNotificationsEnabled" xml:space="preserve">
+    <value>Ativar notificações de oferta de fazer</value>
+  </data>
+  <data name="OfferNotificationsEnabled_Help" xml:space="preserve">
+    <value>Se ativado: compradores e vendedores receberão notificações por email quando as ofertas forem enviadas, recebidas, aceitas, recusadas ou rebatidas. &lt;br&gt; Nota: cada tipo de notificação individual pode ser ativado ou desativado na área CMS&gt; Modelos de email.</value>
+  </data>
+  <data name="OfferTimeLimitHours" xml:space="preserve">
+    <value>Fazer oferta expirar horas</value>
+  </data>
+  <data name="OfferTimeLimitHours_Help" xml:space="preserve">
+    <value>Quando o comprador faz uma oferta a um vendedor, a oferta expira nesse número de horas ou quando o lote / listagem termina, o que ocorrer primeiro.</value>
+  </data>
+  <data name="HeadingColor" xml:space="preserve">
+    <value>Cor do título</value>
+  </data>
+  <data name="HeadingColor_help" xml:space="preserve">
+    <value>Selecione e defina a cor que será aplicada ao cabeçalho do site. Use o utilitário de seleção de cores ou digite o código HEX de 6 caracteres. Todos os códigos HEX devem ser precedidos por um símbolo HASH '#'.</value>
+  </data>
+  <data name="SellerUsernameDetailPage" xml:space="preserve">
+    <value>Mostrar informações do vendedor na página de detalhes</value>
+  </data>
+  <data name="SellerUsernameDetailPage_Help" xml:space="preserve">
+    <value>Mostre ou oculte as informações do vendedor na página de detalhes da listagem / lote. Isso inclui o nome de usuário, o local e a classificação por estrelas dos comentários.</value>
+  </data>
+  <data name="RequireAdminToPublishEvent" xml:space="preserve">
+    <value>Exigir que o administrador publique o evento</value>
+  </data>
+  <data name="RequireAdminToPublishEvent_Help" xml:space="preserve">
+    <value>Se ativado: os vendedores que não são administradores não poderão publicar o evento imediatamente. Em vez disso, quando a opção "Publicar evento" é clicada por um não administrador, uma notificação por email é enviada para o endereço configurado no campo "Preferências do site&gt; Contato - email do administrador" com links para publicar ou exibir o evento. O administrador também pode publicar o evento a qualquer momento, representando o vendedor e clicando na opção suspensa "Publicar evento".</value>
+  </data>
+  <data name="FollowAuctionLiveEnabled" xml:space="preserve">
+    <value>Ativar Seguir leilão ao vivo</value>
+  </data>
+  <data name="FollowAuctionLiveEnabled_Help" xml:space="preserve">
+    <value>&lt;p&gt; Quando um evento de leilão começa a fechar, os usuários terão a opção "Seguir o leilão ao vivo", que os redireciona automaticamente para o próximo fechamento do lote no evento atual, à medida que cada lote termina. &lt;/p&gt;
+&lt;p&gt; * Se ativado, todo evento terá sua própria configuração para ativar ou desativar a capacidade dos usuários de "acompanhar o leilão ao vivo". &lt;/p&gt;
+&lt;p&gt; Nota: quando ativado para um evento, o sistema adicionará automaticamente todos os lotes ao mesmo grupo de extensão automática, para que cada lote seja fechado um de cada vez e na ordem correta. &lt;/p&gt;</value>
+  </data>
+  <data name="SalesTaxAppliesToBuyersPremium" xml:space="preserve">
+    <value>O imposto sobre vendas se aplica ao prêmio do comprador</value>
+  </data>
+  <data name="SalesTaxAppliesToBuyersPremium_Help" xml:space="preserve">
+    <value>O imposto sobre vendas nas faturas incluirá os prêmios do comprador</value>
+  </data>
+  <data name="MaxEventsPerPage" xml:space="preserve">
+    <value>Máximo de eventos por página</value>
+  </data>
+  <data name="MaxEventsPerPage_Help" xml:space="preserve">
+    <value>O número máximo de eventos que aparecem em cada página.</value>
+  </data>
+  <data name="QuickBidEnabled" xml:space="preserve">
+    <value>Ativar lance rápido</value>
+  </data>
+  <data name="QuickBidEnabled_Help" xml:space="preserve">
+    <value>Se ativado: um botão "Lance rápido" estará disponível na página de detalhes do item e tentará enviar o valor mínimo atual do lance, se você clicar nele. &lt;br&gt;
+Nota: Essa configuração não afeta a configuração "Ativar lances embutidos (lance rápido)".</value>
+  </data>
+  <data name="EventHomeCategories" xml:space="preserve">
+    <value>Mostrar categorias / regiões na página inicial do evento</value>
+  </data>
+  <data name="EventHomeCategories_Help" xml:space="preserve">
+    <value>Categorias e regiões aparecerão na página de detalhes do evento, à esquerda dos lotes.</value>
+  </data>
+  <data name="LargeBidConfirmationEnabled" xml:space="preserve">
+    <value>Ativar confirmação de lance grande</value>
+  </data>
+  <data name="LargeBidConfirmationEnabled_Help" xml:space="preserve">
+    <value>Se ativado: se um usuário tentar fazer um lance 100 vezes maior (ou mais) que o valor mínimo aceitável do lance, um modal pop-up adicional será exibido para confirmar se foi o que aconteceu, por exemplo "$ 100,00" ou "$ 10.000,00", caso o licitante se esqueça de um ponto decimal por engano.</value>
+  </data>
+  <data name="RollingLotUpdatesEnabled" xml:space="preserve">
+    <value>Atualizações do material circulante</value>
+  </data>
+  <data name="RollingLotUpdatesEnabled_Help" xml:space="preserve">
+    <value>Os lotes desaparecerão automaticamente da página de detalhes do evento de leilão à medida que forem fechados. Novos lotes aparecerão automaticamente no final da lista para substituí-los.</value>
+  </data>
+  <data name="PleaseSelect_DropDownEmptyOptionLabel" xml:space="preserve">
+    <value>Por favor selecione...</value>
+  </data>
+  <data name="Consignor" xml:space="preserve">
+    <value>Expedidor</value>
+  </data>
+  <data name="Consignor_Help" xml:space="preserve">
+    <value>(Opcional) Use este campo para especificar o nome ou o ID do expedidor para este lote, se aplicável. As transações de vendas podem ser exportadas com esses dados para exportação CSV pós-leilão.</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled" xml:space="preserve">
+    <value>Ativar lances embutidos (lance rápido)</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled_Help" xml:space="preserve">
+    <value>Se ativado: um botão "Lance rápido" estará disponível para cada item do leilão e tentará enviar o valor mínimo atual do lance, se clicado.
+Isso inclui: Procurar / Resultados da pesquisa, Lista de observação e Minha lista de lances.</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled_EventsHelp" xml:space="preserve">
+    <value>Se ativado: um botão "Lance rápido" estará disponível em cada item do leilão e tentará enviar o valor mínimo atual do lance, se clicado. Isso inclui: Resultados de pesquisa / pesquisa, página Detalhes do evento (catálogo de vendas de leilões), lista de observação, lista de lances.</value>
+  </data>
+  <data name="LogAdminRequestStats" xml:space="preserve">
+    <value>Estatísticas de solicitação de administrador de log</value>
+  </data>
+  <data name="LogFrontEndRequestStats" xml:space="preserve">
+    <value>Registrar estatísticas de solicitação de front-end</value>
+  </data>
+  <data name="LogQueuestats" xml:space="preserve">
+    <value>Estatísticas de enfileiramento de log</value>
+  </data>
+  <data name="LogSignalrConnectionIssues" xml:space="preserve">
+    <value>Conexões Log SignalR</value>
+  </data>
+  <data name="LogSignalrStats" xml:space="preserve">
+    <value>Estatísticas do Log SignalR</value>
+  </data>
+  <data name="LogWebApiStats" xml:space="preserve">
+    <value>Estatísticas de solicitação da API da Web de log</value>
+  </data>
+  <data name="DataCleanup_DeleteArchivedEvents_Help" xml:space="preserve">
+    <value>Se ativado: os eventos de leilão arquivados anteriores ao número de dias especificado serão automaticamente removidos do sistema.</value>
+  </data>
+  <data name="AutoChargeCCs" xml:space="preserve">
+    <value>Cobrar automaticamente cartões de crédito</value>
+  </data>
+  <data name="AutoChargeCCs_Help_EN" xml:space="preserve">
+    <value>&lt;b&gt; Desligado &lt;/b&gt;: os cartões de crédito NÃO serão cobrados automaticamente. &lt;br&gt;
+&lt;b&gt; Imediatamente &lt;/b&gt;: o cartão registrado será cobrado automaticamente quando a fatura for criada automaticamente. &lt;br&gt;
+&lt;b&gt; Diariamente &lt;/b&gt;: uma vez por dia, o cartão registrado será cobrado por cada fatura de venda não paga, no horário especificado.</value>
+  </data>
+  <data name="AutoChargeCCs_Help_EV" xml:space="preserve">
+    <value>&lt;b&gt; Desligado &lt;/b&gt;: os cartões de crédito NÃO serão cobrados automaticamente. &lt;br&gt;
+&lt;b&gt; Quando o evento é fechado &lt;/b&gt;: o cartão registrado será cobrado automaticamente quando o evento associado for fechado. &lt;br&gt;
+&lt;b&gt; Diariamente &lt;/b&gt;: uma vez por dia, o cartão registrado será cobrado por cada fatura de venda não paga, no horário especificado.</value>
+  </data>
+  <data name="AutoGenerateInvoices" xml:space="preserve">
+    <value>Gerar faturas automaticamente</value>
+  </data>
+  <data name="AutoGenerateInvoices_Help" xml:space="preserve">
+    <value>&lt;b&gt; Se ativado &lt;/b&gt;: a venda será adicionada imediatamente a uma fatura nova ou existente quando uma compra, uma oferta aceita ou um lance vencedor for finalizada.</value>
+  </data>
+  <data name="Immediately" xml:space="preserve">
+    <value>Imediatamente</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Fora</value>
+  </data>
+  <data name="RequireCreditCardForBuyers" xml:space="preserve">
+    <value>Exigir cartão de crédito para compradores</value>
+  </data>
+  <data name="RequireCreditCardForBuyers_Help" xml:space="preserve">
+    <value>Se ativado: os compradores deverão ter um cartão de crédito não vencido registrado antes de fazer lances, fazer compras ou enviar ofertas.</value>
+  </data>
+  <data name="RequireCreditCardForSellers" xml:space="preserve">
+    <value>Exigir cartão de crédito para vendedores</value>
+  </data>
+  <data name="RequireCreditCardForSellers_Help" xml:space="preserve">
+    <value>Se ativado: o vendedor deverá ter um cartão de crédito não vencido registrado antes de criar novas listagens ou lotes.</value>
+  </data>
+  <data name="WhenEventCloses" xml:space="preserve">
+    <value>Quando o evento é fechado</value>
+  </data>
+  <data name="Message_me_for_invitation_to_view" xml:space="preserve">
+    <value>Enviar uma mensagem para convite para visualização</value>
+  </data>
+  <data name="WeightUnit" xml:space="preserve">
+    <value>Unidade de Medida de Peso</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Profundidade</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="DimensionUnit" xml:space="preserve">
+    <value>Unidade de medida de dimensão</value>
+  </data>
+	<data name="Kilogram" xml:space="preserve">
+    <value>Quilograma</value>
+  </data>
+	<data name="Pound" xml:space="preserve">
+    <value>Libra</value>
+  </data>
+	<data name="Centimeter" xml:space="preserve">
+    <value>Centímetro</value>
+  </data>
+	<data name="Inch" xml:space="preserve">
+    <value>Polegada</value>
+  </data>
+</root>

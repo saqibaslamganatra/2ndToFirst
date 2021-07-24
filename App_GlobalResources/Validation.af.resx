@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Birthday_Required" xml:space="preserve">
+    <value>Verjaarsdag word benodig</value>
+  </data>
+  <data name="City_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Die stad moet ten minste 1 karakter hê</value>
+  </data>
+  <data name="ConfirmationEmailMismatch" xml:space="preserve">
+    <value>Die bevestigings-e-pos stem nie ooreen met die e-posadres nie</value>
+  </data>
+  <data name="confirmEmail_Required" xml:space="preserve">
+    <value>Bevestigings-e-posadres is nodig</value>
+  </data>
+  <data name="confirmPassword_Required" xml:space="preserve">
+    <value>Bevestig wagwoord is nodig</value>
+  </data>
+  <data name="Country_Required" xml:space="preserve">
+    <value>Land is verpligtend</value>
+  </data>
+  <data name="Email_Exists" xml:space="preserve">
+    <value>E-posadres bestaan ​​reeds</value>
+  </data>
+  <data name="Email_Invalid" xml:space="preserve">
+    <value>Die e-posadres blyk ongeldig te wees</value>
+  </data>
+  <data name="Email_Length_3_Inclusive_to_500_Inclusive" xml:space="preserve">
+    <value>Die e-posadres voldoen nie aan die karaktersperke nie</value>
+  </data>
+  <data name="Email_Required" xml:space="preserve">
+    <value>E-posadres is verpligtend</value>
+  </data>
+  <data name="FirstName_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Die voornaam moet ten minste 1 karakter hê</value>
+  </data>
+  <data name="FirstName_Required" xml:space="preserve">
+    <value>Voornaam word vereis</value>
+  </data>
+  <data name="LastName_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Van moet ten minste 1 karakter hê</value>
+  </data>
+  <data name="LastName_Required" xml:space="preserve">
+    <value>Van is verpligtend</value>
+  </data>
+  <data name="MustAgreeToAgreements" xml:space="preserve">
+    <value>U moet die bepalings en voorwaardes aanvaar om u registrasie te voltooi</value>
+  </data>
+  <data name="Password_Required" xml:space="preserve">
+    <value>Wagwoord word benodig</value>
+  </data>
+  <data name="StateRegion_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Staat / streek moet ten minste 1 karakter hê</value>
+  </data>
+  <data name="Street1_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Straatlyn 1 moet ten minste 1 karakter hê</value>
+  </data>
+  <data name="UserName_Exists" xml:space="preserve">
+    <value>Die gebruikersnaam bestaan ​​reeds</value>
+  </data>
+  <data name="UserName_Invalid" xml:space="preserve">
+    <value>Gebruikersnaam is ongeldig</value>
+  </data>
+  <data name="UserName_Length_1_Ignore_to_50_Inclusive" xml:space="preserve">
+    <value>Gebruikernaam moet minder as 50 karakters wees</value>
+  </data>
+  <data name="ZipPostal_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Poskode moet ten minste 1 karakter hê</value>
+  </data>
+  <data name="_" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Aanmelding misluk, gebruikersnaam of wagwoord is verkeerd</value>
+  </data>
+  <data name="PasswordMissing" xml:space="preserve">
+    <value>Wagwoord word benodig</value>
+  </data>
+  <data name="UserNameMissing" xml:space="preserve">
+    <value>Gebruikernaam is verpligtend</value>
+  </data>
+  <data name="UserNotExist" xml:space="preserve">
+    <value>Gebruiker bestaan ​​nie</value>
+  </data>
+  <data name="AFieldThatAllItemsHave_Required" xml:space="preserve">
+    <value>Daar is 'n behoefte aan alle probleme</value>
+  </data>
+  <data name="Description_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Die beskrywing moet ten minste 1 karakter hê</value>
+  </data>
+  <data name="Description_Required" xml:space="preserve">
+    <value>Beskrywing is nodig</value>
+  </data>
+  <data name="Duration_Required" xml:space="preserve">
+    <value>Tydsduur word vereis</value>
+  </data>
+  <data name="FixedPrice_ConvertDecimal" xml:space="preserve">
+    <value>Die vaste prys moet 'n nommer wees</value>
+  </data>
+  <data name="Price_ConvertDecimal" xml:space="preserve">
+    <value>Die prys moet 'n nommer wees</value>
+  </data>
+  <data name="Price_Required" xml:space="preserve">
+    <value>Prys word vereis</value>
+  </data>
+  <data name="ReservePrice_ConvertDecimal" xml:space="preserve">
+    <value>Reserweprys moet 'n nommer wees</value>
+  </data>
+  <data name="SelectCategoryAndListingType" xml:space="preserve">
+    <value>Kies Kategorie en Listing Type</value>
+  </data>
+  <data name="Title_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Die titel moet 200 karakters of minder hê</value>
+  </data>
+  <data name="Title_Required" xml:space="preserve">
+    <value>Titel word vereis</value>
+  </data>
+  <data name="PasswordAnswerRequiresPasswordQuestion" xml:space="preserve">
+    <value>Aangesien u 'n wagwoordantwoord verskaf het, is u wagwoordvraag nodig</value>
+  </data>
+  <data name="PasswordQuestionRequiresPasswordAnswer" xml:space="preserve">
+    <value>Aangesien u 'n wagwoordvraag verskaf het, is u wagwoordantwoord nodig</value>
+  </data>
+  <data name="Password_Length_6_Inclusive_to_100_Inclusive" xml:space="preserve">
+    <value>Wagwoord moet tussen 6 en 100 karakters wees</value>
+  </data>
+  <data name="Body_Length_3_Inclusive_to_100000_Inclusive" xml:space="preserve">
+    <value>Die liggaam moet tussen 3 en 100,000 karakters wees</value>
+  </data>
+  <data name="FixedPrice_TooLow" xml:space="preserve">
+    <value>Koop nou Prys is te laag</value>
+  </data>
+  <data name="ReservePrice_TooLow" xml:space="preserve">
+    <value>Reserweprys is te laag</value>
+  </data>
+  <data name="shippingAmountNotNumeric" xml:space="preserve">
+    <value>Gestuur bedrag moet numeries wees</value>
+  </data>
+  <data name="Subject_Length_3_Inclusive_to_100_Inclusive" xml:space="preserve">
+    <value>Die onderwerp moet tussen 3 en 100 karakters wees</value>
+  </data>
+  <data name="AddressID_Missing" xml:space="preserve">
+    <value>Kies 'n adres</value>
+  </data>
+  <data name="Birthday_ConvertDateTime" xml:space="preserve">
+    <value>Kan nie verjaardag omskakel na 'n datum / tyd nie</value>
+  </data>
+  <data name="CardNumber_AlgorithmInvalid" xml:space="preserve">
+    <value>Die kaartnommer blyk ongeldig te wees</value>
+  </data>
+  <data name="CardNumber_FormatInvalid" xml:space="preserve">
+    <value>Kaartnommer is nie in die regte formaat nie</value>
+  </data>
+  <data name="CardNumber_Required" xml:space="preserve">
+    <value>Kaartnommer word benodig</value>
+  </data>
+  <data name="CardType_Required" xml:space="preserve">
+    <value>Kaarttipe word benodig</value>
+  </data>
+  <data name="City_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Die stad moet tussen 1 en 200 karakters bevat</value>
+  </data>
+  <data name="ConfirmationPasswordMismatch" xml:space="preserve">
+    <value>Die bevestigingswagwoord stem nie ooreen met die wagwoord nie</value>
+  </data>
+  <data name="CurrenctPasswordIncorrect" xml:space="preserve">
+    <value>Huidige wagwoord is verkeerd</value>
+  </data>
+  <data name="Description_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Die beskrywing moet tussen 1 en 200 karakters wees</value>
+  </data>
+  <data name="Description_Length_3_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Die beskrywing moet tussen 3 en 200 karakters wees</value>
+  </data>
+  <data name="ExpirationMonth_Range_1_Inclusive_to_12_Inclusive" xml:space="preserve">
+    <value>Vervaldatum moet 'n heelgetal tussen 1 en 12 wees</value>
+  </data>
+  <data name="ExpirationMonth_Required" xml:space="preserve">
+    <value>Vervaldatum word vereis</value>
+  </data>
+  <data name="ExpirationYear_Range_2010_Inclusive_to_2070_Inclusive" xml:space="preserve">
+    <value>Vervaldatum is ongeldig.</value>
+  </data>
+  <data name="ExpirationYear_Required" xml:space="preserve">
+    <value>Vervaldatum word vereis</value>
+  </data>
+  <data name="FirstName_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Die voornaam moet minder as 200 karakters wees</value>
+  </data>
+  <data name="LastName_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Van moet minder as 200 karakters wees</value>
+  </data>
+  <data name="Quantity_ConvertInteger" xml:space="preserve">
+    <value>Aantal moet 'n getal wees wat gelyk is aan of kleiner is as die beskikbare nommer</value>
+  </data>
+  <data name="StateRegion_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Staat / streek is verpligtend</value>
+  </data>
+  <data name="Street1_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Straatlyn 1 moet tussen 1 en 200 karakters wees</value>
+  </data>
+  <data name="UserIsNotVerified" xml:space="preserve">
+    <value>U rekening is nie geverifieer nie. Gaan u e-pos na en volg die aanwysings.</value>
+  </data>
+  <data name="ZipPostal_Length_1_Inclusive_to_200_Inclusive" xml:space="preserve">
+    <value>Poskode moet tussen 1 en 200 karakters wees</value>
+  </data>
+  <data name="LicenceInvalid" xml:space="preserve">
+    <value>Die lisensie is ongeldig. Kontak die administrateur van die webwerf vir verdere inligting.</value>
+  </data>
+  <data name="EndDate_Required" xml:space="preserve">
+    <value>Die sluitingsdatum word vereis</value>
+  </data>
+  <data name="EndTime_Required" xml:space="preserve">
+    <value>Beëindigingstyd is nodig</value>
+  </data>
+  <data name="StartDate_Required" xml:space="preserve">
+    <value>Aanvangsdatum word vereis</value>
+  </data>
+  <data name="StartTime_Required" xml:space="preserve">
+    <value>Aanvangstyd is nodig</value>
+  </data>
+  <data name="Price_GTZero" xml:space="preserve">
+    <value>Prys moet groter as nul wees</value>
+  </data>
+  <data name="Quantity_GTZero" xml:space="preserve">
+    <value>Hoeveelheid moet groter wees as nul</value>
+  </data>
+  <data name="ListingId_ConvertInteger" xml:space="preserve">
+    <value>Die ID moet 'n nommer wees</value>
+  </data>
+  <data name="PriceHigh_ConvertDecimal" xml:space="preserve">
+    <value>Pryshoogte moet 'n nommer wees</value>
+  </data>
+  <data name="PriceLow_ConvertDecimal" xml:space="preserve">
+    <value>Prys laag moet 'n nommer wees</value>
+  </data>
+  <data name="Amount_ConvertDecimal" xml:space="preserve">
+    <value>Die bedrag moet 'n nommer wees</value>
+  </data>
+  <data name="Amount_GTEZero" xml:space="preserve">
+    <value>Die bedrag moet nul of groter wees</value>
+  </data>
+  <data name="Amount_Required" xml:space="preserve">
+    <value>Bedrag word verlang</value>
+  </data>
+  <data name="FormatString_Required" xml:space="preserve">
+    <value>Formaatstring word benodig</value>
+  </data>
+  <data name="Name_Required" xml:space="preserve">
+    <value>Naam word verlang</value>
+  </data>
+  <data name="ValidFields_Required" xml:space="preserve">
+    <value>Geldige velde word vereis</value>
+  </data>
+  <data name="LowerBoundInclusive_ConvertDecimal" xml:space="preserve">
+    <value>Ondergrens moet 'n nommer wees</value>
+  </data>
+  <data name="LowerBoundInclusive_GTEZero" xml:space="preserve">
+    <value>Ondergrens moet nul of groter wees</value>
+  </data>
+  <data name="LowerBoundInclusive_Required" xml:space="preserve">
+    <value>Ondergrens is nodig</value>
+  </data>
+  <data name="UpperBoundExclusive_ConvertDecimal" xml:space="preserve">
+    <value>Die boonste grens moet 'n nommer wees</value>
+  </data>
+  <data name="UpperBoundExclusive_GTEZero" xml:space="preserve">
+    <value>Boonste grens moet nul of groter wees</value>
+  </data>
+  <data name="UpperBoundExclusive_Required" xml:space="preserve">
+    <value>Boonste grens is nodig</value>
+  </data>
+  <data name="Value_ConvertDecimal" xml:space="preserve">
+    <value>Waarde moet 'n getal wees</value>
+  </data>
+  <data name="Value_GTEZero" xml:space="preserve">
+    <value>Waarde moet nul of groter wees</value>
+  </data>
+  <data name="Value_Required" xml:space="preserve">
+    <value>Waarde word benodig</value>
+  </data>
+  <data name="Default_ConvertBoolean" xml:space="preserve">
+    <value>Standaardwaarde moet waar of onwaar wees</value>
+  </data>
+  <data name="Default_ConvertDateTime" xml:space="preserve">
+    <value>Die standaardwaarde moet 'n geldige datum wees</value>
+  </data>
+  <data name="Default_ConvertDecimal" xml:space="preserve">
+    <value>Standaardwaarde moet 'n getal wees</value>
+  </data>
+  <data name="Default_ConvertInteger" xml:space="preserve">
+    <value>Standaardwaarde moet 'n getal wees</value>
+  </data>
+  <data name="DisplayOrder_ConvertInteger" xml:space="preserve">
+    <value>Vertoonorde moet 'n nommer wees</value>
+  </data>
+  <data name="DisplayOrder_Required" xml:space="preserve">
+    <value>Vertoonorde is verpligtend</value>
+  </data>
+  <data name="Minutes_ConvertInteger" xml:space="preserve">
+    <value>Notules moet 'n nommer wees</value>
+  </data>
+  <data name="Minutes_GTZero" xml:space="preserve">
+    <value>Notules moet groter as nul wees</value>
+  </data>
+  <data name="Minutes_Required" xml:space="preserve">
+    <value>Notules word vereis</value>
+  </data>
+  <data name="Rating_Required" xml:space="preserve">
+    <value>Waardering word vereis</value>
+  </data>
+  <data name="MaxImagesExceeded" xml:space="preserve">
+    <value>U het die maksimum aantal prente oorskry.</value>
+  </data>
+  <data name="PayPalEmailRequiredForAcceptPayPal" xml:space="preserve">
+    <value>U moet 'n PayPal-e-posadres verstrek om PayPal-betalings te kan instel</value>
+  </data>
+  <data name="AcceptPayPalRequiredForInstantCheckout" xml:space="preserve">
+    <value>U moet PayPal aanvaar om onmiddellik afrekening te bied</value>
+  </data>
+  <data name="CultureManagementSuccess" xml:space="preserve">
+    <value>Sukses van kultuurbestuur</value>
+  </data>
+  <data name="IllegalNoLanguages" xml:space="preserve">
+    <value>U moet ten minste een taal inskakel.</value>
+  </data>
+  <data name="IllegalSiteCultureForLanguages" xml:space="preserve">
+    <value>Die standaard-werkkultuur hou verband met een van die tale wat u probeer deaktiveer het. Verander die standaard webwerf-kultuur om eers by 'n aangeskrewe taal te pas.</value>
+  </data>
+  <data name="BidAmount_ConvertDecimal" xml:space="preserve">
+    <value>Bodbedrag moet 'n nommer wees</value>
+  </data>
+  <data name="BannerMediaId_Required" xml:space="preserve">
+    <value>'N Banierbeeld is nodig</value>
+  </data>
+  <data name="LinkURI_Required" xml:space="preserve">
+    <value>'N Banierskakel is nodig</value>
+  </data>
+  <data name="Comment_Required" xml:space="preserve">
+    <value>Kommentaar word verlang</value>
+  </data>
+  <data name="ListingId_Missing" xml:space="preserve">
+    <value>Die lys van ID ontbreek</value>
+  </data>
+  <data name="Rating_Missing" xml:space="preserve">
+    <value>Waardering word vereis</value>
+  </data>
+  <data name="BidAmount_GTZero" xml:space="preserve">
+    <value>Bodbedrag moet groter as nul wees</value>
+  </data>
+  <data name="BannerHtml_Required" xml:space="preserve">
+    <value>Banner HTML is nodig</value>
+  </data>
+  <data name="EndTime_ConvertDateTime" xml:space="preserve">
+    <value>Eindtyd moet 'n geldige tydwaarde wees</value>
+  </data>
+  <data name="StartTime_ConvertDateTime" xml:space="preserve">
+    <value>Aanvangstyd moet 'n geldige tydwaarde wees</value>
+  </data>
+  <data name="Title_Length_1_Inclusive_to_80_Inclusive" xml:space="preserve">
+    <value>Die titel moet 80 karakters of minder hê</value>
+  </data>
+  <data name="ListingNotFound" xml:space="preserve">
+    <value>Lys nie gevind nie</value>
+  </data>
+  <data name="AuctionChanged" xml:space="preserve">
+    <value>Veiling is verander, probeer asseblief weer</value>
+  </data>
+  <data name="CantDeleteShippingMethod" xml:space="preserve">
+    <value>Die gestuurmetode kon nie uitgevee word nie, want daar word verwys na een of meer lyste</value>
+  </data>
+  <data name="CategoryIDMissing" xml:space="preserve">
+    <value>Kategorie-ID ontbreek</value>
+  </data>
+  <data name="ClassifiedChanged" xml:space="preserve">
+    <value>Die lys is verander, probeer asseblief weer</value>
+  </data>
+  <data name="DuplicateShippingMethod" xml:space="preserve">
+    <value>Duplikaat-afleweringsmetode</value>
+  </data>
+  <data name="FieldNotExist" xml:space="preserve">
+    <value>Veld bestaan ​​nie</value>
+  </data>
+  <data name="FixedPriceChanged" xml:space="preserve">
+    <value>Die lys is verander, probeer asseblief weer</value>
+  </data>
+  <data name="InvalidDisplayOrderValue" xml:space="preserve">
+    <value>Ongeldige vertoonorder</value>
+  </data>
+  <data name="InvalidShippingMethodName" xml:space="preserve">
+    <value>Ongeldige gestuurmetode se naam</value>
+  </data>
+  <data name="ListingIDMissing" xml:space="preserve">
+    <value>Lister-ID ontbreek</value>
+  </data>
+  <data name="MissingPaymentProviderForIPN" xml:space="preserve">
+    <value>Ontbrekende betalingsverskaffer vir IPN</value>
+  </data>
+  <data name="Quantity_Required" xml:space="preserve">
+    <value>Hoeveelheid word benodig</value>
+  </data>
+  <data name="UserIsNotApproved" xml:space="preserve">
+    <value>U rekening is nog nie goedgekeur nie.</value>
+  </data>
+  <data name="AutoRelistCantBeIncreased" xml:space="preserve">
+    <value>Auto Relist kan nie verhoog word nie</value>
+  </data>
+  <data name="AutoRelistTooHigh" xml:space="preserve">
+    <value>Auto Relist is te hoog</value>
+  </data>
+  <data name="PayPal_Email_Invalid" xml:space="preserve">
+    <value>PayPal-e-posadres blyk ongeldig te wees</value>
+  </data>
+  <data name="adjustmentAmount_ConvertDecimal" xml:space="preserve">
+    <value>Aanpassingsbedrag moet 'n nommer wees</value>
+  </data>
+  <data name="adjustmentAmount_Required" xml:space="preserve">
+    <value>Aanpassingsbedrag word vereis</value>
+  </data>
+  <data name="adjustmentDescription_Required" xml:space="preserve">
+    <value>Aanpassing beskrywing is nodig</value>
+  </data>
+  <data name="Description_Length_0_Ignore_to_1000_Inclusive" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_Length_1_Inclusive_to_1_Ignore" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomField_ConvertBoolean" xml:space="preserve">
+    <value>{0} moet waar of onwaar wees</value>
+  </data>
+  <data name="CustomField_ConvertDateTime" xml:space="preserve">
+    <value>{0} moet 'n geldige datum wees</value>
+  </data>
+  <data name="CustomField_ConvertDecimal" xml:space="preserve">
+    <value>{0} moet 'n getal wees</value>
+  </data>
+  <data name="CustomField_ConvertInteger" xml:space="preserve">
+    <value>{0} moet 'n getal wees</value>
+  </data>
+  <data name="CustomField_GTZero" xml:space="preserve">
+    <value>{0} moet groter as nul wees</value>
+  </data>
+  <data name="CustomField_MaxLength" xml:space="preserve">
+    <value>{0} is te lank</value>
+  </data>
+  <data name="CustomField_MinLength" xml:space="preserve">
+    <value>{0} is te kort</value>
+  </data>
+  <data name="CustomField_Missing" xml:space="preserve">
+    <value>{0} is verpligtend</value>
+  </data>
+  <data name="CustomField_Required" xml:space="preserve">
+    <value>{0} is verpligtend</value>
+  </data>
+  <data name="CustomField_TooLow" xml:space="preserve">
+    <value>{0} is te laag</value>
+  </data>
+  <data name="BidAmountTooLow" xml:space="preserve">
+    <value>Die bodbedrag is te laag</value>
+  </data>
+  <data name="QuantityTooHigh" xml:space="preserve">
+    <value>Aantal moet 'n getal wees wat gelyk is aan of kleiner is as die beskikbare nommer</value>
+  </data>
+  <data name="Comment_Length_3_Inclusive_to_80_Inclusive" xml:space="preserve">
+    <value>Die opmerking moet tussen 3 en 80 karakters wees</value>
+  </data>
+  <data name="CustomField_CommaListInts" xml:space="preserve">
+    <value>{0} moet 'n komma-afgebakende lys met heelgetalle wees</value>
+  </data>
+  <data name="CustomField_InvalidValue" xml:space="preserve">
+    <value>{0} is nie een van die toegelate waardes nie</value>
+  </data>
+  <data name="CustomField_NonNegative" xml:space="preserve">
+    <value>{0} kan nie negatief wees nie</value>
+  </data>
+  <data name="EndDate_ConvertDateTime" xml:space="preserve">
+    <value>Einddatum moet 'n geldige datumwaarde wees</value>
+  </data>
+  <data name="StartDate_ConvertDateTime" xml:space="preserve">
+    <value>Die begindatum moet 'n geldige datumwaarde wees</value>
+  </data>
+  <data name="EndDateTimeMustBeInTheFuture" xml:space="preserve">
+    <value>Einddatum / tyd moet in die toekoms wees</value>
+  </data>
+  <data name="ConfirmationNewPasswordMismatch" xml:space="preserve">
+    <value>Die nuwe wagwoord en bevestigingswagwoord stem nie ooreen nie.</value>
+  </data>
+  <data name="BatchTime_ConvertDateTime" xml:space="preserve">
+    <value>Kan nie die tyd van die dag na 'n tyd omskakel nie</value>
+  </data>
+  <data name="UserIsLockedOut" xml:space="preserve">
+    <value>Jou rekening is gesluit. Kontak die werfadministrateur.</value>
+  </data>
+  <data name="AcceptPayPalOrCreditCardRequiredForInstantCheckout" xml:space="preserve">
+    <value>U moet PayPal- of kredietkaarte aanvaar om 'n direkte afrekening te bied</value>
+  </data>
+  <data name="BuyNowNotAvailable" xml:space="preserve">
+    <value>Jammer. Hierdie aanbieding kom nie meer in aanmerking vir direkte aankoop nie. Voer gerus u onderstaande AID in.</value>
+  </data>
+  <data name="Message_Required" xml:space="preserve">
+    <value>Boodskap word vereis</value>
+  </data>
+  <data name="EndDTTMBeforeStartDTTM" xml:space="preserve">
+    <value>Einddatum / tyd moet na die begindatum / tyd wees</value>
+  </data>
+  <data name="CreditCard_Expired" xml:space="preserve">
+    <value>Kredietkaart is verval</value>
+  </data>
+  <data name="CustomFieldAlreadyExists" xml:space="preserve">
+    <value>Die aangepaste veld wat u probeer byvoeg, bestaan ​​reeds</value>
+  </data>
+  <data name="CustomFieldReservedWord" xml:space="preserve">
+    <value>Die veld wat u probeer byvoeg is 'n gereserveerde woord en kan nie gebruik word nie.</value>
+  </data>
+  <data name="NewCustomField_Name_Invalid" xml:space="preserve">
+    <value>Aangepaste veldname mag slegs letters, syfers, spasies en onderstreepings bevat.</value>
+  </data>
+  <data name="Body_Length_1_Inclusive_to_0_Ignore" xml:space="preserve">
+    <value>Liggaam word benodig</value>
+  </data>
+  <data name="Subject_Length_1_Inclusive_to_500_Inclusive" xml:space="preserve">
+    <value>Onderwerp word vereis, tot 500 karakters</value>
+  </data>
+  <data name="CustomField_EditNotAllowed" xml:space="preserve">
+    <value>Die redigering van {0} is nie toegelaat nie</value>
+  </data>
+  <data name="CountryNotExist" xml:space="preserve">
+    <value>Land bestaan ​​nie</value>
+  </data>
+  <data name="StateCodesMustBeUnique" xml:space="preserve">
+    <value>Staat / streekkodes onder dieselfde land moet uniek wees</value>
+  </data>
+  <data name="State_Code_Length_1_Inclusive_to_10_Inclusive" xml:space="preserve">
+    <value>Die staat / streekkode moet tussen 1 en 10 karakters wees</value>
+  </data>
+  <data name="State_Name_Length_1_Inclusive_to_100_Inclusive" xml:space="preserve">
+    <value>Naam van die staat / streek moet tussen 1 en 100 karakters wees</value>
+  </data>
+  <data name="UserName_Length_1_Inclusive_to_50_Ignore" xml:space="preserve">
+    <value>Gebruikernaam is verpligtend</value>
+  </data>
+  <data name="LotNumber_Required" xml:space="preserve">
+    <value>Lotnommer word benodig</value>
+  </data>
+  <data name="UnknownBillingCountryX" xml:space="preserve">
+    <value>Onbekende faktuurland '{0}'</value>
+  </data>
+  <data name="UnknownCountryX" xml:space="preserve">
+    <value>Onbekende land '{0}'</value>
+  </data>
+  <data name="RequiredNonDeferredAdminOnlyUserFieldNotAllowed" xml:space="preserve">
+    <value>Gebruiker-velde slegs vir beheerders kan nie op die vereiste en nie uitgestel word nie.</value>
+  </data>
+  <data name="NoValidStateDataFound" xml:space="preserve">
+    <value>Geen geldige state / streekdata is gevind nie. Elke reël moet die Staat / Streekkode bevat, gevolg deur 'n komma, gevolg deur die Staat / Streeknaam.</value>
+  </data>
+  <data name="BidIncrement_ConvertDecimal" xml:space="preserve">
+    <value>Biedverhoging moet 'n nommer wees</value>
+  </data>
+  <data name="BidIncrement_GTZero" xml:space="preserve">
+    <value>Die bodverhoging moet wees, moet groter as nul wees</value>
+  </data>
+  <data name="PriceLevel_ConvertDecimal" xml:space="preserve">
+    <value>Die prysvlak moet 'n nommer wees</value>
+  </data>
+  <data name="PriceLevel_GTZero" xml:space="preserve">
+    <value>Prysvlak moet moet moet wees groter as nul</value>
+  </data>
+  <data name="adjustmentAmount_GTZero" xml:space="preserve">
+    <value>Aanpassingsbedrag moet groter wees as nul</value>
+  </data>
+  <data name="IncrementAmountMustBeGreaterThanZero" xml:space="preserve">
+    <value>Die bedrag moet groter wees as nul</value>
+  </data>
+  <data name="IncrementPriceLevelMustBeZeroOrGreater" xml:space="preserve">
+    <value>Die prysvlak moet nul of hoër wees</value>
+  </data>
+  <data name="DemoDisabledNotSaved" xml:space="preserve">
+    <value>Die aangevraagde veranderinge is nie gestoor nie omdat die webwerf in demo-modus is.</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_DaysOld_GTEZero" xml:space="preserve">
+    <value>Skrap lyste Dae oud moet nul of groter wees</value>
+  </data>
+  <data name="InvoiceNumber_ConvertInteger" xml:space="preserve">
+    <value>Faktuur # moet 'n nommer wees</value>
+  </data>
+  <data name="ListingNumber_ConvertInteger" xml:space="preserve">
+    <value>Die lysnommer moet 'n nommer wees</value>
+  </data>
+  <data name="AutoRelist_ConvertInteger" xml:space="preserve">
+    <value>Auto Relist moet 'n nommer wees</value>
+  </data>
+  <data name="AutoRelist_GTZero" xml:space="preserve">
+    <value>Auto Relist moet groter wees as of gelyk aan nul</value>
+  </data>
+  <data name="Invalid_Captcha" xml:space="preserve">
+    <value>Die CAPTCHA-kode ontbreek of is ongeldig</value>
+  </data>
+  <data name="InvalidTimeZone" xml:space="preserve">
+    <value>Ongeldige tydsone</value>
+  </data>
+  <data name="Title_Length_1_Inclusive_to_1000_Inclusive" xml:space="preserve">
+    <value>Die titel moet 1000 karakters of minder bevat</value>
+  </data>
+  <data name="LotNotFound" xml:space="preserve">
+    <value>Baie nie gevind nie</value>
+  </data>
+  <data name="LotNumber_Exists" xml:space="preserve">
+    <value>Lotnommer moet uniek wees</value>
+  </data>
+  <data name="EventDescription_Required" xml:space="preserve">
+    <value>Beskrywing is nodig</value>
+  </data>
+  <data name="ShippingInfo_Required" xml:space="preserve">
+    <value>Versendinginligting is verpligtend</value>
+  </data>
+  <data name="Subtitle_Length_0_Inclusive_to_1000_Inclusive" xml:space="preserve">
+    <value>Die opsomming moet 1000 karakters of minder bevat</value>
+    <comment>note Event.Subtitle has been renamed 'Summary'</comment>
+  </data>
+  <data name="TermsAndConditions_Required" xml:space="preserve">
+    <value>Voorwaardes en voorwaardes word vereis</value>
+  </data>
+  <data name="INC_Increment_ConvertDecimal" xml:space="preserve">
+    <value>Een of meer inkrementiewaardes (onder inkremente) bevat data wat nie na 'n desimale getal omgeskakel kan word nie.</value>
+  </data>
+  <data name="INC_Increment_GTZero" xml:space="preserve">
+    <value>Een of meer inkrementiewaardes (onder inkremente) is minder as 0,01. Alle inkrementiewaardes moet&gt; = 0.01 wees</value>
+  </data>
+  <data name="INC_PriceLevel_ConvertDecimal" xml:space="preserve">
+    <value>Een of meer prysvlakwaardes (onder Inkremente) bevat data wat nie na 'n desimale getal omgeskakel kan word nie.</value>
+  </data>
+  <data name="INC_PriceLevel_GTZero" xml:space="preserve">
+    <value>Een of meer prysvlakwaardes (onder Inkremente) is minder as nul. Alle prysvlakwaardes moet&gt; = nul wees</value>
+  </data>
+  <data name="MissingZeroLevelIncrement" xml:space="preserve">
+    <value>'N Bod-styging met 'n prysvlak van 0 word vereis</value>
+  </data>
+  <data name="BuyersPremiumPercent_InvalidPercentageValue" xml:space="preserve">
+    <value>Ongeldige kopers premie persentasie</value>
+  </data>
+  <data name="RecaptchaPrivateKey_Required_For_EnableRecaptchaForContactUs" xml:space="preserve">
+    <value>Recaptcha Privaatsleutel is nodig om Recaptcha in staat te stel vir kontak</value>
+  </data>
+  <data name="RecaptchaPrivateKey_Required_For_EnableRecaptchaForRegistration" xml:space="preserve">
+    <value>Recaptcha Privaatsleutel is nodig om Recaptcha vir registrasie te aktiveer</value>
+  </data>
+  <data name="RecaptchaPublicKey_Required_For_EnableRecaptchaForContactUs" xml:space="preserve">
+    <value>Recaptcha Openbare Sleutel is nodig om Recaptcha in staat te stel vir kontak</value>
+  </data>
+  <data name="RecaptchaPublicKey_Required_For_EnableRecaptchaForRegistration" xml:space="preserve">
+    <value>Recaptcha Public Key is nodig om Recaptcha vir registrasie te aktiveer</value>
+  </data>
+  <data name="UserName_Length_1_Inclusive_to_50_Inclusive" xml:space="preserve">
+    <value>Gebruikernaam moet tussen 1 en 50 karakters wees</value>
+  </data>
+  <data name="ClosingGroupIncrementChangeNotAllowed" xml:space="preserve">
+    <value>Sluitingsgroepverhoging word nie toegelaat vir hierdie geleentheid nie</value>
+  </data>
+  <data name="EndDateChangeNotAllowed" xml:space="preserve">
+    <value>Einddatum word nie toegelaat vir hierdie geleentheid nie</value>
+  </data>
+  <data name="StartDateChangeNotAllowed" xml:space="preserve">
+    <value>Die aanvangsdatumverandering is nie toegelaat vir hierdie geleentheid nie</value>
+  </data>
+  <data name="BuyersPremiumPercent_ConvertDecimal" xml:space="preserve">
+    <value>Ongeldige kopers premie persentasie</value>
+  </data>
+  <data name="ClosingGroupIncrementSeconds_ConvertInteger" xml:space="preserve">
+    <value>Sluitingsgroepverhoging moet 'n heelgetal wees</value>
+  </data>
+  <data name="ClosingGroupIncrementSeconds_Required" xml:space="preserve">
+    <value>Sluitingsgroepverhoging word vereis</value>
+  </data>
+  <data name="SoftClosingGroupIncrementSeconds_ConvertInteger" xml:space="preserve">
+    <value>Die outomatiese uitbreiding moet 'n heelgetal wees</value>
+  </data>
+  <data name="SoftClosingGroupIncrementSeconds_Required" xml:space="preserve">
+    <value>Verhoging van outomaties verleng word vereis</value>
+  </data>
+  <data name="ContentNameAlreadyExists" xml:space="preserve">
+    <value>Inhoudnaam bestaan ​​reeds</value>
+  </data>
+  <data name="Name_Invalid" xml:space="preserve">
+    <value>Inhoudsnaam mag slegs alfanumerieke karakters, streepies, onderstreep of periodes bevat</value>
+  </data>
+  <data name="Name_Length_1_Ignore_to_200_Inclusive" xml:space="preserve">
+    <value>Inhoudnaam moet minder as 200 karakters wees</value>
+  </data>
+  <data name="Name_Length_1_Inclusive_to_200_Ignore" xml:space="preserve">
+    <value>Inhoudsnaam is verpligtend</value>
+  </data>
+  <data name="ManagedByName_Length_0_Inclusive_to_1000_Inclusive" xml:space="preserve">
+    <value>Bestuur deur moet 1000 karakters of minder hê</value>
+  </data>
+  <data name="MaxResultsPerPage_GTZero" xml:space="preserve">
+    <value>Die maksimum resultate per bladsy moet groter wees as nul</value>
+  </data>
+  <data name="AuthNetCredentialsRequiredForAcceptCreditCards" xml:space="preserve">
+    <value>U moet Autorize.Net-geloofsbriewe verstrek om kredietkaartbetalings te aanvaar</value>
+  </data>
+  <data name="VatRate_Required_For_VATEnabled" xml:space="preserve">
+    <value>BTW-tarief is nodig om BTW in te skakel</value>
+  </data>
+  <data name="Question_Length_1_Inclusive_to_250_Inclusive" xml:space="preserve">
+    <value>Die vraag moet tussen 1 en 250 karakters wees</value>
+  </data>
+  <data name="Answer_Length_1_Inclusive_to_250_Inclusive" xml:space="preserve">
+    <value>Die antwoord moet tussen 1 en 250 karakters wees</value>
+  </data>
+  <data name="AuthNetAndStripeCantBothBeEnabled" xml:space="preserve">
+    <value>Óf "Authorize.NET" of "Stripe" moet gedeaktiveer word</value>
+  </data>
+  <data name="StripeConnectCredentialsRequiredForAcceptCreditCards" xml:space="preserve">
+    <value>U moet u Stripe.com-rekening verbind om kredietkaartbetalings te aanvaar</value>
+  </data>
+  <data name="CreditCardRequired" xml:space="preserve">
+    <value>Kredietkaart benodig</value>
+  </data>
+  <data name="StoredCreditCardsAndStripeCantBothBeEnabled" xml:space="preserve">
+    <value>As die streep aangeskakel is, moet die gebergde kredietkaarte gedeaktiveer word</value>
+  </data>
+  <data name="AcceptCreditCardRequiredForInstantCheckout" xml:space="preserve">
+    <value>U moet kredietkaarte aanvaar om onmiddellike afrekening te bied</value>
+  </data>
+  <data name="AcceptPayPalOrStripeRequiredForInstantCheckout" xml:space="preserve">
+    <value>U moet PayPal aanvaar of Stripe opstel om onmiddellik afrekening te bied</value>
+  </data>
+  <data name="StripeRequiredForInstantCheckout" xml:space="preserve">
+    <value>U moet Stripe opstel om onmiddellik afrekening te bied</value>
+  </data>
+  <data name="TemplateNotExist" xml:space="preserve">
+    <value>E-possjabloon bestaan ​​nie</value>
+  </data>
+  <data name="Amount_GTZero" xml:space="preserve">
+    <value>Die bedrag moet groter wees as nul</value>
+  </data>
+  <data name="OfferMessage_Length_0_Ignore_to_250_Inclusive" xml:space="preserve">
+    <value>Aanbodboodskap moet 250 karakters of minder wees</value>
+  </data>
+  <data name="OfferAlreadyAccepted" xml:space="preserve">
+    <value>Aanbod reeds aanvaar</value>
+  </data>
+  <data name="OfferAmountMustBeLessThanBuyNowPrice" xml:space="preserve">
+    <value>Aanbiedingsbedrag moet laer wees as die Koop Nou-prys</value>
+  </data>
+  <data name="OfferAmountMustBeLessThanPrice" xml:space="preserve">
+    <value>Aanbiedingsbedrag moet laer wees as die prys</value>
+  </data>
+  <data name="OfferNotFound" xml:space="preserve">
+    <value>Aanbod nie gevind nie</value>
+  </data>
+  <data name="CantSendMessageToSelf" xml:space="preserve">
+    <value>Boodskap misluk: kan nie 'n boodskap aan self stuur nie.</value>
+  </data>
+  <data name="PasswordRequireDigit" xml:space="preserve">
+    <value>Wagwoorde moet ten minste een syfer bevat ('0' - '9').</value>
+    <comment>Error when passwords do not have a digit</comment>
+  </data>
+  <data name="PasswordRequireLower" xml:space="preserve">
+    <value>Wagwoorde moet ten minste een klein letters ('a' - 'z') bevat.</value>
+    <comment>Error when passwords do not have a lowercase letter</comment>
+  </data>
+  <data name="PasswordRequireNonLetterOrDigit" xml:space="preserve">
+    <value>Wagwoorde moet ten minste een nie-letter- of syferkarakter hê.</value>
+    <comment>Error when password does not have enough letter or digit characters</comment>
+  </data>
+  <data name="PasswordRequireUpper" xml:space="preserve">
+    <value>Wagwoorde moet ten minste een hoofletter hê ('A' - 'Z').</value>
+    <comment>Error when passwords do not have an uppercase letter</comment>
+  </data>
+  <data name="PasswordTooShort" xml:space="preserve">
+    <value>Wagwoorde moet ten minste {0} karakters hê.</value>
+    <comment>Error message for passwords that are too short</comment>
+  </data>
+  <data name="UserTemporarilyLockedOut" xml:space="preserve">
+    <value>U rekening is uitgesluit weens te veel wagwoordpogings. Probeer asseblief later weer.</value>
+  </data>
+  <data name="LeafCategoryRequired" xml:space="preserve">
+    <value>U moet 'n kategorie kies wat geen subkategorieë het nie</value>
+  </data>
+</root>

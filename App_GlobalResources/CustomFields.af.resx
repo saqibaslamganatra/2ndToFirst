@@ -1,0 +1,1498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptAMEX" xml:space="preserve">
+    <value>Aanvaar AMEX</value>
+  </data>
+  <data name="AcceptDiscover" xml:space="preserve">
+    <value>Aanvaar Discover</value>
+  </data>
+  <data name="AcceptMastercard" xml:space="preserve">
+    <value>Aanvaar Mastercard</value>
+  </data>
+  <data name="AcceptVisa" xml:space="preserve">
+    <value>Aanvaar Visa</value>
+  </data>
+  <data name="AdministratorEmail" xml:space="preserve">
+    <value>Administrateur-e-pos</value>
+  </data>
+  <data name="AllowInstantCheckout" xml:space="preserve">
+    <value>Laat onmiddellike afrekening toe</value>
+  </data>
+  <data name="Auction_EnableProxyBidding" xml:space="preserve">
+    <value>Aktiveer instaanbediening</value>
+  </data>
+  <data name="AuthorizeNet_Enabled" xml:space="preserve">
+    <value>Authorize.NET aangeskakel</value>
+  </data>
+  <data name="AuthorizeNet_MerchantLoginID" xml:space="preserve">
+    <value>Aankoop-ID vir handelaars vir werfgeld</value>
+  </data>
+  <data name="AuthorizeNet_PostUrl" xml:space="preserve">
+    <value>Plaas URL</value>
+  </data>
+  <data name="AuthorizeNet_TestMode" xml:space="preserve">
+    <value>Toets af</value>
+  </data>
+  <data name="AuthorizeNet_TransactionKey" xml:space="preserve">
+    <value>Sleutel vir transaksie vir werfgeld</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>land</value>
+  </data>
+  <data name="DurationDaysList" xml:space="preserve">
+    <value>Tydsduurlys</value>
+  </data>
+  <data name="EnableMultipleCultures" xml:space="preserve">
+    <value>Aktiveer meerdere kulture</value>
+  </data>
+  <data name="EnableMultipleCurrencies" xml:space="preserve">
+    <value>Aktiveer meerdere geldeenhede</value>
+  </data>
+  <data name="EnableRegions" xml:space="preserve">
+    <value>Aktiveer streke</value>
+  </data>
+  <data name="EnableShipping" xml:space="preserve">
+    <value>Aktiveer gestuur</value>
+  </data>
+  <data name="ExteriorColor" xml:space="preserve">
+    <value>Buitekleur</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Faks</value>
+  </data>
+  <data name="FeedbackEnabled" xml:space="preserve">
+    <value>Terugvoer geaktiveer</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Eerste naam</value>
+  </data>
+  <data name="FreeFormProvider_Enabled" xml:space="preserve">
+    <value>Gratis vormverskaffer geaktiveer</value>
+  </data>
+  <data name="FriendlySiteName" xml:space="preserve">
+    <value>Vriendelike webwerfnaam</value>
+  </data>
+  <data name="ImageX" xml:space="preserve">
+    <value>Beeld X</value>
+  </data>
+  <data name="ImageY" xml:space="preserve">
+    <value>Beeld Y</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>Binnekleur</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Van</value>
+  </data>
+  <data name="LegalSiteName" xml:space="preserve">
+    <value>Wettige webwerfnaam</value>
+  </data>
+  <data name="ListingDurationOptions" xml:space="preserve">
+    <value>Opsies vir aanbiedingsduur</value>
+  </data>
+  <data name="MaxHomePageFeatured" xml:space="preserve">
+    <value>Maksimum tuisbladitems</value>
+  </data>
+  <data name="MaxImagesPerItem" xml:space="preserve">
+    <value>Maksimum prente per item</value>
+  </data>
+  <data name="MaxResultsPerPage" xml:space="preserve">
+    <value>Maksimum resultate per bladsy</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta beskrywing</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta-sleutelwoorde</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>kilometers</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>naam</value>
+  </data>
+  <data name="NumberBathrooms" xml:space="preserve">
+    <value>Aantal badkamers</value>
+  </data>
+  <data name="NumberBedrooms" xml:space="preserve">
+    <value>Aantal slaapkamers</value>
+  </data>
+  <data name="PayPal_CancelReturnURL" xml:space="preserve">
+    <value>Kanselleer die opgawe-URL</value>
+  </data>
+  <data name="PayPal_Email" xml:space="preserve">
+    <value>PayPal-e-pos</value>
+  </data>
+  <data name="PayPal_Email_Help" xml:space="preserve">
+    <value>Die e-posadres van die gebruiker wat verband hou met die PayPal-rekening wat betalings sal ontvang.</value>
+  </data>
+  <data name="PayPal_Enabled" xml:space="preserve">
+    <value>PayPal aangeskakel</value>
+  </data>
+  <data name="PayPal_FeesEmail" xml:space="preserve">
+    <value>Gelde e-pos</value>
+  </data>
+  <data name="PayPal_IPNURL" xml:space="preserve">
+    <value>IPN-URL</value>
+  </data>
+  <data name="PayPal_PostURL" xml:space="preserve">
+    <value>Plaas URL</value>
+  </data>
+  <data name="PayPal_ReturnToMerchantText" xml:space="preserve">
+    <value>Keer terug na handelaarsteks</value>
+  </data>
+  <data name="PayPal_SuccessReturnURL" xml:space="preserve">
+    <value>URL vir suksesopbrengste</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Foon</value>
+  </data>
+  <data name="ProcessingEnabled" xml:space="preserve">
+    <value>Verwerking geaktiveer</value>
+  </data>
+  <data name="RestrictOutsideSellers" xml:space="preserve">
+    <value>Beperk buite verkopers</value>
+  </data>
+  <data name="SecureURL" xml:space="preserve">
+    <value>Veilige URL</value>
+  </data>
+  <data name="ShowBidHistoryUserNames" xml:space="preserve">
+    <value>Wys gebruikersname van die bodgeskiedenis</value>
+  </data>
+  <data name="ShowCategoryCounts" xml:space="preserve">
+    <value>Wys kategorietellings</value>
+  </data>
+  <data name="ShowZeroCountCategories" xml:space="preserve">
+    <value>Wys kategorieë vir nul tel</value>
+  </data>
+  <data name="SiteTitle" xml:space="preserve">
+    <value>Site titel</value>
+  </data>
+  <data name="SquareFootage" xml:space="preserve">
+    <value>Vierkante beeldmateriaal</value>
+  </data>
+  <data name="StateRegion" xml:space="preserve">
+    <value>Staat / streek</value>
+  </data>
+  <data name="Street1" xml:space="preserve">
+    <value>Straat 1</value>
+  </data>
+  <data name="Street2" xml:space="preserve">
+    <value>Straat 2</value>
+  </data>
+  <data name="SystemEmailAddress" xml:space="preserve">
+    <value>Stelsel-e-posadres</value>
+  </data>
+  <data name="SystemEmailName" xml:space="preserve">
+    <value>Stelsel-e-posnaam</value>
+  </data>
+  <data name="ThumbX" xml:space="preserve">
+    <value>Duim X</value>
+  </data>
+  <data name="ThumbY" xml:space="preserve">
+    <value>Duim Y</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="UserMessagingEnabled" xml:space="preserve">
+    <value>Gebruikerboodskappe is geaktiveer</value>
+  </data>
+  <data name="VerifyUserEmail" xml:space="preserve">
+    <value>Verifieer gebruiker-e-pos</value>
+  </data>
+  <data name="VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="ZipPostal" xml:space="preserve">
+    <value>Zip / Postal</value>
+  </data>
+  <data name="AcceptPayPal" xml:space="preserve">
+    <value>Aanvaar PayPal</value>
+  </data>
+  <data name="PaymentInstructions" xml:space="preserve">
+    <value>Betaalinstruksies</value>
+  </data>
+  <data name="EnableProxyBidding" xml:space="preserve">
+    <value>Aktiveer instaanbediening</value>
+  </data>
+  <data name="ListingDurationOptions_Help" xml:space="preserve">
+    <value>&lt;p&gt; Begindatum en duur - skeduleer 'n begindatum en tyd en kies die aantal dae (tydsduur) waarop die lys aktief sal wees. &lt;/p&gt;
+&lt;p&gt; Begindatum en einddatum - spesifiseer beide 'n begin- en einddatum en -tyd. &lt;/p&gt;
+&lt;p&gt; Slegs tydsduur - Die lys word onmiddellik aktief en eindig na die aantal dae wat u gekies het. &lt;/p&gt;
+&lt;p&gt; Slegs einddatum - Die lys word onmiddellik aktief en eindig op die gespesifiseerde einddatum en -tyd. &lt;/p&gt;</value>
+  </data>
+  <data name="SniperProtectionSeconds" xml:space="preserve">
+    <value>Sniper beskerming sekondes</value>
+  </data>
+  <data name="AuthorizeNet_PaymentDescription" xml:space="preserve">
+    <value>Betalingsbeskrywing</value>
+  </data>
+  <data name="BottomBannersToDisplay" xml:space="preserve">
+    <value>Onderbaniere om te vertoon</value>
+  </data>
+  <data name="LeftBannersToDisplay" xml:space="preserve">
+    <value>Linksbanners om te vertoon</value>
+  </data>
+  <data name="TopBannersToDisplay" xml:space="preserve">
+    <value>Top Banners om te vertoon</value>
+  </data>
+  <data name="Duration_Only" xml:space="preserve">
+    <value>Slegs tydsduur</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>enabled</value>
+  </data>
+  <data name="End_Only" xml:space="preserve">
+    <value>Slegs einddatum</value>
+  </data>
+  <data name="Start_And_Duration" xml:space="preserve">
+    <value>Begindatum en duur</value>
+  </data>
+  <data name="Start_And_End" xml:space="preserve">
+    <value>Begindatum en einddatum</value>
+  </data>
+  <data name="ShowShippingInfoOnItemLists" xml:space="preserve">
+    <value>Wys afleweringsinligting oor itemlyste</value>
+  </data>
+  <data name="ShowShippingInfoOnItemLists_Help" xml:space="preserve">
+    <value>As aangeskakel: die goedkoopste afleweringsopsie word onder die titel in die lys van die resultaatlys "Blaai" en "Soek" getoon</value>
+  </data>
+  <data name="ShowSellerLocationOnListingDetails" xml:space="preserve">
+    <value>Wys die verkoper se ligging op die detailbladsy</value>
+  </data>
+  <data name="CreditCardsEnabled" xml:space="preserve">
+    <value>Gebergde kredietkaarte</value>
+  </data>
+  <data name="UserApprovalRequired" xml:space="preserve">
+    <value>Gebruikersgoedkeuring word vereis</value>
+  </data>
+  <data name="ChargeFeesWhenRelisting" xml:space="preserve">
+    <value>Koste word gehef wanneer u weer luister</value>
+  </data>
+  <data name="MaxAutoRelists" xml:space="preserve">
+    <value>Maks outomaties weer beskikbaar</value>
+  </data>
+  <data name="EnableGTC" xml:space="preserve">
+    <value>Aktiveer goed totdat gekanselleer is</value>
+  </data>
+  <data name="EnableGTC_Help" xml:space="preserve">
+    <value>Gee die noteringsagent die opsie om hul notering oop te hou totdat dit uitverkoop is of handmatig gekanselleer word.</value>
+  </data>
+  <data name="TestDecimal" xml:space="preserve">
+    <value>Toets desimale</value>
+  </data>
+  <data name="RequireCreditCardOnRegistration" xml:space="preserve">
+    <value>Vereis kredietkaart met registrasie</value>
+  </data>
+  <data name="ShowSellerOnListingRow" xml:space="preserve">
+    <value>Wys verkopernaam in soekresultate</value>
+  </data>
+  <data name="UsejQueryTimePicker" xml:space="preserve">
+    <value>Gebruik jQuery Time Picker</value>
+  </data>
+  <data name="ProcessingEnabled_Help" xml:space="preserve">
+    <value>&lt;p&gt; As aangeskakel: Die volgende agtergrondprosesse is aangeskakel: &lt;/p&gt;
+&lt;ul style = "list-style-type: sirkel; margin-left: 20px;"&gt;
+&lt;li&gt; &lt;b&gt; Begin lyste &lt;/b&gt; - aktiveer lyste wat in die toekoms sal begin &lt;/li&gt;
+&lt;li&gt; &lt;b&gt; Listing Resolution &lt;/b&gt; - Beëindig en besluit lyste &lt;/li&gt;
+&lt;li&gt; &lt;b&gt; Fooiverfrisser &lt;/b&gt; - bereken die verskuldigde gelde &lt;/li&gt;
+&lt;li&gt; &lt;b&gt; Kennisgewing &lt;/b&gt; - bestuur die versending van e-pos &lt;/li&gt;
+&lt;/ Ul&gt;
+&lt;p&gt; As hierdie opsie nie geaktiveer is nie, loop bogenoemde prosesse nie. Die resultate is: lyste begin en eindig nooit, geen e-pos van die stelsel en geen fakturering van fooie nie. &lt;/p&gt;</value>
+  </data>
+  <data name="RequireAuthentication" xml:space="preserve">
+    <value>Vereis verifikasie</value>
+  </data>
+  <data name="ShowPendingListings" xml:space="preserve">
+    <value>Wys geskeduleerde lyste</value>
+  </data>
+  <data name="EnableNotifications" xml:space="preserve">
+    <value>E-poskennisgewings geaktiveer</value>
+  </data>
+  <data name="EnableNotifications_Help" xml:space="preserve">
+    <value>&lt;p&gt; As gemerk e-poskennisgewings aangeskakel is, word die stelsel verwerk en stuur dit e-poskennisgewings aan kopers en verkopers wat aandui watter aktiwiteite hulle lys, ens. &lt;/p&gt;
+&lt;p&gt; As dit nie gemerk is nie, word e-pos nie in die tou gesit nie en word dit nie gestuur nie. &lt;/p&gt;</value>
+  </data>
+  <data name="RequireAuthentication_Help" xml:space="preserve">
+    <value>Indien aangeskakel: gebruikers moet geregistreer wees en aangemeld wees om enige lysinligting te sien.</value>
+  </data>
+  <data name="DisplayListingType" xml:space="preserve">
+    <value>Vertoon die tipe lys in soekresultate</value>
+  </data>
+  <data name="AllowSellerEditDuration" xml:space="preserve">
+    <value>Laat veranderinge aan die einddatum / tydsduur van die lys toe</value>
+  </data>
+  <data name="AllowSellerEditDuration_Help" xml:space="preserve">
+    <value>Let wel: Vir veilings geld dit slegs vir aanbiedings met geen bod nie.</value>
+  </data>
+  <data name="RequireAddressOnRegistration" xml:space="preserve">
+    <value>Vereis adres tydens registrasie</value>
+  </data>
+  <data name="AuthorizeNetAIM" xml:space="preserve">
+    <value>Authorize.NET</value>
+  </data>
+  <data name="BatchPaymentDate" xml:space="preserve">
+    <value>Dag van die maand</value>
+  </data>
+  <data name="BatchPaymentDate_Help" xml:space="preserve">
+    <value>As 'n maand nie die geselekteerde dag het nie, sal die stelsel die laaste dag van daardie maand kies. &lt;br/&gt;
+(Voorbeeld: Dag 30 is gekies en die maand is Februarie)
+&lt;P&gt;
+Gevolglik sal die keuse van "31" altyd voortgaan op "die laaste dag van die maand."
+&lt;/ P&gt;</value>
+  </data>
+  <data name="BatchPaymentDay" xml:space="preserve">
+    <value>Dag van die week</value>
+  </data>
+  <data name="BatchPaymentPeriod" xml:space="preserve">
+    <value>herhaling</value>
+  </data>
+  <data name="BatchPaymentPeriod_Help" xml:space="preserve">
+    <value>Stel op "Nooit" om geskeduleerde betalings uit te skakel. Andersins, kies hoe gereeld geskeduleerde betalings aangewend moet word.</value>
+  </data>
+  <data name="BatchPaymentProvider" xml:space="preserve">
+    <value>verskaffer</value>
+  </data>
+  <data name="BatchPaymentTime" xml:space="preserve">
+    <value>Tyd van die dag</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>daaglikse</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Vrydag</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Maandag</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>maandelikse</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>nooit</value>
+  </data>
+  <data name="NextBatchPayment" xml:space="preserve">
+    <value>Volgende poging om 'n groepbetaling te doen</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Saterdag</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Sondag</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Donderdag</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Dinsdag</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Woensdag</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>weeklikse</value>
+  </data>
+  <data name="AllowSellerEditStartDate" xml:space="preserve">
+    <value>Laat wysiging van die begindatum vir geskeduleerde lyste toe</value>
+  </data>
+  <data name="AllowSellerEditStartDate_Help" xml:space="preserve">
+    <value>Dit is slegs van toepassing op lyste wat nog nie begin het nie (geskeduleerde lyste).</value>
+  </data>
+  <data name="DisableBuyNowAfterWinningBids" xml:space="preserve">
+    <value>Deaktiveer koop nou nadat u die bod gewen het</value>
+  </data>
+  <data name="DisableBuyNowAfterWinningBids_Help" xml:space="preserve">
+    <value>As dit gemerk is (gedeaktiveer), sal die Koop Nou-opsie verdwyn sodra die eerste wenbod geplaas is. As u nie die reserweprys nakom nie, is die Koop Nou-opsie, gemerk of ongemerk, gebly.</value>
+  </data>
+  <data name="EnableProxyBidding_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: word die bod outomaties namens die bieër ingedien vir die laagste bedrag wat benodig word om die item te wen. &lt;p&gt; Andersins word die instaanbedieningsisteem nie gebruik nie en sal die maksimum bod altyd onmiddellik geplaas word. &lt;/p&gt;</value>
+  </data>
+  <data name="ProxyBiddingBelowReserve" xml:space="preserve">
+    <value>Volmag-bod onder reserwe</value>
+  </data>
+  <data name="ProxyBiddingBelowReserve_Help" xml:space="preserve">
+    <value>As Aanskakel: Proxy-bie sal dieselfde funksioneer, ongeag of daar aan die Reserweprys voldoen is of nie, wat tot gevolg sal hê dat die veiling onsuksesvol sal wees as daar net een bieër is (selfs al is hul maksimum volmagbod groter as die Reserweprys). Andersins (indien gedeaktiveer), sal die instaanbedieningsstelsel outomaties die bodvlak verhoog om die Reserweprys te haal indien moontlik.</value>
+  </data>
+  <data name="AcceptCreditCard" xml:space="preserve">
+    <value>Aanvaar kredietkaart</value>
+  </data>
+  <data name="DefaultSalesInvoiceComment" xml:space="preserve">
+    <value>Standaard faktuuropmerking</value>
+  </data>
+  <data name="DefaultSalesInvoiceComment_Help" xml:space="preserve">
+    <value>Hierdie teks sal outomaties in die Kommentaar-veld van u nuwe verkoopfakture ingevoeg word.</value>
+  </data>
+  <data name="FeedbackEnabled_Help" xml:space="preserve">
+    <value>As dit aangeskakel is: die transaksieterugvoer- en graderingstelsel is beskikbaar vir gebruikers.</value>
+  </data>
+  <data name="FriendlySiteName_Help" xml:space="preserve">
+    <value>Verskyn in fakture.</value>
+  </data>
+  <data name="LegalSiteName_Help" xml:space="preserve">
+    <value>Verskyn binne die kopiereginligting.</value>
+  </data>
+  <data name="SecureURL_Help" xml:space="preserve">
+    <value>Voorbeeld: https://www.xyz.com
+&lt;P&gt;
+As u nie 'n SSL-sertifikaat vir u webwerf het nie, moet die veilige URL ooreenstem met die bogenoemde URL. &lt;/ P&gt;</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>Voorbeeld: http://www.xyz.com
+&lt;P&gt;
+Die volledige URL, insluitend http: //, om gebruik te word om die interne sagtewareskakels en skakels binne die e-possjablone te genereer. &lt;/ P&gt;</value>
+  </data>
+  <data name="UserMessagingEnabled_Help" xml:space="preserve">
+    <value>As dit aangeskakel is: gebruikers word toegelaat om ander gebruikers te stuur. As geklassifiseerde advertensies toegelaat word, moet hierdie instelling geaktiveer word sodat gebruikers die advertensie-eienaar kan kontak.</value>
+  </data>
+  <data name="UseAggregateFinalPercentageFees" xml:space="preserve">
+    <value>Gebruik totale finale persentasiefooie</value>
+  </data>
+  <data name="ShowCurrencyCodes" xml:space="preserve">
+    <value>Wys valutakodes</value>
+  </data>
+  <data name="HideTaxFields" xml:space="preserve">
+    <value>Steek alle belastingvelde weg</value>
+  </data>
+  <data name="ThumbCrop" xml:space="preserve">
+    <value>bijgesneden</value>
+  </data>
+  <data name="ThumbFit" xml:space="preserve">
+    <value>Skaal geskik</value>
+  </data>
+  <data name="ThumbnailType" xml:space="preserve">
+    <value>Miniatuurtipe</value>
+  </data>
+  <data name="ShowCurrencySymbol" xml:space="preserve">
+    <value>Wys valutasimbool</value>
+  </data>
+  <data name="AcceptAMEX_Help" xml:space="preserve">
+    <value>Indien aangeskakel: "American Express" sal beskikbaar gestel word as 'n kaarttipe-opsie vir kredietkaartbetalings.</value>
+  </data>
+  <data name="AcceptDiscover_Help" xml:space="preserve">
+    <value>Indien aangeskakel: "Ontdek" sal beskikbaar gestel word as 'n kaarttipe-opsie vir kredietkaartbetalings.</value>
+  </data>
+  <data name="AcceptMastercard_Help" xml:space="preserve">
+    <value>Indien aangeskakel: "Mastercard" sal beskikbaar gestel word as 'n kaarttipe-opsie vir kredietkaartbetalings.</value>
+  </data>
+  <data name="AcceptVisa_Help" xml:space="preserve">
+    <value>Indien aangeskakel: "Visa" sal beskikbaar gestel word as 'n kaarttipe-opsie vir kredietkaartbetalings.</value>
+  </data>
+  <data name="AdministratorEmail_Help" xml:space="preserve">
+    <value>Administrasie kontak e-pos adres.</value>
+  </data>
+  <data name="AuthorizeNet_Enabled_Help" xml:space="preserve">
+    <value>Indien aangeskakel: die sagteware koppel aan u Authorize.net-rekening en "Betaal met kredietkaart" is beskikbaar as 'n afhandeling-opsie. Met hierdie betaalmetode kan gebruikers kredietkaartbetalings indien sonder om die webwerf te verlaat. Opmerking: Hierdie betaalmetode vereis ook dat 'gebergde kredietkaarte' geaktiveer is.</value>
+  </data>
+  <data name="AuthorizeNet_MerchantLoginID_Help" xml:space="preserve">
+    <value>U Autorize.Net API-aanmelding vir gebruik saam met die fooi-fakture.</value>
+  </data>
+  <data name="AuthorizeNet_PaymentDescription_Help" xml:space="preserve">
+    <value>Word gebruik om die transaksie tussen die administrateur en die handelaar te beskryf.</value>
+  </data>
+  <data name="AuthorizeNet_PostUrl_Help" xml:space="preserve">
+    <value>Spesifiseer die URL wat deur die Authorize.Net-betalingsverskaffer gebruik word om betalingstransaksies te plaas. Oor die algemeen moet hierdie waarde nie verander word nie, behalwe vir toets- of probleemoplossingsdoeleindes.</value>
+  </data>
+  <data name="AuthorizeNet_TestMode_Help" xml:space="preserve">
+    <value>As dit gemerk is, word betalings as toetstransaksies gepos. Geen geld sal eintlik oorgedra word nie.
+&lt;p&gt; Toets kredietkaartnommers (die vervaldatum moet op die huidige datum of later ingestel wees): &lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; American Express-toetskaart: 370000000000002 &lt;/li&gt;
+&lt;li&gt; Ontdek toetskaart: 6011000000000012 &lt;/li&gt;
+&lt;li&gt; Visa-toetskaart: 4007000000027 &lt;/li&gt;
+&lt;li&gt; Tweede Visa-toetskaart: 4012888818888 &lt;/li&gt;
+&lt;/ Ul&gt;</value>
+  </data>
+  <data name="AuthorizeNet_TransactionKey_Help" xml:space="preserve">
+    <value>U Authorize.Net-transaksiesleutel vir gebruik saam met die fooi-fakture.</value>
+  </data>
+  <data name="BottomBannersToDisplay_Help" xml:space="preserve">
+    <value>Die aantal willekeurig gekose baniere om onderaan sekere bladsye te vertoon.</value>
+  </data>
+  <data name="ChargeFeesWhenRelisting_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: geassosieerde aanbiedingskoste sal by die verkoper gehef word wanneer 'n artikel weer gelys word.</value>
+  </data>
+  <data name="CreditCardsEnabled_Help" xml:space="preserve">
+    <value>Indien geaktiveer: sal alle geassosieerde kredietkaartdata-vorms aan die gebruikers verskyn. Kredietkaartdata kan op u webwerf gestoor word vir toekomstige aankope.</value>
+  </data>
+  <data name="DisplayListingType_Help" xml:space="preserve">
+    <value>As dit aangeskakel is: die tipe lys sal op die bladsy met lysresultate vir beide Blaai en soek verskyn.</value>
+  </data>
+  <data name="DurationDaysList_Help" xml:space="preserve">
+    <value>Tik die aantal 'dag'-opsies in wat aangebied moet word aan verkopers vir hul volledige lys.</value>
+  </data>
+  <data name="EnableMultipleCultures_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: die sagteware laat verskillende funksies toe wat u kies om te ondersteun.</value>
+  </data>
+  <data name="EnableMultipleCurrencies_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: die sagteware laat geldeenhede en omskakelings toe wat u kies om te ondersteun.</value>
+  </data>
+  <data name="EnableShipping_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: verkopers kan platbesonderhede oor die versendingskoste spesifiseer wanneer hulle lyste skep of redigeer.</value>
+  </data>
+  <data name="HideTaxFields_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: die belastingfunksionaliteit sal op die hele webwerf verwyder word - insluitend die gebied "My rekening", die gebied "Skep lysinskrywing" en op fakture.</value>
+  </data>
+  <data name="LeftBannersToDisplay_Help" xml:space="preserve">
+    <value>Die aantal willekeurig gekose baniere om aan die linkerkant van sekere bladsye te vertoon.</value>
+  </data>
+  <data name="MaxAutoRelists_Help" xml:space="preserve">
+    <value>Die maksimum aantal kere wat 'n item outomaties weer sal lys as dit nie verkoop word nie.</value>
+  </data>
+  <data name="MaxHomePageFeatured_Help" xml:space="preserve">
+    <value>Die maksimum aantal items wat op 'n keer op die tuisblad verskyn.</value>
+  </data>
+  <data name="MaxImagesPerItem_Help" xml:space="preserve">
+    <value>Die maksimum aantal prente wat 'n verkoper vir elke aanbieding kan oplaai.</value>
+  </data>
+  <data name="MaxResultsPerPage_Help" xml:space="preserve">
+    <value>Die maksimum aantal individuele lyste wat op elke bladsy sal verskyn.</value>
+  </data>
+  <data name="MetaDescription_Help" xml:space="preserve">
+    <value>Dit word deur soekenjins gebruik wanneer soekresultate met 'n skakel na u webwerf vertoon word.</value>
+  </data>
+  <data name="MetaKeywords_Help" xml:space="preserve">
+    <value>Dit word deur soekenjins gebruik om u webwerf te rangskik.</value>
+  </data>
+  <data name="PayPal_CancelReturnURL_Help" xml:space="preserve">
+    <value>Die URL waarheen PayPal die gebruiker sal herlei as betaling misluk of deur die gebruiker gekanselleer word.</value>
+  </data>
+  <data name="PayPal_Enabled_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: PayPal se "Webwerfbetalingsstandaard" -diens is beskikbaar as 'n afhandelingopsie. Hierdie betaalmetode verwys gebruikers na PayPal se webwerf om die betaling te voltooi en herlei daarna weer na u webwerf.</value>
+  </data>
+  <data name="PayPal_FeesEmail_Help" xml:space="preserve">
+    <value>Die e-posadres wat verband hou met die PayPal-rekening wat die betaling van werffooie sal ontvang.</value>
+  </data>
+  <data name="PayPal_IPNURL_Help" xml:space="preserve">
+    <value>Die URL waarop PayPal die uitkoms van betalingspogings sal rapporteer. Hierdie waarde moet oor die algemeen nie verander word nie, behalwe vir toetsing, probleemoplossing of gevorderde aanpassings.</value>
+  </data>
+  <data name="PayPal_PostURL_Help" xml:space="preserve">
+    <value>Die URL wat deur die PayPal-verskaffer gebruik word om betalingstransaksies te plaas. Hierdie waarde moet oor die algemeen nie verander word nie, behalwe vir toetsing, probleemoplossing of gevorderde aanpassings.</value>
+  </data>
+  <data name="PayPal_ReturnToMerchantText_Help" xml:space="preserve">
+    <value>Spesifiseer die skakelteks wat op PayPal-bladsye aangedui word vir die skakel terug na die veilingwebwerf (Die URL vir kanselleer).</value>
+  </data>
+  <data name="PayPal_SuccessReturnURL_Help" xml:space="preserve">
+    <value>Die URL waarheen PayPal die gebruiker sal herlei sodra die betaling suksesvol ingedien is. Hierdie waarde moet oor die algemeen nie verander word nie, behalwe vir toetsing, probleemoplossing of gevorderde aanpassings.</value>
+  </data>
+  <data name="RequireAddressOnRegistration_Help" xml:space="preserve">
+    <value>Indien aangeskakel: van die gebruiker moet die adresinligting tydens die registrasieproses ingevoer word.</value>
+  </data>
+  <data name="RequireCreditCardOnRegistration_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: van die gebruiker moet die kredietkaartinligting tydens die registrasieproses ingevoer word.</value>
+  </data>
+  <data name="RestrictOutsideSellers_Help" xml:space="preserve">
+    <value>Indien aangeskakel: aan nuwe gebruikers word slegs koperregte toegestaan ​​as hulle registreer, eerder as kopers- en verkopersregte.</value>
+  </data>
+  <data name="ShowBidHistoryUserNames_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: gebruikersname word in die lys van koopgeskiedenis of bodgeskiedenisverslae gelys.</value>
+  </data>
+  <data name="ShowCategoryCounts_Help" xml:space="preserve">
+    <value>As aangeskakel: 'n Telling van hoeveel aktiewe lyste onder elke kategorie bestaan ​​(insluitend alle subkategorieë) word in hakies langs die kategorie-naam op bladsye met die kategorienavigasie vertoon.</value>
+  </data>
+  <data name="ShowCurrencyCodes_Help" xml:space="preserve">
+    <value>As aangeskakel: die geldeenheidskode word langs alle pryse op die hele webwerf vertoon.</value>
+  </data>
+  <data name="ShowCurrencySymbol_Help" xml:space="preserve">
+    <value>As aangeskakel: die geldeenheidsimbool word langs alle pryse op die hele webwerf vertoon.</value>
+  </data>
+  <data name="ShowPendingListings_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: lyste wat geskeduleer is om in die toekoms te begin, sal op die tuisblad, deurbladsye en in die soekresultate vertoon word.</value>
+  </data>
+  <data name="ShowSellerLocationOnListingDetails_Help" xml:space="preserve">
+    <value>Indien aangeskakel: die verkoper se stad, staat / streek en land vanaf hul "primêre adres" sal op die detailbladsy vertoon word</value>
+  </data>
+  <data name="ShowSellerOnListingRow_Help" xml:space="preserve">
+    <value>Indien aangeskakel: die gebruikersnaam van die verkoper word onder die titel en subtitel van die verkoper vertoon wanneer dit in die soekresultatelyste verskyn.</value>
+  </data>
+  <data name="ShowZeroCountCategories_Help" xml:space="preserve">
+    <value>As geaktiveer: Kategorie-navigasie sal alle kategorieë in die vlak bevat, selfs al bevat dit geen aktiewe lyste nie. Andersins (indien gedeaktiveer), sal slegs kategorieë met ten minste een aktiewe lys onder hulle in die kategorienavigasie vertoon word.</value>
+  </data>
+  <data name="SiteTitle_Help" xml:space="preserve">
+    <value>Word gebruik as standaardvoorvoegsel vir alle bladsytitels (die titel wat in die titelbalk van die meeste webblaaiers vertoon word).</value>
+  </data>
+  <data name="SniperProtectionSeconds_Help" xml:space="preserve">
+    <value>As 'n bod binne die vasgestelde aantal sekondes geplaas word voordat die item eindig, sal die veiling outomaties hierdie aantal sekondes verleng word.</value>
+  </data>
+  <data name="SystemEmailAddress_Help" xml:space="preserve">
+    <value>E-posadres waaruit outomatiese stelsel-e-posadres afkomstig is</value>
+  </data>
+  <data name="SystemEmailName_Help" xml:space="preserve">
+    <value>Naam wat in die 'Van'-veld verskyn vir e-posse wat deur die stelsel gestuur word.</value>
+  </data>
+  <data name="ThumbnailType_Help" xml:space="preserve">
+    <value>&lt;p&gt; &lt;b&gt; Geknip: &lt;/b&gt; Die beeld sal na 'n vierkant geknip word om by die beeldvertoonarea te pas. &lt;/p&gt; &lt;p&gt; &lt;b&gt; Geskaal om in te pas: &lt;/b&gt; Die beeld word geskaal af totdat die breedte pas by die beeldvertoonarea. &lt;/p&gt;</value>
+  </data>
+  <data name="TopBannersToDisplay_Help" xml:space="preserve">
+    <value>Die aantal willekeurig gekose baniere wat aan die bokant van alle bladsye vertoon word.</value>
+  </data>
+  <data name="UsejQueryTimePicker_Help" xml:space="preserve">
+    <value>As aangeskakel: Die jQuery-tydkieser is beskikbaar op die Skep lysinskrywing bladsy 2 van 2.</value>
+  </data>
+  <data name="UserApprovalRequired_Help" xml:space="preserve">
+    <value>Indien geaktiveer: moet alle nuwe gebruikersregistrasies handmatig goedgekeur word voordat die gebruiker die webwerf-dienste kan gebruik.</value>
+  </data>
+  <data name="VerifyUserEmail_Help" xml:space="preserve">
+    <value>As aangeskakel: nuwe gebruikers kan nie aanmeld voordat hulle hul e-posadres verifieer nie. Verifikasie vereis dat u 'n ewekansig gegenereerde verifikasiekode invoer wat per e-pos afgelewer word.</value>
+  </data>
+  <data name="BuyersPremiumPercent" xml:space="preserve">
+    <value>Koper se premie (%)</value>
+  </data>
+  <data name="BuyersPremiumPercent_Help" xml:space="preserve">
+    <value>Hierdie bedrag word outomaties by u nuwe verkoopfakture gevoeg.</value>
+  </data>
+  <data name="EnableBuyersPremium" xml:space="preserve">
+    <value>Aktiveer die koper se premie</value>
+  </data>
+  <data name="EnableWebAPI" xml:space="preserve">
+    <value>Aktiveer Web API</value>
+  </data>
+  <data name="EnableWebAPI_Help" xml:space="preserve">
+    <value>Met die Web API kan spesifieke gebruikers toegang tot sekere funksies van die werf deur middel van 'n API om aksies uit te voer buite die AuctionWorx-webwerf, via 'n webdiens. As dit gemerk is, aktiveer die Web API. As u nie gemerk is nie, skakel die Web API heeltemal uit.</value>
+  </data>
+  <data name="ShowLanguageRegionOptions" xml:space="preserve">
+    <value>Wys plaaslike taalopsies</value>
+  </data>
+  <data name="ShowLanguageRegionOptions_Help" xml:space="preserve">
+    <value>As aangeskakel: met 'Enable Multiple Cultures' ook ingestel, sal die aftreklys vir voettekstaal streekstaalopsies vertoon (bv. "Engels (Verenigde State)" benewens basiese taalopsies (bv. "Engels")</value>
+  </data>
+  <data name="test_bool1_Help" xml:space="preserve">
+    <value>'n paar hulp teks - redelik nuttig, eh !?</value>
+  </data>
+  <data name="test_date1_Help" xml:space="preserve">
+    <value>'n paar hulp teks - redelik nuttig, eh !?</value>
+  </data>
+  <data name="test_decimal1_Help" xml:space="preserve">
+    <value>'n paar hulp teks - redelik nuttig, eh !?</value>
+  </data>
+  <data name="test_enum1_Help" xml:space="preserve">
+    <value>'n paar hulp teks - redelik nuttig, eh !?</value>
+  </data>
+  <data name="test_enum2_Help" xml:space="preserve">
+    <value>'n paar hulp teks - redelik nuttig, eh !?</value>
+  </data>
+  <data name="test_int1_Help" xml:space="preserve">
+    <value>'n paar hulp teks - redelik nuttig, eh !?</value>
+  </data>
+  <data name="test_string1_Help" xml:space="preserve">
+    <value>'n paar hulp teks - redelik nuttig, eh !?</value>
+  </data>
+  <data name="EnableBuyersPremium_Help" xml:space="preserve">
+    <value>Indien ingeskakel: verkopers kan kies om 'n persentasiepremie by die finale koste van 'n notering te voeg. &lt;br&gt; &lt;br&gt; Opmerking: hierdie funksie kan onafhanklik van die koper se finale fooi gebruik word, wat 'n lynitem by die koper se faktuurfooi-faktuur voeg vir elke verkoping.</value>
+  </data>
+  <data name="ListingOption_Bold_Enabled" xml:space="preserve">
+    <value>Aktiveer die "vetgedrukte" lysopsie</value>
+  </data>
+  <data name="ListingOption_Bold_Enabled_Help" xml:space="preserve">
+    <value>As aangeskakel: verkopers sal die "Vet" lysopsie kan kies</value>
+  </data>
+  <data name="ListingOption_Featured_Enabled" xml:space="preserve">
+    <value>Aktiveer die lys "Opgestelde" lysopsie</value>
+  </data>
+  <data name="ListingOption_Featured_Enabled_Help" xml:space="preserve">
+    <value>As aangeskakel: verkopers sal die "Voorgestelde" lysopsie kan kies</value>
+  </data>
+  <data name="ListingOption_Highlight_Enabled" xml:space="preserve">
+    <value>Aktiveer die lys "Opsomming" lys</value>
+  </data>
+  <data name="ListingOption_Highlight_Enabled_Help" xml:space="preserve">
+    <value>Indien aangeskakel: Verkopers sal die lys "Opmerk" kan kies</value>
+  </data>
+  <data name="ListingOption_Sunburst_Enabled" xml:space="preserve">
+    <value>Aktiveer die opsie "VERKOOP" vir die lys van baniere.</value>
+  </data>
+  <data name="ListingOption_Sunburst_Enabled_Help" xml:space="preserve">
+    <value>As aangeskakel: verkopers sal die lysopsie 'Koopkenteken' kan kies</value>
+  </data>
+  <data name="ShowHomepageDecorations" xml:space="preserve">
+    <value>Wys tuisversierings</value>
+  </data>
+  <data name="ShowHomepageDecorations_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: lyste wat op die tuisblad verskyn, sal enige lysopsies wat deur die verkoper gekies is, insluit.</value>
+  </data>
+  <data name="Theme_SolidBlack" xml:space="preserve">
+    <value>Basies swart</value>
+  </data>
+  <data name="CssTheme" xml:space="preserve">
+    <value>CSS Tema</value>
+  </data>
+  <data name="Theme_Default" xml:space="preserve">
+    <value>verstek</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="Theme_DropShadow" xml:space="preserve">
+    <value>Drop-Shadow</value>
+  </data>
+  <data name="CssTheme_Help" xml:space="preserve">
+    <value>'N Paar temas is ingesluit om gemaklik te gebruik of as vertrekpunt vir u eie Bootstrap CSS-tema-ontwerp.</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_DaysOld" xml:space="preserve">
+    <value>Verwyder fooi fakture dae oud</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_Enabled" xml:space="preserve">
+    <value>Verwyder fooi-fakture geaktiveer</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_Enabled_Help" xml:space="preserve">
+    <value>Indien geaktiveer: fooifakture ouer as die gespesifiseerde aantal dae word outomaties van die stelsel verwyder.</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_IncludeUnpaid" xml:space="preserve">
+    <value>Verwyder fooi fakture sluit onbetaalde in</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_IncludeUnpaid_Help" xml:space="preserve">
+    <value>Indien geaktiveer: fakture vir onbetaalde fooie word ook outomaties verwyder. &lt;br/&gt;
+As dit gedeaktiveer is: slegs fakture wat betaal word, word outomaties verwyder.</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_DaysOld" xml:space="preserve">
+    <value>Verwyder lyste dae oud</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_Enabled" xml:space="preserve">
+    <value>Vee lyste geaktiveer uit</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_Enabled_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: lyste ouer as die gespesifiseerde aantal dae, sal outomaties van die stelsel verwyder word.</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_IncludeSuccessful" xml:space="preserve">
+    <value>Skrap lyste sluit suksesvol in</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_IncludeSuccessful_Help" xml:space="preserve">
+    <value>As aangeskakel: lyste wat suksesvol geëindig het, sal ook verwyder word.</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_DaysOld" xml:space="preserve">
+    <value>Verwyder verkoopfakture dae oud</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_Enabled" xml:space="preserve">
+    <value>Verwyder verkoopfakture geaktiveer</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_Enabled_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: verkoopfakture ouer as die gespesifiseerde aantal dae, word outomaties van die stelsel verwyder.</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_IncludeUnpaid" xml:space="preserve">
+    <value>Verwyder verkoopfakture sluit onbetaalde in</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_IncludeUnpaid_Help" xml:space="preserve">
+    <value>Indien aangeskakel: onbetaalde verkoopfakture word ook outomaties verwyder. &lt;br/&gt;
+As Uitgeskakel: Slegs betaalde fakture vir verkoop word outomaties verwyder.</value>
+  </data>
+  <data name="DataCleanup_Enabled" xml:space="preserve">
+    <value>Dataopruiming aangeskakel</value>
+  </data>
+  <data name="DataCleanup_Enabled_Help" xml:space="preserve">
+    <value>Indien aangeskakel: lyste en / of fakture ouer as die gespesifiseerde aantal dae, sal outomaties van tyd tot tyd van die stelsel verwyder word. &lt;br/&gt;
+Opmerking: as u hierdie opsie deaktiveer, sal alle ander opsies op hierdie bladsy ook gedeaktiveer word.</value>
+  </data>
+  <data name="RestrictCustomFieldEdits" xml:space="preserve">
+    <value>Beperk aangepaste veldwysigings</value>
+  </data>
+  <data name="RestrictCustomFieldEdits_Help" xml:space="preserve">
+    <value>As aangeskakel: wanneer biedings geplaas word, sal dit nie toelaat dat die aangepaste velde verander word nie</value>
+  </data>
+  <data name="EnableRecaptchaForContactUs" xml:space="preserve">
+    <value>Aktiveer Recaptcha vir kontak</value>
+  </data>
+  <data name="EnableRecaptchaForContactUs_Help" xml:space="preserve">
+    <value>As dit geaktiveer is, moet die gebruiker 'n Captcha-toets slaag voordat hy die Contact Us-bladsy indien.</value>
+  </data>
+  <data name="EnableRecaptchaForRegistration" xml:space="preserve">
+    <value>Aktiveer Recaptcha vir registrasie</value>
+  </data>
+  <data name="EnableRecaptchaForRegistration_Help" xml:space="preserve">
+    <value>As dit geaktiveer is, moet die gebruiker 'n Captcha-toets slaag voordat hy die Registrasie-bladsy indien.</value>
+  </data>
+  <data name="RecaptchaPrivateKey" xml:space="preserve">
+    <value>Recaptcha Privaatsleutel</value>
+  </data>
+  <data name="RecaptchaPrivateKey_Help" xml:space="preserve">
+    <value>Die Recaptcha-private sleutel wat deur Google aan u opgedra is.</value>
+  </data>
+  <data name="RecaptchaPublicKey" xml:space="preserve">
+    <value>Recaptcha Publieke sleutel</value>
+  </data>
+  <data name="RecaptchaPublicKey_Help" xml:space="preserve">
+    <value>Die Recaptcha-openbare sleutel wat deur Google aan u opgedra is.</value>
+  </data>
+  <data name="Theme_GallerySimple" xml:space="preserve">
+    <value>Galery-Simple</value>
+  </data>
+  <data name="SiteTimeZone" xml:space="preserve">
+    <value>Webwerf Tydsone</value>
+  </data>
+  <data name="SiteTimeZone_Help" xml:space="preserve">
+    <value>Die tydsone om alle datum / tye in te vertoon. &lt;br&gt; Opmerking: Alle name en afkortings kan in TimeZones.resx verander word</value>
+  </data>
+  <data name="TimeZoneLabel" xml:space="preserve">
+    <value>Tydsone-etiket</value>
+  </data>
+  <data name="TimeZoneLabel_Help" xml:space="preserve">
+    <value>Opsionele teksetiket wat na al die datum / tydwaardes op die hele webwerf vertoon word</value>
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
+    <value>Onder konstruksiemodus</value>
+  </data>
+  <data name="MaintenanceMode_Help" xml:space="preserve">
+    <value>As aangeskakel: op die tuisblad word die inhoud van die CMS onder konstruksie-modus en 'n "aanmeld" -skakel getoon. Daarbenewens sal slegs bestuurders toegelaat word om aan te meld.</value>
+  </data>
+  <data name="ManagerName" xml:space="preserve">
+    <value>Bestuurder se naam</value>
+  </data>
+  <data name="PaginateHomepageEvents" xml:space="preserve">
+    <value>Pagineer tuisbladgebeurtenisse</value>
+  </data>
+  <data name="PaginateHomepageEvents_Help" xml:space="preserve">
+    <value>Indien ingeskakel: tot "Maksimum tuisbladitems" -gebeurtenisse sal op die tuisblad gewys word, met bladsy-skakels vir die res. &lt;br&gt; As Uitgeskakel: Alle in aanmerking komende gebeure word op die tuisblad in een lys gewys.</value>
+  </data>
+  <data name="DefaultBrowseSort" xml:space="preserve">
+    <value>Standaard blaai sorteer</value>
+  </data>
+  <data name="DefaultBrowseSort_Help" xml:space="preserve">
+    <value>Kies watter sorteeropsie by verstek gekies word</value>
+  </data>
+  <data name="EndingSoon" xml:space="preserve">
+    <value>Einde binnekort</value>
+  </data>
+  <data name="Newest" xml:space="preserve">
+    <value>nuutste</value>
+  </data>
+  <data name="EnableRegions_Help" xml:space="preserve">
+    <value>As dit aangeskakel is: blaai- en soekresultate kan volgens Streek gefiltreer word, en alle lyste sal 'n opsionele 'Streek' -keuse bied, benewens 'n lyskategorie wanneer dit geskep word.</value>
+  </data>
+  <data name="ShowTimeZoneLabel" xml:space="preserve">
+    <value>Wys tydsoneetiket</value>
+  </data>
+  <data name="ShowTimeZoneLabel_Help" xml:space="preserve">
+    <value>As ingeskakel: alle datum- / tydwaardes sal vertoon word met die tydsone-afkorting (bv. Oosterse tyd (VS en Kanada) sal na alle tye 'ET' wys))</value>
+  </data>
+  <data name="Theme_Bootstrap3" xml:space="preserve">
+    <value>Ongestileerde Bootstrap-raamwerk</value>
+  </data>
+  <data name="Theme_Classic_Dark_00" xml:space="preserve">
+    <value>Klassiek - donker (geen agtergrondprent nie)</value>
+  </data>
+  <data name="Theme_Classic_Dark_01" xml:space="preserve">
+    <value>Klassiek - Donker (ligte houtagtergrond)</value>
+  </data>
+  <data name="Theme_Classic_Light_00" xml:space="preserve">
+    <value>Klassiek - lig (geen agtergrondprent nie)</value>
+  </data>
+  <data name="Theme_Classic_Light_01" xml:space="preserve">
+    <value>Klassiek - lig (ligte houtagtergrond)</value>
+  </data>
+  <data name="Theme_Minima_00" xml:space="preserve">
+    <value>minima</value>
+  </data>
+  <data name="Theme_Default_01" xml:space="preserve">
+    <value>AuctionWorx standaard (grys agtergrond)</value>
+  </data>
+  <data name="DefaultLotNumberDigits" xml:space="preserve">
+    <value>Verstek lotnommerformaat</value>
+  </data>
+  <data name="DefaultLotNumberDigits_Help" xml:space="preserve">
+    <value>&lt;p&gt; As 'n verkoper nie 'n lotnommer invoer nie, word een outomaties toegeken. Die getal wat toegeken word, sal geformateer word met die aantal karakters wat in hierdie instelling ingevoer is. &lt;/p&gt;&lt;p&gt; &lt;strong&gt; Voorbeeld: &lt;/strong&gt; &lt;br&gt; Wanneer die standaard nommer van die lotnommer op "1" is ingestel, kry die lotte 'n lotnommer wat begin met "1". &lt;br&gt; &lt; br&gt; Wanneer die standaardnommerformaat op "3" is ingestel, sal die lotte 'n lotnommer kry wat begin met "001"</value>
+  </data>
+  <data name="EnableEventDescription" xml:space="preserve">
+    <value>Aktiveer beskrywing</value>
+  </data>
+  <data name="EnableEventDescription_Help" xml:space="preserve">
+    <value>As aangeskakel: 'n "Beskrywing" -veld sal beskikbaar wees wanneer u 'n gebeurtenis skep of redigeer</value>
+  </data>
+  <data name="EnableEventManagedBy" xml:space="preserve">
+    <value>Aktiveer bestuur deur</value>
+  </data>
+  <data name="EnableEventManagedBy_Help" xml:space="preserve">
+    <value>Indien aangeskakel: 'n 'Bestuur deur' -veld is beskikbaar wanneer u 'n gebeurtenis skep of redigeer</value>
+  </data>
+  <data name="EnableEventShippingInfo" xml:space="preserve">
+    <value>Aktiveer gestuurinligting</value>
+  </data>
+  <data name="EnableEventShippingInfo_Help" xml:space="preserve">
+    <value>Indien aangeskakel: 'n "Gestuurinligting" -veld sal beskikbaar wees by die skep of redigering van 'n gebeurtenis</value>
+  </data>
+  <data name="EnableEventSummary" xml:space="preserve">
+    <value>Aktiveer opsomming</value>
+  </data>
+  <data name="EnableEventSummary_Help" xml:space="preserve">
+    <value>Indien aangeskakel: 'n "Opsomming" -veld sal beskikbaar wees wanneer u 'n gebeurtenis skep of redigeer</value>
+  </data>
+  <data name="EnableEventTermsAndConditions" xml:space="preserve">
+    <value>Aktiveer bepalings en voorwaardes</value>
+  </data>
+  <data name="EnableEventTermsAndConditions_Help" xml:space="preserve">
+    <value>As dit geaktiveer is, is 'n "Voorwaardes" -veld beskikbaar wanneer u 'n gebeurtenis skep of redigeer</value>
+  </data>
+  <data name="Theme_Classic_Dark_02" xml:space="preserve">
+    <value>Klassiek - Donker (subtiele grafiese berkboomagtergrond)</value>
+  </data>
+  <data name="Theme_Classic_Light_02" xml:space="preserve">
+    <value>Klassiek - lig (subtiele grafiese berkboomagtergrond)</value>
+  </data>
+  <data name="Theme_Default_02" xml:space="preserve">
+    <value>AuctionWorx verstek (neutrale / bruin agtergrond)</value>
+  </data>
+  <data name="PayPal_BackupPaymentCurrency" xml:space="preserve">
+    <value>Rugsteunbetalingsgeldeenheid</value>
+  </data>
+  <data name="PayPal_BackupPaymentCurrency_Help" xml:space="preserve">
+    <value>&lt;strong&gt; As aangeskakel: &lt;/strong&gt; Fakture in 'n geldeenheid wat nie deur PayPal aanvaar is nie, sal omgeskakel word na die geselekteerde geldeenheid voordat die betalingsversoek aan PayPal gestuur word. &lt;br&gt; &lt;br&gt;
+&lt;strong&gt; As Disabled: &lt;/strong&gt; Fakture in 'n geldeenheid wat nie deur PayPal aanvaar is nie, sal PayPal nie as 'n betaalmetode vertoon nie.</value>
+  </data>
+  <data name="HomepageCategories" xml:space="preserve">
+    <value>Wys kategorieë / streke op die tuisblad</value>
+  </data>
+  <data name="HomepageCategories_Help" xml:space="preserve">
+    <value>Kategorieë en streke sal op die tuisblad aan die linkerkant van die lys van die tuisblad verskyn.</value>
+  </data>
+  <data name="HomepageRowDisplayNumber" xml:space="preserve">
+    <value>Per tuisblad vertoon</value>
+  </data>
+  <data name="HomepageRowDisplayNumber_Help" xml:space="preserve">
+    <value>Die aantal tuisblad bevat lyste wat horisontaal vertoon moet word vir alle toestelle met 'n besigtigingsarea groter as 1200px. Hoe meer lyste regoor is, hoe kleiner sal elke prentjie wees.</value>
+  </data>
+  <data name="Across2" xml:space="preserve">
+    <value>2 oorkant</value>
+  </data>
+  <data name="Across3" xml:space="preserve">
+    <value>3 oorkant</value>
+  </data>
+  <data name="Across4" xml:space="preserve">
+    <value>4 oorkant</value>
+  </data>
+  <data name="Across6" xml:space="preserve">
+    <value>6 oorkant</value>
+  </data>
+  <data name="AuthorizeNet_EnableForSellers" xml:space="preserve">
+    <value>Aktiveer vir derdepartyverkopers</value>
+  </data>
+  <data name="AuthorizeNet_EnableForSellers_Help" xml:space="preserve">
+    <value>As dit gemerk is, sal verkopers toegelaat word om hul eie Authorize.Net-inskrywings vir die betaling van verkoopsbetalings in te voer. &lt;br&gt; &lt;br&gt; As dit nie gemerk is nie, kan slegs beheerders die kredietkaarte aanvaar vir die verkoopbetalings van hul eie lys.</value>
+  </data>
+  <data name="AuthorizeNet_SellerMerchantLoginID" xml:space="preserve">
+    <value>Authorize.Net Aanmeldings-ID vir handelaars</value>
+  </data>
+  <data name="AuthorizeNet_SellerMerchantLoginID_Help" xml:space="preserve">
+    <value>U Authorize.Net API-aanmelding</value>
+  </data>
+  <data name="AuthorizeNet_SellerTransactionKey" xml:space="preserve">
+    <value>Authorize.Net Transaksiesleutel</value>
+  </data>
+  <data name="AuthorizeNet_SellerTransactionKey_Help" xml:space="preserve">
+    <value>U Authorize.Net-transaksiesleutel</value>
+  </data>
+  <data name="SalesTaxEnabled" xml:space="preserve">
+    <value>Verkoopsbelasting</value>
+  </data>
+  <data name="SalesTaxEnabled_Help" xml:space="preserve">
+    <value>BTW word opsioneel gehef op grond van die ligging van die koper en die belastingkoerse wat deur elke verkoper bepaal word</value>
+  </data>
+  <data name="VatAppliesToBuyersPremium" xml:space="preserve">
+    <value>BTW is van toepassing op die koper se premie</value>
+  </data>
+  <data name="VatAppliesToBuyersPremium_Help" xml:space="preserve">
+    <value>BTW op verkoopfakture sluit die premies van die koper in</value>
+  </data>
+  <data name="VatAppliesToShipping" xml:space="preserve">
+    <value>BTW is van toepassing op gestuurgelde</value>
+  </data>
+  <data name="VatAppliesToShipping_Help" xml:space="preserve">
+    <value>BTW op verkoopfakture sal die versendkostes insluit</value>
+  </data>
+  <data name="VatAppliesToSiteFees" xml:space="preserve">
+    <value>BTW is van toepassing op faktuurfooie</value>
+  </data>
+  <data name="VatAppliesToSiteFees_Help" xml:space="preserve">
+    <value>BTW op faktuurfooie toe te pas</value>
+  </data>
+  <data name="VATEnabled" xml:space="preserve">
+    <value>BTW</value>
+  </data>
+  <data name="VATEnabled_Help" xml:space="preserve">
+    <value>BTW-belasting word gehef op alle verkoopfakture en webwerffooi-fakture, soos opgestel deur admin-voorkeure</value>
+  </data>
+  <data name="VatRate" xml:space="preserve">
+    <value>BTW koers</value>
+  </data>
+  <data name="VatRate_Help" xml:space="preserve">
+    <value>Hierdie persentasie belasting word bygevoeg by fakture soos hieronder opgestel</value>
+  </data>
+  <data name="TimeRemainingStyle" xml:space="preserve">
+    <value>Tyd oorblywende styl</value>
+  </data>
+  <data name="TimeRemainingStyle_Active" xml:space="preserve">
+    <value>Aktief, bv. "10 dae 19:33:10 oorbly"</value>
+  </data>
+  <data name="TimeRemainingStyle_Classic" xml:space="preserve">
+    <value>Klassiek, b.v. "10 dae, nog 19 ure" &lt;br&gt;</value>
+  </data>
+  <data name="TimeRemainingStyle_Help" xml:space="preserve">
+    <value>Hierdie instelling bepaal die formatering van die oorblywende tyd wanneer dit op die tuisblad, blaai- / soekbladsye en lys- / lotdetailbladsye gewys word</value>
+  </data>
+  <data name="EnableBuyNow" xml:space="preserve">
+    <value>Aktiveer nou koop</value>
+  </data>
+  <data name="EnableBuyNow_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: verkopers sal 'n koop Nou-prys vir veilinglyste kan spesifiseer</value>
+  </data>
+  <data name="EnablePDFAttachments" xml:space="preserve">
+    <value>Aktiveer PDF-aanhegsels</value>
+  </data>
+  <data name="EnablePDFAttachments_Help" xml:space="preserve">
+    <value>Indien ingeskakel: verkopers kan een of meer PDF-dokumente aan hul lys lys</value>
+  </data>
+  <data name="EnableReserve" xml:space="preserve">
+    <value>Aktiveer reserwe</value>
+  </data>
+  <data name="EnableReserve_Help" xml:space="preserve">
+    <value>Indien ingeskakel: verkopers sal 'n reserweprys vir veilinglyste kan spesifiseer</value>
+  </data>
+  <data name="EnableYoueTubeVideos" xml:space="preserve">
+    <value>Aktiveer YouTube-video's</value>
+  </data>
+  <data name="EnableYoueTubeVideos_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: verkopers sal 'n YouTube-video by hul lyslyste kan heg</value>
+  </data>
+  <data name="EnablePublicQandA" xml:space="preserve">
+    <value>Aktiveer openbare vrae en vrae</value>
+  </data>
+  <data name="EnablePublicQandA_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: geverifieerde gebruikers kan vrae publiseer op 'n lys van 'n aktiewe lys of 'n voorskou</value>
+  </data>
+  <data name="EnableWatchCount" xml:space="preserve">
+    <value>Aktiveer horlosietelling</value>
+  </data>
+  <data name="EnableWatchCount_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: die bladsy met vermelding / lot word 'n aantal getoon van die aantal gebruikers wat tans kyk</value>
+  </data>
+  <data name="FullImage" xml:space="preserve">
+    <value>Volle beeld</value>
+  </data>
+  <data name="GalleryType" xml:space="preserve">
+    <value>Tuisbladgalery Vertoningstipe</value>
+  </data>
+  <data name="GalleryType_Help" xml:space="preserve">
+    <value>Kies uit kleiner duimnaelbeelde of volgrootte prente. Volledige grootte beeld vertoon word die beste vertoon in 3 of 4 regoor, met tuisbladkategorieë gedeaktiveer.</value>
+  </data>
+  <data name="Thumbnail" xml:space="preserve">
+    <value>Duimnaelskets</value>
+  </data>
+  <data name="StripeConnect_ClientId" xml:space="preserve">
+    <value>Kliënt-ID</value>
+  </data>
+  <data name="StripeConnect_ClientId_Help" xml:space="preserve">
+    <value>Hierdie waarde kan gevind word onder die afdeling "U rekening&gt; Verbind&gt; Instellings&gt; Platforminstellings" op stripe.com nadat u u webwerf as 'n platform geregistreer het. &lt;br&gt; &lt;br&gt;
+Opmerking: voer 'n herleiding-URI in as "http (s): // (jou webwerf) / Stripe / HandleStripeConnectResponse"</value>
+  </data>
+  <data name="StripeConnect_Enabled" xml:space="preserve">
+    <value>Streep geaktiveer</value>
+  </data>
+  <data name="StripeConnect_EnabledForSellers" xml:space="preserve">
+    <value>Vir verkopers aangeskakel</value>
+  </data>
+  <data name="StripeConnect_EnabledForSellers_Help" xml:space="preserve">
+    <value>Indien ingeskakel: verkopers sal hul Stripe-rekening kan koppel vir die betaling van verkoopsbetalings. &lt;br&gt; &lt;br&gt;
+Opmerking: as u hierdie opsie aktiveer, moet u ook 'n Connect-eindpunt by u streeprekening voeg. Gaan na "U rekening&gt; API&gt; Webhooks&gt; Eindpunte wat gebeure vanaf u rekening ontvang&gt; Voeg eindpunt by", voer die URL in as "http (s): // (u webwerf) / Stripe / WebHookHandler" en kies Live-geleenthede.</value>
+  </data>
+  <data name="StripeConnect_Enabled_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: die sagteware koppel aan u Streeprekening met behulp van die Connect API en "Betaal met kredietkaart" sal beskikbaar wees as 'n afrekeningsopsie. Met hierdie betaalmetode kan gebruikers kredietkaartbetalings indien sonder om die webwerf te verlaat. Opmerking: met hierdie betaalmetode kan kredietkaarte op afstand gestoor word op stripe.com vir toekomstige aankope.</value>
+  </data>
+  <data name="StripeConnect_SiteFeesPublishableApiKey" xml:space="preserve">
+    <value>Webwerfgelde publiseerbare API-sleutel</value>
+  </data>
+  <data name="StripeConnect_SiteFeesPublishableApiKey_Help" xml:space="preserve">
+    <value>Hierdie waarde kan gevind word onder die afdeling "U rekening&gt; API" op stripe.com.</value>
+  </data>
+  <data name="StripeConnect_SiteFeesSecretApiKey" xml:space="preserve">
+    <value>Geheime API-sleutel vir werfgelde</value>
+  </data>
+  <data name="StripeConnect_SiteFeesSecretApiKey_Help" xml:space="preserve">
+    <value>Hierdie waarde kan gevind word onder die afdeling "U rekening&gt; API" op stripe.com.</value>
+  </data>
+  <data name="StripeConnect_SellerAccountConnected" xml:space="preserve">
+    <value>Streepbewyse</value>
+  </data>
+  <data name="AcceptCreditCard_Help" xml:space="preserve">
+    <value>As dit aangeskakel is: die opsie "Betaal met kredietkaart" sal by die afhandeling beskikbaar wees. Hierdie opsie vereis Autorize.Net-geloofsbriewe.</value>
+  </data>
+  <data name="AcceptPayPal_Help" xml:space="preserve">
+    <value>As dit aangeskakel is: die opsie "Betaal met PayPal" sal by die afhandeling beskikbaar wees. Hierdie opsie benodig 'n PayPal-e-posadres.</value>
+  </data>
+  <data name="AllowInstantCheckout_Help" xml:space="preserve">
+    <value>Indien ingeskakel: kopers kan onmiddellik na aankoop afreken. &lt;br&gt;
+As dit gedeaktiveer is: u kan alle fakture (bv. Die opdatering van gestuur, belasting, die koper se premie) aanpas voordat die koper die afhandeling kan voltooi.</value>
+  </data>
+  <data name="PaymentInstructions_Help" xml:space="preserve">
+    <value>Hierdie inligting sal aan alle gebruikers vertoon word wanneer u die besonderhede van u lyste bekyk. Hierdie inligting sal ook op onbetaalde fakture verskyn as daar geen ander betaalopsies beskikbaar is nie.</value>
+  </data>
+  <data name="TaxExempt" xml:space="preserve">
+    <value>Belastingvry</value>
+  </data>
+  <data name="TaxExempt_Help" xml:space="preserve">
+    <value>Indien ingeskakel: Belasting word uitgesluit van alle fakture waar die gebruiker die betaler is</value>
+  </data>
+  <data name="DefaultBrowseStyle" xml:space="preserve">
+    <value>Standaard blaaistyl</value>
+  </data>
+  <data name="DefaultBrowseStyle_grid" xml:space="preserve">
+    <value>Grid, 'n galleryformaat met groter beelde</value>
+  </data>
+  <data name="DefaultBrowseStyle_Help" xml:space="preserve">
+    <value>Hierdie instelling bepaal die standaardstyl om resultate op die blaai- / soekbladsye te vertoon</value>
+  </data>
+  <data name="DefaultBrowseStyle_list" xml:space="preserve">
+    <value>Lys, een lys per ry met meer teks &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent" xml:space="preserve">
+    <value>Tuisbladinhoud</value>
+  </data>
+  <data name="HomepageContent_browse" xml:space="preserve">
+    <value>Blaai deur, alle lyste &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_browse_Events" xml:space="preserve">
+    <value>Blaai, alle lotte</value>
+  </data>
+  <data name="HomepageContent_default" xml:space="preserve">
+    <value>Verstek volledige lys -</value>
+  </data>
+  <data name="HomepageContent_default_Events" xml:space="preserve">
+    <value>Standaard, lys van gebeure &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_Help" xml:space="preserve">
+    <value>Hierdie instelling bepaal watter inhoud op die tuisblad vertoon word</value>
+  </data>
+  <data name="HomepageContent_none" xml:space="preserve">
+    <value>Geen lyste nie</value>
+  </data>
+  <data name="HomepageContent_none_Events" xml:space="preserve">
+    <value>Geen gebeure nie</value>
+  </data>
+  <data name="EnableNonAuctionListingsForEvents" xml:space="preserve">
+    <value>Aktiveer nie-veilingslyste nie</value>
+  </data>
+  <data name="EnableNonAuctionListingsForEvents_Help" xml:space="preserve">
+    <value>As aangeskakel: Verkopers sal toegelaat word om vaste prys en / of geklassifiseerde aanbiedings apart van veiling / geleenthede te skep. OPMERKING: U moet een of albei van hierdie soorte lyste ook inskakel voordat dit gebruik kan word.</value>
+  </data>
+  <data name="CenterLogo" xml:space="preserve">
+    <value>Sentraal-logo-posisie</value>
+  </data>
+  <data name="CenterLogo_Help" xml:space="preserve">
+    <value>Die standaardposisieposisie vir rekenaar en tablette is in lyn met mekaar. Aktiveer hierdie instelling om die logo op die bladsy te sentreer. Vir alle toestelle waar die besigtigingsarea minder as 768 px breed is (d.w.s. mobiele toestelle), sal die logo outomaties gesentreer word.</value>
+  </data>
+  <data name="EnableMakeOffer" xml:space="preserve">
+    <value>Aktiveer maak aanbod</value>
+  </data>
+  <data name="EnableMakeOffer_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: koper kan aanbiedinge met alternatiewe prys, hoeveelheid en voorwaardes by die verkoper indien</value>
+  </data>
+  <data name="AllowMultipleOffers" xml:space="preserve">
+    <value>Laat verskeie aanbiedings toe</value>
+  </data>
+  <data name="AllowMultipleOffers_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: kopers kan meer as een aanbod op dieselfde lys / lot indien voordat die eerste aanbod deur die verkoper aanvaar, van die hand gewys of teengewerk is.</value>
+  </data>
+  <data name="OfferNotificationsEnabled" xml:space="preserve">
+    <value>Aktiveer boodskappe vir aanbiedings</value>
+  </data>
+  <data name="OfferNotificationsEnabled_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: kopers en verkopers sal e-poskennisgewings ontvang wanneer aanbiedinge gestuur word, ontvang, aanvaar, geweier of teëgewerk word. &lt;br&gt; Opmerking: elke individuele kennisgewingtipe kan aangeskakel of gedeaktiveer word in die gebied CMS&gt; E-possjablone.</value>
+  </data>
+  <data name="OfferTimeLimitHours" xml:space="preserve">
+    <value>Stel aanbiedingstye voor</value>
+  </data>
+  <data name="OfferTimeLimitHours_Help" xml:space="preserve">
+    <value>Wanneer die koper 'n aanbod aan 'n verkoper maak, verval die aanbod binne hierdie aantal ure, of wanneer die lot / notering eindig, wat ook al eerste kom.</value>
+  </data>
+  <data name="HeadingColor" xml:space="preserve">
+    <value>Opskrif Kleur</value>
+  </data>
+  <data name="HeadingColor_help" xml:space="preserve">
+    <value>Kies en stel die kleur in wat op die webwerfopskrif toegepas sal word. Gebruik die kleurseleprogram of voer die 6-karakter HEX-kode in. 'N HASH' # 'simbool moet aan alle HEX-kodes voorafgegaan word.</value>
+  </data>
+  <data name="SellerUsernameDetailPage" xml:space="preserve">
+    <value>Wys verkoperinligting op detailbladsy</value>
+  </data>
+  <data name="SellerUsernameDetailPage_Help" xml:space="preserve">
+    <value>Wys of verberg die verkoper se inligting op die bladsy met volledige besonderhede / lot. Dit sluit die gebruikernaam, ligging en die ster-gradering in.</value>
+  </data>
+  <data name="RequireAdminToPublishEvent" xml:space="preserve">
+    <value>Vereis beheerder om die geleentheid te publiseer</value>
+  </data>
+  <data name="RequireAdminToPublishEvent_Help" xml:space="preserve">
+    <value>As dit aangeskakel is: nie-verkopers wat nie administratief bestuur nie, sal die geleentheid nie onmiddellik kan publiseer nie. In plaas daarvan, wanneer 'n nie-bestuurder op die opsie "Publiseer gebeurtenis" geklik word, word 'n e-poskennisgewing gestuur na die adres wat gekonfigureer is in die veld "Webwerfvoorkeure&gt; Kontak - E-posadministrateur" met skakels om die geleentheid te publiseer of te besigtig. Die bestuurder kan ook die geleentheid op enige tydstip publiseer deur die verkoper na te boots en op die aftrekopsie 'Publiseer gebeurtenis' te klik.</value>
+  </data>
+  <data name="FollowAuctionLiveEnabled" xml:space="preserve">
+    <value>Aktiveer Volg Veiling regstreeks</value>
+  </data>
+  <data name="FollowAuctionLiveEnabled_Help" xml:space="preserve">
+    <value>&lt;p&gt; Aangesien 'n veilinggeleentheid begin sluit, sal gebruikers die opsie hê om "Live Auction Live te volg", wat hulle outomaties na die volgende Lot-sluiting in die huidige geleentheid herlei, aangesien elke lot eindig. &lt;/p&gt;
+&lt;p&gt; * As dit geaktiveer is, sal elke geleentheid sy eie instelling hê om gebruikers se vermoë om "Volg Auction Live" te volg of uit te skakel. &lt;/p&gt;
+&lt;p&gt; Opmerking: as dit vir 'n gebeurtenis aangeskakel is, sal die stelsel outomaties alle lotte by dieselfde outomatiese uitbreidingsgroep voeg, sodat elke lot een op 'n slag en in die regte volgorde volg. &lt;/p&gt;</value>
+  </data>
+  <data name="SalesTaxAppliesToBuyersPremium" xml:space="preserve">
+    <value>BTW is van toepassing op die koper se premie</value>
+  </data>
+  <data name="SalesTaxAppliesToBuyersPremium_Help" xml:space="preserve">
+    <value>BTW op verkoopfakture sluit die premies van die koper in</value>
+  </data>
+  <data name="MaxEventsPerPage" xml:space="preserve">
+    <value>Maks gebeure per bladsy</value>
+  </data>
+  <data name="MaxEventsPerPage_Help" xml:space="preserve">
+    <value>Die maksimum aantal gebeure wat op elke bladsy verskyn.</value>
+  </data>
+  <data name="QuickBidEnabled" xml:space="preserve">
+    <value>Aktiveer vinnige bod</value>
+  </data>
+  <data name="QuickBidEnabled_Help" xml:space="preserve">
+    <value>Indien geaktiveer: 'n 'Vinnige bod'-knoppie is beskikbaar op die item-bladsy en sal probeer om die huidige minimum bodbedrag in te dien as dit geklik word.
+Opmerking: hierdie instelling beïnvloed nie die instelling "Inline Bied (vinnige bod) inskakel nie" nie.</value>
+  </data>
+  <data name="EventHomeCategories" xml:space="preserve">
+    <value>Wys kategorieë / streke op die tuisblad van die gebeurtenis</value>
+  </data>
+  <data name="EventHomeCategories_Help" xml:space="preserve">
+    <value>Kategorieë en streke sal aan die linkerkant van die lotte op die gebeure-detailbladsy verskyn.</value>
+  </data>
+  <data name="LargeBidConfirmationEnabled" xml:space="preserve">
+    <value>Aktiveer bevestiging van 'n groot bod</value>
+  </data>
+  <data name="LargeBidConfirmationEnabled_Help" xml:space="preserve">
+    <value>As aangeskakel: As 'n gebruiker probeer om 'n bod 100 keer hoër (of meer) as die minimum aanvaarbare bodbedrag te plaas, sal 'n ekstra pop-upmodaal vertoon word om te bevestig of dit bedoel is, bv. "$ 100,00" of "$ 10.000,00", in die geval dat die bieër 'n desimale punt vergeet het.</value>
+  </data>
+  <data name="RollingLotUpdatesEnabled" xml:space="preserve">
+    <value>Rolling Lot Updates</value>
+  </data>
+  <data name="RollingLotUpdatesEnabled_Help" xml:space="preserve">
+    <value>Baie sal outomaties van die veilinggebeurtenis-bladsy verdwyn sodra dit sluit. Nuwe lotte sal outomaties onderaan die lys verskyn om dit te vervang.</value>
+  </data>
+  <data name="PleaseSelect_DropDownEmptyOptionLabel" xml:space="preserve">
+    <value>Kies asseblief...</value>
+  </data>
+  <data name="Consignor" xml:space="preserve">
+    <value>afsender</value>
+  </data>
+  <data name="Consignor_Help" xml:space="preserve">
+    <value>(Opsioneel) Gebruik hierdie veld om die naam of ID van die besender vir hierdie lot, indien van toepassing, te spesifiseer. Verkooptransaksies kan met hierdie data uitgevoer word vir CSV-uitvoer na die veiling.</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled" xml:space="preserve">
+    <value>Aktiveer inlynbiedings (vinnige bod)</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: 'n "Vinnige bod" -knoppie is beskikbaar vir elke veilingstuk en sal poog om die huidige minimum bodbedrag in te dien as dit geklik word.
+Dit sluit in: Blaai / soekresultate, Kyklys en my biedlys.</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled_EventsHelp" xml:space="preserve">
+    <value>As dit geaktiveer is: 'n 'Vinnige bod'-knoppie is op elke veilingitem beskikbaar, en sal poog om die huidige minimum bodbedrag in te dien as dit geklik word. Dit sluit in: Blaai / soekresultate, bladsy oor geleenthede (Veilingskatalogus), Kyklys, biedlys.</value>
+  </data>
+  <data name="LogAdminRequestStats" xml:space="preserve">
+    <value>Teken administrasieversoekstatistieke aan</value>
+  </data>
+  <data name="LogFrontEndRequestStats" xml:space="preserve">
+    <value>Teken voorkantstatistieke aan</value>
+  </data>
+  <data name="LogQueuestats" xml:space="preserve">
+    <value>Teken-ry-statistieke</value>
+  </data>
+  <data name="LogSignalrConnectionIssues" xml:space="preserve">
+    <value>Log SignalR-verbindings</value>
+  </data>
+  <data name="LogSignalrStats" xml:space="preserve">
+    <value>Log SignalR-statistieke</value>
+  </data>
+  <data name="LogWebApiStats" xml:space="preserve">
+    <value>Teken Web API-versoekstatistieke aan</value>
+  </data>
+  <data name="DataCleanup_DeleteArchivedEvents_Help" xml:space="preserve">
+    <value>Indien aangeskakel: Gearchiveerde veilingsgebeurtenisse ouer as die gespesifiseerde aantal dae, sal outomaties van die stelsel verwyder word.</value>
+  </data>
+  <data name="AutoChargeCCs" xml:space="preserve">
+    <value>Outokoste-kredietkaarte</value>
+  </data>
+  <data name="AutoChargeCCs_Help_EN" xml:space="preserve">
+    <value>&lt;b&gt; Uit &lt;/b&gt;: Kredietkaarte word NIE outomaties gehef nie. &lt;br&gt;
+&lt;b&gt; Onmiddellik &lt;/b&gt;: die kaart op die lêer word outomaties gehef wanneer die faktuur outomaties geskep word. &lt;br&gt;
+&lt;b&gt; Daagliks &lt;/b&gt;: Een keer per dag word die kaart wat op die lêer lê op die gespesifiseerde tydstip vir elke onbetaalde verkoopfaktuur gehef.</value>
+  </data>
+  <data name="AutoChargeCCs_Help_EV" xml:space="preserve">
+    <value>&lt;b&gt; Uit &lt;/b&gt;: Kredietkaarte word NIE outomaties gehef nie. &lt;br&gt;
+&lt;b&gt; Wanneer die gebeurtenis sluit &lt;/b&gt;: die kaart op die lêer word outomaties gehef wanneer die gepaardgaande gebeurtenis sluit. &lt;br&gt;
+&lt;b&gt; Daagliks &lt;/b&gt;: Een keer per dag word die kaart wat op die lêer lê op die gespesifiseerde tydstip vir elke onbetaalde verkoopfaktuur gehef.</value>
+  </data>
+  <data name="AutoGenerateInvoices" xml:space="preserve">
+    <value>Genereer fakture outomaties</value>
+  </data>
+  <data name="AutoGenerateInvoices_Help" xml:space="preserve">
+    <value>&lt;b&gt; As aangeskakel &lt;/b&gt;: Die verkoop word onmiddellik bygevoeg by 'n nuwe of bestaande faktuur wanneer 'n aankoop, 'n aanvaarde aanbod of 'n wenbod gefinaliseer word.</value>
+  </data>
+  <data name="Immediately" xml:space="preserve">
+    <value>Onmiddellik</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Af</value>
+  </data>
+  <data name="RequireCreditCardForBuyers" xml:space="preserve">
+    <value>Vereis kredietkaart vir kopers</value>
+  </data>
+  <data name="RequireCreditCardForBuyers_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: daar sal van kopers verwag word om 'n onverstreke kredietkaart in te dien voordat hulle aanbiedinge doen, aankope doen of aanbiedinge indien.</value>
+  </data>
+  <data name="RequireCreditCardForSellers" xml:space="preserve">
+    <value>Vereis kredietkaart vir verkopers</value>
+  </data>
+  <data name="RequireCreditCardForSellers_Help" xml:space="preserve">
+    <value>Indien geaktiveer: moet die verkoper 'n onverstreke kredietkaart hê voordat hy nuwe lyste of lotte skep.</value>
+  </data>
+  <data name="WhenEventCloses" xml:space="preserve">
+    <value>Wanneer die geleentheid sluit</value>
+  </data>
+  <data name="Message_me_for_invitation_to_view" xml:space="preserve">
+    <value>Stuur my 'n boodskap vir uitnodiging om te besigtig</value>
+  </data>
+  <data name="WeightUnit" xml:space="preserve">
+    <value>Gewigseenheid</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Gewig</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Diepte</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="DimensionUnit" xml:space="preserve">
+    <value>Maateenheid</value>
+  </data>
+	<data name="Kilogram" xml:space="preserve">
+    <value>Kilogram</value>
+  </data>
+	<data name="Pound" xml:space="preserve">
+    <value>Pond</value>
+  </data>
+	<data name="Centimeter" xml:space="preserve">
+    <value>Sentimeter</value>
+  </data>
+	<data name="Inch" xml:space="preserve">
+    <value>Duim</value>
+  </data>
+</root>

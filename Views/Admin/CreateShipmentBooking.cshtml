@@ -1,0 +1,1109 @@
+﻿
+@{
+    Layout = "~/Views/Page/_PageLayout.cshtml";   
+    ViewBag.PageName = Html.AdminResource("LineageString_CreateBooking");
+}
+    <div id="body">
+    </div>
+<div class="loader" id="AjaxLoader" style="display:none;">
+    <div class="strip-holder">
+        <div class="strip-1"></div>
+        <div class="strip-2"></div>
+        <div class="strip-3"></div>
+    </div>
+</div>
+<div id="alert" style="display:none">
+    <ul class="validation-summary-errors" id="UlError">
+    </ul>
+</div>
+<h2>@Html.AdminResource("CreateShipmentBooking")</h2>
+<form role="form" id="registerform" name="registerform" action="" autocomplete="off">
+    <div class="form-horizontal">
+        <h4 style=" background: #49b0de;
+        color: white;"><b>@Html.AdminResource("SellerInformation")</b></h4>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("SellerName") / @Html.AdminResource("CompanyName") <strong class="Required">*</strong> </label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("SellerName", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("SellerAddressLine1") <strong class="Required">*</strong> </label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("SellerAddressLine1", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("SellerAddressLine2") <strong class="Required">*</strong> </label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("SellerAddressLine2", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("SellerCity") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("SellerCity", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("SellerPostalCode") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("SellerPostalCode", null, new { @class = "form-control input-sm", required = "required", @maxlength = "11" })</div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("Country") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">
+                <select class="form-control" id="ddlSellerCountryList">
+                    <option value="">--Select--</option>
+                    <option value="AF">Afghanistan</option>
+                    <option value="AX">Åland Islands</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AO">Angola</option>
+                    <option value="AI">Anguilla</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="AG">Antigua and Barbuda</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AW">Aruba</option>
+                    <option value="AU">Australia</option>
+                    <option value="AT">Austria</option>
+                    <option value="AZ">Azerbaijan</option>
+                    <option value="BS">Bahamas</option>
+                    <option value="BH">Bahrain</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="BB">Barbados</option>
+                    <option value="BY">Belarus</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BZ">Belize</option>
+                    <option value="BJ">Benin</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="BT">Bhutan</option>
+                    <option value="BO">Bolivia, Plurinational State of</option>
+                    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                    <option value="BA">Bosnia and Herzegovina</option>
+                    <option value="BW">Botswana</option>
+                    <option value="BV">Bouvet Island</option>
+                    <option value="BR">Brazil</option>
+                    <option value="IO">British Indian Ocean Territory</option>
+                    <option value="BN">Brunei Darussalam</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="BF">Burkina Faso</option>
+                    <option value="BI">Burundi</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="CA">Canada</option>
+                    <option value="CV">Cape Verde</option>
+                    <option value="KY">Cayman Islands</option>
+                    <option value="CF">Central African Republic</option>
+                    <option value="TD">Chad</option>
+                    <option value="CL">Chile</option>
+                    <option value="CN">China</option>
+                    <option value="CX">Christmas Island</option>
+                    <option value="CC">Cocos (Keeling) Islands</option>
+                    <option value="CO">Colombia</option>
+                    <option value="KM">Comoros</option>
+                    <option value="CG">Congo</option>
+                    <option value="CD">Congo, the Democratic Republic of the</option>
+                    <option value="CK">Cook Islands</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="CI">Côte d'Ivoire</option>
+                    <option value="HR">Croatia</option>
+                    <option value="CU">Cuba</option>
+                    <option value="CW">Curaçao</option>
+                    <option value="CY">Cyprus</option>
+                    <option value="CZ">Czech Republic</option>
+                    <option value="DK">Denmark</option>
+                    <option value="DJ">Djibouti</option>
+                    <option value="DM">Dominica</option>
+                    <option value="DO">Dominican Republic</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="EG">Egypt</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="GQ">Equatorial Guinea</option>
+                    <option value="ER">Eritrea</option>
+                    <option value="EE">Estonia</option>
+                    <option value="ET">Ethiopia</option>
+                    <option value="FK">Falkland Islands (Malvinas)</option>
+                    <option value="FO">Faroe Islands</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finland</option>
+                    <option value="FR">France</option>
+                    <option value="GF">French Guiana</option>
+                    <option value="PF">French Polynesia</option>
+                    <option value="TF">French Southern Territories</option>
+                    <option value="GA">Gabon</option>
+                    <option value="GM">Gambia</option>
+                    <option value="GE">Georgia</option>
+                    <option value="DE">Germany</option>
+                    <option value="GH">Ghana</option>
+                    <option value="GI">Gibraltar</option>
+                    <option value="GR">Greece</option>
+                    <option value="GL">Greenland</option>
+                    <option value="GD">Grenada</option>
+                    <option value="GP">Guadeloupe</option>
+                    <option value="GU">Guam</option>
+                    <option value="GT">Guatemala</option>
+                    <option value="GG">Guernsey</option>
+                    <option value="GN">Guinea</option>
+                    <option value="GW">Guinea-Bissau</option>
+                    <option value="GY">Guyana</option>
+                    <option value="HT">Haiti</option>
+                    <option value="HM">Heard Island and McDonald Islands</option>
+                    <option value="VA">Holy See (Vatican City State)</option>
+                    <option value="HN">Honduras</option>
+                    <option value="HK">Hong Kong</option>
+                    <option value="HU">Hungary</option>
+                    <option value="IS">Iceland</option>
+                    <option value="IN">India</option>
+                    <option value="ID">Indonesia</option>
+                    <option value="IR">Iran, Islamic Republic of</option>
+                    <option value="IQ">Iraq</option>
+                    <option value="IE">Ireland</option>
+                    <option value="IM">Isle of Man</option>
+                    <option value="IL">Israel</option>
+                    <option value="IT">Italy</option>
+                    <option value="JM">Jamaica</option>
+                    <option value="JP">Japan</option>
+                    <option value="JE">Jersey</option>
+                    <option value="JO">Jordan</option>
+                    <option value="KZ">Kazakhstan</option>
+                    <option value="KE">Kenya</option>
+                    <option value="KI">Kiribati</option>
+                    <option value="KP">Korea, Democratic People's Republic of</option>
+                    <option value="KR">Korea, Republic of</option>
+                    <option value="KW">Kuwait</option>
+                    <option value="KG">Kyrgyzstan</option>
+                    <option value="LA">Lao People's Democratic Republic</option>
+                    <option value="LV">Latvia</option>
+                    <option value="LB">Lebanon</option>
+                    <option value="LS">Lesotho</option>
+                    <option value="LR">Liberia</option>
+                    <option value="LY">Libya</option>
+                    <option value="LI">Liechtenstein</option>
+                    <option value="LT">Lithuania</option>
+                    <option value="LU">Luxembourg</option>
+                    <option value="MO">Macao</option>
+                    <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                    <option value="MG">Madagascar</option>
+                    <option value="MW">Malawi</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="MV">Maldives</option>
+                    <option value="ML">Mali</option>
+                    <option value="MT">Malta</option>
+                    <option value="MH">Marshall Islands</option>
+                    <option value="MQ">Martinique</option>
+                    <option value="MR">Mauritania</option>
+                    <option value="MU">Mauritius</option>
+                    <option value="YT">Mayotte</option>
+                    <option value="MX">Mexico</option>
+                    <option value="FM">Micronesia, Federated States of</option>
+                    <option value="MD">Moldova, Republic of</option>
+                    <option value="MC">Monaco</option>
+                    <option value="MN">Mongolia</option>
+                    <option value="ME">Montenegro</option>
+                    <option value="MS">Montserrat</option>
+                    <option value="MA">Morocco</option>
+                    <option value="MZ">Mozambique</option>
+                    <option value="MM">Myanmar</option>
+                    <option value="NA">Namibia</option>
+                    <option value="NR">Nauru</option>
+                    <option value="NP">Nepal</option>
+                    <option value="NL">Netherlands</option>
+                    <option value="NC">New Caledonia</option>
+                    <option value="NZ">New Zealand</option>
+                    <option value="NI">Nicaragua</option>
+                    <option value="NE">Niger</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="NU">Niue</option>
+                    <option value="NF">Norfolk Island</option>
+                    <option value="MP">Northern Mariana Islands</option>
+                    <option value="NO">Norway</option>
+                    <option value="OM">Oman</option>
+                    <option value="PK">Pakistan</option>
+                    <option value="PW">Palau</option>
+                    <option value="PS">Palestinian Territory, Occupied</option>
+                    <option value="PA">Panama</option>
+                    <option value="PG">Papua New Guinea</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="PE">Peru</option>
+                    <option value="PH">Philippines</option>
+                    <option value="PN">Pitcairn</option>
+                    <option value="PL">Poland</option>
+                    <option value="PT">Portugal</option>
+                    <option value="PR">Puerto Rico</option>
+                    <option value="QA">Qatar</option>
+                    <option value="RE">Réunion</option>
+                    <option value="RO">Romania</option>
+                    <option value="RU">Russian Federation</option>
+                    <option value="RW">Rwanda</option>
+                    <option value="BL">Saint Barthélemy</option>
+                    <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                    <option value="KN">Saint Kitts and Nevis</option>
+                    <option value="LC">Saint Lucia</option>
+                    <option value="MF">Saint Martin (French part)</option>
+                    <option value="PM">Saint Pierre and Miquelon</option>
+                    <option value="VC">Saint Vincent and the Grenadines</option>
+                    <option value="WS">Samoa</option>
+                    <option value="SM">San Marino</option>
+                    <option value="ST">Sao Tome and Principe</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="SN">Senegal</option>
+                    <option value="RS">Serbia</option>
+                    <option value="SC">Seychelles</option>
+                    <option value="SL">Sierra Leone</option>
+                    <option value="SG">Singapore</option>
+                    <option value="SX">Sint Maarten (Dutch part)</option>
+                    <option value="SK">Slovakia</option>
+                    <option value="SI">Slovenia</option>
+                    <option value="SB">Solomon Islands</option>
+                    <option value="SO">Somalia</option>
+                    <option value="ZA">South Africa</option>
+                    <option value="GS">South Georgia and the South Sandwich Islands</option>
+                    <option value="SS">South Sudan</option>
+                    <option value="ES">Spain</option>
+                    <option value="LK">Sri Lanka</option>
+                    <option value="SD">Sudan</option>
+                    <option value="SR">Suriname</option>
+                    <option value="SJ">Svalbard and Jan Mayen</option>
+                    <option value="SZ">Swaziland</option>
+                    <option value="SE">Sweden</option>
+                    <option value="CH">Switzerland</option>
+                    <option value="SY">Syrian Arab Republic</option>
+                    <option value="TW">Taiwan, Province of China</option>
+                    <option value="TJ">Tajikistan</option>
+                    <option value="TZ">Tanzania, United Republic of</option>
+                    <option value="TH">Thailand</option>
+                    <option value="TL">Timor-Leste</option>
+                    <option value="TG">Togo</option>
+                    <option value="TK">Tokelau</option>
+                    <option value="TO">Tonga</option>
+                    <option value="TT">Trinidad and Tobago</option>
+                    <option value="TN">Tunisia</option>
+                    <option value="TR">Turkey</option>
+                    <option value="TM">Turkmenistan</option>
+                    <option value="TC">Turks and Caicos Islands</option>
+                    <option value="TV">Tuvalu</option>
+                    <option value="UG">Uganda</option>
+                    <option value="UA">Ukraine</option>
+                    <option value="AE">United Arab Emirates</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="US">United States</option>
+                    <option value="UM">United States Minor Outlying Islands</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="UZ">Uzbekistan</option>
+                    <option value="VU">Vanuatu</option>
+                    <option value="VE">Venezuela, Bolivarian Republic of</option>
+                    <option value="VN">Viet Nam</option>
+                    <option value="VG">Virgin Islands, British</option>
+                    <option value="VI">Virgin Islands, U.S.</option>
+                    <option value="WF">Wallis and Futuna</option>
+                    <option value="EH">Western Sahara</option>
+                    <option value="YE">Yemen</option>
+                    <option value="ZM">Zambia</option>
+                    <option value="ZW">Zimbabwe</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("SellerPersonName ") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("SellerPersonName", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("SellerContactNumber") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("SellerContactNumber", null, new { @class = "form-control input-sm", required = "required", @maxlength = "24" })</div>
+        </div>
+    </div>
+
+    <div class="form-horizontal">
+        <h4 style="background: #49b0de; color: white;"><b>@Html.AdminResource("CustomerInformation")</b></h4>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("CustomerName") / @Html.AdminResource("CompanyName") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("CustomerName", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("ItemNumber")# <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("ItemNo", null, new { @id= "tbItemNo", @type = "number", @class = "form-control input-sm", required = "required" , min = "0" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("CustomerAddressLine1") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("CustomerAddressLine1", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("CustomerAddressLine2") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("CustomerAddressLine2", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("CustomerCity") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("CustomerCity", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("CustomerPostalCode") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("CustomerPostalCode", null, new { @class = "form-control input-sm", required = "required", @maxlength = "11" })</div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("Country") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">
+                <select class="form-control input-sm" id="ddlShipCountryList">
+                    <option value="">--Select--</option>
+                    <option value="AF">Afghanistan</option>
+                    <option value="AX">Åland Islands</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AO">Angola</option>
+                    <option value="AI">Anguilla</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="AG">Antigua and Barbuda</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AW">Aruba</option>
+                    <option value="AU">Australia</option>
+                    <option value="AT">Austria</option>
+                    <option value="AZ">Azerbaijan</option>
+                    <option value="BS">Bahamas</option>
+                    <option value="BH">Bahrain</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="BB">Barbados</option>
+                    <option value="BY">Belarus</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BZ">Belize</option>
+                    <option value="BJ">Benin</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="BT">Bhutan</option>
+                    <option value="BO">Bolivia, Plurinational State of</option>
+                    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                    <option value="BA">Bosnia and Herzegovina</option>
+                    <option value="BW">Botswana</option>
+                    <option value="BV">Bouvet Island</option>
+                    <option value="BR">Brazil</option>
+                    <option value="IO">British Indian Ocean Territory</option>
+                    <option value="BN">Brunei Darussalam</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="BF">Burkina Faso</option>
+                    <option value="BI">Burundi</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="CA">Canada</option>
+                    <option value="CV">Cape Verde</option>
+                    <option value="KY">Cayman Islands</option>
+                    <option value="CF">Central African Republic</option>
+                    <option value="TD">Chad</option>
+                    <option value="CL">Chile</option>
+                    <option value="CN">China</option>
+                    <option value="CX">Christmas Island</option>
+                    <option value="CC">Cocos (Keeling) Islands</option>
+                    <option value="CO">Colombia</option>
+                    <option value="KM">Comoros</option>
+                    <option value="CG">Congo</option>
+                    <option value="CD">Congo, the Democratic Republic of the</option>
+                    <option value="CK">Cook Islands</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="CI">Côte d'Ivoire</option>
+                    <option value="HR">Croatia</option>
+                    <option value="CU">Cuba</option>
+                    <option value="CW">Curaçao</option>
+                    <option value="CY">Cyprus</option>
+                    <option value="CZ">Czech Republic</option>
+                    <option value="DK">Denmark</option>
+                    <option value="DJ">Djibouti</option>
+                    <option value="DM">Dominica</option>
+                    <option value="DO">Dominican Republic</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="EG">Egypt</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="GQ">Equatorial Guinea</option>
+                    <option value="ER">Eritrea</option>
+                    <option value="EE">Estonia</option>
+                    <option value="ET">Ethiopia</option>
+                    <option value="FK">Falkland Islands (Malvinas)</option>
+                    <option value="FO">Faroe Islands</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finland</option>
+                    <option value="FR">France</option>
+                    <option value="GF">French Guiana</option>
+                    <option value="PF">French Polynesia</option>
+                    <option value="TF">French Southern Territories</option>
+                    <option value="GA">Gabon</option>
+                    <option value="GM">Gambia</option>
+                    <option value="GE">Georgia</option>
+                    <option value="DE">Germany</option>
+                    <option value="GH">Ghana</option>
+                    <option value="GI">Gibraltar</option>
+                    <option value="GR">Greece</option>
+                    <option value="GL">Greenland</option>
+                    <option value="GD">Grenada</option>
+                    <option value="GP">Guadeloupe</option>
+                    <option value="GU">Guam</option>
+                    <option value="GT">Guatemala</option>
+                    <option value="GG">Guernsey</option>
+                    <option value="GN">Guinea</option>
+                    <option value="GW">Guinea-Bissau</option>
+                    <option value="GY">Guyana</option>
+                    <option value="HT">Haiti</option>
+                    <option value="HM">Heard Island and McDonald Islands</option>
+                    <option value="VA">Holy See (Vatican City State)</option>
+                    <option value="HN">Honduras</option>
+                    <option value="HK">Hong Kong</option>
+                    <option value="HU">Hungary</option>
+                    <option value="IS">Iceland</option>
+                    <option value="IN">India</option>
+                    <option value="ID">Indonesia</option>
+                    <option value="IR">Iran, Islamic Republic of</option>
+                    <option value="IQ">Iraq</option>
+                    <option value="IE">Ireland</option>
+                    <option value="IM">Isle of Man</option>
+                    <option value="IL">Israel</option>
+                    <option value="IT">Italy</option>
+                    <option value="JM">Jamaica</option>
+                    <option value="JP">Japan</option>
+                    <option value="JE">Jersey</option>
+                    <option value="JO">Jordan</option>
+                    <option value="KZ">Kazakhstan</option>
+                    <option value="KE">Kenya</option>
+                    <option value="KI">Kiribati</option>
+                    <option value="KP">Korea, Democratic People's Republic of</option>
+                    <option value="KR">Korea, Republic of</option>
+                    <option value="KW">Kuwait</option>
+                    <option value="KG">Kyrgyzstan</option>
+                    <option value="LA">Lao People's Democratic Republic</option>
+                    <option value="LV">Latvia</option>
+                    <option value="LB">Lebanon</option>
+                    <option value="LS">Lesotho</option>
+                    <option value="LR">Liberia</option>
+                    <option value="LY">Libya</option>
+                    <option value="LI">Liechtenstein</option>
+                    <option value="LT">Lithuania</option>
+                    <option value="LU">Luxembourg</option>
+                    <option value="MO">Macao</option>
+                    <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                    <option value="MG">Madagascar</option>
+                    <option value="MW">Malawi</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="MV">Maldives</option>
+                    <option value="ML">Mali</option>
+                    <option value="MT">Malta</option>
+                    <option value="MH">Marshall Islands</option>
+                    <option value="MQ">Martinique</option>
+                    <option value="MR">Mauritania</option>
+                    <option value="MU">Mauritius</option>
+                    <option value="YT">Mayotte</option>
+                    <option value="MX">Mexico</option>
+                    <option value="FM">Micronesia, Federated States of</option>
+                    <option value="MD">Moldova, Republic of</option>
+                    <option value="MC">Monaco</option>
+                    <option value="MN">Mongolia</option>
+                    <option value="ME">Montenegro</option>
+                    <option value="MS">Montserrat</option>
+                    <option value="MA">Morocco</option>
+                    <option value="MZ">Mozambique</option>
+                    <option value="MM">Myanmar</option>
+                    <option value="NA">Namibia</option>
+                    <option value="NR">Nauru</option>
+                    <option value="NP">Nepal</option>
+                    <option value="NL">Netherlands</option>
+                    <option value="NC">New Caledonia</option>
+                    <option value="NZ">New Zealand</option>
+                    <option value="NI">Nicaragua</option>
+                    <option value="NE">Niger</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="NU">Niue</option>
+                    <option value="NF">Norfolk Island</option>
+                    <option value="MP">Northern Mariana Islands</option>
+                    <option value="NO">Norway</option>
+                    <option value="OM">Oman</option>
+                    <option value="PK">Pakistan</option>
+                    <option value="PW">Palau</option>
+                    <option value="PS">Palestinian Territory, Occupied</option>
+                    <option value="PA">Panama</option>
+                    <option value="PG">Papua New Guinea</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="PE">Peru</option>
+                    <option value="PH">Philippines</option>
+                    <option value="PN">Pitcairn</option>
+                    <option value="PL">Poland</option>
+                    <option value="PT">Portugal</option>
+                    <option value="PR">Puerto Rico</option>
+                    <option value="QA">Qatar</option>
+                    <option value="RE">Réunion</option>
+                    <option value="RO">Romania</option>
+                    <option value="RU">Russian Federation</option>
+                    <option value="RW">Rwanda</option>
+                    <option value="BL">Saint Barthélemy</option>
+                    <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                    <option value="KN">Saint Kitts and Nevis</option>
+                    <option value="LC">Saint Lucia</option>
+                    <option value="MF">Saint Martin (French part)</option>
+                    <option value="PM">Saint Pierre and Miquelon</option>
+                    <option value="VC">Saint Vincent and the Grenadines</option>
+                    <option value="WS">Samoa</option>
+                    <option value="SM">San Marino</option>
+                    <option value="ST">Sao Tome and Principe</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="SN">Senegal</option>
+                    <option value="RS">Serbia</option>
+                    <option value="SC">Seychelles</option>
+                    <option value="SL">Sierra Leone</option>
+                    <option value="SG">Singapore</option>
+                    <option value="SX">Sint Maarten (Dutch part)</option>
+                    <option value="SK">Slovakia</option>
+                    <option value="SI">Slovenia</option>
+                    <option value="SB">Solomon Islands</option>
+                    <option value="SO">Somalia</option>
+                    <option value="ZA">South Africa</option>
+                    <option value="GS">South Georgia and the South Sandwich Islands</option>
+                    <option value="SS">South Sudan</option>
+                    <option value="ES">Spain</option>
+                    <option value="LK">Sri Lanka</option>
+                    <option value="SD">Sudan</option>
+                    <option value="SR">Suriname</option>
+                    <option value="SJ">Svalbard and Jan Mayen</option>
+                    <option value="SZ">Swaziland</option>
+                    <option value="SE">Sweden</option>
+                    <option value="CH">Switzerland</option>
+                    <option value="SY">Syrian Arab Republic</option>
+                    <option value="TW">Taiwan, Province of China</option>
+                    <option value="TJ">Tajikistan</option>
+                    <option value="TZ">Tanzania, United Republic of</option>
+                    <option value="TH">Thailand</option>
+                    <option value="TL">Timor-Leste</option>
+                    <option value="TG">Togo</option>
+                    <option value="TK">Tokelau</option>
+                    <option value="TO">Tonga</option>
+                    <option value="TT">Trinidad and Tobago</option>
+                    <option value="TN">Tunisia</option>
+                    <option value="TR">Turkey</option>
+                    <option value="TM">Turkmenistan</option>
+                    <option value="TC">Turks and Caicos Islands</option>
+                    <option value="TV">Tuvalu</option>
+                    <option value="UG">Uganda</option>
+                    <option value="UA">Ukraine</option>
+                    <option value="AE">United Arab Emirates</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="US">United States</option>
+                    <option value="UM">United States Minor Outlying Islands</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="UZ">Uzbekistan</option>
+                    <option value="VU">Vanuatu</option>
+                    <option value="VE">Venezuela, Bolivarian Republic of</option>
+                    <option value="VN">Viet Nam</option>
+                    <option value="VG">Virgin Islands, British</option>
+                    <option value="VI">Virgin Islands, U.S.</option>
+                    <option value="WF">Wallis and Futuna</option>
+                    <option value="EH">Western Sahara</option>
+                    <option value="YE">Yemen</option>
+                    <option value="ZM">Zambia</option>
+                    <option value="ZW">Zimbabwe</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("CustomerPersonName") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("CustomerPersonName", null, new { @class = "form-control input-sm", required = "required", @maxlength = "34" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("CustomerPhoneNumber") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("CustomerPhoneNumber", null, new { @class = "form-control input-sm", required = "required", @maxlength = "24" })</div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("ShipmentDescription") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextArea("ShipmentDescription", null, new { @class = "form-control  input-sm", required = "required", @maxlength = "89" })</div>
+        </div>
+
+
+    </div>
+
+    <div class="form-horizontal">
+        <h4 style="background: #49b0de; color: white;"><b>@Html.AdminResource("ShipmentDetail")</b></h4>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("WeightUnit") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">
+                <select class="form-control" name="weightUom" id="WeightUom" data-placeholder="Choose a Category">
+                    <option value="">--@Html.AdminResource("Select")--</option>
+                    <option value="L">@Html.AdminResource("Pound")</option>
+                    <option value="K">@Html.AdminResource("Kilogram")</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("Dimension")<strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">
+                <select class="form-control" name="dimensionUom" id="DimensionUom" data-placeholder="Choose a Uom">
+                    <option value="">--@Html.AdminResource("Select")--</option>
+                    <option value="I">@Html.AdminResource("Inch")</option>
+                    <option value="C">@Html.AdminResource("Centimeter")</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("Weight") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("Weight", null, new { @type = "number", @class = "form-control input-sm", required = "required", step = ".01", onkeypress = "return validateDec(event)", onCopy = "return false", onDrag = "return false", onDrop = "return false", onPaste = "return false", min = "1", max = "1000" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("Width") <strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("Width", null, new { @type = "number", @class = "form-control input-sm", required = "required", onkeypress = "return event.charCode >= 48 && event.charCode <= 57", onCopy = "return false", onDrag = "return false", onDrop = "return false", onPaste = "return false", min = "1", max = "1000" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("Height")<strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("Height", null, new { @type = "number", @class = "form-control input-sm", required = "required", onkeypress = "return event.charCode >= 48 && event.charCode <= 57", onCopy = "return false", onDrag = "return false", onDrop = "return false", onPaste = "return false", min = "1", max = "1000" })</div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">@Html.AdminResource("Length")<strong class="Required">*</strong></label>
+            <div class="col-xs-10 col-sm-6">@Html.TextBox("Length", null, new { @type = "number", @class = "form-control input-sm", required = "required", onkeypress = "return event.charCode >= 48 && event.charCode <= 57", onCopy = "return false", onDrag = "return false", onDrop = "return false", onPaste = "return false", min = "1", max = "1000" })</div>
+        </div>
+
+    </div>
+    <div class="form-horizontal">
+        <div>
+            <input type="button" class="btn btn-success" id="btnSubmit" value="@Html.AdminResource("Submit")" />
+        </div>
+    </div>
+</form>
+
+<style>
+
+    /* Chrome, Safari, Edge, Opera */
+    #tbItemNo::-webkit-outer-spin-button,
+    #tbItemNo::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    #tbItemNo {
+        -moz-appearance: textfield;
+    }
+    /*!
+        // 3. Loader
+        // --------------------------------------------------*/
+    .loader {
+        top: 0;
+        left: 0;
+        position: fixed;
+        opacity: 0.8;
+        z-index: 10000000;
+        background: Black;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .strip-holder {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 50%;
+        margin-left: -50px;
+        position: relative;
+    }
+
+    .strip-1,
+    .strip-2,
+    .strip-3 {
+        width: 20px;
+        height: 20px;
+        background: #0072bc;
+        position: relative;
+        -webkit-animation: stripMove 2s ease infinite alternate;
+        animation: stripMove 2s ease infinite alternate;
+        -moz-animation: stripMove 2s ease infinite alternate;
+    }
+
+    .strip-2 {
+        -webkit-animation-duration: 2.1s;
+        animation-duration: 2.1s;
+        background-color: #23a8ff;
+    }
+
+    .strip-3 {
+        -webkit-animation-duration: 2.2s;
+        animation-duration: 2.2s;
+        background-color: #89d1ff;
+    }
+
+    @@-webkit-keyframes stripMove {
+        0% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+        }
+
+        50% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+            transform: scale(4, 1);
+            -webkit-transform: scale(4, 1);
+            -moz-transform: scale(4, 1);
+        }
+
+        100% {
+            transform: translate3d(-50px, 0px, 0px);
+            -webkit-transform: translate3d(-50px, 0px, 0px);
+            -moz-transform: translate3d(-50px, 0px, 0px);
+        }
+    }
+
+    @@-moz-keyframes stripMove {
+        0% {
+            transform: translate3d(-50px, 0px, 0px);
+            -webkit-transform: translate3d(-50px, 0px, 0px);
+            -moz-transform: translate3d(-50px, 0px, 0px);
+        }
+
+        50% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+            transform: scale(4, 1);
+            -webkit-transform: scale(4, 1);
+            -moz-transform: scale(4, 1);
+        }
+
+        100% {
+            transform: translate3d(50px, 0px, 0px);
+            -webkit-transform: translate3d(50px, 0px, 0px);
+            -moz-transform: translate3d(50px, 0px, 0px);
+        }
+    }
+
+    @@keyframes stripMove {
+        0% {
+            transform: translate3d(-50px, 0px, 0px);
+            -webkit-transform: translate3d(-50px, 0px, 0px);
+            -moz-transform: translate3d(-50px, 0px, 0px);
+        }
+
+        50% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+            transform: scale(4, 1);
+            -webkit-transform: scale(4, 1);
+            -moz-transform: scale(4, 1);
+        }
+
+        100% {
+            transform: translate3d(50px, 0px, 0px);
+            -webkit-transform: translate3d(50px, 0px, 0px);
+            -moz-transform: translate3d(50px, 0px, 0px);
+        }
+    }
+</style>
+<script>
+    @{
+        var sellerInformation = ViewData["SellerInformation"] as Address;
+        var currentUser =  ViewData["currentUser"] as User;
+        var DdDJUqtFGNYTatXKi7Iufg = ViewData["DdDJUqtFGNYTatXKi7Iufg=="];
+        var INaBgjO3K2Fxg2iIMwNSuw =  ViewData["INaBgjO3K2Fxg2iIMwNSuw=="];
+     }
+
+        var SellerName = "@sellerInformation.FirstName  @sellerInformation.LastName";
+        var SellerAddressLine1 ="@sellerInformation.Street1";
+        var SellerAddressLine2 = "@sellerInformation.Street2";
+        var SellerCity =  "@sellerInformation.City";
+        var SellerPostalCode = @sellerInformation.ZipPostal;
+        var SellerCountryCode = "@sellerInformation.Country.Code";
+        var SellerCountryName = "@sellerInformation.Country.Name";
+        var SellerPersonName = "@sellerInformation.FirstName @sellerInformation.LastName";
+        var SellerContactNumber = "@currentUser.PhoneNumber";
+        var DdDJUqtFGNYTatXKi7Iufg = "@DdDJUqtFGNYTatXKi7Iufg";
+        var INaBgjO3K2Fxg2iIMwNSuw = "@INaBgjO3K2Fxg2iIMwNSuw";
+
+
+
+    $(function () {
+
+        $('#tbItemNo').on('focusout past', function () {
+            if ($(this).val() != "") {
+                $("#AjaxLoader").show();
+                $.ajax({
+                    type: "POST",
+                    url: "/Listing/GetListingItemInfo",
+                    data: '{Id: "' + $("#tbItemNo").val() + '" }',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response.Msg == "Success") {
+                            for (var i = 0; i < response.ListingInfo.Properties.length; i++) {
+                                switch (response.ListingInfo.Properties[i].Field.Name) {
+                                    case
+                                        "WeightUnit":
+                                        $("#WeightUom>option[value='" + response.ListingInfo.Properties[i].Value[0] + "']").prop('selected', true);
+                                        $('#WeightUom').attr("disabled", true);
+                                        break;
+
+                                    case
+                                        "Weight":
+                                        $("#Weight").val(parseFloat(response.ListingInfo.Properties[i].Value));
+                                        $("#Weight").prop("readonly", true);
+                                        break;
+                                    case
+                                        "Height":
+                                        $("#Height").val(parseFloat(response.ListingInfo.Properties[i].Value));
+                                        $("#Height").prop("readonly", true);
+                                        break;
+                                    case
+                                        "Length":
+                                        $("#Length").val(parseFloat(response.ListingInfo.Properties[i].Value));
+                                        $("#Length").prop("readonly", true);
+                                        break;
+                                    case
+                                        "Width":
+                                        $("#Width").val(parseFloat(response.ListingInfo.Properties[i].Value));
+                                        $("#Width").prop("readonly", true);
+                                        break;
+                                    case
+                                        "DimensionUnit":
+                                        $("#DimensionUom>option[value='" + response.ListingInfo.Properties[i].Value[0] + "']").prop('selected', true);
+                                        $('#DimensionUom').attr("disabled", true);
+                                        break;
+                                }
+                            }
+                            $('#AjaxLoader').hide();
+                        }
+                        else {
+                            $('#tbItemNo').val('');
+                            $("#tbItemNo").prop("placeholder", "@Html.AdminResource("Pleaseentervaliditemcode")");
+                            $('#WeightUom').attr("disabled", false);
+                            $("select#WeightUom")[0].selectedIndex = 0;
+                            $("#Weight").prop("readonly", false);
+                            $('#Weight').val('');
+                            $("#Height").prop("readonly", false);
+                            $('#Height').val('');
+                            $("#Length").prop("readonly", false);
+                            $('#Length').val('');
+                            $("#Width").prop("readonly", false);
+                            $('#Width').val('');
+                            $('#DimensionUom').attr("disabled", false);
+                            $("select#DimensionUom")[0].selectedIndex = 0;
+                            $("#tbItemNo").css("border", "1px solid red");
+                            $("#tbItemNo").addClass("input-validation-error");
+                            $('#AjaxLoader').hide();
+                        }
+                    },
+                    failure: function (response) {
+                        $('#tbItemNo').val('');
+                        $("#tbItemNo").prop("placeholder", "@Html.AdminResource("Pleaseentervaliditemcode")");
+                        $('#WeightUom').attr("disabled", false);
+                        $("select#WeightUom")[0].selectedIndex = 0;
+                        $("#Weight").prop("readonly", false);
+                        $('#Weight').val('');
+                        $("#Height").prop("readonly", false);
+                        $('#Height').val('');
+                        $("#Length").prop("readonly", false);
+                        $('#Length').val('');
+                        $("#Width").prop("readonly", false);
+                        $('#Width').val('');
+                        $('#DimensionUom').attr("disabled", false);
+                        $("select#DimensionUom")[0].selectedIndex = 0;
+                        $("#tbItemNo").css("border", "1px solid red");
+                        $("#tbItemNo").addClass("input-validation-error");
+                        $('#AjaxLoader').hide();
+                    },
+                    error: function (response) {
+                        $('#tbItemNo').val('');
+                        $("#tbItemNo").prop("placeholder","@Html.AdminResource("Pleaseentervaliditemcode")");
+                        $('#WeightUom').attr("disabled", false);
+                        $("select#WeightUom")[0].selectedIndex = 0;
+                        $("#Weight").prop("readonly", false);
+                        $('#Weight').val('');
+                        $("#Height").prop("readonly", false);
+                        $('#Height').val('');
+                        $("#Length").prop("readonly", false);
+                        $('#Length').val('');
+                        $("#Width").prop("readonly", false);
+                        $('#Width').val('');
+                        $('#DimensionUom').attr("disabled", false);
+                        $("select#DimensionUom")[0].selectedIndex = 0;
+                        $("#tbItemNo").css("border", "1px solid red");
+                        $("#tbItemNo").addClass("input-validation-error");
+                        $('#AjaxLoader').hide();
+                    }
+                });
+
+            }
+            else {
+                $('#AjaxLoader').hide();
+            }
+        });
+
+            $('#Weight').keypress(function (event) {
+                var $this = $(this);
+                if ((event.which != 46 || $this.val().indexOf('.') != -1) && ((event.which < 48 || event.which > 57) && (event.which != 0 && event.which != 8))) {
+                    event.preventDefault();
+                }
+                var text = $(this).val();
+                if (text.length === 18) {
+                    $(this).val(text + ".")
+                }
+                if ((event.which == 46) && (text.indexOf('.') == -1)) {
+                    setTimeout(function () {
+                        if ($this.val().substring($this.val().indexOf('.')).length > 3) {
+                            $this.val($this.val().substring(0, $this.val().indexOf('.') + 3));
+                        }
+                    }, 1);
+                }
+                if ((text.indexOf('.') == 18 && text.substring(text.indexOf('.')).length > 2)) {
+                    event.preventDefault();
+                }
+                if (((text.indexOf('.') != -1) && (text.substring(text.indexOf('.')).length > 2) && (event.which != 0 && event.which != 8) && ($(this)[0].selectionStart >= text.length - 2))) {
+                    event.preventDefault();
+                }
+            });
+
+            $('#registerform  input[type="text"],TextArea , input[type="number"] , select').on('input propertychange change keyup paste mouseup', function ()  {
+
+            if ($(this).val() == "") {
+                $(this).css("border", "1px solid red");
+                $(this).addClass("input-validation-error");
+            }
+            else {
+                $(this).css("border", "1px solid black");
+                $(this).removeClass("input-validation-error");
+            }
+        });
+
+        $("#SellerName").val(SellerName);
+        $("#SellerAddressLine1").val(SellerAddressLine1);
+        $("#SellerAddressLine2").val(SellerAddressLine2);
+        $("#SellerCity").val(SellerCity);
+        $("#SellerPostalCode").val(SellerPostalCode);
+        $("#SellerContactNumber").val(SellerContactNumber);
+        $("#SellerPersonName").val(SellerPersonName);
+        $("#ddlSellerCountryList>option[value='" + SellerCountryCode + "']").prop('selected', true);
+
+
+         /*   var requestUrl = "http://ip-api.com/json";
+
+            $.ajax({
+                url: requestUrl,
+                type: 'GET',
+                success: function (json) {
+                    $("#ddlShipCountryList>option[value='" + json.countryCode + "']").prop('selected', true);
+                },
+                error: function (err) {
+                    console.log("Request failed, error= " + err);
+                }
+            });*/
+
+
+
+            $("#WeightUom").change(function () {
+                if ($("#WeightUom").val() == "L") {
+                    $("#DimensionUom>option[value='I']").prop('selected', true);
+                }
+                else if ($("#WeightUom").val() == "K") {
+                    $("#DimensionUom>option[value='C']").prop('selected', true);
+                }
+
+            });
+
+            $("#DimensionUom").change(function () {
+                if ($("#DimensionUom").val() == "I") {
+                    $("#WeightUom>option[value='L']").prop('selected', true);
+                }
+                else if ($("#DimensionUom").val() == "C") {
+                    $("#WeightUom>option[value='K']").prop('selected', true);
+                }
+
+            });
+
+        });
+    $("#btnSubmit").click(function () {
+        $('#AjaxLoader').show();
+        var message = "";
+        $('#registerform input[type="text"],TextArea , input[type="number"] , select').each(function () {
+            if ($(this).val() == "") {
+                $(this).css("border", "1px solid red");
+                message += $(this).parent().parent().find('label')[0].innerText.replace('*', '').trim().toUpperCase() + " IS REQUIRED <br>" ;
+            }
+            else {
+                $(this).css("border", "1px solid black");
+            }
+        });
+
+        if (message.length > 0) {
+            $("#alert").show();
+            $("#UlError").empty();
+            $('#AjaxLoader').hide();
+            for (var i = 0; i < message.length; i++) {
+                if (message.split('<br>')[i] == undefined) {
+                    return;
+                    break;
+                }
+                var node = document.createElement("LI");
+                var textnode = document.createTextNode(message.split('<br>')[i]);
+                node.appendChild(textnode);
+                document.getElementById("UlError").appendChild(node);
+            }
+
+            return;
+        }
+        else {
+            $("#alert").hide();
+           // $('#AjaxLoader').hide();
+        }
+            var settings = {
+                "url": "https://courierservice.2nd-to-first.com/middlewareApi.php",
+                "method": "POST",
+                "timeout": 0,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "data": JSON.stringify({ "CustomerName": "" + $("#CustomerName").val() + "", "CustomerAddressLine1": "" + $("#CustomerAddressLine1").val() + "", "CustomerAddressLine2": "" + $("#CustomerAddressLine2").val() + "", "CustomerCity": "" + $("#CustomerCity").val() + "", "CustomerPostalCode": ""+ $("#CustomerPostalCode").val() +"", "CustomerCountryCode": "" + $("#ddlShipCountryList").children("option:selected").val() + "", "CustomerCountryName": "" + $("#ddlShipCountryList").children("option:selected").text() + "", "CustomerPersonName": "" + $("#CustomerPersonName").val() + "", "CustomerPhoneNumber": "" + $("#CustomerPhoneNumber").val() + "", "ShipmentDescription": "" + $("#ShipmentDescription").val() + "", "Weight": $("#Weight").val(), "Width": $("#Width").val(), "Height": $("#Height").val(), "Length": $("#Length").val(), "WeightUom": "" + $("#WeightUom").children("option:selected").val() + "", "DimensionUom": "" + $("#DimensionUom").children("option:selected").val() + "", "SellerName": "" + $("#SellerName").val() + "", "SellerAddressLine1": "" + $("#SellerAddressLine1").val() + "", "SellerAddressLine2": "" + $("#SellerAddressLine2").val() + "", "SellerCity": "" + $("#SellerCity").val() + "", "SellerPostalCode": "" + $("#SellerPostalCode").val() + "", "SellerCountryCode": "" + $("#ddlSellerCountryList").children("option:selected").val() + "", "SellerCountryName": "" + $("#ddlSellerCountryList").children("option:selected").text() + "", "SellerPersonName": "" + $("#SellerPersonName").val() + "", "SellerContactNumber": "" + $("#SellerContactNumber").val() + "", "INaBgjO3K2Fxg2iIMwNSuw": "" + INaBgjO3K2Fxg2iIMwNSuw + "", "DdDJUqtFGNYTatXKi7Iufg": "" + DdDJUqtFGNYTatXKi7Iufg + "", "ItemCode": "" + $("#tbItemNo").val() + ""}),
+            };
+
+            $.ajax(settings).done(function (response) {
+                if (response.LabelFile != null && response.LabelFile != "" && response.LabelFile != undefined) {
+                    const linkSource = `data:application/pdf;base64,${response.LabelFile}`;
+                    const downloadLink = document.createElement("a");
+                    const fileName = "TrackingNo#" + response.TrackingNumber + "";
+                    downloadLink.href = linkSource;
+                    downloadLink.download = fileName;
+                    downloadLink.click();
+                   /* setTimeout(function () {
+                        window.open('https://courierservice.2nd-to-first.com/shipmentbooking.php', '_blank')
+                    }, 1000); */
+                    var url = 'https://courierservice.2nd-to-first.com/shipmentbooking.php';
+        var form = $('<form action="' + url + '" method="POST">' +
+            '<input type="hidden" name="INaBgjO3K2Fxg2iIMwNSuw" value="@INaBgjO3K2Fxg2iIMwNSuw" />' +
+            '<input type="hidden" name="DdDJUqtFGNYTatXKi7Iufg" value="@DdDJUqtFGNYTatXKi7Iufg" />' +
+            '</form>');
+        $('#body').append(form);
+                    form.submit();
+
+                    $('#registerform  input[type="text"],TextArea , input[type="number"]').val('');
+                    $('#AjaxLoader').hide();
+                    setTimeout(function () {
+                        location.href = "https://www.2nd-to-first.com/Admin/CreateShipmentBooking"
+                    }, 3000);
+                }
+                else {
+                    $('#AjaxLoader').hide();
+                    alert(response.ErrorMessage);
+                }
+
+            }).fail(function (err) {
+                $('#AjaxLoader').hide();
+                alert("Contact web administrator" + err.responseText);
+            });
+    });
+
+
+        function validateDec(key) {
+            //getting key code of pressed key
+            var keycode = (key.which) ? key.which : key.keyCode;
+            //comparing pressed keycodes
+            if (!(keycode == 8 || keycode == 46) && (keycode < 48 || keycode > 57)) {
+                return false;
+            }
+            else {
+                var parts = key.srcElement.value.split('.');
+                if (parts.length > 1 && keycode == 46)
+                    return false;
+                return true;
+            }
+        }
+</script>

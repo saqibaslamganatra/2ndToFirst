@@ -1,0 +1,154 @@
+﻿
+@{
+    //Layout = "~/Views/Admin/_AdminLayout.cshtml";
+    ViewBag.PageName = Html.AdminResource("LineageString_ShowBooking");
+}
+    <div class="loader" id="AjaxLoader" style="display:block;">
+        <div class="strip-holder">
+            <div class="strip-1"></div>
+            <div class="strip-2"></div>
+            <div class="strip-3"></div>
+        </div>
+    </div>
+<div id="body">
+
+</div>
+<style>
+    /*!
+        // 3. Loader
+        // --------------------------------------------------*/
+    .loader {
+        top: 0;
+        left: 0;
+        position: fixed;
+        opacity: 0.8;
+        z-index: 10000000;
+        background: Black;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .strip-holder {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 50%;
+        margin-left: -50px;
+        position: relative;
+    }
+
+    .strip-1,
+    .strip-2,
+    .strip-3 {
+        width: 20px;
+        height: 20px;
+        background: #0072bc;
+        position: relative;
+        -webkit-animation: stripMove 2s ease infinite alternate;
+        animation: stripMove 2s ease infinite alternate;
+        -moz-animation: stripMove 2s ease infinite alternate;
+    }
+
+    .strip-2 {
+        -webkit-animation-duration: 2.1s;
+        animation-duration: 2.1s;
+        background-color: #23a8ff;
+    }
+
+    .strip-3 {
+        -webkit-animation-duration: 2.2s;
+        animation-duration: 2.2s;
+        background-color: #89d1ff;
+    }
+
+    @@-webkit-keyframes stripMove {
+        0% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+        }
+
+        50% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+            transform: scale(4, 1);
+            -webkit-transform: scale(4, 1);
+            -moz-transform: scale(4, 1);
+        }
+
+        100% {
+            transform: translate3d(-50px, 0px, 0px);
+            -webkit-transform: translate3d(-50px, 0px, 0px);
+            -moz-transform: translate3d(-50px, 0px, 0px);
+        }
+    }
+
+    @@-moz-keyframes stripMove {
+        0% {
+            transform: translate3d(-50px, 0px, 0px);
+            -webkit-transform: translate3d(-50px, 0px, 0px);
+            -moz-transform: translate3d(-50px, 0px, 0px);
+        }
+
+        50% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+            transform: scale(4, 1);
+            -webkit-transform: scale(4, 1);
+            -moz-transform: scale(4, 1);
+        }
+
+        100% {
+            transform: translate3d(50px, 0px, 0px);
+            -webkit-transform: translate3d(50px, 0px, 0px);
+            -moz-transform: translate3d(50px, 0px, 0px);
+        }
+    }
+
+    @@keyframes stripMove {
+        0% {
+            transform: translate3d(-50px, 0px, 0px);
+            -webkit-transform: translate3d(-50px, 0px, 0px);
+            -moz-transform: translate3d(-50px, 0px, 0px);
+        }
+
+        50% {
+            transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+            transform: scale(4, 1);
+            -webkit-transform: scale(4, 1);
+            -moz-transform: scale(4, 1);
+        }
+
+        100% {
+            transform: translate3d(50px, 0px, 0px);
+            -webkit-transform: translate3d(50px, 0px, 0px);
+            -moz-transform: translate3d(50px, 0px, 0px);
+        }
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        @{
+            var DdDJUqtFGNYTatXKi7Iufg = ViewData["DdDJUqtFGNYTatXKi7Iufg=="];
+            var INaBgjO3K2Fxg2iIMwNSuw = ViewData["INaBgjO3K2Fxg2iIMwNSuw=="];
+        }
+
+        var DdDJUqtFGNYTatXKi7Iufg = "@DdDJUqtFGNYTatXKi7Iufg";
+        var INaBgjO3K2Fxg2iIMwNSuw = "@INaBgjO3K2Fxg2iIMwNSuw";
+
+        var url = 'https://courierservice.2nd-to-first.com/shipmentbooking.php';
+        var form = $('<form action="' + url + '" method="POST">' +
+            '<input type="hidden" name="INaBgjO3K2Fxg2iIMwNSuw" value="@INaBgjO3K2Fxg2iIMwNSuw" />' +
+            '<input type="hidden" name="DdDJUqtFGNYTatXKi7Iufg" value="@DdDJUqtFGNYTatXKi7Iufg" />' +
+            '</form>');
+        $('#body').append(form);
+        form.submit();
+    });
+</script>
+

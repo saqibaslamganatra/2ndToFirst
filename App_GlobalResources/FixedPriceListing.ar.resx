@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BUYER_NO_ACTIVITY" xml:space="preserve">
+    <value>لم تشتر هذا العنصر.</value>
+  </data>
+  <data name="BUYER_NO_QUANTITY_LEFT" xml:space="preserve">
+    <value>لا يمكنك شراء هذا البند. لقد بيعت.</value>
+  </data>
+  <data name="BUYER_PURCHASED" xml:space="preserve">
+    <value>لقد طلبت مسبقًا {0} من هذا العنصر.</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>اشتري الآن</value>
+  </data>
+  <data name="FeedbackScore" xml:space="preserve">
+    <value>نتاىج المراجعة</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>سعر ثابت</value>
+  </data>
+  <data name="FixedPriceDisclaimer" xml:space="preserve">
+    <value>هذا المنتج متاح للشراء المباشر من البائع. مطلوب أي مزايدة.</value>
+  </data>
+  <data name="ListingEndDateTime" xml:space="preserve">
+    <value>متاح حتى</value>
+  </data>
+  <data name="ListingLocation" xml:space="preserve">
+    <value>موقع الإدراج</value>
+  </data>
+  <data name="ListingPageViews" xml:space="preserve">
+    <value>مشاهدات الصفحة</value>
+  </data>
+  <data name="ListingStartedDateTime" xml:space="preserve">
+    <value>متوفر منذ</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>صاحب</value>
+  </data>
+  <data name="PerItem" xml:space="preserve">
+    <value>لكل بند</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>السعر</value>
+  </data>
+  <data name="PurchasePrice" xml:space="preserve">
+    <value>سعر الشراء</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>كمية</value>
+  </data>
+  <data name="QuantityAvailable" xml:space="preserve">
+    <value>الكمية متاحة</value>
+  </data>
+  <data name="SellerDetailsTitle" xml:space="preserve">
+    <value>عن البائع</value>
+  </data>
+  <data name="SellerUsername" xml:space="preserve">
+    <value>المدرجة من قبل</value>
+  </data>
+  <data name="SELLER_ACTIVITY" xml:space="preserve">
+    <value>لقد أجريت عملية بيع واحدة على الأقل.</value>
+  </data>
+  <data name="SELLER_NO_ACTIVITY" xml:space="preserve">
+    <value>لا يوجد مبيعات في هذا الوقت.</value>
+  </data>
+  <data name="SELLER_SUCCESSFUL" xml:space="preserve">
+    <value>لقد أجريت عملية بيع واحدة على الأقل.</value>
+  </data>
+  <data name="SELLER_UNSUCCESSFUL" xml:space="preserve">
+    <value>لا مبيعات.</value>
+  </data>
+  <data name="ConfirmPurchase" xml:space="preserve">
+    <value>قم بتأكيد شراء {0} من العناصر مقابل {1} لكل وحدة.</value>
+  </data>
+  <data name="BidderIsOwner" xml:space="preserve">
+    <value>المشتري هو المالك</value>
+  </data>
+  <data name="ListingChangedDuringProcessing" xml:space="preserve">
+    <value>تم تغيير هذه القائمة أثناء المعالجة</value>
+  </data>
+  <data name="ListingNotActive" xml:space="preserve">
+    <value>القائمة غير نشطة</value>
+  </data>
+  <data name="QuantityTooHigh" xml:space="preserve">
+    <value>الكمية عالية جدًا</value>
+  </data>
+  <data name="LISTING_AWAITING_PAYMENT" xml:space="preserve">
+    <value>لن تبدأ هذه القائمة حتى يتم دفع رسوم الإدراج.</value>
+  </data>
+  <data name="LISTING_NOT_STARTED" xml:space="preserve">
+    <value>هذه القائمة لم تبدأ.</value>
+  </data>
+  <data name="BadListingActionValue" xml:space="preserve">
+    <value>يجب أن تكون الكمية رقمًا صحيحًا أكبر من الصفر.</value>
+  </data>
+  <data name="PurchaseHistory" xml:space="preserve">
+    <value>تاريخ شراء</value>
+  </data>
+  <data name="LISTING_DELETED" xml:space="preserve">
+    <value>تم حذف هذه القائمة.</value>
+  </data>
+  <data name="ViewSellersOtherListings" xml:space="preserve">
+    <value>عرض قوائم البائع الأخرى</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>تاريخ شراء</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>موقعك</value>
+  </data>
+  <data name="ActionSuccess" xml:space="preserve">
+    <value>تم تقديم طلب الشراء الخاص بك.</value>
+  </data>
+  <data name="CurrentQuantity" xml:space="preserve">
+    <value>الكمية الحالية</value>
+  </data>
+  <data name="ClosedMessage" xml:space="preserve">
+    <value>هذا البند لم تعد متوفرة للشراء.</value>
+  </data>
+  <data name="PostListingFeeIsBasedOnXxx" xml:space="preserve">
+    <value>تستند رسوم قائمة البريد على السعر ...</value>
+  </data>
+  <data name="FinalFeeDescriptionNoTiers" xml:space="preserve">
+    <value>الرسوم النهائية للبائع هي نسبة مئوية من سعر البيع ، ولا يتم تحصيلها إلا عند حدوث عملية بيع.</value>
+  </data>
+  <data name="FinalFeeDescriptionWithTiers" xml:space="preserve">
+    <value>الرسوم النهائية للبائع هي نسبة مئوية من سعر البيع ، ولا يتم تحصيلها إلا عند حدوث عملية بيع ...</value>
+  </data>
+  <data name="ListingStartsDateTime" xml:space="preserve">
+    <value>متواجد في</value>
+  </data>
+  <data name="ScheduledListingStartsInX" xml:space="preserve">
+    <value>متاح في: {0}</value>
+  </data>
+  <data name="ScheduledListingStartsOnX" xml:space="preserve">
+    <value>متاح للشراء في {0}</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} على الإجمالي.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} من {2} على الإجمالي.</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_Xdollars" xml:space="preserve">
+    <value>السعر شاملاً {0}: {1}</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} على حسابك.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>سيتم تطبيق {0} {1} من {2} على حسابك.</value>
+  </data>
+  <data name="Quantity_small" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="Each" xml:space="preserve">
+    <value>كل</value>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>غير مصرح لك بشراء حاليًا</value>
+  </data>
+  <data name="UsersWatching" xml:space="preserve">
+    <value>مشاهدة</value>
+  </data>
+  <data name="UNKNOWN" xml:space="preserve">
+    <value>مجهول</value>
+  </data>
+  <data name="TypeIconAlt" xml:space="preserve">
+    <value>قائمة الشراء الآن</value>
+  </data>
+  <data name="BuyerFeeNotice" xml:space="preserve">
+    <value>شراء هذا البند سيتكبد رسوم المشتري</value>
+  </data>
+  <data name="AcceptOffers" xml:space="preserve">
+    <value>قبول العروض</value>
+  </data>
+  <data name="MakeOffer" xml:space="preserve">
+    <value>تقديم عرض</value>
+  </data>
+  <data name="OfferMessage" xml:space="preserve">
+    <value>رسالة العرض</value>
+  </data>
+  <data name="ReviewAndConfirmOffer" xml:space="preserve">
+    <value>مراجعة وتأكيد العرض</value>
+  </data>
+  <data name="ReviewOffer" xml:space="preserve">
+    <value>مراجعة العرض</value>
+  </data>
+  <data name="YourOffer" xml:space="preserve">
+    <value>عرضك</value>
+  </data>
+  <data name="QtyAvailable" xml:space="preserve">
+    <value>الكمية المتوفرة</value>
+  </data>
+  <data name="ListedPrice" xml:space="preserve">
+    <value>السعر المدرج: {0}</value>
+  </data>
+  <data name="ViewPurchaseHistory" xml:space="preserve">
+    <value>عرض سجل الشراء</value>
+  </data>
+  <data name="XUnsold" xml:space="preserve">
+    <value>{0} غير مبيع</value>
+  </data>
+  <data name="ENDED_WITH_OFFER_ACCEPTED" xml:space="preserve">
+    <value>انتهى البند مع عرض مقبول</value>
+  </data>
+  <data name="YOUR_OFFER_ACCEPTED" xml:space="preserve">
+    <value>تم قبول عرضك</value>
+  </data>
+  <data name="YOUR_OFFER_DECLINED" xml:space="preserve">
+    <value>تم رفض عرضك</value>
+  </data>
+  <data name="YOU_HAVE_PENDING_OFFER" xml:space="preserve">
+    <value>لديك عرض بانتظار ردك</value>
+  </data>
+  <data name="AvailableFor" xml:space="preserve">
+    <value>متاح لى</value>
+  </data>
+  <data name="AvailableIn" xml:space="preserve">
+    <value>متوفر في</value>
+  </data>
+  <data name="IsTaxable" xml:space="preserve">
+    <value>هذا البند خاضع للضريبة</value>
+  </data>
+</root>
