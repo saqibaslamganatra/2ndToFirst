@@ -27,6 +27,7 @@ using Attribute = RainWorx.FrameWorx.DTO.Attribute;
 using System.Reflection;
 using System.ServiceModel;
 using Image = System.Drawing.Image;
+using System.Data;
 
 namespace RainWorx.FrameWorx.MVC.Controllers
 {
@@ -1383,6 +1384,7 @@ namespace RainWorx.FrameWorx.MVC.Controllers
             {
                 int listingID;
                 bool payToProceed = ListingClient.CreateListing(User.Identity.Name, input, true, out listingID);
+                InsertShippingMethod(listingID, input);
 
                 try
                 {
@@ -1987,14 +1989,54 @@ namespace RainWorx.FrameWorx.MVC.Controllers
             //do call to BLL
             try
             {
-                //return a different view here for success or redirectaction...
-                if (ListingClient.UpdateListingWithUserInput(actingUserName, existingListing, input))
+                RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer dal = new RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer();
+                List<int> removeShipMethod = new List<int>();
+                var shippingMethods = from data in input.Items
+                                      where data.Key.ToLower().Contains("ship_method")
+                                      select data.Value;
+                Dictionary<int,int> shippingIdFromDB = new Dictionary<int, int>();
+                var exist = existingListing.ShippingOptions.Select(data => data.Method.ID);
+                foreach (int var in exist)
                 {
+                    if (!shippingMethods.Any(data => int.Parse(data) == var))
+                    {
+                        removeShipMethod.Add(var);
+                    }
+                }
+                foreach (int var in removeShipMethod)
+                {
+                    DataSet max = dal.GetDataSet("select max(Id) as max from RWX_ShippingOptions ");
+                    int _ship_method_id = int.Parse(max.Tables[0].Rows[0]["max"].ToString()) + 1;
+                    dal.ExecuteSQL("DELETE FROM RWX_ShippingOptions WHERE ListingId = " + id + " AND ShippingMethodId= " + var);
+                }
+                foreach (var _id in shippingMethods)
+                {
+                    DataSet existingShippingMethod = dal.GetDataSet("IF EXISTS (select id As ID , ListingId As ListingId ," +
+                        " ShippingMethodId As ShippingMethodId "
+                        + "from RWX_ShippingOptions where ListingId=" + id + " AND ShippingMethodId = " + _id + ") BEGIN " +
+                        "select id As ID , ListingId As ListingId ,ShippingMethodId As ShippingMethodId "
+                        + "from RWX_ShippingOptions where ListingId=" + id + " AND ShippingMethodId = " + _id + " END");
+                    if(existingShippingMethod != null && existingShippingMethod.Tables.Count > 0 && existingShippingMethod.Tables[0] !=null
+                        && existingShippingMethod.Tables[0].Rows.Count >0 && existingShippingMethod.Tables[0].Rows !=null
+                            && !string.IsNullOrEmpty(existingShippingMethod.Tables[0].Rows[0]["ID"].ToString()) && 
+                        !string.IsNullOrEmpty(existingShippingMethod.Tables[0].Rows[0]["ShippingMethodId"].ToString())) 
+                        shippingIdFromDB.Add(int.Parse(existingShippingMethod.Tables[0].Rows[0]["ID"].ToString()),
+                            int.Parse(existingShippingMethod.Tables[0].Rows[0]["ShippingMethodId"].ToString()));
+                }
+                bool flag = ListingClient.UpdateListingWithUserInput(actingUserName, existingListing, input);
+                foreach (var temp in shippingIdFromDB)
+                {
+                    dal.ExecuteSQL("UPDATE RWX_ShippingOptions SET ListingId ="+id+" where Id = "+temp.Key+ " AND ShippingMethodId="+temp.Value);
+                }
+                InsertShippingMethod(id , input,existingListing);
+                    //return a different view here for success or redirectaction...
+                if (flag)
+                {                    
                     //paytoproceed is true
                     return RedirectToAction(Strings.MVC.FeesAction, Strings.MVC.AccountController);
                 }
                 if (Url.IsLocalUrl(ReturnUrl))
-                {
+                {   
                     return Redirect(ReturnUrl);
                 }
                 return RedirectToAction(Strings.MVC.DetailsAction, Strings.MVC.ListingController, new { id });
@@ -2142,7 +2184,23 @@ namespace RainWorx.FrameWorx.MVC.Controllers
 
             return View(existingListing);
         }
+        public void InsertShippingMethod(int id, UserInput input, Listing existingListing=null)
+        {
+            RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer dal = new RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer();
+            var shippingMethods = from data in input.Items
+                                  where data.Key.ToLower().Contains("ship_method")
+                                  select data.Value;
+            foreach (string var in shippingMethods)
+            {
+                if (existingListing == null || !existingListing.ShippingOptions.Any(data => data.Method.ID == int.Parse(var)))
+                {
+                    DataSet max = dal.GetDataSet("select max(Id) as max from RWX_ShippingOptions ");
+                    int _ship_method_id = int.Parse(max.Tables[0].Rows[0]["max"].ToString()) + 1;
+                    dal.ExecuteSQL("INSERT INTO RWX_ShippingOptions(id,ShippingMethodId,ListingId) VALUES ('" + _ship_method_id + "','" + var + "','" + id + "') ");
+                }
+            }
 
+        }
         #endregion
 
         #region Add / Remove Watch
