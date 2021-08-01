@@ -180,4 +180,16 @@
   <data name="West_Africa" xml:space="preserve">
     <value>Wes Afrika</value>
   </data>
+  <data name="International_Suppliers" xml:space="preserve">
+    <value>Internasionaal (verskaffers)</value>
+  </data>
+   <data name="International_Gift_It" xml:space="preserve">
+    <value>Internasionaal (geskenk dit)</value>
+  </data>
+  <data name="Leisure" xml:space="preserve">
+    <value>Ontspanning</value>
+  </data>
+  <data name="Sports_Equipment" xml:space="preserve">
+    <value>Sporttoerusting</value>
+  </data>
 </root>
