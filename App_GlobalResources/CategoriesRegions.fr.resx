@@ -180,16 +180,4 @@
   <data name="West_Africa" xml:space="preserve">
     <value>Afrique de l'Ouest</value>
   </data>
-   <data name="International_Suppliers" xml:space="preserve">
-    <value>International (Fournisseurs)</value>
-  </data>
-   <data name="International_Gift_It" xml:space="preserve">
-    <value>International (offrez-le)</value>
-  </data>
-  <data name="Leisure" xml:space="preserve">
-    <value>Loisirs</value>
-  </data>
-  <data name="Sports_Equipment" xml:space="preserve">
-    <value>Équipement sportif</value>
-  </data>
 </root>
