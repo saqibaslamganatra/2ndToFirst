@@ -28,6 +28,7 @@ using System.Reflection;
 using System.ServiceModel;
 using Image = System.Drawing.Image;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace RainWorx.FrameWorx.MVC.Controllers
 {
@@ -2190,15 +2191,50 @@ namespace RainWorx.FrameWorx.MVC.Controllers
             var shippingMethods = from data in input.Items
                                   where data.Key.ToLower().Contains("ship_method")
                                   select data.Value;
-            foreach (string var in shippingMethods)
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ShippingMethodId" }
+            );
+            dt.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ListingId" }
+            );
+            dt.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "Id" }
+            );
+
+            DataRow row;
+            int count = 0;
+            shippingMethods.ToList().ForEach(s =>
             {
-                if (existingListing == null || !existingListing.ShippingOptions.Any(data => data.Method.ID == int.Parse(var)))
-                {
-                    DataSet max = dal.GetDataSet("select max(Id) as max from RWX_ShippingOptions ");
-                    int _ship_method_id = int.Parse(max.Tables[0].Rows[0]["max"].ToString()) + 1;
-                    dal.ExecuteSQL("INSERT INTO RWX_ShippingOptions(id,ShippingMethodId,ListingId) VALUES ('" + _ship_method_id + "','" + var + "','" + id + "') ");
-                }
+                count++;
+                row = dt.NewRow();
+                row["ShippingMethodId"] = s;
+                row["ListingId"] = id;
+                row["Id"] = count;
+                dt.Rows.Add(row);
+            });
+            if (existingListing == null)
+            {
+                SqlParameter param = new SqlParameter();
+                param.ParameterName = "DataTable";
+                param.SqlDbType = SqlDbType.Structured;
+                param.Value = dt;
+                param.Direction = ParameterDirection.Input;
+
+                dal.ExecuteSpNonQuery("dbo.Save_RWX_ShippingOptions", param);
             }
+
+
+            //foreach (string var in shippingMethods)
+            //{
+            //    if (existingListing == null || !existingListing.ShippingOptions.Any(data => data.Method.ID == int.Parse(var)))
+            //    {
+            //        DataSet max = dal.GetDataSet("select max(Id) as max from RWX_ShippingOptions ");
+            //        int _ship_method_id = int.Parse(max.Tables[0].Rows[0]["max"].ToString()) + 1;
+            //        dal.ExecuteSQL("INSERT INTO RWX_ShippingOptions(id,ShippingMethodId,ListingId) VALUES ('" + _ship_method_id + "','" + var + "','" + id + "') ");
+            //    }
+            //}
 
         }
         #endregion
