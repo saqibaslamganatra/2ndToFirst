@@ -1993,7 +1993,7 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                 RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer dal = new RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer();
                 List<int> removeShipMethod = new List<int>();
                 var shippingMethods = from data in input.Items
-                                      where data.Key.ToLower().Contains("ship_method")
+                                               where data.Key.ToLower().Contains("ship_method")
                                       select data.Value;
                 Dictionary<int,int> shippingIdFromDB = new Dictionary<int, int>();
                 var exist = existingListing.ShippingOptions.Select(data => data.Method.ID);
@@ -2004,65 +2004,43 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                         removeShipMethod.Add(var);
                     }
                 }
-                foreach (int var in removeShipMethod)
+                shippingIdFromDB = DeleteAndSelectShippingMethod(removeShipMethod,id, shippingMethods.ToList());
+                    bool flag = ListingClient.UpdateListingWithUserInput(actingUserName, existingListing, input);
+                UpdateShippingMethod(id, shippingIdFromDB);
+                    InsertShippingMethod(id , input,existingListing);
+                        //return a different view here for success or redirectaction...
+                    if (flag)
+                    {                    
+                        //paytoproceed is true
+                        return RedirectToAction(Strings.MVC.FeesAction, Strings.MVC.AccountController);
+                    }
+                    if (Url.IsLocalUrl(ReturnUrl))
+                    {   
+                        return Redirect(ReturnUrl);
+                    }
+                    return RedirectToAction(Strings.MVC.DetailsAction, Strings.MVC.ListingController, new { id });
+                }
+                catch (FaultException<ValidationFaultContract> vfc)
                 {
-                    DataSet max = dal.GetDataSet("select max(Id) as max from RWX_ShippingOptions ");
-                    int _ship_method_id = int.Parse(max.Tables[0].Rows[0]["max"].ToString()) + 1;
-                    dal.ExecuteSQL("DELETE FROM RWX_ShippingOptions WHERE ListingId = " + id + " AND ShippingMethodId= " + var);
+                    //display validation errors
+                    foreach (ValidationIssue issue in this.LocalizeCustomFieldValidationMessages(vfc.Detail.ValidationIssues))
+                    {
+                        ModelState.AddModelError(issue.Key, issue.Message);
+                    }
                 }
-                foreach (var _id in shippingMethods)
+                catch (FaultException<InvalidOperationFaultContract> iofc)
                 {
-                    DataSet existingShippingMethod = dal.GetDataSet("IF EXISTS (select id As ID , ListingId As ListingId ," +
-                        " ShippingMethodId As ShippingMethodId "
-                        + "from RWX_ShippingOptions where ListingId=" + id + " AND ShippingMethodId = " + _id + ") BEGIN " +
-                        "select id As ID , ListingId As ListingId ,ShippingMethodId As ShippingMethodId "
-                        + "from RWX_ShippingOptions where ListingId=" + id + " AND ShippingMethodId = " + _id + " END");
-                    if(existingShippingMethod != null && existingShippingMethod.Tables.Count > 0 && existingShippingMethod.Tables[0] !=null
-                        && existingShippingMethod.Tables[0].Rows.Count >0 && existingShippingMethod.Tables[0].Rows !=null
-                            && !string.IsNullOrEmpty(existingShippingMethod.Tables[0].Rows[0]["ID"].ToString()) && 
-                        !string.IsNullOrEmpty(existingShippingMethod.Tables[0].Rows[0]["ShippingMethodId"].ToString())) 
-                        shippingIdFromDB.Add(int.Parse(existingShippingMethod.Tables[0].Rows[0]["ID"].ToString()),
-                            int.Parse(existingShippingMethod.Tables[0].Rows[0]["ShippingMethodId"].ToString()));
+                    //display validation errors
+                    PrepareErrorMessage(iofc.Detail.Reason);
                 }
-                bool flag = ListingClient.UpdateListingWithUserInput(actingUserName, existingListing, input);
-                foreach (var temp in shippingIdFromDB)
+                catch (Exception e)
                 {
-                    dal.ExecuteSQL("UPDATE RWX_ShippingOptions SET ListingId ="+id+" where Id = "+temp.Key+ " AND ShippingMethodId="+temp.Value);
+                    ModelState.AddModelError(Strings.MVC.FormModelErrorKey, e.Message);
                 }
-                InsertShippingMethod(id , input,existingListing);
-                    //return a different view here for success or redirectaction...
-                if (flag)
-                {                    
-                    //paytoproceed is true
-                    return RedirectToAction(Strings.MVC.FeesAction, Strings.MVC.AccountController);
-                }
-                if (Url.IsLocalUrl(ReturnUrl))
-                {   
-                    return Redirect(ReturnUrl);
-                }
-                return RedirectToAction(Strings.MVC.DetailsAction, Strings.MVC.ListingController, new { id });
-            }
-            catch (FaultException<ValidationFaultContract> vfc)
-            {
-                //display validation errors
-                foreach (ValidationIssue issue in this.LocalizeCustomFieldValidationMessages(vfc.Detail.ValidationIssues))
-                {
-                    ModelState.AddModelError(issue.Key, issue.Message);
-                }
-            }
-            catch (FaultException<InvalidOperationFaultContract> iofc)
-            {
-                //display validation errors
-                PrepareErrorMessage(iofc.Detail.Reason);
-            }
-            catch (Exception e)
-            {
-                ModelState.AddModelError(Strings.MVC.FormModelErrorKey, e.Message);
-            }
 
-            //OUT
+                //OUT
 
-            //A validation or other error occurred so get all data needed to render view for correction
+                //A validation or other error occurred so get all data needed to render view for correction
 
             //get list of fields/field groups allowed to be edited in the current context
             Dictionary<string, bool> editableFields = ListingClient.GetUpdateableListingFields(actingUserName, existingListing);
@@ -2189,8 +2167,55 @@ namespace RainWorx.FrameWorx.MVC.Controllers
         {
             RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer dal = new RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer();
             var shippingMethods = from data in input.Items
-                                  where data.Key.ToLower().Contains("ship_method")
-                                  select data.Value;
+                                  where data.Key.ToLower().Contains("ship_method") 
+                                  select data.Value ;
+            List<string> shipmentList = new List<string>();
+            if (existingListing != null)
+            {
+                foreach (string var in shippingMethods)
+                {
+                    if (!existingListing.ShippingOptions.Any(data => data.Method.ID == int.Parse(var)))
+                    {
+                        shipmentList.Add(var);
+                    }
+                }
+            }
+            else
+                shipmentList = shippingMethods.ToList();
+            DataTable dt = new DataTable();
+            dt.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ShippingMethodId" }
+            );
+            dt.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ListingId" }
+            );
+            dt.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "Id" }
+            );
+
+            DataRow row;
+            int count = 0;
+            shipmentList.ForEach(s =>
+            {
+                count++;
+                row = dt.NewRow();
+                row["ShippingMethodId"] = s;
+                row["ListingId"] = id;
+                row["Id"] = count;
+                dt.Rows.Add(row);
+            });
+                SqlParameter param = new SqlParameter();
+                param.ParameterName = "DataTable";
+                param.SqlDbType = SqlDbType.Structured;
+                param.Value = dt;
+                param.Direction = ParameterDirection.Input;
+
+                dal.ExecuteSpNonQuery("Insert_RWX_ShippingOptions", param);
+            
+        }
+        public void UpdateShippingMethod(int id, Dictionary<int,int> updateListing)
+        {
+            RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer dal = new RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer();
 
             DataTable dt = new DataTable();
             dt.Columns.Add(new DataColumn()
@@ -2205,37 +2230,92 @@ namespace RainWorx.FrameWorx.MVC.Controllers
 
             DataRow row;
             int count = 0;
-            shippingMethods.ToList().ForEach(s =>
+            updateListing.ToList().ForEach(s =>
             {
                 count++;
                 row = dt.NewRow();
-                row["ShippingMethodId"] = s;
+                row["ShippingMethodId"] = s.Value;
                 row["ListingId"] = id;
-                row["Id"] = count;
+                row["Id"] = s.Key;
                 dt.Rows.Add(row);
             });
-            if (existingListing == null)
-            {
                 SqlParameter param = new SqlParameter();
-                param.ParameterName = "DataTable";
+                param.ParameterName = "UpdateShippingMethodDt";
                 param.SqlDbType = SqlDbType.Structured;
                 param.Value = dt;
                 param.Direction = ParameterDirection.Input;
 
-                dal.ExecuteSpNonQuery("dbo.Save_RWX_ShippingOptions", param);
+                dal.ExecuteSpNonQuery("UpdateShippingMethodSp", param);
+            
+        }
+        public Dictionary<int, int> DeleteAndSelectShippingMethod(List<int> removeListing, int Id, List<string> selectShippingMethod)
+        {
+            Dictionary<int, int> shippingIdFromDB = new Dictionary<int, int>();
+
+            RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer dal = new RainWorx.FrameWorx.MVC.App_Start.DataAccessLayer();
+
+            DataTable dtDelete = new DataTable();
+            dtDelete.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ShippingMethodId" }
+            );
+            dtDelete.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ListingId" }
+            );
+            dtDelete.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "Id" }
+            );
+
+
+            DataTable dtSelect = new DataTable();
+            dtSelect.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ShippingMethodId" }
+            );
+            dtSelect.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "ListingId" }
+            );
+            dtSelect.Columns.Add(new DataColumn()
+            { DataType = Type.GetType("System.Int64"), ColumnName = "Id" }
+            );
+
+            DataRow rowSelect;
+            DataRow rowDelete;
+            int count = 0;
+            removeListing.ForEach(s =>
+            {
+                count++;
+                rowDelete = dtDelete.NewRow();
+                rowDelete["ListingId"] = Id;
+                rowDelete["ShippingMethodId"] = s;
+                dtDelete.Rows.Add(rowDelete);
+            });
+                SqlParameter param1 = new SqlParameter();
+                param1.ParameterName = "DeleteShippingMethodDt";
+                param1.SqlDbType = SqlDbType.Structured;
+                param1.Value = dtDelete;
+                param1.Direction = ParameterDirection.Input;
+
+            count = 0;
+            selectShippingMethod.ForEach(s =>
+            {
+                count++;
+                rowSelect = dtSelect.NewRow();
+                rowSelect["ShippingMethodId"] = s;
+                rowSelect["ListingId"] = Id;
+                dtSelect.Rows.Add(rowSelect);
+            });
+                SqlParameter param2 = new SqlParameter();
+                param2.ParameterName = "SelectDataTable";
+                param2.SqlDbType = SqlDbType.Structured;
+                param2.Value = dtSelect;
+                param2.Direction = ParameterDirection.Input;
+
+                DataTable selectListing = dal.ExecuteSpDataTable("dbo.DeleteAndSelectShippingMethodSp", param1,param2);
+            foreach(DataRow listings in selectListing.Rows)
+            {
+                shippingIdFromDB.Add(int.Parse(listings["Id"].ToString()), int.Parse(listings["ShippingMethodId"].ToString()));
             }
 
-
-            //foreach (string var in shippingMethods)
-            //{
-            //    if (existingListing == null || !existingListing.ShippingOptions.Any(data => data.Method.ID == int.Parse(var)))
-            //    {
-            //        DataSet max = dal.GetDataSet("select max(Id) as max from RWX_ShippingOptions ");
-            //        int _ship_method_id = int.Parse(max.Tables[0].Rows[0]["max"].ToString()) + 1;
-            //        dal.ExecuteSQL("INSERT INTO RWX_ShippingOptions(id,ShippingMethodId,ListingId) VALUES ('" + _ship_method_id + "','" + var + "','" + id + "') ");
-            //    }
-            //}
-
+            return shippingIdFromDB;
         }
         #endregion
 
