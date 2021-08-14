@@ -554,6 +554,74 @@ namespace RainWorx.FrameWorx.MVC.Controllers
             //return new MVCTransferResult(new { controller = Strings.MVC.ListingController, action = Strings.MVC.NotFoundAction }, this.HttpContext);
             return NotFound();
         }
+        [HttpPost]
+        public JsonResult GetListingItemInfo(int? Id)
+        {
+            if (Id.HasValue)
+            {
+                try
+                {
+
+                    Listing currentListing = ListingClient.GetListingByIDAndUserWithFillLevel(User.Identity.Name, Id.Value,
+                                                                             this.FBOUserName(), Strings.ListingFillLevels.Default);
+
+                    //if this listing is awaiting payment or a draft and it's not the owner or an admin, return a "Not Found" result
+                    if (currentListing != null && (currentListing.Status == ListingStatuses.AwaitingPayment || currentListing.Status == ListingStatuses.Draft))
+                    {
+                        if (currentListing.OwnerUserName != this.FBOUserName())
+                        {
+                            if (!User.IsInRole(Roles.Admin))
+                            {
+                               // return NotFound();
+                            }
+                        }
+                    }
+                    bool showSellerLocation = false;
+                    CustomProperty siteProp = SiteClient.Properties.Where(
+                                p => p.Field.Name == Strings.SiteProperties.ShowSellerLocationOnListingDetails).FirstOrDefault();
+                    if (siteProp != null)
+                    {
+                        bool.TryParse(siteProp.Value, out showSellerLocation);
+                    }
+                    Address sellerAddress = UserClient.GetAddresses(currentListing.OwnerUserName, currentListing.Owner.UserName).Where(
+                            a => a.ID == currentListing.Owner.PrimaryAddressID).SingleOrDefault();
+
+                    if (showSellerLocation)
+                    {
+                        
+                        if (sellerAddress != null)
+                        {
+                            ViewData["SellerInformation"] = sellerAddress;
+                            ViewData["Listing"] = currentListing;
+                        }
+                        else
+                        {
+                            ViewData["SellerLocation"] = string.Empty;
+                        }
+
+                    }
+
+                    return Json(new
+                    {
+                        Msg ="Success",
+                        SellerInfo = sellerAddress,
+                        ListingInfo = currentListing
+                    });
+                }
+                catch (Exception ex)
+                {
+                    return Json(new
+                    {
+                        Msg = "failed"
+                    });
+                }
+            }
+
+            return Json(new
+            {
+                Msg = "failed"
+            });
+        }
 
         /// <summary>
         /// Displays detailed listing view
@@ -670,6 +738,7 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                                 a => a.ID == currentListing.Owner.PrimaryAddressID).SingleOrDefault();
                             if (sellerAddress != null)
                             {
+                                ViewData["SellerInformation"] = sellerAddress;
                                 ViewData["SellerLocation"] = sellerAddress.City + ", " + sellerAddress.StateRegion + " " + sellerAddress.Country.Code;
                             }
                             else

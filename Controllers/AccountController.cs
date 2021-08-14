@@ -1043,6 +1043,11 @@ namespace RainWorx.FrameWorx.MVC.Controllers
         /// <param name="SearchType">optional search type indicating what field(s) the keyword should be applied to</param>
         /// <returns>View(Page&lt;LineItem&gt;)</returns>
         [Authorize]
+        public ActionResult ShipmentTrackingNumber()
+        {
+            return View();
+        }
+        [Authorize]
         public ActionResult BiddingOffers(int? page, int? SortFilterOptions, string ViewFilterOption, string SearchTerm, string SearchType)
         {
             Page<Offer> results = null;

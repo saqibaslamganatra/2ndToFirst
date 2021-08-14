@@ -30,11 +30,10 @@ using System.ServiceModel;
 using System.Web;
 using RainWorx.FrameWorx.Utility;
 using LogEntry = RainWorx.FrameWorx.DTO.LogEntry;
-
 using System.Data;
 using System.Configuration;
-
 using Microsoft.AspNet.Identity.Owin;
+using System.Security.Cryptography;
 
 namespace RainWorx.FrameWorx.MVC.Controllers
 {
@@ -13341,5 +13340,190 @@ namespace RainWorx.FrameWorx.MVC.Controllers
 
         #endregion Data Management
 
+        #region Encrypt/Decrypt
+        public string EncryptString(string plainText, byte[] key, byte[] iv)
+        {
+            // Instantiate a new Aes object to perform string symmetric encryption
+            Aes encryptor = Aes.Create();
+
+            encryptor.Mode = CipherMode.CBC;
+            //encryptor.KeySize = 256;
+            //encryptor.BlockSize = 128;
+            //encryptor.Padding = PaddingMode.Zeros;
+
+            // Set key and IV
+            encryptor.Key = key;
+            encryptor.IV = iv;
+
+            // Instantiate a new MemoryStream object to contain the encrypted bytes
+            MemoryStream memoryStream = new MemoryStream();
+
+            // Instantiate a new encryptor from our Aes object
+            ICryptoTransform aesEncryptor = encryptor.CreateEncryptor();
+
+            // Instantiate a new CryptoStream object to process the data and write it to the 
+            // memory stream
+            CryptoStream cryptoStream = new CryptoStream(memoryStream, aesEncryptor, CryptoStreamMode.Write);
+
+            // Convert the plainText string into a byte array
+            byte[] plainBytes = Encoding.ASCII.GetBytes(plainText);
+
+            // Encrypt the input plaintext string
+            cryptoStream.Write(plainBytes, 0, plainBytes.Length);
+
+            // Complete the encryption process
+            cryptoStream.FlushFinalBlock();
+
+            // Convert the encrypted data from a MemoryStream to a byte array
+            byte[] cipherBytes = memoryStream.ToArray();
+
+            // Close both the MemoryStream and the CryptoStream
+            memoryStream.Close();
+            cryptoStream.Close();
+
+            // Convert the encrypted byte array to a base64 encoded string
+            string cipherText = Convert.ToBase64String(cipherBytes, 0, cipherBytes.Length);
+
+            // Return the encrypted data as a string
+            return cipherText;
+        }
+
+        public string DecryptString(string cipherText, byte[] key, byte[] iv)
+        {
+            // Instantiate a new Aes object to perform string symmetric encryption
+            Aes encryptor = Aes.Create();
+
+            encryptor.Mode = CipherMode.CBC;
+            //encryptor.KeySize = 256;
+            //encryptor.BlockSize = 128;
+            //encryptor.Padding = PaddingMode.Zeros;
+
+            // Set key and IV
+            encryptor.Key = key;
+            encryptor.IV = iv;
+
+            // Instantiate a new MemoryStream object to contain the encrypted bytes
+            MemoryStream memoryStream = new MemoryStream();
+
+            // Instantiate a new encryptor from our Aes object
+            ICryptoTransform aesDecryptor = encryptor.CreateDecryptor();
+
+            // Instantiate a new CryptoStream object to process the data and write it to the 
+            // memory stream
+            CryptoStream cryptoStream = new CryptoStream(memoryStream, aesDecryptor, CryptoStreamMode.Write);
+
+            // Will contain decrypted plaintext
+            string plainText = String.Empty;
+
+            try
+            {
+                // Convert the ciphertext string into a byte array
+                byte[] cipherBytes = Convert.FromBase64String(cipherText);
+
+                // Decrypt the input ciphertext string
+                cryptoStream.Write(cipherBytes, 0, cipherBytes.Length);
+
+                // Complete the decryption process
+                cryptoStream.FlushFinalBlock();
+
+                // Convert the decrypted data from a MemoryStream to a byte array
+                byte[] plainBytes = memoryStream.ToArray();
+
+                // Convert the decrypted byte array to string
+                plainText = Encoding.ASCII.GetString(plainBytes, 0, plainBytes.Length);
+            }
+            finally
+            {
+                // Close both the MemoryStream and the CryptoStream
+                memoryStream.Close();
+                cryptoStream.Close();
+            }
+
+            // Return the decrypted data as a string
+            return plainText;
+        }
+        #endregion
+
+        #region DHL Shipment
+        [Authorize(Roles = Roles.SellerAndAdmin)]
+        public ActionResult CreateShipmentBooking()
+        {
+            string userName = this.FBOUserName();
+            string actingUserName = User.Identity.Name;
+            List<Address> currentUserAddresses = UserClient.GetAddresses(actingUserName, userName);
+            User currentUser = UserClient.GetUserByUserName(actingUserName, userName);
+            if (currentUserAddresses != null && currentUser != null)
+            {
+                var UserName = currentUser.UserName;
+                var UserEmail = currentUser.Email;
+
+                string password = "2nd-to-first.com-3sc3RLrpd17";
+
+                // Create sha256 hash
+                SHA256 mySHA256 = SHA256Managed.Create();
+                byte[] key = mySHA256.ComputeHash(Encoding.ASCII.GetBytes(password));
+
+                // Create secret IV
+                byte[] iv = new byte[16] { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
+
+                var encryptedUserName = this.EncryptString(UserName, key, iv);
+                var encryptedUserEmail = this.EncryptString(UserEmail, key, iv);
+                // string decrypted = this.DecryptString(encryptedUserName, key, iv);
+
+                ViewData["SellerInformation"] = currentUserAddresses[0];
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = encryptedUserName;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="] = encryptedUserEmail;
+                ViewData["currentUser"] = currentUser;
+            }
+            else
+            {
+                ViewData["SellerInformation"] = string.Empty;
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = string.Empty;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="] = string.Empty;
+                ViewData["currentUser"] = string.Empty;
+            }
+
+            return View();
+        }
+        [Authorize(Roles = Roles.SellerAndAdmin)]
+        public ActionResult ShowShipmentBooking()
+        {
+            string userName = this.FBOUserName();
+            string actingUserName = User.Identity.Name;
+            User currentUser = UserClient.GetUserByUserName(actingUserName, userName);
+
+            if (currentUser != null)
+            {
+                var UserName = currentUser.UserName;
+                var UserEmail = currentUser.Email;
+
+                string password = "2nd-to-first.com-3sc3RLrpd17";
+
+                // Create sha256 hash
+                SHA256 mySHA256 = SHA256Managed.Create();
+                byte[] key = mySHA256.ComputeHash(Encoding.ASCII.GetBytes(password));
+
+                // Create secret IV
+                byte[] iv = new byte[16] { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
+
+                var encryptedUserName = this.EncryptString(UserName, key, iv);
+                var encryptedUserEmail = this.EncryptString(UserEmail, key, iv);
+                // string decrypted = this.DecryptString(encryptedUserName, key, iv);
+
+
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = encryptedUserName;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="] = encryptedUserEmail;
+
+            }
+            else
+            {
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = string.Empty;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="] = string.Empty;
+            }
+            return View();
+        }
+
+
+        #endregion
     }
 }
