@@ -572,7 +572,7 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                         {
                             if (!User.IsInRole(Roles.Admin))
                             {
-                               // return NotFound();
+                                return (JsonResult)NotFound();
                             }
                         }
                     }
@@ -617,6 +617,56 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                 }
             }
 
+            return Json(new
+            {
+                Msg = "failed"
+            });
+        }
+        [HttpPost]
+        public JsonResult GetItemInfo(int? Id)
+        {
+            if (Id.HasValue)
+            {
+                try
+                {
+                    Listing currentListing = ListingClient.GetListingByIDAndUserWithFillLevel(User.Identity.Name, Id.Value,
+                                                                             this.FBOUserName(), Strings.ListingFillLevels.Default);
+                    bool result = false;
+                    CustomProperty customProperty = SiteClient.Properties.Where((CustomProperty p) => p.Field.Name == "ShowSellerLocationOnListingDetails").FirstOrDefault();
+                    if (customProperty != null)
+                    {
+                        bool.TryParse(customProperty.Value, out result);
+                    }
+                    Address address = (from a in UserClient.GetAddresses(currentListing.OwnerUserName, currentListing.Owner.UserName)
+                                       where a.ID == currentListing.Owner.PrimaryAddressID
+                                       select a).SingleOrDefault();
+                    if (result)
+                    {
+                        if (address != null)
+                        {
+                            ViewData["SellerInformation"]=address;
+                            ViewData["Listing"] =currentListing;
+                        }
+                        else
+                        {
+                            ViewData["SellerLocation"]=string.Empty;
+                        }
+                    }
+                    return Json(new
+                    {
+                        Msg = "Success",
+                        SellerInfo = address,
+                        ListingInfo = currentListing
+                    });
+                }
+                catch (Exception)
+                {
+                    return Json(new
+                    {
+                        Msg = "failed"
+                    });
+                }
+            }
             return Json(new
             {
                 Msg = "failed"
@@ -2074,8 +2124,11 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                     }
                 }
                 shippingIdFromDB = DeleteAndSelectShippingMethod(removeShipMethod,id, shippingMethods.ToList());
-                    bool flag = ListingClient.UpdateListingWithUserInput(actingUserName, existingListing, input);
+
+                bool flag = ListingClient.UpdateListingWithUserInput(actingUserName, existingListing, input);
+                if(shippingIdFromDB!=null && shippingIdFromDB.Count !=0 )
                 UpdateShippingMethod(id, shippingIdFromDB);
+
                     InsertShippingMethod(id , input,existingListing);
                         //return a different view here for success or redirectaction...
                     if (flag)
@@ -2379,9 +2432,12 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                 param2.Direction = ParameterDirection.Input;
 
                 DataTable selectListing = dal.ExecuteSpDataTable("dbo.DeleteAndSelectShippingMethodSp", param1,param2);
-            foreach(DataRow listings in selectListing.Rows)
+            if(selectListing!=null && selectListing.Rows.Count!=0)
             {
-                shippingIdFromDB.Add(int.Parse(listings["Id"].ToString()), int.Parse(listings["ShippingMethodId"].ToString()));
+                foreach (DataRow listings in selectListing.Rows)
+                {
+                    shippingIdFromDB.Add(int.Parse(listings["Id"].ToString()), int.Parse(listings["ShippingMethodId"].ToString()));
+                }
             }
 
             return shippingIdFromDB;
