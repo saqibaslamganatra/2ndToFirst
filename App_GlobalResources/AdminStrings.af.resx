@@ -1928,7 +1928,7 @@ As 'n artikel teen 'n aanvangsprys van $ 125,00 gepos word, is die fooi van die 
     <value>Bladsytitel</value>
   </data>
   <data name="GoodUntilCanceled" xml:space="preserve">
-    <value>Goed gekanselleer</value>
+    <value>Goed tot gekanselleer</value>
   </data>
   <data name="NoSearchResults" xml:space="preserve">
     <value>Geen soekresultate nie</value>
@@ -3863,7 +3863,7 @@ Klik op "Terugvoer invoer" om voort te gaan ...</value>
     <value>Elke addisionele beeldfooi</value>
   </data>
   <data name="Good'tilCanceled" xml:space="preserve">
-    <value>Goed om gekanselleer te word</value>
+    <value>Goed tot gekanselleer</value>
   </data>
    <data name="Anonymous" xml:space="preserve">
     <value>Anoniem</value>

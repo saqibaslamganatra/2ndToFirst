@@ -616,7 +616,7 @@
     <value>رسوم صفحة إضافية</value>
   </data>
   <data name="Good'tilCanceled" xml:space="preserve">
-    <value>سمسم جيد ألغي</value>
+    <value>جيد حتى الإلغاء</value>
   </data>
   
   <data name="SaveChanges" xml:space="preserve">
@@ -1962,7 +1962,7 @@
     <value>عنوان الصفحة</value>
   </data>
   <data name="GoodUntilCanceled" xml:space="preserve">
-    <value>جيد حتى ألغي</value>
+    <value>جيد حتى الإلغاء</value>
   </data>
   <data name="NoSearchResults" xml:space="preserve">
     <value>لا نتائج للبحث</value>

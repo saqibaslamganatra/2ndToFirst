@@ -13522,7 +13522,75 @@ namespace RainWorx.FrameWorx.MVC.Controllers
             }
             return View();
         }
+        [Authorize(Roles = "Seller,Admin")]
+        public ActionResult TrackingNo()
+        {
+            string userName = this.FBOUserName();
+            string actingUserName = User.Identity.Name;
+            User currentUser = UserClient.GetUserByUserName(actingUserName, userName);
+            if (currentUser != null)
+            {
+                string UserName = currentUser.UserName;
+                string UserEmail = currentUser.Email;
 
+                string password = "2nd-to-first.com-3sc3RLrpd17";
+
+                SHA256 mySHA256 = SHA256Managed.Create();
+                byte[] key = mySHA256.ComputeHash(Encoding.ASCII.GetBytes(password));
+
+
+                byte[] iv = new byte[16] { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
+
+                var encryptedUserName = this.EncryptString(UserName, key, iv);
+                var encryptedUserEmail = this.EncryptString(UserEmail, key, iv);
+
+
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = encryptedUserName;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="]= encryptedUserEmail;
+            }
+            else
+            {
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = string.Empty;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="] = string.Empty;
+            }
+            return View();
+        }
+
+        [Authorize(Roles = "Seller,Admin")]
+        public ActionResult RateCalcultor()
+        {
+            string userName = this.FBOUserName();
+            string actingUserName = User.Identity.Name;
+
+           User currentUser = UserClient.GetUserByUserName(actingUserName, userName);
+
+            if (currentUser != null)
+            {
+                var UserName = currentUser.UserName;
+                var UserEmail = currentUser.Email;
+                string password = "2nd-to-first.com-3sc3RLrpd17";
+
+                // Create sha256 hash
+                SHA256 mySHA256 = SHA256Managed.Create();
+                byte[] key = mySHA256.ComputeHash(Encoding.ASCII.GetBytes(password));
+
+                // Create secret IV
+                byte[] iv = new byte[16] { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
+
+                var encryptedUserName = this.EncryptString(UserName, key, iv);
+                var encryptedUserEmail = this.EncryptString(UserEmail, key, iv);
+
+
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = encryptedUserName;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="] = encryptedUserEmail;
+            }
+            else
+            {
+                ViewData["DdDJUqtFGNYTatXKi7Iufg=="] = string.Empty;
+                ViewData["INaBgjO3K2Fxg2iIMwNSuw=="] = string.Empty;
+            }
+            return View();
+        }
 
         #endregion
     }

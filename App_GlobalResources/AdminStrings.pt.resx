@@ -1928,7 +1928,7 @@ Se um item for lançado com um preço inicial de US $ 125,00, a taxa de listagem
     <value>Título da página</value>
   </data>
   <data name="GoodUntilCanceled" xml:space="preserve">
-    <value>Bom até Cancelado</value>
+    <value>Válido até ser cancelado</value>
   </data>
   <data name="NoSearchResults" xml:space="preserve">
     <value>Nenhum resultado de pesquisa</value>
@@ -3857,7 +3857,7 @@ Clique em "Importar comentários" para continuar ...</value>
     <value>Cada taxa adicional por página</value>
   </data>
   <data name="Good'tilCanceled" xml:space="preserve">
-    <value>Bom até Cancelado</value>
+    <value>Bom até ser cancelado</value>
   </data>
    <data name="Anonymous" xml:space="preserve">
     <value>Anônimo</value>

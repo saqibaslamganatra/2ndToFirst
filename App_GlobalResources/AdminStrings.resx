@@ -1931,7 +1931,7 @@ If an item is posted with a starting price of $125.00 the Post Listing fee is $1
     <value>Page Title</value>
   </data>
   <data name="GoodUntilCanceled" xml:space="preserve">
-    <value>Good 'til Canceled</value>
+    <value>Good Until Canceled</value>
   </data>
   <data name="NoSearchResults" xml:space="preserve">
     <value>No Search Results</value>
@@ -3851,7 +3851,7 @@ Click "Import Feedback" to continue...</value>
     <value>Cada taxa adicional por página</value>
   </data>
   <data name="Good'tilCanceled" xml:space="preserve">
-    <value></value>
+    <value>Good'til Canceled</value>
   </data>
    <data name="Anonymous" xml:space="preserve">
     <value>Anonymous</value>

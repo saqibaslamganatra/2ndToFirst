@@ -1928,7 +1928,7 @@ Si un article est publié avec un prix de départ de 125,00 $, les frais de publ
     <value>Titre de la page</value>
   </data>
   <data name="GoodUntilCanceled" xml:space="preserve">
-    <value>Bon jusqu'à annulé</value>
+    <value>Bon jusqu'à annulation</value>
   </data>
   <data name="NoSearchResults" xml:space="preserve">
     <value>aucun résultat trouvé</value>
@@ -3857,7 +3857,7 @@ Cliquez sur "Importer les commentaires" pour continuer ...</value>
     <value>Chaque frais de page supplémentaire</value>
   </data>
   <data name="Good'tilCanceled" xml:space="preserve">
-    <value>Bon jusqu'à annulé</value>
+    <value>Bon jusqu'à annulation</value>
   </data>
    <data name="Anonymous" xml:space="preserve">
     <value>Anonyme</value>
