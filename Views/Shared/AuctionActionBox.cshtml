@@ -47,6 +47,18 @@
             <span class="reserve-not-met awe-rt-ReserveStatus">@Html.Resource("AuctionListing, " + (string)ViewData["ReserveStatus"])</span>
         }
     </div>
+    <div class="detail__price" id="dvShippingCost" style="display:none">
+        <strong>Shipping</strong>
+        <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="ShippingCost">
+           
+        </span>
+    </div>
+    <div class="detail__price" id="dvTotalCost" style="display:none">
+        <strong>Total</strong>
+        <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="TotalCost">
+           <input type="hidden" value="@Model.CurrentPrice.Value" id="hdnTotPrice" />
+        </span>
+    </div>
     <div class="row">
         <div class="col-xs-12 col-sm-6 watching__wrapper">
             @Html.Partial("ListingDetail_AddWatch")
@@ -266,7 +278,7 @@
     </div>
 </div>
 
-<script>
+    <script>
     $(document).ready(function () {
         $(document).on("SignalR_ListingActionResponse", function (event, data) {
             if ($.inArray(data.Action_ListingID, interestingListings) >= 0) {
@@ -322,4 +334,4 @@
             $("#SubmitBid").click();
         });
     });
-</script>
+    </script>

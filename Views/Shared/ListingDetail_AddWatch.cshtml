@@ -546,15 +546,25 @@ else
                 console.log("Request failed, error= " + err);
             }
         }); */
+
+        $("#Check").click();
     });
 
 
     @{
         var sellerInformation = @ViewData["SellerInformation"]  as Address;
 
+        var buyerInformation =  @ViewData["LoggingUser"] as Address;
+
         string CountryCode = @sellerInformation.Country.Code;
         string ZipPostalCode = @sellerInformation.ZipPostal;
         string City = @sellerInformation.City;
+
+
+
+        string BuyerCountryCode = buyerInformation != null ? @buyerInformation.Country.Code : string.Empty;
+        string BuyerPostalCode = buyerInformation != null ? @buyerInformation.ZipPostal : string.Empty;
+        string BuyerCity = buyerInformation != null ? @buyerInformation.City : string.Empty;
 
     }
     var SellerCountryCode = "@CountryCode";
@@ -568,6 +578,17 @@ else
     var DimensionUnit = "";
     var obj = JSON.parse("null");
 
+    var BuyerCountryCode = "@BuyerCountryCode";
+    var BuyerPostalCode = @BuyerPostalCode;
+    var BuyerCity = "@BuyerCity";
+
+
+    //Buyer Information like seller information
+    if ((BuyerCountryCode != null || BuyerCountryCode != "") && (BuyerPostalCode != null || BuyerPostalCode != "") && (BuyerCity != null || BuyerCity != "")) {
+        $("#tbPostalCode").val(BuyerPostalCode);
+        $("#tbCityName").val(BuyerCity);
+        $("#ddlShipCountryList>option[value='" + BuyerCountryCode + "']").prop('selected', true);
+    }
 
    /* $("#ddlShipCountryList").change(function () {
         var selectedCountry = $(this).children("option:selected").val();
@@ -686,6 +707,10 @@ else
                 $('#exchangeRate').text(response.ExchangeRate);
                 $('#estimatedTotal').text(response['StandardRate'][0]['EstimatedTotal']);
                 $('#AjaxLoader').hide();
+                $('#ShippingCost').text("$" + response['StandardRate'][0]['EstimatedTotal'] + " " + response['StandardRate'][0]['CurrencyCode'])
+                $('#TotalCost').text("$" + parseFloat( parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat($("#hdnTotPrice").val()) ) + " " + response['StandardRate'][0]['CurrencyCode'])
+                $('#dvShippingCost').css("display", "block");
+                $('#dvTotalCost').css("display", "block");
             }
             else {
                 $('#GripList').css('display', 'none');

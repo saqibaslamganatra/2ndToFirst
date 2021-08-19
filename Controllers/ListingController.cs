@@ -797,9 +797,16 @@ namespace RainWorx.FrameWorx.MVC.Controllers
                             }
 
                         }
+                        if (!string.IsNullOrEmpty(User.Identity.Name))
+                        {
+                            Address currentUserAddresses = UserClient.GetAddresses(User.Identity.Name, this.FBOUserName())[0];
+                            ViewData["LoggingUser"] = currentUserAddresses;
+                        }
+                        else
+                            ViewData["LoggingUser"] = string.Empty;
 
-                        //determine final buyer fee details
-                        decimal finalFeeMin;
+                       //determine final buyer fee details
+                       decimal finalFeeMin;
                         decimal finalFeeMax;
                         List<Tier> finalFeeTiers;
                         string finalFeeDescription;
