@@ -27,13 +27,13 @@
                     }
                     <tr>
                         <td>@option.Method.Name</td>
-                        <td>
+                        <!-- <td>
                             @Html.LocalCurrency(option.FirstItemAmount, Model.Currency.Code)
                             @if (option.AdditionalItemAmount.HasValue)
                             {
                                 <span class="small">(@Html.GlobalResource("XxxAsAdditionalItem", Html.LocalCurrency(option.AdditionalItemAmount.Value, Model.Currency.Code)))</span>
                             }
-                        </td>
+                        </td> -->
                     </tr>
                     }
 
@@ -67,13 +67,13 @@
                                             {
                                                 <tr>
                                                     <td><strong>@option.Method.Name</strong></td>
-                                                    <td>
+                                                    <!-- <td>
                                                         @Html.LocalCurrency(option.FirstItemAmount, Model.Currency.Code)
                                                         @if (option.AdditionalItemAmount.HasValue)
                                                         {
                                                             <span class="small">(@Html.GlobalResource("XxxAsAdditionalItem", Html.LocalCurrency(option.AdditionalItemAmount.Value, Model.Currency.Code)))</span>
                                                         }
-                                                    </td>
+                                                    </td> -->
                                                 </tr>
                                             }
                                         </table>

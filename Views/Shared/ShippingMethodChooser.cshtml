@@ -166,11 +166,11 @@
         {
             <div class="shipping__method">
                 <strong> @option.Method.Name</strong>&nbsp;&nbsp;&nbsp;
-                @Html.LocalCurrency(option.FirstItemAmount, (string)ViewData[RainWorx.FrameWorx.Strings.Fields.Currency])
+                <!-- @Html.LocalCurrency(option.FirstItemAmount, (string)ViewData[RainWorx.FrameWorx.Strings.Fields.Currency])
                 @if (option.AdditionalItemAmount.HasValue)
                 {
                     <span class="small awe-additional-shipping">(@Html.LocalCurrency(option.AdditionalItemAmount.Value, (string)ViewData[RainWorx.FrameWorx.Strings.Fields.Currency]))</span>
-                }
+                } -->
                 &nbsp;&nbsp;&nbsp;
                 <a href="#" class="btn btn-default btn-xs" data-method-id="@option.Method.ID">@Html.GlobalResource("Remove")</a>
                 @*<input type="hidden" name="ship_amount_@option.Method.ID" value="@Html.DecimalToPlainCurrencyMvcHtmlString(option.FirstItemAmount)" />
