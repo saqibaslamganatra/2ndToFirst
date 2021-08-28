@@ -33,12 +33,24 @@
                 }
             </span>)
         </span>
-    </div>
+        <div class="" id="dvShippingCost" style="display:none">
+            <strong>Shipping</strong>
+            <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="ShippingCost">
 
+            </span>
+        </div>
+        <div class="" id="dvTotalCost" style="display:none">
+            <strong>Total</strong>
+            <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="TotalCost">
+                <input type="hidden" value="@Model.CurrentPrice.Value" id="hdnTotPrice" />
+            </span>
+        </div>
+    </div>
+    
     <div class="row">
-            <div class="col-xs-12 col-sm-6 watching__wrapper">
-                @Html.Partial("ListingDetail_AddWatch")
-            </div>
+        <div class="col-xs-12 col-sm-6 watching__wrapper">
+            @Html.Partial("ListingDetail_AddWatch")
+        </div>
         <div class="col-xs-12 col-sm-6">
             <div class="form-group">
                 @if (Model.CurrentQuantity > 99)
@@ -51,7 +63,8 @@
                 else
                 {
                     @Html.DropDownList("Quantity", Enumerable.Range(1, Model.CurrentQuantity).Select(i =>
-                        new SelectListItem {
+                        new SelectListItem
+                             {
                             Text = Html.Resource("FixedPriceListing, Quantity") + " : " + i.ToString(),
                             Value = i.ToString()
                         }),
@@ -61,7 +74,7 @@
             <div class="form-group">
                 <input type="submit" class="btn btn-success btn-block" onclick="return checkValues()" value="@Html.Resource("FixedPriceListing, BuyNow")" />
             </div>
-            @{ 
+            @{
                 bool makeOfferAvailable = false;
             }
             @if (Model.Properties.Any(lp => lp.Field.Name == Fields.MakeOfferAvailable && bool.TryParse(lp.Value, out makeOfferAvailable) && makeOfferAvailable))
@@ -115,7 +128,7 @@
 
         <div class="col-xs-12 col-sm-6">
             <div class="detail__properties">
-                
+
                 @if (User.Identity.IsAuthenticated)
                 {
                     if (Model.AcceptedListingActionCount() > 0)
@@ -128,7 +141,7 @@
 
                     }
                 }
-                
+
                 <div class="fee">
 
                     @{
