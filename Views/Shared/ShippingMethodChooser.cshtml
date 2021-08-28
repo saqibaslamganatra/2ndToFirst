@@ -34,37 +34,38 @@
         }
 
         $("input#AddShipping").click(function () {
-            var methodInput = $("#ShippingMethod");
-          //  var amountInput = $("#Amount");
-          //  var additionalAmountInput = $("#AdditionalItemAmount");
-            var method = methodInput.find(":selected").text();
-            var methodid = methodInput.val();
-         //   var amount = amountInput.val();
-         //   var additionalAmount = additionalAmountInput.val();
-            //if (amountInput.val() == "" || !IsNumeric(amount)) {
-            //    //invalid number, or blank
-            //    amountInput.addClass("input-validation-error");
-            //}
-            //else if (additionalAmount != "" && !IsNumeric(additionalAmount)) {
-            //    additionalAmountInput.addClass("input-validation-error");
-            //}
-            //else
-            if (!methodid) {
-               methodInput.addClass("input-validation-error");
-            }
-           // else {
+            if ($('#ShippingMethod').has('option').length > 0) {
+                var methodInput = $("#ShippingMethod");
+                //  var amountInput = $("#Amount");
+                //  var additionalAmountInput = $("#AdditionalItemAmount");
+                var method = methodInput.find(":selected").text();
+                var methodid = methodInput.val();
+                //   var amount = amountInput.val();
+                //   var additionalAmount = additionalAmountInput.val();
+                //if (amountInput.val() == "" || !IsNumeric(amount)) {
+                //    //invalid number, or blank
+                //    amountInput.addClass("input-validation-error");
+                //}
+                //else if (additionalAmount != "" && !IsNumeric(additionalAmount)) {
+                //    additionalAmountInput.addClass("input-validation-error");
+                //}
+                //else
+                if (!methodid) {
+                    methodInput.addClass("input-validation-error");
+                }
+                // else {
                 //capture formatted amount
-             //   var origVal = amountInput.val();
-              //  amountInput.parseNumber({ format: "#,##0.00", overrideGroupSep: "@Html.GetCurrencyGroupChar()", overrideDecSep: "@Html.GetCurrencyDecimalChar()" });
-             //   amountInput.formatNumber({ format: "#,##0.00", overrideGroupSep: "@Html.GetCurrencyGroupChar()", overrideDecSep: "@Html.GetCurrencyDecimalChar()" });
-             //   amount = amountInput.val();
+                //   var origVal = amountInput.val();
+                //  amountInput.parseNumber({ format: "#,##0.00", overrideGroupSep: "@Html.GetCurrencyGroupChar()", overrideDecSep: "@Html.GetCurrencyDecimalChar()" });
+                //   amountInput.formatNumber({ format: "#,##0.00", overrideGroupSep: "@Html.GetCurrencyGroupChar()", overrideDecSep: "@Html.GetCurrencyDecimalChar()" });
+                //   amount = amountInput.val();
 
                 @*var origAdditionalValue = additionalAmountInput.val();
                 if (origAdditionalValue != "") {
                     additionalAmountInput.parseNumber({ format: "#,##0.00", overrideGroupSep: "@Html.GetCurrencyGroupChar()", overrideDecSep: "@Html.GetCurrencyDecimalChar()" });
                     additionalAmountInput.formatNumber({ format: "#,##0.00", overrideGroupSep: "@Html.GetCurrencyGroupChar()", overrideDecSep: "@Html.GetCurrencyDecimalChar()" });
                 }*@
-               // additionalAmount = additionalAmountInput.val();
+                // additionalAmount = additionalAmountInput.val();
 
                 //if (IsBiggerNumber(0, amount)) {
                 //    //negative values not allowed!
@@ -77,17 +78,18 @@
                 //    additionalAmountInput.val(origVal);
                 //}
                 //else {
-                    //append the new option details as an HTML row + hidden inputs
-            addMethod(method, methodid /*, amount, additionalAmount */);
-                    //reset amount inputs
-                    //amountInput.removeClass("input-validation-error");
-                   // amountInput.val("");
-                  //  additionalAmountInput.removeClass("input-validation-error");
-                  //  additionalAmountInput.val("");
-                    // remove the selected option from the select list
-                   $("#ShippingMethod :selected").remove();
-               // }
-           // }
+                //append the new option details as an HTML row + hidden inputs
+                addMethod(method, methodid /*, amount, additionalAmount */);
+                //reset amount inputs
+                //amountInput.removeClass("input-validation-error");
+                // amountInput.val("");
+                //  additionalAmountInput.removeClass("input-validation-error");
+                //  additionalAmountInput.val("");
+                // remove the selected option from the select list
+                $("#ShippingMethod :selected").remove();
+                // }
+                // }
+            }
         });
 
         //[Remove] -- click
