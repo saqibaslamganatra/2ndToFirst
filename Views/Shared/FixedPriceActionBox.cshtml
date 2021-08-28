@@ -10,6 +10,9 @@
         }
     }
 </script>
+<div class="col-xs-12 col-sm-6 watching__wrapper">
+    @Html.Partial("ListingDetail_AddWatch")
+</div>
 
 <div class="detail__submit-wrapper">
     <div class="detail__price">
@@ -46,11 +49,8 @@
             </span>
         </div>
     </div>
-    
+
     <div class="row">
-        <div class="col-xs-12 col-sm-6 watching__wrapper">
-            @Html.Partial("ListingDetail_AddWatch")
-        </div>
         <div class="col-xs-12 col-sm-6">
             <div class="form-group">
                 @if (Model.CurrentQuantity > 99)

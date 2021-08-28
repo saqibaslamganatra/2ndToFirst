@@ -26,6 +26,9 @@
         }
     }
 </script>
+<div class="col-xs-12 col-sm-6 watching__wrapper">
+    @Html.Partial("ListingDetail_AddWatch")
+</div>
 <div class="detail__submit-wrapper">
     <div class="detail__price">
         <strong>@Html.Resource("AuctionListing, CurrentPrice")</strong>
@@ -50,13 +53,13 @@
     <div class="detail__price" id="dvShippingCost" style="display:none">
         <span><strong>Shipping</strong></span>
         <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="ShippingCost" style="padding-left:43px">
-           
+
         </span>
     </div>
-    <div class="detail__price" id="dvTotalCost" style="display:none" >
+    <div class="detail__price" id="dvTotalCost" style="display:none">
         <strong>Total</strong>
         <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="TotalCost" style="padding-left:75px">
-           <input type="hidden" value="@Model.CurrentPrice.Value" id="hdnTotPrice" />
+            <input type="hidden" value="@Model.CurrentPrice.Value" id="hdnTotPrice" />
         </span>
     </div>
     <div class="row">
@@ -278,7 +281,7 @@
     </div>
 </div>
 
-    <script>
+<script>
     $(document).ready(function () {
         $(document).on("SignalR_ListingActionResponse", function (event, data) {
             if ($.inArray(data.Action_ListingID, interestingListings) >= 0) {
@@ -334,4 +337,4 @@
             $("#SubmitBid").click();
         });
     });
-    </script>
+</script>
