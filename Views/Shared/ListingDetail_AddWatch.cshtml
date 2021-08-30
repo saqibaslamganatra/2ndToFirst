@@ -708,8 +708,8 @@ else
                 $('#estimatedTotal').text(response['StandardRate'][0]['EstimatedTotal']);
                 $('#AjaxLoader').hide();
                 $('#ShippingCost').text("$" + response['StandardRate'][0]['EstimatedTotal'] + " " + response['StandardRate'][0]['CurrencyCode'])
-                if ("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat($("#hdnTotPrice").val())) + " " + response['StandardRate'][0]['CurrencyCode']!="$NaN USD")
-                $('#TotalCost').text("$" + parseFloat( parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat($("#hdnTotPrice").val()) ) + " " + response['StandardRate'][0]['CurrencyCode'])
+               // if ("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat($("#hdnTotPrice").val())) + " " + response['StandardRate'][0]['CurrencyCode']!="$NaN USD")
+                    $('#TotalCost').text("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + @Model.CurrentPrice.Value ) + " " + response['StandardRate'][0]['CurrencyCode'])
                 $('#dvShippingCost').css("display", "block");
                 $('#dvTotalCost').css("display", "block");
             }

@@ -192,4 +192,13 @@
   <data name="Sports_Equipment" xml:space="preserve">
     <value>معدات رياضية</value>
   </data>
+   <data name="Within_Africa" xml:space="preserve">
+    <value>داخل افريقيا</value>
+  </data>
+  <data name="Within_Africa" xml:space="preserve">
+    <value>داخل افريقيا</value>
+  </data>
+   <data name="From_Abroad" xml:space="preserve">
+    <value>من الخارج</value>
+  </data>
 </root>
