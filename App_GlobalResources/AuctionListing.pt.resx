@@ -521,4 +521,10 @@
   <data name="ProxyBidIncrementNote" xml:space="preserve">
     <value>Ocasionalmente, os lances aumentam menos do que o incremento de lance. Isso significa que outra pessoa fez um lance um pouco mais alto que o valor do seu lance de proxy automático.</value>
   </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Remessa</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
 </root>

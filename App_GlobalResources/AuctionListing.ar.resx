@@ -521,4 +521,10 @@
   <data name="ProxyBidIncrementNote" xml:space="preserve">
     <value>في بعض الأحيان ، سترى زيادة عروض الأسعار بأقل من زيادة عرض الأسعار. هذا يعني أن شخصًا آخر قدم عرضًا أعلى بقليل من مبلغ عطاء الوكيل التلقائي.</value>
   </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>الشحن</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>مجموع</value>
+  </data>
 </root>

@@ -521,4 +521,10 @@
   <data name="ProxyBidIncrementNote" xml:space="preserve">
     <value>Occasionally you'll see bids increase by less than the bid increment. This means that someone else placed a bid just slightly higher than your Automatic Proxy Bid amount.</value>
   </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
 </root>

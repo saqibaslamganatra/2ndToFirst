@@ -339,4 +339,10 @@
   <data name="IsTaxable" xml:space="preserve">
     <value>This item is taxable</value>
   </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
 </root>

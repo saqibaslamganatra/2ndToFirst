@@ -521,4 +521,10 @@
   <data name="ProxyBidIncrementNote" xml:space="preserve">
     <value>Parfois, vous verrez les enchères augmenter de moins que l'incrément d'enchère. Cela signifie que quelqu'un d'autre a placé une enchère légèrement supérieure à votre montant d'enchère par procuration automatique.</value>
   </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Expédition</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Le Total</value>
+  </data>
 </root>

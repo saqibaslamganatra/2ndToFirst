@@ -31,7 +31,7 @@
 </div>
 <div class="detail__submit-wrapper">
     <div class="detail__price">
-        <strong>@Html.Resource("AuctionListing, CurrentPrice")</strong>
+        <span class="detail__price-text"> <strong>@Html.Resource("AuctionListing, CurrentPrice")</strong></span>
         <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice">
             @* do not remove this span, it gets populated via ajax *@
             @Html.LocalCurrencyWithNumberTags(Model.CurrentPrice.Value, Model.Currency.Code)
@@ -51,21 +51,21 @@
         }
     </div>
     <div class="detail__price" id="dvShippingCost" style="display:none">
-        <span><strong>Shipping</strong></span>
-        <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="ShippingCost" style="padding-left:43px">
+        <span class="detail__price-text"><strong>@Html.Resource("AuctionListing, Shipping")</strong></span>
+        <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="ShippingCost">
 
         </span>
     </div>
     <div class="detail__price" id="dvTotalCost" style="display:none">
-        <strong>Total</strong>
-        <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="TotalCost" style="padding-left:75px">
+        <span class="detail__price-text"><strong>@Html.Resource("AuctionListing, Total")</strong></span>
+        <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="TotalCost">
             <input type="hidden" value="@Model.CurrentPrice.Value" id="hdnTotPrice" />
         </span>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-6 watching__wrapper">
-            @Html.Partial("ListingDetail_AddWatch")
-        </div>
+        @*<div class="col-xs-12 col-sm-6 watching__wrapper">
+                @Html.Partial("ListingDetail_AddWatch")
+            </div>*@
         <div class="col-xs-12 col-sm-6">
             @if ((User.Identity.IsAuthenticated) && (Model.Context.UserListingAction != null) && (Model.Context != null))
             {
@@ -206,7 +206,7 @@
             }
         </div>
         <div class="col-xs-12 col-sm-6">
-            <div class="detail__properties">
+            <div class="detail__properties" style="margin-left: 4%;">
                 <a href="@Url.Action(MVC.HistoryAction, "Listing", new { id = Model.ID, currency = Model.Currency.Code })" class="detail__action-link bid-history">
                     @{
                         var showUserNames = bool.Parse(SiteClient.Settings["ShowBidHistoryUserNames"]);

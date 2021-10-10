@@ -16,8 +16,8 @@
 
 <div class="detail__submit-wrapper">
     <div class="detail__price">
-        <strong>@Html.Resource("FixedPriceListing, Price")</strong>
-        <span class="detail__price--current awe-rt-CurrentPrice" style="padding-left:40px">
+        <span class="detail__price-text"><strong>@Html.Resource("FixedPriceListing, Price")</strong></span>
+        <span class="detail__price--current awe-rt-CurrentPrice">
             @* do not remove this span, it gets populated via ajax *@
             @Html.LocalCurrencyWithNumberTags(Model.CurrentPrice.Value, Model.Currency.Code)
         </span>
@@ -37,14 +37,14 @@
             </span>)
         </span>
         <div class="" id="dvShippingCost" style="display:none">
-            <strong>Shipping</strong>
+            <span class="detail__price-text"><strong>@Html.Resource("FixedPriceListing, Shipping")</strong></span>
             <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="ShippingCost">
 
             </span>
         </div>
         <div class="" id="dvTotalCost" style="display:none">
-            <strong>Total</strong>
-            <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="TotalCost" style="padding-left:42px">
+            <span class="detail__price-text"><strong>@Html.Resource("FixedPriceListing, Total")</strong></span>
+            <span class="detail__price--current Bidding_Current_Price awe-rt-CurrentPrice" id="TotalCost">
                 <input type="hidden" value="@Convert.ToDecimal(string.Format("{0:F2}", Model.CurrentPrice.Value));" id="hdnTotPrice" />
             </span>
         </div>
@@ -127,7 +127,7 @@
         </div>
 
         <div class="col-xs-12 col-sm-6">
-            <div class="detail__properties">
+            <div class="detail__properties" style="margin-left: 4%;">
 
                 @if (User.Identity.IsAuthenticated)
                 {

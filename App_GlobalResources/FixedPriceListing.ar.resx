@@ -339,4 +339,10 @@
   <data name="IsTaxable" xml:space="preserve">
     <value>هذا البند خاضع للضريبة</value>
   </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>الشحن</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>مجموع</value>
+  </data>
 </root>

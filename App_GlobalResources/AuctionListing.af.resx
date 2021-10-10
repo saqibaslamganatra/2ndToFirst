@@ -521,4 +521,10 @@
   <data name="ProxyBidIncrementNote" xml:space="preserve">
     <value>Soms sal u biedings met minder styg as die bodverhoging. Dit beteken dat iemand anders 'n bod aangebied het wat effens hoër is as u outomatiese instaanbedrag-bedrag.</value>
   </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Gestuur</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
 </root>

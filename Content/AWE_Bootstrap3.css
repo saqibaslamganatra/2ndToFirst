@@ -2572,6 +2572,8 @@ header {
     clear: none !important;
     float: right !important;
     margin-bottom: 10px;
+    margin-top: 8px;
+    margin-right: -1.9%;
 }
 
 
@@ -3328,4 +3330,9 @@ input[type=number] {
 
 .status-type.InlineContextualStatus {
     display: block;
+}
+
+.detail__price-text {
+    display: inline-block;
+    width: 110px;
 }
