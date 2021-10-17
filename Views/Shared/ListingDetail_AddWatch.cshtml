@@ -679,7 +679,10 @@ else
                 DimensionUnit = $(".detail__custom-fields").children()[i].children[1].innerText;
             }
         }
-
+        var Quantity = $("#Quantity").children("option:selected").val();
+        if (Quantity > 1) {
+            Weight = parseFloat(Weight * Quantity);
+        }
 
         var settings = {
             "url": "https://courierservice.2nd-to-first.com/getquote.php",
@@ -707,9 +710,17 @@ else
                 $('#exchangeRate').text(response.ExchangeRate);
                 $('#estimatedTotal').text(response['StandardRate'][0]['EstimatedTotal']);
                 $('#AjaxLoader').hide();
-                $('#ShippingCost').text("$" + response['StandardRate'][0]['EstimatedTotal'] + " " + response['StandardRate'][0]['CurrencyCode'])
+                $('#ShippingCost').text("$" + parseFloat(response['StandardRate'][0]['EstimatedTotal']).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
                // if ("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat($("#hdnTotPrice").val())) + " " + response['StandardRate'][0]['CurrencyCode']!="$NaN USD")
-                    $('#TotalCost').text("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + @Model.CurrentPrice.Value ) + " " + response['StandardRate'][0]['CurrencyCode'])
+                if (Quantity > 1) {
+                    var OriginalPrice = $("#hdnOriginalPrice").val();
+                    var NewPrice = parseFloat(OriginalPrice * Quantity).toFixed(2);
+                    $('#TotalCost').text("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat(NewPrice)).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
+                }
+                else {
+                    $('#TotalCost').text("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + @Model.CurrentPrice.Value ).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
+                }
+
                 $('#dvShippingCost').css("display", "block");
                 $('#dvTotalCost').css("display", "block");
             }

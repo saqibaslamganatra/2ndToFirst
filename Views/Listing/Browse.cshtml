@@ -203,6 +203,24 @@
                 });
 
             });
+            function GetAuthorize(value) {
+                $.ajax({
+                    type: "POST",
+                    url: "/Listing/GetAuthorize",
+                    data: '{Id: "' + value + '" }',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+
+                    },
+                    failure: function (response) {
+                        alert(response.Msg);
+                    },
+                    error: function (response) {
+                        alert(response.Msg);
+                    }
+                });
+            }
         </script>
         <div class="well well-sm section-title">
             @using (Html.BeginForm(MVC.BrowseAction, MVC.ListingController, FormMethod.Get, new { @class = "form-inline text-right" }))

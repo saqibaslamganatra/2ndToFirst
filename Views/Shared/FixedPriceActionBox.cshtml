@@ -20,6 +20,7 @@
         <span class="detail__price--current awe-rt-CurrentPrice">
             @* do not remove this span, it gets populated via ajax *@
             @Html.LocalCurrencyWithNumberTags(Model.CurrentPrice.Value, Model.Currency.Code)
+            <input type="hidden" value="@Convert.ToDecimal(string.Format("{0:F2}", Model.CurrentPrice.Value))" id="hdnOriginalPrice" />
         </span>
         @if (Model.CurrentQuantity > 1)
         {
@@ -167,3 +168,78 @@
         </div>
     </div>
 </div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#AjaxLoader").click(function () {
+            if (confirm("Are you sure you want to stop the loader? ")) {
+                $('#AjaxLoader').hide();
+                $("input:text").val('');
+                $("select#ddlShipCountryList")[0].selectedIndex = 0;
+                $('#ErrorGripList').css('display', 'none');
+                $("#CloseDhl").trigger("click");
+            }
+        });
+
+        $('.ipt').on('input propertychange change keyup paste mouseup', function () {
+            if ($(this).val() == "") {
+                $(this).css("border", "1px solid red");
+                $(this).addClass("input-validation-error");
+            }
+            else {
+                $(this).css("border", "1px solid black");
+                $(this).removeClass("input-validation-error");
+            }
+        });
+
+    });
+    @{
+        var sellerInformation = @ViewData["SellerInformation"]  as Address;
+
+        var buyerInformation =  @ViewData["LoggingUser"] as Address;
+
+        string CountryCode = @sellerInformation.Country.Code;
+        string ZipPostalCode = @sellerInformation.ZipPostal;
+        string City = @sellerInformation.City;
+
+
+
+        string BuyerCountryCode = buyerInformation != null ? @buyerInformation.Country.Code : string.Empty;
+        string BuyerPostalCode = buyerInformation != null ? @buyerInformation.ZipPostal : string.Empty;
+        string BuyerCity = buyerInformation != null ? @buyerInformation.City : string.Empty;
+
+    }
+    var SellerCountryCode = "@CountryCode";
+    var SellerPostalcode = @ZipPostalCode;
+    var SellerCity = "@City";
+    var WeightUnit = "";
+    var Weight = 0;
+    var Height = 0;
+    var Length = 0;
+    var Width = 0;
+    var DimensionUnit = "";
+    var obj = JSON.parse("null");
+
+    var BuyerCountryCode = "@BuyerCountryCode";
+    var BuyerPostalCode = @BuyerPostalCode;
+    var BuyerCity = "@BuyerCity";
+
+    $("#Quantity").change(function () {
+        $('#AjaxLoader').show();
+        var ChangeQuantity = this.value;
+
+        var OriginalPrice = $("#hdnOriginalPrice").val();
+        var NewPrice = parseFloat(OriginalPrice * ChangeQuantity).toFixed(2);
+        $(".NumberPart").text(NewPrice);
+        var BuyerPostalCode = $("#tbPostalCode").val();
+        var BuyerCity = $("#tbCityName").val();
+        var BuyerCountryCode = $("#ddlShipCountryList").children("option:selected").val();
+
+        GetQuoteFromDhl(BuyerCountryCode, BuyerPostalCode, BuyerCity, SellerCountryCode, SellerPostalcode, SellerCity);
+    });
+
+
+
+</script>

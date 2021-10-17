@@ -874,6 +874,24 @@
         }
         });
 
+        function GetAuthorize(value) {
+            $.ajax({
+                type: "POST",
+                url: "/Listing/GetAuthorize",
+                data: '{Id: "' + value + '" }',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                       
+                    },
+                failure: function (response) {
+                    alert(response.Msg);
+                },
+                error: function (response) {
+                    alert(response.Msg);
+                }
+            });
+        }
 
 
         function GetQuoteFromDhl(BuyerCountryCode, BuyerPostalCode, BuyerCity, SellerCountryCode, SellerZipPostal, SellerCity, WeightUnit, Weight, Height, Length, Width, DimensionUnit) {
