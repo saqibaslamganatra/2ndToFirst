@@ -6672,6 +6672,11 @@
               Looks up a localized string similar to Listed By.
             </summary>
         </member>
+        <member name="P:Resources.AuctionListing.Shipping">
+            <summary>
+              Looks up a localized string similar to Shipping.
+            </summary>
+        </member>
         <member name="P:Resources.AuctionListing.SOLD">
             <summary>
               Looks up a localized string similar to This item sold!.
@@ -6695,6 +6700,11 @@
         <member name="P:Resources.AuctionListing.SubmitBid">
             <summary>
               Looks up a localized string similar to Submit Bid.
+            </summary>
+        </member>
+        <member name="P:Resources.AuctionListing.Total">
+            <summary>
+              Looks up a localized string similar to Total.
             </summary>
         </member>
         <member name="P:Resources.AuctionListing.TypeIconAlt">
@@ -10850,6 +10860,16 @@
         <member name="P:Resources.FixedPriceListing.SELLER_UNSUCCESSFUL">
             <summary>
               Looks up a localized string similar to No sales..
+            </summary>
+        </member>
+        <member name="P:Resources.FixedPriceListing.Shipping">
+            <summary>
+              Looks up a localized string similar to Shipping.
+            </summary>
+        </member>
+        <member name="P:Resources.FixedPriceListing.Total">
+            <summary>
+              Looks up a localized string similar to Total.
             </summary>
         </member>
         <member name="P:Resources.FixedPriceListing.TypeIconAlt">
@@ -22834,7 +22854,7 @@
             <param name="SearchType">optional search type indicating what field(s) the keyword should be applied to</param>
             <returns>View(Page&lt;LineItem&gt;)</returns>
         </member>
-        <member name="M:RainWorx.FrameWorx.MVC.Controllers.AccountController.BiddingOffers(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String)">
+        <member name="M:RainWorx.FrameWorx.MVC.Controllers.AccountController.ShipmentTrackingNumber">
             <summary>
             Displays a page of listing line items for listings owned by this user
             </summary>
@@ -27164,6 +27184,22 @@
             </summary>
             <param name="name">the name of the specified custom CMS content</param>
             <returns>404 error if the specified content doesn't exist</returns>
+        </member>
+        <member name="M:RainWorx.FrameWorx.MVC.Controllers.PageController.NotFound">
+            <summary>
+            Displays "Listing not found" error message.
+            </summary>
+            <returns>View()</returns>
+        </member>
+        <member name="P:RainWorx.FrameWorx.MVC.Controllers.PersonModel.Name">
+            <summary>
+             Gets or sets Name.
+            </summary>
+        </member>
+        <member name="P:RainWorx.FrameWorx.MVC.Controllers.PersonModel.DateTime">
+            <summary>
+             Gets or sets DateTime.
+            </summary>
         </member>
         <member name="T:RainWorx.FrameWorx.MVC.Controllers.RealTimeController">
             <summary>

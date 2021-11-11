@@ -1,0 +1,1498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptAMEX" xml:space="preserve">
+    <value>قبول AMEX</value>
+  </data>
+  <data name="AcceptDiscover" xml:space="preserve">
+    <value>قبول الاكتشاف</value>
+  </data>
+  <data name="AcceptMastercard" xml:space="preserve">
+    <value>تقبل ماستركارد</value>
+  </data>
+  <data name="AcceptVisa" xml:space="preserve">
+    <value>قبول التأشيرة</value>
+  </data>
+  <data name="AdministratorEmail" xml:space="preserve">
+    <value>البريد الإلكتروني للمسؤول</value>
+  </data>
+  <data name="AllowInstantCheckout" xml:space="preserve">
+    <value>السماح للدفع الفوري</value>
+  </data>
+  <data name="Auction_EnableProxyBidding" xml:space="preserve">
+    <value>تمكين المزايدة بالوكالة</value>
+  </data>
+  <data name="AuthorizeNet_Enabled" xml:space="preserve">
+    <value>تم تمكين Authorize.NET</value>
+  </data>
+  <data name="AuthorizeNet_MerchantLoginID" xml:space="preserve">
+    <value>معرّف تسجيل دخول تاجر رسوم الموقع</value>
+  </data>
+  <data name="AuthorizeNet_PostUrl" xml:space="preserve">
+    <value>عنوان URL للنشر</value>
+  </data>
+  <data name="AuthorizeNet_TestMode" xml:space="preserve">
+    <value>وضع الاختبار</value>
+  </data>
+  <data name="AuthorizeNet_TransactionKey" xml:space="preserve">
+    <value>مفتاح معاملة رسوم الموقع</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>مدينة</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>بلد</value>
+  </data>
+  <data name="DurationDaysList" xml:space="preserve">
+    <value>قائمة المدة</value>
+  </data>
+  <data name="EnableMultipleCultures" xml:space="preserve">
+    <value>تمكين ثقافات متعددة</value>
+  </data>
+  <data name="EnableMultipleCurrencies" xml:space="preserve">
+    <value>تمكين العملات المتعددة</value>
+  </data>
+  <data name="EnableRegions" xml:space="preserve">
+    <value>تمكين المناطق</value>
+  </data>
+  <data name="EnableShipping" xml:space="preserve">
+    <value>تمكين الشحن</value>
+  </data>
+  <data name="ExteriorColor" xml:space="preserve">
+    <value>اللون الخارجي</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>فاكس</value>
+  </data>
+  <data name="FeedbackEnabled" xml:space="preserve">
+    <value>تم تمكين التعليقات</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>الاسم الاول</value>
+  </data>
+  <data name="FreeFormProvider_Enabled" xml:space="preserve">
+    <value>تم تمكين موفر النموذج الحر</value>
+  </data>
+  <data name="FriendlySiteName" xml:space="preserve">
+    <value>اسم موقع ودية</value>
+  </data>
+  <data name="ImageX" xml:space="preserve">
+    <value>الصورة العاشرة</value>
+  </data>
+  <data name="ImageY" xml:space="preserve">
+    <value>الصورة ص</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>اللون الداخلي</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>الكنية</value>
+  </data>
+  <data name="LegalSiteName" xml:space="preserve">
+    <value>اسم الموقع القانوني</value>
+  </data>
+  <data name="ListingDurationOptions" xml:space="preserve">
+    <value>خيارات مدة الإدراج</value>
+  </data>
+  <data name="MaxHomePageFeatured" xml:space="preserve">
+    <value>الحد الأقصى لعناصر الصفحة الرئيسية</value>
+  </data>
+  <data name="MaxImagesPerItem" xml:space="preserve">
+    <value>ماكس صور لكل عنصر</value>
+  </data>
+  <data name="MaxResultsPerPage" xml:space="preserve">
+    <value>النتائج القصوى لكل صفحة</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>ميتا الوصف</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>كلمات دلالية</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>عدد الأميال</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="NumberBathrooms" xml:space="preserve">
+    <value>عدد الحمامات</value>
+  </data>
+  <data name="NumberBedrooms" xml:space="preserve">
+    <value>ارقام الغرف</value>
+  </data>
+  <data name="PayPal_CancelReturnURL" xml:space="preserve">
+    <value>إلغاء عنوان URL للعودة</value>
+  </data>
+  <data name="PayPal_Email" xml:space="preserve">
+    <value>بريد باي بال</value>
+  </data>
+  <data name="PayPal_Email_Help" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني للمستخدم المرتبط بحساب PayPal الذي سيتلقى المدفوعات.</value>
+  </data>
+  <data name="PayPal_Enabled" xml:space="preserve">
+    <value>تم تفعيل PayPal</value>
+  </data>
+  <data name="PayPal_FeesEmail" xml:space="preserve">
+    <value>البريد الإلكتروني للرسوم</value>
+  </data>
+  <data name="PayPal_IPNURL" xml:space="preserve">
+    <value>عنوان IPN</value>
+  </data>
+  <data name="PayPal_PostURL" xml:space="preserve">
+    <value>عنوان URL للنشر</value>
+  </data>
+  <data name="PayPal_ReturnToMerchantText" xml:space="preserve">
+    <value>ارجع إلى نص التاجر</value>
+  </data>
+  <data name="PayPal_SuccessReturnURL" xml:space="preserve">
+    <value>عنوان URL للعودة بنجاح</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>هاتف</value>
+  </data>
+  <data name="ProcessingEnabled" xml:space="preserve">
+    <value>تم تمكين المعالجة</value>
+  </data>
+  <data name="RestrictOutsideSellers" xml:space="preserve">
+    <value>تقييد البائعين خارج</value>
+  </data>
+  <data name="SecureURL" xml:space="preserve">
+    <value>عنوان URL آمن</value>
+  </data>
+  <data name="ShowBidHistoryUserNames" xml:space="preserve">
+    <value>إظهار أسماء مستخدمي سجل العطاء</value>
+  </data>
+  <data name="ShowCategoryCounts" xml:space="preserve">
+    <value>إظهار تعدادات الفئات</value>
+  </data>
+  <data name="ShowZeroCountCategories" xml:space="preserve">
+    <value>إظهار فئات عدد الصفر</value>
+  </data>
+  <data name="SiteTitle" xml:space="preserve">
+    <value>عنوان الموقع</value>
+  </data>
+  <data name="SquareFootage" xml:space="preserve">
+    <value>لقطات مربعة</value>
+  </data>
+  <data name="StateRegion" xml:space="preserve">
+    <value>الولاية / المنطقة</value>
+  </data>
+  <data name="Street1" xml:space="preserve">
+    <value>شارع 1</value>
+  </data>
+  <data name="Street2" xml:space="preserve">
+    <value>شارع 2</value>
+  </data>
+  <data name="SystemEmailAddress" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني للنظام</value>
+  </data>
+  <data name="SystemEmailName" xml:space="preserve">
+    <value>اسم البريد الإلكتروني للنظام</value>
+  </data>
+  <data name="ThumbX" xml:space="preserve">
+    <value>الإبهام X</value>
+  </data>
+  <data name="ThumbY" xml:space="preserve">
+    <value>الإبهام ص</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="UserMessagingEnabled" xml:space="preserve">
+    <value>تم تمكين رسائل المستخدم</value>
+  </data>
+  <data name="VerifyUserEmail" xml:space="preserve">
+    <value>تحقق من البريد الإلكتروني للمستخدم</value>
+  </data>
+  <data name="VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="ZipPostal" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="AcceptPayPal" xml:space="preserve">
+    <value>قبول PayPal</value>
+  </data>
+  <data name="PaymentInstructions" xml:space="preserve">
+    <value>تعليمات الدفع</value>
+  </data>
+  <data name="EnableProxyBidding" xml:space="preserve">
+    <value>تمكين المزايدة بالوكالة</value>
+  </data>
+  <data name="ListingDurationOptions_Help" xml:space="preserve">
+    <value>&lt;p&gt; تاريخ البدء والمدة - قم بجدولة تاريخ ووقت البدء وحدد عدد الأيام (المدة) التي ستكون فيها القائمة نشطة. &lt;/ p&gt;
+&lt;p&gt; تاريخ البدء وتاريخ الانتهاء - حدد كل من تاريخ ووقت البدء والانتهاء. &lt;/ p&gt;
+&lt;p&gt; المدة فقط - تصبح القائمة نشطة على الفور وتنتهي بعد عدد الأيام المحدد. &lt;/ p&gt;
+&lt;p&gt; تاريخ الانتهاء فقط - تصبح القائمة نشطة على الفور وتنتهي في تاريخ ووقت الانتهاء المحددين. &lt;/ p&gt;</value>
+  </data>
+  <data name="SniperProtectionSeconds" xml:space="preserve">
+    <value>ثواني حماية القناص</value>
+  </data>
+  <data name="AuthorizeNet_PaymentDescription" xml:space="preserve">
+    <value>وصف الدفع</value>
+  </data>
+  <data name="BottomBannersToDisplay" xml:space="preserve">
+    <value>لافتات أسفل للعرض</value>
+  </data>
+  <data name="LeftBannersToDisplay" xml:space="preserve">
+    <value>عرض الرايات اليسرى</value>
+  </data>
+  <data name="TopBannersToDisplay" xml:space="preserve">
+    <value>أعلى لافتات للعرض</value>
+  </data>
+  <data name="Duration_Only" xml:space="preserve">
+    <value>المدة فقط</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>ممكّن</value>
+  </data>
+  <data name="End_Only" xml:space="preserve">
+    <value>تاريخ الانتهاء فقط</value>
+  </data>
+  <data name="Start_And_Duration" xml:space="preserve">
+    <value>تاريخ البدء والمدة</value>
+  </data>
+  <data name="Start_And_End" xml:space="preserve">
+    <value>تاريخ البدء تاريخ الانتهاء</value>
+  </data>
+  <data name="ShowShippingInfoOnItemLists" xml:space="preserve">
+    <value>عرض معلومات الشحن على قوائم العناصر</value>
+  </data>
+  <data name="ShowShippingInfoOnItemLists_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم عرض خيار الشحن الأقل تكلفة أسفل العنوان في قوائم نتائج قوائم "تصفح" و "بحث"</value>
+  </data>
+  <data name="ShowSellerLocationOnListingDetails" xml:space="preserve">
+    <value>إظهار موقع البائع على صفحة التفاصيل</value>
+  </data>
+  <data name="CreditCardsEnabled" xml:space="preserve">
+    <value>بطاقات الائتمان المخزنة</value>
+  </data>
+  <data name="UserApprovalRequired" xml:space="preserve">
+    <value>مطلوب موافقة المستخدم</value>
+  </data>
+  <data name="ChargeFeesWhenRelisting" xml:space="preserve">
+    <value>رسوم الشحن عند الاعتماد</value>
+  </data>
+  <data name="MaxAutoRelists" xml:space="preserve">
+    <value>Max Auto Relists</value>
+  </data>
+  <data name="EnableGTC" xml:space="preserve">
+    <value>تمكين إلغاء الخير حتى</value>
+  </data>
+  <data name="EnableGTC_Help" xml:space="preserve">
+    <value>يمنح وكيل الإدراج خيار الاحتفاظ ببطاقة بياناته مفتوحة حتى يتم بيعها أو إلغاؤها يدويًا.</value>
+  </data>
+  <data name="TestDecimal" xml:space="preserve">
+    <value>اختبار عشري</value>
+  </data>
+  <data name="RequireCreditCardOnRegistration" xml:space="preserve">
+    <value>طلب بطاقة ائتمان عند التسجيل</value>
+  </data>
+  <data name="ShowSellerOnListingRow" xml:space="preserve">
+    <value>إظهار اسم البائع في نتائج البحث</value>
+  </data>
+  <data name="UsejQueryTimePicker" xml:space="preserve">
+    <value>استخدم jQuery Time Picker</value>
+  </data>
+  <data name="ProcessingEnabled_Help" xml:space="preserve">
+    <value>&lt;p&gt; في حالة التمكين: يتم تمكين عمليات الخلفية التالية: &lt;/ p&gt;
+&lt;ul style = "list-style-type: circle؛ margin-left: 20px؛"&gt;
+&lt;li&gt; &lt;b&gt; قوائم البدء &lt;/ b&gt; - لتنشيط القوائم المقرر تعيينها للبدء في المستقبل &lt;/ li&gt;
+&lt;li&gt; &lt;b&gt; حل القائمة &lt;/ b&gt; - إنهاء القوائم وحلها &lt;/ li&gt;
+&lt;li&gt; &lt;b&gt; إعادة تنشيط الرسوم &lt;/ b&gt; - حساب الرسوم المستحقة &lt;/ li&gt;
+&lt;li&gt; &lt;b&gt; برنامج التنبيه &lt;/ b&gt; - لإدارة إرسال رسائل البريد الإلكتروني &lt;/ li&gt;
+&lt;/ul&gt;
+&lt;p&gt; إذا لم يتم تمكين هذا الخيار ، فلن يتم تشغيل العمليات المذكورة أعلاه. النتائج هي: القوائم لا تبدأ أو تنتهي أبدًا ، ولا توجد رسائل بريد إلكتروني للنظام ، ولا توجد فواتير رسوم. &lt;/ p&gt;</value>
+  </data>
+  <data name="RequireAuthentication" xml:space="preserve">
+    <value>طلب المصادقة</value>
+  </data>
+  <data name="ShowPendingListings" xml:space="preserve">
+    <value>إظهار القوائم المجدولة</value>
+  </data>
+  <data name="EnableNotifications" xml:space="preserve">
+    <value>تم تمكين إشعارات البريد الإلكتروني</value>
+  </data>
+  <data name="EnableNotifications_Help" xml:space="preserve">
+    <value>&lt;p&gt; عند التحقق من تمكين إشعارات البريد الإلكتروني ، يعالج النظام ويرسل إشعارات البريد الإلكتروني إلى المشترين والبائعين للإشارة إلى النشاط مع قوائمهم وما إلى ذلك. &lt;/ p&gt;
+&lt;p&gt; إذا لم يتم التحقق من ذلك ، فلن يتم وضع رسائل البريد الإلكتروني في قائمة الانتظار ولا يتم إرسالها. &lt;/ p&gt;</value>
+  </data>
+  <data name="RequireAuthentication_Help" xml:space="preserve">
+    <value>في حالة التمكين: يجب تسجيل المستخدمين وتسجيل الدخول لعرض أي تفاصيل بطاقة بيانات.</value>
+  </data>
+  <data name="DisplayListingType" xml:space="preserve">
+    <value>عرض نوع القائمة في نتائج البحث</value>
+  </data>
+  <data name="AllowSellerEditDuration" xml:space="preserve">
+    <value>السماح بالتغييرات إلى تاريخ / مدة انتهاء الإدراج</value>
+  </data>
+  <data name="AllowSellerEditDuration_Help" xml:space="preserve">
+    <value>ملاحظة: بالنسبة للمزادات ، ينطبق هذا فقط على القوائم التي لا تحتوي على عروض أسعار.</value>
+  </data>
+  <data name="RequireAddressOnRegistration" xml:space="preserve">
+    <value>يتطلب العنوان عند التسجيل</value>
+  </data>
+  <data name="AuthorizeNetAIM" xml:space="preserve">
+    <value>Authorize.NET</value>
+  </data>
+  <data name="BatchPaymentDate" xml:space="preserve">
+    <value>يوم من الشهر</value>
+  </data>
+  <data name="BatchPaymentDate_Help" xml:space="preserve">
+    <value>إذا لم يكن الشهر محددًا في اليوم المحدد ، فسيختار النظام اليوم الأخير من ذلك الشهر. &lt;br/&gt;
+(مثال: يوم 30 محدد والشهر فبراير)
+&lt;p&gt;
+وبالتالي ، سيتم اختيار "31" دائمًا في "اليوم الأخير من الشهر".
+&lt;/p&gt;</value>
+  </data>
+  <data name="BatchPaymentDay" xml:space="preserve">
+    <value>يوم من الأسبوع</value>
+  </data>
+  <data name="BatchPaymentPeriod" xml:space="preserve">
+    <value>تكرار</value>
+  </data>
+  <data name="BatchPaymentPeriod_Help" xml:space="preserve">
+    <value>اضبط على "أبدًا" لتعطيل الدفعات المجدولة. وبخلاف ذلك ، اختر عدد المرات التي يجب فيها محاولة المدفوعات المجدولة.</value>
+  </data>
+  <data name="BatchPaymentProvider" xml:space="preserve">
+    <value>مزود</value>
+  </data>
+  <data name="BatchPaymentTime" xml:space="preserve">
+    <value>وقت اليوم</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>اليومي</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>يوم الجمعة</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>الإثنين</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>شهريا</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>أبدا</value>
+  </data>
+  <data name="NextBatchPayment" xml:space="preserve">
+    <value>محاولة دفع الدفعة التالية</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>يوم السبت</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>الأحد</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>الخميس</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>الثلاثاء</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>الأربعاء</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>أسبوعي</value>
+  </data>
+  <data name="AllowSellerEditStartDate" xml:space="preserve">
+    <value>السماح بتحرير تاريخ البدء للقوائم المجدولة</value>
+  </data>
+  <data name="AllowSellerEditStartDate_Help" xml:space="preserve">
+    <value>ينطبق هذا فقط على القوائم التي لم تبدأ بعد (القوائم المجدولة).</value>
+  </data>
+  <data name="DisableBuyNowAfterWinningBids" xml:space="preserve">
+    <value>قم بتعطيل الشراء الآن بعد الفوز بالمزايدة</value>
+  </data>
+  <data name="DisableBuyNowAfterWinningBids_Help" xml:space="preserve">
+    <value>إذا تم تحديده (معطل) ، سيختفي خيار الشراء الآن بمجرد تقديم أول عرض فائز. إذا تم تحديده أو إلغاء تحديده ، فسيظل خيار "الشراء الآن" متاحًا إذا لم يتم الوفاء بالسعر الاحتياطي.</value>
+  </data>
+  <data name="EnableProxyBidding_Help" xml:space="preserve">
+    <value>في حالة التمكين: يتم إدخال العطاءات تلقائيًا نيابة عن مقدم العطاء بأقل مبلغ مطلوب للفوز بالعنصر. &lt;p&gt; وبخلاف ذلك ، لن يتم استخدام نظام الوكيل وسيتم وضع أقصى عرض سعر دائمًا على الفور. &lt;/ p&gt;</value>
+  </data>
+  <data name="ProxyBiddingBelowReserve" xml:space="preserve">
+    <value>المزايدة بالوكالة أقل من الاحتياطي</value>
+  </data>
+  <data name="ProxyBiddingBelowReserve_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستعمل المزايدة بالوكالة كما هي بغض النظر عما إذا تم تحقيق السعر الاحتياطي أم لا ، مما سيؤدي إلى انتهاء المزاد دون جدوى إذا كان هناك مزايد واحد فقط (حتى لو كان الحد الأقصى للمزايدة بالوكالة أكبر من السعر الاحتياطي). بخلاف ذلك (إذا تم تعطيله) ، سيعمل نظام الوكيل تلقائيًا على رفع مستوى عرض الأسعار للوفاء بالسعر الاحتياطي إن أمكن.</value>
+  </data>
+  <data name="AcceptCreditCard" xml:space="preserve">
+    <value>قبول بطاقة الائتمان</value>
+  </data>
+  <data name="DefaultSalesInvoiceComment" xml:space="preserve">
+    <value>تعليق الفاتورة الافتراضي</value>
+  </data>
+  <data name="DefaultSalesInvoiceComment_Help" xml:space="preserve">
+    <value>سيتم إدراج هذا النص تلقائيًا في حقل التعليقات لفواتير المبيعات الجديدة.</value>
+  </data>
+  <data name="FeedbackEnabled_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: يتوفر نظام التعليقات والملاحظات حول المعاملات للمستخدمين.</value>
+  </data>
+  <data name="FriendlySiteName_Help" xml:space="preserve">
+    <value>يظهر في الفواتير.</value>
+  </data>
+  <data name="LegalSiteName_Help" xml:space="preserve">
+    <value>يظهر ضمن معلومات حقوق النشر.</value>
+  </data>
+  <data name="SecureURL_Help" xml:space="preserve">
+    <value>مثال: https://www.xyz.com
+&lt;p&gt;
+إذا لم يكن لديك شهادة SSL مثبتة لموقعك على الويب ، يجب أن يتطابق عنوان URL الآمن مع عنوان URL أعلاه. &lt;/p&gt;</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>مثال: http://www.xyz.com
+&lt;p&gt;
+عنوان URL الكامل ، بما في ذلك http: // ، لاستخدامه في إنشاء روابط البرامج الداخلية والروابط داخل قوالب البريد الإلكتروني. &lt;/p&gt;</value>
+  </data>
+  <data name="UserMessagingEnabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: يُسمح للمستخدمين بإرسال رسائل إلى مستخدمين آخرين. في حالة السماح بالإعلانات المبوبة ، يجب تمكين هذا الإعداد للسماح للمستخدمين بالاتصال بمالك الإعلان.</value>
+  </data>
+  <data name="UseAggregateFinalPercentageFees" xml:space="preserve">
+    <value>استخدم إجمالي رسوم النسبة المئوية النهائية</value>
+  </data>
+  <data name="ShowCurrencyCodes" xml:space="preserve">
+    <value>إظهار رموز العملات</value>
+  </data>
+  <data name="HideTaxFields" xml:space="preserve">
+    <value>إخفاء جميع الحقول الضريبية</value>
+  </data>
+  <data name="ThumbCrop" xml:space="preserve">
+    <value>اقتصاص</value>
+  </data>
+  <data name="ThumbFit" xml:space="preserve">
+    <value>تحجيم لتناسب</value>
+  </data>
+  <data name="ThumbnailType" xml:space="preserve">
+    <value>نوع الصورة المصغرة</value>
+  </data>
+  <data name="ShowCurrencySymbol" xml:space="preserve">
+    <value>إظهار رمز العملة</value>
+  </data>
+  <data name="AcceptAMEX_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم توفير "American Express" كخيار لنوع البطاقة لمدفوعات بطاقات الائتمان.</value>
+  </data>
+  <data name="AcceptDiscover_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم توفير "Discover" كخيار لنوع البطاقة لمدفوعات بطاقات الائتمان.</value>
+  </data>
+  <data name="AcceptMastercard_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم توفير "Mastercard" كخيار لنوع البطاقة لمدفوعات بطاقات الائتمان.</value>
+  </data>
+  <data name="AcceptVisa_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم توفير "Visa" كخيار لنوع البطاقة لمدفوعات بطاقات الائتمان.</value>
+  </data>
+  <data name="AdministratorEmail_Help" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني لجهة اتصال الإدارة.</value>
+  </data>
+  <data name="AuthorizeNet_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتصل البرنامج بحسابك في Authorize.net وستتوفر "Checkout with Credit Card" كخيار للدفع. تسمح طريقة الدفع هذه للمستخدمين بإرسال مدفوعات بطاقة الائتمان دون مغادرة الموقع. ملاحظة: تتطلب طريقة الدفع هذه أيضًا تمكين "بطاقات الائتمان المخزنة".</value>
+  </data>
+  <data name="AuthorizeNet_MerchantLoginID_Help" xml:space="preserve">
+    <value>تسجيل الدخول إلى Authorize.Net API للاستخدام مع فواتير رسوم الموقع.</value>
+  </data>
+  <data name="AuthorizeNet_PaymentDescription_Help" xml:space="preserve">
+    <value>يُستخدم لوصف المعاملة بين المسؤول والتاجر.</value>
+  </data>
+  <data name="AuthorizeNet_PostUrl_Help" xml:space="preserve">
+    <value>يحدد عنوان URL المستخدم بواسطة موفر الدفع Authorize.Net لنشر معاملات الدفع. بشكل عام ، لا يجب تغيير هذه القيمة إلا لأغراض الاختبار أو استكشاف الأخطاء وإصلاحها.</value>
+  </data>
+  <data name="AuthorizeNet_TestMode_Help" xml:space="preserve">
+    <value>عند التحقق ، سيتم نشر الدفعات كمعاملات تجريبية. في الواقع لن يتم تحويل أي أموال.
+&lt;p&gt; اختبار أرقام بطاقة الائتمان (يجب تعيين تاريخ انتهاء الصلاحية على التاريخ الحالي أو أحدث): &lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; بطاقة اختبار American Express: 370000000000002 &lt;/li&gt;
+&lt;li&gt; اكتشف بطاقة الاختبار: 6011000000000012 &lt;/li&gt;
+&lt;li&gt; بطاقة اختبار التأشيرة: 4007000000027 &lt;/li&gt;
+&lt;li&gt; بطاقة اختبار التأشيرة الثانية: 4012888818888 &lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="AuthorizeNet_TransactionKey_Help" xml:space="preserve">
+    <value>مفتاح المعاملة Authorize.Net الخاص بك للاستخدام مع فواتير رسوم الموقع.</value>
+  </data>
+  <data name="BottomBannersToDisplay_Help" xml:space="preserve">
+    <value>عدد اللافتات المختارة عشوائيًا لعرضها في أسفل صفحات معينة.</value>
+  </data>
+  <data name="ChargeFeesWhenRelisting_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: فسيتم فرض رسوم الإدراج المرتبطة بالبائع عند إعادة إدراج أحد العناصر.</value>
+  </data>
+  <data name="CreditCardsEnabled_Help" xml:space="preserve">
+    <value>إذا تم التمكين: ستظهر جميع نماذج بيانات بطاقة الائتمان المرتبطة بها للمستخدمين. يمكن حفظ بيانات بطاقة الائتمان على موقع الويب الخاص بك لعمليات الشراء المستقبلية.</value>
+  </data>
+  <data name="DisplayListingType_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم عرض نوع القائمة في صفحة نتائج القائمة لكل من التصفح والبحث.</value>
+  </data>
+  <data name="DurationDaysList_Help" xml:space="preserve">
+    <value>أدخل عدد خيارات "اليوم" لعرضها على البائعين لقوائمهم.</value>
+  </data>
+  <data name="EnableMultipleCultures_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيسمح البرنامج بميزات لغات متعددة تختار دعمها.</value>
+  </data>
+  <data name="EnableMultipleCurrencies_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيسمح البرنامج بالعملات والتحويلات التي تختار دعمها.</value>
+  </data>
+  <data name="EnableShipping_Help" xml:space="preserve">
+    <value>في حالة التمكين: يجوز للبائعين تحديد تفاصيل تكلفة الشحن الثابتة عند إنشاء القوائم أو تعديلها.</value>
+  </data>
+  <data name="HideTaxFields_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم إزالة وظيفة الضرائب على مستوى الموقع - بما في ذلك منطقة "حسابي" ومنطقة "إنشاء قائمة" وعلى الفواتير.</value>
+  </data>
+  <data name="LeftBannersToDisplay_Help" xml:space="preserve">
+    <value>عدد اللافتات المختارة عشوائيًا لعرضها على الجانب الأيسر من صفحات معينة.</value>
+  </data>
+  <data name="MaxAutoRelists_Help" xml:space="preserve">
+    <value>الحد الأقصى لعدد مرات إعادة إدراج عنصر تلقائيًا في القائمة إذا لم يتم بيعه.</value>
+  </data>
+  <data name="MaxHomePageFeatured_Help" xml:space="preserve">
+    <value>الحد الأقصى لعدد العناصر التي تظهر في وقت واحد على الصفحة الرئيسية.</value>
+  </data>
+  <data name="MaxImagesPerItem_Help" xml:space="preserve">
+    <value>الحد الأقصى لعدد الصور التي يمكن للبائع تحميلها لكل بطاقة بيانات.</value>
+  </data>
+  <data name="MaxResultsPerPage_Help" xml:space="preserve">
+    <value>الحد الأقصى لعدد بطاقات البيانات الفردية التي ستظهر في كل صفحة.</value>
+  </data>
+  <data name="MetaDescription_Help" xml:space="preserve">
+    <value>يتم استخدام هذا من قبل محركات البحث عند عرض نتائج البحث التي تحتوي على رابط إلى موقعك.</value>
+  </data>
+  <data name="MetaKeywords_Help" xml:space="preserve">
+    <value>يتم استخدامها من قبل محركات البحث لترتيب موقعك.</value>
+  </data>
+  <data name="PayPal_CancelReturnURL_Help" xml:space="preserve">
+    <value>عنوان URL الذي سيعيد PayPal توجيه المستخدم إليه في حالة فشل الدفع أو إلغائه من قبل المستخدم.</value>
+  </data>
+  <data name="PayPal_Enabled_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا ، فإن خدمة PayPal "موقع مدفوعات الموقع الإلكتروني" متاحة كخيار للسداد. تعمل طريقة الدفع هذه على إعادة توجيه المستخدمين إلى موقع paypal الإلكتروني لإكمال الدفع ثم إعادة التوجيه إلى موقع الويب الخاص بك بعد ذلك.</value>
+  </data>
+  <data name="PayPal_FeesEmail_Help" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني المرتبط بحساب PayPal الذي سيتلقى مدفوعات رسوم الموقع.</value>
+  </data>
+  <data name="PayPal_IPNURL_Help" xml:space="preserve">
+    <value>عنوان URL الذي سيبلغ PayPal بنتائج محاولات الدفع إليه. لا يجب تغيير هذه القيمة بشكل عام ، باستثناء الاختبار أو استكشاف الأخطاء وإصلاحها أو التخصيصات المتقدمة.</value>
+  </data>
+  <data name="PayPal_PostURL_Help" xml:space="preserve">
+    <value>عنوان URL الذي يستخدمه مزود خدمة PayPal لنشر معاملات الدفع. لا يجب تغيير هذه القيمة بشكل عام ، باستثناء الاختبار أو استكشاف الأخطاء وإصلاحها أو التخصيصات المتقدمة.</value>
+  </data>
+  <data name="PayPal_ReturnToMerchantText_Help" xml:space="preserve">
+    <value>يحدد نص الرابط المعروض على صفحات PayPal للرابط إلى موقع المزاد على الويب (عنوان URL لإلغاء الإرجاع).</value>
+  </data>
+  <data name="PayPal_SuccessReturnURL_Help" xml:space="preserve">
+    <value>عنوان URL الذي سيعيد PayPal توجيه المستخدم إليه عند تقديم الدفعة بنجاح. لا يجب تغيير هذه القيمة بشكل عام ، باستثناء الاختبار أو استكشاف الأخطاء وإصلاحها أو التخصيصات المتقدمة.</value>
+  </data>
+  <data name="RequireAddressOnRegistration_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيُطلب من المستخدم إدخال معلومات عنوانه أثناء عملية التسجيل.</value>
+  </data>
+  <data name="RequireCreditCardOnRegistration_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيُطلب من المستخدم إدخال معلومات بطاقة الائتمان الخاصة به أثناء عملية التسجيل.</value>
+  </data>
+  <data name="RestrictOutsideSellers_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم منح المستخدمين الجدد امتيازات المشتري فقط عند التسجيل ، بدلاً من امتيازات المشتري والبائع.</value>
+  </data>
+  <data name="ShowBidHistoryUserNames_Help" xml:space="preserve">
+    <value>في حالة التمكين: يتم عرض أسماء المستخدمين في قائمة سجل الشراء أو تقارير سجل المزايدة.</value>
+  </data>
+  <data name="ShowCategoryCounts_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: يتم عرض عدد عدد القوائم النشطة الموجودة تحت كل فئة (بما في ذلك جميع الفئات الفرعية) بين قوسين بجوار اسم الفئة على الصفحات التي تحتوي على التنقل في الفئة.</value>
+  </data>
+  <data name="ShowCurrencyCodes_Help" xml:space="preserve">
+    <value>في حالة التمكين: يتم عرض رمز العملة بجوار جميع الأسعار في جميع أنحاء الموقع.</value>
+  </data>
+  <data name="ShowCurrencySymbol_Help" xml:space="preserve">
+    <value>في حالة التمكين: يتم عرض رمز العملة بجوار جميع الأسعار في جميع أنحاء الموقع.</value>
+  </data>
+  <data name="ShowPendingListings_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم عرض القوائم التي من المقرر أن تبدأ في المستقبل على الصفحة الرئيسية وصفحات التصفح ونتائج البحث.</value>
+  </data>
+  <data name="ShowSellerLocationOnListingDetails_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم عرض مدينة البائع والولاية / المنطقة والبلد من "العنوان الرئيسي" على صفحة التفاصيل</value>
+  </data>
+  <data name="ShowSellerOnListingRow_Help" xml:space="preserve">
+    <value>في حالة التمكين: يتم عرض اسم مستخدم البائع أسفل عنوان القائمة والعنوان الفرعي عند عرضه في قوائم نتائج البحث.</value>
+  </data>
+  <data name="ShowZeroCountCategories_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: سيتضمن التنقل بين الفئات جميع الفئات في المستوى ، حتى إذا كانت لا تحتوي على أي قوائم نشطة. بخلاف ذلك (إذا تم تعطيله) ، سيتم عرض الفئات التي تحتوي على قائمة نشطة واحدة على الأقل ضمنها في التنقل في الفئة.</value>
+  </data>
+  <data name="SiteTitle_Help" xml:space="preserve">
+    <value>يُستخدم كبادئة قياسية لجميع عناوين الصفحة (العنوان المعروض في شريط العنوان لمعظم متصفحات الويب).</value>
+  </data>
+  <data name="SniperProtectionSeconds_Help" xml:space="preserve">
+    <value>إذا تم تقديم عرض ضمن عدد الثواني المحدد قبل انتهاء العنصر ، فسيتم تمديد المزاد تلقائيًا هذا العدد من الثواني.</value>
+  </data>
+  <data name="SystemEmailAddress_Help" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني الذي تنشأ منه رسائل البريد الإلكتروني الآلية.</value>
+  </data>
+  <data name="SystemEmailName_Help" xml:space="preserve">
+    <value>الاسم الذي يظهر في الحقل "من" للرسائل الإلكترونية التي يرسلها النظام.</value>
+  </data>
+  <data name="ThumbnailType_Help" xml:space="preserve">
+    <value>&lt;p&gt; &lt;b&gt; اقتصاص: &lt;/ b&gt; سيتم اقتصاص الصورة إلى مربع لملاءمة مساحة عرض الصورة. &lt;/ p&gt; &lt;p&gt; &lt;b&gt; تحجيم للملاءمة: &lt;/ b&gt; سيتم قياس الصورة لأسفل حتى يناسب العرض منطقة عرض الصورة. &lt;/ p&gt;</value>
+  </data>
+  <data name="TopBannersToDisplay_Help" xml:space="preserve">
+    <value>عدد اللافتات المختارة عشوائيًا لعرضها في أعلى كل الصفحات.</value>
+  </data>
+  <data name="UsejQueryTimePicker_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيكون منتقي وقت jQuery متاحًا في صفحة إنشاء قائمة 2 من 2.</value>
+  </data>
+  <data name="UserApprovalRequired_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتطلب جميع تسجيلات المستخدم الجديد الموافقة اليدوية قبل أن يتمكن المستخدم من استخدام خدمات موقع الويب.</value>
+  </data>
+  <data name="VerifyUserEmail_Help" xml:space="preserve">
+    <value>في حالة التمكين: لن يتمكن المستخدمون الجدد من تسجيل الدخول حتى يتحققوا من عنوان بريدهم الإلكتروني. يتطلب التحقق إدخال رمز التحقق الذي تم إنشاؤه عشوائيًا والذي يتم تسليمه عبر البريد الإلكتروني.</value>
+  </data>
+  <data name="BuyersPremiumPercent" xml:space="preserve">
+    <value>قسط المشتري (٪)</value>
+  </data>
+  <data name="BuyersPremiumPercent_Help" xml:space="preserve">
+    <value>ستتم إضافة هذا المبلغ تلقائيًا إلى فواتير المبيعات الجديدة.</value>
+  </data>
+  <data name="EnableBuyersPremium" xml:space="preserve">
+    <value>تمكين قسط المشتري</value>
+  </data>
+  <data name="EnableWebAPI" xml:space="preserve">
+    <value>تمكين Web API</value>
+  </data>
+  <data name="EnableWebAPI_Help" xml:space="preserve">
+    <value>تسمح واجهة برمجة تطبيقات الويب لمستخدمين محددين بالوصول إلى وظائف معينة في الموقع من خلال واجهة برمجة تطبيقات لأداء إجراءات خارج موقع AuctionWorx عبر خدمة ويب. عند تحديده ، يمكّن Web API. عند إلغاء التحديد ، يتم تعطيل واجهة برمجة تطبيقات الويب تمامًا.</value>
+  </data>
+  <data name="ShowLanguageRegionOptions" xml:space="preserve">
+    <value>إظهار خيارات اللغة الإقليمية</value>
+  </data>
+  <data name="ShowLanguageRegionOptions_Help" xml:space="preserve">
+    <value>في حالة التمكين: عند تعيين "تمكين ثقافات متعددة" أيضًا ، ستعرض القائمة المنسدلة للغة التذييل خيارات اللغة الإقليمية (مثل "الإنجليزية (الولايات المتحدة)" بالإضافة إلى خيارات اللغة الأساسية (مثل "الإنجليزية")</value>
+  </data>
+  <data name="test_bool1_Help" xml:space="preserve">
+    <value>بعض نص المساعدة - مفيدة جدًا ، إيه !؟</value>
+  </data>
+  <data name="test_date1_Help" xml:space="preserve">
+    <value>بعض نص المساعدة - مفيدة جدًا ، إيه !؟</value>
+  </data>
+  <data name="test_decimal1_Help" xml:space="preserve">
+    <value>بعض نص المساعدة - مفيدة جدًا ، إيه !؟</value>
+  </data>
+  <data name="test_enum1_Help" xml:space="preserve">
+    <value>بعض نص المساعدة - مفيدة جدًا ، إيه !؟</value>
+  </data>
+  <data name="test_enum2_Help" xml:space="preserve">
+    <value>بعض نص المساعدة - مفيدة جدًا ، إيه !؟</value>
+  </data>
+  <data name="test_int1_Help" xml:space="preserve">
+    <value>بعض نص المساعدة - مفيدة جدًا ، إيه !؟</value>
+  </data>
+  <data name="test_string1_Help" xml:space="preserve">
+    <value>بعض نص المساعدة - مفيدة جدًا ، إيه !؟</value>
+  </data>
+  <data name="EnableBuyersPremium_Help" xml:space="preserve">
+    <value>في حالة التمكين: يمكن للبائعين اختيار إضافة نسبة مئوية إلى التكلفة النهائية لقائمة. &lt;br&gt; &lt;br&gt; ملاحظة: يمكن استخدام هذه الميزة بشكل مستقل عن الرسوم النهائية للمشتري ، والتي تضيف عنصرًا إلى فاتورة رسوم موقع المشتري لكل عملية بيع.</value>
+  </data>
+  <data name="ListingOption_Bold_Enabled" xml:space="preserve">
+    <value>تمكين خيار الإدراج "غامق"</value>
+  </data>
+  <data name="ListingOption_Bold_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من تحديد خيار الإدراج "غامق"</value>
+  </data>
+  <data name="ListingOption_Featured_Enabled" xml:space="preserve">
+    <value>تمكين خيار القائمة "المميزة"</value>
+  </data>
+  <data name="ListingOption_Featured_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من تحديد خيار القائمة "المميزة"</value>
+  </data>
+  <data name="ListingOption_Highlight_Enabled" xml:space="preserve">
+    <value>تمكين خيار قائمة "تمييز"</value>
+  </data>
+  <data name="ListingOption_Highlight_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من تحديد خيار الإدراج "Highlight"</value>
+  </data>
+  <data name="ListingOption_Sunburst_Enabled" xml:space="preserve">
+    <value>تفعيل خيار إدراج شعار "بيع".</value>
+  </data>
+  <data name="ListingOption_Sunburst_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من تحديد خيار قائمة "شارة البيع"</value>
+  </data>
+  <data name="ShowHomepageDecorations" xml:space="preserve">
+    <value>إظهار زينة الصفحة الرئيسية</value>
+  </data>
+  <data name="ShowHomepageDecorations_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستشتمل القوائم المعروضة على الصفحة الرئيسية على أي خيارات قائمة حددها البائع.</value>
+  </data>
+  <data name="Theme_SolidBlack" xml:space="preserve">
+    <value>أسود أساسي</value>
+  </data>
+  <data name="CssTheme" xml:space="preserve">
+    <value>موضوع CSS</value>
+  </data>
+  <data name="Theme_Default" xml:space="preserve">
+    <value>إفتراضي</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>ميدان</value>
+  </data>
+  <data name="Theme_DropShadow" xml:space="preserve">
+    <value>شبح الهبوط</value>
+  </data>
+  <data name="CssTheme_Help" xml:space="preserve">
+    <value>تم تضمين بعض السمات لراحتك لاستخدامها كما هي أو كنقطة انطلاق لتصميم ثيم Bootstrap CSS المخصص الخاص بك.</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_DaysOld" xml:space="preserve">
+    <value>حذف فواتير الرسوم الأيام القديمة</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_Enabled" xml:space="preserve">
+    <value>تم تمكين حذف فواتير الرسوم</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم تلقائيًا إزالة فواتير الرسوم الأقدم من عدد الأيام المحدد من النظام.</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_IncludeUnpaid" xml:space="preserve">
+    <value>حذف فواتير الرسوم تشمل غير المسددة</value>
+  </data>
+  <data name="DataCleanup_DeleteFeeInvoices_IncludeUnpaid_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم أيضًا إزالة فواتير الرسوم غير المدفوعة تلقائيًا. &lt;br/&gt;
+في حالة الإيقاف: ستتم إزالة فواتير الرسوم المدفوعة تلقائيًا فقط.</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_DaysOld" xml:space="preserve">
+    <value>حذف قوائم يوم قديم</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_Enabled" xml:space="preserve">
+    <value>تم تمكين حذف القوائم</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم إزالة القوائم الأقدم من عدد الأيام المحدد تلقائيًا من النظام.</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_IncludeSuccessful" xml:space="preserve">
+    <value>حذف القوائم تضمين ناجح</value>
+  </data>
+  <data name="DataCleanup_DeleteListings_IncludeSuccessful_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم إزالة القوائم التي انتهت بنجاح.</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_DaysOld" xml:space="preserve">
+    <value>حذف فواتير البيع أيام قديمة</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_Enabled" xml:space="preserve">
+    <value>تم تمكين حذف فواتير البيع</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم تلقائيًا إزالة فواتير البيع الأقدم من عدد الأيام المحدد من النظام.</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_IncludeUnpaid" xml:space="preserve">
+    <value>حذف فواتير البيع تتضمن غير مدفوعة</value>
+  </data>
+  <data name="DataCleanup_DeleteSaleInvoices_IncludeUnpaid_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم أيضًا إزالة فواتير البيع غير المدفوعة تلقائيًا. &lt;br/&gt;
+في حالة التعطيل: ستتم إزالة فواتير البيع المدفوعة تلقائيًا.</value>
+  </data>
+  <data name="DataCleanup_Enabled" xml:space="preserve">
+    <value>تم تمكين تنظيف البيانات</value>
+  </data>
+  <data name="DataCleanup_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم تلقائيًا إزالة القوائم و / أو الفواتير الأقدم من عدد الأيام المحدد من النظام بشكل دوري. &lt;br/&gt;
+ملاحظة: سيؤدي تعطيل هذا الخيار إلى تعطيل جميع الخيارات الأخرى في هذه الصفحة.</value>
+  </data>
+  <data name="RestrictCustomFieldEdits" xml:space="preserve">
+    <value>تقييد تعديلات الحقل المخصص</value>
+  </data>
+  <data name="RestrictCustomFieldEdits_Help" xml:space="preserve">
+    <value>في حالة التمكين: عند تقديم عروض الأسعار ، لن يسمح بتغيير الحقول المخصصة</value>
+  </data>
+  <data name="EnableRecaptchaForContactUs" xml:space="preserve">
+    <value>تمكين Recaptcha للاتصال بنا</value>
+  </data>
+  <data name="EnableRecaptchaForContactUs_Help" xml:space="preserve">
+    <value>في حالة التمكين ، يتطلب من المستخدم اجتياز اختبار اختبار CAPTCHA قبل إرسال صفحة اتصل بنا.</value>
+  </data>
+  <data name="EnableRecaptchaForRegistration" xml:space="preserve">
+    <value>تمكين Recaptcha للتسجيل</value>
+  </data>
+  <data name="EnableRecaptchaForRegistration_Help" xml:space="preserve">
+    <value>في حالة التمكين ، يتطلب من المستخدم اجتياز اختبار اختبار CAPTCHA قبل تقديم صفحة التسجيل.</value>
+  </data>
+  <data name="RecaptchaPrivateKey" xml:space="preserve">
+    <value>مفتاح Recaptcha الخاص</value>
+  </data>
+  <data name="RecaptchaPrivateKey_Help" xml:space="preserve">
+    <value>تم تعيين مفتاح Recaptcha الخاص لك بواسطة Google.</value>
+  </data>
+  <data name="RecaptchaPublicKey" xml:space="preserve">
+    <value>مفتاح Recaptcha العام</value>
+  </data>
+  <data name="RecaptchaPublicKey_Help" xml:space="preserve">
+    <value>تم تعيين مفتاح Recaptcha العام لك بواسطة Google.</value>
+  </data>
+  <data name="Theme_GallerySimple" xml:space="preserve">
+    <value>معرض بسيط</value>
+  </data>
+  <data name="SiteTimeZone" xml:space="preserve">
+    <value>المنطقة الزمنية للموقع</value>
+  </data>
+  <data name="SiteTimeZone_Help" xml:space="preserve">
+    <value>المنطقة الزمنية لعرض كل التاريخ / الأوقات فيها. &lt;br&gt; ملاحظة: يمكن تغيير جميع الأسماء والاختصارات في TimeZones.resx</value>
+  </data>
+  <data name="TimeZoneLabel" xml:space="preserve">
+    <value>تسمية المنطقة الزمنية</value>
+  </data>
+  <data name="TimeZoneLabel_Help" xml:space="preserve">
+    <value>تسمية نصية اختيارية سيتم عرضها بعد كل قيم التاريخ / الوقت في جميع أنحاء الموقع</value>
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
+    <value>تحت وضع البناء</value>
+  </data>
+  <data name="MaintenanceMode_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستعرض الصفحة الرئيسية محتويات CMS تحت الإنشاء ووضع الارتباط "تسجيل الدخول". بالإضافة إلى ذلك ، سيتم السماح فقط للمشرفين بتسجيل الدخول.</value>
+  </data>
+  <data name="ManagerName" xml:space="preserve">
+    <value>اسم المدير</value>
+  </data>
+  <data name="PaginateHomepageEvents" xml:space="preserve">
+    <value>ترقيم الأحداث على الصفحة الرئيسية</value>
+  </data>
+  <data name="PaginateHomepageEvents_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم عرض ما يصل إلى أحداث "الحد الأقصى لعناصر الصفحة الرئيسية" على الصفحة الرئيسية ، مع ارتباطات الصفحة لبقية الصفحة. &lt;br&gt; في حالة التعطيل: سيتم عرض جميع الأحداث المؤهلة على الصفحة الرئيسية في قائمة واحدة.</value>
+  </data>
+  <data name="DefaultBrowseSort" xml:space="preserve">
+    <value>تصفح افتراضي الترتيب</value>
+  </data>
+  <data name="DefaultBrowseSort_Help" xml:space="preserve">
+    <value>حدد خيار الفرز الذي تم تحديده افتراضيًا عند تصفح القوائم</value>
+  </data>
+  <data name="EndingSoon" xml:space="preserve">
+    <value>ينتهى قريبا</value>
+  </data>
+  <data name="Newest" xml:space="preserve">
+    <value>الأحدث</value>
+  </data>
+  <data name="EnableRegions_Help" xml:space="preserve">
+    <value>في حالة التمكين: يمكن تصفية نتائج التصفح والبحث حسب المنطقة وستوفر كل القوائم تحديدًا اختياريًا لـ "المنطقة" بالإضافة إلى فئة القائمة عند إنشائها.</value>
+  </data>
+  <data name="ShowTimeZoneLabel" xml:space="preserve">
+    <value>إظهار تسمية المنطقة الزمنية</value>
+  </data>
+  <data name="ShowTimeZoneLabel_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم عرض جميع قيم التاريخ / الوقت مع اختصار المنطقة الزمنية (على سبيل المثال ، التوقيت الشرقي (الولايات المتحدة وكندا) ستظهر "ET" بعد كل الأوقات)</value>
+  </data>
+  <data name="Theme_Bootstrap3" xml:space="preserve">
+    <value>إطار Bootstrap غير المستقر</value>
+  </data>
+  <data name="Theme_Classic_Dark_00" xml:space="preserve">
+    <value>كلاسيكي - غامق (لا توجد صورة خلفية)</value>
+  </data>
+  <data name="Theme_Classic_Dark_01" xml:space="preserve">
+    <value>كلاسيكي - داكن (صورة خلفية خشبية فاتحة)</value>
+  </data>
+  <data name="Theme_Classic_Light_00" xml:space="preserve">
+    <value>كلاسيكي - فاتح (بدون صورة خلفية)</value>
+  </data>
+  <data name="Theme_Classic_Light_01" xml:space="preserve">
+    <value>الكلاسيكية - الخفيفة (صورة خلفية الخشب الخفيف)</value>
+  </data>
+  <data name="Theme_Minima_00" xml:space="preserve">
+    <value>الحد الأدنى</value>
+  </data>
+  <data name="Theme_Default_01" xml:space="preserve">
+    <value>AuctionWorx افتراضي (خلفية رمادية)</value>
+  </data>
+  <data name="DefaultLotNumberDigits" xml:space="preserve">
+    <value>تنسيق رقم اللوت الافتراضي</value>
+  </data>
+  <data name="DefaultLotNumberDigits_Help" xml:space="preserve">
+    <value>&lt;p&gt; إذا لم يقم البائع بإدخال رقم الكثير ، فسيتم تعيين رقم تلقائيًا. سيتم تنسيق الرقم المعين بعدد الأحرف التي تم إدخالها في هذا الإعداد. &lt;/p&gt;&lt;p&gt; &lt;strong&gt; مثال: &lt;/ strong&gt; &lt;br&gt; عندما يتم تعيين أرقام أرقام اللوت الافتراضية على "1" ، سيتم تعيين اللوتات لرقم اللوت بدءًا من "1". &lt;br&gt; &lt; br&gt; عندما يتم تعيين تنسيق الرقم الافتراضي على "3" ، سيتم تعيين عدد الكثير من القطع بدءًا من "001"</value>
+  </data>
+  <data name="EnableEventDescription" xml:space="preserve">
+    <value>تمكين الوصف</value>
+  </data>
+  <data name="EnableEventDescription_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: سيكون حقل "الوصف" متاحًا عند إنشاء حدث أو تحريره</value>
+  </data>
+  <data name="EnableEventManagedBy" xml:space="preserve">
+    <value>تفعيل المُدار بواسطة</value>
+  </data>
+  <data name="EnableEventManagedBy_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: سيتوفر حقل "مُدار بواسطة" عند إنشاء حدث أو تحريره</value>
+  </data>
+  <data name="EnableEventShippingInfo" xml:space="preserve">
+    <value>تفعيل معلومات الشحن</value>
+  </data>
+  <data name="EnableEventShippingInfo_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيكون حقل "معلومات الشحن" متاحًا عند إنشاء حدث أو تعديله</value>
+  </data>
+  <data name="EnableEventSummary" xml:space="preserve">
+    <value>تمكين الملخص</value>
+  </data>
+  <data name="EnableEventSummary_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: سيكون حقل "الملخص" متاحًا عند إنشاء حدث أو تحريره</value>
+  </data>
+  <data name="EnableEventTermsAndConditions" xml:space="preserve">
+    <value>تمكين الشروط والأحكام</value>
+  </data>
+  <data name="EnableEventTermsAndConditions_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتوفر حقل "البنود والشروط" عند إنشاء حدث أو تعديله</value>
+  </data>
+  <data name="Theme_Classic_Dark_02" xml:space="preserve">
+    <value>كلاسيكي - داكن (خلفية شجرة البتولا الرسومية الدقيقة)</value>
+  </data>
+  <data name="Theme_Classic_Light_02" xml:space="preserve">
+    <value>كلاسيكي - فاتح (خلفية شجرة البتولا الرسومية الدقيقة)</value>
+  </data>
+  <data name="Theme_Default_02" xml:space="preserve">
+    <value>AuctionWorx افتراضي (خلفية محايدة / تان)</value>
+  </data>
+  <data name="PayPal_BackupPaymentCurrency" xml:space="preserve">
+    <value>عملة الدفع الاحتياطية</value>
+  </data>
+  <data name="PayPal_BackupPaymentCurrency_Help" xml:space="preserve">
+    <value>&lt;strong&gt; إذا كان ممكّنًا: &lt;/ strong&gt; سيتم تحويل الفواتير بعملة لا يقبلها PayPal إلى العملة المحددة قبل إرسال طلب الدفع إلى PayPal. &lt;br&gt; &lt;br&gt;
+&lt;strong&gt; في حالة الإيقاف: &lt;/ strong&gt; لن تعرض الفواتير بعملة غير مقبولة بواسطة PayPal PayPal كطريقة دفع.</value>
+  </data>
+  <data name="HomepageCategories" xml:space="preserve">
+    <value>عرض الفئات / المناطق على الصفحة الرئيسية</value>
+  </data>
+  <data name="HomepageCategories_Help" xml:space="preserve">
+    <value>ستظهر التصنيفات والمناطق على الصفحة الرئيسية على يمين القوائم المميزة للصفحة الرئيسية.</value>
+  </data>
+  <data name="HomepageRowDisplayNumber" xml:space="preserve">
+    <value>الصفحة الرئيسية مميزة لكل صف</value>
+  </data>
+  <data name="HomepageRowDisplayNumber_Help" xml:space="preserve">
+    <value>عدد القوائم المميزة للصفحة الرئيسية ليتم عرضها أفقيًا لجميع الأجهزة التي تزيد مساحة عرضها عن 1200 بكسل. كلما زاد عدد القوائم ، كلما كانت الصورة أصغر.</value>
+  </data>
+  <data name="Across2" xml:space="preserve">
+    <value>2 عبر</value>
+  </data>
+  <data name="Across3" xml:space="preserve">
+    <value>3 عبر</value>
+  </data>
+  <data name="Across4" xml:space="preserve">
+    <value>4 عبر</value>
+  </data>
+  <data name="Across6" xml:space="preserve">
+    <value>6 عبر</value>
+  </data>
+  <data name="AuthorizeNet_EnableForSellers" xml:space="preserve">
+    <value>تمكين لبائع الطرف الثالث</value>
+  </data>
+  <data name="AuthorizeNet_EnableForSellers_Help" xml:space="preserve">
+    <value>عند تحديد هذا الخيار ، سيُسمح للبائعين بإدخال بيانات اعتماد Authorize.Net الخاصة بهم لقبول مدفوعات المبيعات. &lt;br&gt; &lt;br&gt; إذا لم يتم التحقق ، فسيكون بإمكان المستخدمين الإداريين قبول بطاقات الائتمان لمدفوعات المبيعات لبطاقات بياناتهم الخاصة.</value>
+  </data>
+  <data name="AuthorizeNet_SellerMerchantLoginID" xml:space="preserve">
+    <value>Authorize.Net Merchant Login ID</value>
+  </data>
+  <data name="AuthorizeNet_SellerMerchantLoginID_Help" xml:space="preserve">
+    <value>تسجيل الدخول إلى Authorize.Net API</value>
+  </data>
+  <data name="AuthorizeNet_SellerTransactionKey" xml:space="preserve">
+    <value>Authorize.Net المعاملات الرئيسية</value>
+  </data>
+  <data name="AuthorizeNet_SellerTransactionKey_Help" xml:space="preserve">
+    <value>مفتاح المعاملة Authorize.Net الخاص بك</value>
+  </data>
+  <data name="SalesTaxEnabled" xml:space="preserve">
+    <value>ضريبة المبيعات</value>
+  </data>
+  <data name="SalesTaxEnabled_Help" xml:space="preserve">
+    <value>سيتم فرض ضريبة المبيعات بشكل اختياري بناءً على موقع المشتري ومعدلات الضرائب المحددة من قبل كل بائع</value>
+  </data>
+  <data name="VatAppliesToBuyersPremium" xml:space="preserve">
+    <value>تنطبق ضريبة القيمة المضافة على قسط المشتري</value>
+  </data>
+  <data name="VatAppliesToBuyersPremium_Help" xml:space="preserve">
+    <value>سوف تشمل ضريبة القيمة المضافة على فواتير البيع أقساط المشتري</value>
+  </data>
+  <data name="VatAppliesToShipping" xml:space="preserve">
+    <value>تنطبق ضريبة القيمة المضافة على رسوم الشحن</value>
+  </data>
+  <data name="VatAppliesToShipping_Help" xml:space="preserve">
+    <value>سوف تشمل ضريبة القيمة المضافة على فواتير البيع تكاليف الشحن</value>
+  </data>
+  <data name="VatAppliesToSiteFees" xml:space="preserve">
+    <value>تنطبق ضريبة القيمة المضافة على فواتير رسوم الموقع</value>
+  </data>
+  <data name="VatAppliesToSiteFees_Help" xml:space="preserve">
+    <value>تطبيق ضريبة القيمة المضافة على فواتير رسوم الموقع</value>
+  </data>
+  <data name="VATEnabled" xml:space="preserve">
+    <value>ضريبة القيمة المضافة</value>
+  </data>
+  <data name="VATEnabled_Help" xml:space="preserve">
+    <value>سيتم فرض ضريبة القيمة المضافة على جميع فواتير البيع وفواتير رسوم الموقع وفقًا لتفضيلات المشرف</value>
+  </data>
+  <data name="VatRate" xml:space="preserve">
+    <value>قيمة الضريبة</value>
+  </data>
+  <data name="VatRate_Help" xml:space="preserve">
+    <value>ستتم إضافة ضريبة النسبة المئوية هذه إلى الفواتير كما هو موضح أدناه</value>
+  </data>
+  <data name="TimeRemainingStyle" xml:space="preserve">
+    <value>الوقت المتبقي النمط</value>
+  </data>
+  <data name="TimeRemainingStyle_Active" xml:space="preserve">
+    <value>نشط ، على سبيل المثال "10 أيام 19:33:10 متبقية"</value>
+  </data>
+  <data name="TimeRemainingStyle_Classic" xml:space="preserve">
+    <value>كلاسيكي ، على سبيل المثال "10 أيام ، 19 ساعة متبقية" &lt;br&gt;</value>
+  </data>
+  <data name="TimeRemainingStyle_Help" xml:space="preserve">
+    <value>يحدد هذا الإعداد تنسيق الوقت المتبقي عند عرضه على الصفحة الرئيسية وصفحات التصفح / البحث وصفحات تفاصيل القائمة / اللوت</value>
+  </data>
+  <data name="EnableBuyNow" xml:space="preserve">
+    <value>تمكين الشراء الآن</value>
+  </data>
+  <data name="EnableBuyNow_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من تحديد سعر الشراء الآن لقوائم المزاد</value>
+  </data>
+  <data name="EnablePDFAttachments" xml:space="preserve">
+    <value>تمكين مرفقات PDF</value>
+  </data>
+  <data name="EnablePDFAttachments_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من إرفاق مستند PDF أو أكثر إلى قوائمهم</value>
+  </data>
+  <data name="EnableReserve" xml:space="preserve">
+    <value>تمكين الاحتياطي</value>
+  </data>
+  <data name="EnableReserve_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من تحديد السعر الاحتياطي لقوائم المزاد</value>
+  </data>
+  <data name="EnableYoueTubeVideos" xml:space="preserve">
+    <value>تمكين أشرطة فيديو يوتيوب</value>
+  </data>
+  <data name="EnableYoueTubeVideos_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن البائعون من إرفاق مقطع فيديو على YouTube بقوائمهم</value>
+  </data>
+  <data name="EnablePublicQandA" xml:space="preserve">
+    <value>تمكين الأسئلة والأجوبة العامة</value>
+  </data>
+  <data name="EnablePublicQandA_Help" xml:space="preserve">
+    <value>في حالة التمكين: يمكن للمستخدمين المصادق عليهم نشر الأسئلة بشكل عام على أي قائمة نشطة أو معاينة</value>
+  </data>
+  <data name="EnableWatchCount" xml:space="preserve">
+    <value>تمكين عدد الساعات</value>
+  </data>
+  <data name="EnableWatchCount_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستعرض صفحة تفاصيل القائمة / اللوت عددًا من المستخدمين الذين يشاهدون حاليًا</value>
+  </data>
+  <data name="FullImage" xml:space="preserve">
+    <value>صورة كاملة</value>
+  </data>
+  <data name="GalleryType" xml:space="preserve">
+    <value>نوع عرض معرض الصفحة الرئيسية</value>
+  </data>
+  <data name="GalleryType_Help" xml:space="preserve">
+    <value>اختر من الصور المصغرة الأصغر أو الصور بالحجم الكامل. من الأفضل عرض صورة بالحجم الكامل في 3 أو 4 مع تعطيل فئات الصفحة الرئيسية.</value>
+  </data>
+  <data name="Thumbnail" xml:space="preserve">
+    <value>ظفري</value>
+  </data>
+  <data name="StripeConnect_ClientId" xml:space="preserve">
+    <value>معرف العميل</value>
+  </data>
+  <data name="StripeConnect_ClientId_Help" xml:space="preserve">
+    <value>يمكن العثور على هذه القيمة ضمن قسم "حسابك&gt; الاتصال&gt; الإعدادات&gt; إعدادات المنصة" على stripe.com بعد تسجيل موقع الويب الخاص بك كنظام أساسي. &lt;br&gt; &lt;br&gt;
+ملاحظة: أدخل عنوان URL لإعادة التوجيه باسم "http (s): // (موقعك على الويب) / Stripe / HandleStripeConnectResponse"</value>
+  </data>
+  <data name="StripeConnect_Enabled" xml:space="preserve">
+    <value>تم تمكين الشريط</value>
+  </data>
+  <data name="StripeConnect_EnabledForSellers" xml:space="preserve">
+    <value>ممكّن للبائعين</value>
+  </data>
+  <data name="StripeConnect_EnabledForSellers_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيُسمح للبائعين بربط حساب Stripe الخاص بهم لقبول مدفوعات المبيعات. &lt;br&gt; &lt;br&gt;
+ملاحظة: إذا قمت بتمكين هذا الخيار ، يجب عليك أيضًا إضافة نقطة نهاية Connect على حساب الشريط الخاص بك. انتقل إلى "حسابك&gt; API&gt; Webhooks&gt; نقاط النهاية التي تستقبل الأحداث من حسابك&gt; إضافة نقطة نهاية" ، وأدخل عنوان URL كـ "http (s): // (موقعك على الويب) / Stripe / WebHookHandler" واختر الأحداث المباشرة.</value>
+  </data>
+  <data name="StripeConnect_Enabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتصل البرنامج بحسابك على Stripe باستخدام Connect API و "Checkout with Credit Card" سيكون متاحًا كخيار للدفع. تسمح طريقة الدفع هذه للمستخدمين بإرسال مدفوعات بطاقة الائتمان دون مغادرة الموقع. ملاحظة: تسمح طريقة الدفع هذه بحفظ بطاقات الائتمان عن بُعد على stripe.com للاستخدام مع عمليات الشراء المستقبلية.</value>
+  </data>
+  <data name="StripeConnect_SiteFeesPublishableApiKey" xml:space="preserve">
+    <value>رسوم الموقع Publishable API Key</value>
+  </data>
+  <data name="StripeConnect_SiteFeesPublishableApiKey_Help" xml:space="preserve">
+    <value>يمكن العثور على هذه القيمة ضمن قسم "حسابك&gt; واجهة برمجة التطبيقات" على stripe.com.</value>
+  </data>
+  <data name="StripeConnect_SiteFeesSecretApiKey" xml:space="preserve">
+    <value>رسوم الموقع مفتاح API السري</value>
+  </data>
+  <data name="StripeConnect_SiteFeesSecretApiKey_Help" xml:space="preserve">
+    <value>يمكن العثور على هذه القيمة ضمن قسم "حسابك&gt; واجهة برمجة التطبيقات" على stripe.com.</value>
+  </data>
+  <data name="StripeConnect_SellerAccountConnected" xml:space="preserve">
+    <value>أوراق اعتماد الشريط</value>
+  </data>
+  <data name="AcceptCreditCard_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيكون خيار "الدفع باستخدام بطاقة الائتمان" متاحًا عند الدفع. يتطلب هذا الخيار بيانات اعتماد Authorize.Net.</value>
+  </data>
+  <data name="AcceptPayPal_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيكون خيار "Checkout with PayPal" متاحًا عند الدفع. يتطلب هذا الخيار عنوان بريد إلكتروني PayPal.</value>
+  </data>
+  <data name="AllowInstantCheckout_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتمكن المشترون من الخروج مباشرة بعد الشراء. &lt;br&gt;
+في حالة الإيقاف: ستتمكن من إجراء تعديلات على جميع الفواتير (على سبيل المثال ، تحديث الشحن ، الضريبة ، علاوة المشتري) قبل أن يتمكن المشتري من إتمام الدفع.</value>
+  </data>
+  <data name="PaymentInstructions_Help" xml:space="preserve">
+    <value>سيتم عرض هذه المعلومات لجميع المستخدمين عند عرض تفاصيل قوائمك. ستظهر هذه المعلومات أيضًا على الفواتير غير المدفوعة في حالة عدم توفر خيارات دفع أخرى.</value>
+  </data>
+  <data name="TaxExempt" xml:space="preserve">
+    <value>معفاة من الضرائب</value>
+  </data>
+  <data name="TaxExempt_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتم استبعاد الضرائب من جميع الفواتير التي يكون هذا المستخدم هو الدافع فيها</value>
+  </data>
+  <data name="DefaultBrowseStyle" xml:space="preserve">
+    <value>نمط التصفح الافتراضي</value>
+  </data>
+  <data name="DefaultBrowseStyle_grid" xml:space="preserve">
+    <value>الشبكة ، تنسيق معرض مع صور أكبر</value>
+  </data>
+  <data name="DefaultBrowseStyle_Help" xml:space="preserve">
+    <value>يحدد هذا الإعداد النمط الافتراضي لعرض النتائج على صفحات التصفح / البحث</value>
+  </data>
+  <data name="DefaultBrowseStyle_list" xml:space="preserve">
+    <value>قائمة ، قائمة واحدة لكل صف مع المزيد من النص &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent" xml:space="preserve">
+    <value>محتوى الصفحة الرئيسية</value>
+  </data>
+  <data name="HomepageContent_browse" xml:space="preserve">
+    <value>تصفح ، جميع القوائم &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_browse_Events" xml:space="preserve">
+    <value>تصفح ، كل الكثير &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_default" xml:space="preserve">
+    <value>افتراضي ، القوائم المميزة &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_default_Events" xml:space="preserve">
+    <value>افتراضي قائمة الأحداث &lt;br&gt;</value>
+  </data>
+  <data name="HomepageContent_Help" xml:space="preserve">
+    <value>يتحكم هذا الإعداد في المحتوى المعروض في الصفحة الرئيسية</value>
+  </data>
+  <data name="HomepageContent_none" xml:space="preserve">
+    <value>لا توجد قوائم</value>
+  </data>
+  <data name="HomepageContent_none_Events" xml:space="preserve">
+    <value>لا أحداث</value>
+  </data>
+  <data name="EnableNonAuctionListingsForEvents" xml:space="preserve">
+    <value>تمكين قوائم غير المزاد</value>
+  </data>
+  <data name="EnableNonAuctionListingsForEvents_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيُسمح للبائعين بإنشاء قوائم أسعار ثابتة و / أو تصنيفات منفصلة عن الكثير من المزاد / الأحداث &lt;br&gt; ملاحظة: يجب عليك أيضًا تمكين أحد هذين النوعين من القوائم أو كليهما قبل استخدامها.</value>
+  </data>
+  <data name="CenterLogo" xml:space="preserve">
+    <value>موضع شعار المركز</value>
+  </data>
+  <data name="CenterLogo_Help" xml:space="preserve">
+    <value>يتم محاذاة موضع الشعار الافتراضي للكمبيوتر الشخصي والأجهزة اللوحية. قم بتمكين هذا الإعداد لتوسيط الشعار على الصفحة. بالنسبة إلى جميع الأجهزة التي يقل عرض منطقة العرض فيها عن 768 بكسل (أي الأجهزة المحمولة) ، سيتم توسيط الشعار تلقائيًا.</value>
+  </data>
+  <data name="EnableMakeOffer" xml:space="preserve">
+    <value>تفعيل تقديم العرض</value>
+  </data>
+  <data name="EnableMakeOffer_Help" xml:space="preserve">
+    <value>في حالة التمكين: يجوز للمشترين تقديم عروض بسعر بديل وكمية وشروط للبائع</value>
+  </data>
+  <data name="AllowMultipleOffers" xml:space="preserve">
+    <value>السماح بعروض متعددة</value>
+  </data>
+  <data name="AllowMultipleOffers_Help" xml:space="preserve">
+    <value>في حالة التمكين: يمكن للمشترين إرسال أكثر من عرض واحد في نفس القائمة / العقد قبل قبول العرض الأول أو رفضه أو رده من قبل البائع.</value>
+  </data>
+  <data name="OfferNotificationsEnabled" xml:space="preserve">
+    <value>تمكين جعل إخطارات العرض</value>
+  </data>
+  <data name="OfferNotificationsEnabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيتلقى المشترون والبائعون إشعارات بالبريد الإلكتروني عند إرسال العروض أو استلامها أو قبولها أو رفضها أو مواجهتها. &lt;br&gt; ملاحظة: يمكن تمكين كل نوع إشعار فردي أو تعطيله من منطقة CMS&gt; قوالب البريد الإلكتروني.</value>
+  </data>
+  <data name="OfferTimeLimitHours" xml:space="preserve">
+    <value>جعل ساعات انتهاء العرض</value>
+  </data>
+  <data name="OfferTimeLimitHours_Help" xml:space="preserve">
+    <value>عندما يقدم المشتري عرضًا للبائع ، تنتهي صلاحية العرض في هذا العدد من الساعات ، أو عندما ينتهي العرض / الإدراج ، أيهما يأتي أولاً.</value>
+  </data>
+  <data name="HeadingColor" xml:space="preserve">
+    <value>لون العنوان</value>
+  </data>
+  <data name="HeadingColor_help" xml:space="preserve">
+    <value>حدد وقم بتعيين اللون الذي سيتم تطبيقه على عنوان الموقع. استخدم أداة اختيار اللون أو أدخل رمز HEX المكون من 6 أحرف. يجب أن يسبق جميع رموز HEX رمز HASH '#'.</value>
+  </data>
+  <data name="SellerUsernameDetailPage" xml:space="preserve">
+    <value>إظهار معلومات البائع في صفحة التفاصيل</value>
+  </data>
+  <data name="SellerUsernameDetailPage_Help" xml:space="preserve">
+    <value>إظهار أو إخفاء معلومات البائع في صفحة تفاصيل القائمة / الكثير. يتضمن ذلك اسم المستخدم والموقع وتقييم النجوم.</value>
+  </data>
+  <data name="RequireAdminToPublishEvent" xml:space="preserve">
+    <value>مطالبة المسؤول بنشر الحدث</value>
+  </data>
+  <data name="RequireAdminToPublishEvent_Help" xml:space="preserve">
+    <value>في حالة التمكين: لن يتمكن البائعون من غير المسؤولين من نشر الحدث على الفور. بدلاً من ذلك ، عند النقر على خيار "نشر الحدث" بواسطة شخص غير مسؤول ، يتم إرسال إشعار بالبريد الإلكتروني إلى العنوان الذي تم تكوينه في حقل "تفضيلات الموقع&gt; جهة الاتصال - البريد الإلكتروني للمشرف" مع روابط لنشر أو عرض الحدث. يمكن للمشرف أيضًا نشر الحدث في أي وقت عن طريق انتحال هوية البائع والنقر على خيار القائمة المنسدلة "نشر الحدث".</value>
+  </data>
+  <data name="FollowAuctionLiveEnabled" xml:space="preserve">
+    <value>تمكين متابعة المزاد المباشر</value>
+  </data>
+  <data name="FollowAuctionLiveEnabled_Help" xml:space="preserve">
+    <value>&lt;p&gt; مع بدء إغلاق حدث المزاد ، سيتاح للمستخدمين خيار "متابعة المزاد المباشر" الذي يعيد توجيههم تلقائيًا إلى إغلاق العقد التالي في الحدث الحالي مع انتهاء كل دفعة. &lt;/ p&gt;
+&lt;p&gt; * في حالة التمكين ، سيكون لكل حدث إعداده الخاص لتمكين أو تعطيل قدرة المستخدمين على "متابعة المزاد المباشر". &lt;/ p&gt;
+&lt;p&gt; ملاحظة: عند التمكين لحدث ما ، سيضيف النظام تلقائيًا جميع الحصص إلى نفس مجموعة التمديد التلقائي بحيث يتم إغلاق كل دفعة واحدة في كل مرة وفي ترتيب اللوت المناسب. &lt;/ p&gt;</value>
+  </data>
+  <data name="SalesTaxAppliesToBuyersPremium" xml:space="preserve">
+    <value>تنطبق ضريبة المبيعات على قسط المشتري</value>
+  </data>
+  <data name="SalesTaxAppliesToBuyersPremium_Help" xml:space="preserve">
+    <value>ستتضمن ضريبة المبيعات على فواتير البيع أقساط المشتري</value>
+  </data>
+  <data name="MaxEventsPerPage" xml:space="preserve">
+    <value>ماكس الأحداث لكل صفحة</value>
+  </data>
+  <data name="MaxEventsPerPage_Help" xml:space="preserve">
+    <value>الحد الأقصى لعدد الأحداث التي تظهر في كل صفحة.</value>
+  </data>
+  <data name="QuickBidEnabled" xml:space="preserve">
+    <value>تمكين المزايدة السريعة</value>
+  </data>
+  <data name="QuickBidEnabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيكون زر "عرض سريع" متاحًا في صفحة تفاصيل العنصر ، وسيحاول تقديم الحد الأدنى لمبلغ العطاء الحالي إذا تم النقر عليه. &lt;br&gt;
+ملاحظة: لا يؤثر هذا الإعداد على إعداد "تمكين المزايدة المضمنة (المزايدة السريعة)".</value>
+  </data>
+  <data name="EventHomeCategories" xml:space="preserve">
+    <value>عرض الفئات / المناطق على الصفحة الرئيسية للحدث</value>
+  </data>
+  <data name="EventHomeCategories_Help" xml:space="preserve">
+    <value>ستظهر الفئات والمناطق في صفحة تفاصيل الحدث على يمين الكثير.</value>
+  </data>
+  <data name="LargeBidConfirmationEnabled" xml:space="preserve">
+    <value>تمكين تأكيد المزايدة الكبيرة</value>
+  </data>
+  <data name="LargeBidConfirmationEnabled_Help" xml:space="preserve">
+    <value>إذا كان ممكّنًا: إذا حاول مستخدم تقديم عرض سعر أعلى 100 مرة (أو أكثر) من الحد الأدنى المقبول لمبلغ العطاء ، فسيتم عرض شكل منبثق إضافي للتأكيد إذا كان يقصد ، على سبيل المثال "$ 100.00" أو "$ 10،000.00" ، في حالة نسي العارض خطأً علامة عشرية.</value>
+  </data>
+  <data name="RollingLotUpdatesEnabled" xml:space="preserve">
+    <value>تحديثات المتداول لوت</value>
+  </data>
+  <data name="RollingLotUpdatesEnabled_Help" xml:space="preserve">
+    <value>ستختفي الكثير تلقائيًا من صفحة تفاصيل حدث المزاد عند إغلاقها. ستظهر حصص جديدة تلقائيًا في أسفل القائمة لاستبدالها.</value>
+  </data>
+  <data name="PleaseSelect_DropDownEmptyOptionLabel" xml:space="preserve">
+    <value>يرجى الاختيار ...</value>
+  </data>
+  <data name="Consignor" xml:space="preserve">
+    <value>المرسل</value>
+  </data>
+  <data name="Consignor_Help" xml:space="preserve">
+    <value>(اختياري) استخدم هذا الحقل لتحديد اسم أو معرف المرسل لهذه الدفعة ، إن أمكن. يمكن تصدير معاملات المبيعات باستخدام هذه البيانات لتصدير CSV لما بعد المزاد.</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled" xml:space="preserve">
+    <value>تمكين المزايدة المضمنة (المزايدة السريعة)</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيكون زر "عرض سريع" متاحًا لكل عنصر مزاد ، وسيحاول تقديم الحد الأدنى لمبلغ العطاء الحالي إذا تم النقر عليه.
+وهذا يشمل: تصفح / نتائج البحث وقائمة المراقبة وقائمة العطاءات الخاصة بي.</value>
+  </data>
+  <data name="QuickBidForListViewsEnabled_EventsHelp" xml:space="preserve">
+    <value>في حالة التمكين: سيكون زر "عرض سريع" متاحًا لكل عنصر مزاد ، وسيحاول تقديم الحد الأدنى لمبلغ العطاء الحالي إذا تم النقر عليه. وهذا يشمل: تصفح / نتائج البحث ، صفحة تفاصيل الحدث (كتالوج بيع المزاد) ، قائمة المشاهدة ، قائمة العطاءات.</value>
+  </data>
+  <data name="LogAdminRequestStats" xml:space="preserve">
+    <value>سجل إحصائيات طلب المشرف</value>
+  </data>
+  <data name="LogFrontEndRequestStats" xml:space="preserve">
+    <value>سجل إحصائيات طلب الواجهة الأمامية</value>
+  </data>
+  <data name="LogQueuestats" xml:space="preserve">
+    <value>سجل احصائيات قائمة الانتظار</value>
+  </data>
+  <data name="LogSignalrConnectionIssues" xml:space="preserve">
+    <value>سجل اتصالات SignalR</value>
+  </data>
+  <data name="LogSignalrStats" xml:space="preserve">
+    <value>إحصائيات سجل SignalR</value>
+  </data>
+  <data name="LogWebApiStats" xml:space="preserve">
+    <value>سجل احصائيات طلب Web API</value>
+  </data>
+  <data name="DataCleanup_DeleteArchivedEvents_Help" xml:space="preserve">
+    <value>في حالة التمكين: ستتم إزالة أحداث المزاد المؤرشفة الأقدم من العدد المحدد من الأيام تلقائيًا من النظام.</value>
+  </data>
+  <data name="AutoChargeCCs" xml:space="preserve">
+    <value>بطاقات ائتمان شحن السيارات</value>
+  </data>
+  <data name="AutoChargeCCs_Help_EN" xml:space="preserve">
+    <value>&lt;b&gt; إيقاف &lt;/ b&gt;: لن يتم الخصم التلقائي من بطاقات الائتمان. &lt;br&gt;
+&lt;b&gt; فورًا &lt;/ b&gt;: سيتم تلقائيًا تحصيل الرسوم من البطاقة المسجلة عند إنشاء الفاتورة تلقائيًا. &lt;br&gt;
+&lt;b&gt; يوميًا &lt;/ b&gt;: مرة واحدة يوميًا ، سيتم تحصيل الرسوم من البطاقة المسجلة لكل فاتورة مبيعات غير مدفوعة في الوقت المحدد.</value>
+  </data>
+  <data name="AutoChargeCCs_Help_EV" xml:space="preserve">
+    <value>&lt;b&gt; إيقاف &lt;/ b&gt;: لن يتم الخصم التلقائي من بطاقات الائتمان. &lt;br&gt;
+&lt;b&gt; عند إغلاق الحدث &lt;/ b&gt;: سيتم تلقائيًا تحصيل رسوم البطاقة الموجودة في الملف عند إغلاق الحدث المرتبط. &lt;br&gt;
+&lt;b&gt; يوميًا &lt;/ b&gt;: مرة واحدة يوميًا ، سيتم تحصيل الرسوم من البطاقة المسجلة لكل فاتورة مبيعات غير مدفوعة في الوقت المحدد.</value>
+  </data>
+  <data name="AutoGenerateInvoices" xml:space="preserve">
+    <value>إنشاء الفواتير تلقائيًا</value>
+  </data>
+  <data name="AutoGenerateInvoices_Help" xml:space="preserve">
+    <value>&lt;b&gt; إذا كان ممكّنًا &lt;/ b&gt;: ستتم إضافة عملية البيع على الفور إلى فاتورة جديدة أو موجودة عند الانتهاء من عملية شراء أو عرض مقبول أو عرض فائز.</value>
+  </data>
+  <data name="Immediately" xml:space="preserve">
+    <value>فورا</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="RequireCreditCardForBuyers" xml:space="preserve">
+    <value>تتطلب بطاقة ائتمان للمشترين</value>
+  </data>
+  <data name="RequireCreditCardForBuyers_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيطلب من المشترين الحصول على بطاقة ائتمان غير منتهية الصلاحية قبل تقديم العطاءات أو إجراء عمليات الشراء أو إرسال العروض.</value>
+  </data>
+  <data name="RequireCreditCardForSellers" xml:space="preserve">
+    <value>يتطلب بطاقة ائتمانية للبائعين</value>
+  </data>
+  <data name="RequireCreditCardForSellers_Help" xml:space="preserve">
+    <value>في حالة التمكين: سيُطلب من البائع أن يكون لديه بطاقة ائتمان غير منتهية الصلاحية في ملف قبل إنشاء قوائم أو حصص جديدة.</value>
+  </data>
+  <data name="WhenEventCloses" xml:space="preserve">
+    <value>عندما يغلق الحدث</value>
+  </data>
+  <data name="Message_me_for_invitation_to_view" xml:space="preserve">
+    <value>أرسل لي دعوة للعرض</value>
+  </data>
+  <data name="WeightUnit" xml:space="preserve">
+    <value>وحدة الوزن للقياس</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>ارتفاع</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>عمق</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="DimensionUnit" xml:space="preserve">
+    <value>وحدة أبعاد القياس</value>
+  </data>
+	<data name="Kilogram" xml:space="preserve">
+    <value>كيلوغرام</value>
+  </data>
+	<data name="Pound" xml:space="preserve">
+    <value>جنيه</value>
+  </data>
+	<data name="Centimeter" xml:space="preserve">
+    <value>سنتيمتر</value>
+  </data>
+	<data name="Inch" xml:space="preserve">
+    <value>بوصة</value>
+  </data>
+</root>

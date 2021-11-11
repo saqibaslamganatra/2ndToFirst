@@ -1,0 +1,11 @@
+E:\Sample\2ndToFirst\bin\App_Data\XmlDocument.xml
+E:\Sample\2ndToFirst\bin\RainWorx.FrameWorx.MVC.dll.config
+E:\Sample\2ndToFirst\bin\RainWorx.FrameWorx.MVC.dll
+E:\Sample\2ndToFirst\bin\RainWorx.FrameWorx.MVC.pdb
+E:\Sample\2ndToFirst\bin\Microsoft.WindowsAzure.ServiceRuntime.dll
+E:\Sample\2ndToFirst\bin\WindowsAzureTelemetryEvents.dll
+E:\Sample\2ndToFirst\bin\WindowsAzureEventSource.dll
+E:\Sample\2ndToFirst\obj\Release\RainWorx.FrameWorx.MVC.csproj.CoreCompileInputs.cache
+E:\Sample\2ndToFirst\obj\Release\RainWorx.FrameWorx.MVC.csproj.CopyComplete
+E:\Sample\2ndToFirst\obj\Release\RainWorx.FrameWorx.MVC.dll
+E:\Sample\2ndToFirst\obj\Release\RainWorx.FrameWorx.MVC.pdb

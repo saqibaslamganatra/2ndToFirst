@@ -1,0 +1,183 @@
+﻿@{
+    ViewBag.SiteTitle = SiteClient.Settings[SiteProperties.SiteTitle] + " - " + Html.GlobalResource("MyAccount");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section head{
+    @RenderSection("head", required: false)
+}
+    <style>
+        /*!
+        // 3. Loader
+        // --------------------------------------------------*/
+        .loader {
+            top: 0;
+            left: 0;
+            position: fixed;
+            opacity: 0.8;
+            z-index: 10000000;
+            background: Black;
+            height: 100%;
+            width: 100%;
+            margin: auto;
+        }
+
+        .strip-holder {
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            left: 50%;
+            margin-left: -50px;
+            position: relative;
+        }
+
+        .strip-1,
+        .strip-2,
+        .strip-3 {
+            width: 20px;
+            height: 20px;
+            background: #0072bc;
+            position: relative;
+            -webkit-animation: stripMove 2s ease infinite alternate;
+            animation: stripMove 2s ease infinite alternate;
+            -moz-animation: stripMove 2s ease infinite alternate;
+        }
+
+        .strip-2 {
+            -webkit-animation-duration: 2.1s;
+            animation-duration: 2.1s;
+            background-color: #23a8ff;
+        }
+
+        .strip-3 {
+            -webkit-animation-duration: 2.2s;
+            animation-duration: 2.2s;
+            background-color: #89d1ff;
+        }
+
+        @@-webkit-keyframes stripMove {
+            0% {
+                transform: translate3d(0px, 0px, 0px);
+                -webkit-transform: translate3d(0px, 0px, 0px);
+                -moz-transform: translate3d(0px, 0px, 0px);
+            }
+
+            50% {
+                transform: translate3d(0px, 0px, 0px);
+                -webkit-transform: translate3d(0px, 0px, 0px);
+                -moz-transform: translate3d(0px, 0px, 0px);
+                transform: scale(4, 1);
+                -webkit-transform: scale(4, 1);
+                -moz-transform: scale(4, 1);
+            }
+
+            100% {
+                transform: translate3d(-50px, 0px, 0px);
+                -webkit-transform: translate3d(-50px, 0px, 0px);
+                -moz-transform: translate3d(-50px, 0px, 0px);
+            }
+        }
+
+        @@-moz-keyframes stripMove {
+            0% {
+                transform: translate3d(-50px, 0px, 0px);
+                -webkit-transform: translate3d(-50px, 0px, 0px);
+                -moz-transform: translate3d(-50px, 0px, 0px);
+            }
+
+            50% {
+                transform: translate3d(0px, 0px, 0px);
+                -webkit-transform: translate3d(0px, 0px, 0px);
+                -moz-transform: translate3d(0px, 0px, 0px);
+                transform: scale(4, 1);
+                -webkit-transform: scale(4, 1);
+                -moz-transform: scale(4, 1);
+            }
+
+            100% {
+                transform: translate3d(50px, 0px, 0px);
+                -webkit-transform: translate3d(50px, 0px, 0px);
+                -moz-transform: translate3d(50px, 0px, 0px);
+            }
+        }
+
+        @@keyframes stripMove {
+            0% {
+                transform: translate3d(-50px, 0px, 0px);
+                -webkit-transform: translate3d(-50px, 0px, 0px);
+                -moz-transform: translate3d(-50px, 0px, 0px);
+            }
+
+            50% {
+                transform: translate3d(0px, 0px, 0px);
+                -webkit-transform: translate3d(0px, 0px, 0px);
+                -moz-transform: translate3d(0px, 0px, 0px);
+                transform: scale(4, 1);
+                -webkit-transform: scale(4, 1);
+                -moz-transform: scale(4, 1);
+            }
+
+            100% {
+                transform: translate3d(50px, 0px, 0px);
+                -webkit-transform: translate3d(50px, 0px, 0px);
+                -moz-transform: translate3d(50px, 0px, 0px);
+            }
+        }
+    </style>
+
+    <div class="loader" id="AjaxLoader" style="display:block;">
+        <div class="strip-holder">
+            <div class="strip-1"></div>
+            <div class="strip-2"></div>
+            <div class="strip-3"></div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="well well-sm section-title">
+            @Html.GlobalResource("MyAccount")
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-2 categories">
+        @if (ViewContext.RouteData.Values["action"].Equals(MVC.SummaryAction))
+            {
+            <div class="ee well well-sm summary hidden-xs hidden-sm active">@Html.ActionLink(Html.GlobalResource("Summary"), MVC.SummaryAction)</div>
+        }
+        else
+        {
+            <div class="ff well well-sm summary hidden-xs hidden-sm">@Html.ActionLink(Html.GlobalResource("Summary"), MVC.SummaryAction)</div>
+        }
+        @Html.Partial("CategoryListRoot", CommonClient.GetCategoryHierarchy(7).ChildHierarchies)
+    </div>
+    <div class="col-xs-12 col-md-10 myaccount">
+        @RenderBody()
+        <input type="hidden" id="hdn" value="@Html.GlobalResource("ShipmentTracking")" />
+    </div>
+</div>
+@section scripts{
+    @RenderSection("scripts", required: false)
+}
+<script>
+  
+    var trackingno = $("#hdn").val();
+        $(document).ready(function () {
+            $("#Listing li").each((id, elem) => {
+                if (elem.innerText == 'Successful' || elem.innerText == 'Suksesvol' || elem.innerText == 'ناجح' || elem.innerText == 'Réussi' || elem.innerText == 'Bem sucedido') {
+                    $(elem).after("<li id='Tracking'><a href='/Account/shipmenttrackingnumber'> " + trackingno+" </a></li>");
+                }
+            });
+            var t = $("#Listing li.active");
+            if (t.length == 0 && $(location).attr("href").endsWith('shipmenttrackingnumber')) {
+                $("#Tracking").addClass('active');
+            }
+            else if (t.length > 0 && !$(location).attr("href").endsWith('shipmenttrackingnumber')) {
+                $("#Tracking").removeClass('active');
+            }           
+
+            $("#AjaxLoader").hide();
+        });
+
+</script>

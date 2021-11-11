@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Auction" xml:space="preserve">
+    <value>Enchères</value>
+  </data>
+  <data name="Bid" xml:space="preserve">
+    <value>Offre</value>
+  </data>
+  <data name="BidDisclaimer" xml:space="preserve">
+    <value>Votre enchère est un contrat entre vous et le créateur de l'annonce. Si vous avez l'offre la plus élevée, vous conclurez un contrat d'achat juridiquement contraignant.</value>
+  </data>
+  <data name="Bids" xml:space="preserve">
+    <value>Offre (s)</value>
+  </data>
+  <data name="CurrentPrice" xml:space="preserve">
+    <value>Prix ​​actuel</value>
+  </data>
+  <data name="CURRENT_HIGH_BIDDER_RESERVE_NOT_MET" xml:space="preserve">
+    <value>Vous êtes actuellement le meilleur enchérisseur, mais le prix de réserve n'a pas été atteint.</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Prix ​​fixe</value>
+  </data>
+  <data name="LOSING" xml:space="preserve">
+    <value>Vous n'êtes pas le meilleur enchérisseur. Vous pouvez augmenter votre enchère à tout moment.</value>
+  </data>
+  <data name="LOST" xml:space="preserve">
+    <value>Vous n'avez pas gagné cet objet.</value>
+  </data>
+  <data name="LOST_RESERVE_NOT_MET" xml:space="preserve">
+    <value>Le prix de réserve n'a pas été atteint. Vous n'avez pas gagné cet objet.</value>
+  </data>
+  <data name="MinimumBid" xml:space="preserve">
+    <value>Enchère minimum</value>
+  </data>
+  <data name="NOSALE" xml:space="preserve">
+    <value>Cet article ne s'est pas vendu.</value>
+  </data>
+  <data name="NO_ACTIVITY" xml:space="preserve">
+    <value>Vous n'avez aucune activité avec cet article.</value>
+  </data>
+  <data name="NO_ACTIVITY_AS_BUYER" xml:space="preserve">
+    <value>Vous n'avez pas enchéri sur cet objet.</value>
+  </data>
+  <data name="NO_ACTIVITY_AS_SELLER" xml:space="preserve">
+    <value>Cet article n'a aucune activité d'enchère.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Propriétaire</value>
+  </data>
+  <data name="ProxyBidDisclaimer" xml:space="preserve">
+    <value>{0} enchérira progressivement pour vous jusqu'à votre enchère maximale. Votre enchère maximale est tenue secrète des autres utilisateurs.</value>
+  </data>
+  <data name="ReservePrice" xml:space="preserve">
+    <value>Prix ​​de réserve</value>
+  </data>
+  <data name="RESERVE_NOT_MET" xml:space="preserve">
+    <value>Cet article a des offres, mais la réserve n'a pas été respectée.</value>
+  </data>
+  <data name="SOLD" xml:space="preserve">
+    <value>Cet article vendu!</value>
+  </data>
+  <data name="WINNING" xml:space="preserve">
+    <value>Vous gagnez actuellement cet article!</value>
+  </data>
+  <data name="WON" xml:space="preserve">
+    <value>Vous avez gagné cet objet!</value>
+  </data>
+  <data name="WOULD_SELL" xml:space="preserve">
+    <value>Un enchérisseur gagne cet article!</value>
+  </data>
+  <data name="YourBid" xml:space="preserve">
+    <value>Votre enchère</value>
+  </data>
+  <data name="YourMaximumProxyBid" xml:space="preserve">
+    <value>Votre enchère maximale par procuration</value>
+  </data>
+  <data name="NoReserve" xml:space="preserve">
+    <value>&lt;span class = "text-success"&gt; Aucune réserve &lt;/span&gt;</value>
+  </data>
+  <data name="ReserveMet" xml:space="preserve">
+    <value>&lt;span class = "text-success"&gt; Prix de réserve atteint &lt;/span&gt;</value>
+  </data>
+  <data name="ReserveNotMet" xml:space="preserve">
+    <value>&lt;span class = "text-danger"&gt; Prix de réserve non atteint &lt;/span&gt;</value>
+  </data>
+  <data name="BidNow" xml:space="preserve">
+    <value>Enchérir maintenant</value>
+  </data>
+  <data name="BuyNowPrice" xml:space="preserve">
+    <value>Acheter maintenant Prix</value>
+  </data>
+  <data name="StartingBid" xml:space="preserve">
+    <value>Offre de départ</value>
+  </data>
+  <data name="BidHistory" xml:space="preserve">
+    <value>Historique des enchères</value>
+  </data>
+  <data name="BuyNowAvailable" xml:space="preserve">
+    <value>&lt;span class = "text-primary"&gt; Disponible pour achat immédiat. &lt;/span&gt;</value>
+  </data>
+  <data name="FeedbackScore" xml:space="preserve">
+    <value>Score d'évaluation</value>
+  </data>
+  <data name="HighBidder" xml:space="preserve">
+    <value>Meilleur enchérisseur</value>
+  </data>
+  <data name="ListingEndDateTime" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="ListingLocation" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="ListingPageViews" xml:space="preserve">
+    <value>Vues de page</value>
+  </data>
+  <data name="ListingStartedDateTime" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="SellerDetailsTitle" xml:space="preserve">
+    <value>À propos du vendeur</value>
+  </data>
+  <data name="SellerUsername" xml:space="preserve">
+    <value>Répertorié par</value>
+  </data>
+  <data name="BidAmountTooLow" xml:space="preserve">
+    <value>Le montant de l'enchère est trop faible</value>
+  </data>
+  <data name="BidderIsOwner" xml:space="preserve">
+    <value>Le soumissionnaire est le propriétaire</value>
+  </data>
+  <data name="BuyItNow" xml:space="preserve">
+    <value>Acheter maintenant</value>
+  </data>
+  <data name="BuyItNowPrice" xml:space="preserve">
+    <value>Acheter maintenant Prix</value>
+  </data>
+  <data name="ConfirmBid" xml:space="preserve">
+    <value>Confirmez votre enchère de {0}.</value>
+  </data>
+  <data name="ConfirmBuyItNow" xml:space="preserve">
+    <value>Confirmez "Acheter maintenant" de {0}.</value>
+  </data>
+  <data name="ListingChangedDuringProcessing" xml:space="preserve">
+    <value>Cette liste a changé pendant le traitement</value>
+  </data>
+  <data name="ListingNotActive" xml:space="preserve">
+    <value>Cette liste n'est pas active</value>
+  </data>
+  <data name="ProxyBeatingNewBid" xml:space="preserve">
+    <value>Vous avez été surenchéri par procuration.</value>
+  </data>
+  <data name="SubmitBid" xml:space="preserve">
+    <value>Soumettre une offre</value>
+  </data>
+  <data name="LISTING_AWAITING_PAYMENT" xml:space="preserve">
+    <value>Cette annonce ne commencera pas avant le paiement des frais d'insertion.</value>
+  </data>
+  <data name="LISTING_NOT_STARTED" xml:space="preserve">
+    <value>Cette liste n'a pas commencé.</value>
+  </data>
+  <data name="BadListingActionValue" xml:space="preserve">
+    <value>Le montant de l'enchère doit être une valeur décimale.</value>
+  </data>
+  <data name="CantLowerProxyBid" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à réduire votre enchère maximale.</value>
+  </data>
+  <data name="LISTING_DELETED" xml:space="preserve">
+    <value>Cette liste a été supprimée.</value>
+  </data>
+  <data name="ViewSellersOtherListings" xml:space="preserve">
+    <value>Voir les autres annonces du vendeur</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historique des enchères</value>
+  </data>
+  <data name="StartingBidPrice" xml:space="preserve">
+    <value>Offre de départ</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="ActionSuccess" xml:space="preserve">
+    <value>Votre offre a été soumise.</value>
+  </data>
+  <data name="YourLastBidWas" xml:space="preserve">
+    <value>Votre dernière offre était</value>
+  </data>
+  <data name="YourMaximumBidIs" xml:space="preserve">
+    <value>Votre enchère maximale est</value>
+  </data>
+  <data name="ClosedMessage" xml:space="preserve">
+    <value>Les enchères sont terminées sur cet objet.</value>
+  </data>
+  <data name="PostListingFeeIsBasedOnXxx" xml:space="preserve">
+    <value>Les frais de publication de l'annonce sont basés sur l'enchère de départ ...</value>
+  </data>
+  <data name="FinalFeeDescriptionNoTiers" xml:space="preserve">
+    <value>Les honoraires finaux du vendeur sont un pourcentage du prix de vente, facturés uniquement lorsqu'une vente a lieu.</value>
+  </data>
+  <data name="FinalFeeDescriptionWithTiers" xml:space="preserve">
+    <value>Les honoraires finaux du vendeur sont un pourcentage du prix de vente, facturés uniquement lorsqu'une vente a lieu ...</value>
+  </data>
+  <data name="ListingStartsDateTime" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="ScheduledListingStartsIn" xml:space="preserve">
+    <value>Commence dans</value>
+  </data>
+  <data name="ScheduledListingStartsOnX" xml:space="preserve">
+    <value>Les enchères sur cette annonce commencent le {0}</value>
+    <comment>{0} is start DTTM</comment>
+  </data>
+  <data name="A_BuyerFeeDescr_UpTo_Xdollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>Un {0} jusqu'à {1} sera appliqué à votre total.</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>Un {0} {1} sera appliqué à votre total.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>Un {0} {1} de {2} sera appliqué à votre total.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_UpTo_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>Un {0} {1} jusqu'à {2} sera appliqué à votre total.</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_UpTo_Xdollars" xml:space="preserve">
+    <value>Prix ​​incluant {0}: jusqu'à {1}</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_Xdollars" xml:space="preserve">
+    <value>Prix ​​incluant {0}: {1}</value>
+  </data>
+  <data name="A_BuyerFeeDescr_UpTo_Xdollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>Un {0} jusqu'à {1} sera appliqué à votre compte.</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>Un {0} {1} sera appliqué à votre compte.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>Un {0} {1} de {2} sera appliqué à votre compte.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_UpTo_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>Un {0} {1} jusqu'à {2} sera appliqué à votre compte.</value>
+  </data>
+  <data name="NOTCURRENTLISTINGACTIONUSER" xml:space="preserve">
+    <value>Vous n'êtes PAS en train de gagner cet article!</value>
+  </data>
+  <data name="Extended" xml:space="preserve">
+    <value>Élargi</value>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>Vous n'êtes actuellement pas autorisé à enchérir ou acheter</value>
+  </data>
+  <data name="UsersWatching" xml:space="preserve">
+    <value>En train de regarder</value>
+  </data>
+  <data name="UNKNOWN" xml:space="preserve">
+    <value>INCONNUE</value>
+  </data>
+  <data name="CurrentBid" xml:space="preserve">
+    <value>Enchère actuelle</value>
+  </data>
+  <data name="TypeIconAlt" xml:space="preserve">
+    <value>Liste des enchères standard</value>
+  </data>
+  <data name="EndsIn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BuyerFeeNotice" xml:space="preserve">
+    <value>Le soumissionnaire gagnant encourra des frais d'acheteur de</value>
+  </data>
+  <data name="EnterYourBid" xml:space="preserve">
+    <value>Entrez votre offre</value>
+  </data>
+  <data name="EnterYourMaxBid" xml:space="preserve">
+    <value>Entrez votre enchère maximale par procuration</value>
+  </data>
+  <data name="LoginViewHistory" xml:space="preserve">
+    <value>Se connecter et afficher l'historique des enchères</value>
+  </data>
+  <data name="ViewHistory" xml:space="preserve">
+    <value>Afficher l'historique des enchères</value>
+  </data>
+  <data name="AcceptOffers" xml:space="preserve">
+    <value>Accepter les offres</value>
+  </data>
+  <data name="MakeOffer" xml:space="preserve">
+    <value>Faire une offre</value>
+  </data>
+  <data name="OfferMessage" xml:space="preserve">
+    <value>Message d'offre</value>
+  </data>
+  <data name="ReviewAndConfirmOffer" xml:space="preserve">
+    <value>Examiner et confirmer l'offre</value>
+  </data>
+  <data name="ReviewOffer" xml:space="preserve">
+    <value>Offre de révision</value>
+  </data>
+  <data name="YourOffer" xml:space="preserve">
+    <value>Ton offre</value>
+  </data>
+  <data name="FinalPriceXSuccessful" xml:space="preserve">
+    <value>Enchère gagnante: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="HighBidderX" xml:space="preserve">
+    <value>Meilleur enchérisseur: {0}</value>
+    <comment>{0} is high bidder username</comment>
+  </data>
+  <data name="XBids" xml:space="preserve">
+    <value>{0 offres)</value>
+  </data>
+  <data name="ENDED_WITH_OFFER_ACCEPTED" xml:space="preserve">
+    <value>Article terminé avec une offre acceptée</value>
+  </data>
+  <data name="YOUR_OFFER_ACCEPTED" xml:space="preserve">
+    <value>Votre offre a été acceptée</value>
+  </data>
+  <data name="YOUR_OFFER_DECLINED" xml:space="preserve">
+    <value>Votre offre a été refusée</value>
+  </data>
+  <data name="YOU_HAVE_PENDING_OFFER" xml:space="preserve">
+    <value>Vous avez une offre en attente de votre réponse</value>
+  </data>
+  <data name="FinalPriceXUnsuccessful" xml:space="preserve">
+    <value>Prix ​​de l'enchère finale: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="StartingBidX" xml:space="preserve">
+    <value>Offre de départ: {0}</value>
+    <comment>{0} is starting bid price</comment>
+  </data>
+  <data name="FinalBid" xml:space="preserve">
+    <value>Offre finale</value>
+  </data>
+  <data name="QuickBid" xml:space="preserve">
+    <value>Enchère rapide {0}</value>
+    <comment>{0} is the minimum bid amount</comment>
+  </data>
+  <data name="ConfirmListingActionAmount" xml:space="preserve">
+    <value>Confirmer le montant de l'enchère</value>
+  </data>
+  <data name="PleaseSelectTheAmountYouIntendedToEnter" xml:space="preserve">
+    <value>Veuillez sélectionner le montant de votre enchère:</value>
+  </data>
+  <data name="CurrentReserveX" xml:space="preserve">
+    <value>(Réserve actuelle: {0})</value>
+    <comment>{0} is current reserve price</comment>
+  </data>
+  <data name="LowerReservePrice" xml:space="preserve">
+    <value>Prix ​​de réserve inférieur</value>
+  </data>
+  <data name="NextBidMeetsReserve" xml:space="preserve">
+    <value>La prochaine offre rencontre la réserve?</value>
+  </data>
+  <data name="LowerReservePrice_Help" xml:space="preserve">
+    <value>La sélection de cette option réduira le prix de réserve au montant minimum actuel, garantissant que la prochaine offre atteindra la réserve.</value>
+  </data>
+  <data name="FinalPrice" xml:space="preserve">
+    <value>Prix ​​final</value>
+  </data>
+  <data name="FinalPriceX" xml:space="preserve">
+    <value>Prix ​​final: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="IsTaxable" xml:space="preserve">
+    <value>Cet article est taxable</value>
+  </data>
+  <data name="NotWinning_Concise" xml:space="preserve">
+    <value>PAS GAGNANT</value>
+  </data>
+  <data name="Winning_Concise" xml:space="preserve">
+    <value>GAGNANT</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>Voir les détails</value>
+  </data>
+  <data name="Lost_Concise" xml:space="preserve">
+    <value>PERDU</value>
+  </data>
+  <data name="Won_Concise" xml:space="preserve">
+    <value>A GAGNÉ</value>
+  </data>
+  <data name="myMaxBid" xml:space="preserve">
+    <value>Ma mise maximale</value>
+  </data>
+  <data name="IncreasedOwnMaxBid" xml:space="preserve">
+    <value>Vous avez augmenté votre enchère maximale</value>
+  </data>
+  <data name="RESERVE_NOT_MET_AS_SELLER" xml:space="preserve">
+    <value>Cet article a des offres, mais la réserve n'a pas été respectée.</value>
+  </data>
+  <data name="EarliestBidWinsNote" xml:space="preserve">
+    <value>Les enchères par procuration automatiques peuvent être placées des jours ou des heures avant la fin de l'enchère. Si deux enchérisseurs enchérissent sur le même montant, l'enchère de procuration précédente l'emporte toujours sur l'enchère la plus récente.</value>
+  </data>
+  <data name="MaxBid" xml:space="preserve">
+    <value>Enchère max.</value>
+  </data>
+  <data name="ProxyAmountIncreased" xml:space="preserve">
+    <value>Enchère maximale augmentée</value>
+  </data>
+  <data name="ProxyBid" xml:space="preserve">
+    <value>Offre par procuration</value>
+  </data>
+  <data name="ProxyBidIncrementNote" xml:space="preserve">
+    <value>Parfois, vous verrez les enchères augmenter de moins que l'incrément d'enchère. Cela signifie que quelqu'un d'autre a placé une enchère légèrement supérieure à votre montant d'enchère par procuration automatique.</value>
+  </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Expédition</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Le Total</value>
+  </data>
+</root>

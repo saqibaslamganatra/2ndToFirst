@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Auction" xml:space="preserve">
+    <value>veiling</value>
+  </data>
+  <data name="Bid" xml:space="preserve">
+    <value>bod</value>
+  </data>
+  <data name="BidDisclaimer" xml:space="preserve">
+    <value>U bod is 'n kontrak tussen u en die noteringskepper. As u die hoogste bod het, sal u 'n wettig bindende koopkontrak aangaan.</value>
+  </data>
+  <data name="Bids" xml:space="preserve">
+    <value>Bod (s)</value>
+  </data>
+  <data name="CurrentPrice" xml:space="preserve">
+    <value>Huidige prys</value>
+  </data>
+  <data name="CURRENT_HIGH_BIDDER_RESERVE_NOT_MET" xml:space="preserve">
+    <value>U is die huidige hoë bieër, maar daar is nie aan die reserweprys voldoen nie.</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Vaste prys</value>
+  </data>
+  <data name="LOSING" xml:space="preserve">
+    <value>U is nie die hoë bieër nie. U kan u bod te eniger tyd verhoog.</value>
+  </data>
+  <data name="LOST" xml:space="preserve">
+    <value>U het nie hierdie item gewen nie.</value>
+  </data>
+  <data name="LOST_RESERVE_NOT_MET" xml:space="preserve">
+    <value>Die reserweprys is nie nagekom nie. U het nie hierdie item gewen nie.</value>
+  </data>
+  <data name="MinimumBid" xml:space="preserve">
+    <value>Minimum bod</value>
+  </data>
+  <data name="NOSALE" xml:space="preserve">
+    <value>Hierdie artikel het nie verkoop nie.</value>
+  </data>
+  <data name="NO_ACTIVITY" xml:space="preserve">
+    <value>U het geen aktiwiteit met hierdie item nie.</value>
+  </data>
+  <data name="NO_ACTIVITY_AS_BUYER" xml:space="preserve">
+    <value>U het nie 'n bod op hierdie item aangebied nie.</value>
+  </data>
+  <data name="NO_ACTIVITY_AS_SELLER" xml:space="preserve">
+    <value>Hierdie artikel het geen bodaktiwiteit nie.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Eienaar</value>
+  </data>
+  <data name="ProxyBidDisclaimer" xml:space="preserve">
+    <value>{0} bied 'n inkrementele aanbod vir u tot by u maksimum bod. U maksimum bod word deur ander gebruikers geheim gehou.</value>
+  </data>
+  <data name="ReservePrice" xml:space="preserve">
+    <value>Reserweprys</value>
+  </data>
+  <data name="RESERVE_NOT_MET" xml:space="preserve">
+    <value>Hierdie item bied, maar die reserwe is nie nagekom nie.</value>
+  </data>
+  <data name="SOLD" xml:space="preserve">
+    <value>Hierdie artikel is verkoop!</value>
+  </data>
+  <data name="WINNING" xml:space="preserve">
+    <value>U wen tans hierdie item!</value>
+  </data>
+  <data name="WON" xml:space="preserve">
+    <value>U het hierdie item gewen!</value>
+  </data>
+  <data name="WOULD_SELL" xml:space="preserve">
+    <value>'N Bieder wen hierdie item!</value>
+  </data>
+  <data name="YourBid" xml:space="preserve">
+    <value>U bod</value>
+  </data>
+  <data name="YourMaximumProxyBid" xml:space="preserve">
+    <value>U maksimum volmagbod</value>
+  </data>
+  <data name="NoReserve" xml:space="preserve">
+    <value>&lt;span class = "text-success"&gt; Geen reserwe &lt;/span&gt;</value>
+  </data>
+  <data name="ReserveMet" xml:space="preserve">
+    <value>&lt;span class = "text-success"&gt; Reserweprys met &lt;/span&gt;</value>
+  </data>
+  <data name="ReserveNotMet" xml:space="preserve">
+    <value>&lt;span class = "text-fare"&gt; Reserweprys nie nagekom nie &lt;/span&gt;</value>
+  </data>
+  <data name="BidNow" xml:space="preserve">
+    <value>Bied nou</value>
+  </data>
+  <data name="BuyNowPrice" xml:space="preserve">
+    <value>Koop nou prys</value>
+  </data>
+  <data name="StartingBid" xml:space="preserve">
+    <value>Begin bod</value>
+  </data>
+  <data name="BidHistory" xml:space="preserve">
+    <value>Bod geskiedenis</value>
+  </data>
+  <data name="BuyNowAvailable" xml:space="preserve">
+    <value>&lt;span class = "text-primary"&gt; Beskikbaar vir onmiddellike aankoop. &lt;/span&gt;</value>
+  </data>
+  <data name="FeedbackScore" xml:space="preserve">
+    <value>Terugvoer telling</value>
+  </data>
+  <data name="HighBidder" xml:space="preserve">
+    <value>Hoë bieder</value>
+  </data>
+  <data name="ListingEndDateTime" xml:space="preserve">
+    <value>Einddatum</value>
+  </data>
+  <data name="ListingLocation" xml:space="preserve">
+    <value>plek</value>
+  </data>
+  <data name="ListingPageViews" xml:space="preserve">
+    <value>Bladsyaansigte</value>
+  </data>
+  <data name="ListingStartedDateTime" xml:space="preserve">
+    <value>Begindatum</value>
+  </data>
+  <data name="SellerDetailsTitle" xml:space="preserve">
+    <value>Oor die verkoper</value>
+  </data>
+  <data name="SellerUsername" xml:space="preserve">
+    <value>Genoteer deur</value>
+  </data>
+  <data name="BidAmountTooLow" xml:space="preserve">
+    <value>Bodbedrag is te laag</value>
+  </data>
+  <data name="BidderIsOwner" xml:space="preserve">
+    <value>Die Bieder is die eienaar</value>
+  </data>
+  <data name="BuyItNow" xml:space="preserve">
+    <value>Koop nou</value>
+  </data>
+  <data name="BuyItNowPrice" xml:space="preserve">
+    <value>Koop nou prys</value>
+  </data>
+  <data name="ConfirmBid" xml:space="preserve">
+    <value>Bevestig u bod van {0}.</value>
+  </data>
+  <data name="ConfirmBuyItNow" xml:space="preserve">
+    <value>Bevestig "Koop Nou" van {0}.</value>
+  </data>
+  <data name="ListingChangedDuringProcessing" xml:space="preserve">
+    <value>Hierdie lys is tydens die verwerking verander</value>
+  </data>
+  <data name="ListingNotActive" xml:space="preserve">
+    <value>Hierdie lys is nie aktief nie</value>
+  </data>
+  <data name="ProxyBeatingNewBid" xml:space="preserve">
+    <value>U is deur volmag oorbied.</value>
+  </data>
+  <data name="SubmitBid" xml:space="preserve">
+    <value>Dien bod in</value>
+  </data>
+  <data name="LISTING_AWAITING_PAYMENT" xml:space="preserve">
+    <value>Hierdie aanbieding sal eers begin voordat inskrywingsgeld betaal is.</value>
+  </data>
+  <data name="LISTING_NOT_STARTED" xml:space="preserve">
+    <value>Hierdie aanbieding het nie begin nie.</value>
+  </data>
+  <data name="BadListingActionValue" xml:space="preserve">
+    <value>Bodbedrag moet 'n desimale waarde wees.</value>
+  </data>
+  <data name="CantLowerProxyBid" xml:space="preserve">
+    <value>U mag nie u maksimum bod verlaag nie.</value>
+  </data>
+  <data name="LISTING_DELETED" xml:space="preserve">
+    <value>Hierdie lys is uitgevee.</value>
+  </data>
+  <data name="ViewSellersOtherListings" xml:space="preserve">
+    <value>Kyk na die ander lyste van die verkoper</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Bod geskiedenis</value>
+  </data>
+  <data name="StartingBidPrice" xml:space="preserve">
+    <value>Begin bod</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>plek</value>
+  </data>
+  <data name="ActionSuccess" xml:space="preserve">
+    <value>U bod is ingedien.</value>
+  </data>
+  <data name="YourLastBidWas" xml:space="preserve">
+    <value>U laaste bod was</value>
+  </data>
+  <data name="YourMaximumBidIs" xml:space="preserve">
+    <value>U maksimum bod is</value>
+  </data>
+  <data name="ClosedMessage" xml:space="preserve">
+    <value>Die bod het op hierdie item geëindig.</value>
+  </data>
+  <data name="PostListingFeeIsBasedOnXxx" xml:space="preserve">
+    <value>Die fooi op die lys is gebaseer op die beginbod ...</value>
+  </data>
+  <data name="FinalFeeDescriptionNoTiers" xml:space="preserve">
+    <value>Die finale fooi van die verkoper is 'n persentasie van die verkoopprys, wat slegs gehef word wanneer 'n verkoop plaasvind.</value>
+  </data>
+  <data name="FinalFeeDescriptionWithTiers" xml:space="preserve">
+    <value>Die finale fooi van die verkoper is 'n persentasie van die verkoopprys, wat slegs gehef word wanneer 'n verkoping plaasvind ...</value>
+  </data>
+  <data name="ListingStartsDateTime" xml:space="preserve">
+    <value>Begindatum</value>
+  </data>
+  <data name="ScheduledListingStartsIn" xml:space="preserve">
+    <value>Begin in</value>
+  </data>
+  <data name="ScheduledListingStartsOnX" xml:space="preserve">
+    <value>Bied vir hierdie aanbieding begin op {0}</value>
+    <comment>{0} is start DTTM</comment>
+  </data>
+  <data name="A_BuyerFeeDescr_UpTo_Xdollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>'N {0} tot {1} word op u totaal toegepas.</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>'N {0} {1} word op u totaal toegepas.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>'N {0} {1} van {2} word op u totaal toegepas.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_UpTo_Ydollars_WillBeAppliedToYourTotal" xml:space="preserve">
+    <value>'N {0} {1} tot {2} word op u totaal toegepas.</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_UpTo_Xdollars" xml:space="preserve">
+    <value>Prys insluitend {0}: tot {1}</value>
+  </data>
+  <data name="PriceIncluding_BuyerFeeDescr_Xdollars" xml:space="preserve">
+    <value>Prys insluitend {0}: {1}</value>
+  </data>
+  <data name="A_BuyerFeeDescr_UpTo_Xdollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>'N {0} tot {1} word op u rekening toegepas.</value>
+  </data>
+  <data name="A_Xdollars_BuyerFeeDescr_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>'N {0} {1} word op u rekening toegepas.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_Of_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>'N {0} {1} van {2} word op u rekening toegepas.</value>
+  </data>
+  <data name="A_Xpct_BuyerFeeDescr_UpTo_Ydollars_WillBeAppliedToYourAccount" xml:space="preserve">
+    <value>'N {0} {1} tot {2} word op u rekening toegepas.</value>
+  </data>
+  <data name="NOTCURRENTLISTINGACTIONUSER" xml:space="preserve">
+    <value>U wen tans nie hierdie item NIE!</value>
+  </data>
+  <data name="Extended" xml:space="preserve">
+    <value>uitgebrei</value>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>U mag nie tans bie of koop nie</value>
+  </data>
+  <data name="UsersWatching" xml:space="preserve">
+    <value>Kyk</value>
+  </data>
+  <data name="UNKNOWN" xml:space="preserve">
+    <value>ONBEKEND</value>
+  </data>
+  <data name="CurrentBid" xml:space="preserve">
+    <value>Huidige aanbod</value>
+  </data>
+  <data name="TypeIconAlt" xml:space="preserve">
+    <value>Standaardveilinglys</value>
+  </data>
+  <data name="EndsIn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BuyerFeeNotice" xml:space="preserve">
+    <value>Die wenner sal 'n koperfooi van</value>
+  </data>
+  <data name="EnterYourBid" xml:space="preserve">
+    <value>Tik u bod in</value>
+  </data>
+  <data name="EnterYourMaxBid" xml:space="preserve">
+    <value>Voer u maksimum instaanbedrag in</value>
+  </data>
+  <data name="LoginViewHistory" xml:space="preserve">
+    <value>Meld aan en bekyk bodgeskiedenis</value>
+  </data>
+  <data name="ViewHistory" xml:space="preserve">
+    <value>Kyk na bodgeskiedenis</value>
+  </data>
+  <data name="AcceptOffers" xml:space="preserve">
+    <value>Aanvaar aanbiedinge</value>
+  </data>
+  <data name="MakeOffer" xml:space="preserve">
+    <value>Maak 'n aanbod</value>
+  </data>
+  <data name="OfferMessage" xml:space="preserve">
+    <value>Bied boodskap aan</value>
+  </data>
+  <data name="ReviewAndConfirmOffer" xml:space="preserve">
+    <value>Hersien en bevestig die aanbod</value>
+  </data>
+  <data name="ReviewOffer" xml:space="preserve">
+    <value>Hersien aanbieding</value>
+  </data>
+  <data name="YourOffer" xml:space="preserve">
+    <value>Jou aanbod</value>
+  </data>
+  <data name="FinalPriceXSuccessful" xml:space="preserve">
+    <value>Winnende bod: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="HighBidderX" xml:space="preserve">
+    <value>Hoë bieder: {0}</value>
+    <comment>{0} is high bidder username</comment>
+  </data>
+  <data name="XBids" xml:space="preserve">
+    <value>{0} Bied (e)</value>
+  </data>
+  <data name="ENDED_WITH_OFFER_ACCEPTED" xml:space="preserve">
+    <value>Item geëindig met die aanvaarde aanbod</value>
+  </data>
+  <data name="YOUR_OFFER_ACCEPTED" xml:space="preserve">
+    <value>U aanbod is aanvaar</value>
+  </data>
+  <data name="YOUR_OFFER_DECLINED" xml:space="preserve">
+    <value>U aanbod is van die hand gewys</value>
+  </data>
+  <data name="YOU_HAVE_PENDING_OFFER" xml:space="preserve">
+    <value>U het 'n aanbod wat wag op u antwoord</value>
+  </data>
+  <data name="FinalPriceXUnsuccessful" xml:space="preserve">
+    <value>Finale bodprys: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="StartingBidX" xml:space="preserve">
+    <value>Beginbod: {0}</value>
+    <comment>{0} is starting bid price</comment>
+  </data>
+  <data name="FinalBid" xml:space="preserve">
+    <value>Finale bod</value>
+  </data>
+  <data name="QuickBid" xml:space="preserve">
+    <value>Vinnige bod {0}</value>
+    <comment>{0} is the minimum bid amount</comment>
+  </data>
+  <data name="ConfirmListingActionAmount" xml:space="preserve">
+    <value>Bevestig bodbedrag</value>
+  </data>
+  <data name="PleaseSelectTheAmountYouIntendedToEnter" xml:space="preserve">
+    <value>Kies u beoogde bodbedrag:</value>
+  </data>
+  <data name="CurrentReserveX" xml:space="preserve">
+    <value>(Huidige reserwe: {0})</value>
+    <comment>{0} is current reserve price</comment>
+  </data>
+  <data name="LowerReservePrice" xml:space="preserve">
+    <value>Laer reserweprys</value>
+  </data>
+  <data name="NextBidMeetsReserve" xml:space="preserve">
+    <value>Volgende bod ontmoet reserwe?</value>
+  </data>
+  <data name="LowerReservePrice_Help" xml:space="preserve">
+    <value>As u hierdie opsie kies, sal die Reserweprys tot die huidige minimum bodbedrag verlaag word, en verseker dat die volgende bod aan die Reserwe voldoen.</value>
+  </data>
+  <data name="FinalPrice" xml:space="preserve">
+    <value>Finale prys</value>
+  </data>
+  <data name="FinalPriceX" xml:space="preserve">
+    <value>Finale prys: {0}</value>
+    <comment>{0} is final price</comment>
+  </data>
+  <data name="IsTaxable" xml:space="preserve">
+    <value>Hierdie item is belasbaar</value>
+  </data>
+  <data name="NotWinning_Concise" xml:space="preserve">
+    <value>NIE WEN NIE</value>
+  </data>
+  <data name="Winning_Concise" xml:space="preserve">
+    <value>WEN</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>Sien besonderhede</value>
+  </data>
+  <data name="Lost_Concise" xml:space="preserve">
+    <value>LOST</value>
+  </data>
+  <data name="Won_Concise" xml:space="preserve">
+    <value>WON</value>
+  </data>
+  <data name="myMaxBid" xml:space="preserve">
+    <value>My maksimum bod</value>
+  </data>
+  <data name="IncreasedOwnMaxBid" xml:space="preserve">
+    <value>U het u maksimum bod verhoog</value>
+  </data>
+  <data name="RESERVE_NOT_MET_AS_SELLER" xml:space="preserve">
+    <value>Hierdie item bied, maar die reserwe is nie nagekom nie.</value>
+  </data>
+  <data name="EarliestBidWinsNote" xml:space="preserve">
+    <value>Outomatiese instaanbedieners kan dae of ure voordat die veiling eindig, geplaas word. As twee bieërs dieselfde bedrag bie, wen die vorige Proxy-bod altyd meer as die meer onlangse bod.</value>
+  </data>
+  <data name="MaxBid" xml:space="preserve">
+    <value>Maksimum bod</value>
+  </data>
+  <data name="ProxyAmountIncreased" xml:space="preserve">
+    <value>Maksimum bod verhoog</value>
+  </data>
+  <data name="ProxyBid" xml:space="preserve">
+    <value>Volmagbod</value>
+  </data>
+  <data name="ProxyBidIncrementNote" xml:space="preserve">
+    <value>Soms sal u biedings met minder styg as die bodverhoging. Dit beteken dat iemand anders 'n bod aangebied het wat effens hoër is as u outomatiese instaanbedrag-bedrag.</value>
+  </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Gestuur</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+</root>

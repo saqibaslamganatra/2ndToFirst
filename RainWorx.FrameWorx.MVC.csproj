@@ -3683,6 +3683,7 @@
     <Content Include="App_GlobalResources\AdminStrings.fr.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>AdminStrings.fr.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="App_GlobalResources\AdminStrings.pt.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
@@ -3711,6 +3712,7 @@
     <Content Include="App_GlobalResources\AuctionListing.af.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>AuctionListing.af.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="App_GlobalResources\AuctionListing.ar.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
@@ -3819,18 +3821,22 @@
     <Content Include="App_GlobalResources\GlobalStrings.af.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>GlobalStrings.af.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="App_GlobalResources\GlobalStrings.ar.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>GlobalStrings.ar.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="App_GlobalResources\GlobalStrings.fr.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>GlobalStrings.fr.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="App_GlobalResources\GlobalStrings.pt.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>GlobalStrings.pt.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>

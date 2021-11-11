@@ -29,7 +29,6 @@ using System.ServiceModel;
 using Image = System.Drawing.Image;
 using System.Data;
 using System.Data.SqlClient;
-using RainWorx.FrameWorx.MVC.App_Start;
 
 namespace RainWorx.FrameWorx.MVC.Controllers
 {
@@ -621,19 +620,6 @@ namespace RainWorx.FrameWorx.MVC.Controllers
             return Json(new
             {
                 Msg = "failed"
-            });
-        }
-
-        [HttpPost]
-        public JsonResult GetAuthorize(string Id)
-        {
-            DataAccessLayer dal = new DataAccessLayer();
-            var query = "Update Authentication Set  [User] = '"+Id+"'";
-
-            dal.GetDataTable(query);
-            return Json(new
-            {
-                Msg = "Success"
             });
         }
         [HttpPost]

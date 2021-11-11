@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns#">
+    <base href="@Html.Base()" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@(string.IsNullOrEmpty(ViewBag.SiteTitle) ? SiteClient.Settings[SiteProperties.SiteTitle] + " - " + Html.AdminResource("ShipmentControlPanel") : ViewBag.SiteTitle)</title>
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/html5shiv.min.js"></script>
+
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />@*Styles.Render("~/bundles/jqueryuicss")*@
+   
+
+    @Styles.Render("~/bundles/bootstrap_css")
+    @Styles.Render("~/bundles/bootstrap_dialog_css")
+    <link href="~/Content/AWE_Admin.css?v=20190805" rel="stylesheet" />
+    
+   
+    @Scripts.Render("~/bundles/datetimepicker_js")
+    @RenderSection("head", required: false)
+</head>
+<body id="AdminControlPanel">
+    @if (SiteClient.DemoEnabled)
+    {
+        @Html.Partial("DemoMenu")
+    }
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="nav-heading">
+                    <a href="#">@SiteClient.Settings[SiteProperties.FriendlySiteName]</a><br />
+                    <span class="text-muted">
+                        @Html.AdminResource("ShipmentControlPanel")
+                    </span>
+
+                </div>
+            </div>
+            <button class="navbar-toggle collapsed dropdown-toggle withSVG" type="button" data-toggle="offcanvas" data-target=".sidebar-nav">
+                <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </button>
+            @Html.Partial("LogOnUserControl")
+        </div>
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row row-offcanvas row-offcanvas-left">
+            <div class="col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                <ul class="nav nav-sidebar">
+
+                    <li class="section">@Html.AdminResource("Shipment")</li>
+                    <li>
+                        <a href="https://courierservice.2nd-to-first.com/shipmenttracking1.php" target="_blank">@Html.GlobalResource("TrackingNo")#</a>
+                    </li>
+                    <li>
+                        <a href="https://courierservice.2nd-to-first.com/ratecalculator1.php" target="_blank">@Html.GlobalResource("DHLRateCalculator")</a>
+                    </li>
+                    <li>
+                        <a href="/Admin/CreateShipmentBooking" target="_blank">@Html.AdminResource("CreateShipmentBooking")</a>
+                    </li>
+                    <li>
+                        <a href="/Admin/ShowShipmentBooking" target="_blank">@Html.AdminResource("ShowShipmentBookings")</a>
+                    </li>
+
+                </ul>
+                <!-- Change Culture or User Default Currency-->
+
+                <div class="text-center">
+                    @if (SiteClient.EnableMultipleCurrencies || SiteClient.EnableMultipleCultures)
+                    {
+                        <a class="btn btn-info btn-xs" data-toggle="modal" data-target="#AdminCulture">
+                            @Html.GlobalResource("Update")
+                            @if (SiteClient.EnableMultipleCultures)
+                            {
+                                @Html.AdminResource("Culture")
+                            }
+                            @if (SiteClient.EnableMultipleCurrencies || SiteClient.EnableMultipleCultures)
+                            {
+                                @:&#47;
+                            }
+                            @if (SiteClient.EnableMultipleCurrencies)
+                            {
+                                @Html.GlobalResource("Currency")
+                            }
+                        </a>
+                    }
+                    <hr />
+                   
+                </div>
+                <!-- Culture Modal -->
+                <div class="modal fade" id="AdminCulture" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                @Html.Partial("RegionCurrencySelector")
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 main">
+
+                @Html.SystemMessages()
+                <h1 class="page-header">@ViewBag.PageName @RenderSection("PageName", required: false) </h1>
+                <div id="alert-placeholder">@Html.LocalizedValidationSummary()</div>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    @Styles.Render("~/bundles/timepicker_css")
+    @Scripts.Render("~/bundles/generalAJAX")
+    @if (!(Html.GetCultureInfo().Calendar is System.Globalization.GregorianCalendar))
+    {
+        <script>disableDatePicker = true;</script>
+    }
+    @Scripts.Render("~/bundles/bootstrap_js")
+    @if (SiteClient.DemoEnabled)
+    {
+        @Scripts.Render("~/bundles/demojs")
+    }
+    <script src="~/Scripts/AWE-Dashboard.js"></script>
+    <script src="~/Scripts/core.js"></script>
+    <script src="~/Scripts/jquery-hex-colorpicker.min.js"></script>
+    <link rel="stylesheet" href="~/Content/jquery-hex-colorpicker.css" />
+    <script>
+        $(document).ready(function () {
+            var toggleYes = "@Html.AdminResource("toggleYes").ToJavascriptSafeString()";
+            var toggleNo = "@Html.AdminResource("toggleNo").ToJavascriptSafeString()";
+            $(".yesNoToggle .fs-checkbox-state_on").text(toggleYes);
+            $(".yesNoToggle .fs-checkbox-state_off").text(toggleNo);
+        });
+        $("#HeadingColor").hexColorPicker({
+            "container": "dialog",
+        });
+    </script>
+    @if (SiteClient.DemoEnabled)
+    {
+        <script src="~/Scripts/DemoMenu.js"></script>
+    }
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+@{Html.LogPageRenderStats();}

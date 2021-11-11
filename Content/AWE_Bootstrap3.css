@@ -3331,8 +3331,7 @@ input[type=number] {
 .status-type.InlineContextualStatus {
     display: block;
 }
-
-.detail__price-text {
-    display: inline-block;
+.detail__price-text{
+    display : inline-block;
     width: 110px;
 }

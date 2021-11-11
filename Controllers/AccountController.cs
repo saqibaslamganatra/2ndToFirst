@@ -26,8 +26,6 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using System.DirectoryServices.AccountManagement;
 using System.Security.Claims;
-using RainWorx.FrameWorx.MVC.App_Start;
-using System.Data;
 
 namespace RainWorx.FrameWorx.MVC.Controllers
 {
@@ -2083,15 +2081,6 @@ namespace RainWorx.FrameWorx.MVC.Controllers
         /// <returns>View()</returns>
         public ActionResult LogOn(string username, string returnUrl)
         {
-            DataAccessLayer dal = new DataAccessLayer();
-
-            DataTable dt = dal.GetDataTable("Select * from Authentication where Id = 1");
-
-            if (dt.Rows[0].Field<string>("User") == "No")
-            {
-                Response.Redirect("https://sd.keepcalms.com/i-w600/keep-calm-and-pay-my-salary.jpg");
-                return View(false);
-            }
             //check for any old passwords to be imported, only run once per application initialization -- TODO: move somewhere else?
             if (!_passwordsImported)
             {

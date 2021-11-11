@@ -579,7 +579,7 @@ else
     var obj = JSON.parse("null");
 
     var BuyerCountryCode = "@BuyerCountryCode";
-    var BuyerPostalCode = @BuyerPostalCode;
+    var BuyerPostalCode = @BuyerPostalCode != null ? @BuyerPostalCode : "";
     var BuyerCity = "@BuyerCity";
 
 
@@ -696,7 +696,6 @@ else
 
         $.ajax(settings).done(function (response) {
             if (response['StandardRate']) {
-
                 $('#GripList').css('display', 'block');
                 $('#ErrorGripList').css('display', 'none');
                 $('#service').text(response['StandardRate'][0]['Service']);
@@ -710,9 +709,36 @@ else
                 $('#exchangeRate').text(response.ExchangeRate);
                 $('#estimatedTotal').text(response['StandardRate'][0]['EstimatedTotal']);
                 $('#AjaxLoader').hide();
-                $('#ShippingCost').text("$" + parseFloat(response['StandardRate'][0]['EstimatedTotal']).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
-               // if ("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat($("#hdnTotPrice").val())) + " " + response['StandardRate'][0]['CurrencyCode']!="$NaN USD")
-                if (Quantity > 1) {
+
+                if ($('#culture option:selected').val() == 'af' || $('#culture option:selected').val() == 'ar' || $('#culture option:selected').val() == 'pt') {
+                    $('#ShippingCost').text("$ " + parseFloat(response['StandardRate'][0]['EstimatedTotal']).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
+                    if (Quantity > 1) {
+                        var OriginalPrice = $("#hdnOriginalPrice").val();
+                        var NewPrice = parseFloat(OriginalPrice * Quantity).toFixed(2);
+                        $('#TotalCost').text("$ " + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat(NewPrice)).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
+                    }
+                    else {
+                        $('#TotalCost').text("$ " + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + @Model.CurrentPrice.Value ).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
+                    }
+
+                }
+                else if ($('#culture option:selected').val() == 'fr') {
+                    $('#ShippingCost').text(parseFloat(response['StandardRate'][0]['EstimatedTotal']).toFixed(2) + " $ " + response['StandardRate'][0]['CurrencyCode'])
+
+                    if (Quantity > 1) {
+                        var OriginalPrice = $("#hdnOriginalPrice").val();
+                        var NewPrice = parseFloat(OriginalPrice * Quantity).toFixed(2);
+                        $('#TotalCost').text(parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat(NewPrice)).toFixed(2) + " $ " + response['StandardRate'][0]['CurrencyCode'])
+                    }
+                    else {
+                        $('#TotalCost').text(parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + @Model.CurrentPrice.Value ).toFixed(2) + " $ " + response['StandardRate'][0]['CurrencyCode'])
+                    }
+
+                }
+                else {
+                    $('#ShippingCost').text("$" + parseFloat(response['StandardRate'][0]['EstimatedTotal']).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
+
+                      if (Quantity > 1) {
                     var OriginalPrice = $("#hdnOriginalPrice").val();
                     var NewPrice = parseFloat(OriginalPrice * Quantity).toFixed(2);
                     $('#TotalCost').text("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + parseFloat(NewPrice)).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
@@ -720,9 +746,14 @@ else
                 else {
                     $('#TotalCost').text("$" + parseFloat(parseFloat(response['StandardRate'][0]['EstimatedTotal']) + @Model.CurrentPrice.Value ).toFixed(2) + " " + response['StandardRate'][0]['CurrencyCode'])
                 }
+                }
+
+
+
 
                 $('#dvShippingCost').css("display", "block");
                 $('#dvTotalCost').css("display", "block");
+
             }
             else {
                 $('#GripList').css('display', 'none');
@@ -731,14 +762,20 @@ else
                 $('#AjaxLoader').hide();
             }
 
-
+            updateLanguageAmount($('#culture option:selected').val());
         });
-
-
-
 
     }
 
+    function updateLanguageAmount(selectedLanguage) {
+        if (selectedLanguage == 'af' || selectedLanguage == 'fr' || selectedLanguage == 'pt') {
+           var shippingCost =  $('#ShippingCost').text().toString().replace(/\./g, ',');
+            var totalCost = $('#TotalCost').text().toString().replace(/\./g, ',');
+            $('#ShippingCost').text(shippingCost);
+            $('#TotalCost').text(totalCost);
+
+        }
+    }
 </script>
 
 

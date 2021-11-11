@@ -1,0 +1,4046 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Voeg</value>
+  </data>
+  <data name="AddMultiple" xml:space="preserve">
+    <value>Voeg veelvoud by</value>
+  </data>
+  <data name="AdminControlPanel" xml:space="preserve">
+    <value>Beheerpaneel</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Bedrag</value>
+  </data>
+  <data name="Assign" xml:space="preserve">
+    <value>Toewys</value>
+  </data>
+  <data name="AssignFieldToCategories" xml:space="preserve">
+    <value>Ken veld aan kategorieë toe</value>
+  </data>
+  <data name="CategoryDetail" xml:space="preserve">
+    <value>Kategorie-detail</value>
+  </data>
+  <data name="CategoryEditor" xml:space="preserve">
+    <value>Kategorie-redakteur</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Kommentaar</value>
+  </data>
+  <data name="ContentEditor" xml:space="preserve">
+    <value>Inhoudsredakteur</value>
+  </data>
+  <data name="ContentManagement" xml:space="preserve">
+    <value>Inhoudsbestuur</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Skep</value>
+  </data>
+  <data name="CreateItemField" xml:space="preserve">
+    <value>Skep lysveld</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Rekening geskep op</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultuur</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Geldeenheid</value>
+  </data>
+  <data name="CurrencyManagement" xml:space="preserve">
+    <value>Valutabeheer</value>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>Aangepaste velde</value>
+  </data>
+  <data name="DecorationsManagement" xml:space="preserve">
+    <value>Versieringsbestuur</value>
+  </data>
+  <data name="DefaultSiteCurrency" xml:space="preserve">
+    <value>Standaard webwerf-geldeenheid</value>
+  </data>
+  <data name="DefaultValue" xml:space="preserve">
+    <value>Standaard waarde</value>
+  </data>
+  <data name="Deferred" xml:space="preserve">
+    <value>Uitgestel</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrywing</value>
+  </data>
+  <data name="DisplayOrder" xml:space="preserve">
+    <value>Vertoonorde</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Wysig</value>
+  </data>
+  <data name="EditDecoration" xml:space="preserve">
+    <value>Versiering versier</value>
+  </data>
+  <data name="EditEventFees" xml:space="preserve">
+    <value>Wysig fooi</value>
+  </data>
+  <data name="EditFeeTier" xml:space="preserve">
+    <value>Wysig fooi-vlak</value>
+  </data>
+  <data name="EditItemField" xml:space="preserve">
+    <value>Wysig die lysveld</value>
+  </data>
+  <data name="Editing" xml:space="preserve">
+    <value>Redigering</value>
+  </data>
+  <data name="EditLocation" xml:space="preserve">
+    <value>Wysig ligging</value>
+  </data>
+  <data name="EditTiers" xml:space="preserve">
+    <value>Wys Tiers</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Gebruiker wysig</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-pos</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Geaktiveer</value>
+  </data>
+  <data name="EnterNewIncrement" xml:space="preserve">
+    <value>Voer nuwe inkrement in</value>
+  </data>
+  <data name="LineageString_EventFeeManagement" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Lys van fooie</value>
+  </data>
+  <data name="ExtendListings" xml:space="preserve">
+    <value>Brei lyste uit</value>
+  </data>
+  <data name="FailedPasswordAnswerAttemptCount" xml:space="preserve">
+    <value>Mislukte pogings met wagwoordantwoorde</value>
+  </data>
+  <data name="FailedPasswordAnswerAttemptWindowStart" xml:space="preserve">
+    <value>Wagwoord antwoord misluk op</value>
+  </data>
+  <data name="FailedPasswordAttemptCount" xml:space="preserve">
+    <value>Mislukte wagwoordpogings</value>
+  </data>
+  <data name="FailedPasswordAttemptWindowStart" xml:space="preserve">
+    <value>Wagwoord misluk</value>
+  </data>
+  <data name="FieldManagement" xml:space="preserve">
+    <value>{0} Veldbestuur</value>
+  </data>
+  <data name="FormatString" xml:space="preserve">
+    <value>Formaatstring</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Groepnaam</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Impersonate" xml:space="preserve">
+    <value>Verpersoonlik</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>Inkrement</value>
+  </data>
+  <data name="IncrementManagement" xml:space="preserve">
+    <value>Inkrementebestuur</value>
+  </data>
+  <data name="IsApproved" xml:space="preserve">
+    <value>Is goedgekeur</value>
+  </data>
+  <data name="IsLockedOut" xml:space="preserve">
+    <value>Is beperk</value>
+  </data>
+  <data name="IsVerified" xml:space="preserve">
+    <value>Is bevestig</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Notering</value>
+  </data>
+  <data name="LastActivityDate" xml:space="preserve">
+    <value>Laaste aktief op</value>
+  </data>
+  <data name="LastIP" xml:space="preserve">
+    <value>Laaste IP-adres</value>
+  </data>
+  <data name="LastLockoutDate" xml:space="preserve">
+    <value>Beperk op</value>
+  </data>
+  <data name="LastLoginDate" xml:space="preserve">
+    <value>Laas aangemeld</value>
+  </data>
+  <data name="ListingID" xml:space="preserve">
+    <value>Lys ID</value>
+  </data>
+  <data name="ListingTypes" xml:space="preserve">
+    <value>Lystipes</value>
+  </data>
+  <data name="ManageFieldEnumeration" xml:space="preserve">
+    <value>Voeg opsies by</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Nuusbrief</value>
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>Prysvlak</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Vereis</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SelectSupportedCurrencies" xml:space="preserve">
+    <value>Kies ondersteunde geldeenhede</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Indien</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Opsomming</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipe</value>
+  </data>
+  <data name="Unassign" xml:space="preserve">
+    <value>Wegneem</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="ValidFields" xml:space="preserve">
+    <value>Geldige velde</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="AddDomesticDHLOptions" xml:space="preserve">
+    <value>Voeg huishoudelike DHL-opsies by</value>
+  </data>
+  <data name="AddDomesticFedexOptions" xml:space="preserve">
+    <value>Voeg plaaslike Fedex-opsies by</value>
+  </data>
+  <data name="AddDomesticUPSOptions" xml:space="preserve">
+    <value>Voeg plaaslike UPS-opsies by</value>
+  </data>
+  <data name="AddDomesticUSPSOptions" xml:space="preserve">
+    <value>Voeg binnelandse USPS-opsies by</value>
+  </data>
+  <data name="AddInternationalDHLOptions" xml:space="preserve">
+    <value>Voeg internasionale DHLOptions by</value>
+  </data>
+  <data name="AddInternationalFedexOptions" xml:space="preserve">
+    <value>Voeg internasionale Fedex-opsies by</value>
+  </data>
+  <data name="AddInternationalUPSOptions" xml:space="preserve">
+    <value>Voeg internasionale UPS-opsies by</value>
+  </data>
+  <data name="AddInternationalUSPSOptions" xml:space="preserve">
+    <value>Voeg internasionale USPS-opsies by</value>
+  </data>
+  <data name="DatePaid" xml:space="preserve">
+    <value>Datum betaal</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Skakel</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>In staat te stel</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>Vanaf Datum</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Gaan</value>
+  </data>
+  <data name="InvoiceID" xml:space="preserve">
+    <value>Faktuur-ID</value>
+  </data>
+  <data name="LanguageManagement" xml:space="preserve">
+    <value>Taalbestuur</value>
+  </data>
+  <data name="LocationsManagement" xml:space="preserve">
+    <value>Liggingsbestuur</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nuwe</value>
+  </data>
+  <data name="RegionEditor" xml:space="preserve">
+    <value>Streekredakteur</value>
+  </data>
+  <data name="ShippingMethod" xml:space="preserve">
+    <value>Gestuur metode</value>
+  </data>
+  <data name="SiteFeesReportNew" xml:space="preserve">
+    <value>Fooi-fakture (nuut)</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Soort</value>
+  </data>
+  <data name="ToDate" xml:space="preserve">
+    <value>Tot op hede</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="UserManagement" xml:space="preserve">
+    <value>Gebruikersbestuur</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="AddDecorationSuccess" xml:space="preserve">
+    <value>Voeg versiering sukses toe</value>
+  </data>
+  <data name="AddEventFeeSuccess" xml:space="preserve">
+    <value>Voeg sukses vir geleentheidsfooi by</value>
+  </data>
+  <data name="AddFeeTierSuccess" xml:space="preserve">
+    <value>Voeg fooi Tier Sukses by</value>
+  </data>
+  <data name="AssignFieldSuccess" xml:space="preserve">
+    <value>Ken veldsukses toe</value>
+  </data>
+  <data name="ChooseDefaultCulture" xml:space="preserve">
+    <value>Kies standaardkultuur</value>
+  </data>
+  <data name="CreateFieldSuccess" xml:space="preserve">
+    <value>Skep veldsukses</value>
+  </data>
+  <data name="CultureManagement" xml:space="preserve">
+    <value>Kultuurbestuur</value>
+  </data>
+  <data name="DeleteFieldSuccess" xml:space="preserve">
+    <value>Vee veldsukses uit</value>
+  </data>
+  <data name="EditDecorationSuccess" xml:space="preserve">
+    <value>Wysiging van versiering</value>
+  </data>
+  <data name="EditEventFeesSuccess" xml:space="preserve">
+    <value>Wysiging van geleentheidsfooie sukses</value>
+  </data>
+  <data name="EditFeeTierSuccess" xml:space="preserve">
+    <value>Wysig Foee Tier Sukses</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Groep</value>
+  </data>
+  <data name="InUseByListingProperty" xml:space="preserve">
+    <value>In gebruik deur eiendom te lys</value>
+  </data>
+  <data name="PropertyManagementSuccess" xml:space="preserve">
+    <value>Instellings suksesvol gestoor</value>
+  </data>
+  <data name="SaveFieldSuccess" xml:space="preserve">
+    <value>Bespaar veldsukses</value>
+  </data>
+  <data name="ShippingMethods" xml:space="preserve">
+    <value>Gestuurmetodes</value>
+  </data>
+  <data name="ShippingMethodsSuccess" xml:space="preserve">
+    <value>Gestuur metodes Sukses</value>
+  </data>
+  <data name="ToggleListingTypeSuccess" xml:space="preserve">
+    <value>Wissel sukses lyste</value>
+  </data>
+  <data name="UnassignFieldFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Ontwerp veld uit sukses vanaf kategoriedetail</value>
+  </data>
+  <data name="UnassignFieldSuccess" xml:space="preserve">
+    <value>Toewys van veldsukses</value>
+  </data>
+  <data name="LineageString_VersionInfo" xml:space="preserve">
+    <value>Gevorderde&gt; weergawe</value>
+  </data>
+  <data name="ContentEditorSuccess" xml:space="preserve">
+    <value>Sukses van inhoud-redakteur</value>
+  </data>
+  <data name="Deactivate" xml:space="preserve">
+    <value>Deaktiveer die lisensie op hierdie masjien?</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>Voeg nuwe</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Rekeningadres</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>Datum geskep</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Gebeurtenis</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Faktuurnommer</value>
+  </data>
+  <data name="ListingType" xml:space="preserve">
+    <value>Listing Type</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Kies</value>
+  </data>
+  <data name="SiteFeeInvoice" xml:space="preserve">
+    <value>Faktuur vir werffooi</value>
+  </data>
+  <data name="SiteFeesReportPaid" xml:space="preserve">
+    <value>Fooi fakture (betaal)</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Verwyder</value>
+  </data>
+  <data name="LineageString_LogoUploader" xml:space="preserve">
+    <value>Webwerfvoorkeure&gt; Webwerf-logo</value>
+  </data>
+  <data name="PayToProceed" xml:space="preserve">
+    <value>Betaal om voort te gaan</value>
+  </data>
+  <data name="UploadYourSiteLogo" xml:space="preserve">
+    <value>Laai u webwerf-logo op</value>
+  </data>
+  <data name="DeleteDecorationSuccess" xml:space="preserve">
+    <value>Versiering suksesvol uitgevee</value>
+  </data>
+  <data name="EditLocationSuccess" xml:space="preserve">
+    <value>Ligging is suksesvol gewysig</value>
+  </data>
+  <data name="DeleteEventFeeSuccess" xml:space="preserve">
+    <value>Gebeurtenisfooi suksesvol uitgevee</value>
+  </data>
+  <data name="LowerBoundInclusive" xml:space="preserve">
+    <value>Ondergrens</value>
+  </data>
+  <data name="UpperBoundExclusive" xml:space="preserve">
+    <value>Bo-gebind</value>
+  </data>
+  <data name="ValueType" xml:space="preserve">
+    <value>Waarde tipe</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>N / A</value>
+  </data>
+  <data name="AdditionalImages" xml:space="preserve">
+    <value>Bykomende beelde</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Vet</value>
+  </data>
+  <data name="CancelChanges" xml:space="preserve">
+    <value>Kanselleer veranderinge</value>
+  </data>
+  <data name="Featured" xml:space="preserve">
+    <value>Gewilde</value>
+  </data>
+  <data name="FeeName" xml:space="preserve">
+    <value>Fooi Naam</value>
+  </data>
+  <data name="FinalSaleFee" xml:space="preserve">
+    <value>Finale fooi van die verkoper</value>
+  </data>
+  <data name="FirstImage" xml:space="preserve">
+    <value>Eerste Beeld</value>
+  </data>
+  <data name="ForValuesUnder" xml:space="preserve">
+    <value>Vir waardes onder ...</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Hoogtepunt</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="PostListingFee" xml:space="preserve">
+    <value>Posgeld</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Stoor veranderinge</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Subtitle</value>
+  </data>
+  <data name="EditFees" xml:space="preserve">
+    <value>Wysig fooie</value>
+  </data>
+  <data name="AssignFieldFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Aangepaste velde is suksesvol geassosieer</value>
+  </data>
+  <data name="AddNewDecor" xml:space="preserve">
+    <value>Voeg nuwe versiering by</value>
+  </data>
+  <data name="AddNewListingFee" xml:space="preserve">
+    <value>Voeg 'n nuwe fooi by</value>
+  </data>
+  <data name="AddNewTier" xml:space="preserve">
+    <value>Voeg nuwe vlak by</value>
+  </data>
+  <data name="EditFeeTiers" xml:space="preserve">
+    <value>Wysig fooi-tiers</value>
+  </data>
+  <data name="EditFeeTiers_HelpText" xml:space="preserve">
+    <value>Kies fooiwaarde om die vlak te wysig.</value>
+  </data>
+  <data name="FeeDescription" xml:space="preserve">
+    <value>Fooi beskrywing</value>
+  </data>
+  <data name="FeeValue" xml:space="preserve">
+    <value>Fooi-waarde</value>
+  </data>
+  <data name="LineageString_EditEventFeeManagement" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Lys fooie&gt; Wysig fooi</value>
+  </data>
+  <data name="LineageString_OptionFee" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Opsionele fooie</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Of</value>
+  </data>
+  <data name="SelectEvent" xml:space="preserve">
+    <value>Kies geleentheid</value>
+  </data>
+  <data name="SelectListingType" xml:space="preserve">
+    <value>Kies Listing Type</value>
+  </data>
+  <data name="AdminHelpText_PayToProceed" xml:space="preserve">
+    <value>Kies hierdie opsie om die vereistes van die aanbieders van die aanbieders te betaal.</value>
+  </data>
+  <data name="LineageString_EditFees" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Wysig fooie</value>
+  </data>
+  <data name="ClearCache" xml:space="preserve">
+    <value>Maak kas skoon</value>
+  </data>
+  <data name="LineageString_CategoryDetail" xml:space="preserve">
+    <value>Kategorieë&gt; Wysig&gt; Besonderhede</value>
+  </data>
+  <data name="LineageString_CategoryEditor" xml:space="preserve">
+    <value>Kategorieë&gt; Wysig</value>
+  </data>
+  <data name="LineageString_ContentEditor" xml:space="preserve">
+    <value>CMS&gt; Inhoud&gt; Besonderhede</value>
+  </data>
+  <data name="LineageString_ContentGeneral" xml:space="preserve">
+    <value>CMS&gt; Inhoud</value>
+  </data>
+  <data name="LineageString_CultureManagement" xml:space="preserve">
+    <value>Internasionaal&gt; Kulture</value>
+  </data>
+  <data name="LineageString_CurrencyManagement" xml:space="preserve">
+    <value>Internasionaal&gt; Geldeenhede</value>
+  </data>
+  <data name="LineageString_EditUser" xml:space="preserve">
+    <value>Gebruikers&gt; Bestuur&gt; Gebruiker wysig</value>
+  </data>
+  <data name="LineageString_ExtendListings" xml:space="preserve">
+    <value>Gevorderd&gt; Brei uit</value>
+  </data>
+  <data name="LineageString_IncrementManagement" xml:space="preserve">
+    <value>Lys&gt; Biedverhogingsbestuur</value>
+  </data>
+  <data name="LineageString_LanguageManagement" xml:space="preserve">
+    <value>Internasionaal&gt; Tale</value>
+  </data>
+  <data name="LineageString_ListingsGeneral" xml:space="preserve">
+    <value>Lys&gt; Algemeen</value>
+  </data>
+  <data name="LineageString_RegionGeneral" xml:space="preserve">
+    <value>Streke&gt; Wysig</value>
+  </data>
+  <data name="LineageString_ShippingMethods" xml:space="preserve">
+    <value>Lys&gt; Gestuur</value>
+  </data>
+  <data name="LineageString_SiteFeesReportNew" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Fooi-fakture (nuut)</value>
+  </data>
+  <data name="LineageString_SiteFeesReportPaid" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Fooi-fakture (betaal)</value>
+  </data>
+  <data name="LineageString_UserManagement" xml:space="preserve">
+    <value>Gebruikers&gt; Bestuur</value>
+  </data>
+  <data name="AdminSummary" xml:space="preserve">
+    <value>Admin opsomming</value>
+  </data>
+  <data name="AdminSummaryCountActiveListings" xml:space="preserve">
+    <value>Aktiewe lyste</value>
+  </data>
+  <data name="AdminSummaryCountAllListings" xml:space="preserve">
+    <value>Totale lyste</value>
+  </data>
+  <data name="AdminSummaryCountListingsWithTransactions" xml:space="preserve">
+    <value>Lys met bod / aankope</value>
+  </data>
+  <data name="AdminSummaryCountRegisteredUsers" xml:space="preserve">
+    <value>Geregistreerde gebruikers</value>
+  </data>
+  <data name="SiteStatistics" xml:space="preserve">
+    <value>Webwerfstatistiek</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Oor ons</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Kontak Ons</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hulp</value>
+  </data>
+  <data name="HomepageAnnouncement" xml:space="preserve">
+    <value>Aankondiging van die tuisblad</value>
+  </data>
+  <data name="IdHighToLow" xml:space="preserve">
+    <value>ID (hoog na laag)</value>
+  </data>
+  <data name="IdLowToHigh" xml:space="preserve">
+    <value>ID (laag tot hoog)</value>
+  </data>
+  <data name="LastLoginDateNewToOld" xml:space="preserve">
+    <value>Laaste aanmelddatum (nuut na oud)</value>
+  </data>
+  <data name="LastLoginDateOldToNew" xml:space="preserve">
+    <value>Laaste Aanmeldingsdatum (Oud tot nuut)</value>
+  </data>
+  <data name="LocalizedName" xml:space="preserve">
+    <value>Gelokaliseerde naam (in die huidige taal)</value>
+  </data>
+  <data name="PaidDateNewToOld" xml:space="preserve">
+    <value>Betaalde datum (nuut tot oud)</value>
+  </data>
+  <data name="PaidDateOldToNew" xml:space="preserve">
+    <value>Betaalde datum (oud tot nuut)</value>
+  </data>
+  <data name="PayerUserNameAToZ" xml:space="preserve">
+    <value>Gebruikersnaam van die betaler (A tot Z)</value>
+  </data>
+  <data name="PayerUserNameZToA" xml:space="preserve">
+    <value>Gebruikersnaam van die betaler (Z tot A)</value>
+  </data>
+  <data name="RegistrationCopy" xml:space="preserve">
+    <value>Registrasie kopie</value>
+  </data>
+  <data name="SignInCopy" xml:space="preserve">
+    <value>Aanmeldkopie</value>
+  </data>
+  <data name="SiteHeader" xml:space="preserve">
+    <value>Webwerfkop</value>
+  </data>
+  <data name="TermsAndConditions" xml:space="preserve">
+    <value>Terme en voorwaardes</value>
+  </data>
+  <data name="TotalHighToLow" xml:space="preserve">
+    <value>Totaal (hoog tot laag)</value>
+  </data>
+  <data name="TotalLowToHigh" xml:space="preserve">
+    <value>Totaal (laag tot hoog)</value>
+  </data>
+  <data name="UserNameAToZ" xml:space="preserve">
+    <value>Gebruikersnaam (A tot Z)</value>
+  </data>
+  <data name="UserNameZToA" xml:space="preserve">
+    <value>Gebruikersnaam (Z tot A)</value>
+  </data>
+  <data name="UserVerificationCopy" xml:space="preserve">
+    <value>Gebruiker-verifikasie-kopie</value>
+  </data>
+  <data name="EditFeesSuccess" xml:space="preserve">
+    <value>Gelde wat suksesvol gewysig is</value>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Databasisweergawe</value>
+  </data>
+  <data name="CategoryEditor_AddNew" xml:space="preserve">
+    <value>Voeg nuwe kategorieë by</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="CancelChangesWarning1" xml:space="preserve">
+    <value>Alle veranderinge sal verlore gaan.</value>
+  </data>
+  <data name="CancelChangesWarning2" xml:space="preserve">
+    <value>Is jy seker?</value>
+  </data>
+  <data name="CustomUserDeferredHelpText" xml:space="preserve">
+    <value>As dit gemerk is, sal hierdie veld by registrasie versteek word. Dit sal steeds vertoon word in die "My Account&gt; Details" en "Admin Control Panel&gt; Edit User" -aansigte.</value>
+  </data>
+  <data name="DeleteWarning_CantBeUndone" xml:space="preserve">
+    <value>HIERDIE Aksie kan nie ongedaan gemaak word nie</value>
+  </data>
+  <data name="DeleteWarning_Really" xml:space="preserve">
+    <value>Moet u hierdie veld regtig uitvee? As enige lyste (vir lyste-velde) of gebruikers (vir gebruikers-velde) hierdie veld of Gebeurtenisse (vir Gebeurtenis-velde) gebruik, sal die data uitgevee word. (Individuele lyste of gebruikers of gebeure bly egter ongeskonde.)</value>
+  </data>
+  <data name="DeleteWarning_ReallyDeleteCategory" xml:space="preserve">
+    <value>Vee hierdie kategorie regtig uit?</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Aksies</value>
+  </data>
+  <data name="AddRegions" xml:space="preserve">
+    <value>Voeg streke by</value>
+  </data>
+  <data name="AddSubcategories" xml:space="preserve">
+    <value>Voeg kategorieë by</value>
+  </data>
+  <data name="CurrentlySelected" xml:space="preserve">
+    <value>Tans gekies</value>
+  </data>
+  <data name="DeleteWarning_ReallyDeleteRegion" xml:space="preserve">
+    <value>Moet u hierdie streek regtig uitvee?</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Herstel</value>
+  </data>
+  <data name="RootItemCategoryTitle" xml:space="preserve">
+    <value>(Root)</value>
+  </data>
+  <data name="CategoryEditor_AddNewInstructions" xml:space="preserve">
+    <value>&lt;p&gt; &lt;strong&gt; Voer nuwe kategorie-name in met 'n komma-geskeide formaat in. &lt;/strong&gt; Dit sal verskyn as subkategorieë van die kategorie wat hierbo gekies is. Nuwe "top" -kategorieë moet bygevoeg word tot die (wortel). &lt;/p&gt; &lt;p&gt; Voorbeeld: Atletiese klere, jasse en baadjies, rokke, intimate en slaap, broek en kortbroek, rompe, pakke en baadjies, truie, tops &amp; Bloese &lt;/p&gt; &lt;p&gt; &lt;small&gt; &lt;em&gt; As u die sagteware in verskillende tale vertaal, sal elke kategorie naam die 'sleutel' in die sleutel / waardepaar voorstel. Moenie spasies of spesiale karakters gebruik nie. Elke kategorie-naam moet bygevoeg word in die "CategoryRegions.resx" taallêer en die vertaalde 'waarde' kan spasies en spesiale karakters bevat. &lt;br /&gt; &lt;br /&gt; Voorbeeld: AthleticApparel, jasse, jasse, rokke, intimateSleep, broekshorts, Rompe, pakke baadjies, truie, topsblaaie &lt;/small&gt;&lt;/em&gt; &lt;/p&gt;</value>
+  </data>
+  <data name="RegionEditor_AddNew" xml:space="preserve">
+    <value>Voeg nuwe streek by</value>
+  </data>
+  <data name="RegionEditor_AddNewInstructions" xml:space="preserve">
+    <value>(Voer nuwe streke in komma-geskei formaat in. Nuwe streke verskyn aan die einde van die streeklys.)</value>
+  </data>
+  <data name="LanguageManagement_Help" xml:space="preserve">
+    <value>Aktiveer slegs tale met volledig gelokaliseerde taallêers.</value>
+  </data>
+  <data name="ClearCache_Help" xml:space="preserve">
+    <value>Maak die Kategorie- en Aangepaste veld-kas skoon.</value>
+  </data>
+  <data name="LanguageManagementFailure" xml:space="preserve">
+    <value>Taalbestuur misluk</value>
+  </data>
+  <data name="LanguageManagementSuccess" xml:space="preserve">
+    <value>Opstelling gestoor</value>
+  </data>
+  <data name="ILLEGAL_FORMAT" xml:space="preserve">
+    <value>Slegte formaat</value>
+  </data>
+  <data name="ILLEGAL_PRODUCTCODE" xml:space="preserve">
+    <value>Slegte produkkode</value>
+  </data>
+  <data name="SERIALNUMBER_NOTFOUND" xml:space="preserve">
+    <value>Lisensie sleutel nie gevind nie</value>
+  </data>
+  <data name="ShowHideExtendedVersionInfo" xml:space="preserve">
+    <value>Wys / verberg inligting oor uitgebreide weergawes</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Eienskappe</value>
+  </data>
+  <data name="Context" xml:space="preserve">
+    <value>Konteks</value>
+  </data>
+  <data name="ContextAtoZ" xml:space="preserve">
+    <value>Konteks (A tot Z)</value>
+  </data>
+  <data name="ContextZtoA" xml:space="preserve">
+    <value>Konteks (Z tot A)</value>
+  </data>
+  <data name="NameAtoZ" xml:space="preserve">
+    <value>Naam (A tot Z)</value>
+  </data>
+  <data name="NameZtoA" xml:space="preserve">
+    <value>Naam (Z tot A)</value>
+  </data>
+  <data name="TypeAtoZ" xml:space="preserve">
+    <value>Tik (A tot Z)</value>
+  </data>
+  <data name="TypeZtoA" xml:space="preserve">
+    <value>Tik (Z tot A)</value>
+  </data>
+  <data name="AttributesFailure" xml:space="preserve">
+    <value>Stoor-kenmerke kon nie gestoor word nie</value>
+  </data>
+  <data name="AttributesSuccess" xml:space="preserve">
+    <value>Eienskappe suksesvol gestoor</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Beelde</value>
+  </data>
+  <data name="EmailFees" xml:space="preserve">
+    <value>E-posgelde</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>E-pos is gestuur</value>
+  </data>
+  <data name="SetInvoicePaidSuccess" xml:space="preserve">
+    <value>Die instelling van faktuur betaalde status is geslaag</value>
+  </data>
+  <data name="MarkPaid" xml:space="preserve">
+    <value>Merk betaal</value>
+  </data>
+  <data name="CategoryHasChildCategories" xml:space="preserve">
+    <value>Hierdie kategorie kan nie uitgevee word nie omdat dit kinderkategorieë bevat. Vee die kinderkategorieë eers uit.</value>
+  </data>
+  <data name="CategoryInUseByListing" xml:space="preserve">
+    <value>Hierdie kategorie kan nie uitgevee word nie, omdat dit deur bestaande lyste gebruik word.</value>
+  </data>
+  <data name="RegionHasChildCategories" xml:space="preserve">
+    <value>Hierdie streek kan nie uitgevee word nie omdat dit kinderstreke het. Vee die kinderstreke eers uit.</value>
+  </data>
+  <data name="RegionInUseByListing" xml:space="preserve">
+    <value>Hierdie streek kan nie uitgevee word nie, omdat dit deur bestaande lyste gebruik word.</value>
+  </data>
+  <data name="Banners" xml:space="preserve">
+    <value>Baniere</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kategorieë</value>
+  </data>
+  <data name="CreateBanner" xml:space="preserve">
+    <value>Skep banier</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Volledige skakel URL</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Vertoonligging</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Laai prent op</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>Voeg kategorie by</value>
+  </data>
+  <data name="AddRegion" xml:space="preserve">
+    <value>Voeg streek by</value>
+  </data>
+  <data name="AllSubcategories" xml:space="preserve">
+    <value>Alle subkategorieë</value>
+  </data>
+  <data name="AllSubregions" xml:space="preserve">
+    <value>Alle substreke</value>
+  </data>
+  <data name="Regions" xml:space="preserve">
+    <value>Streke</value>
+  </data>
+  <data name="DeleteBanner" xml:space="preserve">
+    <value>Vee die banier uit</value>
+  </data>
+  <data name="UpdateBanner" xml:space="preserve">
+    <value>Opdatering van die banier</value>
+  </data>
+  <data name="CreateBannerSuccess" xml:space="preserve">
+    <value>Banier geskep</value>
+  </data>
+  <data name="DeleteBannerSuccess" xml:space="preserve">
+    <value>Banier is uitgevee</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="OptionalInParens" xml:space="preserve">
+    <value>(Opsioneel)</value>
+  </data>
+  <data name="UpdateBannerSuccess" xml:space="preserve">
+    <value>Banier opgedateer</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Beskou:</value>
+  </data>
+  <data name="DeleteLineItemWarning1" xml:space="preserve">
+    <value>Hierdie reëlitem sal permanent uitgevee word.</value>
+  </data>
+  <data name="DeleteLineItemWarning2" xml:space="preserve">
+    <value>Is jy seker?</value>
+  </data>
+  <data name="RemoveLineItemSuccess" xml:space="preserve">
+    <value>Lynitem is suksesvol uitgevee</value>
+  </data>
+  <data name="EditUserSuccess" xml:space="preserve">
+    <value>Rekeninginligting opgedateer</value>
+  </data>
+  <data name="UserNameAlreadyExists" xml:space="preserve">
+    <value>Gebruikernaam bestaan ​​al (gebruikersnaam moet uniek wees)</value>
+  </data>
+  <data name="AlphaSortCategories" xml:space="preserve">
+    <value>Sorteer kinderkategorieë alfabeties</value>
+  </data>
+  <data name="AlphaSortRegions" xml:space="preserve">
+    <value>Sorteer kinderstreke alfabeties</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Af beweeg</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Skuif op</value>
+  </data>
+  <data name="Literal_Footer" xml:space="preserve">
+    <value>Voetskrifskrifte</value>
+  </data>
+  <data name="Literal_Header" xml:space="preserve">
+    <value>Kopskrifte</value>
+  </data>
+  <data name="Literal_SocialNetworking" xml:space="preserve">
+    <value>Sosiale Netwerk-skrifte</value>
+  </data>
+  <data name="SiteFooter" xml:space="preserve">
+    <value>Webvoettitel</value>
+  </data>
+  <data name="Auction" xml:space="preserve">
+    <value>Veiling</value>
+  </data>
+  <data name="BidIncrements" xml:space="preserve">
+    <value>Bod-inkremente</value>
+  </data>
+  <data name="Classified" xml:space="preserve">
+    <value>Geklassifiseer</value>
+  </data>
+  <data name="FixedPrice" xml:space="preserve">
+    <value>Vaste prys</value>
+  </data>
+  <data name="Listings" xml:space="preserve">
+    <value>Listings</value>
+  </data>
+  <data name="UpdateBidIncrementsSuccess" xml:space="preserve">
+    <value>Bod-inkremente opgedateer</value>
+  </data>
+  <data name="ListingTypePropertiesSuccess" xml:space="preserve">
+    <value>Eienskappe van lyste is opgedateer</value>
+  </data>
+  <data name="YouTubeVideo" xml:space="preserve">
+    <value>YouTube-video</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Wagwoord</value>
+  </data>
+  <data name="UpdateBannerPropertiesSuccess" xml:space="preserve">
+    <value>Banierinstellings is opgedateer</value>
+  </data>
+  <data name="FlatFee" xml:space="preserve">
+    <value>Geplaas geklassifiseerde fooi</value>
+  </data>
+  <data name="UserEmailAlreadyExists" xml:space="preserve">
+    <value>Gebruiker-e-pos bestaan ​​alreeds (e-pos moet uniek wees)</value>
+  </data>
+  <data name="ApplyChangesToSubCategories" xml:space="preserve">
+    <value>Pas pasgemaakte veldopdragte toe op subkategorieë</value>
+  </data>
+  <data name="YouMustSelectAFieldFirst" xml:space="preserve">
+    <value>U moet eers 'n veld kies</value>
+  </data>
+  <data name="ApplyChangesToSubCategories_Help" xml:space="preserve">
+    <value>U veranderinge sal toegepas word op hierdie kategorie en alle afstammelingskategorieë. Skakel "OFF" om slegs wysigings op hierdie spesifieke kategorie toe te pas.</value>
+  </data>
+  <data name="Assigned" xml:space="preserve">
+    <value>Opgedra</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Beskikbaar</value>
+  </data>
+  <data name="AcceptedCreditCards" xml:space="preserve">
+    <value>Aanvaarde kredietkaarte</value>
+  </data>
+  <data name="CreditCardsSuccess" xml:space="preserve">
+    <value>Kredietkaartinstellings opgedateer</value>
+  </data>
+  <data name="LineageString_CreditCards" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Gestoorde kredietkaarte</value>
+    <comment>renamed from "Billing &amp; Fees &gt; Payment Providers &gt; Credit Card Types" in v1.2</comment>
+  </data>
+  <data name="ActingUserIsNotAuthorized" xml:space="preserve">
+    <value>Waarnemende gebruiker word nie gemagtig nie</value>
+  </data>
+  <data name="ActingUserIsNotInRequiredRole" xml:space="preserve">
+    <value>Waarnemende gebruiker is nie in die vereiste rol nie</value>
+  </data>
+  <data name="ActingUserIsNotRequiredUser" xml:space="preserve">
+    <value>Waarnemende gebruiker word nie benodig nie. Gebruiker</value>
+  </data>
+  <data name="ActingUserNameNotSpecified" xml:space="preserve">
+    <value>Waarnemende gebruikersnaam is nie gespesifiseer nie</value>
+  </data>
+  <data name="CategoryAlreadyExists" xml:space="preserve">
+    <value>Kategorie bestaan ​​reeds</value>
+  </data>
+  <data name="CurrencyNotSupported" xml:space="preserve">
+    <value>Geldeenheid word nie ondersteun nie</value>
+  </data>
+  <data name="Failure" xml:space="preserve">
+    <value>Mislukking</value>
+  </data>
+  <data name="HasChildCategories" xml:space="preserve">
+    <value>Het kinderkategorieë</value>
+  </data>
+  <data name="InUseByListing" xml:space="preserve">
+    <value>In gebruik deur lys</value>
+  </data>
+  <data name="InUseByListingActionProperty" xml:space="preserve">
+    <value>In gebruik deur Aksie-eiendom te lys</value>
+  </data>
+  <data name="InUseByShippingOption" xml:space="preserve">
+    <value>In gebruik deur die opsie gestuur</value>
+  </data>
+  <data name="InUseBySiteProperty" xml:space="preserve">
+    <value>In gebruik deur eiendom</value>
+  </data>
+  <data name="InUseByUserProperty" xml:space="preserve">
+    <value>In gebruik deur eiendom</value>
+  </data>
+  <data name="InvoiceNotFound" xml:space="preserve">
+    <value>Faktuur nie gevind nie</value>
+  </data>
+  <data name="InvoiceTypeNotSupported" xml:space="preserve">
+    <value>Faktuurtipe word nie ondersteun nie</value>
+  </data>
+  <data name="RequiredArgumentMissing" xml:space="preserve">
+    <value>Vereiste argument ontbreek</value>
+  </data>
+  <data name="RequiredArgumentNull" xml:space="preserve">
+    <value>Vereiste argumente is leeg</value>
+  </data>
+  <data name="RequiredArgumentOutOfBounds" xml:space="preserve">
+    <value>Vereiste argumente buite perke</value>
+  </data>
+  <data name="RoleNameNotUnique" xml:space="preserve">
+    <value>Rolnaam nie uniek nie</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Sukses</value>
+  </data>
+  <data name="AddDecorationFailure" xml:space="preserve">
+    <value>Voeg versiering misluk</value>
+  </data>
+  <data name="AddEnumerationFailure" xml:space="preserve">
+    <value>Optie bygevoeg misluk</value>
+  </data>
+  <data name="AddEnumerationSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="AddEventFeeFailure" xml:space="preserve">
+    <value>Gebeurtenis fooi bygevoeg misluk</value>
+  </data>
+  <data name="AddFeeTierFailure" xml:space="preserve">
+    <value>Fooi-vlak bygevoeg Misluk</value>
+  </data>
+  <data name="AddInvoiceAdjustmentFailure" xml:space="preserve">
+    <value>Voeg faktuuraanpassing misluk</value>
+  </data>
+  <data name="AddInvoiceAdjustmentSuccess" xml:space="preserve">
+    <value>Faktuuraanpassing bygevoeg</value>
+  </data>
+  <data name="AddMiscSiteFeeFailure" xml:space="preserve">
+    <value>Ander fooie bygevoeg misluk</value>
+  </data>
+  <data name="AddMiscSiteFeeSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="AddStandardShippingMethodsFailure" xml:space="preserve">
+    <value>Bygevoeg standaard gestuur metodes misluk</value>
+  </data>
+  <data name="AddStandardShippingMethodsSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="AssignListingTypeFromCategoryDetailFailure" xml:space="preserve">
+    <value>Ken die soorte lyste toe vanaf kategorie-detail misluk</value>
+  </data>
+  <data name="AssignListingTypeFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="AttributesSuccess1" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="ContentEditorFailure" xml:space="preserve">
+    <value>Inhoudsredigeerder misluk</value>
+  </data>
+  <data name="CreateBannerFailure" xml:space="preserve">
+    <value>Skep van banier misluk</value>
+  </data>
+  <data name="CreateBannerSuccess1" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="CreateFieldFailure" xml:space="preserve">
+    <value>Skep veld misluk</value>
+  </data>
+  <data name="CreditCardsSuccess1" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="CultureManagementFailure" xml:space="preserve">
+    <value>Kultuurbestuur misluk</value>
+  </data>
+  <data name="CultureManagementSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="CurrencyConversionFailure" xml:space="preserve">
+    <value>Valutakonversie het misluk</value>
+  </data>
+  <data name="CurrencyConversionSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="CurrencyManagementFailure" xml:space="preserve">
+    <value>Valutabeheer het misluk</value>
+  </data>
+  <data name="CurrencyManagementSuccess" xml:space="preserve">
+    <value>Opstelling gestoor</value>
+  </data>
+  <data name="DeleteBannerFailure" xml:space="preserve">
+    <value>Banner is uitgevee misluk</value>
+  </data>
+  <data name="DeleteBannerSuccess1" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="DeleteDecorationFailure" xml:space="preserve">
+    <value>Verwydering van versiering misluk</value>
+  </data>
+  <data name="DeleteEnumerationFailure" xml:space="preserve">
+    <value>Die uitvee-opsie is misluk</value>
+  </data>
+  <data name="DeleteEnumerationSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="DeleteEventFeeFailure" xml:space="preserve">
+    <value>Gebeurtenisfooi is misluk</value>
+  </data>
+  <data name="DeleteFieldFailure" xml:space="preserve">
+    <value>Vee uitvee misluk</value>
+  </data>
+  <data name="EditDecorationFailure" xml:space="preserve">
+    <value>Redigeer versiering misluk</value>
+  </data>
+  <data name="EditEventFeesFailure" xml:space="preserve">
+    <value>Bewys van gebeurtenisgelde misluk</value>
+  </data>
+  <data name="EditFeesFailure" xml:space="preserve">
+    <value>Redigeer fooie misluk</value>
+  </data>
+  <data name="EditFeeTierFailure" xml:space="preserve">
+    <value>Wysig fooi vlak misluk</value>
+  </data>
+  <data name="EditLocationFailure" xml:space="preserve">
+    <value>Wysiging van ligging misluk</value>
+  </data>
+  <data name="EditUserFailure" xml:space="preserve">
+    <value>Gebruiker wysig misluk</value>
+  </data>
+  <data name="Extend10MinutesFailure" xml:space="preserve">
+    <value>Verleng 10 minute misluk</value>
+  </data>
+  <data name="Extend10MinutesSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="ExtendListingsFailure" xml:space="preserve">
+    <value>Uitbreiding van lyste misluk</value>
+  </data>
+  <data name="ExtendListingsSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="ImpersonateFailure" xml:space="preserve">
+    <value>Nabootseling het misluk</value>
+  </data>
+  <data name="ImpersonateSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="IncrementManagementFailure" xml:space="preserve">
+    <value>Inkrementbestuur misluk</value>
+  </data>
+  <data name="IncrementManagementSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="InvoiceDetailFailure" xml:space="preserve">
+    <value>Faktuurdetail misluk</value>
+  </data>
+  <data name="ListingTypePropertiesFailure" xml:space="preserve">
+    <value>Eienskappe van lyste is misluk</value>
+  </data>
+  <data name="SetInvoicePaidFailure" xml:space="preserve">
+    <value>Die instelling van faktuur betaalde status misluk</value>
+  </data>
+  <data name="PropertyManagementFailure" xml:space="preserve">
+    <value>Eiendomsbestuur misluk</value>
+  </data>
+  <data name="RemoveLineItemFailure" xml:space="preserve">
+    <value>Verwyder lynitem misluk</value>
+  </data>
+  <data name="SaveFieldFailure" xml:space="preserve">
+    <value>Stoorveld misluk</value>
+  </data>
+  <data name="ShippingMethodsFailure" xml:space="preserve">
+    <value>Versendingsmetodes het misluk</value>
+  </data>
+  <data name="ToggleListingTypeFailure" xml:space="preserve">
+    <value>Wissel lystipe misluk</value>
+  </data>
+  <data name="UnassignListingTypeFromCategoryDetailFailure" xml:space="preserve">
+    <value>Die toewysing van lystipe vanaf kategorie-detail misluk</value>
+  </data>
+  <data name="UnassignListingTypeFromCategoryDetailSuccess" xml:space="preserve">
+    <value>Daarin geslaag om</value>
+  </data>
+  <data name="UpdateBannerFailure" xml:space="preserve">
+    <value>Opdatering van banier het misluk</value>
+  </data>
+  <data name="UpdateBannerPropertiesFailure" xml:space="preserve">
+    <value>Opdatering van die baniereienskappe is misluk</value>
+  </data>
+  <data name="UpdateBidIncrementsFailure" xml:space="preserve">
+    <value>Opdatering van bod-stygings het misluk</value>
+  </data>
+  <data name="UpdateShippingPropertiesFailure" xml:space="preserve">
+    <value>Opdatering van gestuur-eienskappe het misluk</value>
+  </data>
+  <data name="UpdateShippingPropertiesSuccess" xml:space="preserve">
+    <value>Versendinginstellings opgedateer</value>
+  </data>
+  <data name="AdminEditUserPassword_Help" xml:space="preserve">
+    <value>Stel slegs hierdie waarde in om die wagwoord van die gebruiker terug te stel. Andersins, laat dit leeg.</value>
+  </data>
+  <data name="CustomFieldDeletingForbidden" xml:space="preserve">
+    <value>U kan nie hierdie pasgemaakte veld uitvee nie.</value>
+  </data>
+  <data name="CustomFieldEditingForbidden" xml:space="preserve">
+    <value>U kan nie hierdie aangepaste veld wysig nie.</value>
+  </data>
+  <data name="AllDescendantCategories" xml:space="preserve">
+    <value>Alle geassosieerde subkategorieë</value>
+  </data>
+  <data name="CategoryDeletionConfirmation_Title" xml:space="preserve">
+    <value>Bevestiging van kategorie verwydering</value>
+  </data>
+  <data name="CategoryDeletionRepercussionWarning" xml:space="preserve">
+    <value>As u hierdie kategorie uitvee, sal u ook verwyder:</value>
+  </data>
+  <data name="DescendantListings" xml:space="preserve">
+    <value>Geassosieerde lyste</value>
+  </data>
+  <data name="DirectChildCategories" xml:space="preserve">
+    <value>Onmiddellike subkategorieë</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="YesPermanentlyDelete" xml:space="preserve">
+    <value>Ja, skrap permanent</value>
+  </data>
+  <data name="AllDescendantRegions" xml:space="preserve">
+    <value>Alle geassosieerde substreke</value>
+  </data>
+  <data name="DirectChildRegions" xml:space="preserve">
+    <value>Onmiddellike substreke</value>
+  </data>
+  <data name="RegionDeletionConfirmation_Title" xml:space="preserve">
+    <value>Bevestiging van streekverwydering</value>
+  </data>
+  <data name="RegionDeletionRepercussionWarning" xml:space="preserve">
+    <value>As u hierdie streek uitvee, sal u ook die volgende uitvee:</value>
+  </data>
+  <data name="YouMustSelectAListingTypeFirst" xml:space="preserve">
+    <value>U moet eers 'n Listing Type kies</value>
+  </data>
+  <data name="UpdateCreditCardPropertiesFailure" xml:space="preserve">
+    <value>Opdatering van kredietkaarteienskappe is misluk</value>
+  </data>
+  <data name="UpdateCreditCardPropertiesSuccess" xml:space="preserve">
+    <value>Kredietkaartinstellings opgedateer</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiewe</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Almal</value>
+  </data>
+  <data name="Buyer" xml:space="preserve">
+    <value>Koper</value>
+  </data>
+  <data name="Deactivated" xml:space="preserve">
+    <value>Gedeaktiveer</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Eerste</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Sleutel</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Laaste</value>
+  </data>
+  <data name="ResetFilters" xml:space="preserve">
+    <value>Stel filters weer in</value>
+  </data>
+  <data name="Restricted" xml:space="preserve">
+    <value>Beperkte</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Unapproved" xml:space="preserve">
+    <value>Goedgekeurde</value>
+  </data>
+  <data name="Unverified" xml:space="preserve">
+    <value>Geverifieerde</value>
+  </data>
+  <data name="DeactivateUser" xml:space="preserve">
+    <value>Deaktiveer gebruiker</value>
+  </data>
+  <data name="Deactivate_Button" xml:space="preserve">
+    <value>Deaktiveer</value>
+  </data>
+  <data name="DeleteUser" xml:space="preserve">
+    <value>Verwyder gebruiker</value>
+  </data>
+  <data name="DeleteUserFailure" xml:space="preserve">
+    <value>Gebruiker het uitgevee misluk</value>
+  </data>
+  <data name="DeleteUserSuccess" xml:space="preserve">
+    <value>Gebruiker is suksesvol uitgevee</value>
+  </data>
+  <data name="DeleteUserWarning_Line1" xml:space="preserve">
+    <value>As u die gebruiker uitvee, sal ook ALLE rekords wat met die gebruiker geassosieer word, uitvee (byvoorbeeld - verkoopstransaksies, bod / aankoopgeskiedenis, terugvoer van gebruikers, fakture, boodskappe, lyste wat geskep is, ens.)</value>
+  </data>
+  <data name="DeleteUserWarning_Line2" xml:space="preserve">
+    <value>Hierdie handeling kan nie ongedaan gemaak word nie.</value>
+  </data>
+  <data name="DeleteUserWarning_Line3" xml:space="preserve">
+    <value>Alternatiewelik, om die gepaardgaande gebruikerrekords vir verdere gebruik of verslagdoeningsdoeleindes te hou, kan u die gebruiker deaktiveer. 'N Gedeaktiveerde gebruiker kan nie aanmeld nie en sal nie in standaard-gebruikerbestuuraansigte verskyn nie.</value>
+  </data>
+  <data name="ReactivateUser" xml:space="preserve">
+    <value>Gebruiker heraktiveer</value>
+  </data>
+  <data name="SetUserActiveFailure" xml:space="preserve">
+    <value>Stel gebruiker aktief misluk</value>
+  </data>
+  <data name="SetUserActiveSuccess" xml:space="preserve">
+    <value>Gebruiker suksesvol opgedateer</value>
+  </data>
+  <data name="UserDeletionConfirmation_Title" xml:space="preserve">
+    <value>Gebruiker se bevestiging verwyder</value>
+  </data>
+  <data name="ColumnSpecification" xml:space="preserve">
+    <value>Kolomspesifikasie</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Uitvoer</value>
+  </data>
+  <data name="ExportCSV" xml:space="preserve">
+    <value>Voer CSV uit</value>
+  </data>
+  <data name="ExportUserCSVSuccess" xml:space="preserve">
+    <value>U uitvoer is begin, u sal per e-pos gestuur word sodra dit voltooi is.</value>
+  </data>
+  <data name="ExtendedInfoWHeader" xml:space="preserve">
+    <value>Uitgebreide inligting (met kop)</value>
+  </data>
+  <data name="ExtendedInfoWOHeader" xml:space="preserve">
+    <value>Uitgebreide inligting (sonder kop)</value>
+  </data>
+  <data name="FirstLastEmailWHeader" xml:space="preserve">
+    <value>Voornaam, van en e-posadres (met kop)</value>
+  </data>
+  <data name="FirstLastEmailWOHeader" xml:space="preserve">
+    <value>Voornaam, van en e-posadres (sonder kop)</value>
+  </data>
+  <data name="IncludeHeaderQuestion" xml:space="preserve">
+    <value>Sluit kop op?</value>
+  </data>
+  <data name="AccountInfo" xml:space="preserve">
+    <value>Rekening informasie</value>
+  </data>
+  <data name="ActiveListings" xml:space="preserve">
+    <value>Aktiewe lyste</value>
+  </data>
+  <data name="Addresses" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="AllListings" xml:space="preserve">
+    <value>Alle lyste</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="CreditCards" xml:space="preserve">
+    <value>Kredietkaarte</value>
+  </data>
+  <data name="EditAddressFailure" xml:space="preserve">
+    <value>Redigeer adres misluk</value>
+  </data>
+  <data name="EditAddressSuccess" xml:space="preserve">
+    <value>Adres opgedateer</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Terugvoer</value>
+  </data>
+  <data name="FeedbackRating" xml:space="preserve">
+    <value>Terugvoer telling</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Nooit</value>
+  </data>
+  <data name="PrimaryAddress" xml:space="preserve">
+    <value>Primêre adres</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>Aankope</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Verkope</value>
+  </data>
+  <data name="SetPrimaryAddressFailure" xml:space="preserve">
+    <value>Stel primêre adres misluk</value>
+  </data>
+  <data name="SetPrimaryAddressSuccess" xml:space="preserve">
+    <value>Primêre adres opgedateer</value>
+  </data>
+  <data name="XhoursAgo" xml:space="preserve">
+    <value>{0} gelede</value>
+  </data>
+  <data name="CustomSettings" xml:space="preserve">
+    <value>Pasgemaakte instellings</value>
+  </data>
+  <data name="ExportUserCSVInstructions" xml:space="preserve">
+    <value>Die soekfilters en sorteeropsies op die vorige bladsy word op die uitgevoerde CSV toegepas.</value>
+  </data>
+  <data name="PredefinedCSVSpecifications" xml:space="preserve">
+    <value>Vooraf gedefinieerde CSV-spesifikasies</value>
+  </data>
+  <data name="AddCreditCardFailure" xml:space="preserve">
+    <value>Kon nie kredietkaart byvoeg nie</value>
+  </data>
+  <data name="AddCreditCardSuccess" xml:space="preserve">
+    <value>Kredietkaart bygevoeg</value>
+  </data>
+  <data name="DeleteCreditCardFailure" xml:space="preserve">
+    <value>Kon nie kredietkaart uitvee nie</value>
+  </data>
+  <data name="DeleteCreditCardSuccess" xml:space="preserve">
+    <value>Kredietkaart is uitgevee</value>
+  </data>
+  <data name="SetDefaultCreditCardFailure" xml:space="preserve">
+    <value>Stel standaardkredietkaart misluk</value>
+  </data>
+  <data name="SetDefaultCreditCardSuccess" xml:space="preserve">
+    <value>Primêre kredietkaart opgedateer</value>
+  </data>
+  <data name="CardNumber" xml:space="preserve">
+    <value>Kaart nommer</value>
+  </data>
+  <data name="CardType" xml:space="preserve">
+    <value>Kaart tipe</value>
+  </data>
+  <data name="DeleteAddressFailure" xml:space="preserve">
+    <value>Verwyder adres misluk</value>
+  </data>
+  <data name="DeleteAddressSuccess" xml:space="preserve">
+    <value>Adres uitgevee</value>
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Verstryking</value>
+  </data>
+  <data name="ExpirationMonth" xml:space="preserve">
+    <value>Vervaldatum</value>
+  </data>
+  <data name="ExpirationYear" xml:space="preserve">
+    <value>Vervaldatum</value>
+  </data>
+  <data name="SelectACreditCardType" xml:space="preserve">
+    <value>Kies 'n kredietkaarttipe</value>
+  </data>
+  <data name="SelectAddress" xml:space="preserve">
+    <value>Kies adres</value>
+  </data>
+  <data name="SetPrimary" xml:space="preserve">
+    <value>Stel Primêr</value>
+  </data>
+  <data name="FeedbackLeftForOthers" xml:space="preserve">
+    <value>Terugvoer vir ander oor</value>
+  </data>
+  <data name="FeedbackReceivedFromOthers" xml:space="preserve">
+    <value>Terugvoer van ander ontvang</value>
+  </data>
+  <data name="DeleteFeedbackFailure" xml:space="preserve">
+    <value>Verwyder terugvoering misluk</value>
+  </data>
+  <data name="DeleteFeedbackSuccess" xml:space="preserve">
+    <value>Terugvoer is uitgevee</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Goedgekeur</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Beperkte</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="Verified" xml:space="preserve">
+    <value>Verified</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Datum Tyd</value>
+  </data>
+  <data name="DemoFeatureDisabled" xml:space="preserve">
+    <value>Dit kan nie verander word terwyl die stelsel in demo-modus is nie.</value>
+  </data>
+  <data name="DemoFeatureSettingsDisabled" xml:space="preserve">
+    <value>Hierdie instellings kan nie verander word terwyl die stelsel in demo-modus is nie.</value>
+  </data>
+  <data name="LeftBy" xml:space="preserve">
+    <value>Deur</value>
+  </data>
+  <data name="LeftFor" xml:space="preserve">
+    <value>Links vir</value>
+  </data>
+  <data name="Listing" xml:space="preserve">
+    <value>Notering</value>
+  </data>
+  <data name="Past_1_Month" xml:space="preserve">
+    <value>Die afgelope 1 maand</value>
+  </data>
+  <data name="Past_X_Months" xml:space="preserve">
+    <value>Die afgelope {0} maande</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Tydperk</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Gradering</value>
+  </data>
+  <data name="SaveChangesWarning1" xml:space="preserve">
+    <value>Daar is foute op hierdie bladsy.</value>
+  </data>
+  <data name="SaveChangesWarning2" xml:space="preserve">
+    <value>Doen asseblief die aangeduide korreksies en probeer weer.</value>
+  </data>
+  <data name="UploadLogo" xml:space="preserve">
+    <value>Kies logo-prentlêer</value>
+  </data>
+  <data name="AddAddressFailure" xml:space="preserve">
+    <value>Adres bygevoeg misluk</value>
+  </data>
+  <data name="AddAddressSuccess" xml:space="preserve">
+    <value>Adres bygevoeg</value>
+  </data>
+  <data name="AdminEditUserDeactivateUser_Help" xml:space="preserve">
+    <value>'N Gedeaktiveerde gebruiker kan nie aanmeld nie en sal nie in standaard-gebruikerbestuuraansigte verskyn nie. As u 'n gebruikerrekening deaktiveer in plaas daarvan om dit te verwyder, kan dit ook voorkom dat 'n gebruiker in die toekoms dieselfde e-pos en / of gebruikersnaam registreer.</value>
+  </data>
+  <data name="AdminEditUserDeleteUser_Help" xml:space="preserve">
+    <value>As u die gebruiker uitvee, sal ook ALLE rekords wat met die gebruiker geassosieer word, uitvee (voorbeeld: verkoopstransaksies, bod / aankoopgeskiedenis, terugvoer van gebruikers, fakture, boodskappe, lyste wat geskep is, ens.)</value>
+  </data>
+  <data name="AdminEditUserStatusApproved_Help" xml:space="preserve">
+    <value>Alle nuwe gebruikersregistrasies word standaard outomaties goedgekeur. As die stelselvoorkeur vir "Gebruikersgoedkeuring verpligtend" aangeskakel is, sal nuwe gebruikers nie outomaties goedgekeur word nie, en 'n administrateur moet gebruikersrekeninge met die hand goedkeur.</value>
+  </data>
+  <data name="CancelChangesWarning" xml:space="preserve">
+    <value>Alle veranderinge op hierdie bladsy sal verlore gaan, gaan voort?</value>
+  </data>
+  <data name="AdminEditUserReactivateUser_Help" xml:space="preserve">
+    <value>Verwyder die -Geaktiveer-vlag van die rekening.</value>
+  </data>
+  <data name="AdminEditUserStatusNewsletter_Help" xml:space="preserve">
+    <value>As dit gemerk is, het die gebruiker gekies om promosie-e-posse te ontvang.</value>
+  </data>
+  <data name="AdminEditUserStatusRestricted_Help" xml:space="preserve">
+    <value>"Beperk" -status verhoed dat 'n gebruiker aanmeld en toegang tot die rekening verkry.</value>
+  </data>
+  <data name="AdminEditUserStatusVerified_Help" xml:space="preserve">
+    <value>As die stelselvoorkeur vir "Verifieer gebruiker-e-pos" (standaard) geaktiveer is, kan nuwe gebruikers nie aanmeld voordat hulle hul e-posadres verifieer nie. Verifikasie vereis dat u 'n ewekansig gegenereerde verifikasiekode invoer wat per e-pos afgelewer word. Merk hierdie kassie om die e-posverifikasievereiste handmatig te ignoreer.</value>
+  </data>
+  <data name="PrimaryCreditCard" xml:space="preserve">
+    <value>Primêre kredietkaart</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bevestig Wagwoord</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>Rekords</value>
+  </data>
+  <data name="AdminEditUserComments_Help" xml:space="preserve">
+    <value>Slegs sigbaar vir administrasie. (500 karakterslimiet)</value>
+  </data>
+  <data name="AdminRole_Help" xml:space="preserve">
+    <value>Verleen volledige administrasievoorregte. Insluitend die vermoë om toegang tot hierdie administrasiepaneel te verkry, lyste te redigeer en gebruikersdetails te redigeer. Die betrokke gebruiker moet uitteken en weer aanmeld om veranderinge aan hierdie instelling in werking te stel.</value>
+  </data>
+  <data name="BuyerRole_Help" xml:space="preserve">
+    <value>Gebruiker kan bied en aankope doen. Toepaslike kieslysopsies sal binne “My rekening” verskyn. Die betrokke gebruiker moet uitteken en weer aanmeld om veranderinge aan hierdie instelling in werking te stel.</value>
+  </data>
+  <data name="DemoFieldDisabledForThisUser" xml:space="preserve">
+    <value>Hierdie veld kan nie vir hierdie gebruiker verander word terwyl die stelsel in demo-modus is nie.</value>
+  </data>
+  <data name="SellerRole_Help" xml:space="preserve">
+    <value>Gebruiker kan lyste skep. Toepaslike kieslysopsies sal binne “My rekening” verskyn. Die betrokke gebruiker moet uitteken en weer aanmeld om veranderinge aan hierdie instelling in werking te stel.</value>
+  </data>
+  <data name="Username_Help" xml:space="preserve">
+    <value>Gebruikernaam moet uniek wees.</value>
+  </data>
+  <data name="InvoiceTotalMustNotBeNegative" xml:space="preserve">
+    <value>Die totale faktuur mag nie negatief wees nie</value>
+  </data>
+  <data name="UpdateDisplayOrderSuccess" xml:space="preserve">
+    <value>Vertoonorde is suksesvol opgedateer.</value>
+  </data>
+  <data name="MarkNotPaid" xml:space="preserve">
+    <value>Merk nie betaal nie</value>
+  </data>
+  <data name="VerifyEmail" xml:space="preserve">
+    <value>Verifieer e-pos</value>
+  </data>
+  <data name="SendVerificationEmailSuccess" xml:space="preserve">
+    <value>E-posverifikasie gestuur</value>
+  </data>
+  <data name="ForceEmailVerification" xml:space="preserve">
+    <value>Stuur verifikasie-e-pos</value>
+  </data>
+  <data name="ForceEmailVerification_Help" xml:space="preserve">
+    <value>Stuur 'n verifikasie-e-pos aan die gebruiker en stel die "Verified" status as onwaar.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Eerste naam</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Van</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Betaal</value>
+  </data>
+  <data name="Payee" xml:space="preserve">
+    <value>Nemer</value>
+  </data>
+  <data name="Payer" xml:space="preserve">
+    <value>Betaler</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Prys</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Hoeveelheid</value>
+  </data>
+  <data name="Unpaid" xml:space="preserve">
+    <value>Onbetaalde</value>
+  </data>
+  <data name="LineageString_SalesTransactionReport" xml:space="preserve">
+    <value>Verslae&gt; Verkoopstransaksies</value>
+  </data>
+  <data name="CurrencyCode" xml:space="preserve">
+    <value>Valutakode</value>
+  </data>
+  <data name="CurrencyName" xml:space="preserve">
+    <value>Naam van geldeenhede</value>
+  </data>
+  <data name="CurrencySymbol" xml:space="preserve">
+    <value>Simbool</value>
+  </data>
+  <data name="DefaultQuestion" xml:space="preserve">
+    <value>Standaard?</value>
+  </data>
+  <data name="EnabledQuestion" xml:space="preserve">
+    <value>In staat gestel?</value>
+  </data>
+  <data name="OneUsdEquals" xml:space="preserve">
+    <value>1 USD =</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Toets tempo</value>
+  </data>
+  <data name="ResultLabel" xml:space="preserve">
+    <value>Lei:</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="TryIt" xml:space="preserve">
+    <value>Probeer dit</value>
+  </data>
+  <data name="LineageString_ListingFeesRevenueReport" xml:space="preserve">
+    <value>Verslae&gt; Lys van fooie Inkomste</value>
+  </data>
+  <data name="ListingFeesRevenue_csv" xml:space="preserve">
+    <value>ListingFeesRevenue.csv</value>
+  </data>
+  <data name="SalesTransactions_csv" xml:space="preserve">
+    <value>SalesTransactions.csv</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta beskrywing</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta-sleutelwoorde</value>
+  </data>
+  <data name="SetCategoryMetaDataFailure" xml:space="preserve">
+    <value>Die instelling van metadata vir kategorie misluk</value>
+  </data>
+  <data name="SetCategoryMetaDataSuccess" xml:space="preserve">
+    <value>Die instelling van kategorie metadata is geslaag</value>
+  </data>
+  <data name="FinalSaleFeeStyle_NonAggregate_Help" xml:space="preserve">
+    <value>Met die verkoperfooi-vlakke is die volgende waardes ingestel ... &lt;br /&gt;
+&lt;br /&gt;
+$ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+$ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999,999,999,999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel verkoop teen 'n finale prys van $ 125,00, word die finale verkoperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 125,00 x 1,0%) = $ 1,25 &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel verkoop teen 'n finale prys van $ 99,00, word die finale verkoperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 99,00 x 2,5%) = $ 2,48</value>
+  </data>
+  <data name="CheckForTrue" xml:space="preserve">
+    <value>Kyk vir "ja", nie gemerk vir "nee."</value>
+  </data>
+  <data name="AssignFieldToOneOrMoreCategories" xml:space="preserve">
+    <value>Ken die veld nou toe aan een of meer kategorieë ...</value>
+  </data>
+  <data name="SaveMetaData" xml:space="preserve">
+    <value>Stoor bladsyinhoud en metadata</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Kategorie Naam</value>
+  </data>
+  <data name="LineageString_RegionDetail" xml:space="preserve">
+    <value>Streke&gt; Wysig&gt; Besonderhede</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Streeknaam</value>
+  </data>
+  <data name="RenameCategoryFailure" xml:space="preserve">
+    <value>Kon nie die kategorie hernoem nie</value>
+  </data>
+  <data name="RenameCategorySuccess" xml:space="preserve">
+    <value>Kategorie herdoop suksesvol</value>
+  </data>
+  <data name="RenameRegionFailure" xml:space="preserve">
+    <value>Kon nie die streek hernoem nie</value>
+  </data>
+  <data name="RenameRegionSuccess" xml:space="preserve">
+    <value>Streek herdoop suksesvol</value>
+  </data>
+  <data name="AssignToAllCategories" xml:space="preserve">
+    <value>Ken alle kategorieë toe</value>
+  </data>
+  <data name="AssignToAllCategoriesToolTip" xml:space="preserve">
+    <value>As u hierdie kassie merk, sal u seker maak dat alle kategorieë hierdie aangepaste veld gebruik.</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Orde</value>
+  </data>
+  <data name="PostListingFee_Help" xml:space="preserve">
+    <value>Voorbeeld: Met die posgeld-fooie is die volgende waardes ingestel ... &lt;br /&gt;
+&lt;br /&gt;
+$ 10,00 = $ .10 &lt;br /&gt;
+&lt;br /&gt;
+$ 100,00 = $ 1,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 1000,00 = $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 999,999,999,999,00 = $ 100,00 &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel teen 'n aanvangsprys van $ 125,00 gepos word, is die fooi van die inskrywing $ 10,00</value>
+  </data>
+  <data name="Accept_CCType" xml:space="preserve">
+    <value>Aanvaar {0}</value>
+  </data>
+  <data name="ContactInformation" xml:space="preserve">
+    <value>Kontak inligting</value>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>Skep gebruiker</value>
+  </data>
+  <data name="CreateUserSuccess" xml:space="preserve">
+    <value>Gebruiker suksesvol gemaak</value>
+  </data>
+  <data name="LineageString_CreateUser" xml:space="preserve">
+    <value>Gebruikers&gt; Gebruikersbestuur&gt; Skep gebruiker</value>
+  </data>
+  <data name="NewUserNameHelpText" xml:space="preserve">
+    <value>U gebruikersnaam sal gewys word wanneer u bie, koop en verkoop.</value>
+  </data>
+  <data name="PasswordRequirements" xml:space="preserve">
+    <value>Wagwoord moet ten minste 6 karakters lank wees.</value>
+  </data>
+  <data name="BannerHTMLFormTitle" xml:space="preserve">
+    <value>Nuwe banier - pasgemaakte skrif</value>
+  </data>
+  <data name="BannerScriptHTML" xml:space="preserve">
+    <value>Banierskrif / HTML</value>
+  </data>
+  <data name="BannerUploadFormTitle" xml:space="preserve">
+    <value>Nuwe banier - laai prent op</value>
+  </data>
+  <data name="ExistingBanners" xml:space="preserve">
+    <value>Huidige baniere</value>
+  </data>
+  <data name="SelectBannerImage" xml:space="preserve">
+    <value>Kies Banner Image File</value>
+  </data>
+  <data name="BatchProcessingQueued" xml:space="preserve">
+    <value>Betalingsverwerking in die ry</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Betaling</value>
+  </data>
+  <data name="ScheduledPaymentsSuccess" xml:space="preserve">
+    <value>Geskeduleerde betalingsukses</value>
+  </data>
+  <data name="CategoryPageSpecificSettings" xml:space="preserve">
+    <value>Kategorie-spesifieke instellings</value>
+  </data>
+  <data name="PageContent" xml:space="preserve">
+    <value>Inhoud van die bladsy</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Bladsytitel</value>
+  </data>
+  <data name="GoodUntilCanceled" xml:space="preserve">
+    <value>Goed tot gekanselleer</value>
+  </data>
+  <data name="NoSearchResults" xml:space="preserve">
+    <value>Geen soekresultate nie</value>
+  </data>
+  <data name="OnlineHelp" xml:space="preserve">
+    <value>Aanlyn hulp</value>
+  </data>
+  <data name="FavIconUploader_Help" xml:space="preserve">
+    <value>Die aanbevole formaat is 'n .ico-lêer met 256 kleure en 16x16 pixels.</value>
+  </data>
+  <data name="LineageString_FavIconUploader" xml:space="preserve">
+    <value>Webwerfvoorkeure&gt; FavIcon</value>
+  </data>
+  <data name="UploadFavIcon" xml:space="preserve">
+    <value>Kies FavIcon-lêer</value>
+  </data>
+  <data name="UploadYourSiteFavIcon" xml:space="preserve">
+    <value>Laai u webwerffavicon op</value>
+  </data>
+  <data name="ExtendListing_AllListings_Help" xml:space="preserve">
+    <value>Merk hierdie kassie om die gespesifiseerde aantal minute by die eindtyd van &lt;b&gt; ALL &lt;/b&gt; aktiewe lyste te voeg. &lt;b&gt; LET WEL: As u ALLE lyste uitbrei, sal einddatum / tye NIE in reële tyd opgedateer word nie. &lt;/b&gt;</value>
+  </data>
+  <data name="ExtendListing_ListingID_Help" xml:space="preserve">
+    <value>Voer die lysnommer van die aktiewe lysinskrywing in wat u wil uitbrei (of laat hierdie veld leeg vir alle aktiewe lysinskrywings).</value>
+  </data>
+  <data name="ExtendListing_Minutes_Help" xml:space="preserve">
+    <value>Voer die aantal minute in om die gespesifiseerde lyste se eindtyd (e) te verleng.</value>
+  </data>
+  <data name="LineageString_Attributes" xml:space="preserve">
+    <value>Gevorderd&gt; Beelde</value>
+  </data>
+  <data name="LineageString_Banners" xml:space="preserve">
+    <value>CMS&gt; Baniere</value>
+  </data>
+  <data name="LineageString_CustomFields_Item" xml:space="preserve">
+    <value>Lys&gt; Aangepaste velde</value>
+  </data>
+  <data name="LineageString_CustomFields_Site" xml:space="preserve">
+    <value>Webwerf&gt; Pasgemaakte velde</value>
+  </data>
+  <data name="LineageString_CustomFields_User" xml:space="preserve">
+    <value>Gebruikers&gt; Pasgemaakte velde</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Aggregate_Help" xml:space="preserve">
+    <value>Met die verkoperfooi-vlakke is die volgende waardes ingestel ... &lt;br /&gt;
+&lt;br /&gt;
+$ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+$ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999,999,999,999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel verkoop teen 'n finale prys van $ 125,00, word die finale verkoperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 25,00 x 5,0%) + ($ 75,00 x 2,5%) + ($ 25,00 x 1,0%) = $ 3,38 Verkoper Finale fooi &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel verkoop teen 'n finale prys van $ 99,00, word die finale verkoperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 25,00 x 5,0%) + ($ 74,00 x 2,5%) = $ 3,10 Verkoper se finale fooi</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Aggregate" xml:space="preserve">
+    <value>Totale%</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Flat" xml:space="preserve">
+    <value>Basis tarief</value>
+  </data>
+  <data name="CSVImportTemplate_csv" xml:space="preserve">
+    <value>CSVImportTemplate.csv</value>
+  </data>
+  <data name="FinalSaleFeeStyle_Flat_Help" xml:space="preserve">
+    <value>Met die verkoperfooi-vlakke is die volgende waardes ingestel ... &lt;br /&gt;
+&lt;br /&gt;
+$ 25,00 = $ 1,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 100,00 = $ 5,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 999,999,999,999,00 = $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+As 'n item verkoop word teen 'n finale prys van $ 125,00, is die finale verkoperfooi $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel verkoop teen 'n finale prys van $ 99,00, is die finale verkoperfooi $ 5,00</value>
+  </data>
+  <data name="FinalSaleFeeStyle_NonAggregate" xml:space="preserve">
+    <value>Nie-totale%</value>
+  </data>
+  <data name="ApplyFilters" xml:space="preserve">
+    <value>Pas filters toe</value>
+  </data>
+  <data name="LineageString_Maintenance" xml:space="preserve">
+    <value>Gevorderd&gt; Onderhoud</value>
+  </data>
+  <data name="MaintenanceSuccess" xml:space="preserve">
+    <value>Instellings suksesvol gestoor</value>
+  </data>
+  <data name="ContactUsSubmitted" xml:space="preserve">
+    <value>Kontak ons ​​ingedien</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privaatheidsbeleid</value>
+  </data>
+  <data name="NoResultsToDisplay" xml:space="preserve">
+    <value>Geen resultate te vertoon nie</value>
+  </data>
+  <data name="Actor" xml:space="preserve">
+    <value>Akteur</value>
+  </data>
+  <data name="EventID" xml:space="preserve">
+    <value>Gebeurtenis-ID</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Uitsondering</value>
+  </data>
+  <data name="FunctionalArea" xml:space="preserve">
+    <value>Gebied</value>
+  </data>
+  <data name="LineageString_EventLog" xml:space="preserve">
+    <value>Gevorderd&gt; Gebeurtenislogboek</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Masjiennaam</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Boodskap</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioriteit</value>
+  </data>
+  <data name="Severity" xml:space="preserve">
+    <value>Erns</value>
+  </data>
+  <data name="SQLDateTime" xml:space="preserve">
+    <value>SQL Datum / tyd</value>
+  </data>
+  <data name="ClearEventLogNow" xml:space="preserve">
+    <value>Vee nou 'n geleentheid aan</value>
+  </data>
+  <data name="AutomaticallyClearLogEntriesOlderThan" xml:space="preserve">
+    <value>Maak logboekinskrywings outomaties ouer as</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>Dae.</value>
+  </data>
+  <data name="SecureURL_Help" xml:space="preserve">
+    <value>&lt;b&gt; Voorbeeld: &lt;/b&gt; &lt;br /&gt; https://www.xyz.com
+&lt;P&gt;
+As u nie 'n SSL-sertifikaat vir u webwerf het nie, moet die veilige URL ooreenstem met die bogenoemde URL. &lt;/p&gt;</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>&lt;b&gt; Voorbeeld: &lt;/b&gt; &lt;br /&gt; http://www.xyz.com &lt;p&gt;
+Die volledige URL, insluitend http: //, om gebruik te word om die interne sagtewareskakels en skakels binne die e-possjablone te genereer. &lt;/p&gt;</value>
+  </data>
+  <data name="ListingTypesUnavailable" xml:space="preserve">
+    <value>Lystipes is nie beskikbaar nie omdat hierdie kategorie subkategorieë bevat.</value>
+  </data>
+  <data name="CreateUserField" xml:space="preserve">
+    <value>Skep gebruikersveld</value>
+  </data>
+  <data name="EditUserField" xml:space="preserve">
+    <value>Wysig gebruikersveld</value>
+  </data>
+  <data name="BatchPaymentProviderCannotBeResolved" xml:space="preserve">
+    <value>Die verskaffer van groepbetalings kan nie opgelos word nie.</value>
+  </data>
+  <data name="BatchPaymentProviderDisabled" xml:space="preserve">
+    <value>Diensverskaffer vir groepbetalings is gedeaktiveer</value>
+  </data>
+  <data name="BatchPaymentValid" xml:space="preserve">
+    <value>As geskeduleerde betalings geaktiveer is, word hierdie faktuur outomaties verwerk.</value>
+  </data>
+  <data name="BillingAddressMissing" xml:space="preserve">
+    <value>Die faktuuradres van die betaler ontbreek op die faktuur.</value>
+  </data>
+  <data name="DemoModeOn" xml:space="preserve">
+    <value>Joernale is nie toegelaat as Demo-modus geaktiveer is nie.</value>
+  </data>
+  <data name="ManualChargeButtonText" xml:space="preserve">
+    <value>Verwerk betaling (s)</value>
+  </data>
+  <data name="ManualChargeButton_Help" xml:space="preserve">
+    <value>As u op hierdie knoppie klik, sal u probeer om alle fakture vir perseelgelde te verwerk.</value>
+  </data>
+  <data name="MerchantLoginIdMissing" xml:space="preserve">
+    <value>Handelaar-aanmeld-ID ontbreek.</value>
+  </data>
+  <data name="NoBatchPaymentProviderDefined" xml:space="preserve">
+    <value>Geen groepbetalingsverskaffer is gedefinieër nie.</value>
+  </data>
+  <data name="NoPrimaryCreditCard" xml:space="preserve">
+    <value>Die betaler het nie 'n primêre kredietkaart nie.</value>
+  </data>
+  <data name="NotFeeInvoice" xml:space="preserve">
+    <value>Faktuur is nie 'n fooi-faktuur nie.</value>
+  </data>
+  <data name="PostUrlMissing" xml:space="preserve">
+    <value>Merchant's Post-URL ontbreek.</value>
+  </data>
+  <data name="PrimaryCreditCardExpired" xml:space="preserve">
+    <value>Die primêre kredietkaart van die betaler is verval.</value>
+  </data>
+  <data name="TransactionKeyMissing" xml:space="preserve">
+    <value>Handelaarstransaksie ontbreek.</value>
+  </data>
+  <data name="CreateField" xml:space="preserve">
+    <value>Skep {0} Veld</value>
+  </data>
+  <data name="template_ask_buyer_question" xml:space="preserve">
+    <value>Stel lysvraag</value>
+  </data>
+  <data name="template_ask_listing_question" xml:space="preserve">
+    <value>Stel lysvraag</value>
+  </data>
+  <data name="template_Bidder_Bid" xml:space="preserve">
+    <value>Bevestiging van bod</value>
+  </data>
+  <data name="template_Bidder_Outbid" xml:space="preserve">
+    <value>Oorbodige kennisgewing</value>
+  </data>
+  <data name="template_Buyer_Bought" xml:space="preserve">
+    <value>Bevestiging van aankope</value>
+  </data>
+  <data name="template_Buyer_Bought_Not_Ended" xml:space="preserve">
+    <value>Aankoopbevestiging, gedeeltelike hoeveelheid</value>
+  </data>
+  <data name="template_Contact_Us_Message" xml:space="preserve">
+    <value>Kontak ons ​​Boodskap</value>
+  </data>
+  <data name="LineageString_EmailTemplates" xml:space="preserve">
+    <value>CMS&gt; E-possjablone</value>
+  </data>
+  <data name="template_NewUserRegistration_Approved" xml:space="preserve">
+    <value>Registrasie goedgekeur</value>
+  </data>
+  <data name="template_NewUserRegistration_NeedsAdminApproval" xml:space="preserve">
+    <value>Goedkeuring van registrasiebehoeftes</value>
+  </data>
+  <data name="template_Report_Generation_Failed" xml:space="preserve">
+    <value>Verslag het misluk</value>
+  </data>
+  <data name="template_Report_Generation_Ready" xml:space="preserve">
+    <value>Rapporteer gereed</value>
+  </data>
+  <data name="template_report_messaging_abuse" xml:space="preserve">
+    <value>Misbruik van boodskappe is aangemeld</value>
+  </data>
+  <data name="template_Reset_Password" xml:space="preserve">
+    <value>Herstel wagwoord</value>
+  </data>
+  <data name="template_Seller_Bid" xml:space="preserve">
+    <value>Bod ontvang</value>
+  </data>
+  <data name="template_Seller_NewListing" xml:space="preserve">
+    <value>Bevestiging op die lys</value>
+  </data>
+  <data name="template_Seller_NoSale" xml:space="preserve">
+    <value>Onsuksesvol is afgelaai</value>
+  </data>
+  <data name="template_Seller_SendFees" xml:space="preserve">
+    <value>Faktuur vir werffooi</value>
+  </data>
+  <data name="template_Seller_SendInvoice" xml:space="preserve">
+    <value>Verkoopsfaktuur</value>
+  </data>
+  <data name="template_Seller_Sold" xml:space="preserve">
+    <value>Bevestiging van verkoop</value>
+  </data>
+  <data name="template_Seller_Sold_Not_Ended" xml:space="preserve">
+    <value>Bevestiging van verkoop, gedeeltelike hoeveelheid</value>
+  </data>
+  <data name="template_usermessage_reply" xml:space="preserve">
+    <value>Boodskap op die lys Boodskap ontvang</value>
+  </data>
+  <data name="template_usermessage_reply_general" xml:space="preserve">
+    <value>Gebruikerboodskap ontvang</value>
+  </data>
+  <data name="template_User_ReceivedFeedback" xml:space="preserve">
+    <value>Terugvoer ontvang</value>
+  </data>
+  <data name="template_user_verification" xml:space="preserve">
+    <value>E-posverifikasie word vereis</value>
+  </data>
+  <data name="SetEmailTemplateEnabledFailure" xml:space="preserve">
+    <value>Opdatering van e-possjabloon misluk</value>
+  </data>
+  <data name="SetEmailTemplateEnabledSuccess" xml:space="preserve">
+    <value>E-possjabloon opgedateer</value>
+  </data>
+  <data name="AdditionalImages_Help" xml:space="preserve">
+    <value>'N Vaste fooi wat gehef word wanneer 'n verkoper elke addisionele prentjie bo die eerste prent oplaai.</value>
+  </data>
+  <data name="Bold_Help" xml:space="preserve">
+    <value>'N Vaste fooi word gehef wanneer 'n verkoper die' Bold'-lys verbetering kies.</value>
+  </data>
+  <data name="Featured_Help" xml:space="preserve">
+    <value>'N Vaste fooi wat gehef word wanneer die verkoper die verbetering op die lys' Voorgestelde 'kies.</value>
+  </data>
+  <data name="FirstImage_Help" xml:space="preserve">
+    <value>'N Vaste fooi wat gehef word wanneer 'n verkoper die eerste prentprent bevat.</value>
+  </data>
+  <data name="FlatFee_Help" xml:space="preserve">
+    <value>'N Vaste fooi wat gehef word wanneer 'n verkoper 'n advertensie-advertensie skep.</value>
+  </data>
+  <data name="Highlight_Help" xml:space="preserve">
+    <value>'N Vaste fooi wat gehef word wanneer 'n verkoper die verbetering op die lys vir' Hoogtepunt 'kies.</value>
+  </data>
+  <data name="Italic_Help" xml:space="preserve">
+    <value>'N Vaste fooi word gehef wanneer 'n verkoper die' Italic'-lys verbetering kies.</value>
+  </data>
+  <data name="PayToProceed_Help" xml:space="preserve">
+    <value>As dit geaktiveer is: fooi-betaling van verkopers sal voorop benodig word om nuwe lyste te plaas of om ander aksies uit te voer wat 'n fooi vereis.</value>
+  </data>
+  <data name="Subtitle_Help" xml:space="preserve">
+    <value>'N Vaste fooi wat gehef word wanneer 'n verkoper 'n onderskrif onderteken.</value>
+  </data>
+  <data name="UploadYourSiteLogo_Help" xml:space="preserve">
+    <value>Klik op die [Upload Logo] -knoppie om die logo-prent vanaf u rekenaar te kies. Opgelaaide prentlêers is tans beperk tot 3 MB.</value>
+  </data>
+  <data name="YouTubeVideo_Help" xml:space="preserve">
+    <value>'N Vaste fooi word gehef wanneer 'n verkoper 'n YouTube-video-URL spesifiseer.</value>
+  </data>
+  <data name="FinalBuyerFee" xml:space="preserve">
+    <value>Koper se finale fooi</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_Aggregate" xml:space="preserve">
+    <value>Totale%</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_Aggregate_Help" xml:space="preserve">
+    <value>Met die afslagfooie vir die koper, is die volgende waardes ingestel ... &lt;br /&gt;
+&lt;br /&gt;
+$ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+$ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999,999,999,999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel verkoop teen 'n finale prys van $ 125,00, word die finale koperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 25,00 x 5,0%) + ($ 75,00 x 2,5%) + ($ 25,00 x 1,0%) = $ 3,38 Koper se finale fooi &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel met 'n finale prys van $ 99,00 verkoop, word die finale koperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 25,00 x 5,0%) + ($ 74,00 x 2,5%) = $ 3,10 Koperfooi</value>
+  </data>
+  <data name="FinalbuyerFeeStyle_Flat" xml:space="preserve">
+    <value>Basis tarief</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_Flat_Help" xml:space="preserve">
+    <value>Met die afslagfooie vir die koper, is die volgende waardes ingestel ... &lt;br /&gt;
+&lt;br /&gt;
+$ 25,00 = $ 1,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 100,00 = $ 5,00 &lt;br /&gt;
+&lt;br /&gt;
+$ 999,999,999,999,00 = $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+As 'n item verkoop word teen 'n finale prys van $ 125,00, is die finale koperfooi $ 10,00 &lt;br /&gt;
+&lt;br /&gt;
+As 'n item verkoop word teen 'n finale prys van $ 99,00, is die finale koperfooi van $ koper</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_NonAggregate" xml:space="preserve">
+    <value>Nie-totale%</value>
+  </data>
+  <data name="FinalBuyerFeeStyle_NonAggregate_Help" xml:space="preserve">
+    <value>Met die afslagfooie vir die koper, is die volgende waardes ingestel ... &lt;br /&gt;
+&lt;br /&gt;
+$ 25,00 = 5% &lt;br /&gt;
+&lt;br /&gt;
+$ 100,00 = 2,5% &lt;br /&gt;
+&lt;br /&gt;
+$ 999,999,999,999,00 = 1,0% &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel verkoop teen 'n finale prys van $ 125,00, word die finale koperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 125,00 x 1,0%) = $ 1,25 &lt;br /&gt;
+&lt;br /&gt;
+As 'n artikel met 'n finale prys van $ 99,00 verkoop, word die finale koperfooi soos volg bereken: &lt;br /&gt;
+&lt;br /&gt;
+($ 99,00 x 2,5%) = $ 2,48</value>
+  </data>
+  <data name="FinalBuyerFee_Help" xml:space="preserve">
+    <value>Anders as die meeste ander werffooie, word hierdie fooi bygevoeg by die &lt;i&gt; koper &lt;/i&gt; "webwerffooi-faktuur" in plaas van die &lt;i&gt; verkoper se &lt;/i&gt; "webwerffooi-faktuur". &lt;br /&gt;
+&lt;br /&gt;
+Opmerking: hierdie fooi kan onafhanklik van die funksie 'Koper se premie' gebruik word, waardeur die verkoper 'n% kan spesifiseer wat bygevoeg moet word by die &lt;i&gt; Verkoopfaktuur &lt;/i&gt; vir elke verkoping. &lt;br /&gt;
+&lt;br /&gt;
+Om die 'Finale fooi van die koper te deaktiveer', stel alle vlakke op $ 0 of 0%.</value>
+  </data>
+  <data name="CannotDeletePrimaryAdmin" xml:space="preserve">
+    <value>Kan nie die primêre gebruiker / webwerf-eienaar uitvee nie.</value>
+  </data>
+  <data name="ServiceAuthorizationToken" xml:space="preserve">
+    <value>API-verifikasietoken</value>
+  </data>
+  <data name="AdminEditUserStatusWebAPI_Help" xml:space="preserve">
+    <value>As dit gemerk is, kan die gebruiker toegang tot die Web API kry.</value>
+  </data>
+  <data name="WebAPI" xml:space="preserve">
+    <value>Web API</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Gestremde</value>
+  </data>
+  <data name="CSVImportHelp" xml:space="preserve">
+    <value>CSV-invoerhulp</value>
+  </data>
+  <data name="CsvStatus" xml:space="preserve">
+    <value>CSV-status</value>
+  </data>
+  <data name="DataFile" xml:space="preserve">
+    <value>Datalêer</value>
+  </data>
+  <data name="DownloadBlankCSVTemplate" xml:space="preserve">
+    <value>Laai leë CSV-sjabloon af</value>
+  </data>
+  <data name="ImportCSVColumnSpecifications" xml:space="preserve">
+    <value>Voer CSV-kolomspesifikasies in</value>
+  </data>
+  <data name="NoActionHasBeenTaken" xml:space="preserve">
+    <value>GEEN aksie is gedoen nie</value>
+  </data>
+  <data name="ReportEmailAddress" xml:space="preserve">
+    <value>Rapporteer e-posadres</value>
+  </data>
+  <data name="RowStatus" xml:space="preserve">
+    <value>Rystatus</value>
+  </data>
+  <data name="SetInvoiceShippedSuccess" xml:space="preserve">
+    <value>Die instelling van faktuur wat gestuur is, is geslaag</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Gereedskap</value>
+  </data>
+  <data name="UploadCSV" xml:space="preserve">
+    <value>Laai CSV op</value>
+  </data>
+  <data name="ValidateDataOnly" xml:space="preserve">
+    <value>Valideer SLEGS data</value>
+  </data>
+  <data name="GenerateAuthToken" xml:space="preserve">
+    <value>Genereer</value>
+  </data>
+  <data name="GenerateAuthToken_Help" xml:space="preserve">
+    <value>Genereer 'n nuwe Web API-verifikasietoken vir die gebruiker.</value>
+  </data>
+  <data name="WebAPIAuthenticationToken" xml:space="preserve">
+    <value>Web API-verifikasietoken</value>
+  </data>
+  <data name="Mutability" xml:space="preserve">
+    <value>Redigeerbaarheid</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Sigbaarheid</value>
+  </data>
+  <data name="LineageString_MobileLogoUploader" xml:space="preserve">
+    <value>Webwerfvoorkeure&gt; Mobiel logo</value>
+  </data>
+  <data name="UploadYourMobileLogo" xml:space="preserve">
+    <value>Laai u mobiele logo op</value>
+  </data>
+  <data name="Sunburst_Help" xml:space="preserve">
+    <value>'N Vaste fooi word gehef wanneer 'n verkoper die verbeterings op die "verkoopwapen" spesifiseer</value>
+  </data>
+  <data name="AddContentLanguageFailure" xml:space="preserve">
+    <value>Die gespesifiseerde taal kon nie bygevoeg word nie</value>
+  </data>
+  <data name="AddContentLanguageSuccess" xml:space="preserve">
+    <value>Die gespesifiseerde taal is bygevoeg</value>
+  </data>
+  <data name="EmailFooter" xml:space="preserve">
+    <value>'N E-posonderwerp of liggaamsvoetjie (E-posvoet)</value>
+  </data>
+  <data name="EmailHeader" xml:space="preserve">
+    <value>'N E-posonderwerp of liggaamsopskrif (EmailHeader)</value>
+  </data>
+  <data name="Boolean" xml:space="preserve">
+    <value>Ja / Nee</value>
+  </data>
+  <data name="Decimal" xml:space="preserve">
+    <value>Desimale getal</value>
+  </data>
+  <data name="Enum" xml:space="preserve">
+    <value>Opsie lys</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="Int" xml:space="preserve">
+    <value>Hele nommer</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Teks</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="CountryManagementFailure" xml:space="preserve">
+    <value>Landbestuur misluk</value>
+  </data>
+  <data name="CountryManagementSuccess" xml:space="preserve">
+    <value>Lande opgedateer</value>
+  </data>
+  <data name="LineageString_CountryManagement" xml:space="preserve">
+    <value>Internasionaal&gt; Lande</value>
+  </data>
+  <data name="AddEmailTemplateLanguageFailture" xml:space="preserve">
+    <value>E-possjabloontaal bygevoeg misluk</value>
+  </data>
+  <data name="AddEmailTemplateLanguageSuccess" xml:space="preserve">
+    <value>E-posjabloontaal bygevoeg</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Boodskapliggaam</value>
+  </data>
+  <data name="EmailTemplateEditorFailure" xml:space="preserve">
+    <value>Opdatering van e-possjabloon misluk</value>
+  </data>
+  <data name="EmailTemplateEditorSuccess" xml:space="preserve">
+    <value>E-possjabloon opgedateer</value>
+  </data>
+  <data name="EmailTemplateHelp" xml:space="preserve">
+    <value>E-possjabloonhulp</value>
+  </data>
+  <data name="LineageString_EmailTemplateEditor" xml:space="preserve">
+    <value>CMS&gt; E-possjablone&gt; Besonderhede</value>
+  </data>
+  <data name="RemoveEmailTemplateLanguageFailure" xml:space="preserve">
+    <value>Die verwydering van die e-possjabloon misluk</value>
+  </data>
+  <data name="RemoveEmailTemplateLanguageSuccess" xml:space="preserve">
+    <value>E-posjabloontaal is verwyder</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Onderwerp</value>
+  </data>
+  <data name="template_ask_buyer_question_Help" xml:space="preserve">
+    <value>Stel die koper 'n vraag</value>
+  </data>
+  <data name="template_ask_listing_question_Help" xml:space="preserve">
+    <value>Stel 'n lys van die verkoper</value>
+  </data>
+  <data name="template_Bidder_Bid_Help" xml:space="preserve">
+    <value>Stel die bieërs in kennis dat hulle 'n bod gemaak het</value>
+  </data>
+  <data name="template_Bidder_Outbid_Help" xml:space="preserve">
+    <value>Stel die bieërs in kennis dat hulle bo die bod was</value>
+  </data>
+  <data name="template_Buyer_Bought_Help" xml:space="preserve">
+    <value>Stel die koper in kennis dat hulle 'n item gekoop het</value>
+  </data>
+  <data name="template_Buyer_Bought_Not_Ended_Help" xml:space="preserve">
+    <value>Laat weet die koper dat hulle 'n item gekoop het, die item is nog nie beëindig nie</value>
+  </data>
+  <data name="template_Contact_Us_Message_Help" xml:space="preserve">
+    <value>Stuur Kontak ons-boodskap aan die administrateur</value>
+  </data>
+  <data name="template_EmailFooter" xml:space="preserve">
+    <value>E-posvoettitel (alle e-posse)</value>
+  </data>
+  <data name="template_EmailFooter_Help" xml:space="preserve">
+    <value>Die inhoud word vervang waar [#EmailFooter] in 'n e-posvormvorm gebruik word</value>
+  </data>
+  <data name="template_EmailHeader" xml:space="preserve">
+    <value>E-poskop (alle e-posse)</value>
+  </data>
+  <data name="template_EmailHeader_Help" xml:space="preserve">
+    <value>Die inhoud word vervang waar [#EmailHeader] in 'n e-posvormvorm gebruik word</value>
+  </data>
+  <data name="template_NewUserRegistration_Approved_Help" xml:space="preserve">
+    <value>Stel nuwe gebruikers in kennis dat hul rekening goedgekeur is</value>
+  </data>
+  <data name="template_NewUserRegistration_NeedsAdminApproval_Help" xml:space="preserve">
+    <value>Stel die administrateur in kennis dat 'n nuwe gebruikersrekening goedkeuring benodig</value>
+  </data>
+  <data name="template_Report_Generation_Failed_Help" xml:space="preserve">
+    <value>Laat die gebruiker wat 'n CSV-uitvoer uitvoer uit dat die CSV-verslag misluk het</value>
+  </data>
+  <data name="template_Report_Generation_Ready_Help" xml:space="preserve">
+    <value>Stel die gebruiker wat 'n CSV-uitvoer uitvoer in kennis dat die CSV-verslag gereed is</value>
+  </data>
+  <data name="template_report_messaging_abuse_Help" xml:space="preserve">
+    <value>Stel administrateur in kennis van misbruik van boodskappe</value>
+  </data>
+  <data name="template_Reset_Password_Help" xml:space="preserve">
+    <value>Stuur 'n e-posadres om die wagwoord terug te stel</value>
+  </data>
+  <data name="template_Seller_Bid_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat 'n bieër 'n bod gemaak het</value>
+  </data>
+  <data name="template_Seller_NewListing_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat hulle 'n nuwe aanbieding geskep het</value>
+  </data>
+  <data name="template_Seller_NoSale_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat hul aanbieding nie verkoop het nie</value>
+  </data>
+  <data name="template_Seller_SendFees_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis van die fooie wat hulle tans op die webwerf skuld</value>
+  </data>
+  <data name="template_Seller_SendInvoice_Help" xml:space="preserve">
+    <value>Stel kopers in kennis van hangende fakture wat betaal moet word</value>
+  </data>
+  <data name="template_Seller_Sold_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat hul lys verkoop is</value>
+  </data>
+  <data name="template_Seller_Sold_Not_Ended_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat hul aanbieding verkoop is, maar dat die lys nog nie geëindig het nie</value>
+  </data>
+  <data name="template_usermessage_reply_general_Help" xml:space="preserve">
+    <value>Stel die gebruiker in kennis dat hulle 'n algemene antwoord ontvang het</value>
+  </data>
+  <data name="template_usermessage_reply_Help" xml:space="preserve">
+    <value>Stel die gebruiker in kennis dat hulle 'n antwoord op 'n boodskap oor 'n lys ontvang het</value>
+  </data>
+  <data name="template_User_ReceivedFeedback_Help" xml:space="preserve">
+    <value>Stel die gebruiker in kennis dat hulle terugvoer ontvang het</value>
+  </data>
+  <data name="template_user_verification_Help" xml:space="preserve">
+    <value>Stuur die gebruiker 'n e-pos vir verifikasie van die e-pos</value>
+  </data>
+  <data name="Mutability_Help" xml:space="preserve">
+    <value>&lt;strong&gt; Gevorderde administrasie-instelling &lt;/strong&gt;
+&lt;p&gt; Beïnvloed watter gebruikers hierdie aangepaste veldinhoud kan redigeer. Lees die administrasie-dokumentasie voordat u ander instellings as die standaard gebruik. &lt;/p&gt;</value>
+  </data>
+  <data name="Visibility_Help" xml:space="preserve">
+    <value>&lt;strong&gt; Gevorderde administrasie-instelling &lt;/strong&gt;
+&lt;p&gt; Beïnvloed watter gebruikers hierdie aangepaste veldinhoud sal sien. Lees die administrasie-dokumentasie voordat u ander instellings as die standaard gebruik. &lt;/p&gt;</value>
+  </data>
+  <data name="CMS_Variable_Width_Help" xml:space="preserve">
+    <value>Weens die responsiewe ontwerp, beveel ons aan dat u die aangepaste inhoud met veranderlike breedte gebruik. Standaard &lt;a href="http://getbootstrap.com/css/" target="_blank"&gt; Bootstrap 3 &lt;/a&gt; CSS kan gebruik word om u persoonlike inhoud te bestuur.
+&lt;P&gt;
+Gebruik die &lt;a href="http://getbootstrap.com/css/#responsive-utilities" target="_blank"&gt; responsiewe klasse &lt;/a&gt; om inhoud te wys of te verberg. Gebruik die CSS-klas 'Hidden-xs' om inhoud op x-klein toestelle te verberg.
+&lt;/ P&gt;
+&lt;P&gt;
+Vir &lt;a href="http://getbootstrap.com/css/#overview-responsive-images" target="_blank"&gt; reageer beelde &lt;/a&gt;, moet u die klas 'img-responsive' by u beeldbates voeg. . (Dit sal outomaties die grootte van die beelde vir kleiner toestelle verander)
+&lt;/ P&gt;</value>
+  </data>
+  <data name="LineageString_StatesRegionsManagement" xml:space="preserve">
+    <value>Internasionaal&gt; Lande&gt; {0}&gt; Wysig state / streke</value>
+  </data>
+  <data name="AddNewStatesRegionsFailure" xml:space="preserve">
+    <value>Nie nuwe state / streke bygevoeg nie</value>
+  </data>
+  <data name="AddNewStatesRegionsSuccess" xml:space="preserve">
+    <value>State / streke bygevoeg / opgedateer</value>
+  </data>
+  <data name="AddStatesRegions_Help" xml:space="preserve">
+    <value>&lt;p&gt; &lt;strong&gt; Voer een nuwe staat / streek per reël in. &lt;/strong&gt; &lt;/p&gt; &lt;p&gt; Elke reël moet die staat / streekkode bevat, gevolg deur 'n komma, gevolg deur die naam van die staat / streek. &lt; / p&gt; &lt;p&gt; &lt;em&gt; &lt;strong&gt; Voorbeeld: &lt;/ strong&gt; &lt;br&gt; AK, Alaska &lt;br&gt; AZ, Arizona &lt;br&gt; AR, Arkansas &lt;/ em&gt; &lt;/ p&gt;</value>
+  </data>
+  <data name="DeleteStatesRegionsSuccess" xml:space="preserve">
+    <value>Staat (s) / Streek (s) geskrap</value>
+  </data>
+  <data name="default_parens" xml:space="preserve">
+    <value>(Verstek)</value>
+  </data>
+  <data name="EditStatesRegions" xml:space="preserve">
+    <value>Wysig state / streke</value>
+  </data>
+  <data name="SelectEnabledCountry" xml:space="preserve">
+    <value>Kies Land aangeskakel</value>
+  </data>
+  <data name="SetDefault" xml:space="preserve">
+    <value>Stel verstek</value>
+  </data>
+  <data name="SetDefaultCountryFailure" xml:space="preserve">
+    <value>Stel standaard land misluk</value>
+  </data>
+  <data name="SetDefaultCountrySuccess" xml:space="preserve">
+    <value>Verstekland opgedateer</value>
+  </data>
+  <data name="DisplayOrder_Help" xml:space="preserve">
+    <value>Hierdie veld is vooraf bevolk om die nuwe veld onderaan die lys te plaas.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Naby</value>
+  </data>
+  <data name="Loading_elipse" xml:space="preserve">
+    <value>Laai ...</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Voorskou</value>
+  </data>
+  <data name="PreviewEmailTemplateFailure" xml:space="preserve">
+    <value>Voorskou-e-possjabloon misluk</value>
+  </data>
+  <data name="PreviewNotAvailable" xml:space="preserve">
+    <value>Voorskou is nie beskikbaar vir hierdie sjabloon nie.</value>
+  </data>
+  <data name="Recipient" xml:space="preserve">
+    <value>Ontvanger</value>
+  </data>
+  <data name="template_ask_buyer_question_ToWhom" xml:space="preserve">
+    <value>Koper</value>
+  </data>
+  <data name="template_ask_listing_question_ToWhom" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="template_Bidder_Bid_ToWhom" xml:space="preserve">
+    <value>Bieër</value>
+  </data>
+  <data name="template_Bidder_Outbid_ToWhom" xml:space="preserve">
+    <value>Bieër</value>
+  </data>
+  <data name="template_Buyer_Bought_Not_Ended_ToWhom" xml:space="preserve">
+    <value>Koper</value>
+  </data>
+  <data name="template_Buyer_Bought_ToWhom" xml:space="preserve">
+    <value>koper</value>
+  </data>
+  <data name="template_Contact_Us_Message_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_EmailFooter_ToWhom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="template_EmailHeader_ToWhom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="template_NewUserRegistration_Approved_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_NewUserRegistration_NeedsAdminApproval_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_Report_Generation_Failed_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_Report_Generation_Ready_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_report_messaging_abuse_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="template_Reset_Password_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_Seller_Bid_ToWhom" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="template_Seller_NewListing_ToWhom" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="template_Seller_NoSale_ToWhom" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="template_Seller_SendFees_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_Seller_SendInvoice_ToWhom" xml:space="preserve">
+    <value>Koper</value>
+  </data>
+  <data name="template_Seller_Sold_Not_Ended_ToWhom" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="template_Seller_Sold_ToWhom" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="template_usermessage_reply_general_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_usermessage_reply_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_User_ReceivedFeedback_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_user_verification_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="OnlyPaidInvoicesCanBeMarkedShipped" xml:space="preserve">
+    <value>Slegs betaalde fakture kan gemerk word gestuur</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="DuplicateUsernames" xml:space="preserve">
+    <value>Duplikaat gebruikersname</value>
+  </data>
+  <data name="ImportProgress" xml:space="preserve">
+    <value>Voer vordering in</value>
+  </data>
+  <data name="ImportUsers" xml:space="preserve">
+    <value>Invoer van gebruikers</value>
+  </data>
+  <data name="ImportUsersMainBlurb" xml:space="preserve">
+    <value>Gebruik hierdie vorm om rwAuction Pro v7.0-gebruikers in te voer uit die databasis wat in web.config gespesifiseer is. Kies of u bestaande gebruikers met dieselfde gebruikersnaam wil oorslaan of oorskryf, en klik dan op "Gebruikers invoer" om voort te gaan ...</value>
+  </data>
+  <data name="LineageString_ImportUsers" xml:space="preserve">
+    <value>Gebruikers&gt; Gebruikers invoer</value>
+  </data>
+  <data name="Overwrite" xml:space="preserve">
+    <value>Oorskryf</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Huppel</value>
+  </data>
+  <data name="UsersAdded" xml:space="preserve">
+    <value>Gebruikers bygevoeg</value>
+  </data>
+  <data name="UsersFound" xml:space="preserve">
+    <value>Gebruikers gevind</value>
+  </data>
+  <data name="UsersSkipped" xml:space="preserve">
+    <value>Gebruikers oorgeslaan</value>
+  </data>
+  <data name="UsersUpdated" xml:space="preserve">
+    <value>Gebruikers is opgedateer</value>
+  </data>
+  <data name="HomePhoneCustomField" xml:space="preserve">
+    <value>Huistelefoon-aangepaste veld</value>
+  </data>
+  <data name="VerboseOutput" xml:space="preserve">
+    <value>Verbale uitset?</value>
+  </data>
+  <data name="WorkPhoneCustomField" xml:space="preserve">
+    <value>Werkfoon Custom veld</value>
+  </data>
+  <data name="CompanyCustomField" xml:space="preserve">
+    <value>Maatskappy Aangepaste veld</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Nie gevind nie</value>
+  </data>
+  <data name="AddRegionalLanguageOption" xml:space="preserve">
+    <value>Voeg streektaalopsie by</value>
+  </data>
+  <data name="RemoveRegionalLanguageOption" xml:space="preserve">
+    <value>Verwyder die streektaalopsie</value>
+  </data>
+  <data name="NewAddress" xml:space="preserve">
+    <value>Voeg nuwe adres by</value>
+  </data>
+  <data name="SetBillingAddress" xml:space="preserve">
+    <value>Stel faktuuradres</value>
+  </data>
+  <data name="SetBillingAddressFailure" xml:space="preserve">
+    <value>Stel faktuuradres misluk</value>
+  </data>
+  <data name="SetBillingAddressSuccess" xml:space="preserve">
+    <value>Stel faktuuradres suksesvol in</value>
+  </data>
+  <data name="SetShippingAddress" xml:space="preserve">
+    <value>Stel afleweringsadres</value>
+  </data>
+  <data name="SetShippingAddressFailure" xml:space="preserve">
+    <value>Stel afleweringsadres misluk</value>
+  </data>
+  <data name="SetShippingAddressSuccess" xml:space="preserve">
+    <value>Gestuur afleweringsadres suksesvol</value>
+  </data>
+  <data name="AutomaticallyRemoveOldData" xml:space="preserve">
+    <value>Verwyder outomaties ou data outomaties</value>
+  </data>
+  <data name="DataMaintenanceFailure" xml:space="preserve">
+    <value>Opdatering van instellings vir data-instandhouding het misluk</value>
+  </data>
+  <data name="DataMaintenanceSuccess" xml:space="preserve">
+    <value>Data-instandhouding is opgedateer</value>
+  </data>
+  <data name="DaysAgo" xml:space="preserve">
+    <value>Dae gelede om</value>
+  </data>
+  <data name="DeleteFeeInvoicesOlderThan" xml:space="preserve">
+    <value>Verwyder fooi fakture ouer as</value>
+  </data>
+  <data name="DeleteListingsClosedMoreThan" xml:space="preserve">
+    <value>Verwyder lyste meer as</value>
+  </data>
+  <data name="DeleteSaleInvoicesOlderThan" xml:space="preserve">
+    <value>Verwyder verkoopfakture ouer as</value>
+  </data>
+  <data name="IncludeSuccessfulListings" xml:space="preserve">
+    <value>Sluit suksesvolle noteringsdata in</value>
+  </data>
+  <data name="IncludeUnpaidInvoices" xml:space="preserve">
+    <value>Sluit onbetaalde fakture in</value>
+  </data>
+  <data name="LineageString_DataManagement_Maintenance" xml:space="preserve">
+    <value>Datahantering&gt; Onderhoud</value>
+  </data>
+  <data name="PaymentReceived" xml:space="preserve">
+    <value>PayPal-betaling ontvang</value>
+  </data>
+  <data name="DeleteUserWithBidsWarning_Line1" xml:space="preserve">
+    <value>Hierdie gebruiker het bod op een of meer lyste. As u hierdie bod uitvee, sal dit waarskynlik verkeerde biedresultate op hierdie lyste veroorsaak.</value>
+  </data>
+  <data name="DeleteUserWithBidsWarning_Line2" xml:space="preserve">
+    <value>Hierdie handeling kan nie ongedaan gemaak word nie.</value>
+  </data>
+  <data name="DeleteUserWithBidsWarning_Line3" xml:space="preserve">
+    <value>Klik weer op "Delete" om voort te gaan, ongeag die bodresultate wat moontlik bederf kan word.</value>
+  </data>
+  <data name="DeleteListingsNow" xml:space="preserve">
+    <value>Vee nou lyste uit</value>
+  </data>
+  <data name="DeleteListingsNowSuccess" xml:space="preserve">
+    <value>Die opruim van die lys is suksesvol in die ry. Kyk na die geleentheidlogboek vir meer inligting oor die uitslae.</value>
+  </data>
+  <data name="DeleteListingsNow_Help" xml:space="preserve">
+    <value>Vee geslote lyste en gepaardgaande prente ouer as {0} dae permanent uit</value>
+  </data>
+  <data name="DeleteListingsWarning_Line1" xml:space="preserve">
+    <value>U is op die punt om alle lyste ouer as {0} dae te verwyder.</value>
+  </data>
+  <data name="DeleteListingsWarning_Line1_IncludingSuccessful" xml:space="preserve">
+    <value>U is op die punt om alle lyste ouer as {0} dae te verwyder, insluitend suksesvolle lyste.</value>
+  </data>
+  <data name="DeleteListingsWarning_Line2" xml:space="preserve">
+    <value>Hierdie handeling kan nie ongedaan gemaak word nie.</value>
+  </data>
+  <data name="DeleteListingsWarning_Line3" xml:space="preserve">
+    <value>Dit sal alle bod- en lysdata vir ou lyste permanent uit die databasis verwyder en die gepaardgaande lysprente permanent uitvee. Hierdie lyste sal nie meer in enige lyste verskyn nie en is nie beskikbaar om te sien of weer te lys nie.</value>
+  </data>
+  <data name="ListingDeletionConfirmation_Title" xml:space="preserve">
+    <value>Bevestiging van die skrap van die lys</value>
+  </data>
+  <data name="DeleteListingsWarning_Line1_Auto" xml:space="preserve">
+    <value>U is op die punt om lyste wat ouer as {0} dae ouer as {1} is, outomaties uit te vee.</value>
+  </data>
+  <data name="xAppearsToBeInvalidPleaseEnterCorrectEmail" xml:space="preserve">
+    <value>{0} blyk ongeldig te wees. Voer 'n geldige e-posadres in om voort te gaan.</value>
+  </data>
+  <data name="CreateEventField" xml:space="preserve">
+    <value>Skep gebeurtenisveld</value>
+  </data>
+  <data name="EditEventField" xml:space="preserve">
+    <value>Bewys Gebeurtenisveld</value>
+  </data>
+  <data name="LineageString_CustomFields_Event" xml:space="preserve">
+    <value>Gebeurtenisse&gt; Aangepaste velde vir gebeurtenisse</value>
+  </data>
+  <data name="EmptyHomePage" xml:space="preserve">
+    <value>Leë tuisbladinhoud</value>
+  </data>
+  <data name="IncludeOnInvoice" xml:space="preserve">
+    <value>Sluit op faktuur in</value>
+  </data>
+  <data name="IncludeOnInvoice_Help" xml:space="preserve">
+    <value>As dit gemerk is, sal hierdie pasgemaakte veld op verkoopsfakture opgeneem word.</value>
+  </data>
+  <data name="DontShow" xml:space="preserve">
+    <value>Moenie dit weer wys nie.</value>
+  </data>
+  <data name="QuickStartHide" xml:space="preserve">
+    <value>Versteek hierdie lys</value>
+  </data>
+  <data name="QuickStartList" xml:space="preserve">
+    <value>Vinnige beginlys</value>
+  </data>
+  <data name="QuickStartNotes" xml:space="preserve">
+    <value>&lt;strong&gt; Onthou: &lt;/strong&gt; Klik op die vraagtekenknoppies om addisionele inligting oor elke instelling te vertoon.</value>
+  </data>
+  <data name="QuickStartSiteContact" xml:space="preserve">
+    <value>Kontakbesonderhede vir webwerf</value>
+  </data>
+  <data name="QuickStartSiteContactDesc" xml:space="preserve">
+    <value>Gebruik 'n e-posadres wat aan u domeinnaam gekoppel is om te verseker dat e-pos afgelewer word.</value>
+  </data>
+  <data name="QuickStartTimeZone" xml:space="preserve">
+    <value>U tydsone</value>
+  </data>
+  <data name="QuickStartTimeZoneDesc" xml:space="preserve">
+    <value>U bedryfstydsone moet &lt;strong&gt; vooraf &lt;/strong&gt; opgestel word om enige lyste te skep.</value>
+  </data>
+  <data name="QuickStartUserInfo" xml:space="preserve">
+    <value>U (Admin) gebruikersinligting</value>
+  </data>
+  <data name="QuickStartUserInfoDesc" xml:space="preserve">
+    <value>Dit is u persoonlike administrasierekening. U wil alle velde opdateer om u inligting weer te gee. Dit is belangrik om u e-posadres en wagwoord te verander van die verstrekte versteknommer.</value>
+  </data>
+  <data name="QuickStartWelcome" xml:space="preserve">
+    <value>&lt;strong&gt; Welkom by AuctionWorx. &lt;/strong&gt; Maak eers die volgende instellings op!</value>
+  </data>
+  <data name="EnumOptionName_Help" xml:space="preserve">
+    <value>Hierdie waarde word aan die gebruiker vertoon wanneer hy die opsie kies uit die vervolg- of radioknoppies.</value>
+  </data>
+  <data name="EnumOptionValue_Help" xml:space="preserve">
+    <value>Hierdie waarde sal op die detailbladsy van die lys vertoon word. &lt;br/&gt; Opmerking: laat hierdie veld leeg as dit * nie * moet * op die detailbladsy vertoon word as dit deur die gebruiker gekies word.</value>
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
+    <value>Onder konstruksie-modus</value>
+  </data>
+  <data name="AuctionLotSettingsFailure" xml:space="preserve">
+    <value>Opdatering van die Veiling Lot-instellings het misluk</value>
+  </data>
+  <data name="AuctionLotSettingsSuccess" xml:space="preserve">
+    <value>Veiling Lot-instellings opgedateer</value>
+  </data>
+  <data name="LineageString_AuctionLotSettings" xml:space="preserve">
+    <value>Lys&gt; Veiling baie</value>
+  </data>
+  <data name="DuplicateContentName" xml:space="preserve">
+    <value>Nuwe inhoud "Naam" moet uniek wees.</value>
+  </data>
+  <data name="Also" xml:space="preserve">
+    <value>Ook</value>
+  </data>
+  <data name="BuyersPremiumAmount" xml:space="preserve">
+    <value>Koper se premie</value>
+  </data>
+  <data name="InvoiceTotal" xml:space="preserve">
+    <value>Faktuur totaal</value>
+  </data>
+  <data name="LineageString_SalesInvoicesReport" xml:space="preserve">
+    <value>Verslae&gt; Verkoopfakture</value>
+  </data>
+  <data name="ListingLineItemCount" xml:space="preserve">
+    <value>Lynitems</value>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>Belasting</value>
+  </data>
+  <data name="ShippingAmount" xml:space="preserve">
+    <value>Gestuur</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotaal</value>
+  </data>
+  <data name="TotalAdjustments" xml:space="preserve">
+    <value>Aanpassings</value>
+  </data>
+  <data name="TotalQty" xml:space="preserve">
+    <value>Totale hoeveelheid</value>
+  </data>
+  <data name="CSVHelp" xml:space="preserve">
+    <value>&lt;strong&gt; Groot data-invoerlêers &lt;/strong&gt; kan lei tot die vertraagde ontvangs van die bevestigings-e-pos. Kyk op &lt;em&gt; Gebeurtenislogboeke &lt;/em&gt; vir die huidige invoerstatus - elke validering of invoer van die lys sal aangeteken word.</value>
+  </data>
+  <data name="CSV_EmailSendErrorParserErrorEmail" xml:space="preserve">
+    <value>Stuurfout per e-pos (E-pos met foute in parser)</value>
+  </data>
+  <data name="CSV_EmailSendErrorResultsEmail" xml:space="preserve">
+    <value>E-pos stuur fout (resultate e-pos)</value>
+  </data>
+  <data name="CSV_ExceptionCount" xml:space="preserve">
+    <value>Uitsonderingtelling</value>
+  </data>
+  <data name="CSV_Exceptions" xml:space="preserve">
+    <value>Uitsonderings</value>
+  </data>
+  <data name="CSV_ExceptionsFromListingProvider" xml:space="preserve">
+    <value>Uitsonderings (van aanbieder van die lys)</value>
+  </data>
+  <data name="CSV_FailedImportLinesAttachedInNewCsvFile" xml:space="preserve">
+    <value>Alle mislukte invoerlyne vanaf die oorspronklike CSV word aan hierdie e-pos aangeheg as 'n NUWE csv vir korreksie en herpoging.</value>
+  </data>
+  <data name="CSV_ImportExceptionsForXxx" xml:space="preserve">
+    <value>Voer uitsondering vir {0} in</value>
+    <comment>{0} is a filename</comment>
+  </data>
+  <data name="CSV_ImportResults" xml:space="preserve">
+    <value>Voer resultate in</value>
+  </data>
+  <data name="CSV_ImportResultsForXxxJobStartedAtYyy" xml:space="preserve">
+    <value>Voer resultate in vir {0} werk wat op {1} begin is</value>
+    <comment>{0} is a filename, {1} is a date/time</comment>
+  </data>
+  <data name="CSV_Line" xml:space="preserve">
+    <value>Lyn</value>
+  </data>
+  <data name="CSV_NoteValidateOnlyNoActionTaken" xml:space="preserve">
+    <value>Let daarop dat, aangesien 'Slegs bekragtig' gekies is, GEEN AKSIE GEBEUR is nie</value>
+  </data>
+  <data name="CSV_ProcessingTime" xml:space="preserve">
+    <value>Verwerking van die tyd</value>
+  </data>
+  <data name="CSV_seconds" xml:space="preserve">
+    <value>Sekondes</value>
+  </data>
+  <data name="CSV_SuccessCount" xml:space="preserve">
+    <value>Sukses tel</value>
+  </data>
+  <data name="CSV_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="CSV_ValidationErrorCount" xml:space="preserve">
+    <value>Valideringsfouttelling</value>
+  </data>
+  <data name="CSV_ValidationErrors" xml:space="preserve">
+    <value>Valideringsfoute</value>
+  </data>
+  <data name="CSV_ValidationErrorsFromCsvPreValidator" xml:space="preserve">
+    <value>Valideringsfoute (van CSV-voorvalidator)</value>
+  </data>
+  <data name="CSV_ValidationErrorsFromListingProvider" xml:space="preserve">
+    <value>Valideringsfoute (van aanbieder van die lys)</value>
+  </data>
+  <data name="CSV_YourFileFailedPreValidationNoActionHasBeenTaken" xml:space="preserve">
+    <value>Die voorvalidering van u lêer het misluk. Geen stappe is gedoen nie.</value>
+  </data>
+  <data name="CSV_ListingImportStarted" xml:space="preserve">
+    <value>CSV-invoer is begin. Die invoer- en valideringsresultate sal na voltooiing na die volgende e-posadres gestuur word: {0}</value>
+  </data>
+  <data name="ImportAsDrafts" xml:space="preserve">
+    <value>Voer in as konsepte</value>
+  </data>
+  <data name="AdminSummaryCountRecentlySignedInUsers" xml:space="preserve">
+    <value>Gebruikers is onlangs aangemeld</value>
+  </data>
+  <data name="CategoriesAdded" xml:space="preserve">
+    <value>Kategorieë bygevoeg</value>
+  </data>
+  <data name="CategoriesFound" xml:space="preserve">
+    <value>Kategorieë gevind</value>
+  </data>
+  <data name="CategoriesSkipped" xml:space="preserve">
+    <value>Kategorieë oorgeslaan</value>
+  </data>
+  <data name="ErrorDetails" xml:space="preserve">
+    <value>Foutbesonderhede</value>
+  </data>
+  <data name="ImageImportUriBase" xml:space="preserve">
+    <value>Beeld invoer Uri Base</value>
+  </data>
+  <data name="ImportCancelled" xml:space="preserve">
+    <value>Invoer gekanselleer</value>
+  </data>
+  <data name="ImportCategories" xml:space="preserve">
+    <value>Voer kategorieë in</value>
+  </data>
+  <data name="ImportCategoriesMainBlurb" xml:space="preserve">
+    <value>Gebruik hierdie vorm om rwAuction Pro v7.0-lyskategorieë in te voer uit die databasis gespesifiseer in web.config. Klik op "Importeer kategorieë" om voort te gaan ...</value>
+  </data>
+  <data name="ImportCompleted" xml:space="preserve">
+    <value>Invoer voltooi</value>
+  </data>
+  <data name="ImportListingsMainBlurb" xml:space="preserve">
+    <value>Gebruik hierdie vorm om rwAuction Pro v7.0 lyste in te voer uit die databasis wat in web.config gespesifiseer is. Klik op "Invoer lyste" om voort te gaan ...</value>
+  </data>
+  <data name="ImportStarted" xml:space="preserve">
+    <value>Invoer begin</value>
+  </data>
+  <data name="LineageString_ImportCategories" xml:space="preserve">
+    <value>Kategorieë&gt; Kategorieë invoer</value>
+  </data>
+  <data name="LineageString_ImportListings" xml:space="preserve">
+    <value>Lys&gt; Invoer lyste</value>
+  </data>
+  <data name="ListingsAdded" xml:space="preserve">
+    <value>Lys bygevoeg</value>
+  </data>
+  <data name="ListingsFound" xml:space="preserve">
+    <value>Lys gevind</value>
+  </data>
+  <data name="ListingsSkipped" xml:space="preserve">
+    <value>Lys oorgeslaan</value>
+  </data>
+  <data name="ImportRegions" xml:space="preserve">
+    <value>Voer streke in</value>
+  </data>
+  <data name="ImportRegionsMainBlurb" xml:space="preserve">
+    <value>Gebruik hierdie vorm om rwAuction Pro v7.0-streke in te voer vanaf die databasis gespesifiseer in web.config. Klik op "Voer streke in" om voort te gaan ...</value>
+  </data>
+  <data name="LineageString_ImportRegions" xml:space="preserve">
+    <value>Streke&gt; Voer streke in</value>
+  </data>
+  <data name="RegionsAdded" xml:space="preserve">
+    <value>Streke bygevoeg</value>
+  </data>
+  <data name="RegionsFound" xml:space="preserve">
+    <value>Streke gevind</value>
+  </data>
+  <data name="RegionsSkipped" xml:space="preserve">
+    <value>Streke oorgeslaan</value>
+  </data>
+  <data name="LotNumber" xml:space="preserve">
+    <value>Lotnommer</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="SalesInvoices_csv" xml:space="preserve">
+    <value>SalesInvoices.csv</value>
+  </data>
+  <data name="StateRegion" xml:space="preserve">
+    <value>Staat / streek</value>
+  </data>
+  <data name="Street1" xml:space="preserve">
+    <value>Straat 1</value>
+  </data>
+  <data name="Street2" xml:space="preserve">
+    <value>Straat 2</value>
+  </data>
+  <data name="ZipPostal" xml:space="preserve">
+    <value>Zip / Postal</value>
+  </data>
+  <data name="Literal_SubNavigation" xml:space="preserve">
+    <value>Sub-navigasie skakels</value>
+  </data>
+  <data name="Sunburst" xml:space="preserve">
+    <value>Koopwapen</value>
+  </data>
+  <data name="CreateLotField" xml:space="preserve">
+    <value>Skep Lotveld</value>
+  </data>
+  <data name="LineageString_AuctionLotSettings_Events" xml:space="preserve">
+    <value>Veilings&gt; Veiling baie</value>
+  </data>
+  <data name="LineageString_CustomFields_Lot" xml:space="preserve">
+    <value>Veilings&gt; Lot pasgemaakte velde</value>
+  </data>
+  <data name="LineageString_ImportCSV" xml:space="preserve">
+    <value>Lys&gt; Voer CSV in</value>
+  </data>
+  <data name="LineageString_ImportCSV_Events" xml:space="preserve">
+    <value>Veilings&gt; Voer baie CSV in</value>
+  </data>
+  <data name="LineageString_ShippingMethods_Events" xml:space="preserve">
+    <value>Veilings&gt; Versending</value>
+  </data>
+  <data name="Voided" xml:space="preserve">
+    <value>Voided</value>
+  </data>
+  <data name="PageName" xml:space="preserve">
+    <value>Bladsynaam</value>
+  </data>
+  <data name="QuickStartMobileLogo" xml:space="preserve">
+    <value>Mobiele logo</value>
+  </data>
+  <data name="QuickStartMobileLogoDesc" xml:space="preserve">
+    <value>Hierdie logo word in die bladsyopskrif van elke bladsy vertoon wanneer die gebruiker vanaf 'n mobiele toestel blaai.</value>
+  </data>
+  <data name="QuickStartShow" xml:space="preserve">
+    <value>Wys vinnige beginlys</value>
+  </data>
+  <data name="QuickStartSiteLogo" xml:space="preserve">
+    <value>Webwerf-logo</value>
+  </data>
+  <data name="QuickStartSiteLogoDesc" xml:space="preserve">
+    <value>Dit is die logo wat in die bladsyopskrif van elke bladsy vertoon word wanneer die blaaier van die gebruiker die volle breedte het.</value>
+  </data>
+  <data name="QuickStartSiteName" xml:space="preserve">
+    <value>Webbladnaam</value>
+  </data>
+  <data name="QuickStartSiteNameDesc" xml:space="preserve">
+    <value>'Wettige webwerfnaam', 'vriendelike webwerfnaam' en 'webwerf-titel' moet opgedateer word om u webwerf te weerspieël.</value>
+  </data>
+  <data name="QuickStartSiteUrl" xml:space="preserve">
+    <value>Webwerf-URL</value>
+  </data>
+  <data name="QuickStartSiteUrlDesc" xml:space="preserve">
+    <value>Die 'URL' en 'Veilige URL' word gebruik vir dinge soos e-pos-etikette en veilige aanmelding, en moet opgedateer word om aan te pas by die beoogde adres van u webwerf, byvoorbeeld http://www.mywebsite.com en https: // www.mywebsite.com, onderskeidelik. As u nie SSL het nie, moet beide ingestel wees op "http: // ...".</value>
+  </data>
+  <data name="PublishEventFee" xml:space="preserve">
+    <value>Publiseer geleentheidsfooi</value>
+  </data>
+  <data name="PublishEventFee_Help" xml:space="preserve">
+    <value>'N Vaste fooi wat gehef word wanneer 'n verkoper 'n geleentheid publiseer.</value>
+  </data>
+  <data name="LineageString_Taxes" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Belasting</value>
+  </data>
+  <data name="TaxesSuccess" xml:space="preserve">
+    <value>Belastingvoorkeure opgedateer</value>
+  </data>
+  <data name="UpdateInvoiceBuyersPremiumFailure" xml:space="preserve">
+    <value>Opdatering van faktuurkoperspremie is misluk</value>
+  </data>
+  <data name="UpdateInvoiceBuyersPremiumSuccess" xml:space="preserve">
+    <value>Koper se premie opgedateer</value>
+  </data>
+  <data name="UpdateInvoiceCommentsFailure" xml:space="preserve">
+    <value>Opdatering van faktuuropmerkings misluk</value>
+  </data>
+  <data name="UpdateInvoiceCommentsSuccess" xml:space="preserve">
+    <value>Faktuuropmerkings is gestoor</value>
+  </data>
+  <data name="UpdateInvoiceShippingFailure" xml:space="preserve">
+    <value>Opdatering van faktuurversending is misluk</value>
+  </data>
+  <data name="UpdateInvoiceShippingSuccess" xml:space="preserve">
+    <value>Opsie vir faktuurversending suksesvol opgedateer</value>
+  </data>
+  <data name="DisableThisFeeForSelectedCategories" xml:space="preserve">
+    <value>Deaktiveer hierdie fooi vir die geselekteerde kategorieë</value>
+  </data>
+  <data name="EnableThisFeeForSelectedCategories" xml:space="preserve">
+    <value>Aktiveer hierdie fooi vir die geselekteerde kategorieë</value>
+  </data>
+  <data name="FeeCategoriesFailure" xml:space="preserve">
+    <value>Opdatering van fooi-kategorie-instellings misluk</value>
+  </data>
+  <data name="FeeCategoriesSuccess" xml:space="preserve">
+    <value>Fooi-kategorie-instellings is opgedateer</value>
+  </data>
+  <data name="LineageString_FeeCategories" xml:space="preserve">
+    <value>Fakturering en fooie&gt; Fooi-kategorieë</value>
+  </data>
+  <data name="NoCategoriesCurrentlySelected" xml:space="preserve">
+    <value>(Geen kategorieë word tans gekies nie.)</value>
+  </data>
+  <data name="template_AnswerPublicListingQuestion" xml:space="preserve">
+    <value>Beantwoord publieke noteringsvraag</value>
+  </data>
+  <data name="template_AnswerPublicListingQuestion_Help" xml:space="preserve">
+    <value>Stel die gebruiker in kennis dat 'n vraag oor openbare notering beantwoord is</value>
+  </data>
+  <data name="template_AnswerPublicListingQuestion_ToWhom" xml:space="preserve">
+    <value>gebruiker</value>
+  </data>
+  <data name="template_AskPublicListingQuestion" xml:space="preserve">
+    <value>Stel publieke noteringsvraag</value>
+  </data>
+  <data name="template_AskPublicListingQuestion_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat 'n nuwe vraag oor openbare notering geplaas is</value>
+  </data>
+  <data name="template_AskPublicListingQuestion_ToWhom" xml:space="preserve">
+    <value>verkoper</value>
+  </data>
+  <data name="AddNewContentPage" xml:space="preserve">
+    <value>Voeg nuwe inhoudbladsy by</value>
+  </data>
+  <data name="AssignedFields" xml:space="preserve">
+    <value>Aangewese velde</value>
+  </data>
+  <data name="AvailableFields" xml:space="preserve">
+    <value>Beskikbare velde</value>
+  </data>
+  <data name="BackToCategoryList" xml:space="preserve">
+    <value>Terug na alle kategorieë</value>
+  </data>
+  <data name="CurrentFaviconFile" xml:space="preserve">
+    <value>Huidige Favicon-lêer</value>
+  </data>
+  <data name="CurrentLogoFile" xml:space="preserve">
+    <value>Huidige logo-lêer</value>
+  </data>
+  <data name="SaveConfiguration" xml:space="preserve">
+    <value>Stoor konfigurasie</value>
+  </data>
+  <data name="SaveName" xml:space="preserve">
+    <value>Stoor Naam</value>
+  </data>
+  <data name="AddNewStates" xml:space="preserve">
+    <value>Voeg nuwe state / streke by</value>
+  </data>
+  <data name="SelectRegionalLanguage" xml:space="preserve">
+    <value>Kies streekstaal</value>
+  </data>
+  <data name="EmailOptIn" xml:space="preserve">
+    <value>E-pos opt-in \ nuusbrief</value>
+  </data>
+  <data name="AdjustInvoice" xml:space="preserve">
+    <value>Pas faktuur aan</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>aansoek doen</value>
+  </data>
+  <data name="AddNewContent" xml:space="preserve">
+    <value>Voeg nuwe inhoudbladsy by</value>
+  </data>
+  <data name="ApplyAddress" xml:space="preserve">
+    <value>Pas adres toe op faktuur</value>
+  </data>
+  <data name="BackgroundProcessing" xml:space="preserve">
+    <value>Agtergrondverwerking</value>
+  </data>
+  <data name="BannerDisplayInfo" xml:space="preserve">
+    <value>(Die onderstaande bannerweergawe kan kleiner as die werklike grootte lyk.)</value>
+  </data>
+  <data name="BannerImage" xml:space="preserve">
+    <value>Banierbeeld</value>
+  </data>
+  <data name="EmailTemplateName" xml:space="preserve">
+    <value>E-posjabloonnaam</value>
+  </data>
+  <data name="ListingDeletion" xml:space="preserve">
+    <value>Lys van data skoonmaak</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Geen resultate</value>
+  </data>
+  <data name="OldListingDeletion" xml:space="preserve">
+    <value>Opruim / verwyder verwerking</value>
+  </data>
+  <data name="PageName_Help" xml:space="preserve">
+    <value>Inhoudnaam mag slegs alfanumerieke karakters, streepies en onderstreepings bevat.</value>
+  </data>
+  <data name="QuickAccessMenu" xml:space="preserve">
+    <value>Vinnige toegang</value>
+  </data>
+  <data name="SaveContent" xml:space="preserve">
+    <value>Stoor inhoud</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>skedule</value>
+  </data>
+  <data name="AddStates" xml:space="preserve">
+    <value>Voeg state / streke by</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Inhoud</value>
+  </data>
+  <data name="DeleteSelected" xml:space="preserve">
+    <value>Verwyder geselekteerde</value>
+  </data>
+  <data name="IncrementHelp" xml:space="preserve">
+    <value>&lt;p&gt; Biedinvorderings bepaal die &lt;em&gt; minimum &lt;/em&gt; geldige bodbedrag wat 'n gebruiker kan invoer wanneer hy 'n bod op 'n veiling plaas. Huidige prys) + (bodverhoging). &lt;/p&gt; &lt;p&gt; Stygings word toegepas op elke 'prysvlak' tot op die volgende gedefinieerde 'prysvlak'. &lt;/p&gt;</value>
+  </data>
+  <data name="SaveAuctionSettings" xml:space="preserve">
+    <value>Stoor veilingkonfigurasie</value>
+  </data>
+  <data name="SaveBidIncrements" xml:space="preserve">
+    <value>Stoor bodverhogings</value>
+  </data>
+  <data name="SaveTemplate" xml:space="preserve">
+    <value>Stoor sjabloon</value>
+  </data>
+  <data name="SelectCultureToEdit" xml:space="preserve">
+    <value>Kies Kultuur om te wysig</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Sjabloon</value>
+  </data>
+  <data name="AddShippingService_Help" xml:space="preserve">
+    <value>As u op 'n skakel hieronder klik, word ekstra versendingsopsies vir daardie verskaffer bygevoeg.</value>
+  </data>
+  <data name="AvailableShippingMethods" xml:space="preserve">
+    <value>Afleweringsdienste geaktiveer</value>
+  </data>
+  <data name="FullList" xml:space="preserve">
+    <value>Volledige lys</value>
+  </data>
+  <data name="NewShippingService" xml:space="preserve">
+    <value>Nuwe afleweringsdiens</value>
+  </data>
+  <data name="SaveShippingMethods" xml:space="preserve">
+    <value>Stoor afleweringsmetodes</value>
+  </data>
+  <data name="SaveShippingOptions" xml:space="preserve">
+    <value>Stoor afleweringsopsies</value>
+  </data>
+  <data name="SaveShippingServices" xml:space="preserve">
+    <value>Stoor afleweringsdienste</value>
+  </data>
+  <data name="ShowFilterOptions" xml:space="preserve">
+    <value>Wys filters</value>
+  </data>
+  <data name="AddOption" xml:space="preserve">
+    <value>Voeg opsie by</value>
+  </data>
+  <data name="CharactersLeft" xml:space="preserve">
+    <value>karakters oor</value>
+  </data>
+  <data name="CurrentOptions" xml:space="preserve">
+    <value>Huidige opsies</value>
+  </data>
+  <data name="AccountStatus" xml:space="preserve">
+    <value>Rekeningstatus</value>
+  </data>
+  <data name="FeePercent" xml:space="preserve">
+    <value>Fooi persentasie</value>
+  </data>
+  <data name="CreateCustomField" xml:space="preserve">
+    <value>Skep veld</value>
+  </data>
+  <data name="Last4" xml:space="preserve">
+    <value>Laaste 4 #</value>
+  </data>
+  <data name="BOTTOM" xml:space="preserve">
+    <value>Onderkant</value>
+  </data>
+  <data name="DomesticDHLOptions" xml:space="preserve">
+    <value>Binnelandse DHL-opsies</value>
+  </data>
+  <data name="DomesticFedexOptions" xml:space="preserve">
+    <value>Binnelandse Fedex-opsies</value>
+  </data>
+  <data name="DomesticUPSOptions" xml:space="preserve">
+    <value>Binnelandse UPS-opsies</value>
+  </data>
+  <data name="DomesticUSPSOptions" xml:space="preserve">
+    <value>Binnelandse USPS-opsies</value>
+  </data>
+  <data name="InternationalDHLOptions" xml:space="preserve">
+    <value>Internasionale DHL-opsies</value>
+  </data>
+  <data name="InternationalFedexOptions" xml:space="preserve">
+    <value>Internasionale Fedex-opsies</value>
+  </data>
+  <data name="InternationalUPSOptions" xml:space="preserve">
+    <value>Internasionale UPS-opsies</value>
+  </data>
+  <data name="InternationalUSPSOptions" xml:space="preserve">
+    <value>Internasionale USPS-opsies</value>
+  </data>
+  <data name="LEFT" xml:space="preserve">
+    <value>links</value>
+  </data>
+  <data name="NoBannersDisplay" xml:space="preserve">
+    <value>Geen baniere om te vertoon nie</value>
+  </data>
+  <data name="SaveDisplayOptions" xml:space="preserve">
+    <value>Stoor vertoonopsies</value>
+  </data>
+  <data name="TOP" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="FeeStatus" xml:space="preserve">
+    <value>Fooi status:</value>
+  </data>
+  <data name="OopsGoBack" xml:space="preserve">
+    <value>Oeps, gaan terug</value>
+  </data>
+  <data name="YesUndoChanges" xml:space="preserve">
+    <value>Ja, ongedaan maak wysigings</value>
+  </data>
+  <data name="ChangeAddress" xml:space="preserve">
+    <value>Verander adres</value>
+  </data>
+  <data name="SaleInvoice" xml:space="preserve">
+    <value>Verkoopfaktuur</value>
+  </data>
+  <data name="ResetSignalR" xml:space="preserve">
+    <value>Stel sein weer terug</value>
+  </data>
+  <data name="ResetSignalRSuccess" xml:space="preserve">
+    <value>SignalR-gesprekke is suksesvol herstel</value>
+  </data>
+  <data name="ResetSignalR_Help" xml:space="preserve">
+    <value>Beëindig alle SQL Service Broker-gesprekke en herinitialiseer die GetCurrentTime Timer Service</value>
+  </data>
+  <data name="LastLineitemRemovedInvoiceDeleted" xml:space="preserve">
+    <value>Laaste reëlitem verwyder: faktuur suksesvol uitgevee.</value>
+  </data>
+  <data name="CopySiteFeesStripeCredentialsFailure" xml:space="preserve">
+    <value>Kopieregbewyse van kopie-werf misluk</value>
+  </data>
+  <data name="CopySiteFeesStripeCredentialsSuccess" xml:space="preserve">
+    <value>Gekopieerde referaatstrokies vir die werfstrook vir gebruik met verkoopsbetalings vir hierdie gebruiker</value>
+  </data>
+  <data name="DisconnectSiteFeesStripeCredentialsFailure" xml:space="preserve">
+    <value>Ontkoppel van streepbewyse van werf het misluk</value>
+  </data>
+  <data name="DisconnectSiteFeesStripeCredentialsSuccess" xml:space="preserve">
+    <value>Streepsertifikate is uitgevee</value>
+  </data>
+  <data name="UseSiteFeeStripeAccount" xml:space="preserve">
+    <value>Gebruik webwerfstreepbewyse</value>
+  </data>
+  <data name="toggleNo" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="toggleYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="fontSizeCharacter" xml:space="preserve">
+    <value>A</value>
+    <comment>text character applied to the font size buttons within the admin control panel reports</comment>
+  </data>
+  <data name="SystemCheck" xml:space="preserve">
+    <value>Stelselkontrole</value>
+  </data>
+  <data name="CMSContent" xml:space="preserve">
+    <value>Pasgemaakte inhoudbladsye</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Skep gebruikersrekening</value>
+  </data>
+  <data name="CSVImport" xml:space="preserve">
+    <value>CSV-invoer</value>
+  </data>
+  <data name="EmailTemplates" xml:space="preserve">
+    <value>E-possjablone</value>
+  </data>
+  <data name="ManageBanners" xml:space="preserve">
+    <value>Bestuur baniere</value>
+  </data>
+  <data name="PaidFees" xml:space="preserve">
+    <value>Betaalde fooi fakture</value>
+  </data>
+  <data name="UnpaidFees" xml:space="preserve">
+    <value>Onbetaalde werfgelde</value>
+  </data>
+  <data name="IncludeInSalesReport" xml:space="preserve">
+    <value>Sluit in verkoopsverslae in</value>
+  </data>
+  <data name="IncludeInSalesReport_Help" xml:space="preserve">
+    <value>As dit gemerk is, sal hierdie pasgemaakte veld as 'n kolom in die verkoop van CSV-uitvoere vir verkope ingesluit word. &lt;br&gt; OPMERKING: Hierdie veld sal slegs opgeneem word in die "My Account" -verslagverslag-CSV-uitvoer as sigbaarheid ook op "Eienaar" of verlaag.</value>
+  </data>
+  <data name="ContentArea" xml:space="preserve">
+    <value>Inhoudsarea</value>
+  </data>
+  <data name="DefaultEventBidIncrements" xml:space="preserve">
+    <value>Standaard verhogings vir geleentheidgebeurtenisse</value>
+  </data>
+  <data name="IncludeInSalesReportAsBuyer" xml:space="preserve">
+    <value>Sluit in verkoopsverslae (koper)</value>
+  </data>
+  <data name="IncludeInSalesReportAsBuyer_Help" xml:space="preserve">
+    <value>As dit gemerk is, sal hierdie pasgemaakte veld ingesluit word as die koper van 'n transaksie in CSV-uitvoer vir verkope-transaksieverslag. &lt;br&gt; OPMERKING: Hierdie veld sal slegs opgeneem word in die verkoopsverslag-CSV-uitvoerverslag van my rekening as sigbaarheid ook op " Eienaar "of laer.</value>
+  </data>
+  <data name="IncludeInSalesReportAsSeller" xml:space="preserve">
+    <value>Sluit in verkoopsverslae (verkoper) in</value>
+  </data>
+  <data name="IncludeInSalesReportAsSeller_Help" xml:space="preserve">
+    <value>As dit gemerk is, sal hierdie aangepaste veld as die verkoper van 'n transaksie in die CSV-uitvoer van verkope-transaksieverslag opgeneem word. &lt;br&gt; OPMERKING: Hierdie veld sal nie in die verkoopsverslag "My rekening" opgeneem word nie.</value>
+  </data>
+  <data name="IncludeOnInvoiceAsBuyer" xml:space="preserve">
+    <value>Sluit op faktuur (koper) in</value>
+  </data>
+  <data name="IncludeOnInvoiceAsBuyer_Help" xml:space="preserve">
+    <value>As dit gemerk is, sal hierdie pasgemaakte veld ingesluit word met ander koperinligting oor verkoopsfakture.</value>
+  </data>
+  <data name="IncludeOnInvoiceAsSeller" xml:space="preserve">
+    <value>Sluit faktuur in (verkoper)</value>
+  </data>
+  <data name="IncludeOnInvoiceAsSeller_Help" xml:space="preserve">
+    <value>As dit gemerk is, sal hierdie pasgemaakte veld ingesluit word met ander verkoperinligting op verkoopsfakture.</value>
+  </data>
+  <data name="EmailTemplatesSuccessfullyReset" xml:space="preserve">
+    <value>Alle e-possjablone is suksesvol teruggestel op standaardwaardes</value>
+  </data>
+  <data name="ResetEmailTemplates" xml:space="preserve">
+    <value>Stel e-possjablone terug</value>
+  </data>
+  <data name="ResetEmailTemplatesWarning" xml:space="preserve">
+    <value>U is op die punt om alle e-possjablone vir alle kulture terug te stel. Opmerking: dit beïnvloed nie die 'E-poskop-' of 'E-posvoettekensjablone' nie.</value>
+  </data>
+  <data name="ResetEmailTemplatesWarning_Title" xml:space="preserve">
+    <value>Bevestiging van e-possjablone terugstel</value>
+  </data>
+  <data name="ResetEmailTemplates_Help" xml:space="preserve">
+    <value>Vee alle e-possjablooninhoud vir alle kulture uit en herstel die standaard onderwerp en liggaam vir elkeen</value>
+  </data>
+  <data name="EventAdminSummaryCountActiveListings" xml:space="preserve">
+    <value>Aktiewe baie</value>
+  </data>
+  <data name="EventAdminSummaryCountAllListings" xml:space="preserve">
+    <value>Totale aantal</value>
+  </data>
+  <data name="EventAdminSummaryCountListingsWithTransactions" xml:space="preserve">
+    <value>Baie met bod / aankope</value>
+  </data>
+  <data name="EventAdminSummaryCountRecentlySignedInUsers" xml:space="preserve">
+    <value>Gebruikers is onlangs aangemeld</value>
+  </data>
+  <data name="EventAdminSummaryCountRegisteredUsers" xml:space="preserve">
+    <value>Geregistreerde gebruikers</value>
+  </data>
+  <data name="template_CounterOfferAccepted_Seller" xml:space="preserve">
+    <value>Teenaanbod aanvaar</value>
+  </data>
+  <data name="template_CounterOfferAccepted_Seller_Help" xml:space="preserve">
+    <value>Stel die outeur in kennis dat dit aanvaar is</value>
+  </data>
+  <data name="template_CounterOfferAccepted_Seller_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_CounterOfferConfirmation_Seller" xml:space="preserve">
+    <value>Teenoffer bevestiging</value>
+  </data>
+  <data name="template_CounterOfferConfirmation_Seller_Help" xml:space="preserve">
+    <value>Stel die outeur daarvan in kennis dat dit gestuur is</value>
+  </data>
+  <data name="template_CounterOfferConfirmation_Seller_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_CounterOfferReceived_Buyer" xml:space="preserve">
+    <value>Teenoffer ontvang</value>
+  </data>
+  <data name="template_CounterOfferReceived_Buyer_Help" xml:space="preserve">
+    <value>Stel 'n gebruiker in kennis dat hulle 'n teenoffer ontvang het</value>
+  </data>
+  <data name="template_CounterOfferReceived_Buyer_ToWhom" xml:space="preserve">
+    <value>gebruiker</value>
+  </data>
+  <data name="template_CounterOfferRejected_Seller" xml:space="preserve">
+    <value>Teenaanbod verwerp</value>
+  </data>
+  <data name="template_CounterOfferRejected_Seller_Help" xml:space="preserve">
+    <value>Stel die outeur daarvan in kennis dat dit geweier is</value>
+  </data>
+  <data name="template_CounterOfferRejected_Seller_ToWhom" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="template_OfferAccepted_Buyer" xml:space="preserve">
+    <value>Aanbod aanvaar</value>
+  </data>
+  <data name="template_OfferAccepted_Buyer_Help" xml:space="preserve">
+    <value>Stel die koper in kennis dat hul aanbod aanvaar is</value>
+  </data>
+  <data name="template_OfferAccepted_Buyer_ToWhom" xml:space="preserve">
+    <value>Koper</value>
+  </data>
+  <data name="template_OfferConfirmation_Buyer" xml:space="preserve">
+    <value>Bevestiging van aanbiedinge</value>
+  </data>
+  <data name="template_OfferConfirmation_Buyer_Help" xml:space="preserve">
+    <value>Stel die koper in kennis dat hul aanbod gestuur is</value>
+  </data>
+  <data name="template_OfferConfirmation_Buyer_ToWhom" xml:space="preserve">
+    <value>koper</value>
+  </data>
+  <data name="template_OfferReceived_Seller" xml:space="preserve">
+    <value>Aanbod ontvang</value>
+  </data>
+  <data name="template_OfferReceived_Seller_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat hulle 'n aanbod ontvang het</value>
+  </data>
+  <data name="template_OfferReceived_Seller_ToWhom" xml:space="preserve">
+    <value>verkoper</value>
+  </data>
+  <data name="template_OfferRejected_Buyer" xml:space="preserve">
+    <value>Aanbod verwerp</value>
+  </data>
+  <data name="template_OfferRejected_Buyer_Help" xml:space="preserve">
+    <value>Stel koper in kennis dat hul aanbod van die hand gewys is</value>
+  </data>
+  <data name="template_OfferRejected_Buyer_ToWhom" xml:space="preserve">
+    <value>koper</value>
+  </data>
+  <data name="OnlineHelpAndDocs" xml:space="preserve">
+    <value>Aanlynhulp en administrasiedokumente</value>
+  </data>
+  <data name="ClearCacheSuccess" xml:space="preserve">
+    <value>Gekaste data is suksesvol skoongemaak</value>
+  </data>
+  <data name="template_RequestPublishEvent" xml:space="preserve">
+    <value>Versoek publiseergeleentheid</value>
+  </data>
+  <data name="template_RequestPublishEvent_Help" xml:space="preserve">
+    <value>Stel die administrateur in kennis dat die geleentheid van 'n verkoper gereed is om te publiseer</value>
+  </data>
+  <data name="template_RequestPublishEvent_ToWhom" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="AuthNetEnabled_CredentialsNeeded" xml:space="preserve">
+    <value>Authorize.Net is suksesvol aangeskakel. Voer onderstaande waardes in.</value>
+  </data>
+  <data name="StripeEnabled_CredentialsNeeded" xml:space="preserve">
+    <value>Streep is suksesvol aangeskakel. Voer onderstaande waardes in.</value>
+  </data>
+  <data name="BuyerID" xml:space="preserve">
+    <value>Koper-ID</value>
+  </data>
+  <data name="ImportFeedbacks" xml:space="preserve">
+    <value>Voer terugvoer in</value>
+  </data>
+  <data name="ImportFeedbacksMainBlurb" xml:space="preserve">
+    <value>Gebruik hierdie vorm om rwAuction Pro v7.0-terugvoer uit die databasis wat in web.config gespesifiseer is, in te voer. &lt;br&gt;
+&lt;br&gt;
+Opmerking 1: u moet gebruikers invoer voordat terugvoer ingevoer kan word. &lt;br&gt;
+Opmerking 2: die gebruik van hierdie funksie meer as een keer sal duplikaatterugvoer invoer. &lt;br&gt;
+&lt;br&gt;
+Klik op "Terugvoer invoer" om voort te gaan ...</value>
+  </data>
+  <data name="LineageString_ImportFeedbacks" xml:space="preserve">
+    <value>Gebruikers&gt; Voer terugvoer in</value>
+  </data>
+  <data name="FeedbacksAdded" xml:space="preserve">
+    <value>Rekords bygevoeg</value>
+  </data>
+  <data name="FeedbacksFound" xml:space="preserve">
+    <value>Rekords gevind</value>
+  </data>
+  <data name="FeedbacksSkipped" xml:space="preserve">
+    <value>Rekords oorgeslaan</value>
+  </data>
+  <data name="LineageString_EventActivityReport" xml:space="preserve">
+    <value>Verslae&gt; Aktiwiteitsaktiwiteit</value>
+  </data>
+  <data name="ClickAnyEventToSelect" xml:space="preserve">
+    <value>Klik op 'n gebeurtenis om te kies ...</value>
+  </data>
+  <data name="EventActivity_X_csv" xml:space="preserve">
+    <value>EventActivity_ {0} CSV</value>
+    <comment>{0} is an Event ID or "All"</comment>
+  </data>
+  <data name="SelectEventFromList" xml:space="preserve">
+    <value>Kies 'n gebeurtenis uit die lys</value>
+  </data>
+  <data name="template_InvoicePaid_Buyer" xml:space="preserve">
+    <value>Verkoopfaktuur betaal</value>
+  </data>
+  <data name="template_InvoicePaid_Buyer_Help" xml:space="preserve">
+    <value>Stel die koper in kennis dat die betaling vir die gespesifiseerde faktuur ontvang is</value>
+  </data>
+  <data name="template_InvoicePaid_Buyer_ToWhom" xml:space="preserve">
+    <value>koper</value>
+  </data>
+  <data name="ActivityReportFinalStatus_NoBids" xml:space="preserve">
+    <value>Onverkoop - geen bod nie</value>
+  </data>
+  <data name="ActivityReportFinalStatus_Successful" xml:space="preserve">
+    <value>verkoop</value>
+  </data>
+  <data name="ActivityReportFinalStatus_Unsuccessful" xml:space="preserve">
+    <value>Nie verkoop nie - reserwe nie nagekom nie</value>
+  </data>
+  <data name="template_InvoicePaid_Seller" xml:space="preserve">
+    <value>Verkoopfaktuur betaal</value>
+  </data>
+  <data name="template_InvoicePaid_Seller_Help" xml:space="preserve">
+    <value>Stel die verkoper in kennis dat betaling vir die gespesifiseerde faktuur ontvang is</value>
+  </data>
+  <data name="template_InvoicePaid_Seller_ToWhom" xml:space="preserve">
+    <value>Verkoper</value>
+  </data>
+  <data name="Last2Days" xml:space="preserve">
+    <value>Laaste 2 dae</value>
+  </data>
+  <data name="Last2Hours" xml:space="preserve">
+    <value>Die laaste 2 uur</value>
+  </data>
+  <data name="Last30Days" xml:space="preserve">
+    <value>Laaste 30 dae</value>
+  </data>
+  <data name="Last7Days" xml:space="preserve">
+    <value>Laaste 7 dae</value>
+  </data>
+  <data name="NowShowing" xml:space="preserve">
+    <value>Vertoon nou: {0}</value>
+    <comment>{0} is a date range string</comment>
+  </data>
+  <data name="ShowHideConfguration" xml:space="preserve">
+    <value>confguration</value>
+  </data>
+  <data name="ShowHideDateTimeFilters" xml:space="preserve">
+    <value>datumreeksfilters</value>
+  </data>
+  <data name="ShowHideHistogram" xml:space="preserve">
+    <value>histogram</value>
+  </data>
+  <data name="UseThisDateRange" xml:space="preserve">
+    <value>Bekyk inskrywings in hierdie datumreeks</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Foute</value>
+  </data>
+  <data name="Warnings" xml:space="preserve">
+    <value>Waarskuwings</value>
+  </data>
+  <data name="ArchivedEventDataCleanup" xml:space="preserve">
+    <value>Gearchiveerde geleentheidsopruiming</value>
+  </data>
+  <data name="DataCleanup_DeleteArchivedEvents_Help" xml:space="preserve">
+    <value>As aangeskakel: Gearchiveerde gebeure en gepaardgaande lotte ouer as die gespesifiseerde aantal dae, sal outomaties van die stelsel verwyder word.</value>
+  </data>
+  <data name="DeleteArchivedEventsNow_Help" xml:space="preserve">
+    <value>Vee argiefgebeurtenisse en geassosieerde lotte en beelde ouer as {0} dae permanent aan</value>
+  </data>
+  <data name="DeleteEventsClosedMoreThan" xml:space="preserve">
+    <value>Skrap gebeure / lyste wat meer as gesluit is</value>
+  </data>
+  <data name="DeleteEventsNow" xml:space="preserve">
+    <value>Vee nou argiefgebeurtenisse uit</value>
+  </data>
+  <data name="DeleteEventsWarning_Line1" xml:space="preserve">
+    <value>U is op die punt om alle geargiveerde gebeure ouer as {0} dae te verwyder.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line1_Auto" xml:space="preserve">
+    <value>U staan ​​op die punt om argiefgebeurtenisse wat ouer as {0} dae ouer as {1} is, outomaties te verwyder.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line1_IncludingSuccessful" xml:space="preserve">
+    <value>U staan ​​op die punt om alle geargiveerde gebeure ouer as {0} dae te verwyder, insluitend alle geassosieerde lotte.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line2" xml:space="preserve">
+    <value>Hierdie handeling kan nie ongedaan gemaak word nie.</value>
+  </data>
+  <data name="DeleteEventsWarning_Line3" xml:space="preserve">
+    <value>Dit sal alle ou argiefgebeurtenisse, insluitend bod- en lotdata, permanent uit die databasis verwyder en die gepaardgaande gebeurtenis en lotbeelde permanent verwyder. Hierdie gebeure en lotte sal nie meer in enige lyste verskyn nie en is nie beskikbaar om te bekyk of weer te lys nie.</value>
+  </data>
+  <data name="EventDeletionConfirmation_Title" xml:space="preserve">
+    <value>Bevestiging van uitgeveerde gebeurtenis</value>
+  </data>
+  <data name="IncludeDraftListings" xml:space="preserve">
+    <value>Sluit konsepnoteringsdata in</value>
+  </data>
+  <data name="IncludeDraftListingsAndLots" xml:space="preserve">
+    <value>Sluit konseplys / lotdata in</value>
+  </data>
+  <data name="IncludeSuccessfulLots" xml:space="preserve">
+    <value>Sluit suksesvolle notering / baie data in</value>
+  </data>
+  <data name="ProcessSalePayments" xml:space="preserve">
+    <value>Verwerk betalings</value>
+  </data>
+  <data name="ProcessSalePayments_Help" xml:space="preserve">
+    <value>As u op hierdie knoppie klik, sal u die kaart wat op die lêer lê, betaal vir alle betaalbare verkoopsfakture.</value>
+  </data>
+  <data name="SalesPreferencesFailure" xml:space="preserve">
+    <value>Opdatering van verkoopopsies is misluk</value>
+  </data>
+  <data name="SalesPreferencesSuccess" xml:space="preserve">
+    <value>Opsies vir verkoopbetalings suksesvol opgedateer</value>
+  </data>
+  <data name="Admin_FirstName" xml:space="preserve">
+    <value>Admin Voornaam</value>
+  </data>
+  <data name="Admin_LastName" xml:space="preserve">
+    <value>Admin Van</value>
+  </data>
+  <data name="Homepage" xml:space="preserve">
+    <value>Tuisblad</value>
+  </data>
+  <data name="SelectedCategories" xml:space="preserve">
+    <value>Geselekteerde kategorieë</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Hulpbronne</value>
+  </data>
+    <data name="PostFee" xml:space="preserve">
+    <value>Posgeld</value>
+  </data>
+  <data name="SellerFinalFee" xml:space="preserve">
+    <value>Finale fooi van die verkoper</value>
+  </data>
+  <data name="BuyerFinalFee" xml:space="preserve">
+    <value>Koper se finale fooi</value>
+  </data>
+  <data name="HomepageFeatured" xml:space="preserve">
+    <value>Tuisblad verskyn</value>
+  </data>
+  <data name="BoldListingTitle" xml:space="preserve">
+    <value>Gewaagde lystitel</value>
+  </data>
+  <data name="ListingBadge" xml:space="preserve">
+    <value>Notering kenteken</value>
+  </data>
+  <data name="HighlightedListingTitle" xml:space="preserve">
+    <value>Beklemtoonde lystitel</value>
+  </data>
+  <data name="ListingSubtitle" xml:space="preserve">
+    <value>Listing subtitel</value>
+  </data>
+  <data name="FirstImageFee" xml:space="preserve">
+    <value>Eerste Beeldfooi</value>
+  </data>
+  <data name="EachAdditionalImageFee" xml:space="preserve">
+    <value>Elke addisionele beeldfooi</value>
+  </data>
+  <data name="Good'tilCanceled" xml:space="preserve">
+    <value>Goed tot gekanselleer</value>
+  </data>
+   <data name="Anonymous" xml:space="preserve">
+    <value>Anoniem</value>
+  </data>
+   <data name="Owner" xml:space="preserve">
+    <value>Eienaar</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Kies lêer</value>
+  </data>
+  <data name="NoFileChosen" xml:space="preserve">
+    <value>Geen lêer gekies nie</value>
+  </data>
+   <data name="Anonymous" xml:space="preserve">
+    <value>Anoniem</value>
+  </data>
+   <data name="Owner" xml:space="preserve">
+    <value>Eienaar</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Kies lêer</value>
+  </data>
+  <data name="NoFileChosen" xml:space="preserve">
+    <value>Geen lêer gekies nie</value>
+  </data>
+
+  <data name="LicenseInformation" xml:space="preserve">
+    <value>Lisensie-inligting</value>
+  </data>
+    <data name="LicenseisValid" xml:space="preserve">
+    <value>Lisensie is geldig</value>
+  </data>
+  <data name="Edition" xml:space="preserve">
+    <value>uitgawe</value>
+  </data>
+    <data name="LicenseKey" xml:space="preserve">
+    <value>Lisensie sleutel</value>
+  </data> 
+  <data name="InstalledEdition" xml:space="preserve">
+    <value>Geïnstalleerde uitgawe</value>
+  </data>
+   <data name="SystemSecondDifference" xml:space="preserve">
+    <value>Stelsel tweede verskil</value>
+  </data>
+  <data name="Serial" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+<data name="LicenseisInvalid" xml:space="preserve">
+    <value>Lisensie is ongeldig</value>
+  </data>
+<data name="ComponentTimes" xml:space="preserve">
+    <value>Komponenttye</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Gebied</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Soek</value>
+  </data>
+  <data name="LineageString_CreateBooking" xml:space="preserve">
+    <value>Skep &amp;gt; bespreking</value>
+  </data>
+  <data name="CreateShipmentBooking" xml:space="preserve">
+    <value>Skep besendingbespreking</value>
+  </data>
+  <data name="SellerInformation" xml:space="preserve">
+    <value>Verkoper sinligting</value>
+  </data>
+  <data name="SellerName" xml:space="preserve">
+    <value>Verkoper Naam</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>maatskappy naam</value>
+  </data>
+  <data name="SellerAddressLine1" xml:space="preserve">
+    <value>Verkoper adres lyn1</value>
+  </data>
+  <data name="SellerAddressLine2" xml:space="preserve">
+    <value>Verkoper adres lyn2</value>
+  </data>
+  <data name="SellerCity" xml:space="preserve">
+    <value>Verkoper City</value>
+  </data>
+  <data name="SellerPostalCode" xml:space="preserve">
+    <value>Verkoper Poskode</value>
+  </data>
+  <data name="SellerPersonName" xml:space="preserve">
+    <value>Verkoper Persoon naam</value>
+  </data>
+  <data name="SellerContactNumber" xml:space="preserve">
+    <value>Verkoper se kontak nommer</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>Kliënt naam</value>
+  </data>
+  <data name="CustomerAddressLine1" xml:space="preserve">
+    <value>Klant adres lyn1</value>
+  </data>
+  <data name="CustomerAddressLine2" xml:space="preserve">
+    <value>Klant adres lyn2</value>
+  </data>
+  <data name="CustomerCity" xml:space="preserve">
+    <value>Kliëntstad</value>
+  </data>
+  <data name="CustomerPostalCode" xml:space="preserve">
+    <value>Klant se poskode</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="CustomerPersonName" xml:space="preserve">
+    <value>Klant persoon naam</value>
+  </data>
+  <data name="CustomerPhoneNumber" xml:space="preserve">
+    <value>Klant Telefoon nommer</value>
+  </data>
+  <data name="ShipmentDescription" xml:space="preserve">
+    <value>Versendingbeskrywing</value>
+  </data>
+  <data name="ShipmentDetail" xml:space="preserve">
+    <value>Versending besonderhede</value>
+  </data>
+  <data name="WeightUnit" xml:space="preserve">
+    <value>Gewigseenheid</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Gewig</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>diepte</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Dimensie</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Indien</value>
+  </data>
+  <data name="SellerPersonName " xml:space="preserve">
+    <value>Verkoper Persoonnaam</value>
+  </data>
+  <data name="ShipmentControlPanel" xml:space="preserve">
+    <value>Versending Beheer paneel</value>
+  </data>
+  <data name="Shipment" xml:space="preserve">
+    <value>Versending</value>
+  </data>
+  <data name="ShowShipmentBooking" xml:space="preserve">
+    <value>Wys besendingsbespreking</value>
+  </data>
+	<data name="ShowShipmentBookings" xml:space="preserve">
+    <value>Wys Wys besendingsbesprekings</value>
+  </data>
+	<data name="CustomerInformation" xml:space="preserve">
+    <value>klient besonderhede</value>
+  </data>
+	<data name="ItemNumber" xml:space="preserve">
+    <value>Item nommer</value>
+  </data>
+	<data name="Pound" xml:space="preserve">
+    <value>Pond</value>
+  </data>
+	<data name="Kilogram" xml:space="preserve">
+    <value>Kilogram</value>
+  </data>
+	<data name="Inch" xml:space="preserve">
+    <value>Duim</value>
+  </data>
+	<data name="Centimeter" xml:space="preserve">
+    <value>Sentimeter</value>
+  </data>
+	<data name="Pleaseentervaliditemcode" xml:space="preserve">
+    <value>Voer die geldige artikelkode in</value>
+  </data>
+</root>

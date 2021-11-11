@@ -366,18 +366,18 @@
     $(window).on("load", function () {
         updateGoogleCaptchaLanguage($('#culture option:selected').val());
     });
-
-
+    
+    
 
     function updateGoogleCaptchaLanguage(selectedLanguage) {
         // Get GoogleCaptcha iframe
         var iframeGoogleCaptcha = $('.g-recaptcha').find('iframe');
         // Get language code from iframe
         var language = iframeGoogleCaptcha.attr("src").match(/hl=(.*?)&/).pop();
-
+        
         // Check if language code of element is not equal by selected language, we need to set new language code
         if (language !== selectedLanguage) {
-            // For setting new language
+            // For setting new language 
             iframeGoogleCaptcha.attr("src", iframeGoogleCaptcha.attr("src").replace(/hl=(.*?)&/, 'hl=' + selectedLanguage + '&'));
         }
     }

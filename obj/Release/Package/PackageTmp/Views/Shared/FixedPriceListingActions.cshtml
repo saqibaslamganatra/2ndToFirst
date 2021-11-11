@@ -1,0 +1,102 @@
+﻿@model Page<ListingAction>
+@{
+    var currentAction = (string)ViewContext.RouteData.Values["action"];
+    int colCount = 2;
+    string returnUrl = Request.Url.PathAndQuery;
+}
+<table class="table table-condensed">
+    <tr>
+        <th>@Html.GlobalResource("ActionDTTM")</th>
+        @{ bool isAdmin = false; }
+        @if (Context.User.Identity.IsAuthenticated)
+        {
+            isAdmin = User.IsInRole("Admin");
+        }
+
+        @{ var showUserNames = bool.Parse(SiteClient.Settings["ShowBidHistoryUserNames"]); }
+        @if (showUserNames)
+        {
+            colCount += 1;
+            <th>@Html.GlobalResource("UserName")</th>
+
+        }
+        <th class="visible-xs">@Html.Resource("FixedPriceListing, Quantity_small")</th>
+        <th class="hidden-xs">@Html.Resource("FixedPriceListing, Quantity")</th>
+        <th class="hidden-xs">@Html.GlobalResource("Amount")</th>
+        @if (isAdmin)
+        {
+            if ((string)ViewContext.RouteData.Values["action"] == "Audit")
+            {
+                colCount += 3;
+                <th class="hidden-xs">@Html.GlobalResource("Description")</th>
+                <th class="hidden-xs">@Html.GlobalResource("Accepted")</th>
+                <th class="hidden-xs">@Html.GlobalResource("RejectedReason")</th>
+            }
+            else
+            {
+                colCount += 1;
+                <th class="hidden-xs">@Html.GlobalResource("Description")</th>
+            }
+        }
+    </tr>
+    @{ string sellerUN = (string)ViewData[Fields.SellerUserName]; }
+    @foreach (ListingAction action in Model.List)
+    {
+        <tr>
+            <td>@Html.LocalDTTM(action.ActionDTTM, "G")</td>
+            @if (showUserNames)
+            {
+                <td>
+                    @if (sellerUN == Html.FBOUserName() && SiteClient.UserMessagingEnabled)
+                    {
+                        @Html.ActionLink(action.UserName, MVC.SendListingMessageAction, MVC.AccountController,
+                                new { receiver = action.UserName, template = Templates.AskBuyerQuestion, listingID = action.ListingID, returnUrl },
+                                new { @title = Html.GlobalResourceString("ContactUser") })
+                    }
+                    else
+                    {
+                        @action.UserName
+                    }
+                    @if (SiteClient.FeedbackEnabled)
+                    {
+                        @Html.Partial("FeedbackRating", action.User)
+                    }
+                </td>
+            }
+            <td>@action.Quantity</td>
+            <td class="hidden-xs">@Html.LocalCurrency(action.Quantity * action.Amount.Value, (string)ViewData["Currency"])</td>
+            @if (isAdmin && action.UserEntered)
+            {
+                <td class="hidden-xs">@action.Description</td>
+                if ((string)ViewContext.RouteData.Values["action"] == "Audit")
+                {
+                    <td class="hidden-xs">
+                        @if (action.Status == "Accepted")
+                        {
+                            <img src="Content/images/General/yes.png" alt="@Html.GlobalResource("Yes")" />
+                        }
+                        else
+                        {
+                            <img src="Content/images/General/no.png" alt="@Html.GlobalResource("No")" />
+                        }
+                    </td>
+                    <td class="hidden-xs">@action.Reason</td>
+                }
+            }
+        </tr>
+    }
+    @if (Model.TotalPageCount > 1)
+    {
+        <tr>
+            <td colspan="8">
+                @{Html.RenderPageNumberLinks(Model);}
+            </td>
+        </tr>
+    }
+</table>
+@if (Model.List.Count() == 0)
+{
+    <p class="no-history">
+        @Html.GlobalResource("NoResultsToDisplay")
+    </p>
+}

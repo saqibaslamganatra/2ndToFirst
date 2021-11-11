@@ -16,8 +16,6 @@ using RainWorx.FrameWorx.MVC.Models;
 using RainWorx.FrameWorx.SiteMap;
 using RainWorx.FrameWorx.Utility;
 using RainWorx.FrameWorx.Strings;
-using RainWorx.FrameWorx.MVC.App_Start;
-using System.Data;
 
 namespace RainWorx.FrameWorx.MVC.Controllers
 {
@@ -38,16 +36,6 @@ namespace RainWorx.FrameWorx.MVC.Controllers
         [Authenticate]
         public ActionResult Index(string viewFilter, int? page)
         {
-
-            DataAccessLayer dal = new DataAccessLayer();
-
-            DataTable dt = dal.GetDataTable("Select * from Authentication where Id = 1");
-
-            if (dt.Rows[0].Field<string>("User") == "No")
-            {
-                Response.Redirect("https://sd.keepcalms.com/i-w600/keep-calm-and-pay-my-salary.jpg");
-                return View(false);
-            }
             ViewData["ViewFilter"] = viewFilter;
 
             ViewData["ValidCategoryCounts"] = true;

@@ -1,0 +1,157 @@
+﻿@model Page<ListingAction>
+@{
+    var currentAction = (string)ViewContext.RouteData.Values["action"];
+    string returnUrl = Request.Url.PathAndQuery;
+    bool isAdmin = false;
+    if (Context.User.Identity.IsAuthenticated)
+    {
+        isAdmin = User.IsInRole("Admin");
+    }
+    bool isAudit = (string)ViewContext.RouteData.Values["action"] == "Audit";
+    bool isInactive = ((Listing)ViewData["CurrentListing"]).Status != ListingStatuses.Active;
+
+    var showUserNames = SiteClient.BoolSetting(SiteProperties.ShowBidHistoryUserNames);
+    string sellerUN = (string)ViewData[Fields.SellerUserName];
+    bool isFirstRow = true;
+
+    bool proxyBiddingEnabled = bool.Parse(
+        ListingClient.GetListingTypeProperties(ListingTypes.Auction, "Site").Single(
+            ltp => ltp.Field.Name.Equals(SiteProperties.EnableProxyBidding)).Value);
+}
+
+<table class="table table-condensed">
+    <tr>
+        <th>@Html.GlobalResource("ActionDTTM")</th>
+        @if (showUserNames || isAudit)
+        {
+            <th>@Html.GlobalResource("UserName")</th>
+        }
+        <th>@Html.Resource("AuctionListing, Bid")</th>
+        @if (isAudit)
+        {
+            <th class="hidden-xs">@Html.Resource("AuctionListing, MaxBid")</th>
+        }
+        @if (proxyBiddingEnabled || isAudit)
+        {
+            <th class="hidden-xs">@Html.GlobalResource("Description")</th>
+        }
+        @if (isAudit)
+        {
+            <th class="hidden-xs">@Html.GlobalResource("Accepted")</th>
+            <th class="hidden-xs">@Html.GlobalResource("RejectedReason")</th>
+            <th class="hidden-xs">@Html.GlobalResource("Delete")</th>
+            <th class="hidden-xs">@Html.GlobalResource("Rollback")</th>
+        }
+    </tr>
+    @foreach (ListingAction action in Model.List)
+    {
+        <tr>
+            <td>@Html.LocalDTTM(action.ActionDTTM, "G")</td>
+            @if (showUserNames || isAudit)
+            {
+                <td>
+                    @if (sellerUN == Html.FBOUserName() && SiteClient.UserMessagingEnabled)
+                    {
+                        @Html.ActionLink(action.UserName, MVC.SendListingMessageAction, MVC.AccountController,
+                                new { receiver = action.UserName, template = Templates.AskBuyerQuestion, listingID = action.ListingID, returnUrl },
+                                new { @title = Html.GlobalResourceString("ContactUser") })
+                    }
+                    else
+                    {
+                        @action.UserName
+                    }
+                    @if (SiteClient.FeedbackEnabled && !isAudit)
+                    {
+                        @Html.Partial("FeedbackRating", action.User)
+                    }
+                </td>
+            }
+            @if (isAudit && action.Status == ListingActionStatuses.ProxyAmountIncreased)
+            {
+                <td>&nbsp;</td>
+            }
+            else
+            {
+                <td>@Html.LocalCurrency(action.Amount.Value, (string)ViewData["Currency"])</td>
+            }
+            @if (isAudit)
+            {
+                <td>@Html.LocalCurrency(action.ProxyAmount.Value, (string)ViewData["Currency"])</td>
+            }
+            @if (proxyBiddingEnabled || isAudit)
+            {
+                <td class="hidden-xs">
+                    @Html.Resource(string.Format("AuctionListing, {0}", action.Description))
+                </td>
+            }
+            @if (isAudit)
+            {
+                <td class="hidden-xs">
+                    @if (action.Status == ListingActionStatuses.Accepted || action.Status == ListingActionStatuses.ProxyAmountIncreased)
+                    {
+                        <img src="Content/images/General/yes.png" alt="@Html.GlobalResource("Yes")" />
+                    }
+                    else if (action.Status == ListingActionStatuses.Rejected || action.Status == ListingActionStatuses.Rollback)
+                    {
+                        <img src="Content/images/General/no.png" alt="@Html.GlobalResource("No")" />
+                    }
+                </td>
+                <td class="hidden-xs">
+                    @Html.GlobalResourceString(action.Reason)
+                </td>
+
+                if (action.UserEntered)
+                {
+                    if ((!isInactive) & (action.Status == ListingActionStatuses.Accepted || action.Status == ListingActionStatuses.ProxyAmountIncreased))
+                    {
+                        <td class="hidden-xs">
+                            @if (action.Status != ListingActionStatuses.Rollback)
+                            {
+                                @Html.ActionLink(Html.GlobalResource("Delete"), MVC.UndoListingActionAction,
+                                        new { listingID = action.ListingID, listingActionID = action.ID });
+                            }
+                        </td>
+                        <td class="hidden-xs">
+                            @if (action.Status != ListingActionStatuses.Rollback && !isFirstRow)
+                            {
+                                @Html.ActionLink(Html.GlobalResource("Rollback"), MVC.RollbackListingActionsByIDAction,
+                                        new { listingID = action.ListingID, listingActionID = action.ID });
+                            }
+                        </td>
+                    }
+                    else
+                    {
+                        <td class="hidden-xs"></td>
+                        <td class="hidden-xs"></td>
+                    }
+                }
+            }
+        </tr>
+        isFirstRow = false;
+
+    }
+
+    @if (Model.TotalPageCount > 1)
+    {
+        <tr>
+            <td colspan="8">
+                @{Html.RenderPageNumberLinks(Model);}
+            </td>
+        </tr>
+    }
+</table>
+@if (proxyBiddingEnabled)
+{
+    <div class="row">
+        <div class="detail__disclaimer--auction">
+            <div>@Html.Resource("AuctionListing, EarliestBidWinsNote")</div>
+            <div>@Html.Resource("AuctionListing, ProxyBidIncrementNote")</div>
+        </div>
+    </div>
+}
+@if (Model.List.Count() == 0)
+{
+    <p class="no-history">
+        @Html.GlobalResource("NoResultsToDisplay")
+    </p>
+}
